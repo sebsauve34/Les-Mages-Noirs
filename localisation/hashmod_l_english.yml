@@ -1036,6 +1036,11 @@
  settle_the_island:0 "Settle the Islands"
  desc_settle_the_island:0 "Colonize the islands fast"
 
+#korean minors
+ fo_korean_city_ideas:0 "Korean City State Ideas"
+ fo_korean_city_ideas_start:0 "Korean City State Traditions"
+ fo_korean_city_ideas_bonus:0 "Korean City State Ambitions"
+
 # Modifiers:
  transcaucasian_wine_valleys: "Transcaucasian Wine Valleys"
  desc_transcaucasian_wine_valleys:0 "The fertile valleys and protective slopes of Transcaucasia have made the region home to grapevine cultivation and wine production for millennia."
@@ -1071,7 +1076,8 @@ PR_events.1.t:0 "Cartography of Africa"
  h_hire_conquistador_desc:0 "The recent discovery of the New World has led to a rush to explore and establish new trade routes. We must ensure we are the first to establish colonies in these new lands. Foreign conquistadors are available to hire to meet this purpose."
  h_hire_explorer_title:0 "Hire A Foreign Explorer"
  h_hire_explorer_desc:0 "The recent discovery of the New World has led to a rush to explore and establish new trade routes. We must ensure we are the first to establish colonies in these new lands. Foreign explorers are available to hire to meet this purpose."
-
+ form_great_yuan_title:0 "Reform Great Yuan"
+ form_great_yuan_desc:0 "The heirs of Kublai Khan once ruled over all Chinese and Mongol lands. Let us rise to reclaim the legacy of the old Yuan and crush the weaker lineages that have attempted to claim the Empire that is our birthright!"
 #AP Stratagems
  divine_stratagem:0 "Divine Stratagem"
  traditional_stratagem:0 "Aristocratic Stratagem"

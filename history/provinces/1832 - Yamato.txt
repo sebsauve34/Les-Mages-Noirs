@@ -1,7 +1,7 @@
 #1832 - Yamato
 
-owner = ASK
-controller = ASK
+owner = TTI
+controller = TTI
 culture = japanese
 religion = shinto
 capital = "Nara"
@@ -11,7 +11,7 @@ base_tax = 4
 base_manpower = 2
 base_production = 3
 is_city = yes
-add_core = ASK
+add_core = TTI
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA

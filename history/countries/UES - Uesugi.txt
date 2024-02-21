@@ -5,12 +5,7 @@ primary_culture = togoku
 religion = shinto
 technology_group = chinese
 capital = 1843	# Kozuke
-historical_rival = DTE
-historical_rival = ASK
-historical_rival = HSK
-historical_rival = HTK
-historical_rival = YMN
-historical_rival = SMZ
+
 add_army_professionalism = 0.1
 1336.1.1 = {
 	monarch = {

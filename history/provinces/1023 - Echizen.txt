@@ -1,7 +1,7 @@
 #1023 - Echizen
 
-owner = ASK
-controller = ASK
+owner = SBA
+controller = SBA
 culture = japanese
 religion = shinto
 capital = "Takefu"
@@ -12,7 +12,7 @@ base_production = 4
 base_manpower = 2
 is_city = yes
 add_core = SBA
-add_core = ASK
+add_core = ASA
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA

@@ -4,10 +4,9 @@ latent_trade_goods = {
 	coal
 }
 
-owner = DTE
-controller = DTE
-add_core = DTE
-add_claim = UES
+owner = ANU
+controller = ANU
+add_core = ANU
 is_city = yes
 culture = ainu
 religion = animism
@@ -61,6 +60,8 @@ discovered_by = TKI
 discovered_by = UTN
 discovered_by = TTI
 discovered_by = ASK
+discovered_by = NVK
+discovered_by = NHX
 
 1640.1.1 = { discovered_by = RUS } # Ivan Moskvitin
 

@@ -13,7 +13,6 @@ base_manpower = 3
 is_city = yes
 add_core = HSK
 add_core = CSK
-add_claim = SMZ
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA

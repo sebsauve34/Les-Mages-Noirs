@@ -5,12 +5,6 @@ primary_culture = togoku
 religion = shinto
 technology_group = chinese
 capital = 1837	# Etchu
-historical_rival = ASK
-historical_rival = DTE
-historical_rival = UES
-historical_rival = YMN
-historical_rival = HSK
-historical_rival = SMZ
 
 1335.1.1 = { 
 	monarch = {

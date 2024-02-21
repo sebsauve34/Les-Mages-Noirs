@@ -85,12 +85,12 @@
 #200
 
 h_merc_d_200_large_1 = {
-	regiments_per_development = 0.06
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cost_modifier = 1
-	min_size = 80
-	max_size = 80
+	min_size = 70
+	max_size = 70
 	trigger = {
 		AND = {
 		full_idea_group = plutocracy_ideas
@@ -102,12 +102,12 @@ h_merc_d_200_large_1 = {
 }
 
 h_merc_p_200_med_2 = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cost_modifier = 1	
-	min_size = 80
-	max_size = 80
+	min_size = 70
+	max_size = 70
 	trigger = {
 		current_age = age_of_revolutions
 	}
@@ -116,7 +116,7 @@ h_merc_p_200_med_2 = {
 }
 
 h_merc_d_200_med_1 = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cost_modifier = 1
@@ -130,7 +130,7 @@ h_merc_d_200_med_1 = {
 }
 
 h_merc_d_200_small_2 = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cost_modifier = 1
@@ -144,7 +144,7 @@ h_merc_d_200_small_2 = {
 }
 
 h_merc_d_200_small_1 = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	min_size = 40
@@ -160,7 +160,7 @@ h_merc_d_200_small_1 = {
 #150
 
 h_merc_d_150_large_1 = {
-	regiments_per_development = 0.07
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cost_modifier = 1
@@ -177,7 +177,7 @@ h_merc_d_150_large_1 = {
 }
 
 h_merc_p_150_med_2 = {
-	regiments_per_development = 0.06
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cost_modifier = 1
@@ -191,7 +191,7 @@ h_merc_p_150_med_2 = {
 }
 
 h_merc_d_150_med_1 = {
-	regiments_per_development = 0.06
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	min_size = 40
@@ -205,7 +205,7 @@ h_merc_d_150_med_1 = {
 }
 
 h_merc_d_150_small_2 = {
-	regiments_per_development = 0.06
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	min_size = 35
@@ -219,7 +219,7 @@ h_merc_d_150_small_2 = {
 }
 
 h_merc_d_150_small_1 = {
-	regiments_per_development = 0.06
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	min_size = 30
@@ -235,7 +235,7 @@ h_merc_d_150_small_1 = {
 #100
 
 h_merc_d_100_large_1 = {
-	regiments_per_development = 0.1
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	min_size = 35
@@ -252,7 +252,7 @@ h_merc_d_100_large_1 = {
 }
 
 h_merc_p_100_med_2 = {
-	regiments_per_development = 0.08
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	min_size = 35
@@ -266,7 +266,7 @@ h_merc_p_100_med_2 = {
 }
 
 h_merc_d_100_med_1 = {
-	regiments_per_development = 0.08
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	min_size = 30
@@ -280,7 +280,7 @@ h_merc_d_100_med_1 = {
 }
 
 h_merc_d_100_small_2 = {
-	regiments_per_development = 0.08
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	min_size = 25
@@ -294,7 +294,7 @@ h_merc_d_100_small_2 = {
 }
 
 h_merc_d_100_small_1 = {
-	regiments_per_development = 0.08
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	min_size = 20
@@ -310,7 +310,7 @@ h_merc_d_100_small_1 = {
 #60
 
 h_merc_d_60_large_1 = {
-	regiments_per_development = 0.15
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cost_modifier = 1
@@ -327,7 +327,7 @@ h_merc_d_60_large_1 = {
 }
 
 h_merc_p_60_med_2 = {
-	regiments_per_development = 0.12
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cost_modifier = 1
@@ -341,7 +341,7 @@ h_merc_p_60_med_2 = {
 }
 
 h_merc_d_60_med_1 = {
-	regiments_per_development = 0.12
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cost_modifier = 1
@@ -355,7 +355,7 @@ h_merc_d_60_med_1 = {
 }
 
 h_merc_d_60_small_2 = {
-	regiments_per_development = 0.12
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cost_modifier = 1
@@ -369,7 +369,7 @@ h_merc_d_60_small_2 = {
 }
 
 h_merc_d_60_small_1 = {
-	regiments_per_development = 0.12
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	min_size = 10
@@ -393,7 +393,7 @@ h_merc_d_60_small_1 = {
 # Artillery
 ###########
 h_merc_artillery_3 = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.5
 	cavalry_cap = 0
@@ -412,7 +412,7 @@ h_merc_artillery_3 = {
 }
 
 h_merc_artillery_2 = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.5
 	cavalry_cap = 0
@@ -431,7 +431,7 @@ h_merc_artillery_2 = {
 }
 
 h_merc_artillery_1 = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.5
 	cavalry_cap = 0
@@ -454,12 +454,12 @@ h_merc_artillery_1 = {
 ###########
 
 h_merc_cavmed_3 = {
-	regiments_per_development = 0.05
-	cavalry_weight = 0.5
+	regiments_per_development = 0.01
+	cavalry_weight = 0.7
 	artillery_weight = 0.0
 	cavalry_cap = 40
-	min_size = 80
-	max_size = 80
+	min_size = 70
+	max_size = 70
 	cost_modifier = 0.5
 	trigger = {
 		OR = {
@@ -472,8 +472,8 @@ h_merc_cavmed_3 = {
 }
 
 h_merc_cavmed_2 = {
-	regiments_per_development = 0.05
-	cavalry_weight = 0.6
+	regiments_per_development = 0.01
+	cavalry_weight = 0.7
 	artillery_weight = 0.0
 	cavalry_cap = 40
 	cost_modifier = 0.5
@@ -491,8 +491,8 @@ h_merc_cavmed_2 = {
 }
 
 h_merc_cavmed_1 = {
-	regiments_per_development = 0.05
-	cavalry_weight = 0.6
+	regiments_per_development = 0.01
+	cavalry_weight = 0.7
 	artillery_weight = 0.0
 	cavalry_cap = 40
 	min_size = 40
@@ -510,8 +510,8 @@ h_merc_cavmed_1 = {
 }
 
 h_merc_cavsmall_3 = {
-	regiments_per_development = 0.06
-	cavalry_weight = 0.6
+	regiments_per_development = 0.01
+	cavalry_weight = 0.7
 	artillery_weight = 0.0
 	cavalry_cap = 40
 	cost_modifier = 0.3
@@ -530,8 +530,8 @@ h_merc_cavsmall_3 = {
 }
 
 h_merc_cavsmall_2 = {
-	regiments_per_development = 0.06
-	cavalry_weight = 0.6
+	regiments_per_development = 0.01
+	cavalry_weight = 0.7
 	artillery_weight = 0.0
 	cavalry_cap = 40
 	min_size = 20
@@ -550,8 +550,8 @@ h_merc_cavsmall_2 = {
 }
 
 h_merc_cavsmall_1 = {
-	regiments_per_development = 0.06
-	cavalry_weight = 0.6
+	regiments_per_development = 0.01
+	cavalry_weight = 0.7
 	artillery_weight = 0.0
 	cavalry_cap = 40
 	cost_modifier = 0.3
@@ -703,7 +703,7 @@ h_merc_cavsmall_1 = {
 ########################################
 
 h_merc_lothair = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -719,7 +719,7 @@ h_merc_lothair = {
 }
 
 h_merc_likedeelers = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -736,7 +736,7 @@ h_merc_likedeelers = {
 }
 
 h_merc_jaegers = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	min_size = 20
@@ -753,7 +753,7 @@ h_merc_jaegers = {
 }
 
 h_merc_landsknecht = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -770,7 +770,7 @@ h_merc_landsknecht = {
 }
 
 h_merc_hessian = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -787,7 +787,7 @@ h_merc_hessian = {
 }
 
 h_merc_teuton = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -804,7 +804,7 @@ h_merc_teuton = {
 }
 
 h_merc_hanseatic = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -821,7 +821,7 @@ h_merc_hanseatic = {
 }
 
 h_merc_ruthenians = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.8
 	artillery_weight = 0.0
 	cavalry_cap = 40
@@ -837,7 +837,7 @@ h_merc_ruthenians = {
 }
 
 h_merc_carolean = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -854,7 +854,7 @@ h_merc_carolean = {
 }
 
 h_merc_cossacks = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.3
 	artillery_weight = 0.0
 	cavalry_cap = 40
@@ -871,7 +871,7 @@ h_merc_cossacks = {
 }
 
 h_merc_hussars = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.8
 	artillery_weight = 0.0
 	cavalry_cap = 40
@@ -888,7 +888,7 @@ h_merc_hussars = {
 }
 
 h_merc_khyber = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -904,7 +904,7 @@ h_merc_khyber = {
 }
 
 h_merc_omani = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -920,7 +920,7 @@ h_merc_omani = {
 }
 
 h_merc_immortals = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -937,7 +937,7 @@ h_merc_immortals = {
 }
 
 h_merc_catalan = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -953,7 +953,7 @@ h_merc_catalan = {
 }
 
 h_merc_almohad = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -970,7 +970,7 @@ h_merc_almohad = {
 }
 
 h_merc_bluehorde = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.8
 	artillery_weight = 0.0
 	cavalry_cap = 40
@@ -987,7 +987,7 @@ h_merc_bluehorde = {
 }
 
 h_merc_timur = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.8
 	artillery_weight = 0.0
 	cavalry_cap = 40
@@ -1004,7 +1004,7 @@ h_merc_timur = {
 }
 
 h_merc_gharbian = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -1020,7 +1020,7 @@ h_merc_gharbian = {
 }
 
 h_merc_lahore = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -1036,7 +1036,7 @@ h_merc_lahore = {
 }
 
 h_merc_deccani = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -1052,7 +1052,7 @@ h_merc_deccani = {
 }
 
 h_merc_sipahi = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -1069,7 +1069,7 @@ h_merc_sipahi = {
 }
 
 h_merc_sikh = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -1086,7 +1086,7 @@ h_merc_sikh = {
 }
 
 h_merc_moro = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -1103,7 +1103,7 @@ h_merc_moro = {
 }
 
 h_merc_angkor = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -1119,7 +1119,7 @@ h_merc_angkor = {
 }
 
 h_merc_pasai = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -1136,7 +1136,7 @@ h_merc_pasai = {
 }
 
 h_merc_xian = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -1153,7 +1153,7 @@ h_merc_xian = {
 }
 
 h_merc_pahlawan = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -1170,7 +1170,7 @@ h_merc_pahlawan = {
 }
 
 h_merc_jianzhou = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.8
 	artillery_weight = 0.0
 	cavalry_cap = 40
@@ -1187,7 +1187,7 @@ h_merc_jianzhou = {
 }
 
 h_merc_banner = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.8
 	artillery_weight = 0.0
 	cavalry_cap = 40
@@ -1204,7 +1204,7 @@ h_merc_banner = {
 }
 
 h_merc_sileraioi = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.8
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -1221,7 +1221,7 @@ h_merc_sileraioi = {
 }
 
 h_merc_lombard = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -1238,7 +1238,7 @@ h_merc_lombard = {
 }
 
 h_merc_zulu = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cavalry_cap = 0
@@ -1260,7 +1260,7 @@ h_merc_zulu = {
 
 # Lombard Free Company
 merc_lombard_free_company = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	min_size = 20
 	max_size = 80
     #home_province = 4728 # Pavia
@@ -1278,7 +1278,7 @@ merc_lombard_free_company = {
 
 # Tuscan Free Company
 merc_tuscan_free_company = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     min_size = 20
 	max_size = 80
     #home_province = 2980 # Lucca
@@ -1297,7 +1297,7 @@ merc_tuscan_free_company = {
 
 # Black Army (Hungary)
 merc_black_army = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.2
     #artillery_weight = 0.0
 	#cavalry_cap = 4
@@ -1319,7 +1319,7 @@ merc_black_army = {
 
 # Black Army Reserves (Hungary)
 merc_black_army_2 = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	cavalry_weight = 0.2
     #artillery_weight = 0.0
 	#cavalry_cap = 4
@@ -1338,7 +1338,7 @@ merc_black_army_2 = {
 
 # Knights Templar
 merc_knights_templar = {
-	regiments_per_development = 0.05
+	regiments_per_development = 0.01
 	#home_province = 379
 	cavalry_weight = 0.5
 	cavalry_cap = 40
@@ -1358,7 +1358,7 @@ merc_knights_templar = {
 
 # Pontifical Swiss Guard
 merc_swiss_guard = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	#home_province = 166
 	min_size = 20
 	max_size = 80
@@ -1378,7 +1378,7 @@ merc_swiss_guard = {
 
 # Bande Nere (Black Bands, Italy)
 merc_bande_nere = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	min_size = 20
 	max_size = 80
     #home_province = 2978 # Florence
@@ -1396,7 +1396,7 @@ merc_bande_nere = {
 
 # Schwarze Garde (Black Bands, Germany)
 merc_schwarze_garde = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 61 # Dresden
 	#artillery_weight = 0.0
 	min_size = 20
@@ -1413,7 +1413,7 @@ merc_schwarze_garde = {
 
 # Doppelsoeldner (Swabia)
 merc_doppelsoeldner = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 70 # Stuttgart
 	#artillery_weight = 0.0
     cost_modifier = 0.75
@@ -1431,7 +1431,7 @@ merc_doppelsoeldner = {
 
 # Reisläufer (Switzerland)
 merc_reislaufer = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	min_size = 20
 	max_size = 80
     #home_province = 165 # 
@@ -1448,7 +1448,7 @@ merc_reislaufer = {
 
 # Hessian Jaegerkorps (Hesse, Absolutism + Revolution)
 merc_hessian_jaegerkorps = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	min_size = 20
 	max_size = 80
 	#cavalry_weight = 0.1
@@ -1468,7 +1468,7 @@ merc_hessian_jaegerkorps = {
 
 # Routiers (Britanny, Renaissance)
 merc_routiers = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 170
 	min_size = 20
 	max_size = 80
@@ -1485,7 +1485,7 @@ merc_routiers = {
 
 # Routiers/Bascoli ( Gascony, Renaissance?)
 merc_bascoli = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 173
 	min_size = 20
 	max_size = 80
@@ -1498,7 +1498,7 @@ merc_bascoli = {
 	
 # Levends (Dalmatia)
 merc_levends = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	#cavalry_weight = 0.1
 	#artillery_weight = 0.0
 	#cavalry_cap = 2
@@ -1515,7 +1515,7 @@ merc_levends = {
 
 # Stratioti (Durres)
 merc_stratioti = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 4174
 	min_size = 20
 	max_size = 80
@@ -1532,7 +1532,7 @@ merc_stratioti = {
 
 # Morlachs (Lika)
 merc_morlachs = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	#cavalry_weight = 0.1
 	#artillery_weight = 0.0
 	#cavalry_cap = 2
@@ -1549,7 +1549,7 @@ merc_morlachs = {
 
 # Guardia Corsa (Cosica)
 merc_guardia_corsa = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	#cavalry_weight = 0.1
 	#artillery_weight = 0.0
 	#cavalry_cap = 2
@@ -1569,7 +1569,7 @@ merc_guardia_corsa = {
 
 # Hadjduks (Transylvania)
 merc_hadjuks = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	cavalry_weight = 0.1
 	#artillery_weight = 0.0
 	#cavalry_cap = 2
@@ -1588,7 +1588,7 @@ merc_hadjuks = {
 
 # Gallowglasses (Ireland, Renaissance + Reformation)
 merc_gallowglasses = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	#cavalry_weight = 0.1
 	#artillery_weight = 0.0
 	min_size = 20
@@ -1608,7 +1608,7 @@ merc_gallowglasses = {
 
 # Redshanks (Scotland, Renaissance + Reformation)
 merc_redshanks = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	min_size = 20
 	max_size = 80
     #home_province = 4364
@@ -1624,7 +1624,7 @@ merc_redshanks = {
 
 # Scottish Guard (Scotland, Absolutism + Revolution)
 merc_scottish_guard = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	min_size = 20
 	max_size = 80
 	#cavalry_weight = 0.1
@@ -1643,7 +1643,7 @@ merc_scottish_guard = {
 
 # Seimeni (Reformation + Absolutism)
 merc_seimeni = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	min_size = 20
 	max_size = 80
     #home_province = 157
@@ -1656,7 +1656,7 @@ merc_seimeni = {
 
 # Armatoles
 merc_armatoles = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	min_size = 20
 	max_size = 80
     #home_province = 1853
@@ -1668,7 +1668,7 @@ merc_armatoles = {
 }
 
 merc_white_company = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	min_size = 20
 	max_size = 80
     #home_province = 236
@@ -1683,7 +1683,7 @@ merc_white_company = {
 }
 
 merc_flemish_company = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	min_size = 20
 	max_size = 80
 	#cavalry_weight = 0.1
@@ -1701,7 +1701,7 @@ merc_flemish_company = {
 }
 
 merc_forlorn_hope = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	min_size = 20
 	max_size = 80
     #home_province = 237 # Oxford
@@ -1717,7 +1717,7 @@ merc_forlorn_hope = {
 }
 
 merc_buccaneer_battalion = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	min_size = 20
 	max_size = 80
     #home_province = 489 # Tortuga
@@ -1733,7 +1733,7 @@ merc_buccaneer_battalion = {
 }
 
 merc_bandeirantes = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	min_size = 20
 	max_size = 80
     #home_province = 766 # Sao Vicente
@@ -1750,7 +1750,7 @@ merc_bandeirantes = {
 
 # Huai Army (China, Anhui, Huai River)
 merc_huai_army = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	min_size = 20
 	max_size = 80
 	#cavalry_weight = 0.1
@@ -1769,7 +1769,7 @@ merc_huai_army = {
 
 # Xiang Army (China, Hunan, Xiang River)
 merc_xiang_army = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	min_size = 20
 	max_size = 80
 	#cavalry_weight = 0.1
@@ -1789,7 +1789,7 @@ merc_xiang_army = {
 
 # Lang Bing/Wolf Troops (Guangxi)
 merc_wolf_troops = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	min_size = 20
 	max_size = 80
 	#cavalry_weight = 0.1
@@ -1809,7 +1809,7 @@ merc_wolf_troops = {
 
 # Mercenaries from Shanxi
 merc_shanxi_guard = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	min_size = 20
 	max_size = 80
 	#cavalry_weight = 0.1
@@ -1828,7 +1828,7 @@ merc_shanxi_guard = {
 
 # Mercenaries from Yongning, where the She-An Rebellion started
 merc_yongning_warriors = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	min_size = 20
 	max_size = 80
 	cavalry_weight = 0.4
@@ -1848,7 +1848,7 @@ merc_yongning_warriors = {
 
 # Kanto Ronin
 merc_kanto_ronin = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	min_size = 20
 	max_size = 80
     #home_province = 1028
@@ -1865,7 +1865,7 @@ merc_kanto_ronin = {
 
 # Kyushu Wokou
 merc_kyushu_wokou = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 1818
 	min_size = 20
 	max_size = 80
@@ -1879,7 +1879,7 @@ merc_kyushu_wokou = {
 
 # Shikoku Yojimbo
 merc_shikoku_yojimbo = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 1819
 	min_size = 20
 	max_size = 80
@@ -1897,7 +1897,7 @@ merc_shikoku_yojimbo = {
 }
 
 merc_purbiyas = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	#artillery_weight = 0.0
 	min_size = 20
 	max_size = 80
@@ -1915,7 +1915,7 @@ merc_purbiyas = {
 
 # Gurkhas
 merc_gorkhalis = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	#artillery_weight = 0.0
     #home_province = 4485
 	min_size = 20
@@ -1933,7 +1933,7 @@ merc_gorkhalis = {
 
 # Gosains
 merc_gosains = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	cavalry_weight = 0.1
 	#artillery_weight = 0.0
 	#cavalry_cap = 2
@@ -1952,7 +1952,7 @@ merc_gosains = {
 
 # Tamil Company
 merc_tamil_company = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	cavalry_weight = 0.1
 	#artillery_weight = 0.0
 	#cavalry_cap = 2
@@ -1970,7 +1970,7 @@ merc_tamil_company = {
 }
 
 merc_company_of_the_ganges = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 4497 # Kannauj
 	min_size = 20
 	max_size = 80
@@ -1987,7 +1987,7 @@ merc_company_of_the_ganges = {
 
 # Banjaras
 merc_banjara_company = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #cavalry_weight = 0.4
     #artillery_weight = 0.0
 	#cavalry_cap = 6
@@ -2006,7 +2006,7 @@ merc_banjara_company = {
 
 # Bukhara Band
 merc_bukhara_band = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	cavalry_weight = 0.4
     #artillery_weight = 0.0
 	#cavalry_cap = 6
@@ -2025,7 +2025,7 @@ merc_bukhara_band = {
 
 # Mesopotamian Mamluks
 merc_mesopotamian_mamluks = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     cavalry_weight = 0.8
     #artillery_weight = 0.0
 	min_size = 20
@@ -2045,7 +2045,7 @@ merc_mesopotamian_mamluks = {
 
 # Nile Mamluks
 merc_nile_mamluks = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     cavalry_weight = 0.5
     #artillery_weight = 0.0
 	cavalry_cap = 40
@@ -2064,7 +2064,7 @@ merc_nile_mamluks = {
 }
 
 merc_delhi_mamluks = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     cavalry_weight = 0.4
 	min_size = 20
 	max_size = 80
@@ -2082,7 +2082,7 @@ merc_delhi_mamluks = {
 }
 
 merc_zeybeks = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 318
 	cavalry_weight = 0.4
 	min_size = 20
@@ -2098,7 +2098,7 @@ merc_zeybeks = {
 }
 
 merc_sekban = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 324
 	cavalry_weight = 0.3
 	min_size = 20
@@ -2114,7 +2114,7 @@ merc_sekban = {
 }
 
 merc_zanj_company = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #artillery_weight = 0.0
 	min_size = 20
 	max_size = 80
@@ -2128,7 +2128,7 @@ merc_zanj_company = {
 }
 
 merc_madagascar_company = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #artillery_weight = 0.0
 	min_size = 20
 	max_size = 80
@@ -2145,7 +2145,7 @@ merc_madagascar_company = {
 }
 
 merc_sahel_company = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #artillery_weight = 0.0
 	min_size = 20
 	max_size = 80
@@ -2161,7 +2161,7 @@ merc_sahel_company = {
 }
 
 merc_asafo_company = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #cavalry_weight = 0
     #artillery_weight = 0.0
 	#cavalry_cap = 6
@@ -2179,7 +2179,7 @@ merc_asafo_company = {
 }
 
 merc_nubian_company = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #artillery_weight = 0.0
     #home_province = 2798
 	min_size = 20
@@ -2196,7 +2196,7 @@ merc_nubian_company = {
 }
 
 merc_tonkinese_army = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #artillery_weight = 0.0
 	min_size = 20
 	max_size = 80
@@ -2213,7 +2213,7 @@ merc_tonkinese_army = {
 }
 
 merc_mongol_mercenaries = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     cavalry_weight = 0.8
     artillery_weight = 0.0
 	min_size = 20
@@ -2232,7 +2232,7 @@ merc_mongol_mercenaries = {
 }
 
 merc_royal_circassian_guards = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	cost_modifier = 0.75
 	min_size = 20
 	max_size = 80
@@ -2247,7 +2247,7 @@ merc_royal_circassian_guards = {
 }
 
 merc_bedouin_auxiliaries = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     cavalry_weight = 0.8
     #artillery_weight = 0.0
 	cavalry_cap = 40
@@ -2266,7 +2266,7 @@ merc_bedouin_auxiliaries = {
 }
 
 merc_kurdish_company = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     cavalry_weight = 0.5
     #artillery_weight = 0.0
 	min_size = 20
@@ -2284,7 +2284,7 @@ merc_kurdish_company = {
 }
 
 merc_laz_auxiliaries = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 2196 # Guria
 	min_size = 20
 	max_size = 80
@@ -2297,7 +2297,7 @@ merc_laz_auxiliaries = {
 }
 
 merc_tabarestan_company = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 417 # Lahijan
 	min_size = 20
 	max_size = 80
@@ -2312,7 +2312,7 @@ merc_tabarestan_company = {
 }
 
 merc_novgorod_company = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 310 # Novogorod
 	min_size = 20
 	max_size = 80
@@ -2327,7 +2327,7 @@ merc_novgorod_company = {
 }
 
 merc_crimean_company = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 284 # Crimea
 	min_size = 20
 	max_size = 80
@@ -2340,7 +2340,7 @@ merc_crimean_company = {
 }
 
 merc_buryat_band = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     cavalry_weight = 0.8
     cavalry_cap = 40
 	min_size = 20
@@ -2359,7 +2359,7 @@ merc_buryat_band = {
 }
 
 merc_lithuanian_company = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	cavalry_weight = 0.5
     #artillery_weight = 0.0
 	min_size = 20
@@ -2378,7 +2378,7 @@ merc_lithuanian_company = {
 }
 
 merc_frisian_free_company = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 4382 # Groningen
     cost_modifier = 0.75
 	min_size = 20
@@ -2394,7 +2394,7 @@ merc_frisian_free_company = {
 }
 
 merc_finnish_company = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	cavalry_weight = 0.4
     #artillery_weight = 0.0
 	cavalry_cap = 40
@@ -2413,7 +2413,7 @@ merc_finnish_company = {
 }
 
 merc_almogavars = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #artillery_weight = 0 # No artillery
     #home_province = 1750 # Alicante
     cost_modifier = 0.75
@@ -2430,7 +2430,7 @@ merc_almogavars = {
 }
 
 merc_moorish_battalion = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 343 # Fez
 	min_size = 20
 	max_size = 80
@@ -2446,7 +2446,7 @@ merc_moorish_battalion = {
 }
 
 merc_kutai_company = {
-    regiments_per_development = 0.075
+    regiments_per_development = 0.01
 	#home_province = 638 # Kutai
 	cost_modifier = 0.75
 	min_size = 20
@@ -2461,9 +2461,7 @@ merc_kutai_company = {
 }
 
 merc_miquelet_company = {
-    regiments_per_development = 0.05
-    min_size = 20
-    max_size = 60
+    regiments_per_development = 0.01
 	min_size = 20
 	max_size = 80
     cavalry_weight = 0 #Pure infantry
@@ -2481,7 +2479,7 @@ merc_miquelet_company = {
 }
 
 merc_free_company_of_volunteers = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	min_size = 20
 	max_size = 80
     #home_province = 4579 # Sayula
@@ -2494,7 +2492,7 @@ merc_free_company_of_volunteers = {
 }
 
 merc_crabats = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 131 # Zagreb
     #cavalry_weight = 0.4
 	min_size = 20
@@ -2513,7 +2511,7 @@ merc_crabats = {
 }
 
 merc_free_swiss_guard = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 165 # Bern
 	cost_modifier = 0.75
 	min_size = 20
@@ -2528,7 +2526,7 @@ merc_free_swiss_guard = {
 }
 
 merc_colonial_rangers = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 2569 # Eskikewakik, eventually Halifax, Nova Scotia
     cost_modifier = 0.75
 	min_size = 20
@@ -2545,7 +2543,7 @@ merc_colonial_rangers = {
 }
 
 merc_independent_cossack_host = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	min_size = 20
 	max_size = 80
     #home_province = 283 # Zaporozhia
@@ -2564,7 +2562,7 @@ merc_independent_cossack_host = {
 }
 
 merc_kazakh_company = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 478 # Argyn
 	cavalry_weight = 0.5
 	cavalry_cap = 40
@@ -2582,7 +2580,7 @@ merc_kazakh_company = {
 }
 
 merc_yaka_free_warriors = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 4085
 	min_size = 20
 	max_size = 80
@@ -2595,7 +2593,7 @@ merc_yaka_free_warriors = {
 }
 
 merc_great_lakes_free_warriors = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 4064
 	cost_modifier = 0.75
 	min_size = 20
@@ -2611,7 +2609,7 @@ merc_great_lakes_free_warriors = {
 }
 
 merc_thai_company = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 600
 	cavalry_weight = 0.4
 	sprites = { ayu_base_sprite_pack }
@@ -2629,7 +2627,7 @@ merc_thai_company = {
 }
 
 merc_yucatan_company = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 2633 # Ceh Pech
 	min_size = 20
 	max_size = 80
@@ -2642,7 +2640,7 @@ merc_yucatan_company = {
 }
 
 merc_misquito_coast_company = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 838
 	min_size = 20
 	max_size = 80
@@ -2655,7 +2653,7 @@ merc_misquito_coast_company = {
 }
 
 merc_navajo_raiders = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 878 # Navajo
 	min_size = 20
 	max_size = 80
@@ -2668,7 +2666,7 @@ merc_navajo_raiders = {
 }
 
 merc_chonnonton_warriors = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 2586
 	min_size = 20
 	max_size = 80
@@ -2681,7 +2679,7 @@ merc_chonnonton_warriors = {
 }
 
 merc_inuit_warriors = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 974
 	cost_modifier = 0.75
 	min_size = 20
@@ -2694,7 +2692,7 @@ merc_inuit_warriors = {
 }
 
 merc_free_mohawks = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 964
 	min_size = 20
 	max_size = 80
@@ -2709,7 +2707,7 @@ merc_free_mohawks = {
 }
 
 merc_muscogee_mercenaries = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 925
 	min_size = 20
 	max_size = 80
@@ -2722,7 +2720,7 @@ merc_muscogee_mercenaries = {
 }
 
 merc_quito_company = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 820
 	cost_modifier = 0.75
 	min_size = 20
@@ -2735,7 +2733,7 @@ merc_quito_company = {
 }
 
 merc_silver_company = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 795
 	min_size = 20
 	max_size = 80
@@ -2748,7 +2746,7 @@ merc_silver_company = {
 }
 
 merc_dahomey_amazons = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #cavalry_weight = 0.1
     #artillery_weight = 0.0
 	#cavalry_cap = 2
@@ -2767,7 +2765,7 @@ merc_dahomey_amazons = {
 }
 
 merc_gascon_musket_company = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 175
 	min_size = 20
 	max_size = 80
@@ -2786,7 +2784,7 @@ merc_gascon_musket_company = {
 }
 
 merc_tyrolean_guard = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 4758
 	cost_modifier = 0.75
 	min_size = 20
@@ -2802,7 +2800,7 @@ merc_tyrolean_guard = {
 }
 
 merc_mongol_banner = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	cavalry_weight = 0.8
     #artillery_weight = 0.0
 	cavalry_cap = 40
@@ -2820,7 +2818,7 @@ merc_mongol_banner = {
 }
 
 merc_swiss_canton_mercenaries = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	#home_province = 165
 	cost_modifier = 0.75
 	min_size = 20
@@ -2839,7 +2837,7 @@ merc_swiss_canton_mercenaries = {
 }
 
 h_merc_gallowglass = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
     #home_province = 373 #Dublin
 	cost_modifier = 0.75
 	min_size = 20
@@ -2854,7 +2852,7 @@ h_merc_gallowglass = {
 	}
 }
 h_merc_krom_asas = {
-    regiments_per_development = 0.05
+    regiments_per_development = 0.01
 	cavalry_weight = 0.8
 	min_size = 20
 	max_size = 80

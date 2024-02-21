@@ -1,26 +1,10 @@
 government = monarchy
-add_government_reform = indep_daimyo
+add_government_reform = shogunate
 primary_culture = japanese
-government_rank = 1
 add_accepted_culture = togoku
 religion = shinto
 technology_group = chinese
 capital = 1020	# Yamashiro
-historical_rival = MJZ
-historical_rival = WUU
-historical_rival = YUE
-historical_rival = KOR
-historical_rival = MCH
-historical_rival = QNG
-historical_rival = QIC
-historical_rival = CXI
-historical_rival = CSH
-historical_rival = CYI
-historical_rival = UES
-historical_rival = HSK
-historical_rival = HTK
-historical_rival = YMN
-historical_rival = SMZ
 
 1325.1.1 = {
 	monarch = {

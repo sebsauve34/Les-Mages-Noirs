@@ -539,7 +539,7 @@ mindanao_ideas = {
 
 horde_ideas = {
 	start = {
-		tolerance_heathen = 3
+		core_creation = -0.25
 		cavalry_power = 0.20
 
 	}
@@ -566,7 +566,7 @@ horde_ideas = {
 		leader_land_shock = 1
 	}
 	tradition_of_conquest = {
-		core_creation = -0.2
+		tolerance_heathen = 3
 	}
 	logistics_of_khan = {
 		#manpower_recovery_speed = 0.2 (effect taken in GLH idea)

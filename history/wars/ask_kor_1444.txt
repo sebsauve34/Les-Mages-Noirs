@@ -1,0 +1,25 @@
+name = "ASK-KOR"
+war_goal = {
+	type = take_capital_imperial
+	casus_belli = cb_imperial
+}
+1443.1.1 = {
+	add_attacker = ASK
+	add_defender = FO1
+	add_defender = FO2
+	add_defender = FO3
+	add_defender = FO4
+	add_defender = FO5
+	add_defender = FO6
+	add_defender = FO7
+}
+1444.8.1 = {
+	rem_attacker = ASK
+	rem_defender = F01
+	rem_defender = F02
+	rem_defender = F03
+	rem_defender = F04
+	rem_defender = F05
+	rem_defender = F06
+	rem_defender = F07
+}	

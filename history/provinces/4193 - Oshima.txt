@@ -8,10 +8,9 @@ hre = no
 base_tax = 1 
 base_production = 1
 base_manpower = 1
-owner = DTE
-controller = DTE
-add_core = DTE
-add_claim = UES
+owner = AKT
+controller = AKT
+add_core = AKT
 is_city = yes
 
 
@@ -56,6 +55,9 @@ discovered_by = TKI
 discovered_by = UTN
 discovered_by = TTI
 discovered_by = ASK
+discovered_by = SOL
+discovered_by = NVK
+discovered_by = NHX
 
 1514.1.1 = { capital = "Matsumae" }
 1590.8.10 = { remove_core = AKT add_core = ODA owner = ODA controller = ODA }

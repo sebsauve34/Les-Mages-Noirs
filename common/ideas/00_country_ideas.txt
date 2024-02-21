@@ -85,7 +85,7 @@ GER_ideas = {
 ENG_ideas = {
 	start = {
 		infantry_power = 0.10 # agincourt
-		naval_forcelimit_modifier = 0.25
+		num_of_parliament_issues = 1
 	}
 
 	bonus = {
@@ -98,17 +98,17 @@ ENG_ideas = {
 	free = yes		#will be added at load.
 	
 	royal_navy = {
-			navy_tradition = 0.25
-			heavy_ship_power = 0.10
+		fire_damage = 0.1
+		allowed_marine_fraction = 0.15
 	}
 	eltham_ordinance = {
-			production_efficiency = 0.1
+		production_efficiency = 0.1
 	}
 	secretaries_of_state = {
-		diplomatic_upkeep = 1
+		global_tax_modifier = 0.1
 	}
 	navigation_acts = {
-		light_ship_cost = -0.1
+		trade_efficiency = 0.1
 	}
 	eng_red_coats = {
 		global_unrest = -1 # magna carta, parliament
@@ -124,12 +124,12 @@ ENG_ideas = {
 
 GBR_ideas = {
 	start = {
-		infantry_power = 0.10
-		heavy_ship_power = 0.10
+		infantry_power = 0.1
+		allowed_marine_fraction = 0.15
 	}
 
 	bonus = {
-		navy_tradition = 1
+		fire_damage = 0.1
 	}
 	
 	trigger = {
@@ -145,8 +145,8 @@ GBR_ideas = {
 		colonists = 1
 	}
 	british_merchant_navy = {
-		global_sailors_modifier = 0.1
-		global_ship_recruit_speed = -0.1
+		global_sailors_modifier = 0.2
+		global_ship_recruit_speed = -0.2
 	}
 	gbr_the_royal_society = {
 		technology_cost = -0.05
@@ -160,8 +160,9 @@ GBR_ideas = {
 	}
 	britanna_rules_the_waves = {
 		leader_naval_manuever = 1
+		navy_tradition = 1
 		blockade_efficiency = 0.33
-		allowed_marine_fraction = 0.10
+		
 	}
 }
 
@@ -189,8 +190,9 @@ SWE_ideas = {
 	produktplakatet = {
 		production_efficiency = 0.10
 	}
-	h_swedish_armies = {
+	hakkapelitta = {
 		global_manpower_modifier = 0.15
+		cavalry_cost = -0.1
 	}
 	swedish_absolutism = {
 		stability_cost_modifier = -0.1
@@ -317,7 +319,7 @@ SPA_ideas = {
 		naval_forcelimit_modifier = 0.25
 	}
 	spanish_armada = {
-		heavy_ship_power = 0.1
+		ship_durability = 0.05
 		leader_naval_manuever = 1
 	}
 	spa_casa_de_contracion = {
@@ -490,7 +492,7 @@ FRA_ideas = {
 	native_trading_principles = {
 		native_uprising_chance = -0.5
 		native_assimilation = 0.5
-		heavy_ship_power = 0.10
+		naval_morale_damage = 0.1
 	}
 	vauban_fortifications = {
 		fort_maintenance_modifier = -0.2
@@ -1091,7 +1093,7 @@ POR_ideas = {
 		production_efficiency = 0.10
 	}
 	case_de_india = {
-		heavy_ship_power = 0.1
+		naval_morale_damage_received = -0.1
 		global_sailors_modifier = 0.10
 	}
 	the_bandeirantes = {
@@ -2022,44 +2024,7 @@ OMA_ideas = {
 }
 
 
-KOR_ideas = {
-	start = {
-		global_own_trade_power = 0.25
-		build_cost = -0.1
-	}
-	
-	bonus = {
-		infantry_power = 0.1
-	}
-	
-	trigger = {
-		tag = KOR
-	}
-	free = yes
-	
-	hanguel_alphabet = {
-		technology_cost = -0.05
-	}
-	grand_code = {
-		stability_cost_modifier = -0.10
-	}
-	hyanyak_system = {
-		production_efficiency = 0.10
-	}
-	geobukseon = {
-		ship_durability = 0.05
-	}
-	hopae_system = {
-		global_manpower_modifier = 0.10
-	}
-	kyujanggak = {
-		idea_cost = -0.1
-	}
-	kor_economy_reform = {
-		global_tax_modifier = 0.10
-	}
-	
-}
+
 
 
 BOH_ideas = {
@@ -3593,7 +3558,7 @@ KON_ideas = {
 	}
 	defend_against_the_colonists = {
 		artillery_power = 0.10
-		heavy_ship_power = 0.1
+		ship_durability = 0.05
 	}
 }
 
@@ -8124,11 +8089,11 @@ LON_ideas = {
 CYI_ideas = {
 	start = {
 		defensiveness = 0.2
-		shock_damage = 0.2
+		own_territory_dice_roll_bonus = 1
 	}
 
 	bonus = {
-		manpower_recovery_speed = 0.2
+		development_cost_modifier = -0.1
 	}
 	
 	trigger = {
@@ -8137,7 +8102,7 @@ CYI_ideas = {
 	free = yes
 
 	cyi_chain_of_zimo_domains = {
-		reinforce_speed = 0.2
+		reinforce_speed = 0.25
 		reinforce_cost_modifier = -0.1
 	}
 	cyi_promote_bimoism = {
@@ -8145,10 +8110,11 @@ CYI_ideas = {
 	}
 	cyi_strengthen_yi_caste_system = {
 		stability_cost_modifier = -0.15
-		cav_to_inf_ratio = 0.20
+		manpower_recovery_speed = 0.2
 	}
 	cyi_deep_in_mountains = {
-		hostile_attrition = 1.0
+		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	cyi_solar_calendar = {
 		technology_cost = -0.1
@@ -8159,7 +8125,7 @@ CYI_ideas = {
 		devotion = 1
 	}
 	cyi_children_of_the_black_tiger = {
-		morale_damage = 0.15
+		morale_damage = 0.2
 		recover_army_morale_speed = 0.05
 	}
 }
@@ -11550,7 +11516,7 @@ TRI_ideas = {
 
 AKK_ideas = {
 	start = {
-		cavalry_power = 0.2
+		cavalry_cost = -0.1
 		land_morale = 0.1
 	}
 	bonus = {
@@ -11562,10 +11528,10 @@ AKK_ideas = {
 	free = yes
 	
 	akk_white_sheep = {
-		stability_cost_modifier = -0.1
+		leader_land_shock = 1
 	}
 	akk_unite_the_federation = {
-		cavalry_cost = -0.1
+		cavalry_power = 0.2
 	}
 	akk_turko_iranian_bureaucracy = {
 		core_creation = -0.2
@@ -11577,7 +11543,7 @@ AKK_ideas = {
 		diplomats = 1
 	}
 	akk_religious_pragmatism = {
-		leader_land_shock = 1
+		stability_cost_modifier = -0.15
 	}
 	akk_qanun_nama_ye_hasan = {
 		global_trade_goods_size_modifier = 0.1
@@ -14176,8 +14142,8 @@ SYN_ideas = {
 
 MOR_ideas = {
 	start = {
-		heavy_ship_power = 0.1
-		naval_forcelimit_modifier = 0.33
+		cavalry_power = 0.15
+		naval_forcelimit_modifier = 0.25
 	}
 	bonus = {
 		hostile_attrition = 1
@@ -14187,12 +14153,11 @@ MOR_ideas = {
 	}
 	free = yes
 	mor_marabouts = {
+		same_culture_advisor_cost = -0.15
 		idea_cost = -0.1
-		cav_to_inf_ratio = 0.20
 	}
 	mor_slave_soldiers = {
 		land_morale = 0.10
-		cavalry_power = 0.15
 	}
 	mor_powerful_viziers = {
 		same_culture_advisor_cost = -0.2
@@ -14800,11 +14765,11 @@ CHG_ideas = {
 CSH_ideas = {
 	start = {
 		leader_land_shock = 1
-		development_cost = -0.1
+		cavalry_cost = -0.1
 	}
 	
 	bonus = {
-		prestige = 1
+		shock_damage = 0.15
 	}
 	
 	trigger = {
@@ -14813,7 +14778,7 @@ CSH_ideas = {
 	free = yes
 	
 	shun_humble_beginnings = {
-		manpower_recovery_speed = 0.15
+		cavalry_power = 0.15
 	}
 	shun_dashing_king = {
 		diplomatic_reputation = 1
@@ -15621,7 +15586,7 @@ MAJ_ideas = {
 		land_morale = 0.1
 	}
 	maj_majapahit_armada = {
-		heavy_ship_power = 0.1
+		global_ship_cost = -0.1
 		navy_tradition = 0.5
 	}
 	maj_reformed_bhattara_saptaprabhu = {
@@ -15808,7 +15773,7 @@ MLC_ideas = {
 		num_accepted_cultures = 1
 	}
 	mlc_daulat = {
-		heavy_ship_power = 0.1
+		manpower_recovery_speed = 0.15
 	}
 
 }
@@ -15837,8 +15802,7 @@ MSA_ideas = {
 		trade_efficiency = 0.1
 	}
 	msa_chart_the_seas = {
-#		own_coast_naval_combat_bonus = 1
-		naval_morale = 0.1
+		manpower_recovery_speed = 0.15
 	}
 	msa_in_every_port = {
 		merchants = 1

@@ -25,15 +25,15 @@ on_startup = {
     echo_development_counter = { on_startup = yes }
     qolu_wool_into_cloth_counter = { on_startup = yes }
     ##Rise of Lodi
-    if = {
-        limit = {
-            tag = SRH
-            NOT = { is_year = 1545 }
-        }
-        country_event = { 
-            id = flavor_dlh.6
-        } 
-    }
+  #  if = {
+  #      limit = {
+   #         tag = SRH
+    #        NOT = { is_year = 1545 }
+     #   }
+      #  country_event = { 
+       #     id = flavor_dlh.6
+        #} 
+    #}
     ##Swedish Succession
     if = {
         limit = {

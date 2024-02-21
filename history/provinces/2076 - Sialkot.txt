@@ -1,7 +1,7 @@
 #2076 - Sialkot
 
-owner = SRH
-controller = SRH
+owner = DLH
+controller = DLH
 culture = panjabi
 religion = hinduism
 capital = "Sialkot"

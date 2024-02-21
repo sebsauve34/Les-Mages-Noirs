@@ -1152,8 +1152,6 @@ estate_burghers_get_cash = {
 
 
 
-
-
 #Colonise something in X area
 estate_burghers_colonise_X = {
 	can_select = {

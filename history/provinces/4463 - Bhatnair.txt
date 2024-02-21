@@ -1,7 +1,7 @@
 #4463 - Bhatnair
 
-owner = SRH
-controller = SRH
+owner = DLH
+controller = DLH
 culture = rajput
 religion = hinduism
 capital = "Bhatnair"

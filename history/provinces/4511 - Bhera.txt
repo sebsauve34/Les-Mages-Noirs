@@ -1,7 +1,7 @@
 #4511 - Bhera
 
-owner = SRH
-controller = SRH
+owner = DLH
+controller = DLH
 culture = panjabi
 religion = hinduism
 capital = "Bhera"

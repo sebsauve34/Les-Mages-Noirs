@@ -5,12 +5,7 @@ primary_culture = togoku
 religion = shinto
 technology_group = chinese
 capital = 4131 # Richizen
-historical_rival = ASK
-historical_rival = HSK
-historical_rival = HTK
-historical_rival = YMN
-historical_rival = SMZ
-historical_rival = UES
+
 1325.1.1 = {
 	monarch = {
 		name = "Yukitomo" 

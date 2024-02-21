@@ -13,7 +13,9 @@ native_size = 5
 native_ferocity = 1
 native_hostileness = 1
 
-
+owner = NVK
+controller = NVK
+add_core = NVK
 
 discovered_by = JAP
 discovered_by = AMA

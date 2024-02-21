@@ -1,7 +1,8 @@
 #2066 - Nagaur
 
-owner = NGA
-controller = NGA
+owner = MER
+controller = MER
+add_core = MER
 culture = rajput
 religion = hinduism
 capital = "Nagaur"

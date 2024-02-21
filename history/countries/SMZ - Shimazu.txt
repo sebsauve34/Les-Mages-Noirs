@@ -5,12 +5,7 @@ primary_culture = kyushuan
 religion = shinto
 technology_group = chinese
 capital = 1012	# Satsuma
-historical_rival = ASK
-historical_rival = DTE
-historical_rival = UES
-historical_rival = HTK
-historical_rival = YMN
-historical_rival = HSK
+
 add_army_professionalism = 0.1
 1325.11.12 = { 
 	monarch = {

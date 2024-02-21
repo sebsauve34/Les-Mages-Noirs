@@ -5,7 +5,7 @@ religion = sunni
 primary_culture = uzbehk
 add_accepted_culture = siberian
 add_accepted_culture = khazak
-capital = 1075 #Chimgi-Tura
+capital = 476 #Chimgi-Tura
 historical_rival = TIM
 religious_school = hanafi_school
 

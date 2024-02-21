@@ -134,46 +134,7 @@ citystate_ideas = { #Chinese City States
 	}
 }
 
-korean_ideas = {
-	start = {
-		global_own_trade_power = 0.25
-		build_cost = -0.1
-	}
-	
-	bonus = {
-		infantry_power = 0.1
-	}
-	
-	trigger = {
-		OR = {
-			culture_group = korean_g #Korean
-		}
-	}
-	free = yes
-	
-	hanguel_alphabet = {
-		technology_cost = -0.05
-	}
-	grand_code = {
-		stability_cost_modifier = -0.10
-	}
-	hyanyak_system = {
-		production_efficiency = 0.10
-	}
-	geobukseon = {
-		ship_durability = 0.05
-	}
-	hopae_system = {
-		global_manpower_modifier = 0.10
-	}
-	kyujanggak = {
-		idea_cost = -0.1
-	}
-	kor_economy_reform = {
-		global_tax_modifier = 0.10
-	}
-	
-}
+
 
 ########################################
 # Starting National Ideas
@@ -246,7 +207,7 @@ WUU_ideas = { #Wu
 		innovativeness_gain = 0.25
 	}
 	WUU_4 = {
-		mercenary_manpower = 0.33
+		mercenary_manpower = 0.25
 		land_forcelimit_modifier = 0.1
 	}
 	WUU_5 = {
@@ -263,12 +224,12 @@ WUU_ideas = { #Wu
 
 YUE_ideas = { #Yue
 	start = {
-		global_manpower_modifier = 0.15
+		land_forcelimit_modifier = 0.25
 		manpower_recovery_speed = 0.2	
 	}
 	
 	bonus = {
-		land_forcelimit_modifier = 0.25
+		global_manpower_modifier = 0.25
 	}
 	
 	trigger = {
@@ -277,7 +238,7 @@ YUE_ideas = { #Yue
 	free = yes #will be added at load.
 	
 	YUE_1 = {
-		land_morale = 0.1
+		morale_damage_received = -0.2
 	}
 	YUE_2 = {
 		development_cost = -0.1
@@ -316,6 +277,7 @@ QIC_ideas = { #Qi
 	
 	QIC_1 = {
 		infantry_power = 0.15
+		drill_decay_modifier = -0.10
 	}
 	QIC_2 = {
 		global_manpower_modifier = 0.25
@@ -2056,5 +2018,94 @@ LOM_ideas = {
 	}
 	lom_7 = {
 		trade_efficiency = 0.1
+	}
+}
+
+fo_korean_city_ideas = {
+	start = {
+		infantry_power = 0.1
+		adm_tech_cost_modifier = -0.1
+	}
+
+	bonus = {
+		global_manpower_modifier = 0.25
+	}
+
+	trigger = {
+		OR = {
+			tag = FO1
+			tag = FO2
+			tag = FO3
+			tag = FO4
+			tag = FO5
+			tag = FO6
+			tag = FO7
+		}
+	}
+	free = yes
+
+	keju_examination = {
+		advisor_pool = 1
+	}
+	scholar_gentry = {
+		stability_cost_modifier = -0.1
+	}
+	order_of_four_occupations = {
+		production_efficiency = 0.10
+	}
+	nation_of_rites_and_etiquette = {
+		prestige = 1
+	}
+	firearm_training = {
+		fire_damage = 0.1
+	}
+	son_of_heaven = {
+		legitimacy = 1
+		imperial_mandate = 0.05
+	}
+	middle_kingdom = {
+		diplomatic_reputation = 1
+	}
+}
+
+KOR_ideas = {
+	start = {
+		build_cost = -0.1
+		land_morale = 0.1
+	}
+	
+	bonus = {
+		infantry_power = 0.1
+	}
+	
+	trigger = {
+		tag = KOR
+	}
+	free = yes
+
+	kor_uijeongbu = {
+		advisor_cost = -0.1
+		all_estate_loyalty_equilibrium = 0.05
+	}
+	metal_movable_type = {
+		adm_tech_cost_modifier = -0.05
+		innovativeness_gain = 0.5
+	}
+	choi_mu_seon_gunpower_engines = {
+		fire_damage = 0.1
+	}
+	korean_artisanery = {
+		prestige = 1
+		development_cost = -0.05
+	}
+	hyanyak_system = {
+		production_efficiency = 0.10
+	}
+	geobukseon = {
+		navy_tradition = 1
+		has_geobukseon = yes
+	}
+	kyujanggak = {
+		idea_cost = -0.1
 	}
 }

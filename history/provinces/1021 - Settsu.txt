@@ -1,7 +1,7 @@
 #1021 - Settsu
 
-owner = ASK
-controller = ASK
+owner = HSK
+controller = HSK
 culture = japanese
 religion = shinto
 capital = "Naniwa"
@@ -12,7 +12,6 @@ base_manpower = 3
 base_production = 6
 is_city = yes
 add_core = HSK
-add_core = ASK
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA

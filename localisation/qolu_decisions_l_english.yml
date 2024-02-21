@@ -60,7 +60,8 @@ qolu_debuff_t3:0 "Currently Using More than §Y175%§!, but less than §Y250%§!
 qolu_debuff_t4:0 "Currently Using More than §Y250%§! of our §YForce Limit§!, Receive the §YFollowing§! §RDebuffs§!:\n\n§YNational Unrest§! §R+8§!\n§YLand Maintenance§! §R+90%§!\n§YReinforce Speed§! §R-20%§!\n§YReinforce Cost§! §R+60%§!\n§YGoods Produced Modifier§! §R-20%§!"
 
 
-
+bastard_korea_formation_title:0 "Form Korean Nation"
+bastard_korea_formation_desc:0 "Later Silla nearly united the Korean peoples in 661. Though our lands are more divided than ever, we can aspire to a greater purpose to become a true national unification."
 PR_critical_events_title: "Remaining Critical Events"
 PR_critical_events_desc: ""
 PR_radical_reform_decision: "Radical Reforms"

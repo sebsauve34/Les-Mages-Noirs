@@ -1,7 +1,7 @@
 #4248 - Kashin
 
-owner = MOS
-controller = MOS  
+owner = TVE
+controller = TVE  
 culture = russian
 religion = orthodox
 hre = no
@@ -11,7 +11,7 @@ trade_goods = livestock
 base_manpower = 1
 capital = "Kashin"
 is_city = yes
-add_core = MOS
+add_core = TVE
 
 
 

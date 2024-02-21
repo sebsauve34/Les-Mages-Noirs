@@ -1104,3 +1104,12 @@ ISR = "countries/Israel.txt"
 #new tags 1.36 in error log:
 
 LAE	= "countries/Latin Empire.txt"
+
+#Korea
+FO1 = "countries/Goguryeo.txt"
+FO2 = "countries/Mahan.txt"
+FO3 = "countries/Byeonham.txt"
+FO4 = "countries/Jinhan.txt"
+FO5 = "countries/Baekje.txt"
+FO6 = "countries/Ye.txt"
+FO7 = "countries/Dongye.txt"

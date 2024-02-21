@@ -1,7 +1,7 @@
 #4180 - Hyuga
 
-owner = SMZ
-controller = SMZ
+owner = ITO
+controller = ITO
 culture = kyushuan
 religion = shinto
 capital = "Obi"

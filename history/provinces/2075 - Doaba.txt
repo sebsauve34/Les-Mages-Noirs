@@ -1,7 +1,7 @@
 #2075 - Doaba
 
-owner = SRH
-controller = SRH
+owner = DLH
+controller = DLH
 culture = panjabi
 religion = hinduism
 capital = "Jalandhar"

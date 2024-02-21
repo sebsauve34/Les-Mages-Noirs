@@ -1,7 +1,7 @@
 #Northern Mutsu
 
-owner = DTE
-controller = DTE
+owner = RFR
+controller = RFR
 culture = togoku
 religion = shinto
 capital = "Sannohe"
@@ -11,7 +11,7 @@ base_tax = 3
 base_manpower = 2
 base_production = 3
 is_city = yes
-add_core = DTE
+add_core = RFR
 add_claim = UES
 discovered_by = chinese
 discovered_by = MCH
