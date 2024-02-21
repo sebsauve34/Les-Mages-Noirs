@@ -1,0 +1,13 @@
+name = "KOR-YMN"
+war_goal = {
+	type = take_capital_imperial
+	casus_belli = cb_imperial
+}
+1443.1.1 = {
+	add_attacker = KOR
+	add_defender = YMN
+}
+1444.8.1 = {
+	rem_attacker = KOR
+	rem_defender = YMN
+}

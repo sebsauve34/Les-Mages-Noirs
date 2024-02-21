@@ -1,0 +1,386 @@
+namespace = qolu
+
+country_event = { #Recruit Adm Advisor
+	id = qolu.1
+	title = qolu.1.title
+	desc = qolu.1.desc
+	picture = AULIC_COUNCIL_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = qolu.1.a
+
+		add_adm_power = -25
+		create_advisor = philosopher
+	}
+	option = {
+		name = qolu.1.b
+
+		add_adm_power = -25
+		create_advisor = natural_scientist
+	}
+	option = {
+		name = qolu.1.c
+
+		add_adm_power = -25
+		create_advisor = artist
+	}
+	option = {
+		name = qolu.1.d
+
+		add_adm_power = -25
+		create_advisor = treasurer
+	}
+	option = {
+		name = qolu.1.e
+
+		add_adm_power = -25
+		create_advisor = theologian 
+	}
+	option = {
+		name = qolu.1.f
+
+		add_adm_power = -25
+		create_advisor = master_of_mint
+	}
+	option = {
+		name = qolu.1.g
+
+		add_adm_power = -25
+		create_advisor = inquisitor
+	}
+	option = {
+		name = qolu.1.h
+		hidden_effect = {
+			remove_country_modifier = adm_advisor_cd
+		}
+	}
+}
+
+country_event = { #Recruit Dip advisor
+	id = qolu.2
+	title = qolu.2.title
+	desc = qolu.2.desc
+	picture = DIPLOMACY_SIGNING_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = qolu.2.a
+
+		add_dip_power = -25
+		create_advisor = statesman
+	}
+	option = {
+		name = qolu.2.b
+
+		add_dip_power = -25
+		create_advisor = naval_reformer
+	}
+	option = {
+		name = qolu.2.c
+
+		add_dip_power = -25
+		create_advisor = trader
+	}
+	option = {
+		name = qolu.2.d
+
+		add_dip_power = -25
+		create_advisor = spymaster
+	}
+	option = {
+		name = qolu.2.e 
+
+		add_dip_power = -25
+		create_advisor = colonial_governor
+	}
+	option = {
+		name = qolu.2.f
+
+		add_dip_power = -25
+		create_advisor = diplomat
+	}
+	option = {
+		name = qolu.2.g
+
+		add_dip_power = -25
+		create_advisor = navigator
+	}
+	option = {
+		name = qolu.2.h
+		hidden_effect = {
+			remove_country_modifier = adm_advisor_cd
+		}
+	}
+}
+
+country_event = { #Recruit Mil Advisor 
+	id = qolu.3
+	title = qolu.3.title
+	desc = qolu.3.desc
+	picture = GENERALS_DISCUSSING_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = qolu.3.a
+
+		add_mil_power = -25
+		create_advisor = army_reformer
+	}
+	option = {
+		name = qolu.3.b
+
+		add_mil_power = -25
+		create_advisor = army_organiser
+	}
+	option = {
+		name = qolu.3.c
+
+		add_mil_power = -25
+		create_advisor = commandant
+	}
+	option = {
+		name = qolu.3.d
+
+		add_mil_power = -25
+		create_advisor = quartermaster
+	}
+	option = {
+		name = qolu.3.e
+
+		add_mil_power = -25
+		create_advisor = recruitmaster
+	}
+	option = {
+		name = qolu.3.f
+
+		add_mil_power = -25
+		create_advisor = fortification_expert
+	}
+	option = {
+		name = qolu.3.g
+
+		add_mil_power = -25
+		create_advisor = grand_captain
+	}
+	option = {
+		name = qolu.3.h
+		hidden_effect = {
+			remove_country_modifier = adm_advisor_cd
+		}
+	}
+}
+
+country_event = {
+	id = qolu.4
+	title = qolu.4.t
+	desc = qolu.4.d
+	picture = DIPLOMACY_SIGNING_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = qolu.4.a
+	}
+	option = {
+		name = qolu.4.b
+
+		country_event = {
+			id = qolu.8
+		}
+	}
+	option = {
+		name = qolu.4.c
+		country_event = {
+			id = qolu.9
+		}
+	}
+	option = {
+		name = qolu.4.e
+		country_event = {
+			id = qolu.10
+		}
+	}
+
+}
+
+country_event = {
+	id = qolu.5
+	title = qolu.5.t
+	desc = qolu.5.d
+	picture = DIPLOMACY_SIGNING_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		colony = 1
+		AI = no
+		is_subject = no
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = qolu.5.a
+		country_event ={
+			id = qolu.6
+		}
+	}
+}
+
+country_event = {
+	id = qolu.6
+	title = qolu.6.t
+	desc = qolu.6.d
+	picture = DIPLOMACY_SIGNING_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = qolu.6.a
+		set_country_flag = colony_confirmed_warning
+	}
+}
+
+country_event = {
+	id = qolu.7
+	title = qolu.7.t
+	desc = qolu.7.d
+	picture = DIPLOMACY_SIGNING_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = qolu.7.a
+		country_event ={
+			id = qolu.1
+		}
+	}
+	option = {
+		name = qolu.7.b
+		country_event ={
+			id = qolu.2
+		}
+	}
+	option = {
+		name = qolu.7.c
+		country_event ={
+			id = qolu.3
+		}
+	}
+	option = {
+		name = qolu.7.d
+		hidden_effect = {
+			remove_country_modifier = adm_advisor_cd
+		}
+	}
+}
+
+country_event = {
+	id = qolu.8
+	title = qolu.8.t
+	desc = qolu.8.d
+	picture = DIPLOMACY_SIGNING_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = qolu.8.a 
+	}
+
+	option = {
+		name = qolu.8.b 
+		country_event = {
+			id = qolu.9
+		}
+	}
+
+	option = {
+		name = qolu.8.c 
+		country_event = {
+			id = qolu.10
+		}
+	}
+
+	option = {
+		name = qolu.8.e 
+		country_event = {
+			id = qolu.4
+		}
+	}
+}
+
+country_event = {
+	id = qolu.9
+	title = qolu.9.t
+	desc = qolu.9.d
+	picture = DIPLOMACY_SIGNING_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = qolu.9.a 
+	}
+
+	option = {
+		name = qolu.9.b 
+		country_event = {
+			id = qolu.8
+		}
+	}
+
+	option = {
+		name = qolu.9.c 
+		country_event = {
+			id = qolu.10
+		}
+	}
+
+	option = {
+		name = qolu.9.e 
+		country_event = {
+			id = qolu.4
+		}
+	}
+}
+
+country_event = {
+	id = qolu.10
+	title = qolu.10.t
+	desc = qolu.10.d
+	picture = DIPLOMACY_SIGNING_eventPicture
+
+	is_triggered_only = yes
+
+	option = {
+		name = qolu.10.a 
+	}
+
+	option = {
+		name = qolu.10.b 
+		country_event = {
+			id = qolu.8
+		}
+	}
+
+	option = {
+		name = qolu.10.c 
+		country_event = {
+			id = qolu.9
+		}
+	}
+
+	option = {
+		name = qolu.10.e 
+		country_event = {
+			id = qolu.4
+		}
+	}
+}
+
+

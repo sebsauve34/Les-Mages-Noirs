@@ -1,0 +1,1001 @@
+	########################################
+# Custom decisions for the HashMP Multiplayer mod
+#
+# by Foffy123
+########################################
+
+country_decisions = {
+
+	h_combat_janissary_decadence = {
+		major = yes
+		potential = {
+			tag = TUR
+			NOT = {
+				has_country_modifier = h_janissary_decadence
+			}
+		}
+		allow = {
+			tag = TUR
+			janissary_percentage = 0.1
+			stability = 1
+			mil_power = 100
+			
+		}
+		effect = {
+			add_mil_power = -150
+			add_country_modifier = {
+				name = "h_janissary_decadence"
+				duration = -1
+			}
+		}
+	}
+	h_ruler_tutor = {
+		major = yes
+		potential = {
+			ai = no
+			NOT = { has_country_flag = h_tutor_flag }
+			NOT = {
+				government = republic
+			}
+		}
+		allow = {
+			custom_trigger_tooltip = {
+				tooltip = h_ruler_tutor_tooltip
+				OR = {
+					NOT = {
+						adm = 3
+						dip = 3
+						mil = 3
+					}
+					NOT = {
+						adm = 5
+						dip = 2
+						mil = 2
+					}
+					NOT = {
+						adm = 2
+						dip = 5
+						mil = 2
+					}
+					NOT = {
+						adm = 2
+						dip = 2
+						mil = 5
+					}
+					NOT = {
+						adm = 4
+						dip = 2
+						mil = 3
+					}
+					NOT = {
+						adm = 4
+						dip = 3
+						mil = 2
+					}
+					NOT = {
+						adm = 3
+						dip = 4
+						mil = 2
+					}
+					NOT = {
+						adm = 2
+						dip = 4
+						mil = 3
+					}
+					NOT = {
+						adm = 2
+						dip = 3
+						mil = 4
+					}
+					NOT = {
+						adm = 3
+						dip = 2
+						mil = 4
+					}
+				}
+			}
+		}
+		effect = {
+			change_adm = 1
+			change_dip = 1
+			change_mil = 1
+			add_years_of_income = -0.5
+			set_country_flag = h_tutor_flag
+		}
+	}
+	h_austria-hungary_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_ahu_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = AHU }
+			OR = {
+				tag = HAB
+				tag = HUN
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				province_id = 129  # krain
+				province_id = 131  # zagrab
+				province_id = 152  # varasd
+				province_id = 1767 # slavonia
+				province_id = 1769 # gorz
+				province_id = 1826 # lika
+				province_id = 4173 # szerem
+				area = transdanubia_area
+				area = alfold_area
+				area = slovakia_area
+				area = transylvania_area
+				area = southern_transylvania_area
+				area = tirol_area
+				area = austria_proper_area
+				area = inner_austria_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			OR = {
+				NOT = { exists = HAB }
+				NOT = { exists = HUN }
+			}
+			transdanubia_area = { type = all is_core = ROOT owned_by = ROOT }
+			alfold_area = { type = all is_core = ROOT owned_by = ROOT }
+			slovakia_area = { type = all is_core = ROOT owned_by = ROOT }
+			transylvania_area = { type = all is_core = ROOT owned_by = ROOT }
+			southern_transylvania_area = { type = all is_core = ROOT owned_by = ROOT }
+			tirol_area = { type = all is_core = ROOT owned_by = ROOT }
+			austria_proper_area = { type = all is_core = ROOT owned_by = ROOT }
+			inner_austria_area = { type = all is_core = ROOT owned_by = ROOT }
+			owns_core_province = 129  # krain
+			owns_core_province = 131  # zagrab
+			owns_core_province = 152  # varasd
+			owns_core_province = 1767 # slavonia
+			owns_core_province = 1769 # gorz
+			owns_core_province = 1826 # lika
+			owns_core_province = 4173 # szerem
+		}
+	 	effect = {
+			change_tag = AHU
+			add_prestige = 25
+			set_government_rank = 3
+			AHU = {
+				set_capital = 134 # Wien
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_ahu_flag
+#			add_country_modifier = {
+#				name = "h_dual_monarchy"
+#				duration = -1
+#			}
+			swap_non_generic_missions = yes
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	h_found_riyadh = {
+		potential = {
+			tag = ARB
+			normal_or_historical_nations = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			owns = 4275
+			NOT = { has_country_flag = h_founded_riyadh }
+		}
+		allow = {
+			is_core = 4275
+			is_at_war = no
+			4275 = { has_province_modifier = h_fortified_oasis }
+		}
+		effect = {
+			4275 = {
+				change_province_name = "Riyadh"
+				rename_capital = "Riyadh"
+				add_base_tax = 4
+				add_base_manpower = 4
+				add_base_production = 4
+				change_trade_goods = cloth
+				center_of_trade = 1
+			}
+			add_prestige = 10
+			4275 = {
+				move_capital_effect = yes
+			}
+			set_country_flag = h_founded_riyadh
+		}
+	}
+	
+	h_sok_jihad = {
+		potential = {
+			tag = SOK
+			NOT = { has_country_flag = h_sok_declared_jihad }
+		}
+		allow = {
+			stability = 1
+			mil_power = 100
+		}
+		effect = {
+			add_mil_power = -100
+			set_country_flag = h_sok_declared_jihad
+			country_event = { id = hashmp.5 } #Jihad Event
+		}
+	}
+	
+	h_hab_scion = {
+		major = yes
+		potential = {
+			tag = HAB
+			NOT = { has_country_flag = h_hab_scion_adopted }
+		}
+		allow = {
+			stability = 1
+			has_heir = no
+			is_emperor = yes
+		}
+		effect = {
+			set_country_flag = h_hab_scion_adopted
+			country_event = { id = hashmp.6 } #Scion Event
+		}
+	}
+
+	h_unify_indochina = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = h_indochina_unified }
+			OR = {
+				tag = TAU
+				tag = AYU
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					OR = {
+						region = burma_region
+						region = indo_china_region
+					}
+					NOT = {
+						ROOT = {
+							num_of_owned_provinces_with = {
+								value = 75 #out of 34
+								is_core = root
+								OR = {
+									region = burma_region
+									region = indo_china_region
+								}
+							}
+						}
+					}
+				}
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			num_of_owned_provinces_with = {
+				value = 75 #out of 34
+				is_core = root
+				OR = {
+					region = burma_region
+					region = indo_china_region
+				}
+			}
+			is_at_war = no
+		}
+		effect = {
+			set_government_rank = 3
+			add_prestige = 25
+			set_country_flag = h_indochina_unified
+			add_country_modifier = {
+				name = "h_indochina_mod"
+				duration = -1
+			}
+		}
+	}
+	
+	h_remove_regency = {
+		major = yes
+		potential = {
+			ai = no
+			NOT = { has_country_flag = h_regency_flag }
+			NOT = {
+				government = republic
+			}
+		}
+		allow = {
+			has_regency = yes
+			has_consort_regency = no
+		}
+		effect = {
+			set_country_flag = h_regency_flag
+			country_event = { id = hashmp.9 } #Regency Event
+		}
+	}		
+	
+	h_lot_formation = {
+		major = yes
+		potential = {
+			ai = no
+			tag = BUR
+		}
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					OR = {
+						area = alsace_area
+						area = lower_rhineland_area
+						area = north_rhine_area
+						area = lorraine_area
+						area = wallonia_area
+						area = brabant_area
+						area = north_brabant_area
+						area = holland_area
+						area = frisia_area
+					}
+					NOT = {
+						ROOT = {
+							num_of_owned_provinces_with = {
+								value = 32 #out of 34
+								is_core = root
+								OR = {
+									area = alsace_area
+									area = lower_rhineland_area
+									area = lorraine_area
+									area = wallonia_area
+									area = brabant_area
+									area = north_brabant_area
+									area = holland_area
+									area = frisia_area
+									area = bourgogne_area
+									area = ile_de_france_area 
+									area = picardy_area
+									area = champagne_area 
+									area = orleans_area 
+								}
+							}
+						}
+					}
+				}
+				province_id = 1878
+				province_id = 189
+				province_id = 183
+				province_id = 184
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_at_war = no
+			owns_core_province = 1878
+			owns_core_province = 189
+			owns_core_province = 183
+			owns_core_province = 184
+			num_of_owned_provinces_with = {
+				value = 32 #out of 34
+				is_core = root
+				OR = {
+					area = alsace_area
+					area = lower_rhineland_area
+					area = lorraine_area
+					area = wallonia_area
+					area = brabant_area
+					area = north_brabant_area
+					area = holland_area
+					area = frisia_area
+					area = bourgogne_area
+					area = ile_de_france_area 
+					area = picardy_area
+					area = champagne_area 
+					area = orleans_area 
+				}
+			}
+		}
+		effect = {
+			country_event = { id = new_flavour_bur.4 }
+		}
+	}
+	
+	h_promote_colonel = {
+		potential = {
+			ai = no
+			NOT = { has_country_modifier = h_colonel_flag }
+		}
+		allow = {
+			mil_power = 25
+		}
+		effect = {
+				add_years_of_income = -0.2
+				create_general = { tradition = 50 }
+				add_country_modifier = {
+				name = "h_colonel_flag"
+				duration = 7300
+				hidden = yes
+				}
+	}
+}
+	h_butua_expedition = {
+		potential = {
+			ai = no
+			NOT = { has_country_flag = h_rzw_explore }
+			tag = RZW
+		}
+		allow = {
+			dip_power = 50
+		}
+		effect = {
+			central_africa_region = {
+				discover_country = ROOT
+			}
+			upper_zambezi_area = {
+				discover_country = ROOT
+			}
+			kasai_area = {
+				discover_country = ROOT
+			}
+			lower_kasai = {
+				discover_country = ROOT
+			}
+			set_country_flag = h_rzw_explore	
+		}
+	}
+	
+	h_bharat_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = formed_india_flag }
+			was_never_end_game_tag_trigger = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = BHA }
+			NOT = { exists = HIN }
+			NOT = { tag = MUG }
+			OR = {
+				tag = SRH
+				tag = DLH
+				tag = MER
+				tag = RJP
+				tag = PUN
+				tag = DEC
+				tag = BNG
+				tag = ORI
+				tag = VIJ
+				tag = GUJ
+				tag = JNP
+				tag = MLW
+				tag = NPL
+				tag = NAG
+				tag = MAR
+				tag = BAH
+			}
+			OR = {
+				religion_group = dharmic
+				religion = buddhism #Theravada
+				religion = vajrayana
+				religion = mahayana
+			}
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 15
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					superregion = india_superregion
+					NOT = {
+						ROOT = {
+							num_of_owned_provinces_with = {
+								value = 175
+								is_core = root
+								OR = {
+									region = india_superregion
+								}
+							}
+						}
+					}
+				}
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			num_of_owned_provinces_with = {
+				value = 175
+				is_core = root
+				OR = {
+					superregion = india_superregion
+				}
+			}
+		}
+		effect = {
+			change_tag = BHA
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 3
+			india_superregion = {
+				limit = {
+					NOT = {
+						owned_by = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = BHA
+			}
+			add_prestige = 50
+			set_country_flag = formed_india_flag
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+	}
+	
+	h_hindustan_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			NOT = { has_country_flag = formed_india_flag }
+			was_never_end_game_tag_trigger = yes
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = BHA }
+			NOT = { exists = HIN }
+			NOT = { tag = MUG }
+			OR = {
+				tag = SRH
+				tag = DLH
+				tag = MER
+				tag = RJP
+				tag = PUN
+				tag = DEC
+				tag = BNG
+				tag = ORI
+				tag = VIJ
+				tag = GUJ
+				tag = JNP
+				tag = MLW
+				tag = NPL
+				tag = NAG
+				tag = MAR
+				tag = BAH
+			}
+			religion_group = muslim
+			OR = {
+				ai = no
+				AND = {
+					ai = yes
+					num_of_cities = 15
+				}
+			}
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					superregion = india_superregion
+					NOT = {
+						ROOT = {
+							num_of_owned_provinces_with = {
+								value = 175
+								is_core = root
+								OR = {
+									region = india_superregion
+								}
+							}
+						}
+					}
+				}
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			num_of_owned_provinces_with = {
+				value = 175
+				is_core = root
+				OR = {
+					superregion = india_superregion
+				}
+			}
+		}
+		effect = {
+			change_tag = HIN
+			swap_non_generic_missions = yes
+			remove_non_electors_emperors_from_empire_effect = yes
+			set_government_rank = 3
+			india_superregion = {
+				limit = {
+					NOT = {
+						owned_by = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = HIN
+			}
+			add_prestige = 50
+			set_country_flag = formed_india_flag
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+	}
+	
+	h_zulu_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_zul_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = ZUL }
+			OR = {
+				tag = RZW
+				tag = ZIM
+				tag = ZAN
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = butua_area
+				area = zimbabwe_area
+				area = lower_zambezi_area
+				area = transvaal_area
+				area = highveld_area
+				area = limpopo_area
+				area = quelimane_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			butua_area = { type = all is_core = ROOT owned_by = ROOT }
+			zimbabwe_area = { type = all is_core = ROOT owned_by = ROOT }
+			lower_zambezi_area = { type = all is_core = ROOT owned_by = ROOT }
+			transvaal_area = { type = all is_core = ROOT owned_by = ROOT }
+			highveld_area = { type = all is_core = ROOT owned_by = ROOT }
+			limpopo_area = { type = all is_core = ROOT owned_by = ROOT }
+			quelimane_area = { type = all is_core = ROOT owned_by = ROOT }
+		}
+	 	effect = {
+			change_tag = ZUL
+			add_prestige = 25
+			set_government_rank = 3
+			ZUL = {
+			}
+			1181 = {
+				change_province_name = "Bulawayo"
+				rename_capital = "Bulawayo"
+			 	add_base_tax = 3
+				add_base_production = 3
+			 	add_base_manpower = 3
+				change_trade_goods = gold
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_zul_flag
+			swap_non_generic_missions = yes
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	h_unify_kongo = {
+		major = yes
+		potential = {
+			NOT = { has_country_flag = h_kongo_unify }
+			tag = KON
+		}
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					OR = {
+						AND = {
+							region = central_africa_region
+							is_empty = no
+						}
+						AND = {
+							area = kongo_region
+							is_empty = no
+						}
+					}
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			custom_trigger_tooltip = {
+				tooltip = h_kongo_unify_tooltip
+				central_africa_region = {
+					type = all
+					OR = {
+						is_empty = yes
+						AND = {
+							is_core = ROOT
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = h_kongo_unify_tooltip2
+				kongo_region = {
+					type = all
+					OR = {
+						is_empty = yes
+						AND = {
+							is_core = ROOT
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			set_government_rank = 3
+			add_prestige = 25
+			set_country_flag = h_kongo_unify
+			add_country_modifier = {
+				name = "h_kongo_mod"
+				duration = -1
+			}
+		}
+	}
+	
+	h_prospect_dec_manchu = {
+		potential = {
+			OR = {
+				tag = MJZ
+				tag = MCH
+				tag = QNG
+			}
+			NOT = { has_country_flag = h_prospect_manchu_flag }
+		}
+		allow = {
+			OR = {
+				tag = MCH
+				tag = QNG
+			}
+			owns = 2102 #Urkan
+			is_core = 2102
+			2102 = {
+				NOT = { trade_goods = gold }
+			}
+		}
+		effect = {
+			set_country_flag = h_prospect_manchu_flag
+			country_event = { id = hashmp.10 } #Manchu Gold Event
+		}
+	}
+	
+	h_prospect_dec_hengyang = {
+		potential = {
+			OR = {
+				tag = CXI
+				tag = CYI
+				tag = WUU
+				tag = QIC
+				tag = CSH
+				tag = YUE
+			}
+			NOT = { has_country_flag = h_prospect_hengyang_flag }
+		}
+		allow = {
+			OR = {
+				has_reform = h_reform_warlord_3
+				has_reform = h_reform_warlord_4
+			}
+			owns = 4841 #Hengyang
+			is_core = 4841
+			4841 = {
+				NOT = { trade_goods = gold }
+			}
+		}
+		effect = {
+			set_country_flag = h_prospect_hengyang_flag
+			country_event = { id = hashmp.11 } #Hengyang Gold Event
+		}
+	}
+
+	h_lombardy_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_lom_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			OR = {
+				tag = VEN
+				tag = MLO
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				area = po_valley_area
+				area = lombardy_area
+				area = venetia_area
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			adm_tech = 10
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			po_valley_area = { country_or_non_sovereign_subject_holds = ROOT }
+			lombardy_area = { country_or_non_sovereign_subject_holds = ROOT }
+			venetia_area = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+	 	effect = {
+			change_tag = LOM
+			if = {
+				limit = {
+					NOT = {
+						government_rank = 2
+					}
+				}
+				set_government_rank = 2
+			}
+			change_primary_culture = lombard
+			add_accepted_culture = venetian
+			add_prestige = 10
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_lom_flag
+			swap_non_generic_missions = yes
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	h_french_mercs_gascon = {
+		potential = {
+			tag = FRA
+			NOT = { has_country_flag = h_gascon_company_unlocked }
+		}
+		allow = {
+			mil_tech = 11
+			mil_power = 100
+		}
+		effect = {
+			set_country_flag = h_gascon_company_unlocked
+			add_mil_power = -100
+			add_years_of_income = -0.5
+			custom_tooltip = h_gascon_tt
+		}
+	}
+
+h_cav_ratio = {
+		major = yes
+		potential = {
+			ai = no
+			NOT = { has_country_flag = h_cav_ratio }
+		}
+		allow = {
+			mil_tech = 12
+		}
+		effect = {
+			set_country_flag = h_cav_ratio
+			add_country_modifier = {
+				name = h_cav_ratio
+				duration = -1
+		}
+	}		
+}	
+h_hire_explorer = {	
+		potential = {
+				is_bankrupt = no
+				ai = no
+				#has_institution = new_world_i
+				NOT = { has_country_modifier = hired_explorer }
+			}
+			allow = {
+				#has_institution = new_world_i
+			}
+			effect = {
+				add_years_of_income = -0.1
+				create_explorer = { tradition = 10 }
+				add_country_modifier = {
+				name = "hired_explorer"
+				duration = 1825
+				hidden = yes
+				}
+			}
+		}	
+		
+	h_hire_conquistador = {	
+		potential = {
+				is_bankrupt = no
+				ai = no
+				#has_institution = new_world_i
+				NOT = { has_country_modifier = hired_conquistador }
+			}
+			allow = {
+				#has_institution = new_world_i
+			}
+			effect = {
+				add_years_of_income = -0.2
+				create_conquistador = { tradition = 10 }
+				add_country_modifier = {
+				name = "hired_conquistador"
+				duration = 1825
+				hidden = yes
+				}
+			}	
+		}

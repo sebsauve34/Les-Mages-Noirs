@@ -1,0 +1,21 @@
+name = "MOR-GRA"
+war_goal = {
+	type = take_capital_imperial
+	casus_belli = cb_imperial
+}
+1443.1.1 = {
+	add_attacker = MOR
+	add_attacker = TUN
+	add_defender = GRA
+	add_defender = SIC
+	add_defender = NAP
+	add_defender = GEN
+}
+1444.8.1 = {
+	rem_attacker = MOR
+	rem_attacker = TUN
+	rem_defender = GRA
+	rem_defender = SIC
+	rem_defender = NAP
+	rem_defender = GEN
+}

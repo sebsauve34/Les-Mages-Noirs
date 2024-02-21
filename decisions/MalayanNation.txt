@@ -1,0 +1,160 @@
+country_decisions = {
+
+	malayan_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_malaya_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = MSA }
+			OR = {
+				tag = MAJ
+				tag = BEI
+				tag = MLC
+				tag = PSA
+				tag = SAK
+				tag = PGR
+				tag = PLB
+				tag = SUN
+				tag = BLI
+				tag = KUT
+				tag = KED
+				tag = PAT
+				tag = LIG
+				tag = CHA
+			}
+			NOT = { has_reform = steppe_horde }
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			OR = {
+				ai = no
+				num_of_cities = 12
+			}
+		}
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					OR = {
+						AND = {
+							region = indonesia_region
+							is_empty = no
+						}
+						AND = {
+							area = south_sumatra_area
+							is_empty = no
+						}
+						area = north_sumatra_area
+						area = batak_area
+						area = central_sumatra_area
+						area = minangkabau_area
+					}
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_nomad = no
+			is_at_war = no
+			north_sumatra_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			batak_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			central_sumatra_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			minangkabau_area = {
+				type = all
+				owned_by = ROOT
+				is_core = ROOT
+			}
+			custom_trigger_tooltip = {
+				tooltip = h_malaya_form_tooltip2
+				south_sumatra_area = {
+					type = all
+					OR = {
+						is_empty = yes
+						AND = {
+							is_core = ROOT
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+			custom_trigger_tooltip = {
+				tooltip = h_malaya_form_tooltip
+				indonesia_region = {
+					type = all
+					OR = {
+						is_empty = yes
+						AND = {
+							is_core = ROOT
+							owned_by = ROOT
+						}
+					}
+				}
+			}
+		}
+		effect = {
+			change_tag = MSA
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = {
+					NOT = { government_rank = 3 }
+				}
+				set_government_rank = 3
+			}
+			malaya_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = MSA
+			}
+			moluccas_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = MSA
+			}
+			indonesia_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = MSA
+			}
+			add_country_modifier = {
+				name = "centralization_modifier"
+				duration = 3650
+			}
+			set_country_flag = formed_malaya_flag
+			add_prestige = 25
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+}

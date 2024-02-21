@@ -1,0 +1,16 @@
+name = "FRA-BUR"
+war_goal = {
+	type = take_capital_imperial
+	casus_belli = cb_imperial
+}
+1443.1.1 = {
+	add_attacker = FRA
+	add_attacker = ENG
+	add_defender = BUR
+	
+}
+1444.8.1 = {
+	rem_attacker = FRA
+	rem_attacker = ENG
+	rem_defender = BUR
+}

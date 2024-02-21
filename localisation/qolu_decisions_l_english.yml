@@ -1,0 +1,69 @@
+﻿l_english:
+
+eco_golden_age_title:0 "Economic Golden Age"
+eco_golden_age_desc:0 " "
+
+#new player guide
+qolu_new_player_guide_title:0 "Read the New Player Guide"
+qolu_new_player_guide_desc:0 "An event popup to showcase all the new changes made to the mod to improve the new player experience."
+qolu_disable_guide_title:0 "Click to Disable New Player Guide Permanently"
+qolu_disable_guide_desc:0 "Decision for New Player Guide will Dissappear Permanently"
+
+
+#colonial game
+qolu_eur_colonists_title:0 "Delve into Colonial Matters"
+qolu_eur_colonists_desc:0 ""
+qolu_afr_colonists_title:0 "Delve into Colonial Matters"
+qolu_afr_colonists_desc:0 ""
+qolu_asia_colonists_title:0 "Delve into Colonial Matters"
+qolu_asia_colonists_desc:0 ""
+
+#trade hubs
+Create_a_Trade_Hub_title:0 "Create a Center of Trade"
+Create_a_Trade_Hub_desc:0 "At least one of our province has become a trade hub and could potentially become a center of trade, our merchants say. They would however, need some investment to make this happen."
+
+qolu_recruit_advisor_title:0 "Recruit Advisor"
+qolu_recruit_advisor_desc:0 ""
+
+
+qolu_national_debt_title:0 "Tackle the National Debt"
+qolu_national_debt_desc:0 "Our [Root.GovernmentName] has gone through tough times as of late, and now require drastic measures to solve this economic crisis."
+qolu_national_rebuilding_title:0 "Commence the National Rebuild"
+qolu_national_rebuilding_desc:0 "Now that our economic crisis is solved, our [Root.GovernmentName] can now begin to rebuild."
+
+ #Development Counter
+ echo_development_counter_title:0 "Total Development Improvements"
+ echo_development_counter_desc:0 "" 
+ echo_development_counter_tt:0 "Development Improvements:\n\n£adm£ Development Gained: §G[Root.echo_adm_dev_counter.GetValue]§! \n£dip£ Development Gained: §G[Root.echo_dip_dev_counter.GetValue]§! \n£mil£ Development Gained: §G[Root.echo_mil_dev_counter.GetValue]§! \n\nTotal Development Gained: §G[Root.echo_total_dev_counter.GetValue]§!"
+ echo_development_counter_tt_updater:0 "Add §YDevelopment Improvement Counter§!".
+
+#Wool to Cloth Conversion
+
+qolu_wool_into_cloth_d_title:0 "Change Wool into Cloth"
+qolu_wool_into_cloth_d_desc:0 ""
+qolu_wool_into_cloth:0 "Total Wool into Cloth changes"
+
+#All Seats into Parliament
+
+qolu_all_seats_parliament_title:0 "Set All Provinces into Parliament."
+qolu_all_seats_parliament_desc:0 ""
+
+#Over Force Limit Checker
+
+qolu_check_forcelimit_debuff_title:0 "Check Current Over Force Limit Debuffs".
+qolu_check_forcelimit_debuff_desc:0 "Hover the Checkbox to see current debuffs from being over Force Limit"
+
+qolu_debuff_t0:0 "Currently Using Less than §Y125%§! of our §YForce Limit§! and receive no debuffs."
+qolu_debuff_t1:0 "Currently Using More than §Y125%§!, but less than §Y150%§! of our §YForce Limit§!, Receive the §YFollowing§! §RDebuffs§!:\n\n§YNational Unrest§! §R+2§!\n§YLand Maintenance§! §R+15%§!\n§YReinforce Speed§! §R-5%§!\n§YReinforce Cost§! §R+15%§!"
+qolu_debuff_t2:0 "Currently Using More than §Y150%§!, but less than §Y175%§! of our §YForce Limit§!, Receive the §YFollowing§! §RDebuffs§!:\n\n§YNational Unrest§! §R+4§!\n§YLand Maintenance§! §R+40%§!\n§YReinforce Speed§! §R-10%§!\n§YReinforce Cost§! §R+30%§!"
+qolu_debuff_t3:0 "Currently Using More than §Y175%§!, but less than §Y250%§! of our §YForce Limit§!, Receive the §YFollowing§! §RDebuffs§!:\n\n§YNational Unrest§! §R+6§!\n§YLand Maintenance§! §R+65%§!\n§YReinforce Speed§! §R-5%§!\n§YReinforce Cost§! §R+45%§!"
+qolu_debuff_t4:0 "Currently Using More than §Y250%§! of our §YForce Limit§!, Receive the §YFollowing§! §RDebuffs§!:\n\n§YNational Unrest§! §R+8§!\n§YLand Maintenance§! §R+90%§!\n§YReinforce Speed§! §R-20%§!\n§YReinforce Cost§! §R+60%§!\n§YGoods Produced Modifier§! §R-20%§!"
+
+
+
+PR_critical_events_title: "Remaining Critical Events"
+PR_critical_events_desc: ""
+PR_radical_reform_decision: "Radical Reforms"
+PR_military_reform_decision: "Military Reforms"
+PR_commandant_decision: "Inspirational Leader"
+PR_grand_captain_decision: "Grand Captain"

@@ -1,0 +1,36 @@
+﻿l_english:
+
+minor:0 "Minor Nation"
+imperial_ambition:0 "Imperial Ambition"
+war_chest:0 "War Chest"
+ahead_of_time:0 "Ahead of Time"
+qolu_expansion_1:0 "Fledgeling Realm"
+qolu_expansion_2:0 "Budding Nation"
+qolu_expansion_3:0 "Rising Power"
+qolu_expansion_4:0 "World Power"
+
+qolu_draft_reward:0 "Increased Recruitment"
+
+economic_golden_age:0 "Economic Golden Age"
+
+disc_event_cd:0 "Commandant Cooldown"
+morale_event_cd:0 "Grand Captain Cooldown"
+qolu_over_merc_fl:0 "Reliance on Mercenaries"
+qolu_over_merc_fl_2:0 "Complete Over-reliance on Mercenaries"
+qolu_tackle_debt:0 "Tackling the National Debt"
+qolu_national_rebuild:0 "Recovering the Nation"
+
+qolu_silk_production:0 "Neopolitan Silk Production"
+qolu_italian_breweries_g:0 "Italian Breweries"
+qolu_italian_breweries_w:0 "Italian Breweries"
+
+swiss_mountains_development:0 "Mountain Development"
+
+ qolu_frn_semi_strict_army:0 "Semi-strict Army"
+ qolu_frn_strict_army:0 "Strict Army"
+ qolu_rhenish_mercenaries:0 "Mercenaries of the Rhine"
+ qolu_frn_construction:0 "Construction of the Realm"
+ qolu_master_of_rhine:0 "Ruler of the Rhine"
+
+ #Beyond the cape integration 
+

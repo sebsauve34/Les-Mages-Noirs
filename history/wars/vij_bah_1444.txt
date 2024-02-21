@@ -1,0 +1,13 @@
+name = "VIJ-BAH"
+war_goal = {
+	type = take_capital_imperial
+	casus_belli = cb_imperial
+}
+1443.1.1 = {
+	add_attacker = VIJ
+	add_defender = BAH
+}
+1444.8.1 = {
+	rem_attacker = VIJ
+	rem_defender = BAH
+}

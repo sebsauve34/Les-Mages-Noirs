@@ -1,0 +1,176 @@
+country_decisions = {
+	divine_stratagem = {
+		color = { 166  0  0 }
+		potential = {
+            full_idea_group = theocracy_gov_ideas
+		}
+		allow = {
+            army_professionalism = 0.1
+			is_at_war = yes
+			NOT = {
+				has_country_modifier = divine_stratagem 
+			}
+		}
+		effect = {
+            add_army_professionalism = -0.1
+			add_country_modifier = {
+			    name = divine_stratagem 
+				duration = 1865
+			}
+	
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	traditional_stratagem = {
+		color = { 166  0  0 }
+		potential = {
+            full_idea_group = aristocracy_ideas 
+		}
+		allow = {
+            army_professionalism = 0.1
+			is_at_war = yes
+			NOT = {
+				has_country_modifier = traditional_stratagem
+			}
+		}
+		effect = {
+            add_army_professionalism = -0.1
+			add_country_modifier = {
+			    name = traditional_stratagem
+				duration = 1865
+			}
+	
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	
+	strategic_stratagem = {
+		color = { 166  0  0 }
+		potential = {
+            full_idea_group = plutocracy_ideas 
+		}
+		allow = {
+            army_professionalism = 0.10
+			is_at_war = yes
+			NOT = {
+				has_country_modifier = strategic_stratagem
+			}
+		}
+		effect = {
+            add_army_professionalism = -0.10
+			add_country_modifier = {
+			    name = strategic_stratagem
+				duration = 1865
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+	
+	offensive_stratagem = {
+		color = { 166  0  0 }
+		potential = {
+            full_idea_group = offensive_ideas
+		}
+		allow = {
+            army_professionalism = 0.10
+			is_at_war = yes
+			NOT = {
+				has_country_modifier = offensive_stratagem
+			}
+		}
+		effect = {
+            add_army_professionalism = -0.10
+			add_country_modifier = {
+			    name = offensive_stratagem
+				duration = 1865
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+
+	defensive_stratagem = {
+		color = { 166  0  0 }
+		potential = {
+            full_idea_group = defensive_ideas
+		}
+		allow = {
+            army_professionalism = 0.10
+			is_at_war = yes
+			NOT = {
+				has_country_modifier = defensive_stratagem
+			}
+		}
+		effect = {
+            add_army_professionalism = -0.10
+			add_country_modifier = {
+			    name = defensive_stratagem
+				duration = 1865
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+
+	quality_stratagem = {
+		color = { 166  0  0 }
+		potential = {
+            full_idea_group = quality_ideas
+		}
+		allow = {
+            army_professionalism = 0.10
+			is_at_war = yes
+			NOT = {
+				has_country_modifier = quality_stratagem
+			}
+		}
+		effect = {
+            add_army_professionalism = -0.10
+			add_country_modifier = {
+			    name = quality_stratagem
+				duration = 1865
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+
+	quantity_stratagem = {
+		color = { 166  0  0 }
+		potential = {
+            full_idea_group = quantity_ideas
+		}
+		allow = {
+            army_professionalism = 0.10
+			is_at_war = yes
+			NOT = {
+				has_country_modifier = quantity_stratagem
+			}
+		}
+		effect = {
+            add_army_professionalism = -0.10
+			add_country_modifier = {
+			    name = quantity_stratagem
+				duration = 1865
+			}
+			
+		}
+		ai_will_do = {
+			factor = 0.1
+		}
+	}
+
+}

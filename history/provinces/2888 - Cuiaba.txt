@@ -1,0 +1,22 @@
+# - Cuiaba
+
+culture = ge
+discovered_by = south_american
+religion = animism
+capital = "Cuiaba"
+trade_goods = coffee
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+1719.4.8 = {
+	discovered_by = POR
+	owner = POR
+	controller = POR
+	add_core = POR
+	is_city = yes
+	culture = portugese
+	religion = catholic
+	trade_goods = slaves
+} 

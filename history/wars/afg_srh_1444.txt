@@ -1,0 +1,13 @@
+name = "AFG-SRH"
+war_goal = {
+	type = take_capital_imperial
+	casus_belli = cb_imperial
+}
+1443.1.1 = {
+	add_attacker = AFG
+	add_defender = SRH
+}
+1444.8.1 = {
+	rem_attacker = AFG
+	rem_defender = SRH
+}

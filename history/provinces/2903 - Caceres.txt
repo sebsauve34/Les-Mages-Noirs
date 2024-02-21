@@ -1,0 +1,23 @@
+# - Caceres
+
+culture = maipurean
+discovered_by = south_american
+religion = animism
+capital = "Caceres"
+trade_goods = gold
+hre = no
+base_tax = 1
+base_production = 1
+base_manpower = 1
+
+
+1778.10.6 = {
+	discovered_by = POR
+	owner = POR
+	controller = POR
+	add_core = POR
+	is_city = yes
+	culture = portugese
+	religion = catholic
+	trade_goods = grain
+} 

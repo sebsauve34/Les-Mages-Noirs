@@ -1,0 +1,35 @@
+#Hashmp Starting Diplomacy
+vassal = {
+	first = TUN
+	second = GHD
+	start_date = 1444.1.1
+	end_date = 1644.1.1
+}
+vassal = {
+	first = TUN
+	second = FZA
+	start_date = 1444.1.1
+	end_date = 1644.1.1
+}
+
+vassal = {
+	first = MER
+	second = JSL
+	start_date = 1444.1.1
+	end_date = 1644.1.1
+}
+
+#vassal = {
+#	first = GEN
+#	second = SZO
+#	start_date = 1444.1.1
+#	end_date = 1644.1.1
+#}
+
+dependency = {
+	subject_type = "tributary_state"
+	first = GOL
+	second = MOS
+	start_date = 1444.1.1
+	end_date = 1644.4.22
+}

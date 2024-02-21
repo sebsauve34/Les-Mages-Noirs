@@ -1,0 +1,20 @@
+government = native
+add_government_reform = h_reform_native_kingdom
+government_rank = 2
+primary_culture = blackfoot
+religion = totemism
+technology_group = north_american
+capital = 2501 # Niitsitapi
+
+
+1410.1.1 = {
+	monarch = {
+		name = "Zaibou the Zoopega"
+		adm = 5
+		dip = 5
+		mil = 5
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = infertile_personality
+	add_ruler_personality = immortal_personality
+}

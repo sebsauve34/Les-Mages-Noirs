@@ -1,0 +1,122 @@
+country_decisions = {
+
+	sokoto_nation = {
+		major = yes
+		potential = {
+			normal_or_historical_nations = yes
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_sokoto_flag }
+			OR = {
+				ai = no
+				is_playing_custom_nation = no
+			}
+			NOT = { exists = SOK }
+			is_colonial_nation = no
+			OR = {
+				is_former_colonial_nation = no
+				AND = {
+					is_former_colonial_nation = yes
+					ai = no
+				}
+			}
+			OR = {
+				tag = MAL
+				tag = SON
+				tag = TUN
+				tag = MOR
+			}
+			#has_country_flag = sok_dan_fodio_happened
+		}
+		provinces_to_highlight = {
+			OR = {
+				AND = {
+					OR = {
+						region = sahel_region
+						region = niger_region
+						region = guinea_region
+					}
+					NOT = {
+						ROOT = {
+							num_of_owned_provinces_with = {
+								value = 50
+								is_core = root
+								OR = {
+									region = sahel_region
+									region = niger_region
+									region = guinea_region
+								}
+							}
+						}
+					}
+				}
+			}
+			OR = {
+				NOT = { owned_by = ROOT }
+				NOT = { is_core = ROOT }
+			}
+		}
+		allow = {
+			is_free_or_tributary_trigger = yes
+			is_at_war = no
+			religion_group = muslim
+			num_of_owned_provinces_with = {
+				value = 50
+				is_core = root
+				OR = {
+					region = sahel_region
+					region = niger_region
+				}
+			}
+		}
+		effect = {
+			niger_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = SOK
+			}
+			sahel_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = SOK
+			}
+			guinea_region = {
+				limit = {
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = SOK
+			}
+			add_prestige = 25
+			change_tag = SOK
+			#swap_non_generic_missions = yes
+			change_technology_group = muslim
+			change_unit_type = muslim
+			if = {
+				limit = {
+					NOT = { government = monarchy }
+					is_revolutionary = no
+				}
+				change_government_to_monarchy = yes
+			}
+			if = {
+				limit = { is_revolutionary = no }
+				add_government_reform = feudal_theocracy
+			}
+			remove_non_electors_emperors_from_empire_effect = yes
+			if = {
+				limit = { NOT = { government_rank = 3 } }
+				set_government_rank = 3
+			}
+			if = {
+				limit = { has_custom_ideas = no }
+				country_event = { id = ideagroups.1 } #Swap Ideas
+			}
+			set_country_flag = formed_sokoto_flag
+		}
+		ai_importance = 400 #The countries that qualify will hate the holder of Sokoto.
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

@@ -1,0 +1,7 @@
+﻿l_english:
+
+estate_burghers_swiss_mountains:0 "Mountain Development"
+estate_burghers_swiss_mountains_desc:0 ""
+unlocked_swiss_mountains_tt: "Unlock §YBurgher Privilege§! which grants the following: \n\nAny province that is a §Ymountain§! gains §G-10%§! §Ydevelopment cost.§!\n"
+estate_burghers_swiss_mountains_gt:0 "Every mountain province will gain §G-10%§! §Ydevelopment cost.§!"
+estate_burghers_swiss_mountains_rt:0 "Every mountain province will lose §G-10%§! §Ydevelopment cost.§!"

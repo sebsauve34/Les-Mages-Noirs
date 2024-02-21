@@ -1,0 +1,13 @@
+name = "LIT-MOS"
+war_goal = {
+	type = take_capital_imperial
+	casus_belli = cb_imperial
+}
+1443.1.1 = {
+	add_attacker = LIT
+	add_defender = MOS
+}
+1444.8.1 = {
+	rem_attacker = LIT
+	rem_defender = MOS
+}

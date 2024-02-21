@@ -1,0 +1,527 @@
+qolu_frn_slot_1 = {
+	slot = 1
+	generic = no 
+	ai = yes
+	potential = {
+		OR = {
+			tag = FRN
+			tag = WES
+		}
+	}
+	has_country_shield = yes
+
+	qolu_frn_1_1 = {
+		position = 2
+		icon = avoid_fragmentation
+
+		required_missions = { qolu_frn_3_1 }
+		provinces_to_highlight = {
+		}
+
+		trigger = {
+			grown_by_development = 100
+		}
+
+		effect = {
+			hesse_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			franconia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	qolu_frn_1_2 = {
+		position = 3
+		icon = fra_refine_bombards
+		required_missions = { qolu_frn_1_1 }
+
+		trigger = {
+			army_professionalism = 0.4
+		}
+
+		effect = {
+			add_army_professionalism = 0.1
+			add_country_modifier = {
+				name = qolu_frn_semi_strict_army
+				duration = -1
+			}
+		}
+	}
+
+	qolu_frn_1_3 = {
+		position = 4
+		icon = military_masters
+		required_missions = { qolu_frn_1_2 }
+
+		trigger = {
+			army_professionalism = 1
+			army_tradition = 90
+			monthly_mil = 15
+		}
+
+		effect = {
+			custom_tooltip = qolu_strict_army_replaced_tt
+			hidden_effect = {
+				remove_country_modifier = qolu_frn_semi_strict_army
+
+			}
+			add_country_modifier = {
+				name = qolu_frn_strict_army
+				duration = -1
+			}
+		}
+	}
+}
+
+qolu_frn_slot_2 = {
+	slot = 2
+	generic = no 
+	ai = yes
+	potential = {
+		OR = {
+			tag = FRN
+			tag = WES
+		}
+	}
+	has_country_shield = yes
+
+	qolu_frn_2_1 = {
+		position = 2
+		icon = claim_the_borderlands
+		required_missions = { qolu_frn_3_1 }
+		provinces_to_highlight = {
+			area = hesse_area
+			NOT = { owned_by = ROOT }
+		}
+
+		trigger = {
+			hesse_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+
+		effect = {
+			lower_rhineland_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			north_rhine_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			westphalia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	qolu_frn_2_2 = {
+		position = 3
+		icon = mission_diplomatic_relation
+		required_missions = {
+			qolu_frn_2_1
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				area = lower_rhineland_area
+				area = north_rhine_area
+				area = westphalia_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = {
+			lower_rhineland_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			north_rhine_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			westphalia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			north_westphalia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			braunschweig_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	qolu_frn_2_3 = {
+		position = 4
+		icon = take_the_bishoprics
+		required_missions = {
+			qolu_frn_2_2
+		}
+
+		provinces_to_highlight = {
+			OR = {
+				area = north_westphalia_area
+				area = braunschweig_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+
+		trigger = {
+			north_westphalia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			braunschweig_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			add_country_modifier = {
+				name = qolu_rhenish_mercenaries
+				duration = 10950
+			}
+		}
+	}
+}
+
+qolu_frn_slot_3 = {
+	slot = 3
+	generic = no 
+	ai = yes
+	potential = {
+		OR = {
+			tag = FRN
+			tag = WES
+		}
+	}
+	has_country_shield = yes
+
+	qolu_frn_3_1 = {
+		position = 1
+		icon = imperial_capitals
+
+		required_missions = {}
+		provinces_to_highlight = {
+			province_id = 1876
+		}
+
+		trigger = {
+			1876 = {
+				base_production = 9
+			}
+			army_size_percentage = 1
+			num_of_generals = 1
+		}
+
+		effect = {
+			hesse_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			franconia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+
+	qolu_frn_3_2 = {
+		position = 4
+		icon = mission_early_modern_university
+
+		required_missions = { 
+			qolu_frn_2_2
+			qolu_frn_3_1
+			qolu_frn_4_2
+		}
+		provinces_to_highlight = {
+			OR  ={
+				province_id = 1876
+				province_id = 78
+				province_id = 85
+				province_id = 67
+			}
+		}
+
+		trigger = {
+			1876 = {
+				base_production = 14
+				owned_by = ROOT
+			}
+			78 = {
+				base_production = 14
+				owned_by = ROOT
+			}
+			85 = {
+				base_production = 14
+				owned_by = ROOT
+
+			}
+			67 = {
+				base_production = 14
+				owned_by = ROOT
+			}
+		}
+
+		effect = {
+			add_years_of_owned_provinces_production_income = {
+				years = 7
+				trigger = {
+					trade_goods = paper
+				}
+			}
+		}
+	}
+}
+
+qolu_frn_slot_4 = {
+	slot = 4
+	generic = no 
+	ai = yes
+	potential = {
+		OR = {
+			tag = FRN
+			tag = WES
+		}
+	}
+	has_country_shield = yes
+
+	qolu_frn_4_1 = {
+		position = 2
+		icon = conquer_franconia
+
+		required_missions = { qolu_frn_3_1 }
+		provinces_to_highlight = {
+			area = franconia_area
+			NOT = { owned_by = ROOT }
+		}
+
+		trigger = {
+			franconia_area = {
+				type = all
+				owned_by = ROOT
+			}
+		}
+
+		effect = {
+			upper_franconia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			thuringia_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	qolu_frn_4_2 = {
+		position = 3
+		icon = a_question_of_spain
+
+		required_missions = { qolu_frn_4_1 }
+		provinces_to_highlight = {
+			OR = {
+				area = upper_franconia_area
+				area = thuringia_area
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+		}
+		
+
+		trigger = {
+			upper_franconia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			thuringia_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+
+		effect = {
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+		}
+	}
+
+	qolu_frn_4_3 = {
+		position = 5
+		icon = a_question_of_spain
+
+		required_missions = {
+			qolu_frn_1_3 
+			qolu_frn_2_3  
+			qolu_frn_4_2
+			qolu_frn_5_3  
+		}
+		provinces_to_highlight = {
+		}
+		
+
+		trigger = {
+			1876 = {
+				trade_share = {
+					country = ROOT
+					share = 75
+				}
+				
+			}
+			monthly_income = 150
+			num_of_owned_provinces_with = {
+				value = 10
+				province_has_center_of_trade_of_level = 3
+			}
+		}
+
+		effect = {
+			change_ruler_stat = {
+				stat = adm
+				value = 2
+			}
+			change_ruler_stat = {
+				stat = dip
+				value = 2
+			}			change_ruler_stat = {
+				stat = mil
+				value = 2
+			}
+			add_prestige = 50
+			add_stability = 1
+			add_treasury = 1000
+			add_country_modifier = {
+				name = qolu_master_of_rhine
+				duration = -1
+			}
+		}
+	}
+}
+
+qolu_frn_slot_5 = {
+	slot = 5
+	generic = no 
+	ai = yes
+	potential = {
+		OR = {
+			tag = FRN
+			tag = WES
+		}
+	}
+	has_country_shield = yes
+	
+	qolu_frn_5_1 = {
+		position = 1
+		icon = mission_monarch_in_throne_room
+		required_missions = { }
+		provinces_to_highlight = {
+		}
+
+		trigger = {
+			monthly_adm = 8
+			monthly_dip = 8
+			monthly_mil = 11
+		}
+
+		effect = {
+			add_stability = 1
+			add_army_tradition = 25
+		}
+	}
+
+	qolu_frn_5_2 = {
+		position = 2
+		icon = mission_monarch_in_throne_room
+		required_missions = { qolu_frn_5_1}
+		provinces_to_highlight = {
+		}
+
+		trigger = {
+			has_advisor_of_type_and_level = {
+				type = adm
+				level = 4
+			}
+			has_advisor_of_type_and_level = {
+				type = dip
+				level = 4
+			}
+			has_advisor_of_type_and_level = {
+				type = mil
+				level = 4
+			}
+		}
+
+		effect = {
+			add_stability = 1
+			add_army_tradition = 25
+		}
+	}
+
+	qolu_frn_5_3 = {
+		position = 4
+		icon = reform_bergordnung
+		required_missions = {
+			qolu_frn_5_2
+		}
+		trigger = {
+			crown_land_share = 50
+		}
+
+		effect = {
+			add_stability = 1
+			take_estate_land_share_massive = { estate = all }
+			add_country_modifier = {
+				name = qolu_frn_construction
+				duration = 3650
+			}
+		}
+	}
+}
+

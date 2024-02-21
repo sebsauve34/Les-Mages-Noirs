@@ -1,0 +1,15 @@
+name = "OIR-SHY"
+war_goal = {
+	type = take_capital_imperial
+	casus_belli = cb_imperial
+}
+1443.1.1 = {
+	add_attacker = OIR
+	add_attacker = CHG
+	add_defender = SHY
+}
+1444.8.1 = {
+	rem_attacker = OIR
+	rem_attacker = CHG
+	rem_defender = SHY
+}

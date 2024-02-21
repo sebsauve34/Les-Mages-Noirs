@@ -1,0 +1,6 @@
+spriteTypes = {
+	spriteType = {
+		name = "military_masters"
+		texturefile = "gfx//interface//missions//mission_military_masters.dds"
+	}
+}

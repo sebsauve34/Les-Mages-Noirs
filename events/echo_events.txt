@@ -1,0 +1,98 @@
+namespace = echo
+###we stand alone dev event####
+country_event = {
+    id = echo.2
+    title = echo.2.t
+    desc = echo.2.d
+    picture = COURT_eventPicture
+
+    trigger = {
+            has_country_modifier = imperial_ambition
+			NOT = {
+				has_country_modifier = burnt_development
+			}
+			NOT = { 
+				any_neighbor_country = {
+					 	truce_with = ROOT
+						has_opinion_modifier = {
+							modifier = vassal_abandoned
+							who = FROM
+						}
+				
+				}	
+			}	
+			NOT = {
+				has_country_modifier = echo_development
+			}	
+    }
+    mean_time_to_happen = {
+        months = 12
+    }
+	
+    option = {
+		name = echo.2.a
+		add_country_modifier = {
+				name = echo_development
+				duration = 5475
+			}
+	}
+}
+
+country_event = {
+    id = echo.4
+	title = echo.4.t
+    desc = echo.4.d
+	picture = MERCHANTS_TALKING_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {	
+		name = echo.4.a	
+		if = {
+			limit = {
+				any_owned_province = {		
+					is_state = yes
+					NOT = {
+						province_has_center_of_trade_of_level = 1
+					}
+					development = 30
+					OR = {
+						has_building = marketplace
+						has_building = trade_depot
+						has_building = stock_exchange
+					}
+				}
+			}
+			random_owned_province = {
+				limit = {
+					area_for_scope_province = {
+							type = all
+							NOT = {
+								province_has_center_of_trade_of_level = 1
+							}
+						}
+					NOT = {
+						province_has_center_of_trade_of_level = 1
+					}
+					is_state = yes
+					development = 30
+					OR = {
+						has_building = marketplace
+						has_building = trade_depot
+						has_building = stock_exchange
+					}
+				}
+				add_base_production = 2
+				center_of_trade = 1
+				add_province_modifier = {
+					name = "trade_hub_created_in_province"
+					duration = 3650
+				}
+				add_country_modifier = {
+					name = "trade_hub_created"
+					duration = 3650
+				}
+			}
+		}
+	}	
+}	

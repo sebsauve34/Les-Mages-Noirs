@@ -1,0 +1,15 @@
+name = "MAM-SHM"
+war_goal = {
+	type = take_capital_imperial
+	casus_belli = cb_imperial
+}
+1443.1.1 = {
+	add_attacker = MAM
+	add_defender = SHM
+	add_defender = AKK
+}
+1444.8.1 = {
+	rem_attacker = MAM
+	rem_defender = SHM
+	rem_defender = AKK
+}
