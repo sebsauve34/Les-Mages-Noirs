@@ -17,7 +17,7 @@
 #250
 
 #h_merc_d_250_large_1 = {
-#	regiments_per_development = 0.06
+#	regiments_per_development = 0.01
 #	cavalry_weight = 0.0
 #	artillery_weight = 0.0
 #	cost_modifier = 1
