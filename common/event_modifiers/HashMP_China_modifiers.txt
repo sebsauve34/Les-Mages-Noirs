@@ -1,0 +1,293 @@
+########################################
+# Custom modifiers for Foffy's China in HashMP
+#
+# by Foffy123
+########################################
+
+h_sichuan_basin = {
+	trade_goods_size = 2.0
+}
+
+h_commandery_province = {
+	local_core_creation = 0.5
+	local_state_maintenance_modifier = -0.5
+	allowed_num_of_buildings = 1
+}
+
+h_warlord_startmod = {
+	global_tax_income = 18
+	land_morale = 0.05
+}
+
+h_wu_armada = {
+	heavy_ship_power = 0.1
+}
+
+h_china_wonders = {
+	all_power_cost = -0.1
+}
+
+h_csh_anc1_1 = {
+	movement_speed = 0.1
+	reinforce_speed = 0.1
+}
+
+h_csh_anc1_2 = {
+	global_tax_modifier = 0.1
+}
+
+h_csh_anc1_3 = {
+	advisor_cost = -0.1
+	global_unrest = 1
+}
+
+h_csh_anc2_1 = {
+	global_unrest = -1
+	governing_capacity = 150
+}
+
+h_csh_anc2_2 = {
+	diplomatic_annexation_cost = -0.2
+}
+
+h_csh_anc2_3 = {
+	province_warscore_cost = -0.1
+}
+
+h_csh_anc3_1 = {
+	global_manpower_modifier = 0.2
+}
+
+h_csh_anc3_2 = {
+	infantry_power = 0.1
+}
+
+h_csh_anc3_3 = {
+	build_cost = -0.1
+	development_cost = -0.05
+}
+
+h_cxi_anc1_1 = {
+	global_trade_goods_size_modifier = 0.05
+}
+
+h_cxi_anc1_2 = {
+	global_tax_modifier = 0.1
+}
+
+h_cxi_anc1_3 = {
+	idea_cost = -0.05
+}
+
+h_cxi_anc2_1 = {
+	global_manpower_modifier = 0.1
+	global_unrest = 1
+}
+
+h_cxi_anc2_2 = {
+	trade_efficiency = 0.1
+	global_unrest = 1
+}
+
+h_cxi_anc2_3 = {
+	technology_cost = -0.1
+	global_unrest = 1
+}
+
+h_cxi_anc3_1 = {
+	development_cost = -0.1
+}
+
+h_cxi_anc3_2 = {
+	land_morale = 0.1
+}
+
+h_cxi_anc3_3 = {
+	country_military_power = 1
+	army_tradition_decay = -0.01
+}
+
+h_cyi_anc1_1 = {
+	production_efficiency = 0.1
+}
+
+h_cyi_anc1_2 = {
+	diplomatic_upkeep = 2
+}
+
+h_cyi_anc1_3 = {
+	years_of_nationalism = -5
+}
+
+h_cyi_anc2_1 = {
+	leader_land_shock = 1
+}
+
+h_cyi_anc2_2 = {
+	manpower_recovery_speed = 0.1
+}
+
+h_cyi_anc2_3 = {
+	shock_damage = 0.1
+}
+
+h_cyi_anc3_1 = {
+	cavalry_power = 0.2
+	cav_to_inf_ratio = 0.3
+}
+
+h_cyi_anc3_2 = {
+	artillery_power = 0.1
+}
+
+h_cyi_anc3_3 = {
+	infantry_power = 0.1
+}
+
+h_qic_anc1_1 = {
+	production_efficiency = 0.1
+}
+
+h_qic_anc1_2 = {
+	infantry_cost = -0.05
+}
+
+h_qic_anc1_3 = {
+	interest = -0.25
+}
+
+h_qic_anc2_1 = {
+	shock_damage_received = -0.1
+}
+
+h_qic_anc2_2 = {
+	defensiveness = 0.1
+	fort_maintenance_modifier = -0.1
+}
+
+h_qic_anc2_3 = {
+	naval_morale = 0.1
+}
+
+h_qic_anc3_1 = {
+	country_military_power = 1
+}
+
+h_qic_anc3_2 = {
+	country_diplomatic_power = 1
+	dip_tech_cost_modifier = -0.1
+}
+
+h_qic_anc3_3 = {
+	country_admin_power = 1
+	adm_tech_cost_modifier = -0.1
+}
+
+h_wuu_anc1_1 = {
+	global_prov_trade_power_modifier = 0.1
+}
+
+h_wuu_anc1_2 = {
+	merc_maintenance_modifier = -0.15
+}
+
+h_wuu_anc1_3 = {
+	naval_forcelimit_modifier = 0.1
+	blockade_efficiency = 0.25
+}
+
+h_wuu_anc2_1 = {
+	global_trade_goods_size_modifier = 0.1
+}
+
+h_wuu_anc2_2 = {
+	global_ship_cost = -0.1
+}
+
+h_wuu_anc2_3 = {
+	colonists = 1
+	colonist_placement_chance = 0.03
+}
+
+h_wuu_anc3_1 = {
+	mercenary_discipline = 0.05
+}
+
+h_wuu_anc3_2 = {
+	backrow_artillery_damage = 0.1
+}
+
+h_wuu_anc3_3 = {
+	may_perform_slave_raid = yes
+	privateer_efficiency = 0.5
+}
+
+h_yue_anc1_1 = {
+	land_attrition = -0.1
+}
+
+h_yue_anc1_2 = {
+	vassal_income = 0.25
+	diplomatic_upkeep = 1
+}
+
+h_yue_anc1_3 = {
+	core_creation = -0.1
+}
+
+h_yue_anc2_1 = {
+	trade_efficiency = 0.1
+}
+
+h_yue_anc2_2 = {
+	inflation_reduction = 0.2
+	global_trade_goods_size_modifier = 0.05
+}
+
+h_yue_anc2_3 = {
+	build_cost = -0.05
+	build_time = -0.1
+}
+
+h_yue_anc3_1 = {
+	fire_damage = 0.1
+	fire_damage_received = -0.1
+}
+
+h_yue_anc3_2 = {
+	land_forcelimit_modifier = 0.25
+	global_manpower_modifier = 0.15
+}
+
+h_yue_anc3_3 = {
+	land_morale = 0.1
+}
+
+h_chinese_empire = {
+	global_unrest = -2
+	global_autonomy = -0.1
+}
+
+h_csh_legacy = {
+	land_morale = 0.1
+}
+
+h_cxi_legacy = {
+	discipline = 0.05
+}
+
+h_cyi_legacy = {
+	shock_damage = 0.2
+}
+
+h_qic_legacy = {
+	shock_damage_received = -0.15
+}
+
+h_wuu_legacy = {
+	advisor_cost = -0.25
+}
+
+h_yue_legacy = {
+	global_manpower_modifier = 0.33
+}

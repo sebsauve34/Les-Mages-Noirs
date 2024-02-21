@@ -1,0 +1,41 @@
+EGY_ideas = {
+
+	start = {
+		global_regiment_cost = -0.05
+		cavalry_power = 0.1
+	}
+
+	bonus = {
+		land_forcelimit_modifier = 0.25
+	}
+
+	trigger = {
+		tag = EGY
+	}
+    free = yes       #will be added at load.
+
+	egy_centralization_works = {
+		production_efficiency = 0.1
+		development_cost = -0.1
+	}
+	training_missions_in_egypt = {
+		manpower_recovery_speed = 0.15
+	}
+	legacy_of_the_karimis = {
+		reinforce_speed = 0.15
+	}
+	nile_production = {
+		drill_gain_modifier = 0.33
+		drill_decay_modifier = -0.5
+	}
+	crossroads_between_europe_and_africa = {
+		land_attrition = -0.15
+	}
+	mediterranean_shipwrights = {
+		trade_efficiency = 0.1
+		trade_steering = 0.2
+	}
+	westernize_the_military = {
+		discipline = 0.05
+	}
+}

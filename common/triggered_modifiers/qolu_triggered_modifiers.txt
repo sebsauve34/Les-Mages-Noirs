@@ -1,0 +1,124 @@
+#####
+#Imported from Gecko / Echo Mod.
+#####
+
+minor = {
+	potential = {
+		AND = {
+			is_part_of_hre = no
+			NOT = { is_great_power = yes }
+			NOT = { is_colonial_nation = yes }
+		}
+		NOT = { total_own_and_non_tributary_subject_development = 500 }
+		ROOT = {
+			ai = no
+		}
+		NOT = { is_emperor = yes }
+		NOT = { has_country_modifier = burnt_development }
+	}
+
+	trigger = {
+		NOT = { total_own_and_non_tributary_subject_development = 300 }
+		NOT = { is_emperor = yes }
+	}
+
+	advisor_cost = -0.1
+	interest = -0.25
+	global_regiment_cost = -0.1
+	build_cost = -0.05
+	development_cost_modifier = -0.1
+	ae_impact = -0.1
+	land_forcelimit = 3
+	global_tax_income = 6
+	global_manpower = 5
+}
+
+imperial_ambition = {
+	potential = {
+			ROOT = {
+				ai = no	
+			}	
+	}
+	trigger  = {
+		OR = {
+				great_power_rank = 5
+				 is_great_power = no
+				}
+				any_country = {
+						total_development = ROOT
+					}
+				
+				NOT = { num_of_allies = 1 }
+				NOT = { is_hegemon = yes }
+				NOT = { is_colonial_nation = yes }	
+				NOT = { is_lacking_institutions = yes }
+	}
+	land_morale = 0.025
+	naval_morale = 0.025
+	discipline = 0.025
+	manpower_recovery_speed = 0.1
+	global_manpower_modifier = 0.1
+	reinforce_cost_modifier = -0.05
+	global_prosperity_growth = 0.5
+	fort_maintenance_modifier = -0.10
+	land_forcelimit_modifier = 0.1
+	merc_maintenance_modifier = -0.15
+	expand_infrastructure_cost_modifier = -0.25
+}
+
+war_chest = {
+	potential = {
+		ROOT = {
+				ai = no	
+			}
+	}
+
+
+	trigger = {
+			any_country = {
+						total_development = ROOT
+					}		
+		
+		NOT = {is_hegemon = yes}
+		years_of_income = 1.25
+		NOT = { corruption = 1 }
+		NOT = { num_of_loans = 1 }
+		NOT = { is_colonial_nation = yes }	
+		is_at_war = yes
+		land_maintenance = 1
+		army_size_percentage = 0.3
+		NOT = { num_of_allies = 1 }
+	}
+	land_morale = 0.1
+	land_forcelimit_modifier = 0.15
+	mercenary_manpower = 0.25
+	war_exhaustion = -0.05
+	land_maintenance_modifier = -0.1
+	reinforce_speed = 0.1
+}
+
+ahead_of_time = {
+	potential = {
+		ROOT = {
+				ai = no	
+			}
+	}
+	trigger = {
+		NOT = { is_lacking_institutions = yes }
+	}
+	monthly_reform_progress_modifier = 0.25	
+	prestige = 0.5
+}
+
+qolu_ai_sieges = {
+	potential = {
+		ai = yes
+	}
+
+	trigger = {
+		always = yes
+	}
+
+	global_autonomy = -0.5
+	yearly_corruption = -0.5
+}

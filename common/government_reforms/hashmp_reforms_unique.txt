@@ -1,0 +1,487 @@
+h_reform_dominion = {
+	icon = "constitution"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	fixed_rank = 2
+	potential = {
+		is_colonial_nation = yes
+		OR = {
+			tag = AUS
+			tag = BRZ
+			tag = CAL
+			tag = CAN
+			tag = CHL
+			tag = COL
+			tag = HAT
+			tag = LAP
+			tag = LOU
+			tag = MEX
+			tag = PRG
+			tag = PEU
+			tag = QUE
+			tag = TEX
+			tag = CAM
+			tag = USA
+			tag = VNZ
+			tag = CUB
+			tag = NEG
+			tag = NZL
+			tag = BLV
+			tag = CSC
+			tag = WSI
+			tag = FLO
+			tag = ILI
+			tag = VRM
+			tag = ORJ
+			tag = DSA
+		}
+	}
+	modifiers = {
+		max_absolutism = -50
+		governing_capacity = 250
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+	duration = 4
+}
+
+h_reform_commandery = {
+	icon = "chinese_palace"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	fixed_rank = 1
+	potential = {
+		AND = {
+			OR = {
+				tag = BJG
+				tag = CHS
+				tag = CGD
+				tag = CQG
+				tag = DLN
+				tag = GZH
+				tag = HNG
+				tag = KMG
+				tag = LUO
+				tag = NJG
+				tag = WUC
+				tag = XIN
+				tag = XIM
+			}
+			is_subject = no
+		}
+	}
+	modifiers = {
+		garrison_size = 1.0
+		defensiveness = 0.33
+		hostile_attrition = 1
+		global_tax_income = 60
+		land_forcelimit = 20
+		global_manpower = 20
+		governing_capacity = -500
+		possible_condottieri = -10.0
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+	duration = 5
+}
+
+h_reform_warlord_1 = {
+	icon = "fist_in_air"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	fixed_rank = 1
+	potential = {
+		AND = {
+			NOT = { has_reform = h_reform_warlord_2 }
+			NOT = { has_reform = h_reform_warlord_3 }
+			NOT = { has_reform = h_reform_warlord_4 }
+		}
+		OR = {
+			tag = WUU
+			tag = YUE
+			tag = CSH
+			tag = CXI
+			tag = CYI
+			tag = QIC
+		}
+	}
+	modifiers = {
+		ae_impact = 0.1
+		diplomatic_reputation = -1
+		land_maintenance_modifier = -0.2
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+h_reform_warlord_2 = {
+	icon = "chieftain"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	fixed_rank = 1
+	potential = {
+		ai = no
+		AND = {
+			NOT = { has_reform = h_reform_warlord_1 }
+			NOT = { has_reform = h_reform_warlord_3 }
+			NOT = { has_reform = h_reform_warlord_4 }
+		}
+		OR = {
+			tag = WUU
+			tag = YUE
+			tag = CSH
+			tag = CXI
+			tag = CYI
+			tag = QIC
+		}
+	}
+	modifiers = {
+		land_maintenance_modifier = -0.1
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+h_reform_warlord_3 = {
+	icon = "general_eastern_administrative"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	fixed_rank = 2
+	potential = {
+		ai = no
+		AND = {
+			NOT = { has_reform = h_reform_warlord_1 }
+			NOT = { has_reform = h_reform_warlord_2 }
+			NOT = { has_reform = h_reform_warlord_4 }
+		}
+		OR = {
+			tag = WUU
+			tag = YUE
+			tag = CSH
+			tag = CXI
+			tag = CYI
+			tag = QIC
+		}
+	}
+	modifiers = {
+		land_maintenance_modifier = -0.1
+		manpower_recovery_speed = 0.1
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+h_reform_warlord_4 = {
+	icon = "celestial_empire"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	fixed_rank = 3
+	potential = {
+		ai = no
+		AND = {
+			NOT = { has_reform = h_reform_warlord_1 }
+			NOT = { has_reform = h_reform_warlord_2 }
+			NOT = { has_reform = h_reform_warlord_3 }
+		}
+		OR = {
+			tag = WUU
+			tag = YUE
+			tag = CSH
+			tag = CXI
+			tag = CYI
+			tag = QIC
+		}
+	}
+	modifiers = {
+		manpower_recovery_speed = 0.15
+		discipline = 0.05
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+h_reform_prefecture = {
+	icon = "map_2"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = BAA
+			tag = CBE
+			tag = CNG
+			tag = CGS
+			tag = CHC
+			tag = DAA
+			tag = CDL
+			tag = DIA
+			tag = CHN
+			tag = HUA
+			tag = JIN
+			tag = CLI
+			tag = LNG
+			tag = LIA
+			tag = LUU
+			tag = LUL
+			tag = CMI
+			tag = MIN
+			tag = NHA
+			tag = NAN
+			tag = NNG
+			tag = QIN
+			tag = SHD
+			tag = SHU
+			tag = SNG
+			tag = SUI
+			tag = TAP
+			tag = TNG
+			tag = TIA
+			tag = WAN
+			tag = WEI
+			tag = XIA
+			tag = XNG
+			tag = YAN
+			tag = YDU
+			tag = YUN
+			tag = ZHA
+			tag = CZH
+			tag = OKJ
+			tag = BLH
+			tag = NAE
+			tag = BYH
+			tag = JHN
+			tag = MHN
+			tag = GOR
+			tag = BIH
+			tag = GAR
+			tag = TMN
+		}
+	}
+	modifiers = {
+		ae_impact = 0.1
+		diplomatic_upkeep = -2
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+h_reform_citystate = {
+	icon = "trading_city"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	potential = {
+		OR = {
+			tag = ANQ
+			tag = BAO
+			tag = CGE
+			tag = CHZ
+			tag = DEZ
+			tag = GXI
+			tag = GNY
+			tag = GUI
+			tag = HZH
+			tag = HUY
+			tag = HUZ
+			tag = JNG
+			tag = JIH
+			tag = KAI
+			tag = KYA
+			tag = MAC
+			tag = QIZ
+			tag = SHG
+			tag = SHE
+			tag = SHZ
+			tag = SZH
+			tag = TAY
+			tag = TAO
+			tag = TIJ
+			tag = WUZ
+			tag = XIX
+			tag = XYU
+			tag = XUZ
+			tag = YNG
+			tag = SEO
+			tag = BUS
+			tag = JGY
+			tag = SGY
+		}
+	}
+	modifiers = {
+		ae_impact = 0.1
+		governing_capacity = -250
+		diplomatic_upkeep = -1
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+h_reform_native_empire = {
+	icon = "fist_in_air"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	fixed_rank = 3
+	potential = {
+		AND = {
+			OR = {
+				tag = AZT
+				tag = INC
+			}
+			is_subject = no
+		}
+	}
+	modifiers = {
+		development_cost = -0.10
+		all_power_cost = -0.3
+		liberty_desire = 500
+		reduced_liberty_desire = 100
+		global_tax_income = 240
+		land_forcelimit = 40
+		global_manpower = 50
+		infantry_power = 0.2
+		discipline = 0.1
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+h_reform_native_kingdom = {
+	icon = "chieftain"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	fixed_rank = 2
+	potential = {
+		AND = {
+			OR = {
+				tag = MCA
+				tag = IRO
+				tag = HUR
+				tag = CHE
+				tag = BLA
+				tag = PUE
+				tag = CUA
+				tag = XIU
+				tag = CAB
+				tag = TUA
+			}
+			is_subject = no
+		}
+	}
+	modifiers = {
+		development_cost = -0.05
+		all_power_cost = -0.15
+		liberty_desire = 500
+		reduced_liberty_desire = 100
+		global_tax_income = 144
+		land_forcelimit = 20
+		global_manpower = 25
+		infantry_power = 0.1
+		discipline = 0.05
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+h_reform_sinicized_horde = {
+	icon = "celestial_empire"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	fixed_rank = 3
+	potential = {
+		tag = QNG
+	}
+	modifiers = {
+		monarch_admin_power = 1
+		#administrative_efficiency = 0.05
+		land_forcelimit_modifier = 0.2
+		cav_to_inf_ratio = 0.3
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+h_reform_kdukedom = {
+	icon = "fist_in_air"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	fixed_rank = 1
+	potential = {
+		OR = {
+			tag = OKJ
+			tag = KSL
+			tag = BKJ
+			tag = GOG
+		}
+	}
+	modifiers = {
+		ae_impact = 0.2
+		diplomatic_reputation = -2
+		land_maintenance_modifier = -0.2
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+h_reform_protectorate = {
+	icon = "chinese_palace"
+	valid_for_nation_designer = no
+	lock_level_when_selected = yes
+	allow_normal_conversion = yes
+	fixed_rank = 1
+	potential = {
+		AND = {
+			OR = {
+				tag = ZHE
+				tag = LIN
+			}
+			is_subject = no
+		}
+	}
+	modifiers = {
+		garrison_size = 1.0
+		defensiveness = 0.33
+		hostile_attrition = 1
+		global_tax_income = 60
+		land_forcelimit = 25
+		global_manpower = 20
+		governing_capacity = -500
+		possible_condottieri = -10.0
+	}
+
+	custom_attributes = {
+		locked_government_type = yes
+	}
+	duration = 5
+}

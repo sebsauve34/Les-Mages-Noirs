@@ -1,0 +1,2873 @@
+########################################
+# Custom mercenaries for the HashMP CE Multiplayer mod
+#
+# by Foffy123
+########################################
+
+########################################
+# New Common Mercenaries 
+########################################
+
+#Separated by dev
+
+###########
+# Infantry
+###########
+
+#250
+
+#h_merc_d_250_large_1 = {
+#	regiments_per_development = 0.06
+#	cavalry_weight = 0.0
+#	artillery_weight = 0.0
+#	cost_modifier = 1
+#	trigger = {
+#		total_development = 201
+#		NOT = { total_development = 251 }
+#	}
+#	modifier = {
+#	}
+#}
+#
+#h_merc_p_250_med_2 = {
+#	regiments_per_development = 0.045
+#	cavalry_weight = 0.0
+#	artillery_weight = 0.0
+#	cost_modifier = 1
+#	trigger = {
+#		NOT = {	current_age = age_of_discovery }
+#		total_development = 201
+#		NOT = { total_development = 251 }
+#	}
+#	modifier = {
+#	}
+#}
+#
+#h_merc_d_250_med_1 = {
+#	regiments_per_development = 0.045
+#	cavalry_weight = 0.0
+#	artillery_weight = 0.0
+#	cost_modifier = 1
+#	trigger = {
+#		total_development = 201
+#		NOT = { total_development = 251 }
+#	}
+#	modifier = {
+#	}
+#}
+#
+#h_merc_d_250_small_2 = {
+#	regiments_per_development = 0.045
+#	cavalry_weight = 0.0
+#	artillery_weight = 0.0
+#	cost_modifier = 1
+#	trigger = {
+#		total_development = 201
+#		NOT = { total_development = 251 }
+#	}
+#	modifier = {
+#	}
+#}
+#
+#h_merc_d_250_small_1 = {
+#	regiments_per_development = 0.045
+#	cavalry_weight = 0.0
+#	artillery_weight = 0.0
+#	cost_modifier = 1
+#	trigger = {
+#		total_development = 201
+#		NOT = { total_development = 251 }
+#	}
+#	modifier = {
+#	}
+#}
+
+#200
+
+h_merc_d_200_large_1 = {
+	regiments_per_development = 0.06
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	min_size = 80
+	max_size = 80
+	trigger = {
+		AND = {
+		full_idea_group = plutocracy_ideas
+		current_age = age_of_revolutions
+		}
+	}
+	modifier = {
+	}
+}
+
+h_merc_p_200_med_2 = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1	
+	min_size = 80
+	max_size = 80
+	trigger = {
+		current_age = age_of_revolutions
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_200_med_1 = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	min_size = 60
+	max_size = 60
+	trigger = {
+		current_age = age_of_revolutions
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_200_small_2 = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	min_size = 50
+	max_size = 50
+	trigger = {
+		current_age = age_of_revolutions
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_200_small_1 = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	min_size = 40
+	max_size = 40
+	cost_modifier = 1
+	trigger = {
+		current_age = age_of_revolutions
+	}
+	modifier = {
+	}
+}
+
+#150
+
+h_merc_d_150_large_1 = {
+	regiments_per_development = 0.07
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	min_size = 50
+	max_size = 50
+	trigger = {
+		AND = {
+		full_idea_group = plutocracy_ideas
+		current_age = age_of_absolutism
+		}
+	}
+	modifier = {
+	}
+}
+
+h_merc_p_150_med_2 = {
+	regiments_per_development = 0.06
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	min_size = 50
+	max_size = 50
+	trigger = {
+		current_age = age_of_absolutism
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_150_med_1 = {
+	regiments_per_development = 0.06
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	min_size = 40
+	max_size = 40
+	cost_modifier = 1
+	trigger = {
+		current_age = age_of_absolutism
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_150_small_2 = {
+	regiments_per_development = 0.06
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	min_size = 35
+	max_size = 35
+	cost_modifier = 1
+	trigger = {
+		current_age = age_of_absolutism
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_150_small_1 = {
+	regiments_per_development = 0.06
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	min_size = 30
+	max_size = 30
+	cost_modifier = 1
+	trigger = {
+		current_age = age_of_absolutism
+	}
+	modifier = {
+	}
+}
+
+#100
+
+h_merc_d_100_large_1 = {
+	regiments_per_development = 0.1
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	min_size = 35
+	max_size = 35
+	cost_modifier = 1
+	trigger = {
+		AND = {
+		full_idea_group = plutocracy_ideas
+		current_age = age_of_reformation 
+		}
+	}
+	modifier = {
+	}
+}
+
+h_merc_p_100_med_2 = {
+	regiments_per_development = 0.08
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	min_size = 35
+	max_size = 35
+	cost_modifier = 1
+	trigger = {
+		current_age = age_of_reformation 
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_100_med_1 = {
+	regiments_per_development = 0.08
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	min_size = 30
+	max_size = 30
+	cost_modifier = 1
+	trigger = {
+		current_age = age_of_reformation 
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_100_small_2 = {
+	regiments_per_development = 0.08
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	min_size = 25
+	max_size = 25
+	cost_modifier = 1
+	trigger = {
+		current_age = age_of_reformation 
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_100_small_1 = {
+	regiments_per_development = 0.08
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	min_size = 20
+	max_size = 20
+	cost_modifier = 1
+	trigger = {
+		current_age = age_of_reformation 
+	}
+	modifier = {
+	}
+}
+
+#60
+
+h_merc_d_60_large_1 = {
+	regiments_per_development = 0.15
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	min_size = 25
+	max_size = 25
+	trigger = {
+		AND = {
+		full_idea_group = plutocracy_ideas
+		current_age = age_of_discovery
+		}
+	}
+	modifier = {
+	}
+}
+
+h_merc_p_60_med_2 = {
+	regiments_per_development = 0.12
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	min_size = 25
+	max_size = 25
+	trigger = {
+		current_age = age_of_discovery
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_60_med_1 = {
+	regiments_per_development = 0.12
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	min_size = 20
+	max_size = 20
+	trigger = {
+		current_age = age_of_discovery
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_60_small_2 = {
+	regiments_per_development = 0.12
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cost_modifier = 1
+	min_size = 15
+	max_size = 15
+	trigger = {
+		current_age = age_of_discovery
+	}
+	modifier = {
+	}
+}
+
+h_merc_d_60_small_1 = {
+	regiments_per_development = 0.12
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	min_size = 10
+	max_size = 10
+	cost_modifier = 1
+	trigger = {
+		current_age = age_of_discovery
+	}
+	modifier = {
+	}
+}
+
+
+########################################
+# Common Mercenaries 
+########################################
+
+#Reverse display order, for some reason...
+
+###########
+# Artillery
+###########
+h_merc_artillery_3 = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.5
+	cavalry_cap = 0
+	min_size = 120
+	max_size = 120
+	cost_modifier = 0.5
+	trigger = {
+		AND = {
+		current_age = age_of_revolutions
+		mil_tech = 26
+		}
+	}
+	modifier = {
+		
+	}
+}
+
+h_merc_artillery_2 = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.5
+	cavalry_cap = 0
+        min_size = 96
+	max_size = 96
+	cost_modifier = 0.5
+	trigger = {
+		AND = {
+		current_age = age_of_absolutism
+		mil_tech = 18
+		}
+	}
+	modifier = {
+		
+	}
+}
+
+h_merc_artillery_1 = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.5
+	cavalry_cap = 0
+	min_size = 65
+	max_size = 65
+	cost_modifier = 0.5
+	trigger = {
+		AND = {
+		current_age = age_of_reformation
+		mil_tech = 10
+		}
+	}
+	modifier = {
+		
+	}
+}
+
+###########
+# Cavalry
+###########
+
+h_merc_cavmed_3 = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.5
+	artillery_weight = 0.0
+	cavalry_cap = 40
+	min_size = 80
+	max_size = 80
+	cost_modifier = 0.5
+	trigger = {
+		OR = {
+       		current_age = age_of_absolutism
+		current_age = age_of_revolutions
+		}
+	}
+	modifier = {
+		}
+}
+
+h_merc_cavmed_2 = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.6
+	artillery_weight = 0.0
+	cavalry_cap = 40
+	cost_modifier = 0.5
+	min_size = 60
+	max_size = 60
+	trigger = {
+		OR = {
+       		current_age = age_of_absolutism
+		current_age = age_of_revolutions
+		}
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_cavmed_1 = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.6
+	artillery_weight = 0.0
+	cavalry_cap = 40
+	min_size = 40
+	max_size = 40
+	cost_modifier = 0.5
+	trigger = {
+		OR = {
+       		current_age = age_of_absolutism
+		current_age = age_of_revolutions
+		}
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_cavsmall_3 = {
+	regiments_per_development = 0.06
+	cavalry_weight = 0.6
+	artillery_weight = 0.0
+	cavalry_cap = 40
+	cost_modifier = 0.3
+	min_size = 25
+	max_size = 25
+	trigger = {
+		OR = {
+       		current_age = age_of_discovery
+		current_age = age_of_reformation 
+		}
+        
+	}
+	modifier = {
+	
+	}
+}
+
+h_merc_cavsmall_2 = {
+	regiments_per_development = 0.06
+	cavalry_weight = 0.6
+	artillery_weight = 0.0
+	cavalry_cap = 40
+	min_size = 20
+	max_size = 20
+	cost_modifier = 0.3
+	trigger = {
+		OR = {
+       		current_age = age_of_discovery
+		current_age = age_of_reformation 
+		}
+       		
+		}
+	modifier = {
+	
+	}
+}
+
+h_merc_cavsmall_1 = {
+	regiments_per_development = 0.06
+	cavalry_weight = 0.6
+	artillery_weight = 0.0
+	cavalry_cap = 40
+	cost_modifier = 0.3
+	min_size = 15
+	max_size = 15
+	trigger = {
+		OR = {
+       		current_age = age_of_discovery
+		current_age = age_of_reformation 
+			}
+		}
+	modifier = {
+	
+	}
+}
+
+###########
+# Infantry
+###########
+
+#h_merc_inflarge_2 = {
+#	regiments_per_development = 0.075
+#	cavalry_weight = 0.0
+#	artillery_weight = 0.0
+#	cavalry_cap = 0
+#	cost_modifier = 0.75
+#	trigger = {
+#		total_development = 150
+#	}
+#	modifier = {
+#	
+#	}
+#}
+#
+#h_merc_inflarge_1 = {
+#	regiments_per_development = 0.06
+#	cavalry_weight = 0.0
+#	artillery_weight = 0.0
+#	cavalry_cap = 0
+#	cost_modifier = 0.7
+#	trigger = {
+#		total_development = 150
+#	}
+#	modifier = {
+#	
+#	}
+#}
+#
+#h_merc_infmed_3 = {
+#	regiments_per_development = 0.05
+#	cavalry_weight = 0.0
+#	artillery_weight = 0.0
+#	cavalry_cap = 0
+#	cost_modifier = 0.75
+#	trigger = {
+#		total_development = 150
+#	}
+#	modifier = {
+#	
+#	}
+#}
+#
+#h_merc_infmed_2 = {
+#	regiments_per_development = 0.05
+#	cavalry_weight = 0.0
+#	artillery_weight = 0.0
+#	cavalry_cap = 0
+#	cost_modifier = 0.75
+#	trigger = {
+#		total_development = 150
+#	}
+#	modifier = {
+#	
+#	}
+#}
+#
+#h_merc_infmed_1 = {
+#	regiments_per_development = 0.05
+#	cavalry_weight = 0.0
+#	artillery_weight = 0.0
+#	cavalry_cap = 0
+#	cost_modifier = 0.75
+#	trigger = {
+#		total_development = 150
+#	}
+#	modifier = {
+#	
+#	}
+#}
+#
+#h_merc_infsmallmed_1 = {
+#	regiments_per_development = 0.07
+#	cavalry_weight = 0.0
+#	artillery_weight = 0.0
+#	cavalry_cap = 0
+#	cost_modifier = 0.5
+#	trigger = {
+#		NOT = { total_development = 150 }
+#	}
+#	modifier = {
+#	
+#	}
+#}
+#
+#h_merc_infsmall_3 = {
+#	regiments_per_development = 0.06
+#	cavalry_weight = 0.0
+#	artillery_weight = 0.0
+#	cavalry_cap = 0
+#	cost_modifier = 0.75
+#	trigger = {
+#        NOT = { total_development = 150 }
+#	}
+#	modifier = {
+#	
+#	}
+#}
+#
+#h_merc_infsmall_2 = {
+#	regiments_per_development = 0.06
+#	cavalry_weight = 0.0
+#	artillery_weight = 0.0
+#	cavalry_cap = 0
+#	cost_modifier = 0.75
+#	trigger = {
+#        NOT = { total_development = 150 }
+#	}
+#	modifier = {
+#	
+#	}
+#}
+#
+#h_merc_infsmall_1 = {
+#	regiments_per_development = 0.06
+#	cavalry_weight = 0.0
+#	artillery_weight = 0.0
+#	cavalry_cap = 0
+#	cost_modifier = 0.75
+#	trigger = {
+#        NOT = { total_development = 150 }
+#	}
+#	modifier = {
+#	
+#	}
+#}
+
+########################################
+# Unique Mercenaries - HashMP CE
+########################################
+
+h_merc_lothair = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 0.75
+	min_size = 20
+	max_size = 80
+	trigger = {
+		tag = LOT
+	}
+	modifier = {
+		land_morale = 0.15
+	}
+}
+
+h_merc_likedeelers = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	trigger = {
+		tag = DAN
+	}
+	modifier = {
+		infantry_power = 0.1
+		loot_amount = 0.5
+	}
+}
+
+h_merc_jaegers = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	min_size = 20
+	max_size = 80
+	cavalry_cap = 0
+	cost_modifier = 0.75
+	trigger = {
+		tag = AHU
+	}
+	modifier = {
+		discipline = 0.05
+		land_morale = 0.05
+	}
+}
+
+h_merc_landsknecht = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	trigger = {
+		tag = GER
+	}
+	modifier = {
+		discipline = 0.1
+		infantry_power = 0.15
+	}
+}
+
+h_merc_hessian = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	trigger = {
+		tag = HAN
+	}
+	modifier = {
+		fire_damage_received = -0.1
+		shock_damage_received = -0.1	
+	}
+}
+
+h_merc_teuton = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	trigger = {
+		tag = PRU
+	}
+	modifier = {
+		infantry_power = 0.15
+		infantry_fire = 0.25
+	}
+}
+
+h_merc_hanseatic = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	trigger = {
+		tag = WES
+	}
+	modifier = {
+		infantry_power = 0.1
+		fire_damage_received = -0.05
+	}
+}
+
+h_merc_ruthenians = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.8
+	artillery_weight = 0.0
+	cavalry_cap = 40
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.6
+	trigger = {
+		tag = POL
+	}
+	modifier = {
+		shock_damage = 0.15
+	}
+}
+
+h_merc_carolean = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	trigger = {
+		tag = SWE
+	}
+	modifier = {
+        infantry_power = 0.1
+	discipline = 0.025
+	}
+}
+
+h_merc_cossacks = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.3
+	artillery_weight = 0.0
+	cavalry_cap = 40
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.7
+	trigger = {
+		tag = RUS
+	}
+	modifier = {
+		shock_damage = 0.1
+		fire_damage = 0.1
+	}
+}
+
+h_merc_hussars = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.8
+	artillery_weight = 0.0
+	cavalry_cap = 40
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.6
+	trigger = {
+		tag = PLC
+	}
+	modifier = {
+		shock_damage = 0.15
+		discipline = 0.025
+	}
+}
+
+h_merc_khyber = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	trigger = {
+		tag = AFG
+	}
+	modifier = {
+		land_morale = 0.1
+	}
+}
+
+h_merc_omani = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	trigger = {
+		tag = ORM
+	}
+	modifier = {
+		loot_amount = 1.0	
+	}
+}
+
+h_merc_immortals = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	trigger = {
+		tag = PER
+	}
+	modifier = {
+		fire_damage_received = -0.1
+		shock_damage_received = -0.1
+	}
+}
+
+h_merc_catalan = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	trigger = {
+		tag = TUN
+	}
+	modifier = {
+		infantry_power = 0.1
+	}
+}
+
+h_merc_almohad = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	trigger = {
+		tag = ADU
+	}
+	modifier = {
+		land_morale = 0.1
+		fire_damage_received = -0.1
+	}
+}
+
+h_merc_bluehorde = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.8
+	artillery_weight = 0.0
+	cavalry_cap = 40
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.6
+	trigger = {
+		tag = GLH
+	}
+	modifier = {
+		cavalry_power = 0.15
+		shock_damage = 0.15
+	}
+}
+
+h_merc_timur = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.8
+	artillery_weight = 0.0
+	cavalry_cap = 40
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.6
+	trigger = {
+		tag = TIM
+	}
+	modifier = {
+		cavalry_power = 0.15
+		land_morale = 0.1
+	}
+}
+
+h_merc_gharbian = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	trigger = {
+		tag = BAH
+	}
+	modifier = {
+		land_morale = 0.075
+	}
+}
+
+h_merc_lahore = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	trigger = {
+		tag = SRH
+	}
+	modifier = {
+		discipline = 0.025
+	}
+}
+
+h_merc_deccani = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	trigger = {
+		tag = DEC
+	}
+	modifier = {
+		land_morale = 0.1
+	}
+}
+
+h_merc_sipahi = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	trigger = {
+		tag = HIN
+	}
+	modifier = {
+        cavalry_power = 0.15
+		discipline = 0.05	
+	}
+}
+
+h_merc_sikh = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	trigger = {
+		tag = PUN
+	}
+	modifier = {
+		land_morale = 0.1
+		discipline = 0.025
+	}
+}
+
+h_merc_moro = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	trigger = {
+		tag = BEI
+	}
+	modifier = {
+		land_morale = 0.075
+		land_attrition = -0.2
+	}
+}
+
+h_merc_angkor = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	trigger = {
+		tag = KHM
+	}
+	modifier = {
+		shock_damage_received = -0.1
+	}
+}
+
+h_merc_pasai = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	trigger = {
+		tag = MLC
+	}
+	modifier = {
+		infantry_power = 0.05
+		movement_speed = 0.1
+	}
+}
+
+h_merc_xian = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 0.75
+	min_size = 20
+	max_size = 80
+	trigger = {
+		tag = CSH
+	}
+	modifier = {
+		land_morale = 0.05
+		discipline = 0.025
+	}
+}
+
+h_merc_pahlawan = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 0.75
+	min_size = 20
+	max_size = 80
+	trigger = {
+		tag = MSA
+	}
+	modifier = {
+		land_morale = 0.1
+		infantry_power = 0.1
+	}
+}
+
+h_merc_jianzhou = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.8
+	artillery_weight = 0.0
+	cavalry_cap = 40
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.6
+	trigger = {
+		tag = MCH
+	}
+	modifier = {
+		cavalry_power = 0.1
+		movement_speed = 0.1
+	}
+}
+
+h_merc_banner = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.8
+	artillery_weight = 0.0
+	cavalry_cap = 40
+	cost_modifier = 0.6
+	min_size = 20
+	max_size = 80
+	trigger = {
+		tag = QNG
+	}
+	modifier = {
+		cavalry_fire = 0.5
+		shock_damage = 0.1
+	}
+}
+
+h_merc_sileraioi = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.8
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 0.6
+	min_size = 20
+	max_size = 80
+	trigger = {
+		tag = TTS
+	}
+	modifier = {
+		shock_damage = 0.1
+		cavalry_shock = 0.5
+	}
+}
+
+h_merc_lombard = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	trigger = {
+		tag = LOM
+	}
+	modifier = {
+		land_morale = 0.1
+		reinforce_speed = 0.25
+	}
+}
+
+h_merc_zulu = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	trigger = {
+		tag = ZUL
+	}
+	modifier = {
+		fire_damage_received = -0.2
+		land_morale = 0.1
+	}
+}
+
+########################################
+# Unique Mercenaries - Vanilla
+########################################
+
+# Lombard Free Company
+merc_lombard_free_company = {
+    regiments_per_development = 0.05
+	min_size = 20
+	max_size = 80
+    #home_province = 4728 # Pavia
+	#cavalry_weight = 0.2
+	#cavalry_cap = 4
+	cost_modifier = 0.75
+	sprites = { dlc056_mlo_sprite_pack sav_base_sprite_pack westerngfx_sprite_pack }
+    trigger = {
+		tag = GEN
+	}
+	modifier = { 
+		infantry_power = 0.1
+	}
+}
+
+# Tuscan Free Company
+merc_tuscan_free_company = {
+    regiments_per_development = 0.05
+    min_size = 20
+	max_size = 80
+    #home_province = 2980 # Lucca
+	#cavalry_weight = 0.2
+	#cavalry_cap = 4
+	cost_modifier = 0.75
+	sprites = { dlc056_lan_sprite_pack sav_base_sprite_pack westerngfx_sprite_pack }
+   trigger = {
+		tag = ITA
+	}
+	modifier = { 
+		infantry_power = 0.1
+		fire_damage_received = -0.1
+	}
+}
+
+# Black Army (Hungary)
+merc_black_army = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.2
+    #artillery_weight = 0.0
+	#cavalry_cap = 4
+	#home_province = 153
+	min_size = 20
+	max_size = 80
+	sprites = { easterngfx_sprite_pack }
+	trigger = {
+		OR = {
+			has_country_modifier = hun_black_army
+			has_reform = black_army_reform
+		}
+	}
+	cost_modifier = 0.7
+	modifier = {
+		discipline = 0.05
+	}
+}
+
+# Black Army Reserves (Hungary)
+merc_black_army_2 = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.2
+    #artillery_weight = 0.0
+	#cavalry_cap = 4
+	#home_province = 153
+	min_size = 20
+	max_size = 80
+	sprites = { easterngfx_sprite_pack }
+	trigger = {
+		always = no
+	}
+	cost_modifier = 0.7
+	modifier = {
+		discipline = 0.05
+	}
+}
+
+# Knights Templar
+merc_knights_templar = {
+	regiments_per_development = 0.05
+	#home_province = 379
+	cavalry_weight = 0.5
+	cavalry_cap = 40
+	sprites = { westerngfx_sprite_pack }
+	trigger = {
+		custom_trigger_tooltip = {
+			tooltip = templars_tt
+			has_country_flag = knights_templar_flag
+		}
+	}
+	modifier = {
+		cavalry_power = 0.15
+		shock_damage = 0.1
+	}
+	cost_modifier = 0.6
+}
+
+# Pontifical Swiss Guard
+merc_swiss_guard = {
+    regiments_per_development = 0.05
+	#home_province = 166
+	min_size = 20
+	max_size = 80
+	sprites = { dlc029_pap_sprite_pack dlc040_pap_sprite_pack westerngfx_sprite_pack }
+    trigger = { 
+		tag = PAP
+		custom_trigger_tooltip = {
+			tooltip = swiss_guard_activated
+			has_country_flag = enable_swiss_guard
+		}
+	}
+    cost_modifier = 0.75
+	modifier = {
+		discipline = 0.025
+	}
+}
+
+# Bande Nere (Black Bands, Italy)
+merc_bande_nere = {
+    regiments_per_development = 0.05
+	min_size = 20
+	max_size = 80
+    #home_province = 2978 # Florence
+	#artillery_weight = 0.0
+	cost_modifier = 0.75
+	sprites = { dlc056_lan_sprite_pack sav_base_sprite_pack westerngfx_sprite_pack }
+    trigger = {
+		tag = NAP
+	}
+	modifier = {
+		shock_damage_received = -0.1
+		land_attrition = -0.1
+	}
+}
+
+# Schwarze Garde (Black Bands, Germany)
+merc_schwarze_garde = {
+    regiments_per_development = 0.05
+    #home_province = 61 # Dresden
+	#artillery_weight = 0.0
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	sprites = { dlc028_ned_sprite_pack dlc042_ned_sprite_pack westerngfx_sprite_pack }
+    trigger = {
+		tag = BRA
+	}
+	modifier = {
+        infantry_power = 0.1
+	}
+}
+
+# Doppelsoeldner (Swabia)
+merc_doppelsoeldner = {
+    regiments_per_development = 0.05
+    #home_province = 70 # Stuttgart
+	#artillery_weight = 0.0
+    cost_modifier = 0.75
+	min_size = 20
+	max_size = 80
+	sprites = { dlc061_wur_sprite_pack dlc028_wur_sprite_pack westerngfx_sprite_pack }
+    trigger = {
+		tag = SWA
+	}
+	modifier = {
+        infantry_power = 0.1
+        discipline = 0.025
+	}
+}
+
+# Reisläufer (Switzerland)
+merc_reislaufer = {
+    regiments_per_development = 0.05
+	min_size = 20
+	max_size = 80
+    #home_province = 165 # 
+	#artillery_weight = 0.0
+	cost_modifier = 0.75
+	sprites = { westerngfx_sprite_pack }
+    trigger = {
+		tag = SWI
+	}
+	modifier = {
+        shock_damage_received = -0.1
+	}
+}
+
+# Hessian Jaegerkorps (Hesse, Absolutism + Revolution)
+merc_hessian_jaegerkorps = {
+    regiments_per_development = 0.05
+	min_size = 20
+	max_size = 80
+	#cavalry_weight = 0.1
+	#artillery_weight = 0.0
+	#cavalry_cap = 2
+	cost_modifier = 0.75
+    #home_province = 1762
+	sprites = { dlc028_hes_sprite_pack westerngfx_sprite_pack }
+    trigger = {
+		tag = HES
+	}
+	modifier = {
+		fire_damage_received = -0.05
+		shock_damage_received = -0.05
+	}
+}
+
+# Routiers (Britanny, Renaissance)
+merc_routiers = {
+    regiments_per_development = 0.05
+    #home_province = 170
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	sprites = { dlc001_bri_sprite_pack dlc087_bri_sprite_pack westerngfx_sprite_pack }
+    trigger = {
+		tag = FRA
+	}
+	modifier = {
+		land_morale = 0.05
+		loot_amount = 0.5
+	}
+}
+
+# Routiers/Bascoli ( Gascony, Renaissance?)
+merc_bascoli = {
+    regiments_per_development = 0.05
+    #home_province = 173
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	sprites = { dlc001_amg_sprite_pack dlc049_FRA_sprite_pack dlc028_fra_sprite_pack dlc054_fra_sprite_pack fra_base_sprite_pack }
+    trigger = {
+		always = no
+	}
+}
+	
+# Levends (Dalmatia)
+merc_levends = {
+    regiments_per_development = 0.05
+	#cavalry_weight = 0.1
+	#artillery_weight = 0.0
+	#cavalry_cap = 2
+	min_size = 20
+	max_size = 80
+    #home_province = 4754
+	cost_modifier = 0.75
+	sprites = { easterngfx_sprite_pack }
+    trigger = {
+		always = no
+	}
+	modifier = { }
+}
+
+# Stratioti (Durres)
+merc_stratioti = {
+    regiments_per_development = 0.05
+    #home_province = 4174
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	sprites = { easterngfx_sprite_pack }
+    trigger = {	
+		tag = BYZ
+	}
+	modifier = {
+		land_morale = 0.1
+		movement_speed = 0.1
+	}
+}
+
+# Morlachs (Lika)
+merc_morlachs = {
+    regiments_per_development = 0.05
+	#cavalry_weight = 0.1
+	#artillery_weight = 0.0
+	#cavalry_cap = 2
+	min_size = 20
+	max_size = 80
+    #home_province = 1826
+	cost_modifier = 0.75
+	sprites = { easterngfx_sprite_pack }
+    trigger = {
+		always = no
+	}
+	modifier = { }
+}
+
+# Guardia Corsa (Cosica)
+merc_guardia_corsa = {
+    regiments_per_development = 0.05
+	#cavalry_weight = 0.1
+	#artillery_weight = 0.0
+	#cavalry_cap = 2
+    #home_province = 1247
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	sprites = { sav_base_sprite_pack westerngfx_sprite_pack }
+    trigger = {
+		tag = SPI
+	}
+	modifier = { 
+		infantry_power = 0.1
+		shock_damage_received = -0.1
+	}
+}
+
+# Hadjduks (Transylvania)
+merc_hadjuks = {
+    regiments_per_development = 0.05
+	cavalry_weight = 0.1
+	#artillery_weight = 0.0
+	#cavalry_cap = 2
+    #home_province = 4128
+	min_size = 20
+	max_size = 80
+    cost_modifier = 0.7
+	sprites = { easterngfx_sprite_pack }
+    trigger = {
+		tag = HUN
+	}
+	modifier = { 
+        infantry_power = 0.1		
+	}
+}
+
+# Gallowglasses (Ireland, Renaissance + Reformation)
+merc_gallowglasses = {
+    regiments_per_development = 0.05
+	#cavalry_weight = 0.1
+	#artillery_weight = 0.0
+	min_size = 20
+	max_size = 80
+	#cavalry_cap = 2
+    #home_province = 4380
+	cost_modifier = 0.75
+	sprites = { dlc087_ire_sprite_pack lei_base_sprite_pack westerngfx_sprite_pack }
+    trigger = {
+		always = no
+	}
+	modifier = {
+        discipline = 0.025
+        shock_damage_received = -0.05
+	}
+}
+
+# Redshanks (Scotland, Renaissance + Reformation)
+merc_redshanks = {
+    regiments_per_development = 0.05
+	min_size = 20
+	max_size = 80
+    #home_province = 4364
+	cost_modifier = 0.75
+	sprites = { dlc087_sco_sprite_pack dlc001_sco_sprite_pack sco_base_sprite_pack westerngfx_sprite_pack }
+    trigger = { 
+		always = no
+	}
+	modifier = {
+		shock_damage = 0.05
+	}
+}
+
+# Scottish Guard (Scotland, Absolutism + Revolution)
+merc_scottish_guard = {
+    regiments_per_development = 0.05
+	min_size = 20
+	max_size = 80
+	#cavalry_weight = 0.1
+	#artillery_weight = 0.0
+	#cavalry_cap = 2
+    #home_province = 252
+	cost_modifier = 0.75
+	sprites = { dlc087_sco_sprite_pack dlc001_sco_sprite_pack sco_base_sprite_pack westerngfx_sprite_pack }
+    trigger = { 
+		always = no
+	}
+	modifier = {
+        fire_damage_received = -0.05
+	}
+}
+
+# Seimeni (Reformation + Absolutism)
+merc_seimeni = {
+    regiments_per_development = 0.05
+	min_size = 20
+	max_size = 80
+    #home_province = 157
+	cost_modifier = 0.75
+	sprites = { easterngfx_sprite_pack }
+    trigger = { 
+		always = no
+	}
+}
+
+# Armatoles
+merc_armatoles = {
+    regiments_per_development = 0.05
+	min_size = 20
+	max_size = 80
+    #home_province = 1853
+	cost_modifier = 0.75
+	sprites = { dlc006_byz_sprite_pack easterngfx_sprite_pack }
+    trigger = { 
+		always = no
+	}
+}
+
+merc_white_company = {
+    regiments_per_development = 0.05
+	min_size = 20
+	max_size = 80
+    #home_province = 236
+	cost_modifier = 0.75
+	sprites = { dlc049_ENG_sprite_pack dlc042_eng_sprite_pack dlc028_eng_sprite_pack eng_base_sprite_pack }
+    trigger = { 
+		tag = ENG
+	}
+	modifier = {
+		shock_damage_received = -0.1
+	}
+}
+
+merc_flemish_company = {
+    regiments_per_development = 0.05
+	min_size = 20
+	max_size = 80
+	#cavalry_weight = 0.1
+	#artillery_weight = 0.0
+	#cavalry_cap = 2
+    #home_province = 90
+	cost_modifier = 0.75
+	sprites = { dlc042_ned_sprite_pack dlc028_ned_sprite_pack westerngfx_sprite_pack }
+    trigger = {
+		tag = BUR
+	}
+	modifier = {
+        land_morale = 0.1
+	}
+}
+
+merc_forlorn_hope = {
+    regiments_per_development = 0.05
+	min_size = 20
+	max_size = 80
+    #home_province = 237 # Oxford
+	cost_modifier = 0.75
+	sprites = { dlc049_ENG_sprite_pack dlc042_eng_sprite_pack dlc028_eng_sprite_pack eng_base_sprite_pack }
+    trigger = {	
+		tag = GBR
+	}
+	modifier = {
+		fire_damage_received = -0.1
+		shock_damage_received = -0.1
+	}
+}
+
+merc_buccaneer_battalion = {
+    regiments_per_development = 0.05
+	min_size = 20
+	max_size = 80
+    #home_province = 489 # Tortuga
+    cost_modifier = 0.75
+	sprites = { dlc098_nss_sprite_pack westerngfx_sprite_pack }
+    trigger = {
+		always = no
+	}
+	modifier = {
+		discipline = -0.025
+		movement_speed = 0.2
+	}
+}
+
+merc_bandeirantes = {
+    regiments_per_development = 0.05
+	min_size = 20
+	max_size = 80
+    #home_province = 766 # Sao Vicente
+    cost_modifier = 0.75
+	sprites = { dlc011_por_sprite_pack dlc042_por_sprite_pack westerngfx_sprite_pack }
+    trigger = {
+		tag = POR
+	}
+	modifier = {
+		discipline = 0.025
+		land_attrition = -0.25
+	}
+}
+
+# Huai Army (China, Anhui, Huai River)
+merc_huai_army = {
+    regiments_per_development = 0.05
+	min_size = 20
+	max_size = 80
+	#cavalry_weight = 0.1
+	#artillery_weight = 0.0
+	#cavalry_cap = 2
+    #home_province = 688
+	cost_modifier = 0.75
+	sprites = { dlc068_mng_sprite_pack mng_base_sprite_pack }
+    trigger = {
+		tag = WUU
+	}
+	modifier = { 
+		discipline = 0.05
+	}
+}
+
+# Xiang Army (China, Hunan, Xiang River)
+merc_xiang_army = {
+    regiments_per_development = 0.05
+	min_size = 20
+	max_size = 80
+	#cavalry_weight = 0.1
+	#artillery_weight = 0.0
+	#cavalry_cap = 2
+    #home_province = 2174
+	cost_modifier = 0.75
+	sprites = { dlc068_mng_sprite_pack mng_base_sprite_pack }
+    trigger = {
+		tag = CXI
+	}
+	modifier = { 
+		infantry_power = 0.1
+		loot_amount = 0.5
+	}
+}
+
+# Lang Bing/Wolf Troops (Guangxi)
+merc_wolf_troops = {
+    regiments_per_development = 0.05
+	min_size = 20
+	max_size = 80
+	#cavalry_weight = 0.1
+	#artillery_weight = 0.0
+	#cavalry_cap = 2
+	cost_modifier = 0.75
+    #home_province = 2164
+	sprites = { dlc068_mng_sprite_pack mng_base_sprite_pack }
+    trigger = {
+		tag = YUE
+	}
+	modifier = {
+        infantry_fire = 0.25
+	fire_damage = 0.15
+	}
+}
+
+# Mercenaries from Shanxi
+merc_shanxi_guard = {
+    regiments_per_development = 0.05
+	min_size = 20
+	max_size = 80
+	#cavalry_weight = 0.1
+	#artillery_weight = 0.0
+	#cavalry_cap = 2
+    #home_province = 2177
+	cost_modifier = 0.75
+	sprites = { dlc068_mng_sprite_pack mng_base_sprite_pack }
+    trigger = { 
+		tag = QIC
+	}
+	modifier = { 
+		shock_damage_received = -0.15
+	}
+}
+
+# Mercenaries from Yongning, where the She-An Rebellion started
+merc_yongning_warriors = {
+    regiments_per_development = 0.05
+	min_size = 20
+	max_size = 80
+	cavalry_weight = 0.4
+	#artillery_weight = 0.0
+	#cavalry_cap = 2
+    #home_province = 4213
+	cost_modifier = 0.6
+	sprites = { dlc068_mng_sprite_pack mng_base_sprite_pack }
+    trigger = { 
+		tag = CYI
+	}
+	modifier = { 
+		morale_damage = 0.15
+		shock_damage = 0.15
+	}
+}
+
+# Kanto Ronin
+merc_kanto_ronin = {
+    regiments_per_development = 0.05
+	min_size = 20
+	max_size = 80
+    #home_province = 1028
+	cost_modifier = 0.75
+	sprites = { dlc068_jap_sprite_pack jap_base_sprite_pack }
+    trigger = {
+		tag = JAP
+	}
+	modifier = { 
+		discipline = 0.05
+		fire_damage_received = -0.1
+	}
+}
+
+# Kyushu Wokou
+merc_kyushu_wokou = {
+    regiments_per_development = 0.05
+    #home_province = 1818
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	sprites = { dlc067_smz_sprite_pack jap_base_sprite_pack }
+    trigger = {
+		always = no
+	}
+	modifier = { }
+}
+
+# Shikoku Yojimbo
+merc_shikoku_yojimbo = {
+    regiments_per_development = 0.05
+    #home_province = 1819
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	sprites = { dlc067_hsk_sprite_pack jap_base_sprite_pack }
+    trigger = {	
+		OR = {
+		tag = UES
+		tag = SMZ
+		}
+	}
+	modifier = { 
+		discipline = 0.05
+	}
+}
+
+merc_purbiyas = {
+    regiments_per_development = 0.05
+	#artillery_weight = 0.0
+	min_size = 20
+	max_size = 80
+    #home_province = 555
+	cost_modifier = 0.75
+	sprites = { dlc092_jnp_sprite_pack dlh_base_sprite_pack }
+    trigger = {
+		tag = RJP
+	}
+	modifier = { 
+		infantry_power = 0.1
+		discipline = 0.025
+	}
+}
+
+# Gurkhas
+merc_gorkhalis = {
+    regiments_per_development = 0.05
+	#artillery_weight = 0.0
+    #home_province = 4485
+	min_size = 20
+	max_size = 80
+    cost_modifier = 0.75
+	sprites = { dlc091_npl_sprite_pack indiangfx_sprite_pack }
+    trigger = {
+		tag = BHA
+	}
+	modifier = {
+        infantry_power = 0.15
+		discipline = 0.05
+	}
+}
+
+# Gosains
+merc_gosains = {
+    regiments_per_development = 0.05
+	cavalry_weight = 0.1
+	#artillery_weight = 0.0
+	#cavalry_cap = 2
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.7
+    #home_province = 523
+	sprites = { dlc092_jnp_sprite_pack indiangfx_sprite_pack }
+    trigger = {
+		tag = MUG
+	}
+	modifier = {
+        land_morale = 0.1
+	}
+}
+
+# Tamil Company
+merc_tamil_company = {
+    regiments_per_development = 0.05
+	cavalry_weight = 0.1
+	#artillery_weight = 0.0
+	#cavalry_cap = 2
+	min_size = 20
+	max_size = 80
+    #home_province = 2085 # Tiruchirappalli
+	cost_modifier = 0.7
+	sprites = { dlc024_vij_sprite_pack vij_base_sprite_pack }
+    trigger = {
+		tag = VIJ
+	}
+	modifier = { 
+		reinforce_speed = 0.25
+	}
+}
+
+merc_company_of_the_ganges = {
+    regiments_per_development = 0.05
+    #home_province = 4497 # Kannauj
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	sprites = { dlc092_jnp_sprite_pack dlh_base_sprite_pack }
+    trigger = {
+		tag = BNG
+	}
+	modifier = { 
+		land_attrition = -0.1
+		movement_speed = 0.1	
+	}
+}
+
+# Banjaras
+merc_banjara_company = {
+    regiments_per_development = 0.05
+    #cavalry_weight = 0.4
+    #artillery_weight = 0.0
+	#cavalry_cap = 6
+	#home_province = 514
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	sprites = { dlc091_mer_sprite_pack indiangfx_sprite_pack }
+    trigger = {
+		tag = MER
+	}
+	modifier = { 
+		infantry_power = 0.1
+	}
+}
+
+# Bukhara Band
+merc_bukhara_band = {
+    regiments_per_development = 0.05
+	cavalry_weight = 0.4
+    #artillery_weight = 0.0
+	#cavalry_cap = 6
+	#home_province = 442
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.6
+	sprites = { dlc048_tim_sprite_pack muslimgfx_sprite_pack }
+    trigger = {
+		tag = BUK
+	}
+	modifier = { 
+		discipline = 0.05
+	}
+}
+
+# Mesopotamian Mamluks
+merc_mesopotamian_mamluks = {
+    regiments_per_development = 0.05
+    cavalry_weight = 0.8
+    #artillery_weight = 0.0
+	min_size = 20
+	max_size = 80
+	cavalry_cap = 40
+	#home_province = 410
+	cost_modifier = 0.6
+	sprites = { dlc080_alh_sprite_pack muslimgfx_sprite_pack }
+	trigger = {
+		tag = ILK
+	}
+    modifier = {
+        cavalry_power = 0.1
+	cavalry_shock = 0.5
+    }
+}
+
+# Nile Mamluks
+merc_nile_mamluks = {
+    regiments_per_development = 0.05
+    cavalry_weight = 0.5
+    #artillery_weight = 0.0
+	cavalry_cap = 40
+	min_size = 20
+	max_size = 80
+    #home_province = 361
+	cost_modifier = 0.6
+	sprites = { dlc002_mam_sprite_pack dlc058_mam_sprite_pack muslimgfx_sprite_pack }
+	trigger = {
+		tag = MAM
+	}
+    modifier = {
+        cavalry_power = 0.1
+        discipline = 0.025
+    }
+}
+
+merc_delhi_mamluks = {
+    regiments_per_development = 0.05
+    cavalry_weight = 0.4
+	min_size = 20
+	max_size = 80
+    artillery_weight = 0.0
+	cavalry_cap = 40
+    #home_province = 522
+	cost_modifier = 0.6
+	sprites = { dlh_base_sprite_pack }
+	trigger = { 
+		tag = DLH
+	}
+    modifier = { 
+		discipline = 0.05
+	}
+}
+
+merc_zeybeks = {
+    regiments_per_development = 0.05
+    #home_province = 318
+	cavalry_weight = 0.4
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.6
+	sprites = { dlc002_tur_sprite_pack dlc042_tur_sprite_pack tur_base_sprite_pack }
+	trigger = {
+		tag = RUM
+	}
+    modifier = { 
+		discipline = 0.05
+	}
+}
+
+merc_sekban = {
+    regiments_per_development = 0.05
+    #home_province = 324
+	cavalry_weight = 0.3
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.7
+	sprites = { dlc002_tur_sprite_pack dlc042_tur_sprite_pack tur_base_sprite_pack }
+	trigger = {
+		tag = TUR
+	}
+    modifier = { 
+		reinforce_speed = 0.25
+	}
+}
+
+merc_zanj_company = {
+    regiments_per_development = 0.05
+    #artillery_weight = 0.0
+	min_size = 20
+	max_size = 80
+    #home_province = 1199
+	cost_modifier = 0.75
+	sprites = { dlc057_zan_sprite_pack africangfx_sprite_pack }
+	trigger = {
+		always = no
+	}
+    modifier = { }
+}
+
+merc_madagascar_company = {
+    regiments_per_development = 0.05
+    #artillery_weight = 0.0
+	min_size = 20
+	max_size = 80
+    #home_province = 1792
+	cost_modifier = 0.75
+	sprites = { africangfx_sprite_pack }
+	trigger = {
+		tag = RZW
+	}
+    modifier = {
+		infantry_power = 0.1
+		land_morale = 0.1
+	}
+}
+
+merc_sahel_company = {
+    regiments_per_development = 0.05
+    #artillery_weight = 0.0
+	min_size = 20
+	max_size = 80
+    #home_province = 1132
+	cost_modifier = 0.75
+	sprites = { dlc062_tmb_sprite_pack africangfx_sprite_pack }
+	trigger = {
+		tag = SON
+	}
+    modifier = {
+		infantry_power = 0.1
+	}
+}
+
+merc_asafo_company = {
+    regiments_per_development = 0.05
+    #cavalry_weight = 0
+    #artillery_weight = 0.0
+	#cavalry_cap = 6
+	min_size = 20
+	max_size = 80
+    #home_province = 2255
+	cost_modifier = 0.75
+	sprites = { dlc062_msi_sprite_pack africangfx_sprite_pack }
+	trigger = {
+		tag = MAL
+	}
+    modifier = {
+        land_morale = 0.1
+	}
+}
+
+merc_nubian_company = {
+    regiments_per_development = 0.05
+    #artillery_weight = 0.0
+    #home_province = 2798
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	sprites = { dlc057_nub_sprite_pack africangfx_sprite_pack }
+	trigger = {
+		tag = ETH
+	}
+    modifier = { 
+		infantry_shock = 0.25
+		land_attrition = -0.10
+	}
+}
+
+merc_tonkinese_army = {
+    regiments_per_development = 0.05
+    #artillery_weight = 0.0
+	min_size = 20
+	max_size = 80
+    #home_province = 2372
+	sprites = { dlc041_dai_sprite_pack dlc090_south_east_asian_elephant_sprite_pack asiangfx_sprite_pack }
+	cost_modifier = 0.75
+	trigger = {
+		always = no
+	}
+    modifier = {
+		land_attrition = -0.2
+		reinforce_speed = 0.2
+	}
+}
+
+merc_mongol_mercenaries = {
+    regiments_per_development = 0.05
+    cavalry_weight = 0.8
+    artillery_weight = 0.0
+	min_size = 20
+	max_size = 80
+	cavalry_cap = 40
+	#home_province = 2190
+	cost_modifier = 0.6
+	sprites = { dlc069_kha_sprite_pack muslimgfx_sprite_pack }
+	trigger = {
+		tag = YUA
+	}
+    modifier = {
+        cavalry_power = 0.2
+	shock_damage = 0.1
+    }
+}
+
+merc_royal_circassian_guards = {
+    regiments_per_development = 0.05
+	cost_modifier = 0.75
+	min_size = 20
+	max_size = 80
+    #home_province = 463 # Circassia proper
+	sprites = { dlc047_cir_sprite_pack easterngfx_sprite_pack }
+	trigger = { 
+		always = no
+	}
+    modifier = {
+		prestige_from_land = 0.15
+	}
+}
+
+merc_bedouin_auxiliaries = {
+    regiments_per_development = 0.05
+    cavalry_weight = 0.8
+    #artillery_weight = 0.0
+	cavalry_cap = 40
+	min_size = 20
+	max_size = 80
+    #home_province = 383 # Tabuk
+	cost_modifier = 0.6
+	sprites = { dlc080_shm_sprite_pack muslimgfx_sprite_pack }
+	trigger = {
+		tag = ARB
+	}
+    modifier = { 
+		loot_amount = 1.0
+		movement_speed = 0.25
+	}
+}
+
+merc_kurdish_company = {
+    regiments_per_development = 0.05
+    cavalry_weight = 0.5
+    #artillery_weight = 0.0
+	min_size = 20
+	max_size = 80
+	cavalry_cap = 40
+    #home_province = 4293 # Arbil
+	cost_modifier = 0.6
+	sprites = { dlc079_hsn_sprite_pack muslimgfx_sprite_pack }
+	trigger = {
+		tag = AKK
+	}
+    modifier = { 
+		cavalry_shock = 0.25
+	}
+}
+
+merc_laz_auxiliaries = {
+    regiments_per_development = 0.05
+    #home_province = 2196 # Guria
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	sprites = { easterngfx_sprite_pack }
+	trigger = {
+		always = no
+	}
+    modifier = { }
+}
+
+merc_tabarestan_company = {
+    regiments_per_development = 0.05
+    #home_province = 417 # Lahijan
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	sprites = { dlc079_tab_sprite_pack muslimgfx_sprite_pack }
+	trigger = {
+		tag = KHO
+	}
+    modifier = { 
+		shock_damage_received = -0.15
+	}
+}
+
+merc_novgorod_company = {
+    regiments_per_development = 0.05
+    #home_province = 310 # Novogorod
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	sprites = { dlc020_nov_sprite_pack rus_base_sprite_pack easterngfx_sprite_pack }
+	trigger = {
+		tag = MOS
+	}
+    modifier = { 
+		shock_damage_received = -0.15
+	}
+}
+
+merc_crimean_company = {
+    regiments_per_development = 0.05
+    #home_province = 284 # Crimea
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	sprites = { dlc047_cri_sprite_pack muslimgfx_sprite_pack }
+	trigger = {
+		always = no
+	}
+    modifier = { }
+}
+
+merc_buryat_band = {
+    regiments_per_development = 0.05
+    cavalry_weight = 0.8
+    cavalry_cap = 40
+	min_size = 20
+	max_size = 80
+    #artillery_weight = 0 # No artillery
+	cost_modifier = 0.6
+    #home_province = 1058 # Onan Gol
+	sprites = { asiangfx_sprite_pack }
+	trigger = {
+		tag = MJZ
+	}
+    modifier = {
+        movement_speed = 0.1
+	cavalry_power = 0.1
+	}
+}
+
+merc_lithuanian_company = {
+    regiments_per_development = 0.05
+	cavalry_weight = 0.5
+    #artillery_weight = 0.0
+	min_size = 20
+	max_size = 80
+	cavalry_cap = 40
+    #home_province = 272 # Vilnius
+	cost_modifier = 0.6
+	sprites = { dlc003_lit_sprite_pack dlc074_lit_sprite_pack easterngfx_sprite_pack }
+	trigger = {
+		tag = LIT
+	}
+    modifier = { 
+		shock_damage = 0.1
+		reinforce_speed = 0.1
+	}
+}
+
+merc_frisian_free_company = {
+    regiments_per_development = 0.05
+    #home_province = 4382 # Groningen
+    cost_modifier = 0.75
+	min_size = 20
+	max_size = 80
+	sprites = { dlc028_ned_sprite_pack dlc042_ned_sprite_pack westerngfx_sprite_pack }
+	trigger = {
+		tag = NED
+	}
+    modifier = {
+		land_morale = 0.1
+  		fire_damage_received = -0.1
+	}
+}
+
+merc_finnish_company = {
+    regiments_per_development = 0.05
+	cavalry_weight = 0.4
+    #artillery_weight = 0.0
+	cavalry_cap = 40
+	min_size = 20
+	max_size = 80
+    #home_province = 28 # Nyland
+	cost_modifier = 0.6
+	sprites = { swe_base_sprite_pack westerngfx_sprite_pack }
+	trigger = {
+		tag = SCA
+	}
+    modifier = { 
+		cavalry_power = 0.2
+		infantry_power = 0.1
+	}
+}
+
+merc_almogavars = {
+    regiments_per_development = 0.05
+    #artillery_weight = 0 # No artillery
+    #home_province = 1750 # Alicante
+    cost_modifier = 0.75
+	min_size = 20
+	max_size = 80
+	sprites = { dlc020_ara_sprite_pack dlc029_spa_sprite_pack dlc049_SPA_sprite_pack dlc053_spa_sprite_pack westerngfx_sprite_pack }
+	trigger = {
+		tag = SPA
+	}
+    modifier = {
+		infantry_shock = 0.5
+		movement_speed = 0.10
+	}
+}
+
+merc_moorish_battalion = {
+    regiments_per_development = 0.05
+    #home_province = 343 # Fez
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	sprites = { dlc058_mor_sprite_pack muslimgfx_sprite_pack }
+	trigger = { 
+		tag = MOR
+	}
+    modifier = { 
+		fire_damage_received = -0.1
+		loot_amount = 0.5
+	}
+}
+
+merc_kutai_company = {
+    regiments_per_development = 0.075
+	#home_province = 638 # Kutai
+	cost_modifier = 0.75
+	min_size = 20
+	max_size = 80
+	sprites = { asiangfx_sprite_pack }
+	trigger = {
+		tag = MAJ
+	}
+    modifier = { 
+		land_morale = 0.1
+	}
+}
+
+merc_miquelet_company = {
+    regiments_per_development = 0.05
+    min_size = 20
+    max_size = 60
+	min_size = 20
+	max_size = 80
+    cavalry_weight = 0 #Pure infantry
+	cavalry_cap = 0 
+    #home_province = 2987 # Urgell
+	cost_modifier = 0.75
+	sprites = { dlc098_nav_sprite_pack dlc020_ara_sprite_pack dlc029_spa_sprite_pack dlc049_SPA_sprite_pack dlc053_spa_sprite_pack westerngfx_sprite_pack }
+	trigger = {
+		tag = CAS
+	}
+    modifier = {
+		infantry_shock = 0.25
+		movement_speed = 0.10
+	}
+}
+
+merc_free_company_of_volunteers = {
+    regiments_per_development = 0.05
+	min_size = 20
+	max_size = 80
+    #home_province = 4579 # Sayula
+	cost_modifier = 0.75
+	sprites = { dlc011_spa_sprite_pack westerngfx_sprite_pack }
+	trigger = { 
+		always = no
+	}
+    modifier = { }
+}
+
+merc_crabats = {
+    regiments_per_development = 0.05
+    #home_province = 131 # Zagreb
+    #cavalry_weight = 0.4
+	min_size = 20
+	max_size = 80
+    #artillery_weight = 0.0
+	#cavalry_cap = 6
+	cost_modifier = 0.75
+	sprites = { easterngfx_sprite_pack }
+    trigger = {
+		tag = VEN
+	}
+	modifier = { 
+		shock_damage_received = -0.15
+		reinforce_speed = 0.2
+	}
+}
+
+merc_free_swiss_guard = {
+    regiments_per_development = 0.05
+    #home_province = 165 # Bern
+	cost_modifier = 0.75
+	min_size = 20
+	max_size = 80
+	sprites = { westerngfx_sprite_pack }
+    trigger = { 
+		always = no
+	}
+	modifier = {
+        discipline = 0.05
+	}
+}
+
+merc_colonial_rangers = {
+    regiments_per_development = 0.05
+    #home_province = 2569 # Eskikewakik, eventually Halifax, Nova Scotia
+    cost_modifier = 0.75
+	min_size = 20
+	max_size = 80
+	#artillery_weight = 0.0
+	sprites = { dlc016_eng_sprite_pack westerngfx_sprite_pack }
+	trigger = { 
+		always = no
+	}
+    modifier = {
+		movement_speed = 0.1
+        land_morale = 0.1
+	}
+}
+
+merc_independent_cossack_host = {
+    regiments_per_development = 0.05
+	min_size = 20
+	max_size = 80
+    #home_province = 283 # Zaporozhia
+	cavalry_weight = 0.8 # lots of cavalry relative to other units
+	#artillery_weight = 0 # no artillery
+	cavalry_cap = 40
+	cost_modifier = 0.6
+	sprites = { dlc047_zaz_sprite_pack easterngfx_sprite_pack }
+	trigger = {
+		tag = UKR
+	}
+    modifier = { 
+		cavalry_power = 0.15
+		shock_damage = 0.15
+	}
+}
+
+merc_kazakh_company = {
+    regiments_per_development = 0.05
+    #home_province = 478 # Argyn
+	cavalry_weight = 0.5
+	cavalry_cap = 40
+	cost_modifier = 0.6
+	min_size = 20
+	max_size = 80
+	sprites = { dlc048_shy_sprite_pack muslimgfx_sprite_pack }
+	trigger = {
+		tag = SHY
+	}
+    modifier = { 
+		loot_amount = 1.0
+		discipline = 0.025
+	}
+}
+
+merc_yaka_free_warriors = {
+    regiments_per_development = 0.05
+    #home_province = 4085
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	sprites = { africangfx_sprite_pack }
+	trigger = {
+		always = no
+	}
+    modifier = { }
+}
+
+merc_great_lakes_free_warriors = {
+    regiments_per_development = 0.05
+    #home_province = 4064
+	cost_modifier = 0.75
+	min_size = 20
+	max_size = 80
+	sprites = { africangfx_sprite_pack }
+	trigger = {
+		tag = KON
+	}
+    modifier = {
+		infantry_fire = 0.25
+		land_attrition = -0.15
+	}
+}
+
+merc_thai_company = {
+    regiments_per_development = 0.05
+    #home_province = 600
+	cavalry_weight = 0.4
+	sprites = { ayu_base_sprite_pack }
+	cost_modifier = 0.65
+	min_size = 20
+	max_size = 80
+	trigger = {
+		tag = TAU
+	}
+    modifier = { 
+		cavalry_shock = 0.25
+		infantry_power = 0.1
+
+	}
+}
+
+merc_yucatan_company = {
+    regiments_per_development = 0.05
+    #home_province = 2633 # Ceh Pech
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	sprites = { dlc035_may_sprite_pack southamericagfx_sprite_pack }
+	trigger = {
+		always = no
+	}
+    modifier = { }
+}
+
+merc_misquito_coast_company = {
+    regiments_per_development = 0.05
+    #home_province = 838
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	sprites = { dlc034_tpa_sprite_pack southamericagfx_sprite_pack }
+	trigger = {
+		always = no
+	}
+    modifier = { }
+}
+
+merc_navajo_raiders = {
+    regiments_per_development = 0.05
+    #home_province = 878 # Navajo
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	sprites = { dlc015_nah_sprite_pack northamericagfx_sprite_pack }
+	trigger = {
+		always = no
+	}
+    modifier = { }
+}
+
+merc_chonnonton_warriors = {
+    regiments_per_development = 0.05
+    #home_province = 2586
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	sprites = { dlc012_hur_sprite_pack northamericagfx_sprite_pack }
+	trigger = {
+		always = no
+	}
+    modifier = { }
+}
+
+merc_inuit_warriors = {
+    regiments_per_development = 0.05
+    #home_province = 974
+	cost_modifier = 0.75
+	min_size = 20
+	max_size = 80
+	sprites = { inuitgfx_sprite_pack }
+	trigger = {
+		always = no
+	}
+    modifier = { shock_damage = 0.1 }
+}
+
+merc_free_mohawks = {
+    regiments_per_development = 0.05
+    #home_province = 964
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	sprites = { dlc012_iro_sprite_pack northamericagfx_sprite_pack }
+	trigger = {
+		always = no
+	}
+    modifier = {
+		land_morale = 0.05
+	}
+}
+
+merc_muscogee_mercenaries = {
+    regiments_per_development = 0.05
+    #home_province = 925
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	sprites = { dlc012_cre_sprite_pack northamericagfx_sprite_pack }
+	trigger = {
+		always = no
+	}
+    modifier = { }
+}
+
+merc_quito_company = {
+    regiments_per_development = 0.05
+    #home_province = 820
+	cost_modifier = 0.75
+	min_size = 20
+	max_size = 80
+	sprites = { dlc034_inc_sprite_pack southamericagfx_sprite_pack }
+	trigger = {
+		always = no
+	}
+    modifier = { }
+}
+
+merc_silver_company = {
+    regiments_per_development = 0.05
+    #home_province = 795
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	sprites = { dlc034_inc_sprite_pack southamericagfx_sprite_pack }
+	trigger = {
+		always = no
+	}
+    modifier = { }
+}
+
+merc_dahomey_amazons = {
+    regiments_per_development = 0.05
+    #cavalry_weight = 0.1
+    #artillery_weight = 0.0
+	#cavalry_cap = 2
+    #home_province = 1140
+	min_size = 20
+	max_size = 80
+	cost_modifier = 0.75
+	sprites = { dlc062_ben_sprite_pack africangfx_sprite_pack }
+	trigger = {
+		tag = SOK
+	}
+    modifier = {
+		land_morale = 0.1
+		infantry_power = 0.1
+    }
+}
+
+merc_gascon_musket_company = {
+    regiments_per_development = 0.05
+    #home_province = 175
+	min_size = 20
+	max_size = 80
+    cost_modifier = 0.75
+	sprites = { dlc001_amg_sprite_pack dlc049_FRA_sprite_pack dlc028_fra_sprite_pack dlc054_fra_sprite_pack fra_base_sprite_pack }
+    trigger = {
+		custom_trigger_tooltip = {
+			tooltip = h_gascon_trigger_tt
+			has_country_flag = h_gascon_company_unlocked
+		}
+	}
+	modifier = {
+        infantry_fire = 0.25
+	land_morale = 0.15
+	}
+}
+
+merc_tyrolean_guard = {
+    regiments_per_development = 0.05
+    #home_province = 4758
+	cost_modifier = 0.75
+	min_size = 20
+	max_size = 80
+	sprites = { dlc053_hab_sprite_pack dlc029_hab_sprite_pack hab_base_sprite_pack }
+    trigger = {
+		tag = HAB
+	}
+	modifier = { 
+		land_morale = 0.1
+		land_attrition = -0.25
+	}
+}
+
+merc_mongol_banner = {
+    regiments_per_development = 0.05
+	cavalry_weight = 0.8
+    #artillery_weight = 0.0
+	cavalry_cap = 40
+	min_size = 20
+	max_size = 80
+	#home_province = 718
+	cost_modifier = 0.6
+	sprites = { dlc069_kha_sprite_pack muslimgfx_sprite_pack }
+	trigger = {
+		tag = MGE
+	}
+	modifier = {
+        cavalry_shock = 1
+	}
+}
+
+merc_swiss_canton_mercenaries = {
+    regiments_per_development = 0.05
+	#home_province = 165
+	cost_modifier = 0.75
+	min_size = 20
+	max_size = 80
+	sprites = { westerngfx_sprite_pack }
+	trigger = {
+		OR = {
+			tag = SWI
+			tag = SWA
+		}
+		mission_completed = emp_swi_mercenaries
+	}
+	modifier = {
+		discipline = 0.05
+	}
+}
+
+h_merc_gallowglass = {
+    regiments_per_development = 0.05
+    #home_province = 373 #Dublin
+	cost_modifier = 0.75
+	min_size = 20
+	max_size = 80
+	sprites = { dlc087_ire_sprite_pack lei_base_sprite_pack westerngfx_sprite_pack }
+    trigger = {	
+		tag = IRE
+	}
+	modifier = {
+		infantry_shock = 0.5
+		shock_damage_received = -0.1
+	}
+}
+h_merc_krom_asas = {
+    regiments_per_development = 0.05
+	cavalry_weight = 0.8
+	min_size = 20
+	max_size = 80
+    #artillery_weight = 0.0
+	cavalry_cap = 40
+	#home_province = 718
+	cost_modifier = 0.6
+	sprites = { dlc069_kha_sprite_pack muslimgfx_sprite_pack }
+	trigger = {
+		tag = SIA
+	}
+	modifier = {
+        cavalry_fire = 0.5
+	fire_damage = 0.1
+	}
+}

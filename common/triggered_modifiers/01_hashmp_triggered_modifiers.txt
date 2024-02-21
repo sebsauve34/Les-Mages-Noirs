@@ -1,0 +1,659 @@
+########################################
+# Custom triggered modifiers for the HashMP Multiplayer mod
+#
+# by Foffy123
+########################################
+
+
+###########################################
+# TARIFF LIMITER - BY TORNADOWATCH
+###########################################
+#
+#Tariffs_Too_High = {
+#	potential = {
+#		any_subject_country = {
+#			is_colonial_nation_of = ROOT
+#		}	
+#	}
+#
+#	trigger = {
+#		any_subject_country = {
+#			is_colonial_nation_of = ROOT
+#			tariff_value = 0.76
+#		}
+#	}
+#
+#	global_tariffs = -1.00
+#}
+#
+###########################################
+# Free Colonist
+###########################################
+
+t_free_colonist = {
+	potential = {
+			NOT = {
+				capital_scope = {
+					continent = north_america
+				}
+			}
+			NOT = {
+				capital_scope = {
+					continent = south_america
+				}
+			}
+			NOT = {
+				has_idea_group = exploration_ideas
+			}
+		}
+
+	trigger = {
+		OR = {
+			AND = {
+				capital_scope = { continent = europe }
+				has_institution = new_world_i
+			}
+			has_institution = printing_press
+		}
+		NOT = {
+			OR = {
+				capital_scope = { continent = north_america }
+				capital_scope = { continent = south_america }
+				capital_scope = { region = australia_region }
+				capital_scope = { region = oceanea_region }
+			}
+		}
+		was_player = yes
+	}
+	
+	colonists = 1
+}
+
+###########################################
+# CN Limiters
+###########################################
+
+t_player_cn = {
+	potential = {
+		is_colonial_nation = yes
+	}
+	trigger = {
+		was_player = yes
+		NOT = { has_reform = h_reform_dominion }
+		NOT = { has_country_flag = became_dominion }
+	}
+	naval_forcelimit_modifier = -0.6
+	land_forcelimit_modifier = -0.6
+	mercenary_manpower = -0.75
+	development_cost = 0.4
+	development_cost_in_primary_culture = 0.2
+	manpower_recovery_speed = -0.6
+	sailors_recovery_speed = -0.6
+	global_sailors_modifier = -0.8
+}
+
+t_player_dominion = {
+	potential = {
+		is_colonial_nation = yes
+	}
+	trigger = {
+		was_player = yes
+		OR = {
+			has_reform = h_reform_dominion
+			has_country_flag = became_dominion	
+		}
+	}
+	naval_forcelimit_modifier = -0.3
+	land_forcelimit_modifier = -0.3
+	mercenary_manpower = -0.5
+	development_cost = 0.2
+	development_cost_in_primary_culture = 0.1
+	manpower_recovery_speed = -0.3
+	sailors_recovery_speed = -0.3
+	global_sailors_modifier = -0.4
+}
+
+t_low_repubtrad = {
+	potential = {
+		is_colonial_nation = yes
+	}
+	trigger = {
+		NOT = {
+			republican_tradition = 35
+		}
+	}
+	all_power_cost = 0.2
+}
+
+t_cn_army_1 = {
+	potential = {
+		is_colonial_nation = yes
+	}
+	trigger = {
+		was_player = yes
+		army_size = 60
+	}
+	reinforce_cost_modifier = 0.2
+	reinforce_speed = -0.25
+	global_regiment_cost = 0.05
+}
+
+t_cn_army_2 = {
+	potential = {
+		is_colonial_nation = yes
+	}
+	trigger = {
+		was_player = yes
+		army_size = 120
+	}
+	reinforce_cost_modifier = 0.2
+	reinforce_speed = -0.25
+	global_regiment_cost = 0.05
+}
+
+t_cn_army_3 = {
+	potential = {
+		is_colonial_nation = yes
+	}
+	trigger = {
+		was_player = yes
+		army_size = 180
+	}
+	reinforce_cost_modifier = 0.2
+	reinforce_speed = -0.25
+	global_regiment_cost = 0.05
+}
+
+t_cn_army_4 = {
+	potential = {
+		is_colonial_nation = yes
+	}
+	trigger = {
+		was_player = yes
+		army_size = 240
+	}
+	reinforce_cost_modifier = 0.1
+	reinforce_speed = -0.15
+	global_regiment_cost = 0.05
+}
+
+t_cn_army_5 = {
+	potential = {
+		is_colonial_nation = yes
+	}
+	trigger = {
+		was_player = yes
+		army_size = 300
+	}
+	reinforce_cost_modifier = 0.1
+	reinforce_speed = -0.15
+	global_regiment_cost = 0.05
+}
+
+t_cn_navy_1 = {
+	potential = {
+		is_colonial_nation = yes
+	}
+	trigger = {
+		was_player = yes
+		OR = {
+			num_of_heavy_ship = 15
+			navy_size = 60
+		}
+	}
+	
+	global_ship_recruit_speed = 0.2
+	global_ship_repair = -0.2
+	global_ship_cost = 0.2
+	naval_maintenance_modifier = 0.1
+}
+
+t_cn_navy_2 = {
+	potential = {
+		is_colonial_nation = yes
+	}
+	trigger = {
+		was_player = yes
+		OR = {
+			num_of_heavy_ship = 30
+			navy_size = 120
+		}
+	}
+	sailor_maintenance_modifer = 0.1
+	global_ship_recruit_speed = 0.2
+	global_ship_repair = -0.2
+	global_ship_cost = 0.2
+	naval_maintenance_modifier = 0.1
+}
+
+t_cn_navy_3 = {
+	potential = {
+		is_colonial_nation = yes
+	}
+	trigger = {
+		was_player = yes
+		OR = {
+			num_of_heavy_ship = 45
+			navy_size = 180
+		}
+	}
+	
+	global_ship_recruit_speed = 0.2
+	global_ship_repair = -0.2
+	global_ship_cost = 0.2
+	naval_maintenance_modifier = 0.1
+}
+
+t_cn_navy_4 = {
+	potential = {
+		is_colonial_nation = yes
+	}
+	trigger = {
+		was_player = yes
+		OR = {
+			num_of_heavy_ship = 60
+			navy_size = 160
+		}
+	}
+	
+	global_ship_recruit_speed = 0.15
+	global_ship_repair = -0.15
+	global_ship_cost = 0.1
+	naval_maintenance_modifier = 0.1
+}
+
+t_cn_navy_5 = {
+	potential = {
+		is_colonial_nation = yes
+	}
+	trigger = {
+		was_player = yes
+		OR = {
+			num_of_heavy_ship = 75
+			navy_size = 200
+		}
+	}
+	
+	global_ship_recruit_speed = 0.15
+	global_ship_repair = -0.15
+	global_ship_cost = 0.1
+	naval_maintenance_modifier = 0.1
+}
+
+###########################################
+# HRE Rework
+###########################################
+
+t_hre_elector_1 = {
+	potential = {
+		is_part_of_hre = yes
+		was_player = yes
+	}
+	trigger = {
+		is_elector = yes
+		is_emperor = no
+		NOT = {
+			hre_reform_passed = emperor_reichsstabilitaet
+		}
+		NOT = {
+			total_development = 750
+		}
+	}
+	advisor_cost = -0.05
+	interest = -0.25
+	global_regiment_cost = -0.05
+	build_cost = -0.05
+	development_cost_modifier = -0.05
+	ae_impact = -0.1
+	land_forcelimit = 3
+	global_tax_income = 6
+	global_manpower = 5
+}
+
+t_hre_elector_2 = {
+	potential = {
+		is_part_of_hre = yes
+		was_player = yes
+	}
+	trigger = {
+		is_elector = yes
+		is_emperor = no
+		hre_reform_passed = emperor_reichsstabilitaet
+		NOT = {
+			hre_reform_passed = emperor_perpetual_diet
+		}
+		NOT = {
+			total_development = 750
+		}
+	}
+	interest = -0.25
+	global_regiment_cost = -0.075
+	build_cost = -0.075
+	development_cost_modifier = -0.075
+	ae_impact = -0.15
+	land_forcelimit = 6
+	manpower_recovery_speed = 0.1
+	land_morale = 0.05
+	advisor_cost = -0.1
+	global_manpower = 10
+	global_tax_income = 12
+}
+
+t_hre_elector_3 = {
+	potential = {
+		is_part_of_hre = yes
+		was_player = yes
+	}
+	trigger = {
+		is_elector = yes
+		is_emperor = no
+		hre_reform_passed = emperor_perpetual_diet
+		NOT = {
+			total_development = 750
+		}
+	}
+	interest = -0.25
+	global_regiment_cost = -0.1
+	build_cost = -0.1
+	development_cost_modifier = -0.1
+	land_forcelimit = 10
+	ae_impact = -0.2
+	manpower_recovery_speed = 0.15
+	land_morale = 0.05
+	advisor_cost = -0.15
+	global_manpower = 15
+	global_tax_income = 24
+}
+
+t_hre_strongemperor = {
+	potential = {
+		is_part_of_hre = yes
+		was_player = yes
+	}
+	trigger = {
+		emperor = {
+			is_part_of_hre = yes
+			OR = {
+				total_development = 300
+				AND = {
+					tag = HAB
+					total_development = 150
+				}
+				AND = {
+					tag = AHU
+					total_development = 150
+				}
+			}
+		}
+	}
+	imperial_authority = 0.1
+	imperial_authority_value = 0.03
+}
+
+###########################################
+# Misc Modifiers
+###########################################
+
+t_vassal_cav_ratio = {
+	potential = {
+		is_subject = yes
+		ai = yes
+	}
+	trigger = {
+		overlord = {
+			has_global_modifier_value = {
+				which = cav_to_inf_ratio
+				value = 1
+			}
+		}
+		OR = {
+			is_subject_of_type = client_march
+			is_subject_of_type = client_vassal
+			is_subject_of_type = vassal
+			is_subject_of_type = march
+		}
+	}
+	cav_to_inf_ratio = 0.5
+}
+
+t_over_merc_cap_early = {
+	potential = {
+		was_player = yes
+	}
+	trigger = {
+		army_size_percentage = 1.25
+	
+	NOT = {
+		army_size_percentage = 1.75
+		}
+}
+	global_unrest = 1
+	war_exhaustion = 0.01
+	war_taxes_cost_modifier = 0.25
+	defensiveness = -0.05
+	reinforce_speed = -0.05
+	reinforce_cost_modifier = 0.05
+}
+
+t_over_merc_cap_mid = {
+	potential = {
+		was_player = yes
+	}
+	trigger = {
+		army_size_percentage = 1.75
+	
+	NOT = {
+		army_size_percentage = 2.25
+		
+		}
+}
+	global_unrest = 2.5
+	war_exhaustion = 0.02
+	defensiveness = -0.1
+	war_taxes_cost_modifier = 0.5
+	reinforce_speed = -0.1
+	reinforce_cost_modifier = 0.1
+}
+
+t_over_merc_cap_late = {
+	potential = {
+		was_player = yes
+	}
+	trigger = {
+		army_size_percentage = 2.25
+	
+	NOT = {
+		army_size_percentage = 2.75
+		
+		}
+}
+	global_unrest = 4
+	war_exhaustion = 0.03
+	reinforce_speed = -0.2
+	reinforce_cost_modifier = 0.2
+	defensiveness = -0.15
+	war_taxes_cost_modifier = 1
+}
+t_over_merc_cap_superlate = {
+	potential = {
+		was_player = yes
+	}
+	trigger = {
+	
+		army_size_percentage = 2.75
+}
+	global_unrest = 6
+	war_exhaustion = 0.05
+	reinforce_speed = -0.25
+	reinforce_cost_modifier = 0.5
+	defensiveness = -0.2
+	war_taxes_cost_modifier = 2
+	global_trade_goods_size_modifier = -0.1
+	merc_maintenance_modifier = 0.5
+}
+
+
+###########################################
+# Denmark Modifiers
+###########################################
+
+h_denmark_dominions_bonus_i = {
+	potential = {
+		OR = {
+			tag = SCA
+			tag = DAN
+		}
+
+		mission_completed = h_dan_colonial_3
+
+		OR = {
+			calc_true_if = {
+				any_subject_country = {
+					has_reform = h_reform_dominion
+				}
+				amount = 1
+			}
+
+			colony = 1
+		}
+	}
+	trigger = {
+		calc_true_if = {
+			any_subject_country = {
+				has_reform = h_reform_dominion
+			}
+			amount = 1
+		}
+	}
+
+	global_trade_goods_size_modifier = 0.05
+	naval_forcelimit_modifier = 0.025
+	global_manpower = 5
+	global_sailors = 500
+}
+
+h_denmark_dominions_bonus_ii = {
+	potential = {
+		OR = {
+			tag = SCA
+			tag = DAN
+		}
+
+		mission_completed = h_dan_colonial_3
+
+		calc_true_if = {
+			any_subject_country = {
+				has_reform = h_reform_dominion
+			}
+			amount = 2
+		}
+	}
+	trigger = {
+		calc_true_if = {
+			any_subject_country = {
+				has_reform = h_reform_dominion
+			}
+			amount = 2
+		}
+	}
+
+	global_trade_goods_size_modifier = 0.1
+	naval_forcelimit_modifier = 0.05
+	global_manpower = 10
+	global_sailors = 1000
+}
+
+h_denmark_dominions_bonus_iii= {
+	potential = {
+		OR = {
+			tag = SCA
+			tag = DAN
+		}
+
+		mission_completed = h_dan_colonial_3
+
+		calc_true_if = {
+			any_subject_country = {
+				has_reform = h_reform_dominion
+			}
+			amount = 3
+		}
+	}
+	trigger = {
+		calc_true_if = {
+			any_subject_country = {
+				has_reform = h_reform_dominion
+			}
+			amount = 3
+		}
+	}
+
+	global_trade_goods_size_modifier = 0.15
+	naval_forcelimit_modifier = 0.075
+	global_manpower = 15
+	global_sailors = 1500
+}
+
+h_denmark_dominions_bonus_iv = {
+	potential = {
+		OR = {
+			tag = SCA
+			tag = DAN
+		}
+
+		mission_completed = h_dan_colonial_3
+
+		calc_true_if = {
+			any_subject_country = {
+				has_reform = h_reform_dominion
+			}
+			amount = 4
+		}
+	}
+	trigger = {
+		calc_true_if = {
+			any_subject_country = {
+				has_reform = h_reform_dominion
+			}
+			amount = 4
+		}
+	}
+
+	global_trade_goods_size_modifier = 0.20
+	naval_forcelimit_modifier = 0.1
+	global_manpower = 20
+	global_sailors = 2000
+}
+
+h_denmark_dominions_bonus_v = {
+	potential = {
+		OR = {
+			tag = SCA
+			tag = DAN
+		}
+
+		mission_completed = h_dan_colonial_3
+
+		calc_true_if = {
+			any_subject_country = {
+				has_reform = h_reform_dominion
+			}
+			amount = 5
+		}
+	}
+	trigger = {
+		calc_true_if = {
+			any_subject_country = {
+				has_reform = h_reform_dominion
+			}
+			amount = 5
+		}
+	}
+
+	global_trade_goods_size_modifier = 0.25
+	naval_forcelimit_modifier = 0.125
+	global_manpower = 25
+	global_sailors = 2500
+}
+
+

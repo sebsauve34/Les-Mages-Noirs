@@ -1,0 +1,80 @@
+echo_development_counter = {
+	[[on_startup]
+		if = {
+			limit = {
+				ai = no	
+				NOT = { has_country_flag = has_echo_development_counter_cflag }				
+			}
+			set_variable = {
+				which = echo_adm_dev_counter
+				value = 0
+			}
+			set_variable = {
+				which = echo_dip_dev_counter
+				value = 0
+			}
+			set_variable = {
+				which = echo_mil_dev_counter
+				value = 0
+			}
+			set_variable = {
+				which = echo_total_dev_counter
+				value = 0
+			}
+			set_country_flag = has_echo_development_counter_cflag
+		}
+	]
+	
+	#All updates to variables in this section are in province scope.
+	[[adm]
+		owner = {
+			change_variable = {
+				which = echo_adm_dev_counter
+				value = 1
+			}
+			change_variable = {
+				which = echo_total_dev_counter
+				value = 1
+			}
+		}
+	]
+	[[dip]
+		owner = {
+			change_variable = {
+				which = echo_dip_dev_counter
+				value = 1
+			}
+			change_variable = {
+				which = echo_total_dev_counter
+				value = 1
+			}
+		}
+	]
+	[[mil]
+		owner = {
+			change_variable = {
+				which = echo_mil_dev_counter
+				value = 1
+			}
+			change_variable = {
+				which = echo_total_dev_counter
+				value = 1
+			}
+		}
+	]
+}
+
+qolu_wool_into_cloth_counter = {
+	[[on_startup]
+	if = {
+		limit = { 
+			ai = no
+		}
+
+		set_variable = {
+			which = qolu_wool_into_cloth
+			value = 0
+		}
+	}
+	]
+}

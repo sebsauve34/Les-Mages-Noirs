@@ -1,0 +1,321 @@
+########################################
+# Custom provincial triggered modifiers for HashMP CE
+#
+# by Foffy123
+########################################
+
+
+###########################################
+# Just random test modifier
+###########################################
+test_modifier = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+
+	trigger = {
+		owner = {
+			religion = confucianism
+		}
+	}
+
+	local_build_cost = 0.05	
+	
+	#Province scope
+	on_activation = {
+	
+	}
+	
+	on_deactivation = {
+	
+	}
+	
+}
+
+###########################################
+# Thirteen Wonders of China
+###########################################
+
+h_cwonder_beijing = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			religion = confucianism
+		}
+		is_core = ROOT
+	}
+	legitimacy = 1
+	global_unrest = -2
+	governing_capacity = 50
+	#Province scope
+	on_activation = {
+	}
+	on_deactivation = {
+	}
+}
+
+h_cwonder_changsha = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			religion = confucianism
+		}
+		is_core = ROOT
+	}
+	technology_cost = -0.05
+	idea_cost = -0.05
+	governing_capacity = 50
+	#Province scope
+	on_activation = {
+	}
+	on_deactivation = {
+	}
+}
+
+h_cwonder_chengdu = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			religion = confucianism
+		}
+		is_core = ROOT
+	}
+	development_cost = -0.05
+	governing_capacity = 50
+	#Province scope
+	on_activation = {
+	}
+	on_deactivation = {
+	}
+}
+
+h_cwonder_chongqing = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			religion = confucianism
+		}
+		is_core = ROOT
+	}
+	defensiveness = 0.2
+	governing_capacity = 50
+	#Province scope
+	on_activation = {
+	}
+	on_deactivation = {
+	}
+}
+
+h_cwonder_dalian = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			religion = confucianism
+		}
+		is_core = ROOT
+	}
+	num_accepted_cultures = 2
+	governing_capacity = 50
+	#Province scope
+	on_activation = {
+	}
+	on_deactivation = {
+	}
+}
+
+h_cwonder_guangzhou = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			religion = confucianism
+		}
+		is_core = ROOT
+	}
+	global_trade_goods_size_modifier = 0.1
+	governing_capacity = 50
+	#Province scope
+	on_activation = {
+	}
+	on_deactivation = {
+	}
+}
+
+h_cwonder_hangzhou = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			religion = confucianism
+		}
+		is_core = ROOT
+	}
+	global_ship_cost = -0.1
+	global_trade_power = 0.1
+	governing_capacity = 50
+	#Province scope
+	on_activation = {
+	}
+	on_deactivation = {
+	}
+}
+
+h_cwonder_kunming = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			religion = confucianism
+		}
+		is_core = ROOT
+	}
+	global_prov_trade_power_modifier = 0.2
+	governing_capacity = 50
+	#Province scope
+	on_activation = {
+	}
+	on_deactivation = {
+	}
+}
+
+h_cwonder_luoyang = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			religion = confucianism
+		}
+		is_core = ROOT
+	}
+	prestige = 1
+	governing_capacity = 50
+	#Province scope
+	on_activation = {
+	}
+	on_deactivation = {
+	}
+}
+
+h_cwonder_nanjing = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			religion = confucianism
+		}
+		is_core = ROOT
+	}
+	advisor_cost = -0.15
+	governing_capacity = 50
+	#Province scope
+	on_activation = {
+	}
+	on_deactivation = {
+	}
+}
+
+h_cwonder_wuchang = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			religion = confucianism
+		}
+		is_core = ROOT
+	}
+	build_cost = -0.05
+	build_time = -0.1
+	governing_capacity = 50
+	#Province scope
+	on_activation = {
+	}
+	on_deactivation = {
+	}
+}
+
+h_cwonder_xian = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			religion = confucianism
+		}
+		is_core = ROOT
+	}
+	army_tradition = 0.5
+	infantry_cost = -0.05
+	governing_capacity = 50
+	#Province scope
+	on_activation = {
+	}
+	on_deactivation = {
+	}
+}
+
+h_cwonder_xiamen = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			religion = confucianism
+		}
+		is_core = ROOT
+	}
+	trade_efficiency = 0.1
+	governing_capacity = 50
+	#Province scope
+	on_activation = {
+	}
+	on_deactivation = {
+	}
+}
+
+h_denmark_coastal_defenses = {
+	potential = {
+		normal_or_historical_nations = yes
+	}
+	trigger = {
+		owner = {
+			OR = {
+				tag = DAN
+				tag = SCA
+			}
+		}
+		OR = {
+			has_building = coastal_defence
+			has_building = naval_battery
+		}
+		OR = {
+			has_building = fort_15th
+			has_building = fort_16th
+			has_building = fort_17th
+			has_building = fort_18th
+		}
+	}
+
+	local_defensiveness = 0.1
+	allowed_num_of_buildings = 1
+
+	on_activation = {
+	}
+	on_deactivation = {
+	}
+}
