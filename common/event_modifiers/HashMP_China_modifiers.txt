@@ -269,7 +269,7 @@ h_chinese_empire = {
 }
 
 h_csh_legacy = {
-	land_morale = 0.1
+	shock_damage = 0.2
 }
 
 h_cxi_legacy = {
@@ -277,7 +277,7 @@ h_cxi_legacy = {
 }
 
 h_cyi_legacy = {
-	shock_damage = 0.2
+	morale_damage = 0.2
 }
 
 h_qic_legacy = {
@@ -289,5 +289,5 @@ h_wuu_legacy = {
 }
 
 h_yue_legacy = {
-	global_manpower_modifier = 0.33
+	morale_damage_received = -0.2
 }

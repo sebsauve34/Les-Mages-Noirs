@@ -46,8 +46,8 @@ h_cwonder_beijing = {
 		}
 		is_core = ROOT
 	}
-	legitimacy = 1
-	global_unrest = -2
+	global_autonomy = -0.05
+	yearly_corruption = -0.1
 	governing_capacity = 50
 	#Province scope
 	on_activation = {
@@ -124,7 +124,8 @@ h_cwonder_dalian = {
 		}
 		is_core = ROOT
 	}
-	num_accepted_cultures = 2
+	manpower_in_own_culture_provinces = 0.1
+	culture_conversion_cost = -0.25
 	governing_capacity = 50
 	#Province scope
 	on_activation = {
@@ -182,7 +183,7 @@ h_cwonder_kunming = {
 		}
 		is_core = ROOT
 	}
-	global_prov_trade_power_modifier = 0.2
+	reinforce_speed = 0.2
 	governing_capacity = 50
 	#Province scope
 	on_activation = {
@@ -202,6 +203,7 @@ h_cwonder_luoyang = {
 		is_core = ROOT
 	}
 	prestige = 1
+	global_tax_modifier = 0.1
 	governing_capacity = 50
 	#Province scope
 	on_activation = {
@@ -220,7 +222,7 @@ h_cwonder_nanjing = {
 		}
 		is_core = ROOT
 	}
-	advisor_cost = -0.15
+	advisor_cost = -0.1
 	governing_capacity = 50
 	#Province scope
 	on_activation = {
@@ -260,7 +262,7 @@ h_cwonder_xian = {
 		is_core = ROOT
 	}
 	army_tradition = 0.5
-	infantry_cost = -0.05
+	global_regiment_cost = -0.05
 	governing_capacity = 50
 	#Province scope
 	on_activation = {

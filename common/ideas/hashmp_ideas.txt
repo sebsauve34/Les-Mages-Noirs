@@ -718,12 +718,13 @@ ZUL_ideas = { #Zulu Empire
 
 AUS_ideas = { #Australia
 	start = {
-		movement_speed = 0.1
+		movement_speed = 0.15
 		siege_ability = 0.15
 	}
 	
 	bonus = {
-		possible_mil_policy = 1
+		landing_penalty = -1
+		regiment_disembark_speed = 0.33
 	}
 	
 	trigger = {
@@ -779,7 +780,7 @@ NZL_ideas = { #New Zealand
 		development_cost = -0.15
 	}
 	NZL_haka = { #Pacific's Triple Star
-		naval_morale = 0.10
+		naval_morale_damage = 0.15
 	}
 	NZL_company = { #Bushrangers
 		hostile_attrition = 1
@@ -788,7 +789,7 @@ NZL_ideas = { #New Zealand
 		global_tax_modifier = 0.15
 	}
 	NZL_pokarekare_ana = { #Impressment
-		global_sailors_modifier = 0.33
+		global_sailors_modifier = 0.5
 	}
 }
 
@@ -811,7 +812,7 @@ BRZ_ideas = { #Brazil
 		global_autonomy = -0.05
 	}
 	research_of_nassau = {
-		idea_cost = -0.1
+		yearly_innovativeness = 0.25
 		innovativeness_gain = 0.5
 	}
 	mines_of_minas_gerais = {
@@ -1137,14 +1138,14 @@ CUB_ideas = { #Cuba
 	free = yes
 	
 	cub_1 = { #Privateer Spirit
-		blockade_efficiency = 0.25
-		capture_ship_chance = 0.1
+		may_perform_slave_raid = yes
 	}
 	cub_2 = { #Impressment
 		global_sailors_modifier = 0.5
 	}
 	cub_3 = { #The Arsenal
 		global_ship_cost = -0.1
+		global_ship_recruit_speed = -0.1
 	}
 	cub_4 = { #Sugar and Slaves
 		production_efficiency = 0.1
@@ -1270,6 +1271,7 @@ COL_ideas = { #Colombia
 	}
 	col_4 = { #Muisca Heritage
 		num_accepted_cultures = 1
+		manpower_in_accepted_culture_provinces = 0.1
 	}
 	col_5 = { #Little Hell
 		global_missionary_strength = 0.02
@@ -1346,8 +1348,7 @@ USA_ideas = { #United States
 		republican_tradition = 0.1
 	}
 	empire_of_liberty = {
-		build_cost = -0.05
-		development_cost = -0.05
+		prestige = 1
 	}
 	lessons_of_valley_forge = {
 		infantry_power = 0.15
@@ -1357,10 +1358,11 @@ USA_ideas = { #United States
 		global_trade_goods_size_modifier = 0.1
 	}
 	shining_city_on_a_hill = {
-		prestige = 1
+		defensiveness = 0.15
 	}
 	indian_removal = {
 		culture_conversion_cost = -0.25
+		development_cost_in_primary_culture = -0.05
  	}
 }
 
@@ -1447,7 +1449,7 @@ FLO_ideas = { #Florida
 	}
 	
 	bonus = {
-		build_time = -0.25
+		global_trade_goods_size = 0.5
 	}
 	
 	trigger = {
@@ -1466,9 +1468,10 @@ FLO_ideas = { #Florida
 	}
 	flo_4 = { #Melting Pot
 		num_accepted_cultures = 1
+		manpower_in_accepted_culture_provinces = 0.1
 	}
 	flo_5 = { #Settle the Interior
-		development_cost = -0.1
+		development_cost_modifier = -0.1
 	}
 	flo_6 = { #Life and Liberty
 		republican_tradition = 0.1
@@ -1568,7 +1571,7 @@ TEX_ideas = { #Texas
 		free_leader_pool = 1
 	}
 	bonus = {
-		cav_to_inf_ratio = 0.3
+		regiment_manpower_usage = -0.05
 	}
 	trigger = {
 		tag = TEX
@@ -1586,6 +1589,7 @@ TEX_ideas = { #Texas
 	}
 	vaqueros = {
 		cavalry_power = 0.2
+		cav_to_inf_ratio = 0.3
 	}
 	tex_native_frontiers = {
 		land_attrition = -0.1
@@ -1602,7 +1606,7 @@ TEX_ideas = { #Texas
 LOU_ideas = { #Louisiana
 	start = {
 		state_maintenance_modifier = -0.25
-		fort_maintenance_modifier = -0.15
+		global_allowed_num_of_buildings = 1
 	}
 	
 	bonus = {
@@ -1646,47 +1650,6 @@ LOU_ideas = { #Louisiana
 	}
 }
 
-ILI_ideas = { #Illinois - Unfinished
-	start = {
-		state_maintenance_modifier = -0.25
-		fort_maintenance_modifier = -0.15
-	}
-	
-	bonus = {
-		prestige_decay = -0.01
-	}
-	
-	trigger = {
-		tag = ILI
-	}
-	free = yes
-	
-	ili_1 = { #Masters of the Gulf
-		global_trade_power = 0.1
-	}
-	ili_2 = { #Port of New Orleans
-		light_ship_cost = -0.25
-		global_sailors_modifier = 0.5
-	}
-	ili_3 = { #Breadbasket of America
-		global_trade_goods_size_modifier = 0.1
-	}
-	ili_4 = { #Voodoo
-		stability_cost_modifier = -0.15
-	}
-	ili_5 = { #Mississippi Watershed
-		development_cost = -0.15
-	}
-	ili_6 = { #Slave Labor
-		build_time = -0.25
-		build_cost = -0.1
-	}
-	ili_7 = { #Soldiers of Fortune
-		mercenary_manpower = 0.25
-		mercenary_discipline = 0.05
-	}
-}
-
 # Mexico
 
 MEX_ideas = { #Mexico
@@ -1711,13 +1674,14 @@ MEX_ideas = { #Mexico
 	}	
 	the_republic_of_indians = {
 		num_accepted_cultures = 2
+		manpower_in_accepted_culture_provinces = 0.15
 	}
     peace_by_purchase = {
 		global_autonomy = -0.05
 	}
 	casa_de_las_campanas = {
 		embracement_cost = -0.2
-		prestige = 0.5
+		prestige = 1
 	}
 	repartimiento = {
 		production_efficiency = 0.1
@@ -1737,7 +1701,7 @@ CAM_ideas = { #United Central America
 	}
 	
 	bonus = {
-		land_morale = 0.1
+		morale_damage_received = -0.2
 	}
 	
 	trigger = {
@@ -1749,7 +1713,7 @@ CAM_ideas = { #United Central America
 		recover_army_morale_speed = 0.1
 	}
 	cam_2 = { #Arm the Masses
-		infantry_power = -0.2
+		infantry_power = -0.1
 		infantry_cost = -0.2
 	}
 	cam_3 = { #Imperial Schools
@@ -1757,6 +1721,7 @@ CAM_ideas = { #United Central America
 	}
 	cam_4 = { #Forced Conversion
 		culture_conversion_cost = -0.5
+		manpower_in_own_culture_provinces = 0.15
 	}
 	cam_5 = { #Highland Conscription
 		manpower_recovery_speed = 0.25
@@ -1775,7 +1740,7 @@ CAM_ideas = { #United Central America
 BLV_ideas = { #Bolivia
 	start = {
 		land_forcelimit_modifier = 0.25
-		global_manpower_modifier = 0.20
+		global_manpower_modifier = 0.25
 	}
 	
 	bonus = {
@@ -1819,7 +1784,7 @@ PEU_ideas = { #Peru
 	}
 	
 	bonus = {
-		global_supply_limit_modifier = 0.5
+		artillery_fire = 0.5
 	}
 	
 	trigger = {
@@ -1837,6 +1802,7 @@ PEU_ideas = { #Peru
 	}
 	peu_3 = { #Blast Charges
 		siege_ability = 0.2
+		artillery_levels_available_vs_fort = 1
 	}
 	peu_4 = { #Loyalists
 		republican_tradition = 0.1
@@ -1845,7 +1811,7 @@ PEU_ideas = { #Peru
 		development_cost = -0.1
 	}
 	peu_6 = { #Faithful Unto Death
-		land_morale = 0.15
+		morale_damage = 0.2
 	}
 	peu_7 = { #Machu Picchu
 		prestige_decay = -0.01
@@ -1857,11 +1823,11 @@ PEU_ideas = { #Peru
 ORJ_ideas = { #Oranje
 	start = {
 		global_tax_modifier = 0.1
-		republican_tradition = 0.1
+		own_territory_dice_roll_bonus = 1
 	}
 	
 	bonus = {
-		prestige = 1
+		garrison_damage = 0.2
 	}
 	
 	trigger = {
@@ -1871,17 +1837,19 @@ ORJ_ideas = { #Oranje
 	
 	orj_1 = { #Hard Ground
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 		defensiveness = 0.15
 	}
 	orj_2 = { #Kommandos
-		land_morale = 0.15
+		morale_damage_received = -0.15
 	}
 	orj_3 = { #Die Stem
 		manpower_recovery_speed = 0.2
 	}
 	orj_4 = { #Vrijstaat
 		enemy_core_creation = 0.25
-		garrison_size = 0.10
+		garrison_size = 0.25
+		global_garrison_growth = 0.25
 	}
 	orj_5 = { #The Great Trek
 		land_attrition = -0.1
@@ -1892,7 +1860,7 @@ ORJ_ideas = { #Oranje
 		build_cost = -0.1
 	}
 	orj_7 = { #Versterken
-		reinforce_speed = 0.2
+		reinforce_speed = 0.25
 	}
 }
 
@@ -1965,8 +1933,8 @@ TTS_ideas = { #By Xaime
 	}
 	tts_four = { ##Norman Knights/Horsemen of Europe also inspired by Murat's short reign of Naples, who was nicknamed the 'First Horsemen of Europe'
 		cav_to_inf_ratio = 0.2
-		cavalry_cost = -0.20
-		cavalry_power = 0.15
+		cavalry_cost = -0.1
+		cavalry_power = 0.1
 	}
 	tts_five = { ##sic_noble_admirals // Extra leader pool so having an admiral isn't agony when focusing on land.
 		development_cost = -0.10
@@ -2088,7 +2056,7 @@ KOR_ideas = {
 		all_estate_loyalty_equilibrium = 0.05
 	}
 	metal_movable_type = {
-		adm_tech_cost_modifier = -0.05
+		adm_tech_cost_modifier = -0.1
 		innovativeness_gain = 0.5
 	}
 	choi_mu_seon_gunpower_engines = {
