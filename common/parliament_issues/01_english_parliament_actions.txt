@@ -1302,113 +1302,113 @@ act_of_representation = {
 	}
 }
 
-the_sugar_act = {
-	category = 2
+#the_sugar_act = {
+#	category = 2
+#
+#	allow = {
+#		has_not_enacted_parliament_action = {
+#			parliament_action = the_sugar_act
+#		}
+#		has_government_attribute = english_parliament
+#		has_issue_unlocked = {
+#			issue = the_sugar_act
+#		}
+#	}
+#	
+#	effect = {
+#		set_parliament_action_flag = {
+#			parliament_action = the_sugar_act
+#		}
+#		increase_trade_goods_discovery = {
+#			trade_goods = sugar
+#		}
+#	}
+#	
+#	#modifier = {
+	#	colony_development_boost = 1
+	#}
+#	
+#	chance = {
+#		factor = 0
+#	}
+#
+#	ai_will_do = {
+#		factor = 1
+#	}
+#}
 
-	allow = {
-		has_not_enacted_parliament_action = {
-			parliament_action = the_sugar_act
-		}
-		has_government_attribute = english_parliament
-		has_issue_unlocked = {
-			issue = the_sugar_act
-		}
-	}
-	
-	effect = {
-		set_parliament_action_flag = {
-			parliament_action = the_sugar_act
-		}
-		increase_trade_goods_discovery = {
-			trade_goods = sugar
-		}
-	}
-	
-	modifier = {
-		colony_development_boost = 1
-	}
-	
-	chance = {
-		factor = 0
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-the_gold_act = {
-	category = 2
-
-	allow = {
-		has_not_enacted_parliament_action = {
-			parliament_action = the_gold_act
-		}
-		has_government_attribute = english_parliament
-		has_issue_unlocked = {
-			issue = the_gold_act
-		}
-	}
-	
-	effect = {
-		set_parliament_action_flag = {
-			parliament_action = the_gold_act
-		}
-		increase_trade_goods_discovery = {
-			trade_goods = gold
-		}
-	}
-	
-	modifier = {
-		colony_development_boost = 1
-	}
-	
-	chance = {
-		factor = 0
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
-
-the_spice_act = {
-	category = 2
-
-	allow = {
-		has_not_enacted_parliament_action = {
-			parliament_action = the_spice_act
-		}
-		has_government_attribute = english_parliament
-		has_issue_unlocked = {
-			issue = the_spice_act
-		}
-	}
-	
-	effect = {
-		set_parliament_action_flag = {
-			parliament_action = the_spice_act
-		}
-		increase_trade_goods_discovery = {
-			trade_goods = spices
-		}
-		increase_trade_goods_discovery = {
-			trade_goods = cloves
-		}
-	}
-	
-	modifier = {
-		colony_development_boost = 1
-	}
-	
-	chance = {
-		factor = 0
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
+#the_gold_act = {
+#	category = 2
+#
+#	allow = {
+#		has_not_enacted_parliament_action = {
+#			parliament_action = the_gold_act
+#		}
+#		has_government_attribute = english_parliament
+#		has_issue_unlocked = {
+#			issue = the_gold_act
+#		}
+#	}
+#	
+#	effect = {
+#		set_parliament_action_flag = {
+#			parliament_action = the_gold_act
+#		}
+#		increase_trade_goods_discovery = {
+#			trade_goods = gold
+#		}
+#	}
+#	
+#	modifier = {
+#		colony_development_boost = 1
+#	}
+#	
+#	chance = {
+#		factor = 0
+#	}
+#
+#	ai_will_do = {
+#		factor = 1
+#	}
+#}
+#
+#the_spice_act = {
+#	category = 2
+#
+#	allow = {
+#		has_not_enacted_parliament_action = {
+#			parliament_action = the_spice_act
+#		}
+#		has_government_attribute = english_parliament
+#		has_issue_unlocked = {
+#			issue = the_spice_act
+#		}
+#	}
+#	
+#	effect = {
+#		set_parliament_action_flag = {
+#			parliament_action = the_spice_act
+#		}
+#		increase_trade_goods_discovery = {
+#			trade_goods = spices
+#		}
+#		increase_trade_goods_discovery = {
+#			trade_goods = cloves
+#		}
+#	}
+#	
+#	modifier = {
+#		colony_development_boost = 1
+#	}
+#	
+#	chance = {
+#		factor = 0
+#	}
+#
+#	ai_will_do = {
+#		factor = 1
+#	}
+#}
 
 #English Laws
 royal_impressment_act = {
