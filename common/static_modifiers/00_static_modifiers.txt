@@ -583,6 +583,12 @@ base_values = {
 	num_of_parliament_issues = 10
 	has_marines = yes
 	sunk_ship_morale_hit_recieved = -0.5
+	allowed_galleon_fraction = 1
+	has_galleon = yes
+	has_voc_indiamen = yes
+	allowed_voc_indiamen_fraction = 1
+	has_geobukseon = yes
+	allowed_geobukseon_fraction = 1
 }
 
 # AI 'cheats' that compensate for flaws in its long-term decision making, removing these may severely cripple the AI
@@ -1842,34 +1848,27 @@ mamluks_regiment = {
 }
 
 geobukseon_ship = {
-	ship_durability = 0.1
-	galley_power = 0.1
+	can_transport_units = yes
 }
 
 man_of_war_ship = {
-	#engagement_cost = -1
-	#naval_maintenance_modifier = 0.5
-	naval_morale_damage = 0.15
+	can_transport_units = yes
 }
 
 galleon_ship = {
-	hull_size_modifier = 0.1
-	heavy_ship_power = 0.1
+	can_transport_units = yes
 }
 
 galleass_ship = {
-	galley_power = 0.2
+	can_transport_units = yes
 }
 
 caravel_ship = {
-	movement_speed_in_fleet_modifier = 1 
-	naval_attrition = -0.25
-	ship_trade_power_modifier = 0.33
+	can_transport_units = yes
 }
 
 voc_indiamen_ship = {
-	number_of_cannons_modifier = 0.33
-	ship_trade_power_modifier = 0.2
+	
 	can_transport_units = yes
 }
 marine_regiment = {
