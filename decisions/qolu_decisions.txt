@@ -219,8 +219,8 @@ country_decisions = {
 		}
 
 		allow = {
-			adm_tech = 8
-			dip_tech = 8
+			adm_tech = 7
+			dip_tech = 7
 			dip_power = 50
 		}
 
@@ -255,58 +255,7 @@ country_decisions = {
 		}
 	}
 
-	qolu_national_debt = {
-		color = { 166  0  0 }
-
-		potential = {
-			NOT = { has_country_modifier = qolu_tackle_debt_cd }
-			NOT = { has_country_modifier = qolu_tackle_debt }
-			NOT = { has_country_modifier = qolu_national_rebuild }
-			is_bankrupt = no
-			ai = no
-		}
-
-		allow = {
-			num_of_loans = 25
-			is_at_war = no
-		}
-
-		effect = {
-			add_years_of_income = 1
-			add_country_modifier = {
-				name = "qolu_tackle_debt"
-				duration = -1
-			}
-			add_country_modifier = {
-				name = "qolu_tackle_debt_cd"
-				duration = 3650
-				hidden = yes
-			}
-		}
-	}
-
-	qolu_national_rebuilding = {
-		color = { 166  0  0 }
-		potential = {
-			has_country_modifier = qolu_tackle_debt
-			NOT = { has_country_modifier = qolu_national_rebuild }
-			ai = no
-		}
-
-		allow = {
-			NOT = { years_of_income = 0.5 }
-		}
-
-		effect = {
-			add_country_modifier = {
-				name = "qolu_national_rebuild"
-				duration = 1825
-			}
-
-			remove_country_modifier = qolu_tackle_debt
-		}
-	}
-
+	
 	####
 	#Gecko/Echo Import 
 	####
