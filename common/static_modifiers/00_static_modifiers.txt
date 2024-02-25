@@ -255,7 +255,10 @@ no_adjacent_controlled = {
 }
 
 provincial_tax_income = {
-	regiment_recruit_speed = -0.01
+	regiment_recruit_speed = -0.02
+	local_great_project_upgrade_time = -0.01
+	local_build_time = -0.01
+	local_institution_spread = 0.02
 }
 
 provincial_production_size = {
@@ -293,7 +296,7 @@ development = {
 	local_missionary_strength = -0.001
 	land_forcelimit	= 0.1			# special case, affected by autonomy
 	naval_forcelimit = 0.1			# special case, affected by autonomy & set to 0 by code if not port
-	local_sailors = 30			# special case, affected by autonomy & set to 0 by code if not port
+	local_sailors = 60			# special case, affected by autonomy & set to 0 by code if not port
 	province_trade_power_value = 0.2
 	local_amount_of_banners = 0.066
 	local_amount_of_cawa = 0.125

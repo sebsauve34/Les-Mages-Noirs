@@ -122,7 +122,7 @@ technology = { #Naval Ambitions
 	naval_morale			= 0.3
 	range					= 115
 	impressment_offices 	= yes
-	naval_engagement_width = 10
+	naval_engagement_width = 5
 }
 
 technology  = { #Docks
@@ -204,7 +204,7 @@ technology = { #Man of War
 	may_slander_merchants = yes
 
 	naval_battery = yes
-	naval_engagement_width = 15
+	naval_engagement_width = 5
 	
 }
 
@@ -311,7 +311,7 @@ technology = { #Line of Battle
 	naval_morale			=	0.5
 	may_sow_discontent = yes
 	
-	naval_engagement_width = 10
+	naval_engagement_width = 5
 
 	
 }
@@ -435,7 +435,7 @@ technology = { #The Archipelago Frigate
 	trade_range				=	20
 	enable = archipelago_frigate
 	may_corrupt_officials = yes
-	naval_engagement_width = 10
+	naval_engagement_width = 5
 
 }
 
