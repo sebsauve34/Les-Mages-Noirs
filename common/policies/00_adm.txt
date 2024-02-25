@@ -2087,7 +2087,7 @@ head_of_state_act = {
 		full_idea_group = innovativeness_ideas 
 	}
 	
-	yearly_innovativeness = 0.5
+	yearly_innovativeness = 0.25
 
 	effect = {}
 	removed_effect = {}
