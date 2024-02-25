@@ -2036,7 +2036,6 @@ emp_burgundy_5 = {
 		}
 
 		effect = {
-			country_event = { id = new_flavour_bur.4 }
 
 			upper_rhineland_area = {
 				limit = {

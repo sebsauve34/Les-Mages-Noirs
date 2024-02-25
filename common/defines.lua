@@ -1235,7 +1235,7 @@ NEconomy = {
 },
 
 NMilitary = {
-	SLACKEN_AP_DROP = 0.05,							--Defines how much AP is lost when activating slacken toggle.
+	SLACKEN_AP_DROP = 0.01,							--Defines how much AP is lost when activating slacken toggle.
 
     SLACKEN_MIN_AP = 0,    							--Defines how much AP is at least needed to keep the Slacken Modifier active. Put a -1 here if you want the toggle to not turn off automatically
 	SLACKEN_MAX_MP_PERCENTAGE = 0.95,   			--Defines how much manpower percentage of your whole manpower pool you can have before the toggle turns off automatically. "1" would mean "100% of your manpower pool". Put a -1 here if you don't want this toggle to turn off from having manpower
