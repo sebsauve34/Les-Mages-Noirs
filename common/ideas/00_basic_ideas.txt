@@ -29,8 +29,11 @@ aristocracy_ideas = {
 		global_manpower_modifier = 0.33
 	}
 	noble_resilience = {
-		mil_tech_cost_modifier = -0.1
-		mil_advisor_cost = -0.20
+		devotion = 1
+		legitimacy = 0.5
+		republican_tradition = 0.1
+		horde_unity = 1
+		yearly_absolutism = 0.5
 	}
 	noble_officers = {
 		leader_siege = 1
@@ -41,7 +44,7 @@ aristocracy_ideas = {
 		navy_tradition_decay = -0.01
 	}
 	rightful_conquest = {
-		yearly_absolutism = 0.5
+		development_cost = -0.05
 		global_autonomy = -0.05
 	}
 	local_nobility = {
@@ -163,10 +166,8 @@ theocracy_gov_ideas = {
 	#	has_government_attribute = enables_divine_idea_group
 	#}
 	servants_of_god = {
-		devotion = 1
-		legitimacy = 0.5
-		republican_tradition = 0.1
-		horde_unity = 1
+		mil_tech_cost_modifier = -0.1
+		mil_advisor_cost = -0.2
 	}
 	by_the_grace_of_god = {
 		leader_land_fire = 1
@@ -438,7 +439,7 @@ spy_ideas = {
 	
 	claim_fabrication = {
 		global_spy_defence = 0.33
-		advisor_cost = -0.15
+		advisor_cost = -0.1
 		
 	}
 

@@ -9,6 +9,7 @@ merc__local_small_company = {
     cavalry_weight = 0
     min_size = 5
     max_size = 5
+    no_additional_manpower_from_max_size = yes
     artillery_weight = 0
     cavalry_cap = 2
     trigger = {

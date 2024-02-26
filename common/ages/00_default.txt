@@ -315,7 +315,7 @@ age_of_reformation = {
 		}
 		
 		obj_colonial_empire = {
-			colony = 5
+			colony = 2
 		}
 		
 		obj_force_converted = {
@@ -736,6 +736,7 @@ age_of_revolutions = {
 		ab_allow_anti_revolutionary_zeal = {
 			modifier = {
 				liberty_desire_from_subject_development = -0.33
+				reduced_liberty_desire_on_same_continent = 25
 			}
 			ai_will_do = {
 				factor = 15
@@ -805,7 +806,7 @@ age_of_revolutions = {
 		}
 		ab_same_contine_lib_desire = {
 			modifier = {
-				reduced_liberty_desire_on_same_continent = 25
+				possible_policy = 1
 			}
 			ai_will_do = {
 				factor = 15
