@@ -171,6 +171,7 @@ theocracy_gov_ideas = {
 	}
 	by_the_grace_of_god = {
 		leader_land_fire = 1
+		artillery_cost = -0.1
 	}
 	friends_in_high_places = {
 		leader_cost = -0.1

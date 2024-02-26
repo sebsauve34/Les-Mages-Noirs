@@ -141,7 +141,7 @@ horse_artillery = {
 		full_idea_group = economic_ideas
 	}
 	morale_damage = 0.075
-	artillery_cost = -0.15
+	artillery_cost = -0.1
 
 	effect = {}
 	removed_effect = {}
@@ -334,7 +334,7 @@ the_garrison_act = {
 		full_idea_group = quantity_ideas
 	}
 	
-	general_cost = -0.25
+	general_cost = -0.2
 
 	effect = {}
 	removed_effect = {}

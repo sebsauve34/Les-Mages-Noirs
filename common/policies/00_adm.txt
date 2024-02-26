@@ -51,7 +51,7 @@ the_court_of_wards_and_liveries = {
 		full_idea_group = economic_ideas
 	}
 		
-	cavalry_cost = -0.15
+	cavalry_cost = -0.1
 
 	effect = {}
 	removed_effect = {}
@@ -139,7 +139,7 @@ agricultural_cultivations = {
 		full_idea_group = economic_ideas
 		full_idea_group = quantity_ideas
 	}		
-	global_regiment_cost = -0.075	
+	global_regiment_cost = -0.05
 	land_forcelimit_modifier = 0.2
 
 	effect = {}
@@ -517,8 +517,8 @@ land_inheritance_act = {
 		full_idea_group = plutocracy_ideas
 	}
 
-	infantry_cost = -0.10
-	land_forcelimit_modifier = 0.15
+	infantry_cost = -0.05
+	land_forcelimit_modifier = 0.2
 	
 	effect = {}
 	removed_effect = {}

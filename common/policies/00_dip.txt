@@ -560,7 +560,7 @@ cloth_quality_edict = {
 
 
 production_quota_act = {
-	monarch_power = MIL
+	monarch_power = DIP
 	potential = {
 		has_idea_group = trade_ideas
 		has_idea_group = quantity_ideas
@@ -570,8 +570,8 @@ production_quota_act = {
 		full_idea_group = trade_ideas
 		full_idea_group = quantity_ideas
 	}
-	global_regiment_cost = -0.10
- 	production_efficiency = 0.10
+	global_regiment_cost = -0.05
+ 	trade_efficiency = 0.1
 
 	effect = {}
 	removed_effect = {}
@@ -1222,7 +1222,7 @@ black_chamber_act = {
 	}
 	
 	spy_action_cost_modifier = -0.2
-	artillery_cost = -0.15
+	artillery_cost = -0.1
 
 	effect = {}
 	removed_effect = {}
