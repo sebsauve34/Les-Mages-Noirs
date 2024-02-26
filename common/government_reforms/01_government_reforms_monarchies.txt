@@ -2859,7 +2859,7 @@ mughal_government = {
 			caravan_power = 0.1
 		}
 		tartar = {
-			cavalry_cost = -0.15
+			cavalry_cost = -0.1
 		}
 		thai_group = {
 			build_cost = -0.05
@@ -2880,7 +2880,7 @@ mughal_government = {
 			trade_efficiency = 0.05
 		}
 		slavic = {
-			province_warscore_cost = -0.15
+			province_warscore_cost = -0.1
 		}
 	}
 }
@@ -3138,7 +3138,7 @@ confucian_bureaucracy = {
 		}
 	}
 	modifiers = {
-		advisor_cost = -0.1
+		advisor_cost = -0.075
 	}
 	ai = {
 		factor = 100
@@ -4761,7 +4761,7 @@ legion_of_honor_reform = {
 		}
 	}
 	modifiers = {
-		advisor_cost = -0.1
+		advisor_cost = -0.075
 		no_stability_loss_on_monarch_death = yes
 		yearly_army_professionalism = 0.005
 	}
@@ -4963,7 +4963,7 @@ ministerialis_promotion_reform = {
 	}
 	modifiers = {
 		nobles_privilege_slots = 1
-		advisor_cost = -0.1
+		advisor_cost = -0.075
 		monthly_favor_modifier = 0.1
 	}
 	ai = {
@@ -5591,7 +5591,7 @@ meritocratic_focus_reform = {
 	}
 	modifiers = {
 		yearly_corruption = -0.1
-		advisor_cost = -0.1
+		advisor_cost = -0.075
 		maratha_muslim_influence_modifier = 0.1
 		rajput_muslim_influence_modifier = 0.1
 		burghers_influence_modifier = 0.1
@@ -5793,7 +5793,7 @@ legacy_of_eranshahr_reform = {
 		}
 	}
 	modifiers = {
-		same_religion_advisor_cost = -0.2
+		same_religion_advisor_cost = -0.1
 		free_policy = 1
 	}
 	custom_attributes = {
@@ -6085,7 +6085,7 @@ justicia_de_aragon_reform = {
 		}
 	}
 	modifiers = {
-		adm_advisor_cost = -0.33
+		adm_advisor_cost = -0.2
 		country_admin_power = 1 
 	}
 }
@@ -6796,7 +6796,7 @@ courts_of_navarra = {
 		}
 	}
 	modifiers = {
-		same_culture_advisor_cost = -0.2
+		same_culture_advisor_cost = -0.1
 		diplomats = 1
 		global_unrest = -2
 		max_absolutism = -30

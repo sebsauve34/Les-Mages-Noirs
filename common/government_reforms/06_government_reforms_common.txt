@@ -1761,8 +1761,8 @@ organized_military_staff_reform = {
 		}
 	}
 	modifiers = {
-		reinforce_cost_modifier = -0.2
-		reinforce_speed = 0.25
+		reinforce_cost_modifier = -0.1
+		reinforce_speed = 0.2
 		global_supply_limit_modifier = 0.2
 	}
 	
@@ -1865,7 +1865,7 @@ cavalry_warfare_reform = {
 	}
 	modifiers = {
 		cav_to_inf_ratio = 0.1
-		cavalry_cost = -0.1
+		cavalry_cost = -0.05
 	}
 	
 	ai = {
@@ -2256,7 +2256,7 @@ wei_suo_system_reform = {
 		}
 	}
 	modifiers = {
-		global_regiment_cost = -0.15
+		global_regiment_cost = -0.075
 	}
 	custom_attributes = {
 		improved_military_buildings = yes	#Barracks, Regimental Camps and Soldier Househols are buffed 
@@ -2426,7 +2426,7 @@ ashigaru_reform = {
 	}
 	modifiers = {
 		army_tradition_from_battle = 0.5
-		infantry_cost = -0.1
+		infantry_cost = -0.05
 	}
 	
 	ai = {
@@ -2670,8 +2670,8 @@ qollar_aghasi_regiments_reform = {
 		}
 	}
 	modifiers = {
-		reinforce_cost_modifier = -0.25
-		leader_land_shock = 2
+		reinforce_cost_modifier = -0.1
+		leader_land_shock = 1
 		mil_tech_cost_modifier = -0.1
 		global_autonomy = -0.03
 	}
@@ -2700,7 +2700,7 @@ legacy_of_the_seljuk_reform = {
 	}
 	modifiers = {
 		cav_to_inf_ratio = 0.5
-		cavalry_cost = -0.25
+		cavalry_cost = -0.05
 		nomadic_tribes_loyalty_modifier = 0.1
 		nomadic_tribes_privilege_slots = 1
 	}
@@ -2757,7 +2757,7 @@ ghazi_reform = {
 		}
 	}
 	modifiers = {
-		cavalry_cost = -0.1
+		cavalry_cost = -0.05
 		land_attrition = -0.1
 		loot_amount = 0.5
 		available_province_loot = 0.5
@@ -2796,7 +2796,7 @@ the_cawa_regiments_reform = {
 	modifiers = {
 		reserves_organisation = 0.25
 		stability_cost_modifier = -0.05
-		global_regiment_cost = -0.1
+		global_regiment_cost = -0.05
 		war_exhaustion = -0.05
 	}
 	conditional = {
@@ -2959,7 +2959,7 @@ revive_the_almogavars_reform = {
 	modifiers = {
 		manpower_in_true_faith_provinces = 0.05
 		movement_speed = 0.1
-		infantry_cost = -0.1
+		infantry_cost = -0.05
 	}
 	custom_attributes = {
 		has_improved_almogavars = yes
@@ -3955,8 +3955,8 @@ war_economy_reform = {
 	}
 	modifiers = {
 		war_taxes_cost_modifier = -0.5
-		global_regiment_cost = -0.1
-		global_ship_cost = -0.1
+		global_regiment_cost = -0.05
+		global_ship_cost = -0.05
 	}
 	ai = {
 		factor = 1
@@ -4228,7 +4228,7 @@ restore_the_master_of_offices_reform = {
 	trigger = {
 	}
 	modifiers = {
-		same_religion_advisor_cost = -0.15
+		same_religion_advisor_cost = -0.1
 		advisor_pool = 1
 	}
 	
@@ -4475,7 +4475,7 @@ state_madrasas_reform = {
 		}
 	}
 	modifiers = {
-		same_religion_advisor_cost = -0.2
+		same_religion_advisor_cost = -0.1
 		yearly_government_power = 0.33
 	}
 
