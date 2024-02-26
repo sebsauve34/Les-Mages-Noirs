@@ -1520,7 +1520,7 @@ maritime_scribes = {
 		full_idea_group = maritime_ideas
 	}
 	
-	fire_damage = 0.125
+	fire_damage = 0.1
 	
 
 	effect = {}

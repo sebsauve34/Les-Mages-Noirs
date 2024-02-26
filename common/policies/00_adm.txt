@@ -235,7 +235,7 @@ the_royal_commission_act = {
 		full_idea_group = administrative_ideas
 	}
 
-	advisor_cost = -0.1
+	advisor_cost = -0.075
 	yearly_corruption = -0.1
 	
 	effect = {}
@@ -259,7 +259,7 @@ edict_of_resistance = {
 	}
 
 
-	shock_damage_received = -0.1
+	shock_damage_received = -0.15
 
 	effect = {}
 	removed_effect = {}
@@ -452,7 +452,7 @@ vassal_taxation_policy = {
 		full_idea_group = administrative_ideas
 	}
 
-	fire_damage = 0.125
+	fire_damage = 0.1
 
 	effect = {}
 	removed_effect = {}
@@ -559,7 +559,7 @@ the_witchcraft_act = {
 		full_idea_group = aristocracy_ideas
 	}
 	
-	shock_damage = 0.125
+	shock_damage = 0.1
 
 	effect = {}
 	removed_effect = {}
@@ -796,7 +796,7 @@ foreign_advisors = {
 		full_idea_group = innovativeness_ideas
 	}	
 	
-	advisor_cost = -0.1
+	advisor_cost = -0.075
 	vassal_forcelimit_bonus = 0.5
 	
 	effect = {}
@@ -1185,7 +1185,7 @@ the_licensing_of_the_press_act = {
 		full_idea_group = aristocracy_ideas
 	}
 
-	mil_advisor_cost = -0.15
+	reform_progress_growth = 0.25
 	administrative_efficiency = 0.05
 	
 	effect = {}
