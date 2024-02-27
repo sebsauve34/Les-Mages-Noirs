@@ -1,7 +1,8 @@
 #1014 - Bungo
 
-owner = OTM
-controller = OTM
+owner = SHN
+add_core = SHN
+controller = SHN
 culture = kyushuan
 religion = shinto
 capital = "Funai"

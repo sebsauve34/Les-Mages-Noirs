@@ -631,6 +631,15 @@ integrationaction = {
 		}
 	}
 	condition = {
+		tooltip = ASK_cannot_annex
+		potential = {
+			tag = ASK
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
 		tooltip = CANNOT_ANNEX
 		potential = {
 			FROM = {

@@ -1,7 +1,8 @@
 #1025 - Dewa
 
-owner = SBA
-controller = SBA
+owner = DTE
+controller = DTE
+add_core = DTE
 culture = togoku
 religion = shinto
 capital = "Yamagata"

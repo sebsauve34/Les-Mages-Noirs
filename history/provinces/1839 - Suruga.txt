@@ -1,7 +1,8 @@
 #1839 - Suruga
 
-owner = IMG
-controller = IMG
+owner = TKD
+controller = TKD
+add_core = TKD
 culture = togoku
 religion = shinto
 capital = "Sunpu"

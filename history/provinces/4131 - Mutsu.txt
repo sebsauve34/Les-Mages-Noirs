@@ -1,7 +1,8 @@
 #Northern Mutsu
 
-owner = RFR
-controller = RFR
+owner = AKT
+controller = AKT
+add_core = AKT
 culture = togoku
 religion = shinto
 capital = "Sannohe"

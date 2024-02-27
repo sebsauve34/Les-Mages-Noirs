@@ -1,7 +1,8 @@
 #4359 - Ise
 
-owner = KTB
-controller = KTB
+owner = TTI
+controller = TTI
+add_core = TTI
 culture = japanese
 religion = shinto
 capital = "Kiriyama"

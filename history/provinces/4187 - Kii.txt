@@ -1,7 +1,8 @@
 #4187 - Kii
 
-owner = HTK
-controller = HTK
+owner = TTI
+add_core = TTI
+controller = TTI
 culture = japanese
 religion = shinto
 capital = "Wakayama"

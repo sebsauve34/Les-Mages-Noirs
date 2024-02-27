@@ -1,7 +1,8 @@
 #1027 - Hitachi
 
-owner = STK
-controller = STK
+owner = UTN
+controller = UTN
+add_core = UTN
 culture = togoku
 religion = shinto
 capital = "Ota"

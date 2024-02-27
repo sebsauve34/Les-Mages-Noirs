@@ -4491,7 +4491,7 @@ grant_military_command_reform = {
 	}
 	modifiers = {
 		army_tradition = 0.25
-		cavalry_cost = -0.1
+		cavalry_cost = -0.05
 		nobles_influence_modifier = 0.05
 		maratha_exclusive_influence_modifier = 0.05
 		rajput_exclusive_influence_modifier = 0.05

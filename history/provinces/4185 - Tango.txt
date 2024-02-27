@@ -1,7 +1,8 @@
 #4185 - Tango
 
-owner = ISK
-controller = ISK
+owner = YMN
+controller = YMN
+add_core = YMN
 culture = japanese
 religion = shinto
 capital = "Miyazu"

@@ -1,7 +1,8 @@
 #4651 - Tsushima
 
-owner = SOO
-controller = SOO
+owner = OUC
+controller = OUC
+add_core = OUC
 culture = kyushuan
 religion = shinto
 capital = "Tsushima"

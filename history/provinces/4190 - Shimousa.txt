@@ -1,7 +1,8 @@
 #4190 - Shimousa
 
-owner = CBA
-controller = CBA
+owner = UTN
+controller = UTN
+add_core = UTN
 culture = togoku
 religion = shinto
 capital = "Sakura"

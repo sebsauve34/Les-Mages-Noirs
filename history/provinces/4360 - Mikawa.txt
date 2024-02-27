@@ -1,7 +1,8 @@
 #4360 - Mikawa
 
-owner = TKG
-controller = TKG
+owner = ODA
+controller = ODA
+add_core = ODA
 culture = togoku
 religion = shinto
 capital = "Okazaki"
