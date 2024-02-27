@@ -1,7 +1,9 @@
 # No previous file for Cutzamala
 
 culture = matlatzinca
-
+owner = AZT
+controller = AZT
+add_core = AZT
 is_city = yes
 religion = nahuatl
 capital = "Cutzamala"
