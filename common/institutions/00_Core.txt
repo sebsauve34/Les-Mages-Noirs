@@ -582,7 +582,8 @@ renaissance = {
 new_world_i = {
 
 	bonus = {
-		global_prov_trade_power_modifier = 0.10
+		global_prov_trade_power_modifier = 0.2
+		global_colonial_growth = 20
 	}
 
 	trade_company_efficiency = 0.6
@@ -1194,6 +1195,7 @@ global_trade = {
 
 	bonus = {
 		merchants = 1
+		trade_efficiency = 0.05
 	}
 
 	trade_company_efficiency = 1.0
@@ -2004,6 +2006,7 @@ enlightenment = {
 
 	bonus = {
 		culture_conversion_cost = -0.25
+		manpower_in_own_culture_provinces = 0.1
 	}
 
 	trade_company_efficiency = 1.5
@@ -2389,7 +2392,7 @@ industrialization = {
 
 	bonus = {
 		global_manpower_modifier = 0.25
-		global_tax_modifier = 0.15
+		global_tax_modifier = 0.25
 	}
 
 	historical_start_date = 1750.1.1
