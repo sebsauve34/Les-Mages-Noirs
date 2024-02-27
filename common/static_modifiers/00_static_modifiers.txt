@@ -795,13 +795,14 @@ mercantilism = {
 	burghers_loyalty_modifier = 0.05
 	vaisyas_loyalty_modifier = 0.05
 	trade_steering = 0.25
+	trade_efficiency = 0.1
 }
 
 army_tradition = {
 	recover_army_morale_speed = 0.1
 	land_morale = 0.20
 	manpower_recovery_speed = 0.1
-	siege_ability = 0.05
+	siege_ability = 0.20
 	temples_influence = 0.1
 	mr_aristocrats_influence = 0.1
 	rr_girondists_influence = 0.1
@@ -1206,10 +1207,9 @@ low_army_professionalism = {
 high_army_professionalism = {
 	fire_damage = 0.15
 	shock_damage = 0.15
-	siege_ability = 0.25
 	drill_decay_modifier = -0.5
 	movement_speed = 0.2
-	discipline = 0.025
+	discipline = 0.05
 }
 
 streltsy_modifier = {
@@ -1760,11 +1760,13 @@ zaidi_scholar_modifier = {
 # Regiment Types Modifiers
 ########################################
 regiment_drill_modifier = { # Used by individual regiments
-	shock_damage = 0.15
-	fire_damage = 0.15
-	fire_damage_received = -0.15
-	shock_damage_received = -0.15
+	shock_damage = 0.2
+	fire_damage = 0.2
+	fire_damage_received = -0.2
+	shock_damage_received = -0.2
 	movement_speed = 0.25
+	assault_fort_ability = 0.25
+	
 }
 
 army_drill_modifier = { # Used by an entire army, is the average of all subunits drill
