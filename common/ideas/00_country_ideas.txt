@@ -1465,15 +1465,15 @@ JAP_ideas = {
 	free = yes
 	
 	jap_unification_under_the_emperor = {
-		advisor_cost = -0.1
+		allowed_samurai_fraction = 0.2
+		has_samurai = yes 
 	}
 	reformed_land_holding = {
 		development_cost = -0.05
 		production_efficiency = 0.1
 	}
 	jap_modernization = {
-		build_cost = -0.1
-		infantry_cost = -0.1
+		technology_cost = -0.1
 	}
 	jap_maritime_legacy = {
 		galley_power = 0.15
@@ -9802,7 +9802,7 @@ HSK_ideas = {
 
 UES_ideas = {
 	start = {
-		global_tax_modifier = 0.15
+		infantry_power = 0.1
 		technology_cost = -0.1
 	}
 	
@@ -9816,36 +9816,31 @@ UES_ideas = {
 	free = yes
 	
 	ues_kanto_kanrei = {
-		build_cost = -0.1
-		idea_cost = -0.1
+		diplomatic_upkeep = 1
 	}
 	
 	ues_yamanouchi_and_ogigayatsu_branches = {
-		global_trade_goods_size_modifier = 0.1
+		army_tradition = 0.5
 	}
 
 	ues_kamakura_office = {
-		development_cost = -0.05
-		development_cost_in_primary_culture = -0.075
+		reinforce_cost_modifier = -0.25
 	}
 	
 	ues_dragon_of_echigo = {
-		land_forcelimit_modifier = 0.20
+		ae_impact = -0.1
 	}
 
 	ues_nokizaru = {
-		same_culture_advisor_cost = -0.1
-		same_religion_advisor_cost = -0.1
+		spy_offence = 0.2
 	}
 	
 	ues_agakita_shu = {
-		manpower_in_true_faith_provinces= 0.15
-		manpower_in_own_culture_provinces = 0.15
+		global_manpower_modifier = 0.2
 	}
 	
 	ues_denkoku_no_ji = {
-		institution_spread_from_true_faith = 0.5
-		tolerance_own = 2
+		idea_cost = -0.1
 	}
 	
 }
