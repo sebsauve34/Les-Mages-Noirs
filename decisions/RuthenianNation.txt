@@ -79,7 +79,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			change_tag = UKR
-			add_government_reform = tsardom
+			add_government_reform = ruthenian_tsardom 
 			swap_non_generic_missions = yes
 			remove_non_electors_emperors_from_empire_effect = yes
 			if = {
