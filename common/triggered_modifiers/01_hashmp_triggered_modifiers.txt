@@ -30,44 +30,44 @@
 # Free Colonist
 ###########################################
 
-t_free_colonist = {
-	potential = {
-			NOT = {
-				capital_scope = {
-					continent = north_america
-				}
-			}
-			NOT = {
-				capital_scope = {
-					continent = south_america
-				}
-			}
-			NOT = {
-				has_idea_group = exploration_ideas
-			}
-		}
-
-	trigger = {
-		OR = {
-			AND = {
-				capital_scope = { continent = europe }
-				has_institution = new_world_i
-			}
-			has_institution = printing_press
-		}
-		NOT = {
-			OR = {
-				capital_scope = { continent = north_america }
-				capital_scope = { continent = south_america }
-				capital_scope = { region = australia_region }
-				capital_scope = { region = oceanea_region }
-			}
-		}
-		was_player = yes
-	}
-	
-	colonists = 1
-}
+#t_free_colonist = {
+#	potential = {
+#			NOT = {
+#				capital_scope = {
+#					continent = north_america
+#				}
+#			}
+#			NOT = {
+#				capital_scope = {
+#					continent = south_america
+#				}
+#			}
+#			NOT = {
+#				has_idea_group = exploration_ideas
+#			}
+#		}
+#
+#	trigger = {
+#		OR = {
+#			AND = {
+#				capital_scope = { continent = europe }
+#				has_institution = new_world_i
+#			}
+#			has_institution = printing_press
+#		}
+#		NOT = {
+#			OR = {
+#				capital_scope = { continent = north_america }
+#				capital_scope = { continent = south_america }
+#				capital_scope = { region = australia_region }
+#				capital_scope = { region = oceanea_region }
+#			}
+#		}
+#		was_player = yes
+#	}
+#	
+#	colonists = 1
+#}
 
 ###########################################
 # CN Limiters
@@ -134,7 +134,7 @@ t_cn_army_1 = {
 		army_size = 60
 	}
 	reinforce_cost_modifier = 0.2
-	reinforce_speed = -0.25
+	reinforce_speed = -0.2
 	global_regiment_cost = 0.05
 }
 
@@ -147,7 +147,7 @@ t_cn_army_2 = {
 		army_size = 120
 	}
 	reinforce_cost_modifier = 0.2
-	reinforce_speed = -0.25
+	reinforce_speed = -0.2
 	global_regiment_cost = 0.05
 }
 
@@ -160,7 +160,7 @@ t_cn_army_3 = {
 		army_size = 180
 	}
 	reinforce_cost_modifier = 0.2
-	reinforce_speed = -0.25
+	reinforce_speed = -0.2
 	global_regiment_cost = 0.05
 }
 
@@ -172,8 +172,8 @@ t_cn_army_4 = {
 		was_player = yes
 		army_size = 240
 	}
-	reinforce_cost_modifier = 0.1
-	reinforce_speed = -0.15
+	reinforce_cost_modifier = 0.2
+	reinforce_speed = -0.2
 	global_regiment_cost = 0.05
 }
 
@@ -185,8 +185,8 @@ t_cn_army_5 = {
 		was_player = yes
 		army_size = 300
 	}
-	reinforce_cost_modifier = 0.1
-	reinforce_speed = -0.15
+	reinforce_cost_modifier = 0.2
+	reinforce_speed = -0.2
 	global_regiment_cost = 0.05
 }
 
@@ -219,7 +219,7 @@ t_cn_navy_2 = {
 			navy_size = 120
 		}
 	}
-	sailor_maintenance_modifer = 0.1
+	
 	global_ship_recruit_speed = 0.2
 	global_ship_repair = -0.2
 	global_ship_cost = 0.2
@@ -428,11 +428,12 @@ t_over_merc_cap_early = {
 		}
 }
 	global_unrest = 1
-	war_exhaustion = 0.01
-	war_taxes_cost_modifier = 0.25
-	defensiveness = -0.05
-	reinforce_speed = -0.05
-	reinforce_cost_modifier = 0.05
+	war_exhaustion = 0.02
+	war_taxes_cost_modifier = 0.5
+	reinforce_speed = -0.1
+	reinforce_cost_modifier = 0.1
+	global_trade_goods_size_modifier = -0.025
+	merc_maintenance_modifier = 0.1
 }
 
 t_over_merc_cap_mid = {
@@ -448,11 +449,12 @@ t_over_merc_cap_mid = {
 		}
 }
 	global_unrest = 2.5
-	war_exhaustion = 0.02
-	defensiveness = -0.1
-	war_taxes_cost_modifier = 0.5
-	reinforce_speed = -0.1
-	reinforce_cost_modifier = 0.1
+	war_exhaustion = 0.04
+	war_taxes_cost_modifier = 1
+	global_trade_goods_size_modifier = -0.05
+	merc_maintenance_modifier = 0.2
+	reinforce_speed = -0.2
+	reinforce_cost_modifier = 0.2
 }
 
 t_over_merc_cap_late = {
@@ -468,11 +470,12 @@ t_over_merc_cap_late = {
 		}
 }
 	global_unrest = 4
-	war_exhaustion = 0.03
-	reinforce_speed = -0.2
-	reinforce_cost_modifier = 0.2
-	defensiveness = -0.15
-	war_taxes_cost_modifier = 1
+	war_exhaustion = 0.06
+	reinforce_speed = -0.3
+	reinforce_cost_modifier = 0.3
+	global_trade_goods_size_modifier = -0.075
+	merc_maintenance_modifier = 0.3
+	war_taxes_cost_modifier = 1.5
 }
 t_over_merc_cap_superlate = {
 	potential = {
@@ -483,10 +486,9 @@ t_over_merc_cap_superlate = {
 		army_size_percentage = 2.75
 }
 	global_unrest = 6
-	war_exhaustion = 0.05
-	reinforce_speed = -0.25
+	war_exhaustion = 0.1
+	reinforce_speed = -0.5
 	reinforce_cost_modifier = 0.5
-	defensiveness = -0.2
 	war_taxes_cost_modifier = 2
 	global_trade_goods_size_modifier = -0.1
 	merc_maintenance_modifier = 0.5
