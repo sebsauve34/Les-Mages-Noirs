@@ -11972,7 +11972,7 @@ RUM_ideas = {
 		land_morale = 0.15
 	}
 	bonus = {
-		land_forcelimit_modifier = 0.25
+		land_forcelimit_modifier = 0.33
 	}
 	trigger = {
 		tag = RUM
@@ -11981,26 +11981,28 @@ RUM_ideas = {
 	
 	rum_abul_fath = {
 		discipline = 0.05
-		cav_to_inf_ratio = 0.20
+		infantry_fire = 0.25
 	}
 	rum_king_of_the_east_and_west = {
-		core_creation = -0.20
+		core_creation = -0.2
 		num_accepted_cultures = 2
 	}
 	rum_shahanshah = {
-		legitimacy = 1
+		prestige = 1
 	}
 	rum_sultan_of_rum = {
 		tolerance_heathen = 3
 	}
 	rum_sulan_al_bahrayn = {
 		naval_maintenance_modifier = -0.15
+		galley_power = 0.1
 	}
 	rum_sultan_al_muazzam = {
 		build_cost = -0.15
 	}
 	rum_protector_of_dar_al_islam = {
 		global_heretic_missionary_strength = 0.03
+		monthly_piety = 0.1
 	}
 }
 
@@ -15828,7 +15830,7 @@ SIA_ideas = {
 		global_manpower_modifier = 0.3
 	}
 	bonus = {
-		cavalry_fire = 0.5
+		cavalry_fire = 0.25
 	}
 	trigger = {
 		tag = SIA

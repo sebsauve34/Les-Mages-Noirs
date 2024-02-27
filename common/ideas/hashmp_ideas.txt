@@ -1911,7 +1911,7 @@ TTS_ideas = { #By Xaime
 	}
 	
 	bonus = {
-		cavalry_shock = 0.50 ##Legacy of Norman Doctrine
+		cavalry_shock = 0.25 ##Legacy of Norman Doctrine
 	}
 	
 	trigger = {

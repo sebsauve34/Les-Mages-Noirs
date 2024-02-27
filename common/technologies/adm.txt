@@ -88,6 +88,7 @@ technology = { #National Ideas
 
 	allowed_idea_groups = 1
 	production_efficiency	 =	0.02
+	governing_capacity = 100
 }
 
 technology = { #Workshop
@@ -182,7 +183,7 @@ technology = { #Early Modern Administration
 	
 	administrative_monarchy	= yes 
 	administrative_republic	= yes
-	governing_capacity = 100
+	governing_capacity = 150
 	state_house = yes
 }
 
@@ -212,7 +213,7 @@ technology = { #Scientific Experimentation
 	
 	plantations = yes
 	allowed_idea_groups	= 4
-	governing_capacity = 125
+	governing_capacity = 150
 }
 
 technology = { #Military Administration
@@ -258,7 +259,7 @@ technology = { #University
 	}
 	
 	university = yes	
-	governing_capacity = 125
+	governing_capacity = 200
 	
 	administrative_efficiency = 0.1
 	development_cost_modifier = -0.1
