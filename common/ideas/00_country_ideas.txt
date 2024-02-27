@@ -1813,12 +1813,12 @@ MLO_ideas = {
 
 BYZ_ideas = {
 	start = {
-		advisor_cost = -0.15
-		cavalry_power = 0.2
+		advisor_cost = -0.10
+		regiment_manpower_usage = -0.05
 	}
 	
 	bonus = {
-		land_morale = 0.15
+		military_tactics = 0.1
 	}
 	
 	trigger = {
@@ -1826,33 +1826,39 @@ BYZ_ideas = {
 	}
 	free = yes
 	
-	regulations_for_mercenaries = {
-		infantry_cost = -0.1
-		cav_to_inf_ratio = 0.2
-	}
 	repopulation_of_countryside = {
-		global_trade_goods_size_modifier = 0.05
-		global_manpower_modifier = 0.10
+		global_trade_goods_size_modifier = 0.1
+		global_manpower_modifier = 0.2
 	}
-	byz_state_admin_reform = {
+	
+	byz_roman_empire = {
+		core_creation = -0.25
+		country_admin_power = 1
+	}
+	
+	ecumenical_patriarch = {
+		global_missionary_strength = 0.03
+		yearly_patriarch_authority = 0.005
+	}
+	
+	byz_corpus_iuris_civilis = {	#Replaces byz_admin_power for Purple Phoenix events
 		global_tax_modifier = 0.2
 		num_accepted_cultures = 3
 	}
-	byz_admin_power = {
-		stability_cost_modifier = -0.1
-		country_admin_power = 1
+	
+	byz_protect_the_frontiers = {
+		defensiveness = 0.2
+		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
-	merchant_class = {
-		global_sailors_modifier = 0.25
-		trade_efficiency = 0.1
-	}
-	new_imperial_army = {
+	
+	byz_strategikon = {
 		discipline = 0.05
-		infantry_power = 0.15
 	}
-	ecumenical_patriarch = {
-		global_missionary_strength = 0.03
-		tolerance_own = 3
+
+	new_imperial_army = {
+		infantry_power = 0.15
+		infantry_shock = 0.25
 	}
 }
 
