@@ -181,11 +181,11 @@ arid = {
 }
 
 sea_zone = {
-	max_attrition = 7						#Maximum Attrition is 5
+	max_attrition = 5						#Maximum Attrition is 5
 }
 
 land_province = {
-	max_attrition = 7						#Maximum Attrition is 5
+	max_attrition = 5						#Maximum Attrition is 5
 	local_manpower_modifier = 0.25			#25% of manpower.
 	local_has_musketeers = yes
 	local_has_streltsy = yes

@@ -129,8 +129,8 @@ technology = {
 	enable = gaelic_galloglaigh				
 	enable = aztec_tribal_warfare	
 	enable = zapotec_tribal_warfare		
-	enable = songhai_tribal_warfare		
-	enable = niger_kongolese_tribal_warfare		
+	#enable = songhai_tribal_warfare		
+	#enable = niger_kongolese_tribal_warfare		
 	enable = bantu_tribal_warfare	
 	enable = mali_tribal_warfare	
 	enable = pueblo_ambush	
@@ -239,6 +239,8 @@ technology = {
 	
 	#Ditch
 	
+	enable = songhai_tribal_warfare		
+	enable = niger_kongolese_tribal_warfare
 	enable = south_indian_musketeer	
 	enable = mughal_musketeer		
 	enable = ottoman_janissary	
@@ -432,8 +434,8 @@ technology = {
 	enable = muscovite_soldaty	
 	enable = polish_tercio
 	enable = asian_mass_infantry	
-	enable = bantu_gunpowder_warfare	
-	enable = niger_kongolese_gunpowder_warfare	
+	#enable = bantu_gunpowder_warfare	
+	#enable = niger_kongolese_gunpowder_warfare	
 	enable = adal_gunpowder_warfare		
 	enable = ethiopian_gunpowder_warfare	
 	enable = steppe_musketeers
@@ -550,6 +552,8 @@ technology = {
 	enable = high_american_swarm
 	enable = aboriginal_riflemen
 	enable = pacific_riflemen
+	enable = bantu_gunpowder_warfare	
+	enable = niger_kongolese_gunpowder_warfare
 }
 
 technology = {

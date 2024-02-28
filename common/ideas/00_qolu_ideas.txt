@@ -2,7 +2,7 @@ EGY_ideas = {
 
 	start = {
 		global_regiment_cost = -0.05
-		cavalry_power = 0.1
+		cavalry_power = 0.15
 	}
 
 	bonus = {

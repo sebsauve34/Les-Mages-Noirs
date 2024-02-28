@@ -2143,6 +2143,7 @@ MJZ_ideas = {
 	
 	sons_of_the_mountain = {
 		hostile_attrition = 1.0
+		max_hostile_attrition = 1
 	}
 	jurchen_pigtail = {
 		horde_unity = 0.5
@@ -2378,48 +2379,7 @@ ETH_ideas = {
 }
 
 
-DAI_ideas = {
-	start = {
-		hostile_attrition = 1.0
-		culture_conversion_cost = -0.15
-	}
-	
-	bonus = {
-		land_morale = 0.10
-	}
-	
-	trigger = {
-		OR = {
-			tag = DAI
-			tag = TOK
-			tag = ANN
-		}
-	}
-	free = yes		#will be added at load.
-	
-	the_great_proclamation = {
-		infantry_power = 0.1
-	}
-	confucian_revival = {
-		prestige = 1
-	}
-	autonomous_villages = {
-		defensiveness = 0.2
-	}
-	village_militia = {
-		global_manpower_modifier = 0.25
-	}
-	don_dien = {
-		core_creation = -0.10
-	}
-	thuan_thien = {
-		legitimacy = 1
-		imperial_mandate = 0.05
-	}
-	literary_reform = {
-		technology_cost = -0.05
-	}
-}
+
 
 
 SAV_ideas = {
@@ -3140,6 +3100,7 @@ ASS_ideas = {
 	}
 	river_warfare = {	
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 		shock_damage_received = -0.1
 	}
 	reform_paik_system = {
@@ -3389,6 +3350,7 @@ NAJ_ideas = {
 	}
 	bedouin_raiders = {
 		hostile_attrition = 1.0
+		max_hostile_attrition = 1
 	}
 	arabian_horsemanship = {
 		cavalry_flanking = 0.5
@@ -3453,6 +3415,7 @@ NPL_ideas = {
 	
 	bonus = {
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	
 	trigger = {
@@ -3719,6 +3682,7 @@ CHICK_ideas = {
 	}
 	nighttime_raids = {
 		hostile_attrition = 1.0
+		max_hostile_attrition = 1
 	}
 	unconqured_and_unconquerable = {
 		enemy_core_creation = 0.5
@@ -3841,6 +3805,7 @@ SHA_ideas = {
 	}
 	dark_and_bloody_ground = {
 		hostile_attrition = 1.0
+		max_hostile_attrition = 1
 	}
 	the_bread_dance = {
 		stability_cost_modifier = -0.1
@@ -4175,6 +4140,7 @@ AFG_ideas = {
 	}
 	graveyard_of_empires = {
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 }
 
@@ -4876,6 +4842,7 @@ BOS_ideas = {
 	}
 	over_hills_through_woods = {
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 		defensiveness = 0.15
 	}
 }
@@ -5185,6 +5152,7 @@ MON_ideas = {
 	start = {
 		defensiveness = 0.15	
 		hostile_attrition = 1	
+		max_hostile_attrition = 1
 	}
 	
 	bonus = {
@@ -5244,6 +5212,7 @@ RMN_ideas = {
 	}
 	scorch_the_land_and_poison_the_wells = {
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	latin_island = {
 		legitimacy = 1
@@ -5368,6 +5337,7 @@ FIN_ideas = {
 	}
 	the_white_death = {
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	anjala_conspiracy = {
 		land_morale = 0.1
@@ -5417,6 +5387,7 @@ PLT_ideas = {
 	start = {
 		infantry_cost = -0.1
 		hostile_attrition = 1	
+		max_hostile_attrition = 1
 	}
 	
 	bonus = {
@@ -5533,6 +5504,7 @@ ASH_ideas = {
 MPC_ideas = {
 	start = {
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 		global_manpower_modifier = 0.1
 	}
 	bonus = {
@@ -5716,6 +5688,7 @@ CYA_ideas = {
 	}
 	cya_idea_7 = {
 		hostile_attrition = 1.0
+		max_hostile_attrition = 1
 	}
 }
 
@@ -6003,6 +5976,7 @@ ARM_ideas = {
 
 	bonus = {
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	
 	trigger = {
@@ -6040,6 +6014,7 @@ ARM_ideas = {
 WLS_ideas = {
 	start = {
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 		land_morale = 0.1
 	}
 
@@ -6194,6 +6169,7 @@ CUA_ideas = {
 	}
 	cua_idea_5 = {
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	cua_idea_6 = {
 		land_morale = 0.10
@@ -6301,6 +6277,7 @@ KHI_ideas = {
 		cavalry_power = 0.15
 	}
 	deserts_of_khiva = {
+		max_hostile_attrition = 1
 		hostile_attrition = 1
 	}
 	oasis_of_merv = {
@@ -6868,6 +6845,7 @@ CEY_ideas = {
 	}
 	sinhalese_guerilla_warfare = {
 		hostile_attrition = 1.0
+		max_hostile_attrition = 1
 	}
 }
  
@@ -6971,6 +6949,7 @@ CAB_ideas = {
 	}
 	cab_rainforests_of_guyana = {
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	cab_carib_seafaring = {
 		colonists = 1
@@ -7177,6 +7156,7 @@ ARK_ideas = {
 NOL_ideas = {
 	start = {
 		hostile_attrition = 1.0
+		max_hostile_attrition = 1
 		cavalry_power = 0.1 #Border Reivers
 	}
 	bonus = {
@@ -7475,6 +7455,7 @@ CMI_ideas = {
 	}
 	cmi_mountain_retreats = {
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	cmi_legacy_of_the_miao_rebellions = {
 		army_tradition_from_battle = 0.5
@@ -7561,6 +7542,7 @@ SDY_ideas = {
 	start = {
 		caravan_power = 0.2
 		hostile_attrition = 1.0
+		max_hostile_attrition = 1
 	}
 
 	bonus = {
@@ -7841,6 +7823,7 @@ BAL_ideas = {
 	
 	bal_natural_defences = {
 		hostile_attrition = 1.0
+		max_hostile_attrition = 1
 	}
 	bal_hani_and_sheh_mureed = {
 		shock_damage_received = -0.1
@@ -7945,6 +7928,7 @@ ORM_ideas = {
 KGR_ideas = {
 	start = {
 		hostile_attrition = 1.0
+		max_hostile_attrition = 1
 		global_tax_modifier = 0.1
 	}
 
@@ -8195,6 +8179,7 @@ SMI_ideas = {
 	
 	smi_land_of_the_midnight_sun = {
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	smi_protect_the_herds = {
 		global_tax_modifier = 0.10
@@ -8432,6 +8417,7 @@ JMN_ideas = {
 	}
 	grizzly_terrain = {
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	keeping_our_bearings = {
 		naval_attrition = -0.15
@@ -8477,6 +8463,7 @@ TRT_ideas = {
 	}
 	trt_river_landscape = {
 		hostile_attrition = 1.0
+		max_hostile_attrition = 1
 	}
 	trt_tirhuta = {
 		stability_cost_modifier = -0.1
@@ -8760,6 +8747,7 @@ MIR_ideas = {
 TBK_ideas = {
 	start = {  
 		hostile_attrition = 1.0
+		max_hostile_attrition = 1
 		num_accepted_cultures = 1
 	}
   
@@ -8798,6 +8786,7 @@ TBK_ideas = {
 LUB_ideas = {
 	start = {  
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 		improve_relation_modifier = 0.3
 	}
   
@@ -8862,6 +8851,7 @@ KUB_ideas = {
 	}
 	kub_ngesh_dancers = {
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	kub_ndop_statue = {
 		legitimacy = 1
@@ -8875,6 +8865,7 @@ LND_ideas = {
 	start = {  
 		global_manpower_modifier = 0.15
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
   
 	bonus = {
@@ -9547,6 +9538,7 @@ GHR_ideas = {
 	start = {
 		development_cost = -0.1
 		hostile_attrition = 1.0
+		max_hostile_attrition = 1
 	}
 	bonus = {
 		stability_cost_modifier = -0.1
@@ -9984,6 +9976,7 @@ SHN_ideas = {
 OGS_ideas = {
 	start = {
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 		land_morale = 0.1
 	}
 	
@@ -10519,6 +10512,7 @@ TTI_ideas = {
 	
 	tti_mountainous_province = {
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	
 	tti_nara_city = {
@@ -10759,6 +10753,7 @@ BLO_ideas = {
 	}
 	blo_winter_warfare = {
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	blo_scientific_patronage = {
 		technology_cost = -0.05
@@ -10879,6 +10874,7 @@ TPR_ideas = {
 	start = {
 		infantry_power = 0.1
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	bonus = {
 		global_trade_goods_size_modifier = 0.1
@@ -11503,7 +11499,8 @@ TRI_ideas = {
 		ae_impact = -0.1
 	}
 	tri_landesburgen = {
-		hostile_attrition = 0.5
+		hostile_attrition = 1
+		max_hostile_attrition = 1
 		global_autonomy = -0.03
 	}
 	tri_seamless_robe_of_jesus = {
@@ -11913,6 +11910,7 @@ MSY_ideas = {
 	}
 	msy_swamp_warfare = {
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	msy_arabistan = {
 		global_manpower_modifier = 0.15
@@ -12168,6 +12166,7 @@ HDR_ideas = {
 	
 	hdr_death_has_come = {
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	hdr_tribes_of_hadramut = {
 		global_manpower_modifier = 0.15
@@ -12483,6 +12482,7 @@ ANU_ideas = {
 	}
 	anu_hunters_and_warriors = {
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	anu_yukar = {
 		tolerance_own = 2
@@ -12783,6 +12783,7 @@ MCM_ideas = {
 	}
 	mcm_hill_raiders = {
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	mcm_spanish_ties = {
 		discipline = 0.05
@@ -12803,6 +12804,7 @@ LEI_ideas = {
 	start = {
 		defensiveness = 0.20 # leinster also does not start with a fort
 		hostile_attrition = 1 # this modifier is being used a lot, but that might be a good theme for Ireland
+		max_hostile_attrition = 1	
 	}
 
 	bonus = {
@@ -12986,6 +12988,7 @@ ULS_ideas = {
 	}
 	rapparee = {
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	catholic_ascendency = {
 		global_heretic_missionary_strength = 0.02
@@ -13003,6 +13006,7 @@ FLY_ideas = {
 	start = {
 		improve_relation_modifier = 0.25
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 
 	bonus = {
@@ -13059,6 +13063,7 @@ CRN_ideas = {
 	}
 	crn_cornish_rebels = {
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	crn_prayer_book_traditionaliism = {
 		tolerance_own = 2
@@ -13274,6 +13279,7 @@ FLA_ideas = {
 	}
 	fla_noose_bearers = {
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 }
 
@@ -14154,6 +14160,7 @@ MOR_ideas = {
 	}
 	bonus = {
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	trigger = {
 		tag = MOR
@@ -14745,7 +14752,8 @@ CHG_ideas = {
 	free = yes
 	
 	the_mountain_khanate = {
-		hostile_attrition = 0.5
+		max_hostile_attrition = 1
+		hostile_attrition = 1
 		land_attrition = -0.10
 	}
 	CHG_border_wars = {
@@ -15020,6 +15028,7 @@ SOR_ideas = {
 	
 	sor_zittau_mountains = {
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	sor_sale_of_land = {
 		global_tax_modifier = 0.1
@@ -15238,6 +15247,7 @@ ICE_ideas = {
 	start = {
 		may_explore = yes
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	
 	bonus = {
@@ -15521,6 +15531,7 @@ ICE_ideas = {
 DAI_ideas = {
 	start = {
 		hostile_attrition = 1.0
+		max_hostile_attrition = 1
 		culture_conversion_cost = -0.15
 	}
 	
@@ -15886,6 +15897,7 @@ LFA_ideas = {
 	lfa_national_militia = {
 		land_morale = 0.1
 		hostile_attrition = 1.0
+		max_hostile_attrition = 1
 	}
 	lfa_integrate_local_communities = {
 		num_accepted_cultures = 2
@@ -15925,6 +15937,7 @@ LIG_ideas = {
 	}
 	lig_bridge_to_malaya = {
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 		defensiveness = 0.2
 	}
 	lig_spirit_of_rebellion = {
@@ -16212,6 +16225,7 @@ NBI_ideas = {
 	start = {
 		stability_cost_modifier = -0.1
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	
 	bonus = {

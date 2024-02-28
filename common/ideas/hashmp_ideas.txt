@@ -457,6 +457,7 @@ ARB_ideas = { #Arabian Empire
 	}
 	arb_3 = { #Bedouin Raiders
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 		movement_speed = 0.2
 	}
 	arb_4 = { #Spreading the Prophet's Word
@@ -503,6 +504,7 @@ ZUL_ideas = { #Zulu Empire
 	}
 	zul_4 = {
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 		defensiveness = 0.1
 	}
 	zul_5 = {
@@ -740,6 +742,7 @@ AUS_ideas = { #Australia
 	}
 	AUS_eureka_rebellion = { #Lessons of the Outback
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	AUS_sandpaper_and_cheating = { #Dreamtime
 		stability_cost_modifier = -0.1
@@ -784,6 +787,7 @@ NZL_ideas = { #New Zealand
 	}
 	NZL_company = { #Bushrangers
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	NZL_rejecting_australia = { #Bank of Issue
 		global_tax_modifier = 0.15
@@ -797,6 +801,7 @@ NZL_ideas = { #New Zealand
 
 BRZ_ideas = { #Brazil
 	start = {
+		max_hostile_attrition = 1
 		hostile_attrition = 1
 		missionaries = 1
 	}
@@ -945,6 +950,7 @@ QUE_ideas = { #Quebec
 	fortifications_of_quebec = {
 		defensiveness = 0.2
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	college_of_quebec = {
 		leader_land_shock = 1
@@ -1487,6 +1493,7 @@ CHL_ideas = { #Chile
 	start = {
 		navy_tradition = 1
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	
 	bonus = {
@@ -1656,6 +1663,7 @@ MEX_ideas = { #Mexico
 	start = {
 		adm_tech_cost_modifier = -0.1
 		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	
 	bonus = {
@@ -1841,7 +1849,7 @@ ORJ_ideas = { #Oranje
 		defensiveness = 0.15
 	}
 	orj_2 = { #Kommandos
-		morale_damage_received = -0.15
+		morale_damage_received = -0.2
 	}
 	orj_3 = { #Die Stem
 		manpower_recovery_speed = 0.2
