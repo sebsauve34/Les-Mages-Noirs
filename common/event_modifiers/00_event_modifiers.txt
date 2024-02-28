@@ -1835,7 +1835,7 @@ spread_of_enlightenment_ideals = {
 
 #Special places
 spice_islands_modifier = { #Main entrepots of the Mollucas, point of origin for a large portion of the worlds spices
-	trade_goods_size = 3.0
+	trade_goods_size = 1
 }
 
 skanemarket = { #Skånemarknaden - Biggest Herring Market in Europe
