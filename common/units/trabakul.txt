@@ -1,12 +1,12 @@
 #Trabakul
 type = transport
 
-hull_size = 5
-base_cannons = 0
-blockade = 0
+hull_size = 30
+base_cannons = 10
+blockade = 5
 
 sail_speed = 8.5
 
-sailors = 20
+sailors = 90
 
 sprite_level = 4

@@ -1,4 +1,5 @@
 # Large Cast Bronze Mortar
+# Focuses on morale damage
 
 type = artillery
 
