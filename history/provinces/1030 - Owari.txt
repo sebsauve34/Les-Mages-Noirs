@@ -19,6 +19,7 @@ discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
 discovered_by = ANU
+center_of_trade = 1
 
 1532.1.1 = { capital = "Nagoya" }
 1532.1.1 = { fort_15th = yes } # Kiyosu Castle, the capital of the Oda clan
