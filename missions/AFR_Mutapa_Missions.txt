@@ -493,7 +493,7 @@ mutapa_restore_zimbabwe_missions_slot = {
 			NOT = { owned_by = ROOT }
 		}
 		trigger = {
-			total_development = 400
+			total_development = 1000
 			butua_area = {
 				owned_by = ROOT
 				type = all

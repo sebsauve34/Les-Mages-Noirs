@@ -2,7 +2,7 @@
 
 owner = SIS
 controller = SIS
-culture = khorasani
+culture = afghani
 religion = sunni
 capital = "Chakansur"
 trade_goods = livestock
