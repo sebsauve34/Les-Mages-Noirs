@@ -683,6 +683,7 @@ mongolia_region = {
 		ejin_area
 		alxa_area
 		chifeng_area
+		yumen_area
 	}
 }
 
@@ -729,7 +730,6 @@ tibet_region = {
 		utsang_area
 		tsang_area
 		amdo_area
-		kham_area
 		bhutan_area
 		ngari_area
 	}
@@ -949,6 +949,7 @@ xinan_region = {
 		chengdu_area
 		kaiyang_area
 		yunnan_area
+		kham_area
 	}
 }
 
@@ -962,7 +963,6 @@ north_china_region = {
 		gansu_area
 		shaanxi_area
 		xia_area
-		yumen_area
 		chengde_area
 		weichang_area
 		jinan_area
