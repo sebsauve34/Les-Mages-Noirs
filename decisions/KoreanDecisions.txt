@@ -125,31 +125,11 @@ country_decisions = {
 			normal_or_historical_nations = yes
 			is_playing_custom_nation = no
 			NOT = { has_country_modifier = sojunghwa }
-			OR = {
-				NOT = { exists = MNG }
-				NOT = { is_subject_of = MNG }
-				MNG = { is_emperor_of_china = no }
-			}
-			is_emperor_of_china = no
+			
 		}
 		allow = {
 			if = {
-				limit = {
-					event_target:EmperorOfChina = {
-						exists = yes
-						is_emperor_of_china = yes
-					}
-				}
-				event_target:EmperorOfChina = {
-					OR = {
-						primary_culture = manchu_new
-						primary_culture = altaic_new
-						NOT = { culture_group = east_asian }
-						tag = CSH
-					}
-					NOT = { primary_culture = korean_new }
-					NOT = { culture_group = korean_g }
-				}
+		
 			}
 			else = {
 				total_development = 200
