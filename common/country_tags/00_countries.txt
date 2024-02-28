@@ -998,14 +998,14 @@ NOO = "countries/Noongar.txt"
 MLG = "countries/Malagana.txt"
 
 # Leviathan Maori tags
-AOT = "countries/Aotearoa.txt"
-MAA = "countries/Mataatua.txt"
-TAN = "countries/Tainui.txt"
-TAK = "countries/Takitimu.txt"
-TNK = "countries/Taranaki.txt"
-TEA = "countries/TeArawa.txt"
-TTT = "countries/TeTaiTokerau.txt"
-WAI = "countries/Waitaha.txt"
+#AOT = "countries/Aotearoa.txt"
+#MAA = "countries/Mataatua.txt"
+#TAN = "countries/Tainui.txt"
+#TAK = "countries/Takitimu.txt"
+#TNK = "countries/Taranaki.txt"
+#TEA = "countries/TeArawa.txt"
+#TTT = "countries/TeTaiTokerau.txt"
+#WAI = "countries/Waitaha.txt"
 
 # Leviathan Oceanic tags
 UHW = "countries/HawaiiUnited.txt"
