@@ -460,7 +460,13 @@ age_of_reformation = {
 		
 		ab_polish_legitimacy = {
 			allow = {
+				OR = {
 				technology_group = eastern
+				custom_trigger_tooltip = {
+						tooltip = enable_this_ability_tt
+						has_country_flag = unlock_polish_ability_flag
+					}
+				}
 			}
 			modifier = {
 				global_trade_goods_size_modifier = 0.25
