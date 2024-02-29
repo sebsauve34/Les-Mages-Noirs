@@ -9689,7 +9689,7 @@ jap_naval_academy_of_japan_modifier = {
 }
 
 jap_tekkosen_modifier = {
-	ship_durability = 0.05
+	global_ship_cost = -0.1
 }
 
 jap_shogoki_modifier = {
