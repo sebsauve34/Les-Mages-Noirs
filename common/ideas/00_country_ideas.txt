@@ -8929,7 +8929,7 @@ RZW_ideas = {
 		global_tax_modifier = 0.1
 	}
 	rzw_discipline_and_traning = {
-		discipline = 0.05
+		global_regiment_recruit_speed = -0.1
 	}
 	rzw_mwari_cult = {
 		trade_efficiency = 0.1
