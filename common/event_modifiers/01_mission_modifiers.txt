@@ -869,7 +869,7 @@ swe_enforcers_of_religious_superiority = {
 
 swe_catholic_great_power = {	#Permanent
 	papal_influence = 1
-	manpower_in_true_faith_provinces = 0.15
+	manpower_in_true_faith_provinces = 0.1
 	tolerance_own = 1
 	imperial_authority = 0.25
 	religion = yes
@@ -878,7 +878,7 @@ swe_catholic_great_power = {	#Permanent
 swe_reformation_great_power = {	#Permanent
 	church_power_modifier = 0.25
 	monthly_fervor_increase = 1
-	manpower_in_true_faith_provinces = 0.15
+	manpower_in_true_faith_provinces = 0.1
 	tolerance_own = 1
 	imperial_authority = 0.25
 	religion = yes
@@ -886,7 +886,7 @@ swe_reformation_great_power = {	#Permanent
 
 swe_norse_great_power = {	#Permanent
 	legitimacy = 1
-	manpower_in_true_faith_provinces = 0.15
+	manpower_in_true_faith_provinces = 0.1
 	tolerance_own = 1
 	religion = yes
 }
@@ -948,7 +948,7 @@ dan_estonian_culture_accepted = {	#Lasts until Estonian is no longer accepted
 }
 
 dan_control_over_the_english_channel = {	#Permanent
-	trade_efficiency = 0.25
+	trade_efficiency = 0.2
 }
 
 dan_estonian_support = {	#Lasts until Estonian is no longer accepted
@@ -1835,7 +1835,7 @@ gbr_religious_stability = {
 
 gbr_new_world_dominance = {	#Permanent
 	global_tariffs = 0.1
-	trade_efficiency = 0.1
+	#trade_efficiency = 0.1
 }
 
 gbr_resolved_civil_war = {	#Permanent
@@ -1963,13 +1963,12 @@ eng_the_man_of_war = {	#Permanent
 }
 
 eng_strict_marines = {	#Permanent
-	discipline = 0.05
 	shock_damage_received = -0.1
 	is_marine_modifier = yes
 }
 
 eng_the_redcoat = {	#Permanent
-	infantry_power = 0.1
+	fire_damage = 0.1
 }
 
 # Scottish Missions
@@ -9588,7 +9587,7 @@ jap_expanded_mining_operations_modifier = {
 }
 
 jap_period_tranquility_modifier = {
-	development_cost = -0.15 
+	development_cost = -0.1 
 	global_prosperity_growth = 0.25
 }
 
@@ -9604,7 +9603,7 @@ golden_era_bushi_modifier = {
 jap_shishi_no_machi_lion_city_modifier = {
 	trade_value_modifier = 0.1
 	province_trade_power_modifier = 0.5
-	trade_goods_size = 2
+	trade_goods_size = 1
 }
 
 dejima_port_entry_modifier = {
@@ -9651,7 +9650,7 @@ jap_shinto_warriors_modifier = {
 	manpower_in_true_faith_provinces = 0.1
 	enforce_religion_cost = -0.5
 	missionaries = 1 
-	land_morale = 0.15
+	land_morale = 0.1
 	religion = yes
 }
 
@@ -9661,16 +9660,15 @@ jap_new_world_exploration_modifier = {
 }
 
 jap_commercialization_of_mineral_resources_modifier = {
-	global_regiment_cost = -0.1
+	global_regiment_cost = -0.05
 }
 
 jap_bolstered_spirits = {
-	extra_manpower_at_religious_war = yes 
+	manpower_recovery_speed = 0.1
 }	
 
 jap_eighteen_arts_modifier = {
-	military_tactics = 0.1	
-	reinforce_speed = 0.3
+	reinforce_speed = 0.2
 	army_tradition_from_battle = 1 
 }
 
@@ -9685,9 +9683,9 @@ jap_domineering_naval_focus_modifier = {
 }
 
 jap_naval_academy_of_japan_modifier = {
-	ship_durability = 0.05 
+	navy_tradition = 0.25
 	naval_tradition_from_battle = 1 
-	number_of_cannons_modifier = 0.2
+	
 }
 
 jap_tekkosen_modifier = {
@@ -9696,7 +9694,7 @@ jap_tekkosen_modifier = {
 
 jap_shogoki_modifier = {
 	leader_naval_fire = 1 
-	heavy_ship_power = 0.2
+	
 }
 
 jap_reformed_samurai_modifier = {
@@ -9716,7 +9714,7 @@ jap_marine_samurai_modifier2 = {
 }
 
 jap_thundering_firepower_modifier = { 
-	artillery_fire = 1 
+	artillery_fire = 0.5 
 }
 
 jap_unbreakable_spirit_modifier = {

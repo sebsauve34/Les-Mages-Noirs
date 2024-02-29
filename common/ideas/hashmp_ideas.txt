@@ -212,7 +212,7 @@ WUU_ideas = { #Wu
 	}
 	WUU_5 = {
 		ship_durability = 0.05
-		naval_morale = 0.10
+		galley_power = 0.1
 	}
 	WUU_6 = {
 		global_sailors_modifier = 0.25
@@ -783,7 +783,7 @@ NZL_ideas = { #New Zealand
 		development_cost = -0.15
 	}
 	NZL_haka = { #Pacific's Triple Star
-		naval_morale_damage = 0.15
+		sailor_maintenance_modifer = -0.1
 	}
 	NZL_company = { #Bushrangers
 		hostile_attrition = 1
@@ -975,10 +975,10 @@ QUE_ideas = { #Quebec
 ALA_ideas = { Alaska
 	start = {	
 		light_ship_power = 0.15
-		naval_morale = 0.2
+		leader_naval_fire = 1
 	}
 	bonus = {
-		heavy_ship_power = 0.1
+		leader_naval_shock = 1
 	}
 	trigger = {
 		tag = ALA
@@ -1526,8 +1526,8 @@ CHL_ideas = { #Chile
 		global_regiment_cost = -0.1
 	}
 	chl_7 = { #Insula Nostrum
-		naval_morale = 0.10
-		global_sailors_modifier = 0.25
+		navy_tradition = 1
+		global_sailors_modifier = 0.33
 	}
 }
 
@@ -1989,8 +1989,8 @@ LOM_ideas = {
 		global_tax_modifier = 0.2
 	}
 	lom_6 = {
-		naval_morale = 0.1
 		galley_power = 0.15
+		galley_cost = -0.15
 	}
 	lom_7 = {
 		trade_efficiency = 0.1
