@@ -319,10 +319,11 @@ shipyard = {
 	cost = 100
 	time = 12
 	build_trigger = {
-		has_port = yes
+		#has_port = yes
 		development = 10
 	}
 	modifier = {
+		allowed_num_of_buildings = 1
 		naval_forcelimit = 2
 		ship_recruit_speed = -0.25
 		local_ship_repair = 0.25
@@ -1115,10 +1116,11 @@ grand_shipyard = {
 	make_obsolete = shipyard
 
 	build_trigger = {
-		has_port = yes
+		#has_port = yes
 		development = 20
 	}
 	modifier = {
+		allowed_num_of_buildings = 1
 		naval_forcelimit = 4
 		ship_recruit_speed = -0.50
 		local_ship_repair = 0.50
