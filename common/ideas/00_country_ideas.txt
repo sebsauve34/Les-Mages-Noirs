@@ -442,7 +442,7 @@ DAN_ideas = {
 		ship_durability = 0.05
 	}
 	nordic_rulers_legacy = {
-		shock_damage = 0.15
+		shock_damage = 0.1
 		discipline = 0.05
 	}
 	rentekammer = {
@@ -1336,7 +1336,7 @@ GEN_Ideas = {
 	}
 	
 	bonus = {
-		fire_damage = 0.15
+		fire_damage = 0.1
 	}
 	
 	trigger = {
@@ -2417,7 +2417,7 @@ SAV_ideas = {
 		development_cost = -0.1
 	}
 	crush_the_vaudois = {
-		fire_damage = 0.15
+		fire_damage = 0.1
 		army_tradition_decay = -0.01
 	}
 	savoyard_legitimacy = {
@@ -2483,7 +2483,7 @@ COR_ideas = {
 	free = yes		#will be added at load.
 	
 	COR_unblinded_moor = {
-		shock_damage = 0.15
+		shock_damage = 0.1
 	}
 	COR_battle_of_meloria = {
 		naval_morale = 0.15
@@ -3515,7 +3515,7 @@ KON_ideas = {
 	}
 	imported_european_weaponry = {
 		mil_tech_cost_modifier  = -0.1
-		fire_damage = 0.15
+		fire_damage = 0.1
 	}
 	diplomacy_with_european_monarchs = {
 		dip_tech_cost_modifier = -0.1
@@ -6969,7 +6969,7 @@ BEN_ideas = {
 		global_manpower_modifier = 0.1
 	}
 	bonus = {
-		fire_damage = 0.15
+		fire_damage = 0.1
 	}
 	trigger = {
 		tag = BEN
@@ -9278,7 +9278,7 @@ SLO_ideas = {
 
 GLH_ideas = {
 	start = {
-		shock_damage = 0.15
+		shock_damage = 0.1
 		cavalry_cost = -0.10
 	}
 	bonus = {
@@ -10394,7 +10394,7 @@ SMZ_ideas = {
 	}
 
 	smz_tanegashima = {
-		fire_damage = 0.15
+		fire_damage = 0.1
 	}
 	
 	smz_ryukyu_trade = {
@@ -10642,7 +10642,7 @@ RFR_ideas = { # Nanbu clan
 		global_tax_modifier = 0.1
 	}
 	rfr_chosonji_temple = {
-		shock_damage = 0.15
+		shock_damage = 0.1
 	}
 	rfr_fight_against_famines = {
 		development_cost = -0.1
@@ -11141,7 +11141,7 @@ MBZ_ideas = {
 		idea_cost = -0.1
 	}
 	bonus = {
-		fire_damage = 0.15
+		fire_damage = 0.1
 	}
 	trigger = {
 		tag = MBZ
@@ -11321,7 +11321,7 @@ TNT_ideas = {
 		governing_capacity_modifier = 0.1
 	}
 	TNT_mountain_warfare = {
-		shock_damage = 0.15
+		shock_damage = 0.1
 	}
 	TNT_trent_religious_unity = {
 		global_missionary_strength = 0.02
@@ -13631,7 +13631,7 @@ BHA_ideas = {
 
 HIN_ideas = {
 	start = {
-		governing_capacity_modifier = 0.2
+		governing_capacity_modifier = 0.25
 		global_manpower_modifier = 0.33
 	}
 	bonus = {
@@ -13655,7 +13655,8 @@ HIN_ideas = {
 		development_cost = -0.1
 	}
 	hin_gunpowder_empire = {
-		fire_damage = 0.2
+		fire_damage = 0.1
+		backrow_artillery_damage = 0.1
 	}
 	hin_sufism = {
 		global_missionary_strength = 0.02
@@ -13688,7 +13689,6 @@ RJP_ideas = {
 	}
 	marwari_horses = {
 		cavalry_power = 0.1
-		cav_to_inf_ratio = 0.2
 	}
 	rjp_purbia_legacy = {
 		fire_damage = 0.15
@@ -13731,7 +13731,7 @@ NAG_ideas = {
 		army_tradition = 0.5
 	}
 	nag_light_cav = {
-		shock_damage = 0.15
+		shock_damage = 0.1
 	}
 	nag_cultivating_the_forest = {
 		production_efficiency = 0.1
@@ -13755,25 +13755,25 @@ MER_ideas = {
 	free = yes
 	
 	mer_victory_tower = {
-		prestige = 1
+		land_morale = 0.10
 	}
 	mer_rajput_heartland = {
 		global_tax_modifier = 0.1
 	}
 	mer_kumbhalgarh = {
-		defensiveness = 0.15
+		defensiveness = 0.2
 	}
 	mer_city_of_lakes = {
 		development_cost = -0.1
 	}
 	mer_recall_purbias = {
-		global_manpower_modifier = 0.1
+		global_manpower_modifier = 0.2
 	}
 	mer_firearm_drilling = {
 		fire_damage = 0.15
 	}
 	mer_reorganized_rajput_regiments = {
-		land_morale = 0.10
+		prestige = 1
 	}
 }
 
@@ -13959,7 +13959,7 @@ MYS_ideas = {
 		global_trade_goods_size_modifier = 0.1
 	}
 	mys_rockets = {
-		fire_damage = 0.15
+		fire_damage = 0.1
 	}
 	mys_reform_mysorean_army = {
 		free_mil_policy = 1
@@ -14785,7 +14785,7 @@ CSH_ideas = {
 	}
 	
 	bonus = {
-		shock_damage = 0.15
+		shock_damage = 0.1
 	}
 	
 	trigger = {

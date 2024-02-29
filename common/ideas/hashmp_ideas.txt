@@ -994,7 +994,7 @@ ALA_ideas = { Alaska
 		core_creation = -0.2
 	}
 	ALA_bear_hunting = {
-		fire_damage = 0.15
+		fire_damage = 0.1
 	}
 	ALA_diversity = {
 		tolerance_heretic = 2
