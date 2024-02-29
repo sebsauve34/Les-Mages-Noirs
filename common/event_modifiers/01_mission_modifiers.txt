@@ -1921,7 +1921,7 @@ gbr_colonial_australia = {
 }
 
 ave_national_bank = {
-	interest = -2
+	interest = -0.5
 	inflation_reduction = 0.1
 }
 
@@ -3592,7 +3592,7 @@ polish_renaissance = {
 }
 
 pol_thriving_jewish_community = {
-	interest = -0.5
+	interest = -0.25
 }
 
 kazimierz_modifier = {
@@ -3864,7 +3864,7 @@ barcelona_guilds = {
 }
 
 taula_de_canvi = {
-	interest = -0.5
+	interest = -0.25
 	inflation_reduction = 0.15
 }
 
@@ -5411,7 +5411,7 @@ lan_secure_public_funds = {
 
 lan_medici_banking = {
 	state_maintenance_modifier = -0.2
-	interest = -0.5
+	interest = -0.25
 }
 
 lan_arno_flood_controls = {
@@ -8013,7 +8013,7 @@ hsa_valuable_mineral_deposits_modifier = {
 }
 hsa_valuable_mineral_abundance_modifier = {
 	global_tax_modifier = 0.2 
-	interest = -1 
+	interest = -0.25 
 }
 hsa_wealth_of_the_hansa_modifier = {
 	global_tax_income = 6
@@ -9481,7 +9481,7 @@ fra_riches_of_italy_modifier = {
 }
 
 fra_stable_currency_modifier = { 
-	interest = -0.5 
+	interest = -0.25 
 	inflation_action_cost = -0.25
 	adm_advisor_cost = -0.25
 }
@@ -9730,7 +9730,7 @@ jap_firearm_production_modifier = {
 }
 
 jap_high_quality_weapons_modifier = {
-	army_tradition = 1 
+	army_tradition = 0.5
 	global_regiment_cost = -0.05
 }
 
@@ -9760,8 +9760,8 @@ influx_of_foreign_knowledge_modifier = {
 }
 
 jap_internal_monopolies_modifier = {
-	interest = -1 
-	country_admin_power = 2 
+	interest = -0.25 
+	country_admin_power = 1 
 }
 
 jap_presence_global_markets = {

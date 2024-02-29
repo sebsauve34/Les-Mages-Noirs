@@ -159,7 +159,7 @@ bureaucratic_reduction = {
 }
 
 fight_inflation = {
-	interest = 3
+	interest = 1
 }
 
 mint_money = {
@@ -4777,7 +4777,7 @@ ned_shipbuilding_industry = {
 
 ned_bank_crisis = {
 	inflation_reduction = -0.1
-	interest = 2
+	interest = 1
 }
 
 ned_pruikentijd = {
@@ -10926,7 +10926,7 @@ drylands_stagnation = {
 }
 
 jain_resistance = {
-	interest = 2
+	interest = 1
 	yearly_corruption = 0.02
 }
 
