@@ -573,7 +573,7 @@ dock = {
 	cost = 100
 	time = 12
 	build_trigger = {
-		has_port = yes
+		#has_port = yes
 	}
 	modifier = {
 		local_sailors_modifier = 0.5
@@ -1578,7 +1578,7 @@ drydock = {
 	make_obsolete = dock
 
 	build_trigger = {
-		has_port = yes
+		#has_port = yes
 	}
 
 	modifier = {
@@ -2348,7 +2348,7 @@ impressment_offices = {
 	}
 
 	build_trigger = {
-		has_port = yes
+		#has_port = yes
 	}
 
 	modifier = {
