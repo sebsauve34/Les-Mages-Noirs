@@ -5014,8 +5014,8 @@ mossi_ideas = {
 
 fulani_jihad_ideas = {
 	start = {
-		global_regiment_cost = -0.10
-		global_manpower_modifier = 0.1
+		global_regiment_cost = -0.1
+		regiment_manpower_usage = -0.1
 	}
 	
 	bonus = {
@@ -5043,15 +5043,16 @@ fulani_jihad_ideas = {
 	}
 	
 	imams_and_emirs = { 
-		land_morale = 0.1
+		land_morale = 0.15
 	}
 	
 	islamic_scholarship = {
-		technology_cost = -0.05
+		technology_cost = -0.1
 	}
 	
 	community_of_the_faithful = {
 		num_accepted_cultures = 2
+		manpower_in_accepted_culture_provinces = 0.25
 	}
 
 	caliph_in_africa = {
