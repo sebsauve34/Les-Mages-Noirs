@@ -15814,7 +15814,7 @@ MSA_ideas = {
 		
 	}
 	msa_advanced_galley_warfare = {
-		global_ship_cost = -0.1
+		galley_power = 0.2
 	}
 	msa_expert_haggling = {
 		trade_efficiency = 0.1
