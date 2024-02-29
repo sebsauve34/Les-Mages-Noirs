@@ -3120,12 +3120,12 @@ ASS_ideas = {
 
 TUS_ideas = {
 	start = {
-		papal_influence = 2
+		infantry_power = 0.15
 		development_cost = -0.1
 	}
 	
 	bonus = {
-		discipline = 0.05
+		morale_damage_received = -0.15
 	}
 	
 	trigger = {
@@ -3142,10 +3142,10 @@ TUS_ideas = {
 	}
 	tuscan_condottieri = {
 		merc_maintenance_modifier = -0.25
-		possible_condottieri = 0.5
+		mercenary_discipline = 0.05
 	}
 	tuscan_banking = {
-		interest = -0.5
+		interest = -0.25
 	}
 	tuscan_arts = {
 		prestige = 1

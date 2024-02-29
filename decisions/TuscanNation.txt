@@ -23,7 +23,7 @@ country_decisions = {
 					NOT = { exists = TUS }
 				}
 			}
-			tag = LAN
+			tag = GEN
 			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no
