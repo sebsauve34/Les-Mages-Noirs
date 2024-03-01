@@ -6,11 +6,11 @@ naval_hegemon = {
 				NOT = { has_country_flag = halve_hegemony_requirements }
 				NOT = { has_country_flag = jap_halve_naval_hegemony_requirements }
 			}
-			num_of_heavy_ship = 250
+			num_of_heavy_ship = 350
 			NOT = { any_other_great_power = { num_of_heavy_ship = root } }
 		}
 		else = {
-			num_of_heavy_ship = 250
+			num_of_heavy_ship = 350
 			NOT = { any_other_great_power = { num_of_heavy_ship = root } }
 		}
 		NOT = { has_country_modifier = lost_hegemony }
