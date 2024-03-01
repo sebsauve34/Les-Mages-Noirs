@@ -21,8 +21,8 @@ NGame = {
 
 	SIZE_LIMIT_FOR_ISLANDS = 45000,			-- Threshold in pixels to define what is an island and what is a continent
 
-	DAYS_BEHIND_PAUSE = 25,					-- In multiplayer, if the slowest player is lagging behind this amount of days, the game will pause
-	DAYS_BEHIND_LOWER_SPEED = 10,			-- In multiplayer, if the slowest player is lagging behind this amount of days, the game will slow down
+	DAYS_BEHIND_PAUSE = 90,					-- In multiplayer, if the slowest player is lagging behind this amount of days, the game will pause
+	DAYS_BEHIND_LOWER_SPEED = 60,			-- In multiplayer, if the slowest player is lagging behind this amount of days, the game will slow down
 	
 	MERC_COMPANIES_PER_RNW_REGION = 10, 		-- auto-generated merc companies per region in RNW
 	RNW_MERC_COMPANY_MODIFIER_CHANCE = 0.33, -- chance of a modifier being applied to a RNW mercenary company
@@ -71,7 +71,7 @@ NDiplomacy = {
 	DISHONORABLE_PEACE_MONTHS = 12,					-- See DISHONORABLE_PEACE_WARSCORE. Set to 0 to entirely disable the feature.
 	DISHONORABLE_PEACE_WARSCORE = -10,				-- If you have more than this amount of individual warscore, peacing out within DISHONORABLE_PEACE_MONTHS of war start counts as a dishonorable act and incurs a CALL_ALLY_DECLINE_PRESTIGE_PENALTY hit.
 
-	DAYS_TO_DECLARE_WAR = 0,						-- Days from start of game before you can DOW anyone
+	DAYS_TO_DECLARE_WAR = 5,						-- Days from start of game before you can DOW anyone
 
 	INCREASE_TRUST_COST = 10,						-- Cost in favors to increase trust
 	INCREASE_TRUST_AMOUNT = 5,						-- Amount of trust per increase
@@ -110,8 +110,8 @@ NDiplomacy = {
 	PEACE_IMPACT_DIP_SCORE = 0.25,
 	PEACE_IMPACT_MIL_SCORE = 0.25,
 
-	AUTONOMY_WARSCORE_COST_MODIFIER = 0.33,			-- How much autonomy reduces score by (at 1, 50% autonomy = 50% reduction)
-	GREAT_PROJECT_WARSCORE_COST_MODIFIER = 0.33,	-- How much each great project multiplies a war score cost by (so 1 GP adds 33%, 2 add 66% etc)
+	AUTONOMY_WARSCORE_COST_MODIFIER = 0.5,			-- How much autonomy reduces score by (at 1, 50% autonomy = 50% reduction)
+	GREAT_PROJECT_WARSCORE_COST_MODIFIER = 0.25,	-- How much each great project multiplies a war score cost by (so 1 GP adds 33%, 2 add 66% etc)
 
 	NUM_POSSIBLE_RIVALS = 3,
 	RIVAL_PRESTIGE_BONUS = 0.25,
@@ -342,7 +342,7 @@ NDiplomacy = {
 	DIP_PORT_FEES = 0.1,							-- DIP_PORT_FEES
 	IMPROVE_RELATION_MAX = 25,						-- IMPROVE_RELATION_MAX
 	IMPROVE_RELATION_SPEED = 1,						-- IMPROVE_RELATION_SPEED
-	STABHIT_FOR_BREAKING_ALLIANCE_IN_WAR = 2,
+	STABHIT_FOR_BREAKING_ALLIANCE_IN_WAR = 5,
 	WARGOAL_PEACE_FRACTION = 0.66,					-- Fraction of warscore you need for wargoal
 	CLAIM_PEACE_COST_DIP_FRACTION = -0.1,			-- Fraction of dipcost you pay for claims
 	CORE_PEACE_COST_DIP_FRACTION = -0.2,			-- Fraction of dipcost you pay for cores
@@ -754,7 +754,7 @@ NCountry = {
 	PS_DEMAND_NON_WARGOAL_PEACE_PRIMITIVES = 0,
 	PS_MAKE_PROVINCE_CORE = 10,
 	PS_REDUCE_INFLATION = 75,
-	PS_PROMOTE_MERCANTILISM = 100,
+	PS_PROMOTE_MERCANTILISM = 50,
 	PS_MOVE_CAPITAL = 200,
 	PS_MOVE_CAPITAL_EXTRA = 20,						-- Per 100 country development.
 	PS_MOVE_CAPITAL_DISTANCE = 10,					-- How many pixels distance per 1 Adm.
@@ -768,7 +768,7 @@ NCountry = {
 	PS_CHANGE_GOVERNMENT = 100,
 	PS_CHANGE_CULTURE = 10,
 	PS_CHANGE_CULTURE_OVERSEAS_RELIGION_MOD = -0.8,	-- Modifier how much cheaper it is to change culture in overseas province if same religion
-	PS_HARSH_TREATMENT_COST = 200,					-- Max cost for harsh treatment (scales to revolt size)
+	PS_HARSH_TREATMENT_COST = 50,					-- Max cost for harsh treatment (scales to revolt size)
 	PS_HARSH_TREATMENT_REDUCE = 30,
 	PS_GARRISON_SORTIES = 10,
 	PS_REDUCE_WAREXHAUSTION = 75,
@@ -789,7 +789,7 @@ NCountry = {
 	PS_ESTABLISH_SIBERIAN_FRONTIER = 20,
 
 
-	STRENGTHEN_GOVERNMENT_LEGITIMACY = 10,
+	STRENGTHEN_GOVERNMENT_LEGITIMACY = 20,
 	STRENGTHEN_GOVERNMENT_REPUBLICAN_TRADITION = 3,
 	STRENGTHEN_GOVERNMENT_HORDE_UNITY = 10,
 	STRENGTHEN_GOVERNMENT_DEVOTION = 10,
@@ -1295,9 +1295,9 @@ NMilitary = {
 	UNLOAD_COST_FRIENDLY = 12,						-- cost to unload to friendly territory
 	UNLOAD_COST_ENEMY = 36,							-- cost to hostile.
 	LEADER_MAINTENANCE_COST = 1,					-- how much mil power each leader costs.
-	GARRISON_SIZE = 3000, 							-- GARRISON_SIZE
-	SIEGE_FORCE_NEEDED_MULTIPLIER =  0.334,				-- x times garrison to be able to siege.
-	MAX_BREACH = 3,
+	GARRISON_SIZE = 2000, 							-- GARRISON_SIZE
+	SIEGE_FORCE_NEEDED_MULTIPLIER =  0.5,				-- x times garrison to be able to siege.
+	MAX_BREACH = 1,
 	SIEGE_GARRISON_SURRENDER = 100,					-- A siege ends when there is less than 100 defenders left.
 	ASSAULT_WIDTH_LIMIT = 5,						-- how many times the garrison size that can effectively assault at the same time.
 	ASSAULT_ATTACKER_LOSS = 1.0, 					-- MDEF_ASSAULT_ATTACKER_LOSS = 10,
@@ -2575,7 +2575,7 @@ NReligion = {
 	RELIGIOUS_LEAGUE_WAR_BONUS_DURATION = 100,					-- How many years the 'Joined League War' bonus lasts
 	MAX_CHRISTIAN_RELIGIOUS_CENTERS = 3,						-- The number of spawned centers of reformation wont exceed this number
 	MAX_RELIGIOUS_CENTER_SPREAD_DISTANCE = 150.0,				-- When spreading the religion to other provinces the distance wont exceed this number
-	CONVERSION_ZEAL_DURATION = 10950,							-- Amount of days in which you cannot convert the province back.
+	CONVERSION_ZEAL_DURATION = 1825,							-- Amount of days in which you cannot convert the province back.
 	KARMA_FOR_CONVERSION = 0.1,
 	MIN_CARDINALS = 7,											-- Least amount of cardinals/ Starting cardinals
 	MAX_CARDINALS = 49,											-- Max amount of cardinals
@@ -2639,8 +2639,8 @@ NReligion = {
 	BUY_INDULGENCE_COST_EXCOMMUNICATE_MULTIPLIER = 2.0,		-- Multiplicative factor for excommunicated countries
 	BUY_INDULGENCE_DURATION = 5,							-- Duration of the indulgence effect in numbers of years (Opinion modifier has is own decay defined)
 	BUY_INDULGENCE_TREASURY_CONTRIBUTION = 0.5,				-- Amount of the cost of Buy Indulgence that goes in the Curia Treasury
-	APPOINT_CARDINAL_INFLUENCE = 10.0,						-- Invested Influence given by appointing a cardinal
-	APPOINT_CARDINAL_CORRUPTION = 0.5,						-- Corruption gained by the Papal State when appointing cardinals in its own land
+	APPOINT_CARDINAL_INFLUENCE = 0,						-- Invested Influence given by appointing a cardinal
+	APPOINT_CARDINAL_CORRUPTION = 0.1,						-- Corruption gained by the Papal State when appointing cardinals in its own land
 	APPOINT_CARDINAL_INFLUENCE_PAPAL_STATE = 0,			-- Yearly passive influence gained by cardinals in Papal States
 	-- Appoint cardinal cost formula:
 	APPOINT_CARDINAL_TOTAL_FACTOR = 2,						-- Factor to the number of total cardinals for the cost formula
