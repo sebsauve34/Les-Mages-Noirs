@@ -177,18 +177,6 @@ t_cn_army_4 = {
 	global_regiment_cost = 0.05
 }
 
-t_cn_army_5 = {
-	potential = {
-		is_colonial_nation = yes
-	}
-	trigger = {
-		was_player = yes
-		army_size = 300
-	}
-	reinforce_cost_modifier = 0.2
-	reinforce_speed = -0.2
-	global_regiment_cost = 0.05
-}
 
 t_cn_navy_1 = {
 	potential = {
@@ -253,24 +241,6 @@ t_cn_navy_4 = {
 		OR = {
 			num_of_heavy_ship = 60
 			navy_size = 160
-		}
-	}
-	
-	global_ship_recruit_speed = 0.15
-	global_ship_repair = -0.15
-	global_ship_cost = 0.1
-	naval_maintenance_modifier = 0.1
-}
-
-t_cn_navy_5 = {
-	potential = {
-		is_colonial_nation = yes
-	}
-	trigger = {
-		was_player = yes
-		OR = {
-			num_of_heavy_ship = 75
-			navy_size = 200
 		}
 	}
 	
@@ -365,56 +335,10 @@ t_hre_elector_3 = {
 	global_tax_income = 24
 }
 
-t_hre_strongemperor = {
-	potential = {
-		is_part_of_hre = yes
-		was_player = yes
-	}
-	trigger = {
-		emperor = {
-			is_part_of_hre = yes
-			OR = {
-				total_development = 300
-				AND = {
-					tag = HAB
-					total_development = 150
-				}
-				AND = {
-					tag = AHU
-					total_development = 150
-				}
-			}
-		}
-	}
-	imperial_authority = 0.1
-	imperial_authority_value = 0.03
-}
 
 ###########################################
 # Misc Modifiers
 ###########################################
-
-t_vassal_cav_ratio = {
-	potential = {
-		is_subject = yes
-		ai = yes
-	}
-	trigger = {
-		overlord = {
-			has_global_modifier_value = {
-				which = cav_to_inf_ratio
-				value = 1
-			}
-		}
-		OR = {
-			is_subject_of_type = client_march
-			is_subject_of_type = client_vassal
-			is_subject_of_type = vassal
-			is_subject_of_type = march
-		}
-	}
-	cav_to_inf_ratio = 0.5
-}
 
 t_over_merc_cap_early = {
 	potential = {

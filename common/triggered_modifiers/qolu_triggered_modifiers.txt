@@ -109,16 +109,3 @@ ahead_of_time = {
 	monthly_reform_progress_modifier = 0.25	
 	prestige = 0.5
 }
-
-qolu_ai_sieges = {
-	potential = {
-		ai = yes
-	}
-
-	trigger = {
-		always = yes
-	}
-
-	global_autonomy = -0.5
-	yearly_corruption = -0.5
-}

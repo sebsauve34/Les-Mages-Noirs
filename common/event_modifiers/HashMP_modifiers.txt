@@ -1037,29 +1037,27 @@ h_colonel_flag = {
 ## Stratagems - AP mechanic
 
 traditional_stratagem = {
-    shock_damage = 0.15
+    shock_damage = 0.1
     fire_damage_received = -0.1
 }
 
 strategic_stratagem = {
     mercenary_discipline = 0.1
-    fire_damage = 0.15
+    fire_damage = 0.1
 }
 
 offensive_stratagem = {
-    artillery_levels_available_vs_fort = 1
-    morale_damage = 0.1
-    siege_ability = 0.25
-    
+    morale_damage = 0.15
+    siege_ability = 0.2
 }
 
 defensive_stratagem = {
     shock_damage_received = -0.15
-    defensiveness = 0.25
+    military_tactics = 0.1
 }
 
 quality_stratagem = {
-    discipline = 0.05
+    infantry_power = 0.1
     land_attrition = -0.1
 }
 

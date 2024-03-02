@@ -583,7 +583,7 @@ new_world_i = {
 
 	bonus = {
 		global_prov_trade_power_modifier = 0.2
-		global_colonial_growth = 20
+		global_colonial_growth = 10
 	}
 
 	trade_company_efficiency = 0.6
@@ -831,8 +831,8 @@ printing_press = {
 	
 
 	bonus = {
-		stability_cost_modifier = -0.10
-		all_estate_loyalty_equilibrium = 0.1
+		core_creation = -0.1
+		centralize_state_cost = -0.2
 	}
 
 	trade_company_efficiency = 0.8
