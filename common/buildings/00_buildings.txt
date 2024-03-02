@@ -769,9 +769,8 @@ fort_16th = {
 	time = 30
 	make_obsolete = fort_15th
 	modifier = {
-		fort_level = 4
-		land_forcelimit = -2
-		global_manpower = -3
+		fort_level = 3
+		
 	}
 
 	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -1282,9 +1281,8 @@ fort_17th = {
 	make_obsolete = fort_16th
 
 	modifier = {
-		fort_level = 6
-		land_forcelimit = -3.5
-		global_manpower = -5
+		fort_level = 5
+		
 	}
 
 	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -1747,9 +1745,7 @@ fort_18th = {
 	make_obsolete = fort_17th
 
 	modifier = {
-		fort_level = 8
-		land_forcelimit = -5
-		global_manpower = -7.5
+		fort_level = 6
 	}
 
 	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
