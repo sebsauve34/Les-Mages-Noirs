@@ -1,7 +1,7 @@
 #462 - Mingrelia
 
-owner = IME
-controller = IME
+owner = GEO
+controller = GEO
 culture = georgian
 religion = orthodox
 capital = "Zugdidi"

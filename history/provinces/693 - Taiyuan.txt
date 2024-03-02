@@ -1,7 +1,8 @@
 #693 - Taiyuan
 
-owner = TAY
-controller = TAY
+owner = ZHA
+controller = ZHA
+add_core = ZHA
 add_core = TAY
 culture = jin
 religion = confucianism

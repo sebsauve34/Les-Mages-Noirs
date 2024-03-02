@@ -4946,7 +4946,7 @@ alhambra = {
 
 the_grand_palace = {
 	# province it starts in
-	start = 4831
+	start = 5081
 	
 	# date built in real life (so anything built during game time will be there if you start a game after that date)
 	date = 1444.01.01 #1782

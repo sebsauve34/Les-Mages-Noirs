@@ -4,8 +4,8 @@ latent_trade_goods = {
 	coal
 }
 
-owner = IME
-controller = IME
+owner = GEO
+controller = GEO
 culture = georgian
 religion = orthodox
 capital = "Kutaisi"

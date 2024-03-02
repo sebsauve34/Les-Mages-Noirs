@@ -1,7 +1,8 @@
 #2211 - Ardalan
 
-owner = ARD
-controller = ARD
+owner = QOM
+add_core = QOM
+controller = QOM
 culture = kurdish
 religion = sunni
 capital = "Sanandaj"

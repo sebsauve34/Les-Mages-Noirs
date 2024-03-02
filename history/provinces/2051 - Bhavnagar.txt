@@ -1,7 +1,8 @@
 #2051 - Bhavnagar
 
-owner = PTL
-controller = PTL
+owner = JGD
+controller = JGD
+add_core = JGD
 culture = saurashtri
 religion = hinduism
 capital = "Bhavnagar"

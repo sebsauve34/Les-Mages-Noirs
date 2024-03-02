@@ -1,7 +1,8 @@
 #4454 - Porbandar
 
-owner = PRB
-controller = PRB
+owner = JGD
+add_core = JGD
+controller = JGD
 culture = saurashtri
 religion = hinduism
 capital = "Porbandar"

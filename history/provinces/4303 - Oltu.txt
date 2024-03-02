@@ -1,7 +1,7 @@
 #4303 - Oltu
 
-owner = SME
-controller = SME
+owner = GEO
+controller = GEO
 culture = georgian
 religion = orthodox
 capital = "Oltu"

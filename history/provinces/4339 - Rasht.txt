@@ -1,7 +1,8 @@
 #4339 - Rasht
 
-owner = BPI
-controller = BPI
+owner = QOM
+add_core = QOM
+controller = QOM
 culture = mazandarani
 religion = sunni
 capital = "Rasht"

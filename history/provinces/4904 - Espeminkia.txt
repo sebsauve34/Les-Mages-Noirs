@@ -1,7 +1,8 @@
 # 2554 - Fuxin
 
-owner = YNG
-controller = YNG
+owner = LIA
+controller = LIA
+add_core = LIA
 add_core = YNG
 culture = shandong_culture
 religion = confucianism
