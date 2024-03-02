@@ -15,7 +15,7 @@ technology = {
 
 	infantry_fire		= 	0.25
 	infantry_shock 		= 	0.20	
-	cavalry_shock  		= 	0.8	
+	cavalry_shock  		= 	0.75	
 	land_morale 		= 	2.0
 }
 
@@ -122,7 +122,7 @@ technology = {
 	#Standardised Pikes
 	supply_limit 		= 	0.5
 	infantry_shock		= 	0.15
-	cavalry_shock		= 	0.2
+	cavalry_shock		= 	0.15
 
 	enable = western_men_at_arms	
 	enable = western_longbow	
@@ -168,7 +168,7 @@ technology = {
 	military_tactics 	= 	0.25
 	infantry_shock		= 	0.15
 	infantry_fire 		= 	0.1
-	cavalry_shock		=	0.2
+	cavalry_shock		=	0.15
 	
 	
 	barracks = yes
@@ -204,7 +204,7 @@ technology = {
 	artillery_fire 		= 	1
 	artillery_shock 	=	0.05
 	military_tactics 	= 	0.25
-	cavalry_shock		=	0.2
+	cavalry_shock		=	0.15
 	infantry_shock		= 	0.15
 	infantry_fire 		= 	0.1
 	enable = large_cast_bronze_mortar 
@@ -222,7 +222,7 @@ technology = {
 	
 	#Pike and Shot
 	infantry_fire		= 	0.25
-	cavalry_shock		=	0.5
+	cavalry_shock		=	0.4
 
 	
 	regimental_camp = yes
@@ -308,7 +308,7 @@ technology = {
 	
 	#Matchlock Musket
 	infantry_shock		= 	0.20
-	cavalry_fire		= 	0.25
+	cavalry_fire		= 	0.2
 	cavalry_shock		=	0.2
 
 	
@@ -475,7 +475,7 @@ technology = {
 	#	global_trade = 0.15
 	}
 	
-	cavalry_shock		=	0.25
+	cavalry_shock		=	0.2
 	supply_limit		= 	0.5	
 	
 	enable = maharathan_cavalry		
@@ -592,7 +592,7 @@ technology = {
 	#Line Infantry
 	sprite_level = 3
 	military_tactics 	= 	0.25
-	cavalry_fire		=	0.25
+	cavalry_fire		=	0.2
 	infantry_shock 		=	0.5
 }
 
@@ -609,7 +609,7 @@ technology = {
 	}
 	
 	#Cartridge	(1620)?)
-	cavalry_fire		=	0.25
+	cavalry_fire		=	0.2
 	artillery_shock 	=	0.1
 	artillery_fire		=	1.0
 	supply_limit 		= 	0.5
@@ -710,6 +710,7 @@ technology = {
 	#Metallurgy
 	artillery_shock 	=	0.1
 	artillery_fire		=	2.0
+	cavalry_fire = 0.2
 	
 	enable = royal_mortar
 	enable = licorne
@@ -782,6 +783,7 @@ technology = {
 	#Bayonet
 	supply_limit		=	0.5
 	infantry_fire		= 	0.5	
+	cavalry_shock = 0.2
 }
 
 technology = {
@@ -837,7 +839,7 @@ technology = {
 	}
 	
 	#Defense in Depth
-		
+	cavalry_shock		=	0.2	
 	enable = flying_battery
 	enable = grand_battery
 }
