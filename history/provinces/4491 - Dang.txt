@@ -1,7 +1,7 @@
 #4491 - Dang
 
-owner = DNG
-controller = DNG
+owner = JML
+controller = JML
 culture = nepali
 religion = hinduism
 capital = "Dang"
@@ -11,7 +11,7 @@ base_tax = 2
 base_production = 2
 base_manpower = 1
 is_city = yes
-add_core = DNG
+add_core = JML
 discovered_by = indian
 discovered_by = nomad_group
 discovered_by = muslim 

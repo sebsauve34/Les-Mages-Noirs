@@ -40,7 +40,6 @@ change_estate_land_share = { #compensates for lack of nobles, distributes 20 bet
 	set_estate_privilege = estate_nobles_english_villeinage
 	heir = {
 		name = "Edward"
-		monarch_name = "Edward of Westminster"
 		dynasty = "Westminster"
 		birth_date = 1443.10.13
 		death_date = 1483.8.30

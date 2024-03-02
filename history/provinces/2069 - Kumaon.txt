@@ -1,7 +1,7 @@
 #2069 - Kumaon
 
-owner = KMN
-controller = KMN
+owner = SRM
+controller = SRM
 culture = pahari
 religion = hinduism
 capital = "Champawat"
@@ -11,7 +11,7 @@ base_tax = 1
 base_production = 1
 base_manpower = 1
 is_city = yes
-add_core = KMN
+add_core = SRM
 discovered_by = indian
 discovered_by = muslim
 discovered_by = ottoman

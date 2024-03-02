@@ -18,7 +18,7 @@ add_army_professionalism = 0.1
 1422.1.1 = {	
 	heir = {
 		name = "Narayanaraja"
-		monarch_name = "Noreay Ramathipatei"
+		
 		dynasty = "Khmer"
 		birth_date = 1425.1.1
 		death_Date = 1468.1.1

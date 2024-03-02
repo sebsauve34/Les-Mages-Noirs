@@ -22,7 +22,7 @@ add_army_professionalism = 0.2
 1420.1.1 = {
 	heir = {
 		name = "Pachacuti"
-		monarch_name = "Pachacuti Inca"
+		
 		dynasty = "Hanan"
 		birth_date = 1426.1.1
 		death_date = 1471.1.1
