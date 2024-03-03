@@ -287,7 +287,7 @@ innovativeness_ideas = {
 	}
 	optimism = {
 		innovativeness_gain = 0.5
-		yearly_innovativeness = 0.25
+		
 		
 	}
 	expanded_policies = {
