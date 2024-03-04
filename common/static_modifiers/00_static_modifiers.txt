@@ -1762,10 +1762,10 @@ zaidi_scholar_modifier = {
 # Regiment Types Modifiers
 ########################################
 regiment_drill_modifier = { # Used by individual regiments
-	shock_damage = 0.2
-	fire_damage = 0.2
-	fire_damage_received = -0.2
-	shock_damage_received = -0.2
+	shock_damage = 0.15
+	fire_damage = 0.15
+	fire_damage_received = -0.25
+	shock_damage_received = -0.25
 	movement_speed = 0.25
 	assault_fort_ability = 0.25
 	
