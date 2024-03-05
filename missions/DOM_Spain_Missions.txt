@@ -786,7 +786,7 @@ dom_cas_missions_1_c = {
 		completed_by = 1509.1.1
 		position = 10
 		provinces_to_highlight = {
-			colonial_region = colonial_colombia
+			colonial_region = colonial_the_carribean
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
@@ -799,7 +799,7 @@ dom_cas_missions_1_c = {
 					tooltip = colombia_holy_order_tooltip
 					num_of_states_owned_or_owned_by_non_sovereign_subjects_with = {
 						has_holy_order_trigger = yes
-						colonial_region = colonial_colombia
+						colonial_region = colonial_the_carribean
 						value = 5
 					}
 				}
@@ -809,12 +809,12 @@ dom_cas_missions_1_c = {
 					tooltip = colombia_holy_order_alternative_tooltip
 					num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 						religion = ROOT
-						colonial_region = colonial_colombia
+						colonial_region = colonial_the_carribean
 						value = 25
 					}
 				}
 			}
-			colonial_colombia = {
+			colonial_the_carribean = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -1441,14 +1441,14 @@ dom_cas_missions_2_c = {
 		required_missions = { gc_cas_spa_caribbean_discovery2 }
 		position = 9
 		provinces_to_highlight = {
-			colonial_region = colonial_colombia
+			colonial_region = colonial_the_carribean
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 			has_discovered = yes
 		}
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				value = 5
-				colonial_region = colonial_colombia
+				colonial_region = colonial_the_carribean
 				is_city = yes
 			}
 		}
