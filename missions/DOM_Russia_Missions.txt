@@ -2642,13 +2642,13 @@ mos_rus_california = {
 		required_missions = { mos_rus_colonize_alaska }
 		position = 8
 		provinces_to_highlight = {
-			colonial_region = colonial_california
+			colonial_region = colonial_canada
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 			has_discovered = ROOT
 		}
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				colonial_region = colonial_california
+				colonial_region = colonial_canada
 				value = 20
 			}
 		}
@@ -3251,13 +3251,13 @@ mos_rus_new_world = {
 					ROOT = {
 						NOT = {
 							num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-								colonial_region = colonial_california
+								colonial_region = colonial_canada
 								value = 20
 							}
 						}
 					}
 				}
-				colonial_region = colonial_california
+				colonial_region = colonial_canada
 			}
 			else = {
 				province_id = 2613
@@ -3267,7 +3267,7 @@ mos_rus_new_world = {
 		}
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
-				colonial_region = colonial_california
+				colonial_region = colonial_canada
 				value = 20
 			}
 			owns_or_non_sovereign_subject_of = 2613

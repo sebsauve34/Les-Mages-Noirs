@@ -2677,7 +2677,7 @@ dom_cas_missions_3_c = {
 		required_missions = { gc_cas_spa_new_spain2 }
 		position = 13
 		provinces_to_highlight = {
-			colonial_region = colonial_california
+			colonial_region = colonial_mexico
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 			has_discovered = ROOT
 		}
@@ -2705,7 +2705,7 @@ dom_cas_missions_3_c = {
 			}
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				value = 5
-				colonial_region = colonial_california
+				colonial_region = colonial_mexico
 				is_city = yes
 			}
 		}
@@ -2715,7 +2715,7 @@ dom_cas_missions_3_c = {
 				add_base_tax = 3
 			}
 			4637 = { add_center_of_trade_level = 1  add_base_production = 4 } 
-			colonial_california = {
+			colonial_mexico = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
