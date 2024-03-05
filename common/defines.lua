@@ -697,13 +697,13 @@ NCountry = {
 	PIETY_PERCENTAGE_AT_NEW_RULER = 0.0,			-- percentage of piety kept at new ruler.
 	PIETY_INCREASE_AT_GOOD_WAR = 0.0,
 	PIETY_DECREASE_AT_BAD_WAR = -0.0,
-	ADVISOR_COST_INCREASE_PER_YEAR = 0.005,			-- yearly increase in price in percent,
+	ADVISOR_COST_INCREASE_PER_YEAR = 0.006,			-- yearly increase in price in percent,
 	SCRIPTED_ADVISOR_DISCOUNT = 0.5,				-- Multiplier on cost for advisors scripted with discount=yes
 	MINIMUM_ADVISOR_DURATION = 10, 					-- _CDEF_MINIMUM_ADVISOR_DURATION_
 	MINIMUM_ADVISOR_DURATION_CHANCE_VALUE = 15,		-- Higher value here gives lower daily death chance after MINIMUM_ADVISOR_DURATION
 	ADVISOR_CUT_OFF_AGE = 30, 						-- _CDEF_ADVISOR_CUT_OFF_AGE = 10,
 	MAXIMUM_ADVISOR_SKILL = 7,						-- Maximum advisor skill reachable through promotion
-	PROMOTE_COST_MONTHS_ADVISOR_SALARY = 60.0,		-- Promote advisor cost in monthly salaries
+	PROMOTE_COST_MONTHS_ADVISOR_SALARY = 80.0,		-- Promote advisor cost in monthly salaries
 	CULTURE_LOSS_THRESHOLD = 0.10, 					-- _CDEF_CULTURE_LOSS_THRESHOLD = 10,
 	CULTURE_GAIN_THRESHOLD = 0.20, 					-- _CDEF_CULTURE_GAIN_THRESHOLD = 10,
 	CULTURE_COST_DIFF_ORIGINAL = -50,				-- Difference in cost in percent to convert to original culture.
