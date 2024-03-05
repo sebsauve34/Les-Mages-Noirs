@@ -120,7 +120,12 @@ colonial_canada = {
 		2612 978 2611 979 #western alaska
 		2566 2567 971 #eastern maine
 		2565 5123 2013 #maine
-
+		910 2517 2518 5148 911 #lake superior
+		913 912 5149 914 #wisconsin
+		2522 944 2521 945 #michigan
+		5167 2501 2006 2502 2503 #upper missouri
+		5168 2510 909 906 #dakota
+		2511 2016 5152 908  #red river of the north
 	}
 	
 	# Specific
@@ -369,14 +374,9 @@ colonial_eastern_america = {
 		903 5165 2508 901 2009 #central plains
 		889 2625 2507 #high plains
 		1809 2505 2504 2506 #badlands
-		5167 2501 2006 2502 2503 #upper missouri
 		2008 2007 5166 907 #minnesota
-		5168 2510 909 906 #dakota
-		2511 2016 5152 #red river of the north
-		5151 908 2512 904 #minnessota kekw
-		910 2517 2518 5148 911 #lake superior
-		913 912 5149 914 #wisconsin
-		2522 944 2521 945 #michigan		
+		5151 2512 904 #minnessota kekw
+				
 	}
 	
 	# Specific

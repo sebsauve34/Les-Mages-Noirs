@@ -3618,7 +3618,7 @@ south_dakota_area = { #3
 }
 
 minnessota_area = { #4 NEW
-    904 908 2512 5151
+    904 2512 5151
 }
 
 upper_missouri_area = { #5
@@ -3749,7 +3749,7 @@ hudson_bay_area = { #5
 }
 
 red_river_area = { #5
-    2016 2511 5152
+    2016 2511 5152 908 
 }
 
 manitoba_area = { #5 NEW
