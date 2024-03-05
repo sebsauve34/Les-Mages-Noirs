@@ -3501,7 +3501,10 @@ estate_burghers_swiss_mountains = {
 	
 	influence = 0.05
 	is_valid = {
-		mission_completed = emp_swi_confederacy
+		OR = {
+		tag = SWI
+		tag = SWA
+		}
 		any_owned_province = {
 			has_terrain = mountain
 		}
