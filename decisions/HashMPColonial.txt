@@ -62,14 +62,14 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
-			colonial_brazil = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
+			num_of_owned_provinces_with = {
+				value = 120
+				is_core = root
+				colonial_region = colonial_brazil
 			}
-			colonial_parent = {
-				has_country_flag = h_brz_enabled
-			}
+			#colonial_parent = {
+			#	has_country_flag = h_brz_enabled
+			#}
 			NOT = { exists = BRZ }
 		}
 		effect  = {
@@ -86,7 +86,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
-			clr_country_flag = h_brazil_dominion_request
+			#clr_country_flag = h_brazil_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -99,20 +99,20 @@ country_decisions = {
 			NOT = { has_country_flag = became_dominion }
 			was_never_end_game_tag_trigger = yes
 			is_colonial_nation = yes
-			colonial_california = {
+			colonial_mexico = {
 				owned_by = ROOT
 			}
 		}
 		allow = {
 			is_at_war = no
-			colonial_california = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
+			num_of_owned_provinces_with = {
+				value = 130
+				is_core = root
+				colonial_region = colonial_mexico
 			}
-			colonial_parent = {
-				has_country_flag = h_cal_enabled
-			}
+			#colonial_parent = {
+			#	has_country_flag = h_cal_enabled
+			#}
 			NOT = { exists = CAL }
 		}
 		effect  = {
@@ -129,7 +129,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
-			clr_country_flag = h_california_dominion_request
+			#clr_country_flag = h_california_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -148,14 +148,14 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
-			colonial_canada = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
+			num_of_owned_provinces_with = {
+				value = 115
+				is_core = root
+				colonial_region = colonial_canada
 			}
-			colonial_parent = {
-				has_country_flag = h_can_enabled
-			}
+			#colonial_parent = {
+			#	has_country_flag = h_can_enabled
+			#}
 			NOT = { exists = CAN }
 		}
 		effect  = {
@@ -172,7 +172,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
-			clr_country_flag = h_canada_dominion_request
+			#clr_country_flag = h_canada_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -185,20 +185,20 @@ country_decisions = {
 			NOT = { has_country_flag = became_dominion }
 			was_never_end_game_tag_trigger = yes
 			is_colonial_nation = yes
-			colonial_la_plata = {
+			colonial_brazil = {
 				owned_by = ROOT
 			}
 		}
 		allow = {
 			is_at_war = no
-			colonial_la_plata = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
+			num_of_owned_provinces_with = {
+				value = 120
+				is_core = root
+				colonial_region = colonial_brazil
 			}
-			colonial_parent = {
-				has_country_flag = h_chl_enabled
-			}
+			#colonial_parent = {
+			#	has_country_flag = h_chl_enabled
+			#}
 			NOT = { exists = CHL }
 		}
 		effect  = {
@@ -215,7 +215,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
-			clr_country_flag = h_laplata_dominion_request
+			#clr_country_flag = h_laplata_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -228,20 +228,20 @@ country_decisions = {
 			NOT = { has_country_flag = became_dominion }
 			was_never_end_game_tag_trigger = yes
 			is_colonial_nation = yes
-			colonial_colombia = {
+			colonial_the_carribean = {
 				owned_by = ROOT
 			}
 		}
 		allow = {
 			is_at_war = no
-			colonial_colombia = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
+			num_of_owned_provinces_with = {
+				value = 120
+				is_core = root
+				colonial_region = colonial_the_carribean
 			}
-			colonial_parent = {
-				has_country_flag = h_col_enabled
-			}
+			#colonial_parent = {
+			#	has_country_flag = h_col_enabled
+			#}
 			NOT = { exists = COL }
 		}
 		effect  = {
@@ -258,7 +258,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
-			clr_country_flag = h_colombia_dominion_request
+			#clr_country_flag = h_colombia_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -277,14 +277,14 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
-			colonial_the_carribean = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
+			num_of_owned_provinces_with = {
+				value = 120
+				is_core = root
+				colonial_region = colonial_the_carribean
 			}
-			colonial_parent = {
-				has_country_flag = h_hat_enabled
-			}
+			#colonial_parent = {
+			#	has_country_flag = h_hat_enabled
+			#}
 			NOT = { exists = HAT }
 		}
 		effect  = {
@@ -301,7 +301,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
-			clr_country_flag = h_caribbean_dominion_request
+			#clr_country_flag = h_caribbean_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -314,20 +314,20 @@ country_decisions = {
 			NOT = { has_country_flag = became_dominion }
 			was_never_end_game_tag_trigger = yes
 			is_colonial_nation = yes
-			colonial_la_plata = {
+			colonial_brazil = {
 				owned_by = ROOT
 			}
 		}
 		allow = {
 			is_at_war = no
-			colonial_la_plata = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
+			num_of_owned_provinces_with = {
+				value = 120
+				is_core = root
+				colonial_region = colonial_brazil
 			}
-			colonial_parent = {
-				has_country_flag = h_lap_enabled
-			}
+			#colonial_parent = {
+			#	has_country_flag = h_chl_enabled
+			#}
 			NOT = { exists = LAP }
 		}
 		effect  = {
@@ -344,7 +344,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
-			clr_country_flag = h_laplata_dominion_request
+			#clr_country_flag = h_laplata_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -357,20 +357,20 @@ country_decisions = {
 			NOT = { has_country_flag = became_dominion }
 			was_never_end_game_tag_trigger = yes
 			is_colonial_nation = yes
-			colonial_louisiana = {
+			colonial_eastern_america = {
 				owned_by = ROOT
 			}
 		}
 		allow = {
 			is_at_war = no
-			colonial_louisiana = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
+			num_of_owned_provinces_with = {
+				value = 140
+				is_core = root
+				colonial_region = colonial_eastern_america
 			}
-			colonial_parent = {
-				has_country_flag = h_lou_enabled
-			}
+			#colonial_parent = {
+			#	has_country_flag = h_lou_enabled
+			#}
 			NOT = { exists = LOU }
 		}
 		effect  = {
@@ -387,7 +387,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
-			clr_country_flag = h_louisiana_dominion_request
+			#clr_country_flag = h_louisiana_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -406,14 +406,14 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
-			colonial_mexico = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
+			num_of_owned_provinces_with = {
+				value = 130
+				is_core = root
+				colonial_region = colonial_mexico
 			}
-			colonial_parent = {
-				has_country_flag = h_mex_enabled
-			}
+			#colonial_parent = {
+			#	has_country_flag = h_mex_enabled
+			#}
 			NOT = { exists = MEX }
 		}
 		effect  = {
@@ -430,7 +430,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
-			clr_country_flag = h_mexico_dominion_request
+			#clr_country_flag = h_mexico_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -449,14 +449,14 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
-			colonial_brazil = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
+			num_of_owned_provinces_with = {
+				value = 120
+				is_core = root
+				colonial_region = colonial_brazil
 			}
-			colonial_parent = {
-				has_country_flag = h_prg_enabled
-			}
+			#colonial_parent = {
+			#	has_country_flag = h_chl_enabled
+			#}
 			NOT = { exists = PRG }
 		}
 		effect  = {
@@ -473,7 +473,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
-			clr_country_flag = h_brazil_dominion_request
+			#clr_country_flag = h_brazil_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -486,20 +486,20 @@ country_decisions = {
 			NOT = { has_country_flag = became_dominion }
 			was_never_end_game_tag_trigger = yes
 			is_colonial_nation = yes
-			colonial_peru = {
+			colonial_the_carribean = {
 				owned_by = ROOT
 			}
 		}
 		allow = {
 			is_at_war = no
-			colonial_peru = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
+			num_of_owned_provinces_with = {
+				value = 120
+				is_core = root
+				colonial_region = colonial_the_carribean
 			}
-			colonial_parent = {
-				has_country_flag = h_peu_enabled
-			}
+			#colonial_parent = {
+			#	has_country_flag = h_peu_enabled
+			#}
 			NOT = { exists = PEU }
 		}
 		effect  = {
@@ -516,7 +516,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
-			clr_country_flag = h_peru_dominion_request
+			#clr_country_flag = h_peru_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -535,10 +535,10 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
-			colonial_canada = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
+			num_of_owned_provinces_with = {
+				value = 115
+				is_core = root
+				colonial_region = colonial_canada
 			}
 			colonial_parent = {
 				has_country_flag = h_que_enabled
@@ -572,20 +572,20 @@ country_decisions = {
 			NOT = { has_country_flag = became_dominion }
 			was_never_end_game_tag_trigger = yes
 			is_colonial_nation = yes
-			colonial_louisiana = {
+			colonial_mexico = {
 				owned_by = ROOT
 			}
 		}
 		allow = {
 			is_at_war = no
-			colonial_louisiana = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
+			num_of_owned_provinces_with = {
+				value = 130
+				is_core = root
+				colonial_region = colonial_mexico
 			}
-			colonial_parent = {
-				has_country_flag = h_tex_enabled
-			}
+			#colonial_parent = {
+			#	has_country_flag = h_tex_enabled
+			#}
 			NOT = { exists = TEX }
 		}
 		effect  = {
@@ -602,7 +602,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
-			clr_country_flag = h_louisiana_dominion_request
+			#clr_country_flag = h_louisiana_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -621,14 +621,14 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
-			colonial_mexico = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
+			num_of_owned_provinces_with = {
+				value = 130
+				is_core = root
+				colonial_region = colonial_mexico
 			}
-			colonial_parent = {
-				has_country_flag = h_cam_enabled
-			}
+			#colonial_parent = {
+			#	has_country_flag = h_cam_enabled
+			#}
 			NOT = { exists = CAM }
 		}
 		effect  = {
@@ -645,7 +645,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
-			clr_country_flag = h_mexico_dominion_request
+			#clr_country_flag = h_mexico_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -664,14 +664,14 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
-			colonial_eastern_america = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
+			num_of_owned_provinces_with = {
+				value = 140
+				is_core = root
+				colonial_region = colonial_eastern_america
 			}
-			colonial_parent = {
-				has_country_flag = h_usa_enabled
-			}
+			#colonial_parent = {
+			#	has_country_flag = h_usa_enabled
+			#}
 			NOT = { exists = USA }
 		}
 		effect  = {
@@ -688,7 +688,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
-			clr_country_flag = h_easternamerica_dominion_request
+			#clr_country_flag = h_easternamerica_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -701,20 +701,20 @@ country_decisions = {
 			NOT = { has_country_flag = became_dominion }
 			was_never_end_game_tag_trigger = yes
 			is_colonial_nation = yes
-			colonial_colombia = {
+			colonial_the_carribean = {
 				owned_by = ROOT
 			}
 		}
 		allow = {
 			is_at_war = no
-			colonial_colombia = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
+			num_of_owned_provinces_with = {
+				value = 120
+				is_core = root
+				colonial_region = colonial_the_carribean
 			}
-			colonial_parent = {
-				has_country_flag = h_vnz_enabled
-			}
+			#colonial_parent = {
+			#	has_country_flag = h_vnz_enabled
+			#}
 			NOT = { exists = VNZ }
 		}
 		effect  = {
@@ -731,7 +731,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
-			clr_country_flag = h_colombia_dominion_request
+			#clr_country_flag = h_colombia_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -750,14 +750,14 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
-			colonial_the_carribean = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
+			num_of_owned_provinces_with = {
+				value = 120
+				is_core = root
+				colonial_region = colonial_the_carribean
 			}
-			colonial_parent = {
-				has_country_flag = h_cub_enabled
-			}
+			#colonial_parent = {
+			#	has_country_flag = h_cub_enabled
+			#}
 			NOT = { exists = CUB }
 		}
 		effect  = {
@@ -774,7 +774,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
-			clr_country_flag = h_caribbean_dominion_request
+			#clr_country_flag = h_caribbean_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -873,20 +873,20 @@ country_decisions = {
 			NOT = { has_country_flag = became_dominion }
 			was_never_end_game_tag_trigger = yes
 			is_colonial_nation = yes
-			colonial_peru = {
+			colonial_brazil = {
 				owned_by = ROOT
 			}
 		}
 		allow = {
 			is_at_war = no
-			colonial_peru = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
+			num_of_owned_provinces_with = {
+				value = 120
+				is_core = root
+				colonial_region = colonial_brazil
 			}
-			colonial_parent = {
-				has_country_flag = h_blv_enabled
-			}
+			#colonial_parent = {
+			#	has_country_flag = h_chl_enabled
+			#}
 			NOT = { exists = BLV }
 		}
 		effect  = {
@@ -903,7 +903,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
-			clr_country_flag = h_peru_dominion_request
+			#clr_country_flag = h_peru_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -916,20 +916,20 @@ country_decisions = {
 			NOT = { has_country_flag = became_dominion }
 			was_never_end_game_tag_trigger = yes
 			is_colonial_nation = yes
-			colonial_california = {
+			colonial_canada = {
 				owned_by = ROOT
 			}
 		}
 		allow = {
 			is_at_war = no
-			colonial_california = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
+			num_of_owned_provinces_with = {
+				value = 115
+				is_core = root
+				colonial_region = colonial_canada
 			}
-			colonial_parent = {
-				has_country_flag = h_csc_enabled
-			}
+			#colonial_parent = {
+			#	has_country_flag = h_csc_enabled
+			#}
 			NOT = { exists = CSC }
 		}
 		effect  = {
@@ -946,7 +946,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
-			clr_country_flag = h_california_dominion_request
+			#clr_country_flag = h_california_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -1483,49 +1483,49 @@ country_decisions = {
 	
 #1.30 NEW
 	
-	h_form_alaska = {
-		major = yes
-		potential = {
-			NOT = { has_country_flag = became_dominion }
-			was_never_end_game_tag_trigger = yes
-			is_colonial_nation = yes
-			colonial_california = {
-				owned_by = ROOT
-			}
-		}
-		allow = {
-			is_at_war = no
-			colonial_california = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
-			}
-			colonial_parent = {
-				has_country_flag = h_ala_enabled
-			}
-			NOT = { exists = ALA }
-		}
-		effect  = {
-			change_tag = ALA
-			remove_non_electors_emperors_from_empire_effect = yes
-			add_government_reform = h_reform_dominion
-			if = {
-				limit = { has_custom_ideas = no }
-				country_event = { id = ideagroups.1 } #Swap Ideas
-			}
-			add_country_modifier = {
-				name = "centralization_modifier"
-				duration = 7300
-			}
-			add_prestige = 25
-			set_country_flag = became_dominion
-			clr_country_flag = h_california_dominion_request
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
+#	h_form_alaska = {
+#		major = yes
+#		potential = {
+#			NOT = { has_country_flag = became_dominion }
+#			was_never_end_game_tag_trigger = yes
+#			is_colonial_nation = yes
+#			colonial_california = {
+#				owned_by = ROOT
+#			}
+#		}
+#		allow = {
+#			is_at_war = no
+#			colonial_california = {
+#				type = all
+#				owned_by = ROOT
+#				is_core = ROOT
+#			}
+#			colonial_parent = {
+#				has_country_flag = h_ala_enabled
+#			}
+#			NOT = { exists = ALA }
+#		}
+#		effect  = {
+#			change_tag = ALA
+#			remove_non_electors_emperors_from_empire_effect = yes
+#			add_government_reform = h_reform_dominion
+#			if = {
+#				limit = { has_custom_ideas = no }
+#				country_event = { id = ideagroups.1 } #Swap Ideas
+#			}
+#			add_country_modifier = {
+#				name = "centralization_modifier"
+#				duration = 7300
+#			}
+#			add_prestige = 25
+#			set_country_flag = became_dominion
+#			clr_country_flag = h_california_dominion_request
+#		}
+#		ai_will_do = {
+#			factor = 0
+#		}
+#	}
+#	
 #	h_enable_alaska = {
 #		major = yes
 #		potential = {
@@ -1549,50 +1549,50 @@ country_decisions = {
 #			factor = 0
 #		}
 #	}
-	
-	h_form_sonora = {
-		major = yes
-		potential = {
-			NOT = { has_country_flag = became_dominion }
-			was_never_end_game_tag_trigger = yes
-			is_colonial_nation = yes
-			colonial_california = {
-				owned_by = ROOT
-			}
-		}
-		allow = {
-			is_at_war = no
-			colonial_california = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
-			}
-			colonial_parent = {
-				has_country_flag = h_ala_enabled
-			}
-			NOT = { exists = SNA }
-		}
-		effect  = {
-			change_tag = SNA
-			remove_non_electors_emperors_from_empire_effect = yes
-			add_government_reform = h_reform_dominion
-			if = {
-				limit = { has_custom_ideas = no }
-				country_event = { id = ideagroups.1 } #Swap Ideas
-			}
-			add_country_modifier = {
-				name = "centralization_modifier"
-				duration = 7300
-			}
-			add_prestige = 25
-			set_country_flag = became_dominion
-			clr_country_flag = h_california_dominion_request
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
+#	
+#	h_form_sonora = {
+#		major = yes
+#		potential = {
+#			NOT = { has_country_flag = became_dominion }
+#			was_never_end_game_tag_trigger = yes
+#			is_colonial_nation = yes
+#			colonial_california = {
+#				owned_by = ROOT
+#			}
+#		}
+#		allow = {
+#			is_at_war = no
+#			colonial_california = {
+#				type = all
+#				owned_by = ROOT
+##				is_core = ROOT
+#			}
+#			colonial_parent = {
+#				has_country_flag = h_ala_enabled
+#			}
+#			NOT = { exists = SNA }
+#		}
+#		effect  = {
+#			change_tag = SNA
+#			remove_non_electors_emperors_from_empire_effect = yes
+#			add_government_reform = h_reform_dominion
+#			if = {
+#				limit = { has_custom_ideas = no }
+#				country_event = { id = ideagroups.1 } #Swap Ideas
+#			}
+#			add_country_modifier = {
+#				name = "centralization_modifier"
+#				duration = 7300
+#			}
+#			add_prestige = 25
+#			set_country_flag = became_dominion
+#			clr_country_flag = h_california_dominion_request
+#		}
+#		ai_will_do = {
+#			factor = 0
+#		}
+#	}
+#	
 #	h_enable_sonora = {
 #		major = yes
 #		potential = {
@@ -1616,50 +1616,50 @@ country_decisions = {
 #			factor = 0
 #		}
 #	}
-	
-	h_form_westindies = {
-		major = yes
-		potential = {
-			NOT = { has_country_flag = became_dominion }
-			was_never_end_game_tag_trigger = yes
-			is_colonial_nation = yes
-			colonial_the_carribean = {
-				owned_by = ROOT
-			}
-		}
-		allow = {
-			is_at_war = no
-			colonial_the_carribean = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
-			}
-			colonial_parent = {
-				has_country_flag = h_wsi_enabled
-			}
-			NOT = { exists = WSI }
-		}
-		effect  = {
-			change_tag = WSI
-			remove_non_electors_emperors_from_empire_effect = yes
-			add_government_reform = h_reform_dominion
-			if = {
-				limit = { has_custom_ideas = no }
-				country_event = { id = ideagroups.1 } #Swap Ideas
-			}
-			add_country_modifier = {
-				name = "centralization_modifier"
-				duration = 7300
-			}
-			add_prestige = 25
-			set_country_flag = became_dominion
-			clr_country_flag = h_caribbean_dominion_request
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
+#	
+#	h_form_westindies = {
+#		major = yes
+#		potential = {
+#			NOT = { has_country_flag = became_dominion }
+#			was_never_end_game_tag_trigger = yes
+#			is_colonial_nation = yes
+#			colonial_the_carribean = {
+#				owned_by = ROOT
+#			}
+#		}
+#		allow = {
+#			is_at_war = no
+#			colonial_the_carribean = {
+#				type = all
+#				owned_by = ROOT
+#				is_core = ROOT
+#			}
+#			colonial_parent = {
+#				has_country_flag = h_wsi_enabled
+#			}
+#			NOT = { exists = WSI }
+#		}
+#		effect  = {
+#			change_tag = WSI
+#			remove_non_electors_emperors_from_empire_effect = yes
+#			add_government_reform = h_reform_dominion
+#			if = {
+#				limit = { has_custom_ideas = no }
+#				country_event = { id = ideagroups.1 } #Swap Ideas
+#			}
+#			add_country_modifier = {
+#				name = "centralization_modifier"
+#				duration = 7300
+#			}
+#			add_prestige = 25
+#			set_country_flag = became_dominion
+#			clr_country_flag = h_caribbean_dominion_request
+#		}
+#		ai_will_do = {
+#			factor = 0
+#		}
+#	}
+#	
 #	h_enable_westindies = {
 #		major = yes
 #		potential = {
@@ -1696,14 +1696,14 @@ country_decisions = {
 		}
 		allow = {
 			is_at_war = no
-			colonial_eastern_america = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
+			num_of_owned_provinces_with = {
+				value = 140
+				is_core = root
+				colonial_region = colonial_eastern_america
 			}
-			colonial_parent = {
-				has_country_flag = h_flo_enabled
-			}
+			#colonial_parent = {
+			#	has_country_flag = h_flo_enabled
+			#}
 			NOT = { exists = FLO }
 		}
 		effect  = {
@@ -1720,7 +1720,7 @@ country_decisions = {
 			}
 			add_prestige = 25
 			set_country_flag = became_dominion
-			clr_country_flag = h_easternamerica_dominion_request
+			#clr_country_flag = h_easternamerica_dominion_request
 		}
 		ai_will_do = {
 			factor = 0
@@ -1751,49 +1751,49 @@ country_decisions = {
 		}
 	}
 	
-	h_form_illinois = {
-		major = yes
-		potential = {
-			NOT = { has_country_flag = became_dominion }
-			was_never_end_game_tag_trigger = yes
-			is_colonial_nation = yes
-			colonial_louisiana = {
-				owned_by = ROOT
-			}
-		}
-		allow = {
-			is_at_war = no
-			colonial_louisiana = {
-				type = all
-				owned_by = ROOT
-				is_core = ROOT
-			}
-			colonial_parent = {
-				has_country_flag = h_ili_enabled
-			}
-			NOT = { exists = ILI }
-		}
-		effect  = {
-			change_tag = ILI
-			remove_non_electors_emperors_from_empire_effect = yes
-			add_government_reform = h_reform_dominion
-			if = {
-				limit = { has_custom_ideas = no }
-				country_event = { id = ideagroups.1 } #Swap Ideas
-			}
-			add_country_modifier = {
-				name = "centralization_modifier"
-				duration = 7300
-			}
-			add_prestige = 25
-			set_country_flag = became_dominion
-			clr_country_flag = h_louisiana_dominion_request
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
-	
+#	h_form_illinois = {
+#		major = yes
+#		potential = {
+#			NOT = { has_country_flag = became_dominion }
+#			was_never_end_game_tag_trigger = yes
+#			is_colonial_nation = yes
+#			colonial_louisiana = {
+#				owned_by = ROOT
+#			}
+#		}
+#		allow = {
+#			is_at_war = no
+#			colonial_louisiana = {
+#				type = all
+#				owned_by = ROOT
+#				is_core = ROOT
+#			}
+#			colonial_parent = {
+#				has_country_flag = h_ili_enabled
+#			}
+#			NOT = { exists = ILI }
+#		}
+#		effect  = {
+#			change_tag = ILI
+#			remove_non_electors_emperors_from_empire_effect = yes
+#			add_government_reform = h_reform_dominion
+#			if = {
+#				limit = { has_custom_ideas = no }
+#				country_event = { id = ideagroups.1 } #Swap Ideas
+#			}
+#			add_country_modifier = {
+#				name = "centralization_modifier"
+#				duration = 7300
+#			}
+#			add_prestige = 25
+#			set_country_flag = became_dominion
+#			clr_country_flag = h_louisiana_dominion_request
+#		}
+#		ai_will_do = {
+#			factor = 0
+#		}
+#	}
+#	
 #	h_enable_illinois = {
 #		major = yes
 #		potential = {
