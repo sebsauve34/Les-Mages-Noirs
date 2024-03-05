@@ -147,12 +147,12 @@ union = {
 }
 
 #Ardalan
-vassal = {
-	first = QOM
-	second = ARD
-	start_date = 1444.1.1
-	end_date = 1446.1.1
-}
+#vassal = {
+#	first = QOM
+#	second = ARD
+#	start_date = 1444.1.1
+#	end_date = 1446.1.1
+#}
 
 vassal = {
 	first = QAR
