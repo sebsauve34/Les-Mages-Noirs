@@ -73,10 +73,12 @@ colonial_canada = {
 	native_hostileness = 4
 	
 	trade_goods = {
-		fur = 20
+		fur = 24
 		fish = 10
 		naval_supplies = 3
-		grain = 1
+		grain = 4
+		salt = 1
+		
 	}
 
 	culture = {
@@ -107,6 +109,18 @@ colonial_canada = {
 		2598 2005
 		#1.31
 		5140 5141 5142 5143 5144 5145 5146 5147 5169 5170
+		#Merging Alaska Maine and Oregon
+		2604 2605 2003 2607 2606 #interior plateau
+		2487 2488 2486 873 #columbia river
+		872 2481 2482 2483 2019 #oregon
+		874 2484 2485 #puget sound
+		972 974 2610 973 #straits of georgia
+		975 2609 2022 #hecate strait
+		976 2613 977 #alaska panhandle
+		2612 978 2611 979 #western alaska
+		2566 2567 971 #eastern maine
+		2565 5123 2013 #maine
+
 	}
 	
 	# Specific
@@ -328,13 +342,41 @@ colonial_eastern_america = {
 	
 	provinces = {
 		929 931 932 933 935 936 937 938 949 950 951 952 953 954 955 956 957 958 962 963 965
-		966 967 968 970 971 926 927 928 930 941 948 947 946 959 960 961
-		964 969 2010 2011 2013 2023 2525 2526 2527 2534 2535 2536 2537 2538 
+		966 967 968 970 926 927 928 930 941 948 947 946 959 960 961
+		964 969 2010 2011 2023 2525 2526 2527 2534 2535 2536 2537 2538 
 		2539 2540 2541 2542 2543 2544 2545 2546 2547 2548 2549 2550 2551 2552 2553 2554 2555 2556
-		2557 2558 2559 2560 2561 2562 2563 2564 2565 2566 2567 2639
+		2557 2558 2559 2560 2561 2562 2563 2564 2639
 		4626 4625
 		#1.31
-		5121 5122 5123 5124 5125 5126 5127 5128 5129 5130 5131 5132 5138 5139 5157 5162
+		5121 5122 5124 5125 5126 5127 5128 5129 5130 5131 5132 5138 5139 5157 5162
+		#merging california and louisianna
+		2489 2020 2490 #snake river
+		2533 923 922 2530 921 #west florida
+		2014 2516 893 #louisiana
+		925 924 2532 5133 2531 #alabama
+		5134 920 2529 2528 919 #mississippi
+		918 939 5163 934 #tennessee
+		5135 894 895 897 5173 #aksansas
+		5137 5171 940 #western kentucky
+		2524 2523 943 942 5172 #indiana
+		2519 2520 5154 #southern illinois
+		916 917 915 5153 #illinois
+		5136 2515 899 2509 #ozarks
+		5158 891 892 896 #southern plains
+		890 2672 898 5164 #kansas
+		2514 900 5156 902 #upper louisianna
+		2513 5150 905 5155 #iowa
+		903 5165 2508 901 2009 #central plains
+		889 2625 2507 #high plains
+		1809 2505 2504 2506 #badlands
+		5167 2501 2006 2502 2503 #upper missouri
+		2008 2007 5166 907 #minnesota
+		5168 2510 909 906 #dakota
+		2511 2016 5152 #red river of the north
+		5151 908 2512 904 #minnessota kekw
+		910 2517 2518 5148 911 #lake superior
+		913 912 5149 914 #wisconsin
+		2522 944 2521 945 #michigan		
 	}
 	
 	# Specific
@@ -425,266 +467,266 @@ colonial_eastern_america = {
 }
 
 # Louisiana
-colonial_louisiana = {
-	color = { 33 87 161 }
-
-	# Random New World
-	tax_income = 1
-	native_size = 18
-	native_ferocity = 2
-	native_hostileness = 6
-	
-	trade_goods = {
-		fur = 10
-		fish = 1
-		grain = 11
-		cotton = 7
-		iron = 1
-	}
-	
-	culture = {
-		nakota = 2
-		dakota = 8
-		chiwere = 3
-		pawnee = 10
-		osage = 3
-		caddo = 6
-		cheyenne = 1
-		shoshone = 1
-	}
-	
-	religion = {
-		shamanism = 20
-		animism = 20
-	}
-	
-	provinces = {
-		893 894 895 897 899 900 915 916 918 919 920 921 942 943 896 917 909 906 898 901 903
-		907 908 905 904 902 944 945 914 913 912 911 910 1809 2006 2007 2008 2009 2014 2016
-		2501 2502 2503 2504 2505 2506 2507 2508 2509 2510 2511 2512 2513 2514 2515 2516 2517 2518 2519
-		2520 2521 2522 2523 2524 2528 2529 2530 2625 2672 
-		#from e america
-		922 923 2533 2532 2531 924 925 934 939 940 5171 5163 5133
-		#from mexico
-		884 888 2665 887 2669 889 890 892 891 886 2500 883 4627 885 2497
-		#1.31
-		5134 5135 5136 5137 5148 5149 5150 5151 5152 5153 5154 5155 5156 5158 5164 5165 5166 5167 5168 5172 5173
-		#1.31 from mexico
-		5159 5160 5161
-	}
-	
-	# Specific
-	names = {
-		trigger = {
-			OR = {
-				tag = FRA
-				culture_group = french
-			}
-		}
-		name = "COLONIAL_LOUISIANA_Root_Culture_GetGroupName_Louisiana"
-	}
-	names = {
-		trigger = {
-			OR = {
-				tag = FRA
-				culture_group = french
-			}
-		}
-		name = "COLONIAL_LOUISIANA_Manitounie"
-	}
-	names = {
-		trigger = {
-			OR = {
-				tag = FRA
-				culture_group = french
-			}
-			OR = {
-				owns = 915 # Illinois
-				owns = 916 # Kaskaskia
-				owns = 917 # Cahokia
-			}
-		}
-		name = "PROV915"
-	}
-	# Generic
-	names = {
-		name = "COLONIAL_LOUISIANA_Root_Culture_GetName_Louisiana"
-	}
-	names = {
-		name = "COLONIAL_REGION_New_Root_GetName"
-	}
-	names = {
-		name = "COLONIAL_LOUISIANA_Mississippi"
-	}
-	names = {
-		name = "COLONIAL_LOUISIANA_Manitounie"
-	}
-	names = {
-		trigger = {
-			owns = 948 # Ohio
-		}
-		name = "PROV948"
-	}
-	names = {
-		trigger = {
-			OR = {
-				owns = 915 # Illinois
-				owns = 916 # Kaskaskia
-				owns = 917 # Cahokia
-			}
-		}
-		name = "PROV915"
-	}
-	names = {
-		trigger = {
-			OR = {
-				owns = 900 # Tamaroa
-				owns = 902 # Missouri
-			}
-		}
-		name = "PROV902"
-	}
-	names = {
-		trigger = {
-			owns = 897 # Quapaw
-		}
-		name = "COLONIAL_LOUISIANA_Arkansas"
-	}
-	names = {
-		trigger = {
-			OR = {
-				owns = 945 # Michigan
-				owns = 944 # Potawatomi
-			}
-		}
-		name = "PROV945"
-	}
-	names = {
-		trigger = {
-			OR = {
-				owns = 912 # Sauk
-				owns = 913 # Fox
-				owns = 914 # Winnebago
-			}
-		}
-		name = "COLONIAL_LOUISIANA_Wisconsin"
-	}
-	names = {
-		trigger = {
-			owns = 905 # Iowa
-		}
-		name = "PROV905"
-	}
-	names = {
-		trigger = {
-			owns = 908 # Minnesota
-		}
-		name = "PROV908"
-	}
-	names = {
-		trigger = {
-			owns = 898 # Kansas
-		}
-		name = "PROV898"
-	}
-	names = {
-		trigger = {
-			OR = {
-				owns = 903 # Omaha
-				owns = 901 # Pawnee
-			}
-		}
-		name = "COLONIAL_LOUISIANA_Nebraska"
-	}
-	names = {
-		trigger = {
-			OR = {
-				owns = 906 # Yankton
-				owns = 907 # Dakota
-			}
-		}
-		name = "PROV907"
-	}
-}
-
+#colonial_louisiana = {
+#	color = { 33 87 161 }
+#
+#	# Random New World
+#	tax_income = 1
+#	native_size = 18
+#	native_ferocity = 2
+#	native_hostileness = 6
+#	
+#	trade_goods = {
+#		fur = 10
+#		fish = 1
+#		grain = 11
+#		cotton = 7
+#		iron = 1
+#	}
+#	
+#	culture = {
+#		nakota = 2
+#		dakota = 8
+#		chiwere = 3
+#		pawnee = 10
+#		osage = 3
+#		caddo = 6
+#		cheyenne = 1
+#		shoshone = 1
+#	}
+#	
+#	religion = {
+#		shamanism = 20
+#		animism = 20
+#	}
+#	
+#	provinces = {
+#		893 894 895 897 899 900 915 916 918 919 920 921 942 943 896 917 909 906 898 901 903
+#		907 908 905 904 902 944 945 914 913 912 911 910 1809 2006 2007 2008 2009 2014 2016
+#		2501 2502 2503 2504 2505 2506 2507 2508 2509 2510 2511 2512 2513 2514 2515 2516 2517 2518 2519
+#		2520 2521 2522 2523 2524 2528 2529 2530 2625 2672 
+#		#from e america
+#		922 923 2533 2532 2531 924 925 934 939 940 5171 5163 5133
+#		#from mexico
+#		884 888 2665 887 2669 889 890 892 891 886 2500 883 4627 
+#		#1.31
+#		5134 5135 5136 5137 5148 5149 5150 5151 5152 5153 5154 5155 5156 5158 5164 5165 5166 5167 5168 5172 5173
+#		#1.31 from mexico
+#		5159 5160 5161
+#	}
+#	
+#	# Specific
+#	names = {
+#		trigger = {
+#			OR = {
+#				tag = FRA
+#				culture_group = french
+#			}
+#		}
+#		name = "COLONIAL_LOUISIANA_Root_Culture_GetGroupName_Louisiana"
+#	}
+#	names = {
+#		trigger = {
+#			OR = {
+#				tag = FRA
+#				culture_group = french
+#			}
+#		}
+#		name = "COLONIAL_LOUISIANA_Manitounie"
+#	}
+#	names = {
+#		trigger = {
+#			OR = {
+#				tag = FRA
+#				culture_group = french
+#			}
+#			OR = {
+#				owns = 915 # Illinois
+#				owns = 916 # Kaskaskia
+#				owns = 917 # Cahokia
+#			}
+#		}
+#		name = "PROV915"
+#	}
+#	# Generic
+#	names = {
+#		name = "COLONIAL_LOUISIANA_Root_Culture_GetName_Louisiana"
+#	}
+#	names = {
+#		name = "COLONIAL_REGION_New_Root_GetName"
+#	}
+#	names = {
+#		name = "COLONIAL_LOUISIANA_Mississippi"
+#	}
+#	names = {
+#		name = "COLONIAL_LOUISIANA_Manitounie"
+#	}
+#	names = {
+#		trigger = {
+#			owns = 948 # Ohio
+#		}
+#		name = "PROV948"
+#	}
+#	names = {
+#		trigger = {
+#			OR = {
+#				owns = 915 # Illinois
+#				owns = 916 # Kaskaskia
+#				owns = 917 # Cahokia
+#			}
+#		}
+#		name = "PROV915"
+#	}
+#	names = {
+#		trigger = {
+#			OR = {
+#				owns = 900 # Tamaroa
+#				owns = 902 # Missouri
+#			}
+#		}
+#		name = "PROV902"
+#	}
+#	names = {
+#		trigger = {
+#			owns = 897 # Quapaw
+#		}
+#		name = "COLONIAL_LOUISIANA_Arkansas"
+#	}
+#	names = {
+#		trigger = {
+#			OR = {
+#				owns = 945 # Michigan
+#				owns = 944 # Potawatomi
+#			}
+#		}
+#		name = "PROV945"
+#	}
+#	names = {
+#		trigger = {
+#			OR = {
+#				owns = 912 # Sauk
+#				owns = 913 # Fox
+#				owns = 914 # Winnebago
+#			}
+#		}
+#		name = "COLONIAL_LOUISIANA_Wisconsin"
+#	}
+#	names = {
+#		trigger = {
+#			owns = 905 # Iowa
+#		}
+#		name = "PROV905"
+#	}
+#	names = {
+#		trigger = {
+#			owns = 908 # Minnesota
+#		}
+#		name = "PROV908"
+#	}
+#	names = {
+#		trigger = {
+#			owns = 898 # Kansas
+#		}
+#		name = "PROV898"
+#	}
+#	names = {
+#		trigger = {
+#			OR = {
+#				owns = 903 # Omaha
+#				owns = 901 # Pawnee
+#			}
+#		}
+#		name = "COLONIAL_LOUISIANA_Nebraska"
+#	}
+#	names = {
+#		trigger = {
+#			OR = {
+#				owns = 906 # Yankton
+#				owns = 907 # Dakota
+#			}
+#		}
+#		name = "PROV907"
+#	}
+#}
+#
 # California
-colonial_california = {
-	color = { 200 117 43 }
-
-	# Random New World
-	tax_income = 1
-	native_size = 8
-	native_ferocity = 1
-	native_hostileness = 3
-	
-	trade_goods = {
-		fur = 4
-		grain = 3
-		salt = 1
-		wool = 2
-	}
-	
-	culture = {
-		shoshone = 10
-		piman = 8
-		navajo = 1
-	}
-	
-	religion = {
-		shamanism = 4
-		animism = 10
-	}
-	
-	provinces = {
-		868 867 876 875 870 869 871 2021
-		2476 2477 2478 2479 2480 2491
-		2493    
-		4638 4637 4636 4635 4634
-		865 866 2620 4639 4577 2616 4650 862 4649 877 4633 # beja california, arizona, and sonoria
-		#alaska
-		979 978 977 976 975 974 972 2022 2609 2610 2611 2612 2613
-		2481 2482 2483 872 2019 2020 2489 2490 2486 2487 2488 873 2484 2485 874 2604 2605 2606 2607
-		2003 973 
-		#from mexico
-		2494 878 879 2492 881 2495 4631 4632 880 2496 4630 882
-	}
-
-	# Specific
-	names = {
-		trigger = {
-			OR = {
-				tag = GBR
-				tag = ENG
-			}
-			culture_group = british
-		}
-		name = "COLONIAL_CALIFORNIA_Root_Culture_GetGroupName_Columbia"
-	}
-	names = {
-		trigger = {
-			OR = {
-				tag = GBR
-				tag = ENG
-			}
-			culture_group = british
-		}
-		name = "COLONIAL_CALIFORNIA_New_Albion"
-	}
-	# Generic
-	names = {
-		name = "COLONIAL_CALIFORNIA_California"
-	}
-	names = {
-		trigger = { owns = 2481 } # Klamath
-		name = "COLONIAL_CALIFORNIA_Oregon"
-	}
-	names = {
-		name = "COLONIAL_CALIFORNIA_Root_Culture_GetGroupName_Columbia"
-	}
-	names = {
-		name = "COLONIAL_REGION_New_Root_GetName"
-	}
-}
+#colonial_california = {
+#	color = { 200 117 43 }
+#
+#	# Random New World
+#	tax_income = 1
+#	native_size = 8
+#	native_ferocity = 1
+#	native_hostileness = 3
+#	
+#	trade_goods = {
+#		fur = 4
+#		grain = 3
+#		salt = 1
+#		wool = 2
+#	}
+#	
+#	culture = {
+#		shoshone = 10
+#		piman = 8
+#		navajo = 1
+#	}
+#	
+#	religion = {
+#		shamanism = 4
+#		animism = 10
+#	}
+#	
+#	provinces = {
+#		868 867 876 875 870 869 871 2021
+#		2476 2477 2478 2479 2480 2491
+#		2493    
+#		4638 4637 4636 4635 4634
+#		865 866 2620 4639 4577 2616 4650 862 4649 877 4633 # beja california, arizona, and sonoria
+#		#alaska
+#		979 978 977 976 975 974 972 2022 2609 2610 2611 2612 2613
+#		2481 2482 2483 872 2019 2020 2489 2490 2486 2487 2488 873 2484 2485 874 2604 2605 2606 2607
+#		2003 973 
+#		#from mexico
+#		2494 878 879 2492 881 2495 4631 4632 880 2496 4630 882
+#	}
+#
+#	# Specific
+#	names = {
+#		trigger = {
+#			OR = {
+#				tag = GBR
+#				tag = ENG
+#			}
+#			culture_group = british
+#		}
+#		name = "COLONIAL_CALIFORNIA_Root_Culture_GetGroupName_Columbia"
+#	}
+#	names = {
+#		trigger = {
+#			OR = {
+#				tag = GBR
+#				tag = ENG
+#			}
+#			culture_group = british
+#		}
+#		name = "COLONIAL_CALIFORNIA_New_Albion"
+#	}
+#	# Generic
+#	names = {
+#		name = "COLONIAL_CALIFORNIA_California"
+#	}
+#	names = {
+#		trigger = { owns = 2481 } # Klamath
+#		name = "COLONIAL_CALIFORNIA_Oregon"
+#	}
+#	names = {
+#		name = "COLONIAL_CALIFORNIA_Root_Culture_GetGroupName_Columbia"
+#	}
+#	names = {
+#		name = "COLONIAL_REGION_New_Root_GetName"
+#	}
+#}
 
 # Mexico
 colonial_mexico = {
@@ -700,7 +742,7 @@ colonial_mexico = {
 		fur = 2
 		grain = 8
 		salt = 5
-		wool = 7
+		wool = 9
 		fish = 5
 		sugar = 8
 		gold = 5
@@ -729,7 +771,21 @@ colonial_mexico = {
 		2641 2642 2643 2644 2645 2646 2647 2648 2649 2650 2651 2652 2653 2657 2662
 		2666 2667 2668
 		4628 4629 4606 4644 4646 4648 4647 4645 4643 4642 4578 4640 4576 4579 4580 4575 4574 4573 4641 4572 4571 4570 4581 4583 4598 4582 4584 4585 4586 4587 4594 4589 4588 4590 4591 4593
-
+		#merging california and louisianna
+		2477 2480 4638 2479 871 #north california
+		2021 4637 869 868 2476 #alta california
+		870 4636 2478 4635 #central valley
+		4639 2620 865 866 #baja california
+		4577 2616 862 4649 4650 #sonora
+		867 2491 876 877 4633 #arizona
+		2492 879 4634 #apacheria
+		2493 875 878 2494 #colorado plateau
+		880 4632 4631 881 2495 #new mexico
+		882 4630 2496 885 2497 #lliano estacdo
+		5159 2500 5160 886 #texas plains
+		883 4627 887 5161 #coastal prairies
+		884 888 2665 2669 #texas
+	
 	}
 	
 	# Specific
