@@ -450,6 +450,8 @@ prosperity = {
 	trade_goods_size_modifier = 0.1
 	local_autonomy = -0.05
 	local_build_time = -0.1
+	local_manpower_modifier = 0.1
+	local_tax_modifier = 0.2
 }
 
 slaves_raided = {
@@ -814,6 +816,7 @@ army_tradition = {
 	rajput_loyalty_modifier = 0.05
 	yearly_army_professionalism = 0.01
 	monthly_prussian_militarized_society_1 = 0.1
+	land_forcelimit_modifier = 0.1
 }
 
 navy_tradition = {
