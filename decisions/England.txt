@@ -3,7 +3,7 @@ country_decisions = {
 	designate_the_staple_port = {
 		potential = {
 			tag = ENG
-			owns = 87
+			owns = 235
 			NOT = { 87 = { has_province_modifier = the_staple_port } }
 
 		}
@@ -19,14 +19,14 @@ country_decisions = {
 		
 		}
 		effect = {
-			1744 = {
+			235 = {
 				 owner = {
 					add_opinion = { who = ENG modifier = opinion_designated_staple_port }
 				}
 			}
 			add_mercantilism = 10
 			add_adm_power = -40
-			87 = {
+			235 = {
 				add_province_modifier = {
 					name = "the_staple_port"
 					duration = -1
