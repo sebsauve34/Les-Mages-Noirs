@@ -1270,6 +1270,7 @@ colonial_brazil = {
 		801 2834 800 #beni
 		2902 2901 2900 #guapore
 		2832 803 2833 #moxos
+		1095 2025 #mio patriots
 		
 	}
 	
