@@ -1658,49 +1658,6 @@ LOU_ideas = { #Louisiana
 
 MEX_ideas = { #Mexico #its actually not a thing anymore KEKW
 	start = {
-		adm_tech_cost_modifier = -0.1
-		hostile_attrition = 1
-		max_hostile_attrition = 1
-	}
-	
-	bonus = {
-		manpower_recovery_speed = 0.1
-	}
-	
-	trigger = {
-		tag = CAM
-	}
-	free = yes
-	
-		
-	rebuilding_mexico = {
-		build_cost = -0.05
-		development_cost = -0.05
-	}	
-	the_republic_of_indians = {
-		num_accepted_cultures = 2
-		manpower_in_accepted_culture_provinces = 0.15
-	}
-    peace_by_purchase = {
-		global_autonomy = -0.05
-	}
-	casa_de_las_campanas = {
-		embracement_cost = -0.2
-		prestige = 1
-	}
-	repartimiento = {
-		production_efficiency = 0.1
-	}
-	heroes_of_the_revolution = {
-		leader_land_shock = 1
-	}
-	grito_de_delores = {
-		infantry_power = 0.1
-	}
-}
-
-CAM_ideas = { #United Central America #its actually mexico now kekw
-	start = {
 		regiment_manpower_usage = -0.1
 		reinforce_speed = 0.5
 	}
@@ -1737,6 +1694,49 @@ CAM_ideas = { #United Central America #its actually mexico now kekw
 	}
 	cam_7 = { #Militia
 		land_forcelimit_modifier = 0.5
+	}
+}	
+
+CAM_ideas = { #United Central America #its actually mexico now kekw
+	start = {
+		adm_tech_cost_modifier = -0.1
+		hostile_attrition = 1
+		max_hostile_attrition = 1
+	}
+	
+	bonus = {
+		manpower_recovery_speed = 0.1
+	}
+	
+	trigger = {
+		tag = CAM
+	}
+	free = yes
+	
+		
+	rebuilding_mexico = {
+		build_cost = -0.05
+		development_cost = -0.05
+	}	
+	the_republic_of_indians = {
+		num_accepted_cultures = 2
+		manpower_in_accepted_culture_provinces = 0.15
+	}
+    	peace_by_purchase = {
+		global_autonomy = -0.05
+	}
+	casa_de_las_campanas = {
+		embracement_cost = -0.2
+		prestige = 1
+	}
+	repartimiento = {
+		production_efficiency = 0.1
+	}
+	heroes_of_the_revolution = {
+		leader_land_shock = 1
+	}
+	grito_de_delores = {
+		infantry_power = 0.1
 	}
 }
 
