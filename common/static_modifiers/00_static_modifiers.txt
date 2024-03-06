@@ -1804,8 +1804,7 @@ rajput_regiment = {
 	land_morale = 0.05
 }
 carolean_regiment = {
-	drill_decay_modifier = -0.25
-	land_morale = 0.05
+	discipline = 0.03
 	reinforce_cost_modifier = 0.25
 }
 

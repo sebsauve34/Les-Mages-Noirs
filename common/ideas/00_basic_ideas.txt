@@ -548,7 +548,7 @@ offensive_ideas = {
 	category = MIL
 
 	bonus = {
-		morale_damage = 0.15
+		morale_damage = 0.2
 		warscore_from_battles_modifier = 0.1
 	}
 
@@ -580,6 +580,7 @@ offensive_ideas = {
 	napoleonic_warfare = {
 		assault_fort_ability = 0.25
 		assault_fort_cost_modifier = -1
+		artillery_power = 0.1
 	}
 
 	#shock_tactics = {

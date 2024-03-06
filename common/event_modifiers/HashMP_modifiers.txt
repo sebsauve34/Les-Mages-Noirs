@@ -1046,7 +1046,7 @@ strategic_stratagem = {
 }
 
 offensive_stratagem = {
-    morale_damage = 0.15
+    morale_damage = 0.2
     siege_ability = 0.2
 }
 
@@ -1058,6 +1058,7 @@ defensive_stratagem = {
 quality_stratagem = {
     infantry_power = 0.1
     land_attrition = -0.1
+    cavalry_power = 0.1
 }
 
 quantity_stratagem = {
