@@ -179,48 +179,6 @@ country_decisions = {
 		}
 	}
 	
-	h_form_chile = {
-		major = yes
-		potential = {
-			NOT = { has_country_flag = became_dominion }
-			was_never_end_game_tag_trigger = yes
-			is_colonial_nation = yes
-			colonial_brazil = {
-				owned_by = ROOT
-			}
-		}
-		allow = {
-			is_at_war = no
-			num_of_owned_provinces_with = {
-				value = 120
-				is_core = root
-				colonial_region = colonial_brazil
-			}
-			#colonial_parent = {
-			#	has_country_flag = h_chl_enabled
-			#}
-			NOT = { exists = CHL }
-		}
-		effect  = {
-			change_tag = CHL
-			remove_non_electors_emperors_from_empire_effect = yes
-			add_government_reform = h_reform_dominion
-			if = {
-				limit = { has_custom_ideas = no }
-				country_event = { id = ideagroups.1 } #Swap Ideas
-			}
-			add_country_modifier = {
-				name = "centralization_modifier"
-				duration = 7300
-			}
-			add_prestige = 25
-			set_country_flag = became_dominion
-			#clr_country_flag = h_laplata_dominion_request
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
 	
 	h_form_colombia = {
 		major = yes
@@ -265,48 +223,7 @@ country_decisions = {
 		}
 	}
 	
-	h_form_haiti = {
-		major = yes
-		potential = {
-			NOT = { has_country_flag = became_dominion }
-			was_never_end_game_tag_trigger = yes
-			is_colonial_nation = yes
-			colonial_the_carribean = {
-				owned_by = ROOT
-			}
-		}
-		allow = {
-			is_at_war = no
-			num_of_owned_provinces_with = {
-				value = 120
-				is_core = root
-				colonial_region = colonial_the_carribean
-			}
-			#colonial_parent = {
-			#	has_country_flag = h_hat_enabled
-			#}
-			NOT = { exists = HAT }
-		}
-		effect  = {
-			change_tag = HAT
-			remove_non_electors_emperors_from_empire_effect = yes
-			add_government_reform = h_reform_dominion
-			if = {
-				limit = { has_custom_ideas = no }
-				country_event = { id = ideagroups.1 } #Swap Ideas
-			}
-			add_country_modifier = {
-				name = "centralization_modifier"
-				duration = 7300
-			}
-			add_prestige = 25
-			set_country_flag = became_dominion
-			#clr_country_flag = h_caribbean_dominion_request
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
+	
 	
 	h_form_laplata = {
 		major = yes
@@ -437,48 +354,7 @@ country_decisions = {
 		}
 	}
 	
-	h_form_paraguay = {
-		major = yes
-		potential = {
-			NOT = { has_country_flag = became_dominion }
-			was_never_end_game_tag_trigger = yes
-			is_colonial_nation = yes
-			colonial_brazil = {
-				owned_by = ROOT
-			}
-		}
-		allow = {
-			is_at_war = no
-			num_of_owned_provinces_with = {
-				value = 120
-				is_core = root
-				colonial_region = colonial_brazil
-			}
-			#colonial_parent = {
-			#	has_country_flag = h_chl_enabled
-			#}
-			NOT = { exists = PRG }
-		}
-		effect  = {
-			change_tag = PRG
-			remove_non_electors_emperors_from_empire_effect = yes
-			add_government_reform = h_reform_dominion
-			if = {
-				limit = { has_custom_ideas = no }
-				country_event = { id = ideagroups.1 } #Swap Ideas
-			}
-			add_country_modifier = {
-				name = "centralization_modifier"
-				duration = 7300
-			}
-			add_prestige = 25
-			set_country_flag = became_dominion
-			#clr_country_flag = h_brazil_dominion_request
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
+	
 	
 	h_form_peru = {
 		major = yes
@@ -609,48 +485,7 @@ country_decisions = {
 		}
 	}
 	
-	h_form_upca = {
-		major = yes
-		potential = {
-			NOT = { has_country_flag = became_dominion }
-			was_never_end_game_tag_trigger = yes
-			is_colonial_nation = yes
-			colonial_mexico = {
-				owned_by = ROOT
-			}
-		}
-		allow = {
-			is_at_war = no
-			num_of_owned_provinces_with = {
-				value = 130
-				is_core = root
-				colonial_region = colonial_mexico
-			}
-			#colonial_parent = {
-			#	has_country_flag = h_cam_enabled
-			#}
-			NOT = { exists = CAM }
-		}
-		effect  = {
-			change_tag = CAM
-			remove_non_electors_emperors_from_empire_effect = yes
-			add_government_reform = h_reform_dominion
-			if = {
-				limit = { has_custom_ideas = no }
-				country_event = { id = ideagroups.1 } #Swap Ideas
-			}
-			add_country_modifier = {
-				name = "centralization_modifier"
-				duration = 7300
-			}
-			add_prestige = 25
-			set_country_flag = became_dominion
-			#clr_country_flag = h_mexico_dominion_request
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
+	
 	
 	h_form_usa = {
 		major = yes
@@ -695,48 +530,7 @@ country_decisions = {
 		}
 	}
 
-	h_form_venezuela = {
-		major = yes
-		potential = {
-			NOT = { has_country_flag = became_dominion }
-			was_never_end_game_tag_trigger = yes
-			is_colonial_nation = yes
-			colonial_the_carribean = {
-				owned_by = ROOT
-			}
-		}
-		allow = {
-			is_at_war = no
-			num_of_owned_provinces_with = {
-				value = 120
-				is_core = root
-				colonial_region = colonial_the_carribean
-			}
-			#colonial_parent = {
-			#	has_country_flag = h_vnz_enabled
-			#}
-			NOT = { exists = VNZ }
-		}
-		effect  = {
-			change_tag = VNZ
-			remove_non_electors_emperors_from_empire_effect = yes
-			add_government_reform = h_reform_dominion
-			if = {
-				limit = { has_custom_ideas = no }
-				country_event = { id = ideagroups.1 } #Swap Ideas
-			}
-			add_country_modifier = {
-				name = "centralization_modifier"
-				duration = 7300
-			}
-			add_prestige = 25
-			set_country_flag = became_dominion
-			#clr_country_flag = h_colombia_dominion_request
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
+	
 
 	h_form_cuba = {
 		major = yes
@@ -1025,29 +819,7 @@ country_decisions = {
 		}
 	}
 	
-	h_enable_paraguay = {
-		major = yes
-		potential = {
-			any_subject_country = {
-				has_country_flag = h_brazil_dominion_request
-			}
-			NOT = { has_country_flag = h_prg_enabled }
-		}
-		allow = {
-			any_subject_country = {
-				has_country_flag = h_brazil_dominion_request
-			}
-		}
-		effect  = {
-			set_country_flag = h_prg_enabled
-			every_subject_country = {
-				clr_country_flag = h_brazil_dominion_request
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
+	
 	
 	h_enable_california = {
 		major = yes
@@ -1169,29 +941,7 @@ country_decisions = {
 		}
 	}
 	
-	h_enable_haiti = {
-		major = yes
-		potential = {
-			any_subject_country = {
-				has_country_flag = h_caribbean_dominion_request
-			}
-			NOT = { has_country_flag = h_hat_enabled }
-		}
-		allow = {
-			any_subject_country = {
-				has_country_flag = h_caribbean_dominion_request
-			}
-		}
-		effect  = {
-			set_country_flag = h_hat_enabled
-			every_subject_country = {
-				clr_country_flag = h_caribbean_dominion_request
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
+	
 	
 	h_enable_colombia = {
 		major = yes
@@ -1217,29 +967,7 @@ country_decisions = {
 		}
 	}
 	
-	h_enable_venezuela = {
-		major = yes
-		potential = {
-			any_subject_country = {
-				has_country_flag = h_colombia_dominion_request
-			}
-			NOT = { has_country_flag = h_vnz_enabled }
-		}
-		allow = {
-			any_subject_country = {
-				has_country_flag = h_colombia_dominion_request
-			}
-		}
-		effect  = {
-			set_country_flag = h_vnz_enabled
-			every_subject_country = {
-				clr_country_flag = h_colombia_dominion_request
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
+	
 	
 #	h_enable_newengland = {
 #		major = yes
@@ -1289,29 +1017,7 @@ country_decisions = {
 		}
 	}
 	
-	h_enable_chile = {
-		major = yes
-		potential = {
-			any_subject_country = {
-				has_country_flag = h_laplata_dominion_request
-			}
-			NOT = { has_country_flag = h_chl_enabled }
-		}
-		allow = {
-			any_subject_country = {
-				has_country_flag = h_laplata_dominion_request
-			}
-		}
-		effect  = {
-			set_country_flag = h_chl_enabled
-			every_subject_country = {
-				clr_country_flag = h_laplata_dominion_request
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
+	
 	
 	h_enable_laplata = {
 		major = yes
@@ -1409,29 +1115,7 @@ country_decisions = {
 		}
 	}
 	
-	h_enable_upca = {
-		major = yes
-		potential = {
-			any_subject_country = {
-				has_country_flag = h_mexico_dominion_request
-			}
-			NOT = { has_country_flag = h_cam_enabled }
-		}
-		allow = {
-			any_subject_country = {
-				has_country_flag = h_mexico_dominion_request
-			}
-		}
-		effect  = {
-			set_country_flag = h_cam_enabled
-			every_subject_country = {
-				clr_country_flag = h_mexico_dominion_request
-			}
-		}
-		ai_will_do = {
-			factor = 0
-		}
-	}
+	
 	
 	h_enable_bolivia = {
 		major = yes

@@ -495,7 +495,7 @@ governing_senate_reform = {
 		}
 	}
 	modifiers = {
-		all_estate_loyalty_equilibrium = 0.1
+		all_estate_loyalty_equilibrium = 0.05
 		all_estate_influence_modifier = -0.1
 		all_estate_possible_privileges = 1
 	}

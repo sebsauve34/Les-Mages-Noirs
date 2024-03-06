@@ -3882,7 +3882,7 @@ livonian_elective_monarchy = {
 	nation_designer_cost = 50
 
 	modifiers = {
-		all_estate_loyalty_equilibrium = 0.15
+		all_estate_loyalty_equilibrium = 0.05
 		stability_cost_modifier = -0.2
 		advisor_pool = 2
 		church_influence_modifier = 0.05
@@ -5925,8 +5925,7 @@ general_estates_reform = {
 	}
 	modifiers = {
 		monthly_reform_progress_modifier = 0.1
-		all_estate_influence_modifier = 0.05
-		all_estate_loyalty_equilibrium = 0.1
+		all_estate_loyalty_equilibrium = 0.05
 	}
 	custom_attributes = {
 		diet_increases_not_influence = yes
@@ -6099,7 +6098,7 @@ catalan_cortes_reform = {
 		primary_culture = catalan
 	}
 	modifiers = {
-		all_estate_loyalty_equilibrium = 0.1
+		all_estate_loyalty_equilibrium = 0.05
 		global_autonomy = -0.025
 		production_efficiency = 0.1
 	}
@@ -6600,7 +6599,7 @@ qng_grand_council_reform = {
 	}
 	
 	modifiers = {
-		all_estate_loyalty_equilibrium = 0.1
+		all_estate_loyalty_equilibrium = 0.05
 		governing_capacity_modifier = 0.1
 		meritocracy = 0.25	
 	}
@@ -6684,7 +6683,7 @@ japanese_divine_empire = {
 	modifiers = {
 		all_estate_possible_privileges = 1
 		no_stability_loss_on_monarch_death = yes 
-		all_estate_loyalty_equilibrium = 0.1
+		all_estate_loyalty_equilibrium = 0.05
 		tolerance_own = 3 
 		allowed_samurai_fraction = 0.1
 	}

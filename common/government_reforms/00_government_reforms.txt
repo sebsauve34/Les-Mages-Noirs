@@ -1568,7 +1568,7 @@ mamluk_government_legacy = {
 		num_accepted_cultures = 3
 		global_autonomy = -0.025
 		monarch_admin_power = 2
-		same_culture_advisor_cost = -0.25
+		same_culture_advisor_cost = -0.1
 		promote_culture_cost = -0.5
 	}
 
@@ -2664,8 +2664,8 @@ tribal_confederacy_legacy = {
 	nation_designer_cost = 30
 
 	modifiers = {
-		nobles_influence_modifier = 0.15
-		nobles_loyalty_modifier = 0.1
+		nobles_influence_modifier = 0.05
+		nobles_loyalty_modifier = 0.05
 		global_unrest = -1
 		max_absolutism = -20
 	}
@@ -2716,8 +2716,8 @@ mossi_federal_kingdom_legacy = {
 	}
 
 	modifiers = {
-		nobles_influence_modifier = 0.15
-		nobles_loyalty_modifier = 0.1
+		nobles_influence_modifier = 0.05
+		nobles_loyalty_modifier = 0.05
 		global_unrest = -1
 		max_absolutism = -20
 	}

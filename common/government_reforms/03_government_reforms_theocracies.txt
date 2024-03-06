@@ -561,7 +561,7 @@ tibetan_dual_government_reform = {
 	valid_for_nation_designer = yes
 	nation_designer_cost = 40
 	modifiers = {
-		same_religion_advisor_cost = -0.15
+		same_religion_advisor_cost = -0.1
 		yearly_harmony = 0.25
 		yearly_karma_decay = 0.03
 		church_privilege_slots = 1
@@ -1101,7 +1101,7 @@ education_of_the_advisors_reform = {
 	icon = "arabic_scripture"
 	allow_normal_conversion = yes
 	modifiers = {
-		advisor_cost = -0.15
+		advisor_cost = -0.1
 	}
 }
 
@@ -1877,7 +1877,7 @@ harmonization_of_cultures_reform = {
 
 	modifiers = {
 		promote_culture_cost = -0.5
-		same_culture_advisor_cost = -0.2
+		same_culture_advisor_cost = -0.1
 	}
 	ai = {
 		factor = 1
@@ -2008,7 +2008,7 @@ state_of_theologians_reform = {
 	allow_normal_conversion = yes
 	modifiers = {
 		advisor_pool = 2
-		advisor_cost = -0.2
+		advisor_cost = -0.1
 	}
 	ai = {
 		factor = 3
