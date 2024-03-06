@@ -16444,6 +16444,7 @@ SCA_ideas = {
 	sca_swedish_carolean = {
 		infantry_power = 0.15
 		amount_of_carolean = 0.25
+		has_carolean = yes
 	}
 	sca_empire_of_the_north = {
 		max_absolutism = 10
