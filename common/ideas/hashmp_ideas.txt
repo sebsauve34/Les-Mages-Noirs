@@ -720,8 +720,8 @@ ZUL_ideas = { #Zulu Empire
 
 AUS_ideas = { #Australia
 	start = {
+		land_attrition = -0.15
 		movement_speed = 0.15
-		siege_ability = 0.15
 	}
 	
 	bonus = {
@@ -1555,7 +1555,7 @@ LAP_ideas = { #La Plata
 		prestige = 1
 	}
 	lap_3 = { #Sun of May
-		republican_tradition = 0.2
+		morale_damage_received = -0.1
 	}
 	lap_4 = { #Made of Steel
 		global_regiment_cost = -0.1
@@ -1570,8 +1570,7 @@ LAP_ideas = { #La Plata
 		max_hostile_attrition = 1
 	}
 	lap_7 = { #The Argentine
-		free_adm_policy = 1
-		possible_adm_policy = 1
+		country_admin_power = 1
 	}
 }
 
@@ -1594,13 +1593,12 @@ TEX_ideas = { #Texas
 	}
 	tex_revolution = { #Texas Rangers
 		shock_damage = 0.1
-		cavalry_shock = 0.25
 	}
 	cotton_plantations = {
 		production_efficiency = 0.1
 	}
 	vaqueros = {
-		cavalry_power = 0.2
+		cavalry_power = 0.15
 	}
 	tex_native_frontiers = {
 		land_attrition = -0.15
@@ -1805,7 +1803,7 @@ PEU_ideas = { #Peru
 		leader_land_manuever = 1
 	}
 	peu_3 = { #Blast Charges
-		siege_ability = 0.2
+		leader_siege = 1
 		artillery_levels_available_vs_fort = 1
 	}
 	peu_4 = { #Loyalists
