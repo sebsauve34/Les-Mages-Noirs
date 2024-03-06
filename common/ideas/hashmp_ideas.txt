@@ -914,6 +914,7 @@ CAN_ideas = { #Canada
 	}
 	legacy_of_the_empire = {
 		embracement_cost = -0.2
+		global_institution_spread = 0.5
 	}
 	the_forests_of_canada = {
 		build_cost = -0.1
