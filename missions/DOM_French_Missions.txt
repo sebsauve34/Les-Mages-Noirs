@@ -137,7 +137,7 @@ french_missions_1 = {
 				tooltip = { 
 					add_country_modifier = { 
 						name = fra_reintegration_of_burgundian_lands_modifier
-						duration = 3650
+						duration = 7300
 					}
 				}
 				custom_tooltip = fra_complete_via_opinion_alliance_and_trust_tt
@@ -147,7 +147,7 @@ french_missions_1 = {
 				tooltip = { 
 					add_country_modifier = { 
 						name = fra_reintegration_of_burgundian_lands_modifier
-						duration = 3650
+						duration = 7300
 					}
 				}
 			}
@@ -181,6 +181,81 @@ french_missions_1 = {
 					add_country_modifier = { 
 						name = fra_reintegration_of_burgundian_lands_modifier
 						duration = 7300
+					}
+					random_owned_province = { 
+						limit = { 
+							OR = { 
+								area = west_burgundy_area 
+								area = picardy_area 
+								area = bourgogne_area 
+								area = lorraine_area 
+							}
+						}
+						random_list = {
+							40 = { add_base_tax = 1 } 
+							30 = { add_base_production = 1 } 
+							30 = { add_base_manpower = 1 } 
+						}
+					}
+					random_owned_province = { 
+						limit = { 
+							OR = { 
+								area = west_burgundy_area 
+								area = picardy_area 
+								area = bourgogne_area 
+								area = lorraine_area 
+							}
+						}
+						random_list = {
+							40 = { add_base_tax = 1 } 
+							30 = { add_base_production = 1 } 
+							30 = { add_base_manpower = 1 } 
+						}
+					}
+					random_owned_province = { 
+						limit = { 
+							OR = { 
+								area = west_burgundy_area 
+								area = picardy_area 
+								area = bourgogne_area 
+								area = lorraine_area 
+							}
+						}
+						random_list = {
+							40 = { add_base_tax = 1 } 
+							30 = { add_base_production = 1 } 
+							30 = { add_base_manpower = 1 } 
+						}
+					}
+					random_owned_province = { 
+						limit = { 
+							OR = { 
+								area = west_burgundy_area 
+								area = picardy_area 
+								area = bourgogne_area 
+								area = lorraine_area 
+							}
+						}
+						random_list = {
+							40 = { add_base_tax = 1 } 
+							30 = { add_base_production = 1 } 
+							30 = { add_base_manpower = 1 } 
+						}
+					}
+					random_owned_province = { 
+						limit = { 
+							OR = { 
+								area = west_burgundy_area 
+								area = picardy_area 
+								area = bourgogne_area 
+								area = lorraine_area 
+							}
+						}
+						random_list = {
+							40 = { add_base_tax = 1 } 
+							30 = { add_base_production = 1 } 
+							30 = { add_base_manpower = 1 } 
+						}
 					}
 					random_owned_province = { 
 						limit = { 
@@ -696,12 +771,6 @@ french_missions_1_Continuation_a = {
 						has_discovered = ROOT
 					}
 				}
-				custom_trigger_tooltip = {
-					tooltip = fra_louis_discovery.tooltip
-					colonial_louisiana = {
-						has_discovered = ROOT
-					}
-				}
 			}
 			else = {
 				OR = {
@@ -1123,11 +1192,17 @@ french_missions_1_Continuation_a = {
 				}
 				AND = { 
 					current_age = age_of_absolutism 
-					full_idea_group = religious_ideas 
+					OR = { 
+						full_idea_group = religious_ideas 
+						full_idea_group = humanist_ideas 
+					}
 				}
 				AND = { 
 					current_age = age_of_revolutions 
-					full_idea_group = religious_ideas 
+					OR = { 
+						full_idea_group = religious_ideas 
+						full_idea_group = humanist_ideas 
+					}
 				}
 			}
 			religious_unity = 1 
@@ -3608,6 +3683,7 @@ french_rev_missions_3 = {
 		trigger = {
 			OR = { 
 				is_hegemon_of_type = economic_hegemon 
+				full_idea_group = economic_ideas 
 				monthly_income = 500 
 			}
 			NOT = { inflation = 0.1 } 
@@ -3737,7 +3813,7 @@ french_missions_4_branching = {
 	has_country_shield = yes
 	
 	fra_branch_mission_4_3 = { 
-		icon = mission_unknown_mission 
+		icon = mission_unknown_mission
 		required_missions = { fra_ducal_lands_avignon }
 		position = 3 
 		trigger = { 
@@ -4557,7 +4633,7 @@ french_missions_4_normal_contiuation = {
 			define_advisor = { 
 				name = "Jean Clouet"
 				type = artist 
-				cost_multiplier = 0.75
+				cost_multiplier = 0.25
 				skill = 3 
 			}
 			custom_tooltip = empty_line_tt
@@ -4675,7 +4751,7 @@ french_missions_4_normal_contiuation = {
 			define_advisor = {
 				name = "Nicolas Fouquet"
 				type = treasurer
-				cost_multiplier = 0.75
+				cost_multiplier = 0.5
 				skill = 2
 			}
 		}

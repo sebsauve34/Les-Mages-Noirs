@@ -1090,7 +1090,7 @@ country_event = {
 				tag = FRA
 				is_year = 1700
 				NOT = { is_year = 1750 }
-				colonial_louisiana = {
+				colonial_eastern_america = {
 					country_or_vassal_holds = FRA
 				}
 			}
@@ -1125,7 +1125,7 @@ country_event = {
 	trigger = {
 		tag = FRA
 		had_country_flag = { flag = mississippi_trade_company days = 1825 }
-		colonial_louisiana = {
+		colonial_eastern_america = {
 			country_or_vassal_holds = FRA
 		}
 	}
@@ -1157,7 +1157,7 @@ country_event = {
 	trigger = {
 		tag = FRA
 		had_country_flag = { flag = mississippi_trade_company days = 1825 }
-		colonial_louisiana = {
+		colonial_eastern_america = {
 			country_or_vassal_holds = FRA
 		}
 		

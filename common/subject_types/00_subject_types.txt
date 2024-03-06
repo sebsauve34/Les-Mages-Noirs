@@ -457,7 +457,7 @@ appanage = {
 	#(enable)
 	#contribute_to_capital = yes
 	return_land = yes
-	#conscript_general = yes
+	conscript_general = yes
 	
 	# Modifiers
 	
