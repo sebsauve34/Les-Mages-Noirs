@@ -3511,7 +3511,7 @@ estate_burghers_swiss_mountains = {
 		
 	}
 	can_select = {
-		mission_completed = emp_swi_confederacy
+		#mission_completed = emp_swi_confederacy
 		any_owned_province = {
 			has_terrain = mountain
 		}
