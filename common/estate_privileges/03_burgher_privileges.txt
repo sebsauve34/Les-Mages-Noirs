@@ -1909,6 +1909,7 @@ estate_burghers_forest_expansion = {
 		tag = SWE
 		tag = MOS
 		tag = RUS
+		tag = SCA
 		}
 	}
 	can_select = {

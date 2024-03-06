@@ -530,17 +530,16 @@ h_danish_north_sea = {
 }
 
 h_danish_ships_of_the_line = {
-	heavy_ship_power = 0.1
+	ship_durability = 0.05
 	heavy_ship_cost = -0.1
 }
 
 h_danish_admiralty = {
-	admiral_cost = -0.10
-	naval_morale = 0.05
+	admiral_cost = -0.2
 }
 
 h_danish_colonialism = {
-	colonist_placement_chance = 0.03
+	colonist_placement_chance = 0.05
 }
 
 h_danish_encouraged_settlements = {
@@ -562,8 +561,8 @@ h_danish_sagas = {
 
 h_danish_rules_the_waves = {
 	own_coast_naval_combat_bonus = 1.0
-	naval_maintenance_modifier = -0.10
-	sailor_maintenance_modifer = -0.20
+	sailor_maintenance_modifer = -0.2
+	may_perform_slave_raid = yes
 }
 
 h_danish_copenhagen_shipyard = {
@@ -586,7 +585,7 @@ h_danish_naval_expansion = {
 }
 
 h_danish_naval_arsenal = {
-	global_naval_engagement_modifier = 0.1
+	naval_maintenance_modifier = -0.1
 }
 
 h_danish_prepared_navy = {

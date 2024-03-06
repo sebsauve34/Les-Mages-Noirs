@@ -4,7 +4,13 @@ h_danish_missions_christian_2 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				tag = SCA
+			}
+		}
 		has_country_flag = h_danes_king_christian
 		NOT = { map_setup = map_setup_random }
 	}
@@ -191,7 +197,13 @@ h_danish_missions_christian_3 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				tag = SCA
+			}
+		}
 		has_country_flag = h_danes_king_christian
 		NOT = { map_setup = map_setup_random }
 	}
@@ -452,7 +464,9 @@ h_danish_missions_christian_3 = {
 				name = h_danish_kalmar_union
 				duration = -1
 			}
-
+			country_event = {
+				id = flavor_swe.109
+			}
 			add_ruler_modifier = {
 				name = h_danish_uniter_achievement
 				duration = -1
@@ -475,7 +489,13 @@ h_danish_missions_christian_4 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				tag = SCA
+			}
+		}
 		has_country_flag = h_danes_king_christian
 		NOT = { map_setup = map_setup_random }
 	}
@@ -722,7 +742,13 @@ h_danish_missions_dorothea_2 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				tag = SCA
+			}
+		}
 		has_country_flag = h_danes_queen_dorothea
 		NOT = { map_setup = map_setup_random }
 	}
@@ -902,7 +928,7 @@ h_danish_missions_dorothea_2 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			num_of_trade_companies = 5
+			num_of_trade_companies = 3
 			trade_income_percentage = 0.25
 		}
 		effect = {
@@ -927,7 +953,13 @@ h_danish_missions_dorothea_3 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				tag = SCA
+			}
+		}
 		has_country_flag = h_danes_queen_dorothea
 		NOT = { map_setup = map_setup_random }
 	}
@@ -1153,7 +1185,13 @@ h_danish_missions_dorothea_4 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				tag = SCA
+			}
+		}
 		has_country_flag = h_danes_queen_dorothea
 		NOT = { map_setup = map_setup_random }
 	}
@@ -1341,7 +1379,13 @@ h_danish_missions_charles_2 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				tag = SCA
+			}
+		}
 		has_country_flag = h_danes_king_charles
 		NOT = { map_setup = map_setup_random }
 	}
@@ -1511,7 +1555,13 @@ h_danish_missions_charles_3 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				tag = SCA
+			}
+		}
 		has_country_flag = h_danes_king_charles
 		NOT = { map_setup = map_setup_random }
 	}
@@ -1780,7 +1830,9 @@ h_danish_missions_charles_3 = {
 				name = h_danish_kalmar_union_conquest
 				duration = -1
 			}
-
+			country_event = {
+				id = flavor_swe.109
+			}
 			add_ruler_modifier = {
 				name = h_danish_conquerer_of_scandinavia
 				duration = -1
@@ -1800,7 +1852,13 @@ h_danish_missions_charles_4 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				tag = SCA
+			}
+		}
 		has_country_flag = h_danes_king_charles
 		NOT = { map_setup = map_setup_random }
 	}
@@ -2047,7 +2105,13 @@ h_danish_missions_prologue_2 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				tag = SCA
+			}
+		}
 		NOT = { has_country_flag = h_kalmar_union_event_choice_concluded }
 		NOT = { map_setup = map_setup_random }
 	}
@@ -2089,7 +2153,13 @@ h_danish_missions_prologue_3 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				tag = SCA
+			}
+		}
 		NOT = { has_country_flag = h_kalmar_union_event_choice_concluded }
 		NOT = { map_setup = map_setup_random }
 	}
@@ -2331,7 +2401,13 @@ h_danish_missions_prologue_4 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				tag = SCA
+			}
+		}
 		NOT = { has_country_flag = h_kalmar_union_event_choice_concluded }
 		NOT = { map_setup = map_setup_random }
 	}
@@ -2373,7 +2449,13 @@ h_danish_missions_main_1 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				tag = SCA
+			}
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -2865,7 +2947,13 @@ h_danish_missions_main_2 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				tag = SCA
+			}
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -3114,7 +3202,13 @@ h_danish_missions_main_3 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				tag = SCA
+			}
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -3290,7 +3384,13 @@ h_danish_missions_main_4 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				tag = SCA
+			}
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -3490,7 +3590,13 @@ h_danish_missions_main_5 = {
 	generic = no
 	ai = yes
 	potential = {
-		tag = DAN
+		OR = {
+			tag = DAN
+			AND = {
+				was_tag = DAN
+				tag = SCA
+			}
+		}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -3632,15 +3738,8 @@ h_danish_missions_main_5 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			14 = {
-				OR = {
-					has_building = fort_15th
-					has_building = fort_16th
-					has_building = fort_17th
-					has_building = fort_18th
-				}
-			}
-			12 = {
+			
+			4149 = {
 				OR = {
 					has_building = fort_15th
 					has_building = fort_16th
@@ -3672,12 +3771,10 @@ h_danish_missions_main_5 = {
 			5004 = {
 				add_province_triggered_modifier = h_denmark_coastal_defenses
 			}
-			12 = {
+			4149 = {
 				add_province_triggered_modifier = h_denmark_coastal_defenses
 			}
-			14 = {
-				add_province_triggered_modifier = h_denmark_coastal_defenses
-			}
+			
 
 			custom_tooltip = h_denmark_coastal_defenses_tooltip
 		}

@@ -125,130 +125,41 @@ t_low_repubtrad = {
 	all_power_cost = 0.2
 }
 
-t_cn_army_1 = {
-	potential = {
-		is_colonial_nation = yes
-	}
-	trigger = {
-		was_player = yes
-		army_size = 80
-	}
-	reinforce_cost_modifier = 0.2
-	reinforce_speed = -0.2
-	global_regiment_cost = 0.05
-}
-
-t_cn_army_2 = {
-	potential = {
-		is_colonial_nation = yes
-	}
-	trigger = {
-		was_player = yes
-		army_size = 160
-	}
-	reinforce_cost_modifier = 0.2
-	reinforce_speed = -0.2
-	global_regiment_cost = 0.05
-}
-
-t_cn_army_3 = {
-	potential = {
-		is_colonial_nation = yes
-	}
-	trigger = {
-		was_player = yes
-		army_size = 240
-	}
-	reinforce_cost_modifier = 0.2
-	reinforce_speed = -0.2
-	global_regiment_cost = 0.05
-}
-
-t_cn_army_4 = {
-	potential = {
-		is_colonial_nation = yes
-	}
-	trigger = {
-		was_player = yes
-		army_size = 320
-	}
-	reinforce_cost_modifier = 0.2
-	reinforce_speed = -0.2
-	global_regiment_cost = 0.05
-}
+#t_cn_army_1 = {
+#	potential = {
+#		is_colonial_nation = yes
+#	}
+#	trigger = {
+#		was_player = yes
+#		army_size = 80
+#	}
+#	reinforce_cost_modifier = 0.2
+#	reinforce_speed = -0.2
+#	global_regiment_cost = 0.05
+#}
 
 
-t_cn_navy_1 = {
-	potential = {
-		is_colonial_nation = yes
-	}
-	trigger = {
-		was_player = yes
-		OR = {
-			num_of_heavy_ship = 20
-			navy_size = 80
-		}
-	}
-	
-	global_ship_recruit_speed = 0.2
-	global_ship_repair = -0.2
-	global_ship_cost = 0.2
-	naval_maintenance_modifier = 0.1
-}
 
-t_cn_navy_2 = {
-	potential = {
-		is_colonial_nation = yes
-	}
-	trigger = {
-		was_player = yes
-		OR = {
-			num_of_heavy_ship = 40
-			navy_size = 160
-		}
-	}
-	
-	global_ship_recruit_speed = 0.2
-	global_ship_repair = -0.2
-	global_ship_cost = 0.2
-	naval_maintenance_modifier = 0.1
-}
 
-t_cn_navy_3 = {
-	potential = {
-		is_colonial_nation = yes
-	}
-	trigger = {
-		was_player = yes
-		OR = {
-			num_of_heavy_ship = 60
-			navy_size = 220
-		}
-	}
-	
-	global_ship_recruit_speed = 0.2
-	global_ship_repair = -0.2
-	global_ship_cost = 0.2
-	naval_maintenance_modifier = 0.1
-}
+#t_cn_navy_1 = {
+#	potential = {
+#		is_colonial_nation = yes
+#	}
+#	trigger = {
+#		was_player = yes
+#		OR = {
+#			num_of_heavy_ship = 20
+#			navy_size = 80
+#		}
+#	}
+#	
+#	global_ship_recruit_speed = 0.2
+#	global_ship_repair = -0.2
+#	global_ship_cost = 0.2
+#	naval_maintenance_modifier = 0.1
+#}
 
-t_cn_navy_4 = {
-	potential = {
-		is_colonial_nation = yes
-	}
-	trigger = {
-		was_player = yes
-		OR = {
-			num_of_heavy_ship = 100
-			navy_size = 300
-		}
-	}
-	
-	global_ship_recruit_speed = 0.15
-	global_ship_repair = -0.15
-	global_ship_cost = 0.1
-	naval_maintenance_modifier = 0.1
-}
+
 
 ###########################################
 # HRE Rework
