@@ -454,7 +454,6 @@ technology = {
 	#Standardisation of Calibre
 	artillery_shock 	= 	0.1
 	artillery_fire 		= 	1.0	
-	cavalry_shock		=	0.2
 
 	training_fields = yes
 	
@@ -475,7 +474,7 @@ technology = {
 	#	global_trade = 0.15
 	}
 	
-	cavalry_shock		=	0.2
+	cavalry_shock		=	0.25
 	supply_limit		= 	0.5	
 	
 	enable = maharathan_cavalry		
@@ -896,9 +895,10 @@ technology = {
 	}
 	
 	#Rifle
-	cavalry_shock		=	0.4
+	cavalry_shock		=	0.3
 	infantry_fire		=	1.0
 	supply_limit		=	0.5
+	cavalry_fire 		=	0.2
 }
 
 technology = {
