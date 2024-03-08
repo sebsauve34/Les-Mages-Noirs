@@ -720,8 +720,8 @@ ZUL_ideas = { #Zulu Empire
 
 AUS_ideas = { #Australia
 	start = {
-		land_attrition = -0.15
-		movement_speed = 0.15
+		land_attrition = -0.1
+		movement_speed = 0.1
 	}
 	
 	bonus = {
@@ -802,8 +802,8 @@ NZL_ideas = { #New Zealand
 
 BRZ_ideas = { #Brazil
 	start = {
-		land_attrition = -0.15
-		reinforce_speed = 0.25
+		land_attrition = -0.1
+		reinforce_speed = 0.2
 	}
 	bonus = {
 		prestige_decay = -0.01
@@ -814,8 +814,7 @@ BRZ_ideas = { #Brazil
 	free = yes
 
 	governorate_general = {
-		naval_forcelimit_modifier = 0.25
-		navy_tradition = 1
+		monthly_reform_progress = 0.5
 	}
 	research_of_nassau = {
 		yearly_innovativeness = 0.25
@@ -1012,7 +1011,7 @@ ALA_ideas = { Alaska
 CAL_ideas = { #California
 	start = {
 		reelection_cost = -0.2
-		land_morale = 0.15
+		land_morale = 0.1
 	}
 	
 	bonus = {
@@ -1032,7 +1031,7 @@ CAL_ideas = { #California
 		global_trade_goods_size_modifier = 0.1
 	}
 	cal_3 = { #Outlaw Country
-		infantry_power = 0.15
+		infantry_power = 0.1
 	}
 	cal_4 = { #City of Angels
 		advisor_cost = -0.1
@@ -1052,7 +1051,7 @@ CAL_ideas = { #California
 CSC_ideas = { #Cascadia
 	start = {
 		yearly_corruption = -0.1
-		republican_tradition = 0.1
+		republican_tradition = 0.2
 	}
 	
 	bonus = {
@@ -1068,7 +1067,7 @@ CSC_ideas = { #Cascadia
 		production_efficiency = 0.1
 	}
 	CSC_chinook_jargon = { #Lessons of the Frontier
-		infantry_power = 0.15
+		infantry_power = 0.1
 	}
 	CSC_forts_of_hudson_bay = { #Alki
 		prestige = 1
@@ -1130,7 +1129,7 @@ SNA_ideas = { #Sonora
 CUB_ideas = { #Cuba
 	start = {
 		naval_forcelimit_modifier = 0.33
-		sailors_recovery_speed = 0.33
+		sailors_recovery_speed = 0.2
 	}
 	
 	bonus = {
@@ -1160,7 +1159,7 @@ CUB_ideas = { #Cuba
 		global_ship_trade_power = 0.25
 	}
 	cub_6 = { #Coartacion
-		technology_cost = -0.1
+		country_diplomatic_power = 1
 	}
 	cub_7 = { #The Bourbon Reforms
 		republican_tradition = 0.2
@@ -1267,7 +1266,7 @@ COL_ideas = { #Colombia
 	free = yes
 	
 	col_1 = { #Sons of Bolivar
-		infantry_power = 0.15
+		infantry_power = 0.1
 	}
 	col_2 = { #Gran Colombia
 		prestige_decay = -0.01
@@ -1470,7 +1469,6 @@ FLO_ideas = { #Florida
 	}
 	flo_2 = { #Center of Innovation
 		technology_cost = -0.1
-		idea_cost = -0.1
 	}
 	flo_3 = { #City of Guilds
 		global_tax_modifier = 0.2
@@ -1482,7 +1480,7 @@ FLO_ideas = { #Florida
 		development_cost_modifier = -0.1
 	}
 	flo_6 = { #Life and Liberty
-		all_power_cost = -0.05
+		idea_cost = -0.1
 	}
 	flo_7 = { #Manufacturing Standards
 		production_efficiency = 0.1
@@ -1536,11 +1534,11 @@ CHL_ideas = { #Chile
 LAP_ideas = { #La Plata
 	start = {
 		global_tax_modifier = 0.2
-		land_morale = 0.15
+		land_morale = 0.1
 	}
 	
 	bonus = {
-		morale_damage = 0.15
+		morale_damage = 0.1
 	}
 	
 	trigger = {
@@ -1657,7 +1655,7 @@ LOU_ideas = { #Louisiana
 MEX_ideas = { #Mexico #its actually not a thing anymore KEKW
 	start = {
 		regiment_manpower_usage = -0.1
-		reinforce_speed = 0.5
+		reinforce_speed = 0.33
 	}
 	
 	bonus = {
@@ -1691,7 +1689,7 @@ MEX_ideas = { #Mexico #its actually not a thing anymore KEKW
 		garrison_size = 0.1
 	}
 	cam_7 = { #Militia
-		land_forcelimit_modifier = 0.5
+		land_forcelimit_modifier = 0.33
 	}
 }	
 
@@ -1742,8 +1740,8 @@ CAM_ideas = { #United Central America #its actually mexico now kekw
 
 BLV_ideas = { #Bolivia
 	start = {
-		land_forcelimit_modifier = 0.33
-		global_manpower_modifier = 0.33
+		land_forcelimit_modifier = 0.2
+		global_manpower_modifier = 0.2
 	}
 	
 	bonus = {
@@ -1759,7 +1757,7 @@ BLV_ideas = { #Bolivia
 		development_cost = -0.1
 	}
 	blv_2 = { #Mines of Potosi
-		global_trade_goods_size_modifier = 0.15
+		global_trade_goods_size_modifier = 0.1
 	}
 	blv_3 = { #Dredging
 		build_cost = -0.1
@@ -1799,7 +1797,7 @@ PEU_ideas = { #Peru
 		artillery_power = 0.1
 	}
 	peu_2 = { #Andes Rangers
-		movement_speed = 0.15
+		movement_speed = 0.1
 		leader_land_manuever = 1
 	}
 	peu_3 = { #Blast Charges
@@ -1840,7 +1838,7 @@ ORJ_ideas = { #Oranje
 	orj_1 = { #Hard Ground
 		hostile_attrition = 1
 		max_hostile_attrition = 1
-		defensiveness = 0.15
+		defensiveness = 0.2
 	}
 	orj_2 = { #Kommandos
 		morale_damage_received = -0.2
@@ -1850,12 +1848,12 @@ ORJ_ideas = { #Oranje
 	}
 	orj_4 = { #Vrijstaat
 		enemy_core_creation = 0.25
-		garrison_size = 0.25
-		global_garrison_growth = 0.25
+		garrison_size = 0.2
+		global_garrison_growth = 0.2
 	}
 	orj_5 = { #The Great Trek
-		land_attrition = -0.15
-		movement_speed = 0.15
+		land_attrition = -0.1
+		movement_speed = 0.1
 	}
 	orj_6 = { #Transvaal Steel
 		infantry_cost = -0.1

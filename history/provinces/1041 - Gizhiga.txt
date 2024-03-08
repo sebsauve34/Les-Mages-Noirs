@@ -1,8 +1,6 @@
 #1041 - Gizhiga
 
-owner = CHV
-controller = CHV
-add_core = CHV
+
 culture = kamchatkan
 religion = tengri_pagan_reformed
 capital = "Gizhiga"

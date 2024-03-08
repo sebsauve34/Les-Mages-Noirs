@@ -2620,6 +2620,7 @@ LIT_ideas = {
 	}
 	lithuanian_hussars = {
 		cavalry_cost = -0.10
+		can_recruit_hussars = yes
 	}
 	statutes_of_lithuania = {
 		global_unrest = -2
@@ -2628,7 +2629,47 @@ LIT_ideas = {
 		technology_cost = -0.05
 	}
 }
-
+LIT2_ideas = {
+	start = {
+		manpower_recovery_speed = 0.15
+		tolerance_heretic = 3
+	}
+	
+	bonus = {
+		leader_land_manuever = 1
+	}
+	
+	trigger = {
+		tag = LIT
+		has_country_flag = lit_new_magdeburg_laws
+	}
+	free = yes		#will be added at load.
+	
+	warlord_dukes = {
+		leader_land_shock = 1
+	}
+	auksine_laisve = {
+		cavalry_power = 0.2
+		cav_to_inf_ratio = 0.2
+	}
+	lit_new_magdeburg_laws = {
+		development_cost = -0.1
+		global_trade_goods_size_modifier = 0.1
+	}
+	magnate_estates = {
+		production_efficiency = 0.1
+	}
+	lithuanian_hussars = {
+		cavalry_cost = -0.10
+		can_recruit_hussars = yes
+	}
+	statutes_of_lithuania = {
+		global_unrest = -2
+	}
+	lithuanian_renaissance = {
+		technology_cost = -0.05
+	}
+}
 
 
 MAR_ideas = {

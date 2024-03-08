@@ -63,7 +63,7 @@ country_decisions = {
 		allow = {
 			is_at_war = no
 			num_of_owned_provinces_with = {
-				value = 120
+				value = 125
 				is_core = root
 				colonial_region = colonial_brazil
 			}
@@ -106,7 +106,7 @@ country_decisions = {
 		allow = {
 			is_at_war = no
 			num_of_owned_provinces_with = {
-				value = 130
+				value = 135
 				is_core = root
 				colonial_region = colonial_mexico
 			}
@@ -149,7 +149,7 @@ country_decisions = {
 		allow = {
 			is_at_war = no
 			num_of_owned_provinces_with = {
-				value = 115
+				value = 120
 				is_core = root
 				colonial_region = colonial_canada
 			}
@@ -193,7 +193,7 @@ country_decisions = {
 		allow = {
 			is_at_war = no
 			num_of_owned_provinces_with = {
-				value = 120
+				value = 125
 				is_core = root
 				colonial_region = colonial_the_carribean
 			}
@@ -238,7 +238,7 @@ country_decisions = {
 		allow = {
 			is_at_war = no
 			num_of_owned_provinces_with = {
-				value = 120
+				value = 125
 				is_core = root
 				colonial_region = colonial_brazil
 			}
@@ -281,7 +281,7 @@ country_decisions = {
 		allow = {
 			is_at_war = no
 			num_of_owned_provinces_with = {
-				value = 140
+				value = 145
 				is_core = root
 				colonial_region = colonial_eastern_america
 			}
@@ -324,7 +324,7 @@ country_decisions = {
 		allow = {
 			is_at_war = no
 			num_of_owned_provinces_with = {
-				value = 130
+				value = 135
 				is_core = root
 				colonial_region = colonial_mexico
 			}
@@ -369,7 +369,7 @@ country_decisions = {
 		allow = {
 			is_at_war = no
 			num_of_owned_provinces_with = {
-				value = 120
+				value = 125
 				is_core = root
 				colonial_region = colonial_the_carribean
 			}
@@ -412,7 +412,7 @@ country_decisions = {
 		allow = {
 			is_at_war = no
 			num_of_owned_provinces_with = {
-				value = 115
+				value = 120
 				is_core = root
 				colonial_region = colonial_canada
 			}
@@ -455,7 +455,7 @@ country_decisions = {
 		allow = {
 			is_at_war = no
 			num_of_owned_provinces_with = {
-				value = 130
+				value = 135
 				is_core = root
 				colonial_region = colonial_mexico
 			}
@@ -500,7 +500,7 @@ country_decisions = {
 		allow = {
 			is_at_war = no
 			num_of_owned_provinces_with = {
-				value = 140
+				value = 145
 				is_core = root
 				colonial_region = colonial_eastern_america
 			}
@@ -545,7 +545,7 @@ country_decisions = {
 		allow = {
 			is_at_war = no
 			num_of_owned_provinces_with = {
-				value = 120
+				value = 125
 				is_core = root
 				colonial_region = colonial_the_carribean
 			}
@@ -674,7 +674,7 @@ country_decisions = {
 		allow = {
 			is_at_war = no
 			num_of_owned_provinces_with = {
-				value = 120
+				value = 125
 				is_core = root
 				colonial_region = colonial_brazil
 			}
@@ -717,7 +717,7 @@ country_decisions = {
 		allow = {
 			is_at_war = no
 			num_of_owned_provinces_with = {
-				value = 115
+				value = 120
 				is_core = root
 				colonial_region = colonial_canada
 			}
@@ -1381,7 +1381,7 @@ country_decisions = {
 		allow = {
 			is_at_war = no
 			num_of_owned_provinces_with = {
-				value = 140
+				value = 145
 				is_core = root
 				colonial_region = colonial_eastern_america
 			}
