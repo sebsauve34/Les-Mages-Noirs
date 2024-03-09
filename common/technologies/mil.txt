@@ -15,7 +15,7 @@ technology = {
 
 	infantry_fire		= 	0.25
 	infantry_shock 		= 	0.20	
-	cavalry_shock  		= 	0.75	
+	cavalry_shock  		= 	0.6	
 	land_morale 		= 	2.0
 }
 
@@ -269,6 +269,7 @@ technology = {
 	#Reiter
 	maneuver_value 		= 	0.25
 	cavalry_shock		=	0.2
+	
 
 	enable = hungarian_hussar
 	enable = ottoman_spahi		
@@ -473,10 +474,11 @@ technology = {
 		printing_press = 0.5
 	#	global_trade = 0.15
 	}
-	
+	military_tactics 	= 	0.25
 	cavalry_shock		=	0.25
 	supply_limit		= 	0.5	
-	
+	infantry_fire		= 	0.25
+
 	enable = maharathan_cavalry		
 	enable = manchu_banner		
 	enable = african_swarm
@@ -530,6 +532,7 @@ technology = {
 	military_tactics 	= 	0.25
 	supply_limit		=	0.5
 	cavalry_shock		=	0.2
+	infantry_shock 		=	0.25
 	fort_17th = yes
 
 	
@@ -568,7 +571,7 @@ technology = {
 	
 	#Killing Grounds
 	
-	infantry_fire		= 	0.5
+	infantry_fire		= 	0.25
 		
 	enable = swivel_cannon
 	enable = howitzer
@@ -592,7 +595,7 @@ technology = {
 	sprite_level = 3
 	military_tactics 	= 	0.25
 	cavalry_fire		=	0.2
-	infantry_shock 		=	0.5
+	infantry_shock 		=	0.25
 }
 
 technology = {
@@ -689,7 +692,7 @@ technology = {
 	fort_18th	= yes	
 	military_tactics 	= 	0.25
 	cavalry_shock		=	0.2
-
+	infantry_fire		= 	0.25	
 	combat_width = 2
 }
 
@@ -710,7 +713,7 @@ technology = {
 	artillery_shock 	=	0.1
 	artillery_fire		=	2.0
 	cavalry_fire = 0.2
-	
+	infantry_fire		=	0.25
 	enable = royal_mortar
 	enable = licorne
 }
@@ -732,6 +735,7 @@ technology = {
 	sprite_level = 4
 	cavalry_shock		=	0.2
 	land_morale			=	1.0
+	infantry_shock		=	0.25	
 
 	enable = austrian_white_coat	
 	enable = french_bluecoat	
@@ -781,8 +785,9 @@ technology = {
 	
 	#Bayonet
 	supply_limit		=	0.5
-	infantry_fire		= 	0.5	
+	infantry_fire		= 	0.25	
 	cavalry_shock = 0.2
+	military_tactics 	= 	0.25
 }
 
 technology = {
@@ -802,7 +807,7 @@ technology = {
 	#Cuirassier
 	maneuver_value 		= 	0.25
 	cavalry_shock = 0.2
-	infantry_shock		=	0.5	
+	infantry_shock		=	0.25	
 	
 	enable = african_cuirassier
 	enable = russian_cuirassier	
@@ -838,7 +843,8 @@ technology = {
 	}
 	
 	#Defense in Depth
-	cavalry_shock		=	0.2	
+	cavalry_shock		=	0.2
+	infantry_fire		=	0.25	
 	enable = flying_battery
 	enable = grand_battery
 }
@@ -896,7 +902,7 @@ technology = {
 	
 	#Rifle
 	cavalry_shock		=	0.3
-	infantry_fire		=	1.0
+	infantry_fire		=	0.4
 	supply_limit		=	0.5
 	cavalry_fire 		=	0.2
 }

@@ -1271,7 +1271,7 @@ armed_neutrality_act = {
 		full_idea_group = trade_ideas
 	}
 	
-	military_tactics = 0.1
+	military_tactics = 0.125
 
 	effect = {}
 	removed_effect = {}
@@ -1497,7 +1497,7 @@ one_and_true = {
 		full_idea_group = influence_ideas
 	}
 	
-	morale_damage_received = -0.1
+	land_morale = 0.75
 	war_exhaustion = -0.025
 
 	effect = {}

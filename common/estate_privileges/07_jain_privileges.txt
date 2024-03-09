@@ -314,14 +314,16 @@ estate_jains_indebted_to_jains = {
 estate_jains_conscientious_objection = {
 	icon = privilege_commission_jain_scripture
 	max_absolutism = -5
+	influence = -0.1
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
 	
-	penalties = {
-		
-	}
+	modifier = {can_not_declare_war = yes}
+	
 	benefits = {
-		yearly_corruption = -0.1
+		interest = -0.5
+		all_power_cost = 0.05
 	}
+	cooldown_years = 5
 	ai_will_do = {
 		factor = 0
 	}
@@ -933,9 +935,9 @@ estate_jains_control_over_monetary_policy = {
 		#all_power_cost = 0.05
 	}
 	benefits = {
-		inflation_reduction = 0.15
+		inflation_reduction = 0.05
 		#interest = -0.5
-		production_efficiency = 0.05
+		global_tax_modifier = 0.05
 	}
 	ai_will_do = {
 		factor = 1
@@ -1232,7 +1234,7 @@ estate_jains_promote_jain_bookkeeping = {
 		trigger = { always = yes }
 		modifier = {
 			inflation_action_cost = -0.5
-			#interest = -0.25
+			interest = -0.25
 			state_maintenance_modifier = -0.25
 		}
 	}

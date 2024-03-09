@@ -965,7 +965,7 @@ QUE_ideas = { #Quebec
 		monthly_fervor_increase = 0.25
 		church_power_modifier = 0.2
 		monthly_karma = 0.25
-		monthly_piety = 0.1
+		monthly_piety_accelerator = 0.001
 	}
 }
 
@@ -1200,7 +1200,7 @@ HAT_ideas = { #Haiti
 		monthly_fervor_increase = 0.25
 		church_power_modifier = 0.2
 		monthly_karma = 0.25
-		monthly_piety = 0.1
+		monthly_piety_accelerator = 0.001
 	}
 	hat_6 = { #Pass the Ammunition
 		global_regiment_recruit_speed = -0.33

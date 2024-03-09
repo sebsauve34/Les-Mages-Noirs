@@ -84,7 +84,7 @@ GER_ideas = {
 
 ENG_ideas = {
 	start = {
-		infantry_power = 0.10 # agincourt
+		infantry_power = 0.15 # agincourt
 		num_of_parliament_issues = 1
 	}
 
@@ -125,8 +125,8 @@ ENG_ideas = {
 
 GBR_ideas = {
 	start = {
-		infantry_power = 0.1
-		global_sailors_modifier = 0.2
+		infantry_power = 0.15
+		build_cost = -0.1
 	}
 
 	bonus = {
@@ -146,8 +146,7 @@ GBR_ideas = {
 		colonists = 1
 	}
 	british_merchant_navy = {
-		allowed_marine_fraction = 0.15
-		global_sailors_modifier = -0.15
+		allowed_marine_fraction = 0.25
 		global_ship_recruit_speed = -0.2
 	}
 	gbr_the_royal_society = {
@@ -158,10 +157,8 @@ GBR_ideas = {
 	}
 	british_industrialization = {
 		global_trade_goods_size_modifier = 0.1
-		build_cost = -0.1
 	}
 	britanna_rules_the_waves = {
-		leader_naval_manuever = 1
 		navy_tradition = 1
 		blockade_efficiency = 0.33
 		
@@ -3443,7 +3440,7 @@ HED_ideas = {
 	}
 	successor_to_the_caliphate = {
 		prestige = 1
-		monthly_piety = 0.001
+		monthly_piety_accelerator = 0.001
 	}
 }
 
@@ -11945,7 +11942,7 @@ MSY_ideas = {
 	
 	msy_fervent_millenarianism = {
 		land_morale = 0.1
-		monthly_piety = -0.001
+		monthly_piety_accelerator = 0.001
 	}
 	msy_messianic_legacy = {
 		missionaries = 1
@@ -12040,7 +12037,7 @@ RUM_ideas = {
 	}
 	rum_protector_of_dar_al_islam = {
 		global_heretic_missionary_strength = 0.03
-		monthly_piety = 0.1
+		monthly_piety_accelerator = 0.001
 	}
 }
 
@@ -12060,7 +12057,7 @@ ARL_ideas = {
 	
 	arl_safavid_order = {
 		land_morale = 0.1
-		monthly_piety = -0.001
+		monthly_piety_accelerator = 0.001
 	}
 	arl_qizilbash = {
 		cavalry_power = 0.15
@@ -12133,7 +12130,7 @@ SRV_ideas = {
 	
 	srv_khalwati_order = {
 		legitimacy = 1
-		monthly_piety = -0.001
+		monthly_piety_accelerator = 0.001
 	}
 	srv_fortresses_of_shirvan = {
 		defensiveness = 0.2
@@ -14272,7 +14269,7 @@ TUN_ideas = {
 	}
 	tun_caliphate = {
 		tolerance_own = 1
-		monthly_piety = 0.001
+		monthly_piety_accelerator = 0.001
 	}
 }
 
@@ -14636,7 +14633,7 @@ ADU_ideas = {
     }
 	adu_legacy_of_ibn_arabi = {
 		idea_cost = -0.1
-		monthly_piety = -0.001
+		monthly_piety_accelerator = 0.001
 	}
 	adu_jund_settlements = {
 		global_manpower_modifier = 0.25
@@ -16041,7 +16038,7 @@ BAN_ideas = {
 	free = yes
 	ban_struck_down_by_diamonds = {
 		tolerance_own = 1
-		monthly_piety = 0.001
+		monthly_piety_accelerator = 0.001
 	}
 	ban_surrounded_by_stars = {
 		global_trade_goods_size_modifier = 0.2

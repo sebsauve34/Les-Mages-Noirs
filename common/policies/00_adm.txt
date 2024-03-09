@@ -10,7 +10,7 @@ the_combination_act = {
 		full_idea_group = innovativeness_ideas
 	}
 	
-	fire_damage_received = -0.1
+	fire_damage_received = -0.15
 
 	effect = {}
 	removed_effect = {}

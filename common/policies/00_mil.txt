@@ -792,7 +792,7 @@ local_militias = {
 		full_idea_group = defensive_ideas
 	}	
 	
-	land_morale = 0.05
+	morale_damage_received = 0.05
 	global_manpower_modifier = 0.2
 	
 	effect = {}
@@ -992,7 +992,7 @@ military_allotment_act = {
 		full_idea_group = plutocracy_ideas
 	}
 
-	fire_damage_received = -0.1
+	fire_damage_received = -0.15
 
 	effect = {}
 	removed_effect = {}
@@ -1231,7 +1231,7 @@ wielders_of_the_flaming_sword_policy = {
 		full_idea_group = religious_ideas
 	}
 
-	morale_damage_received = -0.075
+	land_morale = 0.05
 	manpower_in_true_faith_provinces= 0.15
 	
 	effect = {}
@@ -1447,7 +1447,7 @@ render_unto_caesar_policy = {
 		full_idea_group = exploration_ideas
 	}
 
-	morale_damage_received = -0.075
+	land_morale = 0.05
 	manpower_in_own_culture_provinces = 0.20	
 
 	effect = {}

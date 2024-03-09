@@ -178,7 +178,7 @@ theocracy_gov_ideas = {
 		war_exhaustion_cost = -0.33
 	}
 	flesh_is_weak = {
-		morale_damage_received = -0.2
+		land_morale = 0.10
 	}
 	alpha_and_omega = {
 		enforce_religion_cost = -0.3
@@ -658,14 +658,14 @@ defensive_ideas = {
 	category = MIL
 
 	bonus = {
-		military_tactics = 0.1
+		military_tactics = 0.125
 	}
 
 	battlefield_commisions = {
 		shock_damage_received = -0.15
 	}
 	military_drill = {
-		land_morale = 0.1
+		morale_damage_received = -0.15
 	}
 	improved_manuever = {
 		reinforce_speed = 0.25
@@ -1219,7 +1219,6 @@ quality_ideas = {
 	}
 	copper_bottoms = {
 		yearly_army_professionalism = 0.005
-		regiment_manpower_usage = -0.05
 	}
 	massed_battery = {
 		artillery_power = 0.1
@@ -1292,11 +1291,11 @@ quantity_ideas = {
 	category = MIL
 
 	bonus = {
-		land_forcelimit_modifier  = 0.4
+		land_forcelimit_modifier  = 0.35
 		naval_forcelimit_modifier = 0.2
 	}
 	mass_army = {
-		global_manpower_modifier = 0.4
+		global_manpower_modifier = 0.35
 		global_sailors_modifier = 0.2
 	}
 	the_young_can_serve = {
@@ -1305,14 +1304,15 @@ quantity_ideas = {
 	}
 	enforced_service = {
 		global_regiment_cost = -0.1
+		regiment_manpower_usage = -0.05
 	}
 	camp_followers = {
 		land_maintenance_modifier = -0.1
 		naval_maintenance_modifier = -0.1	
 	}
 	reinforcement_drafts = {
-		reinforce_speed = 0.15
-		reserves_organisation = 0.15
+		reinforce_speed = 0.2
+		reserves_organisation = 0.2
 	}
 	the_old_and_infirm = {
 		general_cost = -0.10

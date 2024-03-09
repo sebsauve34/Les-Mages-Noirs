@@ -1325,16 +1325,17 @@ estate_burghers_control_over_monetary_policy = {
 		#all_power_cost = 0.05
 	}
 	benefits = {
-		inflation_reduction = 0.15
+		inflation_reduction = 0.05
 		#interest = -0.25
-		production_efficiency = 0.05
+		global_tax_modifier = 0.05
+		
 	}
 	conditional_modifier = {
 		trigger = {
 			has_country_flag = fra_enable_italian_bookkeeping_privilege_flag
 		}
 		modifier = {
-			all_power_cost = -0.015
+			#all_power_cost = -0.015
 			burghers_influence_modifier = 0.025 
 		}
 	}
@@ -2682,31 +2683,36 @@ estate_burghers_naval_school_right = {
 estate_burghers_financial_demand = {
 	icon = privilege_ducats
 	loyalty = 0.0
-	influence = 0.1
+	influence = -0.1
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
 	is_valid = {
 		has_dlc = "Domination"
 	}
-	benefits = {
-		global_tax_modifier = 0.1
+	can_select = {
+		is_at_war = no
 	}
+	modifier = {all_power_cost = 0.05 production_efficiency = 0.05}
 	
-	on_granted = {
-		enable_estate_action = {
-			estate_action = ASK_FOR_CONTRIBUTION_BURGHERS
-		}
+	benefits = {
+		interest = -0.5
 	}
-	on_invalid = {
-		disable_estate_action = {
-			estate_action = ASK_FOR_CONTRIBUTION_BURGHERS
-		}
-	}
-	on_revoked = {
-		disable_estate_action = {
-			estate_action = ASK_FOR_CONTRIBUTION_BURGHERS
-		}
-	}
+	cooldown_years = 5
+	#on_granted = {
+	#	enable_estate_action = {
+	#		estate_action = ASK_FOR_CONTRIBUTION_BURGHERS
+	#	}
+	#}
+	#on_invalid = {
+	#	disable_estate_action = {
+	#		estate_action = ASK_FOR_CONTRIBUTION_BURGHERS
+	#	}
+	#}
+	#on_revoked = {
+	#	disable_estate_action = {
+	#		estate_action = ASK_FOR_CONTRIBUTION_BURGHERS
+	#	}
+	#}
 	conditional_modifier = {
 		trigger = { has_government_mechanic = russian_modernization_mechanic }
 		modifier = { monthly_russian_modernization = -0.03 }
