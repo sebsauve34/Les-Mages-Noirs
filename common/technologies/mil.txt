@@ -643,7 +643,7 @@ technology = {
 	#Light Cavalry
 	
 	cavalry_shock		=	0.2
-	military_tactics 	= 	0.25
+	#military_tactics 	= 	0.25
 	maneuver_value 		= 	0.5
 
 	enable = swedish_arme_blanche	
