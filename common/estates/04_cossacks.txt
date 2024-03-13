@@ -78,12 +78,12 @@ estate_cossacks = {
 
 	# These scale with loyalty & power
 	country_modifier_happy = {
-		cavalry_cost = -0.1
-		cavalry_power = 0.1
-		cav_to_inf_ratio = 0.10
+		cavalry_cost = -0.05
+		global_manpower_modifier = 0.1
+		
 	}
 	country_modifier_neutral = {
-		cavalry_power = 0.1
+		global_manpower_modifier = 0.1
 	}	
 	country_modifier_angry = {
 		cavalry_cost = 0.2
