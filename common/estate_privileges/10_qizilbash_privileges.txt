@@ -385,7 +385,7 @@ estate_qizilbash_horse_responsibilities = {
 	penalties = {
 	}
 	benefits = {
-		cavalry_cost = -0.1
+		cavalry_cost = -0.05
 	}
 	mechanics = {
 	}
@@ -537,8 +537,7 @@ estate_qizilbash_defensive_policy = {
 		
 	}
 	benefits = {
-		garrison_size = 0.25
-		fort_maintenance_modifier = -0.33
+		fort_maintenance_modifier = -0.1
 	}
 	ai_will_do = {
 		factor = 0
@@ -637,7 +636,7 @@ estate_qizilbash_tofangchi_regiment = {
 		
 	}
 	benefits = {
-		infantry_power = 0.1
+		infantry_cost = -0.05
 	}
 	ai_will_do = {
 		factor = 100
@@ -689,7 +688,7 @@ estate_qizilbash_tupchi_artillery_corps = {
 		}
 	}
 	benefits = {
-		artillery_power = 0.05
+		
 	}
 	ai_will_do = {
 		factor = 100
@@ -721,7 +720,7 @@ estate_qizilbash_qurchi_service = {
 		}
 	}
 	benefits = {
-		morale_damage_received = -0.05
+		
 	}
 	loyalty_scaled_conditional_modifier = {
 		trigger = { always = yes }

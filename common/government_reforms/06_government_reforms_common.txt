@@ -1716,7 +1716,6 @@ legacy_of_the_safavid_reform = {
 		has_government_mechanic = feudal_theocracy_mechanic
 	}
 	modifiers = {
-		church_loyalty_modifier = 0.1
 		global_missionary_strength = 0.015
 		church_privilege_slots = 1
 		church_influence_modifier = -0.1
@@ -2671,7 +2670,6 @@ qollar_aghasi_regiments_reform = {
 	}
 	modifiers = {
 		reinforce_cost_modifier = -0.1
-		leader_land_shock = 1
 		mil_tech_cost_modifier = -0.1
 		global_autonomy = -0.03
 	}
