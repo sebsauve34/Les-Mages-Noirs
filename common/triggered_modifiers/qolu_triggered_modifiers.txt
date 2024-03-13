@@ -2,36 +2,7 @@
 #Imported from Gecko / Echo Mod.
 #####
 
-minor = {
-	potential = {
-		AND = {
-			is_part_of_hre = no
-			NOT = { is_great_power = yes }
-			NOT = { is_colonial_nation = yes }
-		}
-		NOT = { total_own_and_non_tributary_subject_development = 500 }
-		ROOT = {
-			ai = no
-		}
-		NOT = { is_emperor = yes }
-		NOT = { has_country_modifier = burnt_development }
-	}
 
-	trigger = {
-		NOT = { total_own_and_non_tributary_subject_development = 300 }
-		NOT = { is_emperor = yes }
-	}
-
-	advisor_cost = -0.1
-	interest = -0.25
-	global_regiment_cost = -0.1
-	build_cost = -0.05
-	development_cost_modifier = -0.1
-	ae_impact = -0.1
-	land_forcelimit = 3
-	global_tax_income = 6
-	global_manpower = 5
-}
 
 imperial_ambition = {
 	potential = {
@@ -41,7 +12,7 @@ imperial_ambition = {
 	}
 	trigger  = {
 		OR = {
-				great_power_rank = 5
+				great_power_rank = 4
 				 is_great_power = no
 				}
 				any_country = {
