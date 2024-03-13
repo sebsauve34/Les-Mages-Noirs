@@ -1475,7 +1475,7 @@ administrative_ideas = {
 	}
 	cultural_regulations = {
 		state_maintenance_modifier = -0.25
-		development_cost_modifier = -0.05
+		development_cost_modifier = -0.1
 	}
 	stable_government = {
 		stability_cost_modifier = -0.2
