@@ -1,5 +1,5 @@
 privy_council_establishment_act = {
-	monarch_power = MIL
+	monarch_power = ADM
 
 
 	potential = {
@@ -11,7 +11,8 @@ privy_council_establishment_act = {
 		full_idea_group = spy_ideas
 		full_idea_group = defensive_ideas
 	}
-	shock_damage_received = -0.15
+	fort_maintenance_modifier = -0.1
+	movement_speed = 0.1
 	
 	effect = {}
 	removed_effect = {}
@@ -37,7 +38,7 @@ the_mercenary_registration_act = {
 		full_idea_group = spy_ideas
 		full_idea_group = quantity_ideas
 	}
-	land_forcelimit_modifier = 0.20
+	land_forcelimit_modifier = 0.2
 	reserves_organisation = 0.2
 	
 	effect = {}
@@ -792,7 +793,7 @@ local_militias = {
 		full_idea_group = defensive_ideas
 	}	
 	
-	morale_damage_received = 0.05
+	land_morale = 0.05
 	global_manpower_modifier = 0.2
 	
 	effect = {}
@@ -1231,8 +1232,8 @@ wielders_of_the_flaming_sword_policy = {
 		full_idea_group = religious_ideas
 	}
 
-	land_morale = 0.05
-	manpower_in_true_faith_provinces= 0.15
+	morale_damage_received = -0.1
+	manpower_in_true_faith_provinces= 0.1
 	
 	effect = {}
 	removed_effect = {}
@@ -1447,8 +1448,8 @@ render_unto_caesar_policy = {
 		full_idea_group = exploration_ideas
 	}
 
-	land_morale = 0.05
-	manpower_in_own_culture_provinces = 0.20	
+	manpower_in_true_faith_provinces = 0.2
+	manpower_in_own_culture_provinces = 0.2	
 
 	effect = {}
 	removed_effect = {}

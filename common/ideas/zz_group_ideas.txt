@@ -540,8 +540,8 @@ mindanao_ideas = {
 horde_ideas = {
 	start = {
 		core_creation = -0.25
-		cavalry_power = 0.20
-
+		cavalry_cost = -0.1
+		
 	}
 	
 	bonus = {
@@ -557,7 +557,7 @@ horde_ideas = {
 		land_attrition = -0.20
 	}
 	traditions_of_the_great_khan = {
-		cavalry_cost = -0.1
+		cavalry_power = 0.15
 	}
 	horse_supplies = {
 		land_maintenance_modifier = -0.075
@@ -1626,8 +1626,8 @@ ruthenian_ideas = {
 		tolerance_heretic = 3
 	}
 	zaporizhian_cossacs = {
-		cavalry_power = 0.20
-		cav_to_inf_ratio = 0.30
+		cavalry_power = 0.15
+		cav_to_inf_ratio = 0.1
 		can_recruit_hussars = yes
 	}
 	east_and_west = {

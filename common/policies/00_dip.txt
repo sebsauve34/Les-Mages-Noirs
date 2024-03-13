@@ -1497,8 +1497,8 @@ one_and_true = {
 		full_idea_group = influence_ideas
 	}
 	
-	land_morale = 0.75
-	war_exhaustion = -0.025
+	morale_damage_received = -0.1
+	shock_damage_received = -0.1
 
 	effect = {}
 	removed_effect = {}
