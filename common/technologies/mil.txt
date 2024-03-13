@@ -15,16 +15,13 @@ technology = {
 
 	infantry_fire		= 	0.25
 	infantry_shock 		= 	0.20	
-	cavalry_shock  		= 	0.6	
+	cavalry_shock  		= 	0.8	
 	land_morale 		= 	2.0
 }
 
 technology = {
 	# Tech 1
 	year = 1390
-	expects_institution = {
-		feudalism = 0.25
-	}
 	
 	infantry_shock		= 	0.1
 	infantry_fire 		= 	0.1
@@ -57,13 +54,11 @@ technology = {
 	enable = african_mandelaku
 	enable = african_abyssinian_light_cavalry
 	enable = mongol_swarm
-	enable = mongol_steppe	
 	enable = mongol_bow	
 	enable = eastern_knights
 	enable = druzhina_cavalry	
 	enable = ottoman_musellem	
-	enable = mamluk_archer	
-	enable = mamluk_cavalry_charge	
+	enable = mamluk_archer		
 	enable = south_american_warfare	
 	enable = ha_xantican_warrior
 	enable = aboriginal_boomerang
@@ -74,9 +69,6 @@ technology = {
 technology = {
 	# Tech 2
 	year = 1420
-	expects_institution = {
-		feudalism = 0.5
-	}
 	
 	infantry_shock		= 	0.2
 	cavalry_shock		= 	0.2
@@ -89,24 +81,18 @@ technology = {
 technology = {
 	# Tech 3
 	year = 1440
-	expects_institution = {
-		feudalism = 0.5
-	}
 	
 	land_morale = 	0.5
 	may_drill = yes
+	enable = mamluk_cavalry_charge
 }
 
 technology = {
 	# Tech 4
 	year = 1453
-	expects_institution = {
-		feudalism = 0.5
-	}
-
+	
 	#Pike Square
 	
-
 	land_morale = 	0.5
 	military_tactics 	= 	0.25
 }
@@ -114,15 +100,11 @@ technology = {
 technology = {
 	# Tech 5
 	year = 1466
-	expects_institution = {
-		feudalism = 0.5
-	#	renaissance = 0.15
-	}
 	
 	#Standardised Pikes
 	supply_limit 		= 	0.5
 	infantry_shock		= 	0.15
-	cavalry_shock		= 	0.15
+	cavalry_shock		= 	0.2
 
 	enable = western_men_at_arms	
 	enable = western_longbow	
@@ -159,17 +141,12 @@ technology = {
 technology = {
 	# Tech 6
 	year = 1479
-	expects_institution = {
-		feudalism = 0.5
-	#	renaissance = 0.3
-	}
 	
 	#Arquebus
 	military_tactics 	= 	0.25
-	infantry_shock		= 	0.1
+	infantry_shock		= 	0.15
 	infantry_fire 		= 	0.1
-	cavalry_shock		=	0.1
-	
+	cavalry_shock		=	0.25
 	
 	barracks = yes
 
@@ -188,7 +165,7 @@ technology = {
 	enable = high_american_horsemen
 	enable = aboriginal_horseman	
 	enable = pacific_horseman
-	
+	enable = mongol_steppe	
 	combat_width = 2
 }
 
@@ -199,13 +176,12 @@ technology = {
 		feudalism = 0.5
 		renaissance = 0.1
 	}
-	
 	#The limber
 	artillery_fire 		= 	1
 	artillery_shock 	=	0.05
 	military_tactics 	= 	0.25
-	cavalry_shock		=	0.1
-	infantry_shock		= 	0.1
+	cavalry_shock		=	0.25
+	infantry_shock		= 	0.15
 	infantry_fire 		= 	0.1
 	enable = large_cast_bronze_mortar 
 	enable = houfnice
@@ -218,11 +194,10 @@ technology = {
 		feudalism = 0.5
 		renaissance = 0.3
 	}
-
 	
 	#Pike and Shot
 	infantry_fire		= 	0.25
-	cavalry_shock		=	0.4
+	cavalry_shock		=	0.3
 
 	
 	regimental_camp = yes
@@ -230,15 +205,14 @@ technology = {
 
 technology = {
 	# Tech 9
-	year = 1518
 	expects_institution = {
 		feudalism = 0.5
 		renaissance = 0.5
 	#	new_world_i = 0.15
 	}
+	year = 1518
 	
 	#Ditch
-	
 	enable = songhai_tribal_warfare		
 	enable = niger_kongolese_tribal_warfare
 	enable = south_indian_musketeer	
@@ -253,7 +227,7 @@ technology = {
 	enable = steppe_raiders
 	enable = ha_xiuhtecuhtli_soldier
 	military_tactics 	= 	0.25
-	combat_width = 1
+	combat_width = 1	
 	supply_limit 		= 	0.5	
 }
 
@@ -265,16 +239,14 @@ technology = {
 		renaissance = 0.5
 	#	new_world_i = 0.3
 	}
-	
 	#Reiter
 	maneuver_value 		= 	0.25
-	cavalry_shock		=	0.2
+	cavalry_fire		= 	0.25
 	
-
 	enable = hungarian_hussar
 	enable = ottoman_spahi		
 	enable = culverin		
-	enable = pedrero 
+	enable = pedrero
 	enable = schwarze_reiter
 	enable = african_mossi_horsemen
 	enable = african_abyssinian_cavalry
@@ -306,15 +278,13 @@ technology = {
 		renaissance = 0.5
 		new_world_i = 0.1
 	}
-	
 	#Matchlock Musket
 	infantry_shock		= 	0.20
-	cavalry_fire		= 	0.2
-	cavalry_shock		=	0.2
+	cavalry_fire		= 	0.25
 
 	
 	weapons = yes
-	
+	armory = yes
 	combat_width = 2
 }
 	
@@ -326,13 +296,11 @@ technology = {
 		renaissance = 0.5
 		new_world_i = 0.3
 	}
-	
 	#Spanish Square
 	sprite_level = 2
 	
 	supply_limit 		= 	0.5
 	military_tactics	=	0.25
-	
 
 	enable = tofongchis_musketeer		
 	enable = ottoman_sekban		
@@ -349,6 +317,7 @@ technology = {
 	enable = ethiopian_mountain_warfare		
 	enable = steppe_footmen
 	enable = ha_xiuhtecuhtlian_infantry
+
 }
 
 technology = {
@@ -360,7 +329,6 @@ technology = {
 		new_world_i = 0.5
 	#	printing_press = 0.15
 	}
-	
 	#Trunnions
 	artillery_shock 	= 	0.1
 	artillery_fire 		= 	0.4
@@ -378,14 +346,13 @@ technology = {
 		new_world_i = 0.5
 	#	printing_press = 0.3
 	}
-	
 	#Star Bastions
 	fort_16th = yes
 	infantry_fire		=	0.3
-	cavalry_shock		=	0.2
-	supply_limit 		= 	0.25
-	
+	cavalry_shock		=	0.25
+	supply_limit 		= 	0.5
 	enable = african_hussar
+	enable = ottoman_hussar
 	enable = french_caracolle 
 	enable = huron_arquebusier	 
 	enable = creek_arquebusier	
@@ -426,7 +393,7 @@ technology = {
 	#Maurician Infantry
 	land_morale 		=	1.0
 	military_tactics	=	0.25
-	cavalry_shock		=	0.2
+	cavalry_shock		=	0.25
 
 	
 	enable = irish_charge 
@@ -435,11 +402,12 @@ technology = {
 	enable = muscovite_soldaty	
 	enable = polish_tercio
 	enable = asian_mass_infantry	
-	#enable = bantu_gunpowder_warfare	
-	#enable = niger_kongolese_gunpowder_warfare	
+	enable = bantu_gunpowder_warfare	
+	enable = niger_kongolese_gunpowder_warfare	
 	enable = adal_gunpowder_warfare		
 	enable = ethiopian_gunpowder_warfare	
 	enable = steppe_musketeers
+	enable = ottoman_afsharid_infantry	
 }
 
 technology = {
@@ -451,10 +419,10 @@ technology = {
 		new_world_i = 0.5
 		printing_press = 0.3
 	}
-	
 	#Standardisation of Calibre
 	artillery_shock 	= 	0.1
-	artillery_fire 		= 	1.0	
+	artillery_fire 		= 	0.5	
+	cavalry_shock		=	0.25
 
 	training_fields = yes
 	
@@ -474,11 +442,9 @@ technology = {
 		printing_press = 0.5
 	#	global_trade = 0.15
 	}
-	military_tactics 	= 	0.25
 	cavalry_shock		=	0.25
 	supply_limit		= 	0.5	
-	
-
+	military_tactics 	= 	0.25
 	enable = maharathan_cavalry		
 	enable = manchu_banner		
 	enable = african_swarm
@@ -494,10 +460,9 @@ technology = {
 		printing_press = 0.5
 	#	global_trade = 0.3
 	}
-	
 	#Carbine
 	maneuver_value 		= 	0.25
-
+	
 		
 	enable = swedish_gallop	
 	enable = sikh_hit_and_run
@@ -514,8 +479,7 @@ technology = {
 	
 	combat_width = 2
 	artillery_shock 	=	0.1
-	artillery_fire		=	1.0
-	infantry_fire		= 	0.25
+	artillery_fire 		= 	0.5
 }
 
 technology = {
@@ -528,12 +492,10 @@ technology = {
 		printing_press = 0.5
 		global_trade = 0.1
 	}
-	
 	#Gustavian Infantry
 	military_tactics 	= 	0.25
 	supply_limit		=	0.5
-	cavalry_shock		=	0.2
-	infantry_shock 		=	0.2
+	infantry_fire		= 	0.25
 	fort_17th = yes
 
 	
@@ -555,8 +517,6 @@ technology = {
 	enable = high_american_swarm
 	enable = aboriginal_riflemen
 	enable = pacific_riflemen
-	enable = bantu_gunpowder_warfare	
-	enable = niger_kongolese_gunpowder_warfare
 }
 
 technology = {
@@ -569,14 +529,13 @@ technology = {
 		printing_press = 0.5
 		global_trade = 0.3
 	}
-	
 	#Killing Grounds
 	
 	infantry_fire		= 	0.25
-		
+	artillery_shock 	=	0.1	
+	artillery_fire		=	1.0
 	enable = swivel_cannon
 	enable = howitzer
-
 	combat_width = 2
 }
 
@@ -591,12 +550,12 @@ technology = {
 		global_trade = 0.5
 	#	manufactories = 0.15
 	}
-	
 	#Line Infantry
 	sprite_level = 3
 	military_tactics 	= 	0.25
-	cavalry_fire		=	0.2
-	infantry_shock 		=	0.25
+	cavalry_fire		=	0.25
+	cavalry_shock		=	0.25
+	infantry_shock 		=	0.5
 }
 
 technology = {
@@ -610,13 +569,12 @@ technology = {
 		global_trade = 0.5
 	#	manufactories = 0.3
 	}
-	
 	#Cartridge	(1620)?)
-	cavalry_fire		=	0.2
+	cavalry_fire		=	0.25
+	cavalry_shock		=	0.25
 	artillery_shock 	=	0.1
 	artillery_fire		=	1.0
-	supply_limit 		= 	0.5
-	cavalry_shock		=	0.2
+	
 	combat_width = 2
 	
 	conscription_center = yes
@@ -625,8 +583,8 @@ technology = {
 	enable = polish_winged_hussar	
 	enable = muscovite_cossack	
 
-	enable = horse_artillery_unit
-	enable = coehorn_mortar
+	enable = coehorn_mortar	
+	enable = horse_artillery_unit	
 }
 
 technology = {
@@ -640,11 +598,10 @@ technology = {
 		global_trade = 0.5
 		manufactories = 0.1
 	}
-	
 	#Light Cavalry
 	
-	cavalry_shock		=	0.2
-	#military_tactics 	= 	0.25
+	cavalry_shock		=	0.25
+	military_tactics 	= 	0.25
 	maneuver_value 		= 	0.5
 
 	enable = swedish_arme_blanche	
@@ -688,12 +645,10 @@ technology = {
 		manufactories = 0.3
 	#	enlightenment = 0.15
 	}
-	
 	#Covered Way
 	fort_18th	= yes	
 	military_tactics 	= 	0.25
-	cavalry_shock		=	0.2
-	infantry_fire		= 	0.25	
+
 	combat_width = 2
 }
 
@@ -709,13 +664,11 @@ technology = {
 		manufactories = 0.5
 	#	enlightenment = 0.3
 	}
-	
 	#Metallurgy
 	artillery_shock 	=	0.1
 	artillery_fire		=	2.0
-	cavalry_fire = 0.2
-	infantry_fire		=	0.25
-	enable = royal_mortar
+	infantry_fire		= 	0.25	
+	enable = royal_mortar	
 	enable = licorne
 }
 
@@ -731,10 +684,9 @@ technology = {
 		manufactories = 0.5
 		enlightenment = 0.1
 	}
-	
 	#Light Infantry Companies
 	sprite_level = 4
-	cavalry_shock		=	0.2
+
 	land_morale			=	1.0
 	infantry_shock		=	0.25	
 
@@ -783,12 +735,9 @@ technology = {
 		manufactories = 0.5
 		enlightenment = 0.3
 	}
-	
 	#Bayonet
 	supply_limit		=	0.5
 	infantry_fire		= 	0.25	
-	cavalry_shock = 0.2
-	military_tactics 	= 	0.25
 }
 
 technology = {
@@ -804,10 +753,8 @@ technology = {
 		enlightenment = 0.5
 	#	industrialization = 0.25
 	}
-	
 	#Cuirassier
 	maneuver_value 		= 	0.25
-	cavalry_shock = 0.2
 	infantry_shock		=	0.25	
 	
 	enable = african_cuirassier
@@ -842,11 +789,10 @@ technology = {
 		enlightenment = 0.5
 		industrialization = 0.1
 	}
-	
 	#Defense in Depth
-	cavalry_shock		=	0.2
-	infantry_fire		=	0.25	
-	enable = flying_battery
+	cavalry_shock		=	0.5
+	infantry_fire		=	0.5	
+	enable = flying_battery  
 	enable = grand_battery
 }
 
@@ -863,7 +809,6 @@ technology = {
 		enlightenment = 1
 		industrialization = 0.3
 	}
-	
 	#Impulse Warfare
 	#sprite_level = 5	
 	
@@ -900,12 +845,10 @@ technology = {
 		enlightenment = 0.5
 		industrialization = 5
 	}
-	
 	#Rifle
-	cavalry_shock		=	0.3
-	infantry_fire		=	0.4
+	cavalry_shock		=	0.5
+	infantry_fire		=	0.5
 	supply_limit		=	0.5
-	cavalry_fire 		=	0.2
 }
 
 technology = {
@@ -921,7 +864,6 @@ technology = {
 		enlightenment = 1
 		industrialization = 1
 	}
-	
 	#Field Howitzer
 	military_tactics	=	0.25
 	artillery_shock		=	0.1
