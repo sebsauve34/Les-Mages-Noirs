@@ -941,23 +941,23 @@ country_decisions = {
 		}
 	}
 
-h_cav_ratio = {
-		major = yes
-		potential = {
-			ai = no
-			NOT = { has_country_flag = h_cav_ratio }
-		}
-		allow = {
-			mil_tech = 20
-		}
-		effect = {
-			set_country_flag = h_cav_ratio
-			add_country_modifier = {
-				name = h_cav_ratio
-				duration = -1
-		}
-	}		
-}	
+#h_cav_ratio = {
+#		major = yes
+#		potential = {
+#			ai = no
+#			NOT = { has_country_flag = h_cav_ratio }
+#		}
+#		allow = {
+#			mil_tech = 20
+#		}
+#		effect = {
+#			set_country_flag = h_cav_ratio
+#			add_country_modifier = {
+#				name = h_cav_ratio
+#				duration = -1
+#		}
+#	}		
+#}	
 h_hire_explorer = {	
 		potential = {
 				is_bankrupt = no
