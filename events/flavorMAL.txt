@@ -679,7 +679,7 @@ country_event = {
 
 	immediate = {
 		hidden_effect = {
-			add_stability = -1
+			add_prestige = -10
 			set_country_flag = started_decline_of_mali
 		}
 	}
@@ -687,7 +687,7 @@ country_event = {
 	option = {
 		name = flavor_mal.9.a
 		tooltip = {
-			add_stability = -1
+			add_prestige = -10
 		}
 
 		ai_chance = {
