@@ -1086,6 +1086,10 @@ PR_events.1.t:0 "Cartography of Africa"
  defensive_stratagem:0 "Defensive Stratagem"
  quality_stratagem:0 "Quality Stratagem"
  quantity_stratagem:0 "Quantity Stratagem"
+
+#Bastard triggered modifiers
+Steppe_rule:0 "Steppe Rule: Islam"
+Steppe_rule_2:0 "Steppe Rule: Tengri"
 ##CoT's 
 
 regional_port:0 "Regional Port"

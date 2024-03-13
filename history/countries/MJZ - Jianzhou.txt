@@ -3,7 +3,6 @@ add_government_reform = steppe_horde
 technology_group = nomad_group
 primary_culture = manchu
 religion = tengri_pagan_reformed
-secondary_religion = confucianism
 capital = 2108
 add_army_professionalism = 0.1
 1399.1.1 = {

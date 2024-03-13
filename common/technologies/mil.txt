@@ -166,9 +166,9 @@ technology = {
 	
 	#Arquebus
 	military_tactics 	= 	0.25
-	infantry_shock		= 	0.15
+	infantry_shock		= 	0.1
 	infantry_fire 		= 	0.1
-	cavalry_shock		=	0.15
+	cavalry_shock		=	0.1
 	
 	
 	barracks = yes
@@ -204,8 +204,8 @@ technology = {
 	artillery_fire 		= 	1
 	artillery_shock 	=	0.05
 	military_tactics 	= 	0.25
-	cavalry_shock		=	0.15
-	infantry_shock		= 	0.15
+	cavalry_shock		=	0.1
+	infantry_shock		= 	0.1
 	infantry_fire 		= 	0.1
 	enable = large_cast_bronze_mortar 
 	enable = houfnice
@@ -477,7 +477,7 @@ technology = {
 	military_tactics 	= 	0.25
 	cavalry_shock		=	0.25
 	supply_limit		= 	0.5	
-	infantry_fire		= 	0.25
+	
 
 	enable = maharathan_cavalry		
 	enable = manchu_banner		
@@ -515,6 +515,7 @@ technology = {
 	combat_width = 2
 	artillery_shock 	=	0.1
 	artillery_fire		=	1.0
+	infantry_fire		= 	0.25
 }
 
 technology = {
@@ -532,7 +533,7 @@ technology = {
 	military_tactics 	= 	0.25
 	supply_limit		=	0.5
 	cavalry_shock		=	0.2
-	infantry_shock 		=	0.25
+	infantry_shock 		=	0.2
 	fort_17th = yes
 
 	

@@ -532,7 +532,7 @@ TUR_ideas = {
 	}		
 	timariot_system = {
 		cavalry_power = 0.15
-		cav_to_inf_ratio = 0.2
+		cav_to_inf_ratio = 0.1
 	}
 	autonmous_pashas = {
 		war_exhaustion_cost = -0.10
@@ -1142,8 +1142,8 @@ POL_ideas = {
 		global_manpower_modifier = 0.2
 	}
 	winged_hussars = {
-		cavalry_power = 0.2
-		cav_to_inf_ratio = 0.2
+		cavalry_power = 0.15
+		cav_to_inf_ratio = 0.1
 	}
 	wojsko_komputoe = {
 		global_regiment_cost = -0.10
@@ -1429,7 +1429,7 @@ HUN_ideas = {
 	}
 	found_the_black_army = {
 		discipline = 0.05
-		cav_to_inf_ratio = 0.2
+		cav_to_inf_ratio = 0.1
 	}
 	reformed_coinage = {
 		global_tax_modifier = 0.15
@@ -1518,7 +1518,7 @@ MAM_ideas = {
 	}
 	mam_army_reform = {
 		discipline = 0.05
-		cav_to_inf_ratio = 0.2
+		cav_to_inf_ratio = 0.1
 	}
 	reform_fellah_system = {
 		production_efficiency = 0.1
@@ -1715,7 +1715,7 @@ TIM_ideas = {
 	}
 	unleash_the_tiger = {
 		shock_damage = 0.15
-		cav_to_inf_ratio = 0.20
+		cav_to_inf_ratio = 0.2
 	}
 	chagatai_literature = {
 		legitimacy = 1
@@ -1884,7 +1884,7 @@ VIJ_ideas = {
 	}
 	arab_horses = {
 		cavalry_power = 0.15
-		cav_to_inf_ratio = 0.2
+		cav_to_inf_ratio = 0.1
 	}
 	harsh_penal_code = {
 		stability_cost_modifier = -0.1
@@ -2607,7 +2607,7 @@ LIT_ideas = {
 	}
 	auksine_laisve = {
 		cavalry_power = 0.2
-		cav_to_inf_ratio = 0.2
+		cav_to_inf_ratio = 0.1
 	}
 	magdeburg_laws = {
 		global_tax_modifier = 0.15
@@ -2647,7 +2647,7 @@ LIT2_ideas = {
 	}
 	auksine_laisve = {
 		cavalry_power = 0.2
-		cav_to_inf_ratio = 0.2
+		cav_to_inf_ratio = 0.1
 	}
 	lit_new_magdeburg_laws = {
 		development_cost = -0.1
@@ -2737,8 +2737,8 @@ TAU_ideas = {
 		core_creation = -0.2
 	}
 	tau_elephant_battles = {
-		cavalry_power = 0.20
-		cav_to_inf_ratio = 0.3
+		cavalry_power = 0.15
+		cav_to_inf_ratio = 0.1
 	}
 	chakravartin = {
 		army_tradition = 1
@@ -2957,11 +2957,11 @@ ORI_ideas = {
 PUN_ideas = {
 	start = {
 		religious_unity = 0.25	#melting pot of religions
-		land_morale = 0.15
+		land_morale = 0.1
 	}
 
 	bonus = {
-		cavalry_power = 0.15
+		cavalry_power = 0.1
 	}
 	
 	trigger = {
@@ -2980,7 +2980,7 @@ PUN_ideas = {
 	}
 	foundation_of_the_khalsa = { 	
 		cavalry_cost = -0.10
-		cav_to_inf_ratio = 0.2						
+		cav_to_inf_ratio = 0.1						
 	}
 	gurmukhi_script = {
 		development_cost = -0.1
@@ -4158,8 +4158,8 @@ AFG_ideas = {
 	free = yes
 	
 	durrani_imperialism = {
-		cavalry_power = 0.15
-		cav_to_inf_ratio = 0.2
+		cavalry_power = 0.1
+		cav_to_inf_ratio = 0.1
 	}
 	pashtunwali = {
 		war_exhaustion_cost = -0.15
@@ -6354,7 +6354,7 @@ BAH_ideas = {
 	
 	gharbians = {
 		manpower_recovery_speed = 0.1
-		cav_to_inf_ratio = 0.2
+		cav_to_inf_ratio = 0.1
 	}
 	legacy_of_gisu_daraz = {
 		religious_unity = 0.25
@@ -7945,8 +7945,8 @@ ORM_ideas = {
 		global_foreign_trade_power = 0.1
 	}
 	orm_secure_trading_monopoly = {
-		cavalry_power = 0.15
-		cav_to_inf_ratio = 0.2
+		cavalry_power = 0.1
+		cav_to_inf_ratio = 0.1
 	}
 	orm_moqarrariya = {
 		stability_cost_modifier = -0.1
@@ -9317,7 +9317,7 @@ SLO_ideas = {
 GLH_ideas = {
 	start = {
 		shock_damage = 0.1
-		cavalry_cost = -0.10
+		cavalry_cost = -0.1
 	}
 	bonus = {
 		discipline = 0.05
@@ -9328,14 +9328,14 @@ GLH_ideas = {
 	free = yes
 	
 	glh_legacy_of_the_golden_horde = {
-		horde_unity = 1
-		legitimacy = 1
+		horde_unity = 2
+		legitimacy = 2
 	}
 	glh_perso_mongol_administration = {
 		development_cost = -0.1
 	}
 	glh_tatar_traditions = {
-		cavalry_power = 0.20
+		cavalry_power = 0.2
 		cav_to_inf_ratio = 0.2
 	}
 	glh_secure_the_trade_routes = {
@@ -9376,7 +9376,7 @@ YUA_ideas = {
 	}
 	yua_keshik_and_weijun = {
 		shock_damage = 0.15
-		cav_to_inf_ratio = 0.20
+		cav_to_inf_ratio = 0.2
 	}
 	yua_a_thousand_miles_as_if_at_home = {
 		movement_speed = 0.15
@@ -9384,6 +9384,7 @@ YUA_ideas = {
 	}
 	yua_sino_mongol_administration = {
 		administrative_efficiency = 0.05
+		horde_unity = 2
 	}
 	yua_pax_mongolica = {
 		global_trade_goods_size_modifier = 0.1
@@ -10948,7 +10949,7 @@ TPR_ideas = {
 
 HAN_ideas = {
 	start = {
-		cavalry_power = 0.15
+		infantry_power = 0.1
 		army_tradition = 0.5
 	}
 	bonus = {
@@ -10967,7 +10968,6 @@ HAN_ideas = {
 	}
 	han_shutzenfest = {
 		land_maintenance_modifier = -0.1
-		cav_to_inf_ratio = 0.2
 	}
 	han_herrenhausen_gardens = {
 		build_cost = -0.1
@@ -10982,7 +10982,7 @@ HAN_ideas = {
 		diplomatic_upkeep = 1
 	}
 	han_kings_legion = {
-		fire_damage_received = -0.1
+		fire_damage_received = -0.15
 	}
 }
 
@@ -11641,8 +11641,8 @@ TRS_ideas = {
 	free = yes
 	
 	trs_mawarannahr = {
-		cavalry_power = 0.2
-		cav_to_inf_ratio = 0.2
+		cavalry_power = 0.1
+		
 	}
 	trs_threshold_of_paradise = {
 		prestige = 1
@@ -11778,7 +11778,7 @@ LRI_ideas = {
 QAR_ideas = {
 	start = {
 		leader_land_shock = 1
-		cavalry_power = 0.2
+		cavalry_power = 0.1
 	}
 	bonus = {
 		leader_land_fire = 1
@@ -11790,7 +11790,7 @@ QAR_ideas = {
 	
 	qar_black_sheep = {
 		global_manpower_modifier = 0.25
-		cav_to_inf_ratio = 0.20
+		
 	}
 	qar_governor_of_azerbaijan = {
 		province_warscore_cost = -0.1
@@ -13579,7 +13579,7 @@ DEC_ideas = {
 	}
 	dec_modernize_the_sarf_e_khas = {
 		manpower_recovery_speed = 0.1
-		cav_to_inf_ratio = 0.2
+		cav_to_inf_ratio = 0.1
 	}
 	dec_jewels_of_the_nizams = {
 		diplomatic_reputation = 1
@@ -13591,7 +13591,7 @@ DEC_ideas = {
 
 DLH_ideas = {
 	start = {
-		cavalry_power = 0.15
+		cavalry_power = 0.1
 		cavalry_cost = -0.1
 	}
 	
@@ -13606,7 +13606,7 @@ DLH_ideas = {
 	
 	dlh_afghan_nobility = {
 		army_tradition = 0.5
-		cav_to_inf_ratio = 0.2
+		cav_to_inf_ratio = 0.1
 	}
 	dlh_suppress_rebellion = {
 		global_unrest = -1
@@ -14145,8 +14145,8 @@ ILK_ideas = {
 		cavalry_flanking = 0.5
 	}
 	ilk_mongol_peace = {
-		legitimacy = 1
-		horde_unity = 1
+		legitimacy = 2
+		horde_unity = 2
 	}
 	ilk_patronize_observatories = {
 		technology_cost = -0.1
@@ -14626,7 +14626,6 @@ ADU_ideas = {
 	}
 	adu_taifa_adminstration = {
 		vassal_forcelimit_bonus = 1
-		cav_to_inf_ratio = 0.20
     }
 	adu_ahl_uhl_dhimma = {
 		tolerance_heathen = 3
@@ -14737,7 +14736,7 @@ OIR_ideas = {
 KHA_ideas = {
 	start = {
 		global_manpower_modifier = 0.25
-		years_of_nationalism = -5
+		horde_unity = 2
 	}
 	
 	bonus = {

@@ -109,3 +109,35 @@ ahead_of_time = {
 	monthly_reform_progress_modifier = 0.25	
 	prestige = 0.5
 }
+
+Steppe_rule = {
+	potential = {
+		ai = no
+		is_nomad= yes
+		religion = sunni
+		current_age = age_of_discovery
+	}
+	
+
+	trigger = {	
+		religion = sunni
+		current_age = age_of_discovery
+	}
+	cav_to_inf_ratio = 0.25
+	horde_unity = 5
+}
+Steppe_rule_2 = {
+	potential = {
+		ai = no
+		is_nomad= yes
+		religion = tengri_pagan_reformed
+		current_age = age_of_discovery
+	}
+	
+
+	trigger = {	
+		religion = tengri_pagan_reformed
+		current_age = age_of_discovery
+	}
+	horde_unity = 5
+}

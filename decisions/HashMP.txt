@@ -948,7 +948,7 @@ h_cav_ratio = {
 			NOT = { has_country_flag = h_cav_ratio }
 		}
 		allow = {
-			mil_tech = 12
+			mil_tech = 20
 		}
 		effect = {
 			set_country_flag = h_cav_ratio
