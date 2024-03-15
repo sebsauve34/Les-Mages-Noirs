@@ -594,6 +594,7 @@ base_values = {
 	allowed_voc_indiamen_fraction = 1
 	has_geobukseon = yes
 	allowed_geobukseon_fraction = 1
+	naval_attrition = -0.5
 }
 
 # AI 'cheats' that compensate for flaws in its long-term decision making, removing these may severely cripple the AI

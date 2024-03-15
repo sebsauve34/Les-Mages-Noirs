@@ -146,7 +146,7 @@ technology = {
 	military_tactics 	= 	0.25
 	infantry_shock		= 	0.15
 	infantry_fire 		= 	0.1
-	cavalry_shock		=	0.25
+	cavalry_shock		=	0.2
 	
 	barracks = yes
 
@@ -180,7 +180,7 @@ technology = {
 	artillery_fire 		= 	1
 	artillery_shock 	=	0.05
 	military_tactics 	= 	0.25
-	cavalry_shock		=	0.25
+	cavalry_shock		=	0.2
 	infantry_shock		= 	0.15
 	infantry_fire 		= 	0.1
 	enable = large_cast_bronze_mortar 
@@ -349,7 +349,7 @@ technology = {
 	#Star Bastions
 	fort_16th = yes
 	infantry_fire		=	0.3
-	cavalry_shock		=	0.25
+	cavalry_shock		=	0.2
 	supply_limit 		= 	0.5
 	enable = african_hussar
 	enable = ottoman_hussar
@@ -393,7 +393,7 @@ technology = {
 	#Maurician Infantry
 	land_morale 		=	1.0
 	military_tactics	=	0.25
-	cavalry_shock		=	0.25
+	cavalry_shock		=	0.2
 
 	
 	enable = irish_charge 
@@ -422,7 +422,7 @@ technology = {
 	#Standardisation of Calibre
 	artillery_shock 	= 	0.1
 	artillery_fire 		= 	0.5	
-	cavalry_shock		=	0.25
+	cavalry_shock		=	0.2
 
 	training_fields = yes
 	
