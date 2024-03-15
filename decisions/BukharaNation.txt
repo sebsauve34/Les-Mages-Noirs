@@ -43,12 +43,11 @@ country_decisions = {
 				#province_id = 457 
 				#province_id = 2356 
 				province_id = 439
-				province_id = 4325
-				province_id = 4325
-				province_id = 2221
-				province_id = 4326
-				province_id = 2235
-				province_id = 2236
+				
+				
+				
+				
+				
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -74,13 +73,7 @@ country_decisions = {
 			owns_core_province = 443
 			#owns_core_province = 457 
 			#owns_core_province = 2356 
-			owns_core_province = 439
-			owns_core_province = 4325
-			owns_core_province = 2221
-			owns_core_province = 4326
-			owns_core_province = 2235
-			owns_core_province = 2236
-			#owns_core_province = 476		
+			owns_core_province = 439		
 		}
 		effect = {
 			change_tag = BUK
@@ -121,7 +114,8 @@ country_decisions = {
 				}
 				add_permanent_claim = BUK
 			}
-			persia_region = {
+			
+			central_asia_region = {
 				limit = {
 					NOT = { owned_by = ROOT }
 				}
