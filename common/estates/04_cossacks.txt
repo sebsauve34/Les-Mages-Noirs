@@ -5,7 +5,7 @@ estate_cossacks = {
 	independence_government = republic
 	starting_reform = cossacks_reform
 	independence_tech_group = eastern
-
+	
 	province_independence_weight = {
 		factor = 1
 		modifier = {
@@ -49,10 +49,12 @@ estate_cossacks = {
 			AND = {
 				OR = {
 					has_unlocked_estate = { estate = estate_cossacks }
+					tag = BUK
 					AND = {
 						unit_type = eastern
 						religion_group = christian
 						OR = {
+							tag = BUK
 							has_estate = estate_cossacks
 							any_owned_province = {
 								has_terrain = steppe

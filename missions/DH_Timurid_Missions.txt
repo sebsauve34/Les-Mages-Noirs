@@ -12,6 +12,7 @@ dh_tim_india = {
 			tag = AFG
 			#TAG = QOM
 			tag = KHO
+			tag = BUK
 		}
 		has_dlc = "Dharma"
 		NOT = { map_setup = map_setup_random }

@@ -57,7 +57,7 @@ add_army_professionalism = 0.1
 	monarch = {
 		name = "Cungsan"
 		dynasty = "Aisin Gioro"
-		adm = 4
+		adm = 6
 		dip = 4
 		mil = 4
 		#leader = { name = "Cungsan" type = general	fire = 2	shock = 4	manuever = 4	siege = 1 }
