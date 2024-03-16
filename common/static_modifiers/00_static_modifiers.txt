@@ -813,7 +813,7 @@ army_tradition = {
 	nobles_loyalty_modifier = 0.05
 	maratha_loyalty_modifier = 0.05
 	rajput_loyalty_modifier = 0.05
-	yearly_army_professionalism = 0.01
+	yearly_army_professionalism = 0.02
 	monthly_prussian_militarized_society_1 = 0.1
 	land_forcelimit_modifier = 0.1
 }

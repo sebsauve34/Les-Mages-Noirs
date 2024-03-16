@@ -1667,7 +1667,7 @@ chinese_kingdoms_2 = {
 				region = xinan_region 
 				value = 15 
 			}
-			679 = { country_or_non_sovereign_subject_holds = ROOT } 
+			
 		}
 		effect = {
 			if = {
