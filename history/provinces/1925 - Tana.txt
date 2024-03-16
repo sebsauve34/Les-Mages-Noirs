@@ -1,7 +1,5 @@
 #1925 - Taveta
-add_core = MLI
-owner = MLI
-controller = MLI
+
 culture = bantu #thagiicu
 religion = shamanism #Fetishism
 trade_goods = ivory

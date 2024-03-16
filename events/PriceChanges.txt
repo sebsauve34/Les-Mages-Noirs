@@ -1138,7 +1138,7 @@ country_event = {
 		change_price = {
 			trade_goods = spices
 			key = DECLINE_OF_SPICE_TRADE
-			value = -1.0
+			value = -0.5
 			duration = -1
 		}
 	}

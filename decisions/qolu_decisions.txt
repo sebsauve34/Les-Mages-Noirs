@@ -1,32 +1,6 @@
 country_decisions = {
 
-	qolu_all_seats_parliament = {
-		color = { 66 245 242 }
-
-		potential = {
-			ai = no
-			has_parliament = yes
-			any_owned_province = {
-				has_seat_in_parliament = no
-			}
-		}
-
-		allow = {
-			any_owned_province = {
-				has_seat_in_parliament = no
-			}
-		}
-
-		effect = {
-			every_owned_province = {
-				limit = {
-					has_seat_in_parliament = no
-					is_state = yes
-				}
-				set_seat_in_parliament = yes
-			}
-		}
-	}
+	
 
 	qolu_wool_into_cloth_d = {
 		color = { 166  0  0 }
@@ -75,40 +49,6 @@ country_decisions = {
 			add_dip_power = -100
 		}
 
-	}
-
-	qolu_new_player_guide = {
-		color = { 66 245 242 }
-		potential = {
-			ai = no
-			NOT = { has_country_flag = qolu_guide_disabled }
-		}
-
-		allow = {
-			always = yes
-		}
-
-		effect = {
-			country_event = {
-				id = qolu.4
-			}
-		}
-	}
-
-	qolu_disable_guide = {
-		color = { 66 245 242 }
-		potential = {
-			ai = no
-			NOT = { has_country_flag = qolu_guide_disabled }
-		}
-
-		allow = {
-			always = yes
-		}
-
-		effect = {
-			set_country_flag = qolu_guide_disabled
-		}
 	}
 		
 	eco_golden_age = {
@@ -173,8 +113,8 @@ country_decisions = {
 
 		potential = {
 			ai =  no
-			adm_tech = 8
-			dip_tech = 8
+			adm_tech = 10
+			dip_tech = 10
 			capital_scope = {
 				continent = africa
 			}
@@ -186,8 +126,8 @@ country_decisions = {
 		}
 
 		allow = {
-			adm_tech = 8
-			dip_tech = 8
+			adm_tech = 10
+			dip_tech = 10
 			dip_power = 50
 		}
 
@@ -219,8 +159,8 @@ country_decisions = {
 		}
 
 		allow = {
-			adm_tech = 7
-			dip_tech = 7
+			adm_tech = 9
+			dip_tech = 9
 			dip_power = 50
 		}
 

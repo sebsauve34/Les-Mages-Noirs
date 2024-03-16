@@ -1,7 +1,5 @@
 #4054 - Kikuyu
-owner = BSG
-controller = BSG
-add_core = BSG
+
 culture = masaba
 religion = shamanism #Fetishism
 trade_goods = livestock

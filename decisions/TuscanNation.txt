@@ -69,6 +69,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = TUS
+			swap_non_generic_missions = yes
 			every_province = {
 				limit = {
 					culture = tuscan

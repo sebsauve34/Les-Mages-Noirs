@@ -1,7 +1,5 @@
 #4059 - Shaga
-add_core = BSG
-owner = BSG
-controller = BSG
+
 culture = masaba
 religion = shamanism #Fetishism
 trade_goods = iron

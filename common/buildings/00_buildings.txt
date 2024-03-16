@@ -539,6 +539,7 @@ coastal_defence = {
 		hostile_disembark_speed = 1.0
 		hostile_fleet_attrition = 2
 		block_slave_raid = yes
+		fort_level = 1
 	}
 
 	ai_will_do = {
@@ -1017,7 +1018,7 @@ naval_battery = {
 		hostile_disembark_speed = 1.0
 		hostile_fleet_attrition = 4
 		block_slave_raid = yes
-		fort_level = 1
+		fort_level = 2
 	}
 
 	ai_will_do = {

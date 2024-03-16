@@ -121,6 +121,8 @@ country_decisions = {
 				}
 				add_permanent_claim = BUK
 			}
+			change_technology_group = eastern
+			change_unit_type = eastern
 			set_global_flag = bukhara_formed
 			if = {
 				limit = { 
