@@ -558,6 +558,7 @@ horde_ideas = {
 	}
 	traditions_of_the_great_khan = {
 		cavalry_power = 0.15
+		cav_to_inf_ratio = 0.1
 	}
 	horse_supplies = {
 		land_maintenance_modifier = -0.075
@@ -1601,8 +1602,8 @@ caucasus_ideas = {
 
 ruthenian_ideas = {
 	start = {
-		manpower_recovery_speed = 0.20
-		global_manpower_modifier = 0.20
+		manpower_recovery_speed = 0.2
+		global_manpower_modifier = 0.2
 	}
 
 	bonus = {
@@ -1627,7 +1628,7 @@ ruthenian_ideas = {
 	}
 	zaporizhian_cossacs = {
 		cavalry_power = 0.15
-		cav_to_inf_ratio = 0.1
+		cav_to_inf_ratio = 0.2
 		can_recruit_hussars = yes
 	}
 	east_and_west = {

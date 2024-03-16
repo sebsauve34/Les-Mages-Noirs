@@ -412,7 +412,7 @@ AHU_ideas = {
 		global_own_trade_power = 0.25
 	}
 	ahu_3 = {
-		cavalry_power = 0.2
+		cavalry_power = 0.15
 		cav_to_inf_ratio = 0.2
 	}
 	ahu_4 = {
@@ -452,7 +452,7 @@ ARB_ideas = { #Arabian Empire
 		global_sailors_modifier = 0.25
 	}
 	arb_2 = { #Arabian Horsemanship
-		cavalry_power = 0.2
+		cavalry_power = 0.15
 		cav_to_inf_ratio = 0.1
 	}
 	arb_3 = { #Bedouin Raiders
@@ -1597,6 +1597,7 @@ TEX_ideas = { #Texas
 	}
 	vaqueros = {
 		cavalry_power = 0.15
+		cav_to_inf_ratio = 0.2
 	}
 	tex_native_frontiers = {
 		land_attrition = -0.15
@@ -2083,7 +2084,7 @@ BUK_ideas = {
 		development_cost = -0.1
 	}
 	bonus = {
-		global_trade_goods_size_modifier = 0.1
+		fire_damage = 0.1
 	}
 	trigger = {
 		tag = BUK
@@ -2102,17 +2103,16 @@ BUK_ideas = {
 		manpower_recovery_speed = 0.2
 	}
 	buk_mahalla_schools = {
-		technology_cost = -0.05
+		technology_cost = -0.1
 	}
 	buk_the_jews_of_bukhara = {
-		artillery_cost = -0.2	
-		artillery_power = 0.1
+		global_trade_goods_size_modifier = 0.1
 	}
 	buk_the_ark = {
 		production_efficiency = 0.1
 	}
 	buk_the_tower_of_death = {
-		drill_gain_modifier = 0.25
+		artillery_power = 0.1
 		artillery_fire = 0.5
 	}
 	buk_sahih_al-bukhari = {
