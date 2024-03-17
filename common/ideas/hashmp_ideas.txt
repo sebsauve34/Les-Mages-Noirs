@@ -2113,7 +2113,7 @@ BUK_ideas = {
 		production_efficiency = 0.1
 	}
 	buk_the_tower_of_death = {
-		artillery_fire = 0.5
+		artillery_shock = 1
 	}
 	buk_sahih_al-bukhari = {
 		discipline = 0.05
