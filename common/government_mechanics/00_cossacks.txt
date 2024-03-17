@@ -123,12 +123,7 @@ cossacks_mechanic = {
 				create_unit_forcelimit_percentage = {
 					type = infantry
 					special_unit_category = cossacks
-					force_limit_percentage = 0.15
-				}
-				create_unit_forcelimit_percentage = {
-					type = cavalry
-					special_unit_category = cossacks
-					force_limit_percentage = 0.5
+					force_limit_percentage = 0.25
 				}
 				add_war_exhaustion = -2
 			}

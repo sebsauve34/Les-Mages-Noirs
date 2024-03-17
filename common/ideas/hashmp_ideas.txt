@@ -2101,6 +2101,7 @@ BUK_ideas = {
 	}
 	buk_naqshbandi_patronage = {
 		manpower_recovery_speed = 0.2
+		movement_speed = 0.15
 	}
 	buk_mahalla_schools = {
 		technology_cost = -0.1

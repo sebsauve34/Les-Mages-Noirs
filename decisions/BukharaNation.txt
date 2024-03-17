@@ -123,6 +123,7 @@ country_decisions = {
 			}
 			change_technology_group = eastern
 			change_unit_type = eastern
+			add_government_reform = cossacks_reform 
 			set_global_flag = bukhara_formed
 			if = {
 				limit = { 
