@@ -1052,6 +1052,9 @@
 # Modifiers:
  alte_salzstrase: "Alte Salzstraße"
  desc_alte_salzstrase:0 "The Alte Salzstraße, also known as the Old Salt Road, was a very rich salt transporting network. Often called "White Gold", the salt mines were very lucrative for the northern parts of Germany, especially Lübeck, until the 17th century."
+#modifiers:
+  stannery_law_modifier:0 "Stannary Law"
+  desc_stannery_law_modifier:0 "The Stannary Laws, present since at least 1305, govern the tin mines of Cornwall and Devon. The laws established independent Stannary Courts, special taxation rights, and a local parliament especially for the many tin miners. These laws are still part of British law today, and despite being of little relevance now, it makes up the oldest law in the English Legal System."
 
 # Modifiers:
  granary_of_europe: "Granary of Europe"

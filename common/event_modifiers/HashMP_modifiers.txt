@@ -1022,7 +1022,9 @@ swedish_naval_reforms = {
 wallon_immigrants = {
 	trade_goods_size_modifier = 0.10
 }
-
+stannery_law_modifier = {
+	trade_goods_size = 2
+}
 hired_explorer = {
        land_forcelimit = 0
 }
