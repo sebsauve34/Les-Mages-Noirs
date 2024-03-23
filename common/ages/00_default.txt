@@ -570,7 +570,7 @@ age_of_absolutism = {
 
 		ab_rival_change = {
 			modifier = {
-				max_absolutism_effect = 0.3
+				force_march_free = yes	
 			}
 			ai_will_do = {
 				factor = 0
@@ -619,6 +619,7 @@ age_of_absolutism = {
 		ab_yearly_absolutism = {
 			modifier = {
 				yearly_absolutism = 1
+				max_absolutism = 10
 			}
 			ai_will_do = {
 				factor = 100
@@ -645,8 +646,7 @@ age_of_absolutism = {
 				}
 			}
 			modifier = {
-				trade_steering = 0.33
-				trade_efficiency = 0.15
+				leader_land_fire = 1	
 			}
 			ai_will_do = {
 				factor = 100
@@ -657,7 +657,7 @@ age_of_absolutism = {
 				technology_group = eastern
 			}
 			modifier = {
-				manpower_recovery_speed = 0.25
+				manpower_recovery_speed = 0.2
 			}
 			ai_will_do = {
 				factor = 100
@@ -843,7 +843,7 @@ age_of_revolutions = {
 			allow = {
 				OR = {
 					technology_group = muslim
-					technology_group = anatolian
+					technology_group = ottoman
 				}
 			}
 			modifier = {

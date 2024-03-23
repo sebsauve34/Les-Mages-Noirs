@@ -1816,11 +1816,11 @@ MLO_ideas = {
 BYZ_ideas = {
 	start = {
 		advisor_cost = -0.10
-		regiment_manpower_usage = -0.05
+		regiment_manpower_usage = -0.075
 	}
 	
 	bonus = {
-		military_tactics = 0.1
+		military_tactics = 0.125
 	}
 	
 	trigger = {
