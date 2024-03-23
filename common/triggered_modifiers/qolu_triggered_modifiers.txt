@@ -79,6 +79,10 @@ ahead_of_time = {
 	}
 	monthly_reform_progress_modifier = 0.25	
 	prestige = 0.5
+	global_prosperity_growth = 0.5
+	fort_maintenance_modifier = -0.1
+	merc_maintenance_modifier = -0.15
+	expand_infrastructure_cost_modifier = -0.25
 }
 
 Steppe_rule = {

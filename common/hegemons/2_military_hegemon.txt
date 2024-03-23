@@ -31,19 +31,19 @@ military_hegemon = {
 	
 	base = {
 		country_military_power = 1
-		war_exhaustion = -0.1
+		yearly_army_professionalism = 0.01
 		province_warscore_cost = -0.1
 	}
 	
 	# At max 100% tickup.
 	scale = {
-		movement_speed = 0.1
+		army_tradition = 1
 		land_attrition = -0.2
-		global_unrest = -3
+		reinforce_speed = 0.2
 	}
 	
 	max = {
-		siege_ability = 0.2
+		discipline = 0.03
 	}
 	
 }
