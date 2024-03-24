@@ -550,7 +550,7 @@ colonial_garrisons = {
 		full_idea_group = expansion_ideas
 	}
 
-	regiment_manpower_usage = -0.1
+	regiment_manpower_usage = -0.05
 	Land_maintenance_modifier = -0.1
 
 	effect = {}

@@ -1816,7 +1816,7 @@ MLO_ideas = {
 BYZ_ideas = {
 	start = {
 		advisor_cost = -0.10
-		regiment_manpower_usage = -0.075
+		regiment_manpower_usage = -0.05
 	}
 	
 	bonus = {
@@ -5067,11 +5067,12 @@ fulani_jihad_ideas = {
 	free = yes		#will be added at load.
 	
 	wandering_scholars = {
-		advisor_cost = -0.15
+		advisor_cost = -0.1
+		colonists = 1
 	}
 	
 	unrighteous_kings = { 
-		defensiveness = 0.15
+		defensiveness = 0.2
 		years_of_nationalism = -5
 	}
 	
@@ -5095,7 +5096,7 @@ fulani_jihad_ideas = {
 
 	caliph_in_africa = {
 		country_admin_power = 1
-		yearly_absolutism = 0.2
+		monthly_piety_accelerator = 0.001	
 	}
 	
 }
