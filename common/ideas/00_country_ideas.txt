@@ -1268,6 +1268,7 @@ PER_ideas = {
 	}
 	the_ghulams = {
 		discipline = 0.05
+		
 	}
 	improved_silk_road = {
 		caravan_power = 0.2

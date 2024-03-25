@@ -774,6 +774,7 @@ ask_for_tributary_state_action = {
 }
 
 break_alliance = {
+	is_at_war = no
 	effect = {
 		on_alliance_broken_effect = yes
 	}

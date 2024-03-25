@@ -57,6 +57,7 @@ country_decisions = {
 			NOT = { has_country_flag = economic_golden_age }
 		}
 		allow = {
+			ai  = no
 			adm_power = 100
 			dip_power = 100
 			mil_power = 100
