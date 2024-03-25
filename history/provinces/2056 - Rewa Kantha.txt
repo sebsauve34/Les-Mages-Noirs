@@ -1,7 +1,7 @@
 #2056 - Rewa Kantha
 
-owner = CMP
-controller = CMP
+owner = MLW
+controller = MLW
 culture = gujarati
 religion = hinduism
 capital = "Champaner"
@@ -11,8 +11,8 @@ base_tax = 2
 base_production = 2
 base_manpower = 2
 is_city = yes
-add_core = CMP
-fort_15th = yes #Champaner Fort
+add_core = MLW
+
 discovered_by = indian
 discovered_by = muslim 
 discovered_by = ottoman

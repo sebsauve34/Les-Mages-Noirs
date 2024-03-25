@@ -648,7 +648,7 @@ technology = {
 	}
 	#Covered Way
 	fort_18th	= yes	
-	military_tactics 	= 	0.25
+	infantry_fire		= 	0.25	
 
 	combat_width = 2
 }
@@ -668,7 +668,6 @@ technology = {
 	#Metallurgy
 	artillery_shock 	=	0.1
 	artillery_fire		=	2.0
-	infantry_fire		= 	0.25	
 	enable = royal_mortar	
 	enable = licorne
 }

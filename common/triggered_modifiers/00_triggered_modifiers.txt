@@ -286,114 +286,7 @@ custodian_of_the_two_holy_mosques = {
 #	missionaries = 1
 #}
 
-######################################
-# Catholic control of Rome.
-######################################
 
-papal_subjugation = {
-	potential = {
-		normal_or_historical_nations = yes
-		has_discovered = 118	# Roma
-		religion = catholic
-		NOT = { tag = PAP }
-	}
-
-	trigger = {	
-		overlord_of = PAP
-		NOT = { tag = ITA }
-		NOT = { tag = HLR }
-		if = {
-			limit = {
-				is_emperor = yes
-				has_dlc = "Emperor"
-			}
-			OR = {
-				PAP = {
-					NOT = { is_part_of_hre = yes }	#Needs to be written like that for localization purpose
-				}
-				NOT = { hre_reform_passed = emperor_privilegia_de_non_appelando }
-			}
-		}
-		else_if = {
-			limit = {
-				is_emperor = yes
-				NOT = { has_dlc = "Emperor" }
-			}
-			OR = {
-				PAP = {
-					NOT = { is_part_of_hre = yes }	#Needs to be written like that for localization purpose
-				}
-				NOT = { hre_reform_passed = privilegia_de_non_appelando }
-			}
-		}
-		custom_trigger_tooltip = {
-			tooltip = no_dip_malus_reward_tt
-			NOT = { has_country_flag = general_flag_for_FU_Rome_flag }			
-		}
-	}
-
-	diplomatic_reputation = -2
-	#icon = 9
-}
-
-
-rapid_collapse_of_society = {
-	potential = {
-		normal_or_historical_nations = yes
-		capital_scope = {
-			OR = {
-				continent = north_america
-				continent = south_america
-				continent = new_world
-			}
-		}
-		
-	}
-	trigger = {
-		NOT = { has_institution = feudalism }
-		custom_trigger_tooltip = {
-			tooltip = rapid_collapse_of_society_tooltip
-			has_country_flag = european_diseases_struck
-			NOT = {
-				had_country_flag = {
-					flag = european_diseases_struck
-					days = 9125
-				}
-			}
-		}
-	}
-	
-	all_power_cost = 0.33
-	discipline = -0.1
-	land_morale = -0.2
-	
-}
-
-######################################
-# Italian - Submission to Emperor
-######################################
-submission_to_emperor = {
-	potential = {
-		# AI will avoid joining HRE when this modifier is potential:
-
-		has_global_flag = italians_leave_hre
-		NOT = { has_country_flag = reined_in_for_shadow_kingdom }
-		is_emperor = no
-		NOT = { is_year = 1550 }
-		culture_group = latin
-	}
-
-	trigger = {
-		is_part_of_hre = yes
-		NOT = { tag = ITA }
-		NOT = { emperor = { alliance_with = ROOT } }
-		NOT = { is_year = 1550 } # Duplicating so it shows in tooltip
-	}
-
-	global_unrest = 3
-	stability_cost_modifier = 0.1
-	prestige = -1
-}
 
 
 
@@ -582,6 +475,7 @@ hre_dominant_catholic = {
 	tolerance_own = 1
 	global_missionary_strength = 0.01
 	imperial_authority = 0.25
+	army_tradition = 0.5
 }
 
 hre_dominant_protestant = {
@@ -606,6 +500,7 @@ hre_dominant_protestant = {
 	tolerance_own = 1
 	global_missionary_strength = 0.01
 	imperial_authority = 0.25
+	army_tradition = 0.5
 }
 
 hre_dominant_reformed = {
@@ -630,21 +525,10 @@ hre_dominant_reformed = {
 	tolerance_own = 1
 	global_missionary_strength = 0.01
 	imperial_authority = 0.25
+	army_tradition = 0.5
 }
 
-######################################
-# Robot parts
-######################################
 
-synthetic_remnants = {
-	potential = {
-		has_global_flag = synthetics_defeated
-	}
-	trigger = {
-		has_global_flag = synthetics_defeated
-	}
-	technology_cost = -0.25
-}
 
 ######################################
 # The Golden Age of Piracy
