@@ -127,7 +127,7 @@ technology = { #Courthouse
 
 	courthouse = yes
 	governing_capacity = 100
-
+	
 }
 
 technology = { #The Scythe
@@ -185,6 +185,8 @@ technology = { #Early Modern Administration
 	administrative_republic	= yes
 	governing_capacity = 150
 	state_house = yes
+	administrative_efficiency = 0.05
+	development_cost_modifier = -0.05
 }
 
 technology = { #Improved Drainage
@@ -261,8 +263,8 @@ technology = { #University
 	university = yes	
 	governing_capacity = 200
 	
-	administrative_efficiency = 0.1
-	development_cost_modifier = -0.1
+	administrative_efficiency = 0.05
+	development_cost_modifier = -0.05
 }
 
 technology = { #National Sovereignty
@@ -307,6 +309,8 @@ technology = { #Absolute Rulership
 	
 	republican_dictatorship = yes
 	governing_capacity = 250
+	administrative_efficiency = 0.05
+	development_cost_modifier = -0.05
 }
 
 technology = { #Land Clearance
@@ -357,8 +361,8 @@ technology = { #Measuring the World
 		manufactories = 0.1
 	}
 	
-	administrative_efficiency = 0.1
-	development_cost_modifier = -0.1
+	administrative_efficiency = 0.05
+	development_cost_modifier = -0.05
 }
 
 technology = { #Bonds and Tontines
@@ -390,7 +394,8 @@ technology = { #Improved Production
 		manufactories = 0.5
 	#	enlightenment = 0.3
 	}
-	
+	administrative_efficiency = 0.05
+	development_cost_modifier = -0.05
 	#Improved Farm Animals
 	production_efficiency 	=	0.02
 }
@@ -424,8 +429,8 @@ technology = { #Modern Bureaucracy
 		enlightenment = 0.3
 	}
 
-	administrative_efficiency = 0.1
-	development_cost_modifier = -0.1	
+	administrative_efficiency = 0.05
+	development_cost_modifier = -0.05	
 	governing_capacity = 250
 }
 
