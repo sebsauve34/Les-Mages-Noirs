@@ -1,8 +1,8 @@
 #Nkoma
 
-owner = BUU
-controller = BUU
-add_core = BUU
+owner = UBH
+controller = UBH
+add_core = UBH
 culture = rwandan
 religion = shamanism #Fetishism
 capital = "Nkoma"

@@ -1,7 +1,7 @@
 #2373 - Hue
 
-owner = ANN
-controller = ANN
+owner = DAI
+controller = DAI
 culture = vietnamese
 religion = mahayana
 capital = "Hue"
@@ -12,7 +12,7 @@ base_production = 5
 base_manpower = 3
 is_city = yes
 estate = estate_nobles
-add_core = ANN
+add_core = DAI
 discovered_by = chinese
 discovered_by = indian
 discovered_by = muslim

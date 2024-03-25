@@ -1,9 +1,9 @@
 #1132 - Timbuktu
 
-owner = SON
-controller = SON # under Tuareg rule to 1468
+owner = TMB
+controller = TMB # under Tuareg rule to 1468
 add_core = TMB
-add_core = SON
+
 culture = tuareg
 is_city = yes
 base_manpower = 2

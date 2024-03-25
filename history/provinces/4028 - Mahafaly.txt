@@ -1,8 +1,8 @@
 #4028 - Mahafaly
 
-owner = MFY
-controller = MFY
-add_core = MFY
+owner = SKA
+controller = SKA
+add_core = SKA
 culture = madagasque
 religion = shamanism #Fetishism
 capital = "Mahafaly"

@@ -1,8 +1,8 @@
 #4029 - Antanosy
 
-owner = ANT
-controller = ANT
-add_core = ANT
+owner = MIR
+controller = MIR
+add_core = MIR
 culture = madagasque
 religion = sunni
 capital = "Antanosy"
