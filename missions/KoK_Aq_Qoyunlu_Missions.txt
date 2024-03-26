@@ -2221,7 +2221,7 @@ aq_qoyunlu_fifth = {
 					has_dlc = "The Cossacks"
 				}
 				custom_tooltip = turkoman_tribes_access_tt
-				set_country_flag = turkoman_unlocked_tribes
+				
 			}
 			add_country_modifier = {
 				name = "turkoman_sons_of_conquerors"
