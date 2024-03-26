@@ -1017,17 +1017,28 @@ country_event = {
 		##Vow to restore the union
 		add_prestige = 10
 		add_treasury = 100
-
-		add_casus_belli = {
-			target = NOR
-			type = cb_restore_personal_union
+		
+		northern_norway {
+			add_permanent_claim = ROOT
+		}
+		
+		eastern_norway = {
+			add_permanent_claim = ROOT
 		}
 
 		skaneland_area = {
 			add_core = ROOT
 		}
 
+		western_norway = {
+			add_permanent_claim = ROOT
+		}
+
 		25 = {
+			add_permanent_claim = ROOT
+		}
+
+		16 = {
 			add_permanent_claim = ROOT
 		}
 

@@ -481,11 +481,11 @@ h_danish_kalmar_union_conquest = {
 }
 
 h_danish_conquerer_of_scandinavia = {
-	land_morale = 0.10
+	land_morale = 0.1
 }
 
 h_danish_dismantled_ships = {
-	artillery_cost = -0.25
+	naval_morale = 0.1
 }
 
 h_danish_pomerania_military = {

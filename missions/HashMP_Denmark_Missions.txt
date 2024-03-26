@@ -2425,7 +2425,6 @@ h_danish_missions_prologue_4 = {
 		}
 		trigger = {
 			has_ruler_modifier = h_christopher_iii
-			manpower_percentage = 0.60
 			army_size_percentage = 1
 			num_of_generals = 1
 		}
