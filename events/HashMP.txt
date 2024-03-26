@@ -1025,6 +1025,10 @@ country_event = {
 		eastern_norway = {
 			add_permanent_claim = ROOT
 		}
+		
+		jemtland_area = {
+			add_permanent_claim = ROOT
+		}
 
 		skaneland_area = {
 			add_core = ROOT
