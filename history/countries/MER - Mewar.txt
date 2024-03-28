@@ -5,6 +5,13 @@ religion = hinduism
 technology_group = indian
 capital = 518	# Chittogarh
 add_army_professionalism = 0.1
+change_vaisyas_or_burghers_land_share_effect = {
+	share = 12
+}
+
+change_rajputs_or_marathas_or_nobles_land_share_effect = {
+	share = 10
+}
 1382.1.1 = {
 	monarch = {
 		name = "Lakha Singh"

@@ -13,9 +13,9 @@ capital = 541	# Vijayanagara
 #	share = 5
 #}
 
-#change_rajputs_or_marathas_or_nobles_land_share_effect = {
-#	share = 10
-#}
+change_rajputs_or_marathas_or_nobles_land_share_effect = {
+	share = 10
+}
 
 1377.1.1 = {
 	monarch = {
