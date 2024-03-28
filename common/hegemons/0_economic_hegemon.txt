@@ -20,7 +20,7 @@ economic_hegemon = {
 	
 	# At max 100% tickup.
 	scale = {
-		land_forcelimit_modiifer = 0.25
+		land_forcelimit_modifier = 0.25
 		global_trade_goods_size_modifier = 0.1
 		governing_capacity_modifier = 0.25
 	}
