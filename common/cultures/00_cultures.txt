@@ -590,6 +590,7 @@ scandinavian = { #Nordic
 	}
 	danish = {
 		primary = DAN
+		province = { local_has_carolean = yes }
 		male_names = {
 			Anders Andrew Anund Asger Balder Benedikt Benedict Bjørn Beorn Bo Christopher Edvard Edward 
 			Einar Ernest Fredrik Frederick Frej Glum Gorm Gotfred Godfrey Gregers Gregory Grim Hårik 
