@@ -10463,7 +10463,7 @@ turkoman_architectural_revival = {
 }
 
 turkoman_privilege_mountains = {
-	local_development_cost = -0.15
+	local_development_cost = -0.1
 }
 
 turkoman_privilege_highlands = {
@@ -10471,7 +10471,7 @@ turkoman_privilege_highlands = {
 }
 
 turkoman_privilege_desert = {
-	local_development_cost = -0.2
+	local_development_cost = -0.1
 }
 
 turkoman_privilege_drylands = {
