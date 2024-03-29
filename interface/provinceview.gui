@@ -567,11 +567,20 @@ guiTypes = {
 			moveable = 0
 			Orientation = "UPPER_LEFT"
 
-			### Core
+			### Hey you found our button!
+			# This one is for creating trade centers
 			guiButtonType = {
 				name = "iv_tradecenter_button"
 				position = { x = 447 y = 56 }
 				quadTextureSprite = "GFX_button_flogi_tradecenter"
+				scripted = yes
+			}
+
+			# This one is for changing wool to cloth
+			guiButtonType = {
+				name = "lms_cloth_to_wool_button"
+				position = { x = 447 y = 21 }
+				quadTextureSprite = "GFX_button_cloth_change"
 				scripted = yes
 			}
 
