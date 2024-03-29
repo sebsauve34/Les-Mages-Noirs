@@ -1,0 +1,67 @@
+
+################################################################
+#### Make Trade Center Province Decision
+################################################################
+# To the poor soul trying to recreate this...
+################################################################
+
+# This is the file that declares the button
+# The button graphic can be found in /gfx/interface/button_flogi_tradecenter.dds
+# The button is assigned to the GUI window in /interface/provinceview.gui on line 571 as of now
+# The graphic is assigned in the file /interface/custom_button.gfx 
+
+# FROM always refers to the country itself
+# Owner is the country too, however I didnt figure out what exactly the difference is
+# ROOT always refers to the province
+
+
+custom_button = {
+    name = iv_tradecenter_button
+	tooltip = iv_tradecenter_button_title
+    potential = {
+        owned_by = FROM				#You want this so that you can only see this button on your own provinces!
+    }
+    trigger = { 
+		
+		FROM = {
+			NOT = { has_country_modifier = trade_hub_created }
+			treasury = 200
+			dip_power = 50
+			is_at_war = no
+		}	
+		ROOT = {
+			is_state_core = FROM
+			development = 30
+			NOT = { 
+				area_for_scope_province = { 
+					OR = {
+						province_has_center_of_trade_of_level = 1 
+					}
+				}
+			}
+			OR = {
+				has_building = marketplace
+				has_building = trade_depot
+				has_building = stock_exchange
+			}
+		}
+	}
+    effect = { 
+		owner = { #This will apply to the country
+			add_country_modifier = {
+				name = "trade_hub_created"
+				duration = 3650
+			}
+			add_treasury = -200
+			add_dip_power = -50
+		}
+
+		#These will apply on the province
+		center_of_trade = 1
+		add_province_modifier = {
+			name = "trade_hub_created_in_province"
+			duration = 3650
+		}
+		add_base_production = 2
+	}	
+}
