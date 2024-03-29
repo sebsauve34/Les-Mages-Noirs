@@ -352,7 +352,7 @@
  AGE_ABSOLUTE_ALLOW:0 "(Enables the Absolutism mechanics.)"
  AGE_ABSOLUTE_RELIGIOUS_CONFLICTS:0 "(Enables the Religious Conflicts.)"
  ALREADY_GOLDEN_ERA:0 "You have already enacted a Golden Era. "
- START_GOLDEN_AGE:0 "Start Golden Era"
+ START_GOLDEN_AGE:0 "£infantry_icon_small£Start Military Golden Age£infantry_icon_small£"
  WE_ARE_IN_A_GOLDEN_ERA:0 "We are already in a Golden Era. The Golden Era will last until $UNTIL|Y$.\nA Golden Era has the following effects:\n$EFFECTS$"
  GOLDEN_ERA_NOT_NUF:0 "To enact a Golden Era you need to have at least $NUM|Y$ objectives fulfilled.\nA Golden Era has the following effects:\n$EFFECTS$"
  GOLDEN_ERA_ENACT:0 "A Golden Era lasts for $YEARS|Y$ years, and gives the following effects:\n$EFFECTS$\nPlease be aware that a Golden Era can only be enacted once by a country in a campaign."

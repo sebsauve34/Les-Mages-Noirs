@@ -4,17 +4,19 @@
 ################################################################
 # To the poor soul trying to recreate this...
 ################################################################
+#Made by Yannick
 
 # This is the file that declares the button
 # The button graphic can be found in /gfx/interface/button_flogi_tradecenter.dds
 # The button is assigned to the GUI window in /interface/provinceview.gui on line 571 as of now
 # The graphic is assigned in the file /interface/custom_button.gfx 
+# You will need to add 'scripted = yes' to your guiButtonType or else it will NOT work
 
 # FROM always refers to the country itself
 # Owner is the country too, however I didnt figure out what exactly the difference is
 # ROOT always refers to the province
 
-
+#Spawn trade center of trade button
 custom_button = {
     name = iv_tradecenter_button
 	tooltip = iv_tradecenter_button_title
@@ -108,5 +110,34 @@ custom_button = {
 		change_trade_goods = cloth
 		add_base_production = 2
 
+	}	
+}
+
+#Economic Golden Age button
+custom_button = {
+    name = economic_golden_age
+	tooltip = economic_golden_age_title
+    potential = {
+		FROM = {
+			NOT = { has_country_flag = economic_golden_age }
+		}
+    }
+    trigger = { 
+		FROM = {
+			ai  = no
+			adm_power = 100
+			dip_power = 100
+			mil_power = 100
+			splendor = 200
+		}	
+	}
+    effect = { 
+		FROM = { #This will apply to the country
+			add_country_modifier = {
+				name = "economic_golden_age"
+				duration = 18250
+			}
+			set_country_flag = economic_golden_age
+		}
 	}	
 }

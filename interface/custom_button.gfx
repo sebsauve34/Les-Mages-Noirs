@@ -14,4 +14,9 @@ spriteTypes = {
 		effectFile = "gfx/FX/buttonstate.lua"
 		loadType = "INGAME"
 	}
+
+	spriteType = {
+		name = "GFX_age_golden_age_button"
+		texturefile = "gfx/interface/ages/age_golden_age_button.dds"
+	}
 }
