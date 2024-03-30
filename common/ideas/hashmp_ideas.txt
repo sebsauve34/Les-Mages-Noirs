@@ -238,7 +238,7 @@ YUE_ideas = { #Yue
 	free = yes #will be added at load.
 	
 	YUE_1 = {
-		morale_damage_received = -0.2
+		morale_damage_received = -0.15
 	}
 	YUE_2 = {
 		development_cost = -0.1
@@ -293,7 +293,7 @@ QIC_ideas = { #Qi
 		num_accepted_cultures = 2
 	}
 	QIC_6 = {
-		movement_speed = 0.2
+		movement_speed = 0.1
 		leader_land_manuever = 1
 	}
 	QIC_7 = {
@@ -458,7 +458,7 @@ ARB_ideas = { #Arabian Empire
 	arb_3 = { #Bedouin Raiders
 		hostile_attrition = 1
 		max_hostile_attrition = 1
-		movement_speed = 0.2
+		movement_speed = 0.1
 	}
 	arb_4 = { #Spreading the Prophet's Word
 		global_missionary_strength = 0.03
