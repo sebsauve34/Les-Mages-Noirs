@@ -37,7 +37,6 @@ h_csh_anc1_2 = {
 
 h_csh_anc1_3 = {
 	advisor_cost = -0.1
-	
 }
 
 h_csh_anc2_1 = {
