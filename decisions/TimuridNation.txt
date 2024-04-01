@@ -133,7 +133,7 @@ country_decisions = {
 				primary_culture = turkmeni
 			}
 			religion_group = muslim
-			#dynasty = "Timurid"
+			dynasty = "Timurid"
 		}
 		provinces_to_highlight = {
 			OR = {
