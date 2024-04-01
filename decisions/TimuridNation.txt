@@ -23,6 +23,7 @@ country_decisions = {
 				tag = YZD
 				tag = AFG
 				tag = TRS
+				tag = SHY
 			}
 			OR = {
 				culture_group = iranian
@@ -100,7 +101,7 @@ country_decisions = {
 			factor = 1
 		}
 	}
-
+}
 	timurid_nation = {
 		major = yes
 		potential = {
@@ -132,7 +133,7 @@ country_decisions = {
 				primary_culture = turkmeni
 			}
 			religion_group = muslim
-			dynasty = "Timurid"
+			#dynasty = "Timurid"
 		}
 		provinces_to_highlight = {
 			OR = {
