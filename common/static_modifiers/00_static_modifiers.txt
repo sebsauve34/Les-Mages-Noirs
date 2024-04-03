@@ -1927,7 +1927,7 @@ over_governing_capacity_modifier = {
 	monthly_ottoman_decadence = 2
 	global_tax_modifier = -0.5
 	production_efficiency = -0.5
-	trade_goods_size_modifier = -0.75
+	global_trade_goods_size_modifier = -0.75
 }
 
 
