@@ -784,7 +784,9 @@ h_reclaimed_york = {
 h_danish_highlanders = {
 	shock_damage = 0.15
 }
-
+h_danish_royal_army = {
+	artillery_fire = 0.5
+}
 h_danish_north_sea_ambitions = {
 	naval_morale = 0.1
 	sailors_recovery_speed = 0.1
