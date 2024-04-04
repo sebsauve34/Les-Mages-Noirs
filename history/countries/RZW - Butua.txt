@@ -16,8 +16,8 @@ capital = 1185	# Butua
 	monarch = {
 		name = "Dlembeu"
 		dynasty = "Torwa"
-		adm = 3
-		dip = 3
+		adm = 4
+		dip = 5
 		mil = 3
 	}
 }
