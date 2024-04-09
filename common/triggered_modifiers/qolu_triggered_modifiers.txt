@@ -56,7 +56,7 @@ war_chest = {
 		NOT = { is_colonial_nation = yes }	
 		is_at_war = yes
 		land_maintenance = 1
-		army_size_percentage = 1
+		army_size_percentage = 0.75
 		NOT = { num_of_allies = 1 }
 	}
 	land_morale = 0.1
