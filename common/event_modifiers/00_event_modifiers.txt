@@ -12887,11 +12887,11 @@ estate_burghers_control_over_gold_mine = {
 }
 
 estate_burghers_hydraulic_rights_desert = {
-	local_development_cost = -0.1
+	local_development_cost = -0.05
 }
 
 estate_burghers_hydraulic_rights_coastal_desert = {
-	local_development_cost = -0.075
+	local_development_cost = -0.05
 }
 
 estate_burghers_hydraulic_rights_steppes = {
@@ -13073,7 +13073,7 @@ liv_the_general = {
 
 #Province modifiers
 estate_burghers_forest_expansion_forest = {
-	local_development_cost = -0.075
+	local_development_cost = -0.05
 }
 
 estate_burghers_forest_expansion_woods = {
@@ -13081,15 +13081,15 @@ estate_burghers_forest_expansion_woods = {
 }
 
 estate_burghers_mountain_expansion_mountains = {
-	local_development_cost = -0.15
+	local_development_cost = -0.05
 }
 
 estate_burghers_mountain_expansion_highlands = {
-	local_development_cost = -0.075
+	local_development_cost = -0.05
 }
 
 estate_burghers_mountain_expansion_hills = {
-	local_development_cost = -0.1
+	local_development_cost = -0.05
 }
 
 estate_nobles_religious_conscription_cathedral = {
