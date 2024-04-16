@@ -11125,7 +11125,7 @@ ARB_stewards_of_the_two_cities = {
 }
 
 ARB_well_managed = {
-	local_development_cost = -0.2
+	local_development_cost = -0.05
 }
 
 ARB_increased_pilgrim_traction = {
@@ -11138,7 +11138,7 @@ ARB_naval_routes = {
 }
 
 ARB_port_in_jeddah = {
-	local_development_cost = -0.2
+	local_development_cost = -0.05
 }
 
 ARB_guarantors_of_peace = {
@@ -11178,22 +11178,22 @@ ARB_muslim_enforced_religion_buff = {
 }
 
 ARB_estate_burghers_desert = {
-	local_development_cost = -0.15
+	local_development_cost = -0.05
 }
 
 ARB_estate_burghers_arid_climate_development = {
 	local_colonial_growth = 5
-	local_development_cost = -0.05
+	
 }
 
 ARB_oasis_city_on_stop_to_mecca = {
 	tax_income = 4 
-	local_development_cost = -0.25
+	local_development_cost = -0.05
 }
 
 ARB_oasis_city_on_stop_to_mecca_2 = {
 	tax_income = 12 
-	local_development_cost = -0.5
+	local_development_cost = -0.1
 }
 
 ABR_safety_for_the_caravans = {
@@ -11225,7 +11225,7 @@ ARB_northern_citadel = {
 }
 
 ARB_dhimmi_self_government = {
-	development_cost = -0.1
+	development_cost = -0.05
 }
 
 ARB_claiming_title_of_caliph = {
@@ -11248,8 +11248,8 @@ ARB_reconquest_of_sicily = {
 }
 
 ARB_second_islamic_golden_age_modifier = {
-	same_religion_advisor_cost = -0.25
-	all_power_cost = -0.1
+	same_religion_advisor_cost = -0.15
+	all_power_cost = -0.05
 	global_trade_goods_size_modifier = 0.1
 }
 

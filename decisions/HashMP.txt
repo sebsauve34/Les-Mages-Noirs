@@ -6,29 +6,29 @@
 
 country_decisions = {
 
-	h_combat_janissary_decadence = {
-		major = yes
-		potential = {
-			tag = TUR
-			NOT = {
-				has_country_modifier = h_janissary_decadence
-			}
-		}
-		allow = {
-			tag = TUR
-			janissary_percentage = 0.1
-			stability = 1
-			mil_power = 100
-			
-		}
-		effect = {
-			add_mil_power = -150
-			add_country_modifier = {
-				name = "h_janissary_decadence"
-				duration = -1
-			}
-		}
-	}
+	#h_combat_janissary_decadence = {
+	#	major = yes
+	#	potential = {
+	#		tag = TUR
+	#		NOT = {
+	#			has_country_modifier = h_janissary_decadence
+	#		}
+	#	}
+	#	allow = {
+	#		tag = TUR
+	#		janissary_percentage = 0.1
+	#		stability = 1
+	#		mil_power = 100
+	#		
+	#	}
+	#	effect = {
+	#		add_mil_power = -150
+	#		add_country_modifier = {
+	#			name = "h_janissary_decadence"
+	#			duration = -1
+	#		}
+	#	}
+	#}
 	h_ruler_tutor = {
 		major = yes
 		potential = {

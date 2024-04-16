@@ -2993,7 +2993,6 @@ tur_janissaries_salary = {
 
 tur_devshirme_recruitment = {
 	reinforce_speed = 0.25
-	reinforce_cost_modifier = -0.1
 	is_janissary_modifier = yes
 }
 
@@ -3236,6 +3235,7 @@ janissaries_denied_reward = {
 strictly_enforced_janissary_discipline = {
 	is_janissary_modifier = yes
 	discipline = 0.05
+	reinforce_speed = -0.25
 }
 
 non_christian_janissaries = {
@@ -3261,7 +3261,7 @@ janissaries_upset = {
 
 janissaries_disciplined = {
 	is_janissary_modifier = yes
-	land_maintenance_modifier = 0.1
+	land_maintenance_modifier = 0.2
 }
 
 #Janissary Disaster:
@@ -11019,11 +11019,11 @@ maratha_benign_neglect = {
 # Janissary events
 janissary_policemen = {
 	global_unrest = -1
-	global_autonomy = -0.03
+	
 }
 
 janissary_fireighters = {
-	global_monthly_devastation = -0.03
+	
 	global_tax_modifier = 0.05
 }
 

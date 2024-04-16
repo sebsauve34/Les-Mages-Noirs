@@ -539,7 +539,7 @@ TUR_ideas = {
 	}		
 	lawcode_of_suleiman_01 = {
 		global_tax_modifier = 0.15
-		infantry_power = 0.15
+		infantry_power = 0.1
 	}
 	tulip_period = {
 		trade_efficiency = 0.10
