@@ -178,7 +178,7 @@ theocracy_gov_ideas = {
 		war_exhaustion_cost = -0.33
 	}
 	flesh_is_weak = {
-		morale_damage_received = -0.15
+		land_morale = 0.1
 	}
 	alpha_and_omega = {
 		enforce_religion_cost = -0.3
@@ -665,7 +665,7 @@ defensive_ideas = {
 		shock_damage_received = -0.15
 	}
 	military_drill = {
-		land_morale = 0.1
+		morale_damage_received = -0.15
 	}
 	improved_manuever = {
 		reinforce_speed = 0.25

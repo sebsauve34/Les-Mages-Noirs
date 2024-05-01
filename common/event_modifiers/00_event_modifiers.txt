@@ -13426,12 +13426,12 @@ inaccurate_road_maps = {
 }
 
 insufficient_construction_supplies = {
-	build_cost = 0.15
+	build_cost = 0.05
 }
 
 slowed_down_development = {
 	local_development_cost_modifier = 0.05
-	local_development_cost = 0.1
+	local_development_cost = 0.05
 	local_build_time = 0.5
 }
 

@@ -255,7 +255,7 @@ h_yue_anc3_2 = {
 }
 
 h_yue_anc3_3 = {
-	morale_damage_received = -0.15
+	land_morale = 0.1
 }
 
 h_chinese_empire = {
@@ -284,5 +284,5 @@ h_wuu_legacy = {
 }
 
 h_yue_legacy = {
-	morale_damage_received = -0.15
+	land_morale = 0.1
 }

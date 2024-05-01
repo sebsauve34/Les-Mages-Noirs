@@ -793,7 +793,7 @@ local_militias = {
 		full_idea_group = defensive_ideas
 	}	
 	
-	land_morale = 0.05
+	morale_damage_received = -0.1
 	global_manpower_modifier = 0.2
 	
 	effect = {}
@@ -1232,7 +1232,7 @@ wielders_of_the_flaming_sword_policy = {
 		full_idea_group = religious_ideas
 	}
 
-	morale_damage_received = -0.1
+	land_morale = 0.05
 	manpower_in_true_faith_provinces= 0.1
 	
 	effect = {}

@@ -238,7 +238,7 @@ YUE_ideas = { #Yue
 	free = yes #will be added at load.
 	
 	YUE_1 = {
-		morale_damage_received = -0.15
+		land_morale = 0.1
 	}
 	YUE_2 = {
 		development_cost = -0.1
