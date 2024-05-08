@@ -10,9 +10,14 @@ dh_tim_india = {
 			tag = TIM
 			tag = TRS
 			tag = AFG
-			#TAG = QOM
+			tag = QOM
 			tag = KHO
-			tag = BUK
+		}
+		NOT = {
+			AND = {
+				has_dlc = "Winds of Change"
+				tag = TIM
+			}
 		}
 		has_dlc = "Dharma"
 		NOT = { map_setup = map_setup_random }
@@ -42,6 +47,13 @@ dh_tim_india = {
 				add_permanent_claim = ROOT
 			}
 			birjand_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			sistan_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { owned_by = ROOT }
@@ -81,7 +93,7 @@ dh_tim_india = {
 	}
 	
 	dh_tim_khorasan_one = {
-		icon = mission_non-western_cavalry_raid
+		icon = per_establish_western_defenses
 		required_missions = { dh_tim_army_built }
 		position = 3
 		
@@ -89,7 +101,7 @@ dh_tim_india = {
 			OR = {
 				area = mashhad_area
 				area = birjand_area
-				
+				area = sistan_area
 				area = herat_area
 			}
 			NOT = { owned_by = ROOT }
@@ -104,7 +116,10 @@ dh_tim_india = {
 				type = all
 				owned_by = ROOT
 			}
-			
+			sistan_area = {
+				type = all
+				owned_by = ROOT
+			}
 			herat_area = {
 				type = all
 				owned_by = ROOT
@@ -140,7 +155,7 @@ dh_tim_india = {
 	}
 	
 	dh_tim_khorasan_two = {
-		icon = mission_unite_home_region
+		icon = per_establish_eastern_defenses
 		required_missions = { dh_tim_khorasan_one }
 		position = 5
 		

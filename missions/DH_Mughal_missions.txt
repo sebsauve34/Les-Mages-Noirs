@@ -7,6 +7,7 @@ mug_timurid_resurgence = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
+		NOT = { has_dlc = "Winds of Change" }
 	}
 	potential = {
 		tag = MUG
@@ -14,6 +15,7 @@ mug_timurid_resurgence = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
+		NOT = { has_dlc = "Winds of Change" }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -93,7 +95,15 @@ mug_timurid_resurgence = {
 				}
 				add_permanent_claim = ROOT
 			}
-			
+			sistan_area = {
+				limit = {
+					NOT = {
+						is_permanent_claim = ROOT
+						is_core = ROOT
+					}
+				}
+				add_permanent_claim = ROOT
+			}
 			herat_area = {
 				limit = {
 					NOT = {
@@ -132,7 +142,7 @@ mug_timurid_resurgence = {
 		provinces_to_highlight = {
 			OR = {
 				area = ghor_area
-				
+				area = sistan_area
 				area = herat_area
 				area = balkh_area
 				area = kabulistan_area
@@ -146,7 +156,10 @@ mug_timurid_resurgence = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			
+			sistan_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
 			herat_area = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
@@ -282,6 +295,7 @@ mug_towards_china = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
+		NOT = { has_dlc = "Winds of Change" }
 	}
 	potential = {
 		tag = MUG
@@ -289,6 +303,7 @@ mug_towards_china = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
+		NOT = { has_dlc = "Winds of Change" }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -493,6 +508,7 @@ mug_land_assesement = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
+		NOT = { has_dlc = "Winds of Change" }
 	}
 	potential = {
 		tag = MUG
@@ -500,6 +516,7 @@ mug_land_assesement = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
+		NOT = { has_dlc = "Winds of Change" }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -535,6 +552,7 @@ mug_indus_branch = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
+		NOT = { has_dlc = "Winds of Change" }
 	}
 	potential = {
 		tag = MUG
@@ -542,6 +560,7 @@ mug_indus_branch = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
+		NOT = { has_dlc = "Winds of Change" }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -594,6 +613,7 @@ mug_ganges_branch = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
+		NOT = { has_dlc = "Winds of Change" }
 	}
 	potential = {
 		tag = MUG
@@ -601,6 +621,7 @@ mug_ganges_branch = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
+		NOT = { has_dlc = "Winds of Change" }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -1052,6 +1073,7 @@ mug_hindustan_branch = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
+		NOT = { has_dlc = "Winds of Change" }
 	}
 	potential = {
 		tag = MUG
@@ -1059,6 +1081,7 @@ mug_hindustan_branch = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
+		NOT = { has_dlc = "Winds of Change" }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -1396,6 +1419,7 @@ mug_desh = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
+		NOT = { has_dlc = "Winds of Change" }
 	}
 	potential = {
 		tag = MUG
@@ -1403,6 +1427,7 @@ mug_desh = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
+		NOT = { has_dlc = "Winds of Change" }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -1449,6 +1474,7 @@ mug_sufis = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
+		NOT = { has_dlc = "Winds of Change" }
 	}
 	potential = {
 		tag = MUG
@@ -1456,6 +1482,7 @@ mug_sufis = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
+		NOT = { has_dlc = "Winds of Change" }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -1549,6 +1576,7 @@ mug_rajput_branch = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
+		NOT = { has_dlc = "Winds of Change" }
 	}
 	potential = {
 		tag = MUG
@@ -1556,6 +1584,7 @@ mug_rajput_branch = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
+		NOT = { has_dlc = "Winds of Change" }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -1801,6 +1830,7 @@ mug_hyderabad_branch = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
+		NOT = { has_dlc = "Winds of Change" }
 	}
 	potential = {
 		tag = MUG
@@ -1808,6 +1838,7 @@ mug_hyderabad_branch = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
+		NOT = { has_dlc = "Winds of Change" }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -1918,6 +1949,7 @@ mug_deccan_branch = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
+		NOT = { has_dlc = "Winds of Change" }
 	}
 	potential = {
 		tag = MUG
@@ -1925,6 +1957,7 @@ mug_deccan_branch = {
 			has_dlc = "Dharma"
 			has_dlc = "King of Kings"
 		}
+		NOT = { has_dlc = "Winds of Change" }
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
