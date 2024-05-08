@@ -2505,7 +2505,7 @@ WoC_mughals_5 = {
 		}
 		effect = {
 			give_claims = { area = ghor_area }
-			give_claims = { area = sistan_area }
+			
 			give_claims = { area = herat_area }
 			give_claims = { area = balkh_area }
 			give_claims = { area = kabulistan_area }
@@ -2523,7 +2523,7 @@ WoC_mughals_5 = {
 		provinces_to_highlight = {
 			OR = {
 				area = ghor_area
-				area = sistan_area
+				
 				area = herat_area
 				area = balkh_area
 				area = kabulistan_area
@@ -2534,7 +2534,7 @@ WoC_mughals_5 = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				OR = {
 					area = ghor_area
-					area = sistan_area
+					
 					area = herat_area
 					area = balkh_area
 					area = kabulistan_area

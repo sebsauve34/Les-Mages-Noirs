@@ -4893,3 +4893,13 @@ is_or_was_moghulistan_nation = {
 		}
 	}
 }
+
+is_ahead_of_time_in_technology = {
+	custom_trigger_tooltip = {
+		tooltip = is_ahead_of_time_in_technology_$tech$
+		has_global_modifier_value = {
+			which = ahead_of_time_benefit_$tech$
+			value = 1
+		}
+	}
+}
