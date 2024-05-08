@@ -12,6 +12,7 @@ historical_rival = TUR
 historical_rival = FRA
 add_army_professionalism = 0.1
 add_accepted_culture = slovene
+set_estate_privilege = estate_nobles_habsburg_disunity
 
 1395.8.29 = {
 	monarch = {
