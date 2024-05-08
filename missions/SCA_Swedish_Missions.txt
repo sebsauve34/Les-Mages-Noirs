@@ -1033,7 +1033,8 @@ h_swedish_missions_5 = {
 		}
 		trigger = {
 			num_of_owned_provinces_with = {
-				value = 10
+				value = 5
+				trade_goods = iron
 				has_manufactory_trigger = yes
 			}
 		}

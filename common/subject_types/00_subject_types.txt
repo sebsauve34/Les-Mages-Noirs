@@ -576,7 +576,7 @@ colony = {
 	diplomacy_subject_sprite = GFX_diplomacy_subjectcolony
 
 	# Properties:
-	can_release_and_play = yes
+	can_release_and_play = no
 	uses_tariffs = yes
 	eats_overlords_colonies = yes
 	has_colonial_parent = yes
@@ -592,10 +592,10 @@ colony = {
 	can_concentrate_development = no
 	extend_trading_range = yes
 
-	liberty_desire_development_ratio = 0.1
+	liberty_desire_development_ratio = 0.05
 	opinion_on_subject_integration = 0
 	max_government_rank = 1
-	cities_required_for_bonuses = 10
+	cities_required_for_bonuses = 20
 
 	relative_power_class = 0
 	should_quit_wars_on_activation = yes
@@ -674,8 +674,8 @@ crown_colony = {
 	# Subject Interactions:
 	embargo_rivals = yes
 	support_loyalists = yes
-	subsidize_armies = yes
-	send_officers = yes
+	subsidize_armies = no
+	send_officers = no
 	enforce_religion = yes
 	takeondebt = yes
 	block_settlement_growth = yes
@@ -705,8 +705,8 @@ private_enterprise = {
 	is_colony_subtype = yes
 	count = colony
 
-	forcelimit_to_overlord = 0.0
-	manpower_to_overlord = 0.0
+	forcelimit_to_overlord = 0.05
+	manpower_to_overlord = 0.05
 	naval_forcelimit_to_overlord = 0.2
 	sailors_to_overlord = 0.2
 
@@ -739,10 +739,10 @@ self_governing_colony = {
 	is_colony_subtype = yes
 	count = colony
 
-	forcelimit_to_overlord = 0.002
-	manpower_to_overlord = 0.002
-	naval_forcelimit_to_overlord = 0.002
-	sailors_to_overlord = 0.002
+	forcelimit_to_overlord = 0.05
+	manpower_to_overlord = 0.05
+	naval_forcelimit_to_overlord = 0.05
+	sailors_to_overlord = 0.05
 
 	# Subject Interactions:
 	replace_governor = no
