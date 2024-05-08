@@ -3,11 +3,11 @@ hab_holy_roman_ambitions = {
 	generic = no #if a mission without generic = yes wants this slot then it overrides this.
 	ai = yes
 	potential = {
-		NOT = { map_setup = map_setup_random }
-		OR = {
-		tag = HAB
-		tag = AHU
+		NOT = {
+			has_dlc = "Winds of Change"
 		}
+		NOT = { map_setup = map_setup_random }
+		tag = HAB
 	}
 	has_country_shield = yes
 	
@@ -18,37 +18,83 @@ hab_holy_roman_ambitions = {
 		completed_by = 1526.8.30
 		
 		provinces_to_highlight = {
-
+			OR = {
+				AND = {
+					owner = { is_emperor = yes }
+					root = { is_emperor = no }
+				}
+				AND = {
+					owner = {
+						is_elector = yes
+						OR = {
+							NOT = { preferred_emperor = ROOT }
+							NOT = { has_opinion = { who = ROOT value = 100 } }
+						}
+					}
+					NOT = {
+						ROOT = {
+							calc_true_if = {
+								all_elector = {
+									preferred_emperor = ROOT
+									has_opinion = { who = ROOT value = 100 }
+								}
+								amount = 5
+							}
+						}
+					}
+				}
+			}
 		}
 
 		trigger = {
 			is_emperor = yes
-			army_size_percentage = 0.5
-			num_of_generals = 1
+			calc_true_if = {
+				desc = secure_the_imperial_crown.tooltip
+				all_elector = {
+					preferred_emperor = ROOT
+					has_opinion = { who = ROOT value = 100 }
+				}
+				amount = 5
+			}
 		}
 		effect = {
-			bohemia_area = {
+			if = {
 				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT	}
+					exists = BOH
+					valid_for_personal_unions_trigger = yes
+					BOH = {
+						valid_for_personal_unions_trigger = yes
+					}
 				}
-				add_permanent_claim = ROOT
-			}
-			erzgebirge_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT	}
+				add_casus_belli = {
+					type = cb_restore_personal_union
+					months = 300
+					target = BOH
 				}
-				add_permanent_claim = ROOT
 			}
-			moravia_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT	}
+			else = {
+				bohemia_area = {
+					limit = {
+						NOT = { is_permanent_claim = ROOT }
+						NOT = { is_core = ROOT	}
+					}
+					add_permanent_claim = ROOT
 				}
-				add_permanent_claim = ROOT
+				erzgebirge_area = {
+					limit = {
+						NOT = { is_permanent_claim = ROOT }
+						NOT = { is_core = ROOT	}
+					}
+					add_permanent_claim = ROOT
+				}
+				moravia_area = {
+					limit = {
+						NOT = { is_permanent_claim = ROOT }
+						NOT = { is_core = ROOT	}
+					}
+					add_permanent_claim = ROOT
+				}
 			}
-			
 			add_country_modifier = {
 				name = "succesful_bid_for_imperial_crown"
 				duration = 5475 #15 years
@@ -303,11 +349,11 @@ hab_protect_the_balkans = {
 	generic = no #if a mission without generic = yes wants this slot then it overrides this.
 	ai = yes
 	potential = {
-		NOT = { map_setup = map_setup_random }
-		OR = {
-		tag = HAB
-		tag = AHU
+		NOT = {
+			has_dlc = "Winds of Change"
 		}
+		NOT = { map_setup = map_setup_random }
+		tag = HAB
 	}
 	has_country_shield = yes
 	
@@ -598,11 +644,11 @@ hab_italian_ambitions = {
 	ai = yes
 	
 	potential = {
-		NOT = { map_setup = map_setup_random }
-		OR = {
-		tag = HAB
-		tag = AHU
+		NOT = {
+			has_dlc = "Winds of Change"
 		}
+		tag = HAB
+		NOT = { map_setup = map_setup_random }
 	}
 	
 	has_country_shield = yes

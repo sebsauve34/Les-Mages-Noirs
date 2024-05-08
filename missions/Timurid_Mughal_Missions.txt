@@ -2,15 +2,25 @@ tim_reconquest_persia = {
 	slot = 1
 	generic = no
 	ai = yes
+	potential_on_load = {
+		NOT = {
+			AND = {
+				has_dlc = "Winds of Change"
+				tag = TIM
+			}
+		}
+	}
 	potential = {
 		OR = {
-			tag = TIM
+			AND = {
+				NOT = { has_dlc = "Winds of Change" }
+				tag = TIM
+			}
 			tag = TRS
 			tag = AFG
-			#TAG = QOM
+			tag = QOM
 			tag = KHO
 			tag = FRS
-			tag = BUK
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -36,9 +46,25 @@ tim_reconquest_persia = {
 			}
 			else_if = {
 				limit = {
-					#TAG = QOM
+					tag = QOM
 				}
-				
+				NOT = {
+					all_subject_country = {
+						liberty_desire = 1
+					}
+				}
+				TIM = {
+					OR = {
+						has_opinion_modifier = {
+							who = ROOT
+							modifier = insulted
+						}
+						has_opinion_modifier = {
+							who = ROOT
+							modifier = scornfully_insulted
+						}
+					}
+				}
 			}
 			else_if = {
 				limit = {
@@ -57,7 +83,7 @@ tim_reconquest_persia = {
 					NOT = {
 						OR = {
 							tag = TIM
-							#TAG = QOM
+							tag = QOM
 						}
 					}
 				}
@@ -256,14 +282,24 @@ tim_reconquest_khorasan = {
 	slot = 3
 	generic = no
 	ai = yes
+	potential_on_load = {
+		NOT = {
+			AND = {
+				has_dlc = "Winds of Change"
+				tag = TIM
+			}
+		}
+	}
 	potential = {
 		OR = {
-			tag = TIM
+			AND = {
+				NOT = { has_dlc = "Winds of Change" }
+				tag = TIM
+			}
 			tag = TRS
 			tag = AFG
-			#TAG = QOM
+			tag = QOM
 			tag = KHO
-			tag = BUK
 		}
 		NOT = { has_dlc = "Dharma" }
 		NOT = { map_setup = map_setup_random }
@@ -299,7 +335,13 @@ tim_reconquest_khorasan = {
 				}
 				add_permanent_claim = ROOT
 			}
-			
+			sistan_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { owned_by = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
 			herat_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -341,7 +383,7 @@ tim_reconquest_khorasan = {
 			OR = {
 				area = mashhad_area
 				area = birjand_area
-				
+				area = sistan_area
 				area = herat_area
 			}
 			NOT = { owned_by = ROOT }
@@ -356,7 +398,10 @@ tim_reconquest_khorasan = {
 				type = all
 				owned_by = ROOT
 			}
-			
+			sistan_area = {
+				type = all
+				owned_by = ROOT
+			}
 			herat_area = {
 				type = all
 				owned_by = ROOT
@@ -438,14 +483,24 @@ tim_reconquest_transoxiana = {
 	slot = 5
 	generic = no
 	ai = yes
+	potential_on_load = {
+		NOT = {
+			AND = {
+				has_dlc = "Winds of Change"
+				tag = TIM
+			}
+		}
+	}
 	potential = {
 		OR = {
-			tag = TIM
+			AND = {
+				NOT = { has_dlc = "Winds of Change" }
+				tag = TIM
+			}
 			tag = TRS
 			tag = AFG
-			#TAG = QOM
+			tag = QOM
 			tag = KHO
-			tag = BUK
 		}
 		NOT = { map_setup = map_setup_random }
 	}
@@ -633,14 +688,24 @@ tim_india = {
 	slot = 3
 	generic = no
 	ai = yes
+	potential_on_load = {
+		NOT = {
+			AND = {
+				has_dlc = "Winds of Change"
+				tag = TIM
+			}
+		}
+	}
 	potential = {
 		OR = {
-			tag = TIM
+			AND = {
+				NOT = { has_dlc = "Winds of Change" }
+				tag = TIM
+			}
 			tag = TRS
 			tag = AFG
-			#TAG = QOM
+			tag = QOM
 			tag = KHO
-			tag = BUK
 		}
 		NOT = { has_dlc = "Dharma" }
 		NOT = { map_setup = map_setup_random }
