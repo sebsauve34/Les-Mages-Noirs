@@ -8,7 +8,10 @@ venice_missions_slot_1 = {
 	
 	potential = {
 		has_dlc = "Winds of Change"
+		OR = {
 		tag = VEN
+		tag = LOM
+	}
 		NOT = { map_setup = map_setup_random }
 	}
 	
@@ -67,7 +70,10 @@ venice_missions_slot_1_dummy = {
 	
 	potential = {
 		has_dlc = "Winds of Change"
+		OR = {
 		tag = VEN
+		tag = LOM
+	}
 		NOT = { map_setup = map_setup_random }
 		NOT = { has_country_flag = ven_standing_army_missions_flag }
 		NOT = { has_country_flag = ven_mercenary_army_missions_flag }
@@ -114,7 +120,10 @@ venice_missions_slot_1_standing_army = {
 	
 	potential = {
 		has_dlc = "Winds of Change"
+		OR = {
 		tag = VEN
+		tag = LOM
+	}
 		NOT = { map_setup = map_setup_random }
 		has_country_flag = ven_standing_army_missions_flag
 		NOT = { has_country_flag = ven_mercenary_army_missions_flag }
@@ -265,7 +274,10 @@ venice_missions_slot_1_mercenary_army = {
 	
 	potential = {
 		has_dlc = "Winds of Change"
+		OR = {
 		tag = VEN
+		tag = LOM
+	}
 		NOT = { map_setup = map_setup_random }
 		NOT = { has_country_flag = ven_standing_army_missions_flag }
 		has_country_flag = ven_mercenary_army_missions_flag
@@ -354,7 +366,10 @@ venice_missions_slot_1_navy = {
 	
 	potential = {
 		has_dlc = "Winds of Change"
+		OR = {
 		tag = VEN
+		tag = LOM
+	}
 		NOT = { map_setup = map_setup_random }
 		NOT = { has_country_flag = ven_standing_army_missions_flag }
 		NOT = { has_country_flag = ven_mercenary_army_missions_flag }
@@ -567,7 +582,10 @@ venice_missions_slot_1_continued = {
 	ai = yes
 	potential = {
 		has_dlc = "Winds of Change"
+		OR = {
 		tag = VEN
+		tag = LOM
+	}
 		NOT = { map_setup = map_setup_random }
 	}
 	has_country_shield = yes
@@ -1003,7 +1021,10 @@ venice_missions_slot_2 = {
 	
 	potential = {
 		has_dlc = "Winds of Change"
+		OR = {
 		tag = VEN
+		tag = LOM
+	}
 		NOT = { map_setup = map_setup_random }
 	}
 	
@@ -1506,7 +1527,10 @@ venice_missions_slot_3 = {
 	
 	potential = {
 		has_dlc = "Winds of Change"
+		OR = {
 		tag = VEN
+		tag = LOM
+	}
 		NOT = { map_setup = map_setup_random }
 	}
 	
@@ -1631,7 +1655,10 @@ venice_missions_slot_3 = {
 			}
 			if = {
 				limit = {
-					tag = VEN
+					OR = {
+		tag = VEN
+		tag = LOM
+	}
 					NOT = { has_country_flag = LNS_ideas_flag }
 				}
 				has_idea = state_inquisition
@@ -1640,7 +1667,10 @@ venice_missions_slot_3 = {
 		}
 		effect = {
 			if = {
-				limit = { tag = VEN	}
+				limit = { OR = {
+		tag = VEN
+		tag = LOM
+	}	}
 				custom_tooltip = ven_upgrade_state_inuisition_idea_tt
 				hidden_effect = {
 					set_country_flag = ven_upgrade_state_inuisition_idea_flag
@@ -2080,7 +2110,10 @@ venice_missions_slot_4 = {
 	
 	potential = {
 		has_dlc = "Winds of Change"
+		OR = {
 		tag = VEN
+		tag = LOM
+	}
 		NOT = { map_setup = map_setup_random }
 	}
 	
@@ -2440,7 +2473,10 @@ venice_missions_slot_5 = {
 	
 	potential = {
 		has_dlc = "Winds of Change"
+		OR = {
 		tag = VEN
+		tag = LOM
+	}
 		NOT = { map_setup = map_setup_random }
 	}
 	

@@ -1901,9 +1901,14 @@ merc_kyushu_wokou = {
 	cost_modifier = 0.75
 	sprites = { dlc067_smz_sprite_pack jap_base_sprite_pack }
     trigger = {
-		always = no
+		OR = {
+		tag = KOR
+		tag = FO2
+		}
 	}
-	modifier = { }
+	modifier = { shock_damage_received = -0.15
+			infantry_power = 0.1
+			}
 }
 
 # Shikoku Yojimbo
