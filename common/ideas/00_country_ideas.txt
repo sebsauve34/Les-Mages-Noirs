@@ -130,7 +130,7 @@ GBR_ideas = {
 	}
 
 	bonus = {
-		fire_damage = 0.1
+		discipline = 0.05
 	}
 	
 	trigger = {
@@ -153,7 +153,8 @@ GBR_ideas = {
 		technology_cost = -0.05
 	}
 	reform_of_comission_buying = {
-		discipline = 0.05
+		fire_damage = 0.1
+		fire_damage_received = -0.1
 	}
 	british_industrialization = {
 		global_trade_goods_size_modifier = 0.1
@@ -16625,8 +16626,8 @@ AVE_ideas = {
 
 UCN_ideas = {
 	start = {
-		trade_efficiency = 0.15
-		fire_damage = 0.1
+		development_cost = -0.1
+		naval_forcelimit_modifier = 0.5
 	}
 	
 	trigger = {
@@ -16636,7 +16637,7 @@ UCN_ideas = {
 	free = yes
 	
 	bonus = {
-		naval_morale = 0.15
+		morale_damage_received = -0.15
 	}		
 	
 	reform_of_comission_buying = {
