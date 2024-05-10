@@ -583,12 +583,6 @@ monarchy = {
 		swiss_mercenary_reform
 	}
 
-	#Effects conflict with each other
-	exclusive_reforms = {
-		mughal_government
-		decentralize_reform
-	}
-
 	exclusive_reforms = {
 		states_general_reform
 		land_christian_sun_reform
@@ -735,6 +729,7 @@ republic = {
 				legislative_assembly_reform
 				national_constituent_reform
 				national_assembly_reform
+				ven_promissione_ducale_reform
 			}
 		}
 		republic_and_religion = {
@@ -1274,6 +1269,7 @@ theocracy = {
 				sisterhood_of_jeanne_darc_reform
 				#Egypt
 				egyptian_government_reform
+				blood_theocracy_reform
 			}
 		}
 		internal_vs_external_mission = {

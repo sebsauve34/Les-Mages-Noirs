@@ -1207,29 +1207,29 @@ country_event = {
 		
 		custom_tooltip = " "
 		
-		if = {
-			limit = {
-				owns = event_target:tim_juki_revolt_prov
-			}
-			event_target:tim_juki_revolt_prov = {
-				spawn_rebels = {
-					type = pretender_rebels
-					size = 2
-					leader = "Muhammad Juki"
-					leader_dynasty = "Timurid"
-				}	
-			}
-		}
-		else = {
-			capital_scope = {
-				spawn_rebels = {
-					type = pretender_rebels
-					size = 2
-					leader = "Muhammad Juki"
-					leader_dynasty = "Timurid"
-				}
-			}
-		}
+	##	if = {
+	#		limit = {
+	#			owns = event_target:tim_juki_revolt_prov
+	#		}
+	#		event_target:tim_juki_revolt_prov = {
+	#			spawn_rebels = {
+	#				type = pretender_rebels
+	#				size = 2
+	#				leader = "Muhammad Juki"
+	#				leader_dynasty = "Timurid"
+	#			}	
+	#		}
+	#	}
+	#	else = {
+	#		capital_scope = {
+	#			spawn_rebels = {
+	#				type = pretender_rebels
+	#				size = 2
+	#				leader = "Muhammad Juki"
+	#				leader_dynasty = "Timurid"
+	#			}
+	#		}
+	#	}
 	}
 	
 	option = {

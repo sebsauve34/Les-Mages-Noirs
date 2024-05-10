@@ -4416,7 +4416,6 @@ estate_nobles_habsburg_disunity = {
 	can_select = {
 	}
 	penalties = {
-		global_autonomy = 0.05
 		global_tax_modifier = -0.1
 	}
 	can_revoke = {

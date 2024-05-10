@@ -827,3 +827,36 @@ ahmudan_system_defender = {
 	defensiveness = 0.1
 	manpower_recovery_speed = 0.1
 }
+
+TIM_diwan_adm = {
+	potential = {
+		has_reform = timurid_diwan_reform
+	}
+
+	trigger = {
+		national_focus = adm
+	}
+	yearly_corruption = -0.15
+}
+
+TIM_diwan_dip = {
+	potential = {
+		has_reform = timurid_diwan_reform
+	}
+
+	trigger = {
+		national_focus = dip
+	}
+	global_unrest = -1
+}
+
+TIM_diwan_mil = {
+	potential = {
+		has_reform = timurid_diwan_reform
+	}
+
+	trigger = {
+		national_focus = mil
+	}
+	land_maintenance_modifier = -0.1
+}
