@@ -16621,3 +16621,43 @@ AVE_ideas = {
 #		global_ship_trade_power = 0.2
 #	}
 #}
+
+
+UCN_ideas = {
+	start = {
+		trade_efficiency = 0.15
+		fire_damage = 0.1
+	}
+	
+	trigger = {
+		has_country_flag = ned_united_crowns_flag
+		tag = NED 
+	}
+	free = yes
+	
+	bonus = {
+		naval_morale = 0.15
+	}		
+	
+	reform_of_comission_buying = {
+		
+	}
+	british_industrialization = {
+		
+	}
+	instructie_voor_de_admiraliteiten = {
+		
+	}
+	dutch_trading_spirit = {
+		
+	}
+	army_sappers = {
+		
+	}
+	amsterdam_wisselbank = {
+		
+	}
+	city_upon_a_hill = {
+		
+	}
+}
