@@ -24,6 +24,7 @@ country_decisions = {
 				tag = SON
 				tag = TUN
 				tag = MOR
+				tag = KON
 			}
 			#has_country_flag = sok_dan_fodio_happened
 		}
@@ -58,7 +59,7 @@ country_decisions = {
 		allow = {
 			is_free_or_tributary_trigger = yes
 			is_at_war = no
-			religion_group = muslim
+			
 			num_of_owned_provinces_with = {
 				value = 50
 				is_core = root

@@ -82,11 +82,11 @@ t_player_cn = {
 		NOT = { has_reform = h_reform_dominion }
 		NOT = { has_country_flag = became_dominion }
 	}
-
+	
 	mercenary_manpower = -0.5
-	development_cost = 0.25
-	manpower_recovery_speed = -0.2
-	sailors_recovery_speed = -0.2
+	development_cost = 0.3
+	manpower_recovery_speed = -0.25
+	sailors_recovery_speed = -0.25
 }
 
 #t_player_dominion = {
