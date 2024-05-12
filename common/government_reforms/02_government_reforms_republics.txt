@@ -3784,6 +3784,10 @@ seize_executive_power_reform = {
 	allow_normal_conversion = yes
 
 	trigger = {
+		NOT = { has_reform = crown_colony_government }
+		NOT = { has_reform = private_enterprise_colony_government }
+		NOT = { has_reform = self_governing_colony_government }
+		NOT = { has_reform = h_reform_dominion }
 		NOT = { has_government_attribute_short_desc = locked_government_type }
 		stability = 2
 	}
@@ -3823,6 +3827,10 @@ proclaim_divine_guidance_reform = {
 	icon = "religious_leader_highlighted"
 	allow_normal_conversion = yes
 	trigger = {
+		NOT = { has_reform = crown_colony_government }
+		NOT = { has_reform = private_enterprise_colony_government }
+		NOT = { has_reform = self_governing_colony_government }
+		NOT = { has_reform = h_reform_dominion }
 		NOT = { has_government_attribute_short_desc = locked_government_type }
 		stability = 2
 	}

@@ -15,25 +15,14 @@ council_of_ten = {
 			development_scaled_monthly_growth = 0
 			scaled_modifier = {
 				modifier = {
-					max_absolutism = -50
-					all_estate_influence_modifier = 0.1
-					min_autonomy = 20
+					trade_efficiency = 0.2
+					sailors_recovery_speed = 0.2
+					allowed_marine_fraction = 0.2
+					global_autonomy = 0.1
 				}
 			}
-			scaled_modifier = {
-				modifier = { 
-					can_not_declare_war = yes
-				}
-				start_value = 90
-				end_value = 100
-			}
-			scaled_modifier = {
-				modifier = { 
-					monthly_authority_power = -0.5
-				}
-				start_value = 50
-				end_value = 100
-			}
+			
+			
 			reverse_scaled_modifier = {
 				modifier = {
 					monthly_authority_power = 0.5
@@ -41,7 +30,7 @@ council_of_ten = {
 				start_value = 0
 				end_value = 50
 			}
-			is_good = no
+			#is_good = no
 		}
 	}
 	
@@ -186,7 +175,7 @@ council_of_ten = {
 				add_government_power = {
 					mechanic_type = council_of_ten
 					power_type = authority_power
-					value = -5
+					value = -20
 				}
 			}
 		}
@@ -385,12 +374,12 @@ council_of_ten = {
 						}
 						add_prosperity = 25
 					}
-					add_mercantilism = 2
+					add_mercantilism = 5
 				}
 				add_government_power = {
 					mechanic_type = council_of_ten
 					power_type = authority_power
-					value = -5
+					value = -20
 				}
 			}
 		}
@@ -508,7 +497,7 @@ council_of_ten = {
 							share = 2.5
 						}
 					}
-					add_yearly_sailors = 1
+					add_yearly_sailors = 0.5
 				}
 				if = {
 					limit = { 
@@ -520,6 +509,8 @@ council_of_ten = {
 						}
 					}
 					capital_scope = {
+						marine_infantry = ROOT
+						marine_infantry = ROOT
 						marine_infantry = ROOT
 						marine_infantry = ROOT
 						marine_infantry = ROOT
@@ -537,12 +528,12 @@ council_of_ten = {
 						add_republican_tradition = -2
 					}
 					else = { add_republican_tradition = -3 }
-					add_yearly_manpower = 1
+					add_yearly_manpower = 0.25
 				}
 				add_government_power = {
 					mechanic_type = council_of_ten
 					power_type = authority_power
-					value = -5
+					value = -20
 				}
 			}
 		}
