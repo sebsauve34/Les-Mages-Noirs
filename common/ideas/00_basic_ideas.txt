@@ -22,7 +22,7 @@ aristocracy_ideas = {
 	#}
 	
 	noble_knights = {
-		cavalry_power = 0.1
+		cavalry_power = 0.15
 		cavalry_cost = -0.1
 	}
 	serfdom = {
@@ -100,7 +100,7 @@ plutocracy_ideas = {
 	#}
 
 	tradition_of_payment = {
-		mercenary_manpower = 0.33
+		mercenary_manpower = 1
 		mercenary_discipline = 0.05
 	}
 	abolished_serfdom = {
@@ -278,7 +278,7 @@ innovativeness_ideas = {
 		technology_cost = -0.1
 	}
 	dynamic_court = {
-		mercenary_manpower = 0.25
+		mercenary_manpower = 0.5
 		mercenary_discipline = 0.025
 	}
 	print_culture = {
@@ -458,7 +458,7 @@ spy_ideas = {
 	
 	agent_training = {
 		embargo_efficiency = 0.25
-		spy_action_cost_modifier = -0.2
+		spy_action_cost_modifier = -0.25
 	}
 
 	vetting = {
@@ -472,7 +472,7 @@ spy_ideas = {
 	}
 	
 	blackmailing = {
-		cavalry_flanking = 0.5
+		manpower_in_culture_group_provinces = 0.1
 		movement_speed = 0.1
 	}
 
@@ -778,6 +778,7 @@ trade_ideas = {
 
 	shrewd_commerce_practise = {
 		global_trade_power = 0.2
+		mercenary_discipline = 0.025
   	}
   	free_trade = {
 		merchants = 2
@@ -788,6 +789,7 @@ trade_ideas = {
 	}
 	national_trade_policy = {
 		trade_efficiency = 0.10
+		mercenary_manpower = 0.5
 	}
 	overseas_merchants = {
 		global_prov_trade_power_modifier = 0.2
@@ -855,10 +857,10 @@ economic_ideas = {
 	}
 	smithian_economics = { 
 		inflation_reduction = 0.1
-		
+		monthly_gold_inflation_modifier = -0.1
  	}												
 	efficient_mining = {
-		prestige_decay = -0.01
+		gold_depletion_chance_modifier = -0.1
 		inflation_action_cost = -0.25
 	}
 	nationalistic_enthusiasm = {
@@ -950,7 +952,7 @@ exploration_ideas = {
 		trade_company_governing_cost = -0.2
 	}
 	land_of_opportunity = {
-		global_colonial_growth = 20
+		global_colonial_growth = 15
 	}
 	factories = {
 		global_tariffs = 0.10
@@ -1203,19 +1205,18 @@ quality_ideas = {
 		drill_decay_modifier = -0.15
 	}
 	quality_education = {
-		infantry_power = 0.10
+		infantry_power = 0.1
 	}
 	finest_of_horses = {
 		army_tradition = 0.5
-		land_attrition = -0.10
+		land_attrition = -0.1
 	}
 	escort_ships = {
-		cavalry_power = 0.10
 		special_unit_forcelimit = 0.15
 	}
 	naval_drill = {
 		prestige_from_land = 1.0
-		army_tradition_from_battle = 0.50
+		army_tradition_from_battle = 0.5
 	}
 	copper_bottoms = {
 		yearly_army_professionalism = 0.005
@@ -1303,20 +1304,20 @@ quantity_ideas = {
 		sailors_recovery_speed = 0.1
 	}
 	enforced_service = {
-		global_regiment_cost = -0.1
+		global_regiment_cost = -0.05
 		regiment_manpower_usage = -0.05
 	}
 	camp_followers = {
-		land_maintenance_modifier = -0.1
-		naval_maintenance_modifier = -0.1	
+		land_maintenance_modifier = -0.05
+		naval_maintenance_modifier = -0.05	
 	}
 	reinforcement_drafts = {
 		reinforce_speed = 0.2
 		reserves_organisation = 0.2
 	}
 	the_old_and_infirm = {
-		general_cost = -0.10
-		recover_army_morale_speed = 0.10
+		general_cost = -0.1
+		recover_army_morale_speed = 0.1
 	}
 	expanded_supply_trains = {
 		land_attrition = -0.2
@@ -1758,7 +1759,8 @@ court_ideas = {
 		culture_conversion_time = -0.1
 	}
 	respected_authority = {
-		global_unrest = -2
+		global_unrest = -2	
+		prestige_decay = -0.01
 	}
 	palace_of_splendor = {
 		manpower_in_own_culture_provinces = 0.15

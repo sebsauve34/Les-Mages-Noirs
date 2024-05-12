@@ -908,7 +908,7 @@ noble_loyalty_act = {
 	}
 
 	
-	cavalry_power = 0.1
+	cavalry_power = 0.15
 	
 	effect = {}
 	removed_effect = {}
@@ -1057,7 +1057,7 @@ trade_kontor_network = {
 		full_idea_group = trade_ideas
 	}
 	
-	mercenary_manpower = 0.33
+	mercenary_manpower = 0.5
 	merc_maintenance_modifier = -0.2
 
 	effect = {}

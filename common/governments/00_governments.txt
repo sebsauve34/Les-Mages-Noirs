@@ -626,6 +626,7 @@ republic = {
 		united_cantons_legacy
 		h_reform_commandery
 		h_reform_protectorate
+		h_reform_dominion
 	}
 	reform_levels = {
 		oligarchy_merchant_class_noble_elite = {
@@ -672,7 +673,7 @@ republic = {
 				japanese_divine_empire
 				#Mamluks
 				egyptian_government_reform
-				h_reform_dominion
+				
 			}
 		}
 		republican_virtues = {

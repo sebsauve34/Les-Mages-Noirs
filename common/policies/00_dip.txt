@@ -21,7 +21,7 @@
 #}
 
 plutocratic_ethos_act = { 
-	monarch_power = DIP
+	monarch_power = MIL
 	
 	potential = {
 		has_idea_group = court_ideas
@@ -33,8 +33,8 @@ plutocratic_ethos_act = {
 		full_idea_group = plutocracy_ideas 
 	}
 	
-	global_unrest = -1
-	merchants = 1
+	infantry_power = 0.1
+	mercenary_cost = -0.15
 	
 	effect = {}
 	removed_effect = {}
@@ -1356,7 +1356,7 @@ letters_of_marque = {
 }
 
 trained_marines_act = {
-	monarch_power = MIL
+	monarch_power = DIP
 	
 	potential = {
 		has_idea_group = quality_ideas
@@ -1368,7 +1368,7 @@ trained_marines_act = {
 		full_idea_group = maritime_ideas
 	}
 	
-	infantry_power = 0.1
+	allowed_marine_fraction = 0.1
 	landing_penalty = -1
 
 	effect = {}
@@ -1845,7 +1845,7 @@ centralization_power_act = {
 		full_idea_group = court_ideas 
 	}
 	
-	development_cost_in_primary_culture = -0.05
+	development_cost_in_primary_culture = -0.075
 
 	effect = {}
 	removed_effect = {}
