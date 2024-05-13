@@ -1497,7 +1497,8 @@ global_trade = {
 manufactories = {
 
 	bonus = {
-		land_forcelimit_modifier = 0.15
+		global_regiment_cost = -0.05
+		global_ship_cost = -0.1
 	}
 
 	trade_company_efficiency = 1.25
