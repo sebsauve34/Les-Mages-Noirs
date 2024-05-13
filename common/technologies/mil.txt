@@ -81,7 +81,7 @@ technology = {
 technology = {
 	# Tech 3
 	year = 1440
-	
+	supply_limit 		= 	0.25
 	land_morale = 	0.5
 	may_drill = yes
 	enable = mamluk_cavalry_charge
@@ -575,7 +575,7 @@ technology = {
 	cavalry_shock		=	0.25
 	artillery_shock 	=	0.1
 	artillery_fire		=	1.0
-	
+	supply_limit 		= 	0.5
 	combat_width = 2
 	
 	conscription_center = yes
@@ -665,6 +665,7 @@ technology = {
 		manufactories = 0.5
 	#	enlightenment = 0.3
 	}
+	supply_limit 		= 	0.5
 	#Metallurgy
 	artillery_shock 	=	0.1
 	artillery_fire		=	2.0

@@ -324,7 +324,7 @@ technology = { #Land Clearance
 		global_trade = 0.5
 	#	manufactories = 0.15
 	}
-	
+	allowed_idea_groups = 6
 	#Land Clearance
 	production_efficiency 	=	0.02
 	furnace = yes
@@ -342,7 +342,7 @@ technology = { #The Constitution
 	#	manufactories = 0.3
 	}
 	
-	allowed_idea_groups = 6
+	
 	constitutional_monarchy = yes
 	constitutional_republic = yes  
 
@@ -377,7 +377,7 @@ technology = { #Bonds and Tontines
 		manufactories = 0.3
 	#	enlightenment = 0.15
 	}
-	
+	allowed_idea_groups 	= 	7
 	counting_house = yes  
 	governing_capacity = 250
 }
@@ -413,7 +413,7 @@ technology = { #Separation of Powers
 		enlightenment = 0.1
 	}
 	
-	allowed_idea_groups 	= 	7
+	
 }
 
 technology = { #Modern Bureaucracy
@@ -428,7 +428,7 @@ technology = { #Modern Bureaucracy
 		manufactories = 0.5
 		enlightenment = 0.3
 	}
-
+	allowed_idea_groups 	= 	8
 	administrative_efficiency = 0.05
 	development_cost_modifier = -0.05	
 	governing_capacity = 250
@@ -466,7 +466,7 @@ technology = { #Rights of Man
 		industrialization = 0.1
 	}
 
-	allowed_idea_groups = 8
+	
 	enlightened_despotism = yes
 	bureaucratic_despotism = yes
 }

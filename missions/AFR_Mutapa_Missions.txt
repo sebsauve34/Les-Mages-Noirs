@@ -489,6 +489,8 @@ mutapa_restore_zimbabwe_missions_slot = {
 				area = lower_zambezi_area
 				area = zimbabwe_area
 				area = quelimane_area
+				area = shire_area
+				
 			}
 			NOT = { owned_by = ROOT }
 		}
@@ -510,6 +512,10 @@ mutapa_restore_zimbabwe_missions_slot = {
 				owned_by = ROOT
 				type = all
 			}
+			shire_area = {
+				owned_by = ROOT
+				type = all
+			}
 		}
 		effect = {
 			if = {
@@ -518,9 +524,9 @@ mutapa_restore_zimbabwe_missions_slot = {
 				}
 				set_government_rank = 3
 			}
-			country_event = {
-				id = flavor_zim.2
-			}
+			#country_event = {
+			#	id = flavor_zim.2
+			#}
 		}
 		ai_weight = {
 			factor = 75	#Default

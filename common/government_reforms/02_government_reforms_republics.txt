@@ -1390,6 +1390,7 @@ colonial_government = {
 		locked_government_type = yes
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
+		cannot_become_dictatorship = yes
 	}
 	effect = {
 		hidden_effect = {
@@ -1479,6 +1480,7 @@ crown_colony_government = {
 		locked_government_type = yes
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
+		cannot_become_dictatorship = yes
 	}
 	duration = 4
 }
@@ -1513,6 +1515,7 @@ private_enterprise_colony_government = {
 		locked_government_type = yes
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
+		cannot_become_dictatorship = yes
 	}
 	effect = {
 		hidden_effect = {
@@ -1571,6 +1574,7 @@ self_governing_colony_government = {
 		enables_aristocratic_idea_group = no
 		enables_estate_nobles = no
 		enables_estate_burghers = no
+		cannot_become_dictatorship = yes
 	}
 	effect = {
 		hidden_effect = {

@@ -38,9 +38,23 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				area = butua_area
-				area = lower_zambezi_area
-				area = zimbabwe_area
+				province_id = 118
+				AND = {
+					OR = {
+						region = east_africa_region
+					}
+					NOT = {
+						ROOT = {
+							num_of_owned_provinces_with = {
+								value = 30 #out of 65
+								is_core = root
+								OR = {
+									region = east_africa_region
+								}
+							}
+						}
+					}
+				}
 			}
 			OR = {
 				NOT = { owned_by = ROOT }
@@ -53,26 +67,16 @@ country_decisions = {
 			is_free_or_tributary_trigger = yes
 			is_nomad = no	
 			adm_tech = 10
-			government_rank = 3
+			total_development = 1000
 			OR = {
 				tag = KON
 				tag = RZW
 			}
-			butua_area = {
-				is_core = ROOT
-				owned_by = ROOT
-				type = all
-			}
-			lower_zambezi_area = {
-				is_core = ROOT
-				owned_by = ROOT
-				type = all
-			}
-			zimbabwe_area = {
-				is_core = ROOT
-				owned_by = ROOT
-				type = all
-			}
+			num_of_owned_provinces_with = {
+				value = 30
+				is_core = root
+				region = east_africa_region 
+				}
 		}
 		effect = {
 			change_tag = GZI

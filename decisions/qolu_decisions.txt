@@ -114,8 +114,8 @@ country_decisions = {
 
 		potential = {
 			ai =  no
-			adm_tech = 10
-			dip_tech = 10
+			adm_tech = 7
+			dip_tech = 7
 			capital_scope = {
 				continent = africa
 			}
@@ -160,8 +160,8 @@ country_decisions = {
 		}
 
 		allow = {
-			adm_tech = 9
-			dip_tech = 9
+			adm_tech = 7
+			dip_tech = 7
 			dip_power = 50
 		}
 

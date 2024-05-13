@@ -325,6 +325,7 @@ shipyard = {
 	modifier = {
 		allowed_num_of_buildings = 1
 		naval_forcelimit = 2
+		land_forcelimit = 0.5
 		ship_recruit_speed = -0.25
 		local_ship_repair = 0.25
 		local_has_man_of_war = yes
@@ -538,7 +539,6 @@ coastal_defence = {
 		blockade_force_required = 0.5
 		hostile_disembark_speed = 1.0
 		hostile_fleet_attrition = 2
-		block_slave_raid = yes
 		fort_level = 1
 	}
 
@@ -758,7 +758,7 @@ regimental_camp = {
 	cost = 250
 	time = 12
 	modifier = {
-		land_forcelimit = 2.0
+		land_forcelimit = 1.5
 		monthly_militarized_society = 0.0005
 	}
 	build_trigger = {
@@ -929,7 +929,7 @@ fort_16th = {
 	}
 	make_obsolete = fort_15th
 	modifier = {
-		fort_level = 3
+		fort_level = 4
 	}
 
 	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -1281,6 +1281,7 @@ grand_shipyard = {
 	modifier = {
 		allowed_num_of_buildings = 1
 		naval_forcelimit = 4
+		land_forcelimit = 1
 		ship_recruit_speed = -0.50
 		local_ship_repair = 0.50
 		local_has_man_of_war = yes
@@ -1520,7 +1521,7 @@ fort_17th = {
 	make_obsolete = fort_16th
 
 	modifier = {
-		fort_level = 5
+		fort_level = 6
 	}
 
 	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -1906,7 +1907,7 @@ conscription_center = {
 #	}
 
 	modifier = {
-		land_forcelimit = 4.0
+		land_forcelimit = 3
 			monthly_militarized_society = 0.001
 	}
 	build_trigger = {
@@ -2061,7 +2062,7 @@ fort_18th = {
 	make_obsolete = fort_17th
 
 	modifier = {
-		fort_level = 7
+		fort_level = 8
 	}
 
 	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)

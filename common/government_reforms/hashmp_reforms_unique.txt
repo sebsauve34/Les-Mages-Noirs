@@ -46,6 +46,7 @@ h_reform_dominion = {
 
 	custom_attributes = {
 		locked_government_type = yes
+		cannot_become_dictatorship = yes
 	}
 	duration = 4
 }
