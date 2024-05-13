@@ -436,7 +436,7 @@ age_of_reformation = {
 				technology_group = western
 			}
 			modifier = {
-				leader_land_shock = 1
+				shock_damage_received = -0.15
 			}
 			ai_will_do = {
 				factor = 100
