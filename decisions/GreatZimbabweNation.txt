@@ -38,7 +38,7 @@ country_decisions = {
 		}
 		provinces_to_highlight = {
 			OR = {
-				province_id = 118
+				
 				AND = {
 					OR = {
 						region = east_africa_region
