@@ -524,6 +524,11 @@ mutapa_restore_zimbabwe_missions_slot = {
 				}
 				set_government_rank = 3
 			}
+			
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+		
 			#country_event = {
 			#	id = flavor_zim.2
 			#}

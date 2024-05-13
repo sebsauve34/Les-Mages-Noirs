@@ -82,7 +82,7 @@ t_player_cn = {
 		NOT = { has_reform = h_reform_dominion }
 		NOT = { has_country_flag = became_dominion }
 	}
-	
+	land_morale = -0.1
 	mercenary_manpower = -0.5
 	development_cost = 0.3
 	manpower_recovery_speed = -0.25
@@ -242,10 +242,10 @@ t_over_merc_cap_early = {
 		was_player = yes
 	}
 	trigger = {
-		army_size_percentage = 1.25
+		army_size_percentage = 1.5
 	
 	NOT = {
-		army_size_percentage = 1.75
+		army_size_percentage = 2.0
 		}
 }
 	global_unrest = 1
@@ -262,10 +262,10 @@ t_over_merc_cap_mid = {
 		was_player = yes
 	}
 	trigger = {
-		army_size_percentage = 1.75
+		army_size_percentage = 2.0
 	
 	NOT = {
-		army_size_percentage = 2.25
+		army_size_percentage = 2.5
 		
 		}
 }
@@ -283,10 +283,10 @@ t_over_merc_cap_late = {
 		was_player = yes
 	}
 	trigger = {
-		army_size_percentage = 2.25
+		army_size_percentage = 2.5
 	
 	NOT = {
-		army_size_percentage = 2.75
+		army_size_percentage = 3.0
 		
 		}
 }
@@ -304,7 +304,7 @@ t_over_merc_cap_superlate = {
 	}
 	trigger = {
 	
-		army_size_percentage = 2.75
+		army_size_percentage = 3
 }
 	global_unrest = 6
 	war_exhaustion = 0.1

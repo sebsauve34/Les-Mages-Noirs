@@ -384,7 +384,7 @@ religious_ideas = {
 		
 	}
 	religious_tradition = {
-		manpower_in_true_faith_provinces = 0.15
+		manpower_in_true_faith_provinces = 0.2
 		development_cost_in_primary_culture = -0.05
 	}
 	
@@ -1292,11 +1292,11 @@ quantity_ideas = {
 	category = MIL
 
 	bonus = {
-		land_forcelimit_modifier  = 0.35
+		land_forcelimit_modifier  = 0.3
 		naval_forcelimit_modifier = 0.2
 	}
 	mass_army = {
-		global_manpower_modifier = 0.35
+		global_manpower_modifier = 0.3
 		global_sailors_modifier = 0.2
 	}
 	the_young_can_serve = {
@@ -1320,7 +1320,7 @@ quantity_ideas = {
 		recover_army_morale_speed = 0.1
 	}
 	expanded_supply_trains = {
-		land_attrition = -0.2
+		land_attrition = -0.1
 		global_supply_limit_modifier = 0.5
 	}
 
@@ -1810,7 +1810,7 @@ infrastructure_ideas = {
 		monthly_splendor = 3
 	}
 	organised_construction = {
-		global_tax_income = 48
+		global_tax_income = 60
 	}
 	efficient_construction_plans = {
 		advisor_cost = -0.1
