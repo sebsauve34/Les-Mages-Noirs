@@ -966,7 +966,7 @@ age_of_revolutions = {
 			}
 			modifier = {
 				morale_damage = 0.2
-				cavalry_power = 0.1	
+				land_maintenance_modifier = -0.1
 			}
 			ai_will_do = {
 				factor = 100
@@ -978,7 +978,7 @@ age_of_revolutions = {
 			}
 			modifier = {
 				land_forcelimit_modifier = 0.25
-				land_morale = 0.10
+				land_morale = 0.1
 			}	
 			ai_will_do = {
 				factor = 100
