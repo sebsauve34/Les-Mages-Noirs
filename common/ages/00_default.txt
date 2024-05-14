@@ -270,7 +270,7 @@ age_of_discovery = {
 				technology_group = eastern
 			}
 			modifier = {
-				global_monthly_devastation = -0.1
+				manpower_recovery_speed = 0.1
 			}
 			ai_will_do = {
 				factor = 100
