@@ -689,6 +689,36 @@ defensive_ideas = {
 	improved_foraging = {
 		fire_damage_received = -0.1
 		war_exhaustion = -0.05
+		effect = {
+			hidden_effect = {
+				if = {
+					limit = {
+						has_country_flag = ned_buffed_forts_flag
+					}
+					every_owned_province = {
+						limit = {
+							region = low_countries_region
+							has_fort_building_trigger = yes
+						}
+						remove_province_modifier = ned_low_countries_fort_buff
+						add_province_modifier = {
+							name = ned_low_countries_fort_buff_buffed
+							duration = -1
+							hidden = yes
+						}
+					}
+				}
+			}
+		}
+		removed_effect = {
+			hidden_effect = {
+				every_owned_province = {
+					limit = { has_province_modifier = ned_low_countries_fort_buff_buffed }
+					remove_province_modifier = ned_low_countries_fort_buff_buffed
+				}
+			}
+		}
+	}
 	}
 
 	#until_the_last_man = {
@@ -946,6 +976,7 @@ exploration_ideas = {
 	}
 	colonial_ventures = {
 		colonists = 1
+		effect = { remove_temporary_colonist = yes }
 	}
 	overseas_exploration = {
 		range = 0.5
@@ -961,6 +992,7 @@ exploration_ideas = {
 	}
 	free_colonies = {
 		colonists = 1
+		effect = { remove_temporary_colonist = yes }
 	}
 	global_empire = {
 		naval_forcelimit_modifier = 0.25
@@ -1395,6 +1427,7 @@ expansion_ideas = {
 	vice_roys  = {
 		colonists = 1
 		num_accepted_cultures = 2
+		effect = { remove_temporary_colonist = yes }
  	}
 	additional_diplomats = {
 		manpower_in_accepted_culture_provinces = 0.25

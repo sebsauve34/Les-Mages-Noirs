@@ -5,6 +5,7 @@ country_decisions = {
 	qolu_wool_into_cloth_d = {
 		color = { 166  0  0 }
 		potential = {
+			always = no
 			OR = {
 				any_owned_province = {
 					trade_goods = wool
@@ -259,7 +260,7 @@ country_decisions = {
 	Create_a_Trade_Hub = {
 		color = { 166  0  0 }
 		potential = {
-			ai = no
+			always = no
 			has_dlc = "Dharma"
 		}
 		
