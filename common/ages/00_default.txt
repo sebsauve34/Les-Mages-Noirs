@@ -254,17 +254,59 @@ age_of_discovery = {
 				}
 			}
 		}
+		ab_indian_spice_trade = {
+			allow = {
+				technology_group = indian
+			}
+			modifier = {
+				trade_efficiency = 0.15
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ab_eastern_european_resolve = {
+			allow = {
+				technology_group = eastern
+			}
+			modifier = {
+				global_monthly_devastation = -0.1
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ab_chinese_prosperity = {
+			allow = {
+				technology_group = chinese
+			}
+			modifier = {
+				development_cost = -0.05
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ab_tatar_yoke = {
+			allow = {
+				technology_group = nomad_group 
+			}
+			modifier = {
+				vassal_income = 0.25
+				loot_amount = 0.25
+				available_province_loot = 0.25
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
 		ab_venice_ship_trade = {
 		
 			allow = {
 				OR = {
-				tag = MOR
-				tag = TUN
-				tag = KON
-				tag = SON
-				tag = ETH
-				tag = MAL
-				tag = RZW
+				technology_group = sub_saharan 
+				technology_group = central_african 
+				technology_group = east_african
 				}
 			}
 			modifier = {
@@ -442,6 +484,29 @@ age_of_reformation = {
 				factor = 100
 			}
 		}
+		ab_indian_elephants = {
+			allow = {
+				technology_group = indian
+			}
+			modifier = {
+				shock_damage = 0.1
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ab_crimean_raiders = {
+			allow = {
+				technology_group = nomad_group 
+			}
+			modifier = {
+				movement_speed = 0.15
+				leader_land_manuever = 1
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
 		ab_mughal_artillery = {
 			allow = {
 				OR = {
@@ -457,7 +522,22 @@ age_of_reformation = {
 				factor = 100
 			}
 		}
+		ab_african_slave_trade = {
 		
+			allow = {
+				OR = {
+				technology_group = sub_saharan 
+				technology_group = central_african 
+				technology_group = east_african
+				}
+			}
+			modifier = {
+				infantry_fire = 0.15
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
 		ab_polish_legitimacy = {
 			allow = {
 				OR = {
@@ -478,10 +558,10 @@ age_of_reformation = {
 		
 		ab_persia_development = {
 			allow = {
-				OR = {
+				
 					technology_group = chinese
-				   	technology_group = indian
-				}
+				   	
+				
 			}
 			modifier = {
 				reinforce_cost_modifier = -0.3
@@ -652,6 +732,44 @@ age_of_absolutism = {
 				factor = 100
 			}
 		}	
+		ab_architectural_renaissance = {
+			allow = {
+				technology_group = indian
+			}
+			modifier = {
+				build_cost = -0.1
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ab_west_african_communities = {
+		
+			allow = {
+				OR = {
+				technology_group = sub_saharan 
+				technology_group = central_african 
+				technology_group = east_african
+				}
+			}
+			modifier = {
+				manpower_in_culture_group_provinces = 0.2
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ab_introduction_gunpownder = {
+			allow = {
+				technology_group = nomad_group 
+			}
+			modifier = {
+				cavalry_fire = 0.2
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
 		ab_sweden_manpower = {
 			allow = {
 				technology_group = eastern
@@ -866,12 +984,50 @@ age_of_revolutions = {
 				factor = 100
 			}
 		}
-		ab_austrian_morale = {
+		ab_western_arms_trade = {
+			allow = {
+				technology_group = indian
+			}
+			modifier = {
+				artillery_fire = 0.5
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ab_african_diseases = {
+		
 			allow = {
 				OR = {
-					technology_group = indian
-					technology_group = chinese
+				technology_group = sub_saharan 
+				technology_group = central_african 
+				technology_group = east_african
 				}
+			}
+			modifier = {
+				defensiveness = 0.2
+				hostile_attrition = 1
+				max_hostile_attrition = 1
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ab_nomadic_legacy = {
+			allow = {
+				technology_group = nomad_group 
+			}
+			modifier = {
+				cavalry_power = 0.15
+			}
+			ai_will_do = {
+				factor = 100
+			}
+		}
+		ab_austrian_morale = {
+			allow = {
+				technology_group = chinese
+			
 			}
 			modifier = {
 				morale_damage_received = -0.2
