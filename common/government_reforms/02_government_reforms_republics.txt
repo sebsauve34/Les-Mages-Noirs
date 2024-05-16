@@ -370,6 +370,8 @@ venice_merchants_reform = {
 		NOT = { map_setup = map_setup_random }
 		OR = {
 			tag = VEN
+			tag = ITA
+			tag = LOM
 			AND = {
 				is_playing_custom_nation = yes
 				have_had_reform = venice_merchants_reform
@@ -4081,7 +4083,10 @@ ven_promissione_ducale_reform = {
 		}
 	}
 	trigger = {
+		OR = {
 		is_or_was_tag = { tag = VEN }
+		is_or_was_tag = { tag = LOM }
+		}
 		government = republic
 	}
 	modifiers = {

@@ -293,7 +293,7 @@ venice_missions_slot_1_mercenary_army = {
 		required_missions = { ven_army_republic }
 		trigger = {
 			not_in_mission_preview_mode = { key = VEN }
-			full_idea_group = mercenary_ideas
+			full_idea_group = plutocracy_ideas
 			if = {
 				limit = {
 					has_dlc = "Domination"
@@ -2673,7 +2673,7 @@ venice_missions_slot_5 = {
 		required_missions = { wof_ven_expand_the_arsenal }
 		
 		provinces_to_highlight = {
-			province_id = 137
+			province_id = 153
 			NOT = {
 				trade_share = {
 					country = ROOT
@@ -2682,7 +2682,7 @@ venice_missions_slot_5 = {
 			}
 		}
 		trigger = {
-			137 = {
+			153 = {
 				trade_share = {
 					country = ROOT
 					share = 25
