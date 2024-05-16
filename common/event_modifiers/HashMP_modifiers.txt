@@ -1044,7 +1044,7 @@ traditional_stratagem = {
 }
 
 strategic_stratagem = {
-    mercenary_discipline = 0.1
+    mercenary_discipline = 0.05
     fire_damage = 0.1
 }
 

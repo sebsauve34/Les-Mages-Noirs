@@ -1,8 +1,8 @@
 #4838 - Suining
 
-owner = NUU
-controller = NUU
-add_core = NUU
+owner = PUU
+controller = PUU
+add_core = PUU
 culture = sichuanese
 religion = confucianism
 capital = "Suining"
