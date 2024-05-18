@@ -719,7 +719,7 @@ defensive_ideas = {
 			}
 		}
 	}
-	}
+	
 
 	#until_the_last_man = {
 	#	morale_damage_received = -0.1
