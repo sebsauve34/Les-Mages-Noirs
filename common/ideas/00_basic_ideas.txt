@@ -374,7 +374,7 @@ religious_ideas = {
 		church_power_modifier = 0.2
 		monthly_karma = 0.25
 		yearly_harmony = 0.5
-		yearly_patriarch_authority = 0.5
+		yearly_patriarch_authority = 0.005
 	}
 	inquisition = {
 		tolerance_own = 2

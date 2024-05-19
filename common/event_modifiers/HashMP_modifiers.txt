@@ -1039,7 +1039,7 @@ h_colonel_flag = {
 ## Stratagems - AP mechanic
 
 traditional_stratagem = {
-    cavalry_power = 0.05
+    cavalry_power = 0.1
     fire_damage_received = -0.1
 }
 
@@ -1069,7 +1069,7 @@ quantity_stratagem = {
 }
 
 divine_stratagem = {
-    morale_damage_received = -0.1
+    land_morale = 0.1
     backrow_artillery_damage = 0.1
     
 }
