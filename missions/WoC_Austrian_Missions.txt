@@ -10,10 +10,8 @@ WoC_austria_1 = {
 		has_dlc = "Winds of Change"
 		OR = {
 			tag = HAB
-			AND = {
-				was_tag = HAB
-				tag = AUH
-			}
+			tag = AHU
+			
 		}
 		NOT = { has_country_flag = hab_hre_branch }
 		NOT = { has_country_flag = hab_germany_branch }
@@ -60,10 +58,8 @@ WoC_austria_1_holy_roman_empire = {
 		has_dlc = "Winds of Change"
 		OR = {
 			tag = HAB
-			AND = {
-				was_tag = HAB
-				tag = AUH
-			}
+			tag = AHU
+			
 		}
 		has_country_flag = hab_hre_branch
 	} 
@@ -308,10 +304,8 @@ WoC_austria_1_germany = {
 		has_dlc = "Winds of Change"
 		OR = {
 			tag = HAB
-			AND = {
-				was_tag = HAB
-				tag = AUH
-			}
+			tag = AHU
+			
 		}
 		has_country_flag = hab_germany_branch
 	} 
@@ -442,10 +436,8 @@ WoC_austria_1_1 = {
 		has_dlc = "Winds of Change"
 		OR = {
 			tag = HAB
-			AND = {
-				was_tag = HAB
-				tag = AUH
-			}
+			tag = AHU
+			
 		}
 	 } 
 
@@ -806,10 +798,8 @@ WoC_austria_2 = {
 		has_dlc = "Winds of Change"
 		OR = {
 			tag = HAB
-			AND = {
-				was_tag = HAB
-				tag = AUH
-			}
+			tag = AHU
+			
 		}
 	} 
 
@@ -913,10 +903,8 @@ WoC_austria_2_branching = {
 		has_dlc = "Winds of Change"
 		OR = {
 			tag = HAB
-			AND = {
-				was_tag = HAB
-				tag = AUH
-			}
+			tag = AHU
+			
 		}
 		NOT = { has_country_flag = hab_hre_branch }
 		NOT = { has_country_flag = hab_germany_branch }
@@ -965,10 +953,8 @@ WoC_austria_2_holy_roman_empire = {
 		has_dlc = "Winds of Change"
 		OR = {
 			tag = HAB
-			AND = {
-				was_tag = HAB
-				tag = AUH
-			}
+			tag = AHU
+			
 		}
 		has_country_flag = hab_hre_branch
 	} 
@@ -1260,10 +1246,8 @@ WoC_austria_2_germany = {
 		has_dlc = "Winds of Change"
 		OR = {
 			tag = HAB
-			AND = {
-				was_tag = HAB
-				tag = AUH
-			}
+			tag = AHU
+			
 		}
 		has_country_flag = hab_germany_branch
 	} 
@@ -1494,10 +1478,8 @@ WoC_austria_2_1 = {
 		has_dlc = "Winds of Change"
 		OR = {
 			tag = HAB
-			AND = {
-				was_tag = HAB
-				tag = AUH
-			}
+			tag = AHU
+			
 		}
 	} 
 
@@ -2086,10 +2068,8 @@ WoC_austria_3 = {
 		has_dlc = "Winds of Change"
 		OR = {
 			tag = HAB
-			AND = {
-				was_tag = HAB
-				tag = AUH
-			}
+			tag = AHU
+			
 		}
 		NOT = { has_country_flag = hab_hre_branch }
 		NOT = { has_country_flag = hab_germany_branch }
@@ -2134,10 +2114,8 @@ WoC_austria_3_holy_roman_empire = {
 		has_dlc = "Winds of Change"
 		OR = {
 			tag = HAB
-			AND = {
-				was_tag = HAB
-				tag = AUH
-			}
+			tag = AHU
+			
 		}
 		has_country_flag = hab_hre_branch
 	} 
@@ -2277,10 +2255,8 @@ WoC_austria_3_germany = {
 		has_dlc = "Winds of Change"
 		OR = {
 			tag = HAB
-			AND = {
-				was_tag = HAB
-				tag = AUH
-			}
+			tag = AHU
+			
 		}
 		has_country_flag = hab_germany_branch
 	} 
@@ -2399,10 +2375,8 @@ WoC_austria_3_1 = {
 		has_dlc = "Winds of Change"
 		OR = {
 			tag = HAB
-			AND = {
-				was_tag = HAB
-				tag = AUH
-			}
+			tag = AHU
+			
 		}
 	} 
 
@@ -2761,10 +2735,8 @@ WoC_austria_4 = {
 		has_dlc = "Winds of Change"
 		OR = {
 			tag = HAB
-			AND = {
-				was_tag = HAB
-				tag = AUH
-			}
+			tag = AHU
+			
 		}
 	} 
 
@@ -3561,10 +3533,8 @@ WoC_austria_5 = {
 		has_dlc = "Winds of Change"
 		OR = {
 			tag = HAB
-			AND = {
-				was_tag = HAB
-				tag = AUH
-			}
+			tag = AHU
+			
 		}
 	} 
 
