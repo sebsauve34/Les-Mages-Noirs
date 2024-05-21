@@ -10,7 +10,7 @@ historical_rival = CYI
 historical_rival = CSH
 historical_rival = WUU
 historical_rival = YUE
-
+add_army_professionalism = 0.1
 1444.1.31 = {
 	monarch = {
 		name = "Huan"

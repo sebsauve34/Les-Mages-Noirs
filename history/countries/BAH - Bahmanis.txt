@@ -7,7 +7,7 @@ capital = 1948	# Gulbarga
 add_accepted_culture = marathi
 add_accepted_culture = telegu
 religious_school = jafari_school
-
+add_army_professionalism = 0.1
 change_rajputs_or_marathas_or_nobles_land_share_effect = {
 	share = 8
 }

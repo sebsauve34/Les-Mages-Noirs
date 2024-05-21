@@ -6,7 +6,7 @@ religion = sunni
 technology_group = ottoman
 capital = 418
 religious_school = hanafi_school
-
+add_army_professionalism = 0.1
 1396.1.1 = {
 	monarch = {
 		name = "Qara Yülüq Osman"

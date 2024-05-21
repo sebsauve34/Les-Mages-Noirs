@@ -6,7 +6,7 @@ religion = buddhism
 technology_group = chinese
 capital = 585 # Toungoo
 
-
+add_army_professionalism = 0.1
 1399.1.1 = {
 	monarch = {
 		name = "Min Nemi"

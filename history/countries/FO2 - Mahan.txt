@@ -8,6 +8,8 @@ capital = 737
 fixed_capital = 737
 add_truce_with = MJZ
 add_truce_with = UES
+
+add_army_professionalism = 0.1
 korea_region = {
 				limit = {
 					NOT = { is_core = ROOT }
