@@ -1989,14 +1989,22 @@ estate_burghers_mountain_expansion = {
 	influence = 0.05
 	
 	is_valid = {
-		has_unlocked_estate_privilege = { estate_privilege = estate_burghers_mountain_expansion }
+		OR = {
+		tag = SWI
+		tag = SWA
+		}
 	}
 	can_select = {
+		OR = {
+		tag = SWI
+		tag = SWA
+		}
 		any_owned_province = {
 			OR = {
 				has_terrain = mountain
 				has_terrain = highlands
 				has_terrain = hills
+				
 			}
 		}
 	}

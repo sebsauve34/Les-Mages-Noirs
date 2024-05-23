@@ -372,8 +372,9 @@ religious_ideas = {
 		devotion = 0.5
 		monthly_fervor_increase = 0.25
 		church_power_modifier = 0.2
-		monthly_karma = 0.25
+		yearly_karma_decay = 0.25	
 		yearly_harmony = 0.5
+		monthly_piety_accelerator = 0.001
 		yearly_patriarch_authority = 0.005
 	}
 	inquisition = {

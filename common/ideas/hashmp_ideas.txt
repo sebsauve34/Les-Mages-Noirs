@@ -964,7 +964,7 @@ QUE_ideas = { #Quebec
 		devotion = 0.5
 		monthly_fervor_increase = 0.25
 		church_power_modifier = 0.2
-		monthly_karma = 0.25
+		yearly_karma_decay = 0.25
 		monthly_piety_accelerator = 0.001
 	}
 }
@@ -1199,7 +1199,7 @@ HAT_ideas = { #Haiti
 		devotion = 0.5
 		monthly_fervor_increase = 0.25
 		church_power_modifier = 0.2
-		monthly_karma = 0.25
+		yearly_karma_decay = 0.25
 		monthly_piety_accelerator = 0.001
 	}
 	hat_6 = { #Pass the Ammunition
