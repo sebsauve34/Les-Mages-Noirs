@@ -1073,3 +1073,11 @@ divine_stratagem = {
     backrow_artillery_damage = 0.1
     
 }
+
+
+hab_german_hegemony = {
+	infantry_power = 0.05
+	administrative_efficiency = 0.05
+	governing_capacity_modifier = 0.2
+	manpower_in_culture_group_provinces = 0.25
+}

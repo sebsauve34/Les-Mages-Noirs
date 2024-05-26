@@ -442,11 +442,11 @@ ORM_2 = {
 		}
 		provinces_to_highlight = { 
 			OR = {
-				province_id = 358			#Alexandria
-				province_id = 361			#Cairo
-				province_id = 377			#Aleppo
-				province_id = 379			#Jerusalem
-				province_id = 382			#Damascus
+				#province_id = 358			#Alexandria
+				#province_id = 361			#Cairo
+				#province_id = 377			#Aleppo
+				#province_id = 379			#Jerusalem
+				#province_id = 382			#Damascus
 				province_id = 384			#Medina
 				province_id = 385			#Mecca
 				province_id = 388			#Aden
@@ -464,11 +464,11 @@ ORM_2 = {
 		} 
 
 		trigger = {  
-			owns_core_province = 358			#Alexandria
-			owns_core_province = 361			#Cairo
-			owns_core_province = 377			#Aleppo
-			owns_core_province = 379			#Jerusalem
-			owns_core_province = 382			#Damascus
+			#owns_core_province = 358			#Alexandria
+			#owns_core_province = 361			#Cairo
+			#owns_core_province = 377			#Aleppo
+			#owns_core_province = 379			#Jerusalem
+			#owns_core_province = 382			#Damascus
 			owns_core_province = 384			#Medina
 			owns_core_province = 385			#Mecca
 			owns_core_province = 388			#Aden
@@ -698,6 +698,48 @@ ORM_3 = {
 				}
 			}
 			add_army_tradition_or_mil_power = { amount = 10 }
+			asir_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			tihama_al_yemen_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			upper_yemen_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			yemen_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			hadramut_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
+			mahra_area = {
+				limit = {
+					NOT = { is_permanent_claim = ROOT }
+					NOT = { is_core = ROOT	}
+				}
+				add_permanent_claim = ROOT
+			}
 		} 
 	}
 
