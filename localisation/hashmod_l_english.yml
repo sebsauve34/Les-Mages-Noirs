@@ -2,6 +2,8 @@
  malayan_empire_ideas:0 "Malayan Empire Ideas"
  malayan_empire_ideas_start:0 "Malayan Empire Traditions"
  malayan_empire_ideas_bonus:0 "Malayan Empire Ambition"
+ hab_german_hegemony_title:0 "German Hegemony"
+ hab_german_hegemony_desc:0 " "
  france_united:0 "France United"
  basic_polders:0 "Polders"
  desc_basic_polders:0 "This province has had its wetlands extensively drained to make way for farmland."
@@ -1081,8 +1083,7 @@ PR_events.1.t:0 "Cartography of Africa"
  h_hire_explorer_desc:0 "The recent discovery of the New World has led to a rush to explore and establish new trade routes. We must ensure we are the first to establish colonies in these new lands. Foreign explorers are available to hire to meet this purpose."
  form_great_yuan_title:0 "Reform Great Yuan"
  form_great_yuan_desc:0 "The heirs of Kublai Khan once ruled over all Chinese and Mongol lands. Let us rise to reclaim the legacy of the old Yuan and crush the weaker lineages that have attempted to claim the Empire that is our birthright!"
- hab_german_hegemony:title:0 "German Hegemony"
- hab_german_hegemony_desc:0 ""
+ 
 
 
 #AP Stratagems
