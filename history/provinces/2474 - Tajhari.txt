@@ -1,11 +1,9 @@
 # - Tajhari (Idehan Murzuq)
-owner = FZA
-controller = FZA 
-add_core = FZA
+
 culture = tuareg
 religion = sunni
 capital = "Tajhari"
-trade_goods = salt
+trade_goods = unknown
 hre = no
 base_tax = 1 
 base_production = 1

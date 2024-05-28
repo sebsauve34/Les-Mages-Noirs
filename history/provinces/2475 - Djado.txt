@@ -1,11 +1,9 @@
 # - Djado
-owner = AIR
-controller = AIR
-add_core = AIR
+
 culture = tuareg
 religion = sunni
 capital = "Djado"
-trade_goods = salt
+trade_goods = unknown
 hre = no
 base_tax = 1 
 base_production = 1

@@ -182,9 +182,9 @@ country_event = {
 			was_tag = HUN
 		}
 		is_year = 1450
-		
+		NOT = { is_year = 1457 }
 		OR = {
-			heir_age = 10
+			heir_age = 15
 			has_heir = no
 		}
 		if = {
@@ -193,7 +193,7 @@ country_event = {
 			}
 			NOT = { has_country_flag = hun_matyas_already_existed }
 		}
-		#has_regency = no
+		has_regency = no
 		is_subject = no
 		HAB = {
 			is_subject = no

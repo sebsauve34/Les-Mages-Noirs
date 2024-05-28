@@ -1467,15 +1467,9 @@ WoC_austria_2_germany = {
 
 		effect = {  
 			custom_tooltip = HAB_REMOVE_GERMANY_TECH_REQUIREMENT
-			adm = 200
-			dip = 200
-			mil = 200
+			set_country_flag = remove_germany_tech_requirement_flag
 
 			custom_tooltip = SEPERATOR_TOOLTIP
-			add_country_modifier = {
-						name = hab_german_hegemony
-						duration = -1
-					}
 
 			add_permanent_power_projection = {
 				amount = 10
@@ -3456,7 +3450,7 @@ WoC_austria_4 = {
 				else = {
 					total_own_and_non_tributary_subject_development = 300
 				}
-				#num_of_wars = { amount = 5 }
+				num_of_wars = { amount = 5 }
 			}
 		}
 		effect = {
