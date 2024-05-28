@@ -298,4 +298,8 @@
  
  TUN_all_maghreb_provinces: "All provinces in §YMaghreb§! Region and not in §YMacaronesia§! Area."
  TUN_expulsion_of_europeans_warname: "$ORDER$ $FIRST$ Expulsion of the Europeans"
- 
+ maghreb_oases_stability_pmod:0 "Stabilized Oases"
+ maghreb_oases_group:0 "Maghreb Oases"
+ maghreb_oases_group_name:0 "Maghreb Oases"
+ maghreb_oases_group_adj:0 "Maghrebi Oases"
+
