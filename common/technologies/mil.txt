@@ -197,7 +197,7 @@ technology = {
 	
 	#Pike and Shot
 	infantry_fire		= 	0.25
-	cavalry_shock		=	0.3
+	cavalry_shock		=	0.4
 
 	
 	regimental_camp = yes
@@ -331,7 +331,7 @@ technology = {
 	}
 	#Trunnions
 	artillery_shock 	= 	0.1
-	artillery_fire 		= 	0.4
+	artillery_fire 		= 	0.5
 	
 	enable = small_cast_iron_bombard
 	enable = large_cast_iron_bombard
@@ -442,7 +442,7 @@ technology = {
 		printing_press = 0.5
 	#	global_trade = 0.15
 	}
-	cavalry_shock		=	0.25
+	cavalry_shock		=	0.5
 	supply_limit		= 	0.5	
 	military_tactics 	= 	0.25
 	infantry_fire		= 	0.25
@@ -601,7 +601,7 @@ technology = {
 	}
 	#Light Cavalry
 	
-	cavalry_shock		=	0.25
+	cavalry_shock		=	0.5
 	military_tactics 	= 	0.25
 	maneuver_value 		= 	0.5
 
@@ -649,7 +649,7 @@ technology = {
 	#Covered Way
 	fort_18th	= yes	
 	infantry_fire		= 	0.25	
-
+	
 	combat_width = 2
 }
 
@@ -687,7 +687,7 @@ technology = {
 	}
 	#Light Infantry Companies
 	sprite_level = 4
-
+	cavalry_shock		=	0.2
 	land_morale			=	1.0
 	infantry_shock		=	0.25	
 
@@ -757,7 +757,7 @@ technology = {
 	#Cuirassier
 	maneuver_value 		= 	0.25
 	infantry_shock		=	0.25	
-	
+	cavalry_shock		=	0.2
 	enable = african_cuirassier
 	enable = russian_cuirassier	
 	enable = russian_cossack
@@ -791,7 +791,7 @@ technology = {
 		industrialization = 0.1
 	}
 	#Defense in Depth
-	cavalry_shock		=	0.5
+	
 	infantry_fire		=	0.5	
 	enable = flying_battery  
 	enable = grand_battery

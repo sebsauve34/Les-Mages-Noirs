@@ -1271,8 +1271,8 @@ armed_neutrality_act = {
 		full_idea_group = trade_ideas
 	}
 	
-	military_tactics = 0.125
-
+	military_tactics = 0.1
+	mercenary_discipline = 0.03
 	effect = {}
 	removed_effect = {}
 	ai_will_do = {

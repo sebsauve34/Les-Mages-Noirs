@@ -659,7 +659,7 @@ defensive_ideas = {
 	category = MIL
 
 	bonus = {
-		military_tactics = 0.125
+		military_tactics = 0.1
 	}
 
 	battlefield_commisions = {
