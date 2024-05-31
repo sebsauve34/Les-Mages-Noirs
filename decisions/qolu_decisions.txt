@@ -1,5 +1,31 @@
 country_decisions = {
+		qolu_all_seats_parliament = {
+		color = { 66 245 242 }
 
+		potential = {
+			ai = no
+			has_parliament = yes
+			any_owned_province = {
+				has_seat_in_parliament = no
+			}
+		}
+
+		allow = {
+			any_owned_province = {
+				has_seat_in_parliament = no
+			}
+		}
+
+		effect = {
+			every_owned_province = {
+				limit = {
+					has_seat_in_parliament = no
+					is_state = yes
+				}
+				set_seat_in_parliament = yes
+			}
+		}
+	}
 	
 
 	qolu_wool_into_cloth_d = {

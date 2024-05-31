@@ -1513,7 +1513,7 @@ church_sponsored_guilds = {
 		full_idea_group = trade_ideas
 	}
 	
-	center_of_trade_upgrade_cost = -0.75
+	center_of_trade_upgrade_cost = -0.25
 	mercantilism_cost = -0.75
 	
 	effect = {}
