@@ -113,6 +113,7 @@ age_of_discovery = {
 			modifier = {
 				war_exhaustion = -0.03
 				global_autonomy = -0.05
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 10
@@ -122,6 +123,7 @@ age_of_discovery = {
 		ab_justified_wars = {
 			modifier = {
 				ae_impact = -0.1
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 10
@@ -142,6 +144,7 @@ age_of_discovery = {
 		ab_free_war_taxes = {
 			modifier = {
 				war_taxes_cost_modifier = -1.0
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 10
@@ -161,6 +164,7 @@ age_of_discovery = {
 		ab_colony_boost_development = {
 			modifier = {
 				colony_development_boost = 1
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 10
@@ -174,6 +178,7 @@ age_of_discovery = {
 		ab_attack_bonus_in_capital_terrain = {
 			modifier = {
 				attack_bonus_in_capital_terrain = 1
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 10
@@ -195,6 +200,7 @@ age_of_discovery = {
 				leader_siege = 1 
 				siege_ability = 0.20
 				special_unit_forcelimit = 0.2
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -218,6 +224,7 @@ age_of_discovery = {
 				range = 1	
 				global_colonial_growth = 25
 				colonists = 1
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -241,6 +248,7 @@ age_of_discovery = {
 				reduced_liberty_desire = 30
 				diplomatic_reputation = 2
 				diplomatic_upkeep = 2
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -260,6 +268,7 @@ age_of_discovery = {
 			}
 			modifier = {
 				trade_efficiency = 0.15
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -271,6 +280,7 @@ age_of_discovery = {
 			}
 			modifier = {
 				manpower_recovery_speed = 0.1
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -295,6 +305,7 @@ age_of_discovery = {
 				vassal_income = 0.25
 				loot_amount = 0.25
 				available_province_loot = 0.25
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -311,8 +322,9 @@ age_of_discovery = {
 			}
 			modifier = {
 				core_creation = -0.1
-				land_attrition = -0.20
+				land_attrition = -0.2
 				unjustified_demands = -0.5
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -402,6 +414,11 @@ age_of_reformation = {
 			effect = {
 				custom_tooltip = religion_enforced_edict
 				set_country_flag = religion_enforced_edict
+				
+			}
+			modifier = {
+				
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 0
@@ -412,6 +429,7 @@ age_of_reformation = {
 			modifier = {
 				siege_blockade_progress = 1
 				blockade_efficiency = 0.25
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 10
@@ -430,6 +448,7 @@ age_of_reformation = {
 			modifier = {
 				warscore_cost_vs_other_religion = -0.1
 				enforce_religion_cost = -0.5
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 10
@@ -439,6 +458,7 @@ age_of_reformation = {
 		ab_mercenary_discipline = {
 			modifier = {
 				mercenary_discipline = 0.05
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 10
@@ -447,6 +467,7 @@ age_of_reformation = {
 		ab_ship_power_propagation = {
 			modifier = {
 				ship_power_propagation = 0.2
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 10
@@ -458,6 +479,7 @@ age_of_reformation = {
 			modifier = {
 				institution_spread_from_true_faith = 0.5
 				prestige_per_development_from_conversion = 0.3
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 10
@@ -467,6 +489,7 @@ age_of_reformation = {
 		ab_prestige_per_development_from_conversion = {
 			modifier = {
 				same_religion_advisor_cost = -0.1
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 10
@@ -479,6 +502,7 @@ age_of_reformation = {
 			}
 			modifier = {
 				shock_damage_received = -0.15
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -490,6 +514,7 @@ age_of_reformation = {
 			}
 			modifier = {
 				shock_damage = 0.1
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -502,6 +527,7 @@ age_of_reformation = {
 			modifier = {
 				movement_speed = 0.15
 				leader_land_manuever = 1
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -517,6 +543,7 @@ age_of_reformation = {
 			}
 			modifier = {
 				artillery_power = 0.1
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -532,7 +559,8 @@ age_of_reformation = {
 				}
 			}
 			modifier = {
-				infantry_fire = 0.15
+				infantry_fire = 0.2
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -550,6 +578,7 @@ age_of_reformation = {
 			}
 			modifier = {
 				global_trade_goods_size_modifier = 0.25
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -565,6 +594,7 @@ age_of_reformation = {
 			}
 			modifier = {
 				reinforce_cost_modifier = -0.3
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -641,7 +671,8 @@ age_of_absolutism = {
 	
 		ab_allow_edict_of_absolutism = {
 			modifier = {
-				free_policy = 1
+				free_policy = 1	
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 10
@@ -651,6 +682,7 @@ age_of_absolutism = {
 		ab_rival_change = {
 			modifier = {
 				force_march_free = yes	
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 0
@@ -660,6 +692,7 @@ age_of_absolutism = {
 		ab_rival_border_fort = {
 			modifier = {
 				rival_border_fort_maintenance = -1.0
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 10
@@ -670,6 +703,7 @@ age_of_absolutism = {
 		ab_autonomy = {
 			modifier = {
 				autonomy_change_time = -0.75
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 10
@@ -680,6 +714,7 @@ age_of_absolutism = {
 		ab_harsh_treatment = {
 			modifier = {
 				harsh_treatment_cost = -0.75
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 10
@@ -690,6 +725,7 @@ age_of_absolutism = {
 		ab_adm_efficiency = {
 			modifier = {
 				administrative_efficiency = 0.05
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 10
@@ -700,6 +736,7 @@ age_of_absolutism = {
 			modifier = {
 				yearly_absolutism = 1
 				max_absolutism = 10
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -713,6 +750,7 @@ age_of_absolutism = {
 			}
 			modifier = {
 				fire_damage = 0.1
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -727,6 +765,7 @@ age_of_absolutism = {
 			}
 			modifier = {
 				leader_land_fire = 1	
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -738,6 +777,7 @@ age_of_absolutism = {
 			}
 			modifier = {
 				build_cost = -0.1
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -754,6 +794,7 @@ age_of_absolutism = {
 			}
 			modifier = {
 				manpower_in_culture_group_provinces = 0.2
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -765,6 +806,7 @@ age_of_absolutism = {
 			}
 			modifier = {
 				cavalry_fire = 0.2
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -776,6 +818,7 @@ age_of_absolutism = {
 			}
 			modifier = {
 				manpower_recovery_speed = 0.2
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -788,6 +831,7 @@ age_of_absolutism = {
 			}
 			modifier = {
 				discipline = 0.03
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -861,6 +905,7 @@ age_of_revolutions = {
 			modifier = {
 				liberty_desire_from_subject_development = -0.33
 				reduced_liberty_desire_on_same_continent = 25
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 15
@@ -879,6 +924,7 @@ age_of_revolutions = {
 			modifier = {
 				artillery_levels_available_vs_fort = 3
 				assault_fort_ability = 0.25
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 15
@@ -888,6 +934,7 @@ age_of_revolutions = {
 		ab_force_march = {
 			modifier = {
 				force_march_free = yes
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 10
@@ -896,6 +943,7 @@ age_of_revolutions = {
 		ab_more_ships_can_fire = {
 			modifier = {
 				global_naval_engagement_modifier = 0.1
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 10
@@ -923,6 +971,7 @@ age_of_revolutions = {
 		ab_backrow_artillery = {
 			modifier = {
 				backrow_artillery_damage = 0.1
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 15
@@ -931,6 +980,7 @@ age_of_revolutions = {
 		ab_same_contine_lib_desire = {
 			modifier = {
 				possible_policy = 1
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 15
@@ -952,6 +1002,7 @@ age_of_revolutions = {
 			modifier = {
 				fire_damage_received = -0.1
 				infantry_power = 0.1
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -966,7 +1017,8 @@ age_of_revolutions = {
 			}
 			modifier = {
 				morale_damage = 0.2
-				land_maintenance_modifier = -0.1
+				shock_damage = 0.1
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -979,6 +1031,7 @@ age_of_revolutions = {
 			modifier = {
 				land_forcelimit_modifier = 0.25
 				land_morale = 0.1
+				num_of_age_rewards = 1
 			}	
 			ai_will_do = {
 				factor = 100
@@ -990,6 +1043,8 @@ age_of_revolutions = {
 			}
 			modifier = {
 				artillery_fire = 0.5
+				fire_damage = 0.1
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -1008,6 +1063,7 @@ age_of_revolutions = {
 				defensiveness = 0.2
 				hostile_attrition = 1
 				max_hostile_attrition = 1
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -1019,6 +1075,7 @@ age_of_revolutions = {
 			}
 			modifier = {
 				cavalry_power = 0.15
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 100
@@ -1031,7 +1088,8 @@ age_of_revolutions = {
 			}
 			modifier = {
 				morale_damage_received = -0.2
-				regiment_manpower_usage = -0.05
+				regiment_manpower_usage = -0.1
+				num_of_age_rewards = 1
 			}
 			ai_will_do = {
 				factor = 100
