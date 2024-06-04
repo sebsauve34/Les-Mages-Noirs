@@ -1378,6 +1378,7 @@ colonial_government = {
 		NOT = { is_subject_of_type = crown_colony }
 		NOT = { is_subject_of_type = private_enterprise }
 		NOT = { is_subject_of_type = self_governing_colony }
+		NOT = { is_subject_of_type = h_reform_dominion }
 	}
 	legacy_equivalent = colonial_government_legacy
 	modifiers = {

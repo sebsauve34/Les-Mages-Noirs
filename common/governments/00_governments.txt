@@ -626,7 +626,7 @@ republic = {
 		united_cantons_legacy
 		h_reform_commandery
 		h_reform_protectorate
-		h_reform_dominion
+		
 	}
 	reform_levels = {
 		oligarchy_merchant_class_noble_elite = {
@@ -649,6 +649,7 @@ republic = {
 				crown_colony_government
 				private_enterprise_colony_government
 				self_governing_colony_government
+				h_reform_dominion
 				dutch_republic
 				peasants_republic
 				ikko_ikki_republic_reform

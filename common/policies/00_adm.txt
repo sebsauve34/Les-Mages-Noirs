@@ -2038,8 +2038,8 @@ plutocratic_rule_act = {
 		full_idea_group = plutocracy_ideas 
 	}
 	
-	global_tax_income = 48
-	land_forcelimit = 7.5
+	global_tax_income = 60
+	land_forcelimit = 10
 
 	effect = {}
 	removed_effect = {}
