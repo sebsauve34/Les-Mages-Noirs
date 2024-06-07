@@ -1,13 +1,16 @@
 #1809 - Cheyenne
 
-culture = shoshone
+owner = BLA
+controller = BLA
+add_core = BLA
+culture = blackfoot
 religion = totemism
 capital = "Cheyenne"
 trade_goods = fur
 hre = no
 base_tax = 3
-base_production = 2
-base_manpower = 1
+base_production = 3
+base_manpower = 3
 native_size = 25
 native_ferocity = 2
 native_hostileness = 8

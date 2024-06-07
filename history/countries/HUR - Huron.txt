@@ -4,7 +4,7 @@ government_rank = 2
 primary_culture = huron
 religion = totemism
 technology_group = north_american
-
+capital = 2670 # Cheraw
 
 
 1399.1.1 = {

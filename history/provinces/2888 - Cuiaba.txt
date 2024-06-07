@@ -1,14 +1,17 @@
 # - Cuiaba
 
+owner = TUA
+controller = TUA
+add_core = TUA
 culture = ge
 discovered_by = south_american
 religion = animism
 capital = "Cuiaba"
 trade_goods = coffee
 hre = no
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 3
+base_production = 3
+base_manpower = 3
 
 1719.4.8 = {
 	discovered_by = POR

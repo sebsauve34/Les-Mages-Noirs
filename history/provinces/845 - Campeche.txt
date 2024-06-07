@@ -1,14 +1,17 @@
 #845 - Campeche
 
 
-culture = yucatec 
+owner = XIU
+controller = XIU
+add_core = XIU
+culture = yucatec
 religion = mesoamerican_religion
 capital = "Campeche" 
 trade_goods = sugar 
 hre = no 
 base_tax = 4 
 base_production = 4
-base_manpower = 1 
+base_manpower = 3 
 is_city = yes
 
 

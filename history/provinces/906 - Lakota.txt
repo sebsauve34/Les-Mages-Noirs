@@ -1,6 +1,9 @@
 #906 - Lakota
 
-culture = dakota
+owner = BLA
+controller = BLA
+add_core = BLA
+culture = blackfoot
 religion = totemism
 capital = "Lakota"
 trade_goods = fur

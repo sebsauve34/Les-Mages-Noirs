@@ -1,5 +1,8 @@
 #843 - Belize
 
+owner = XIU
+controller = XIU
+add_core = XIU
 culture = yucatec
 religion = mesoamerican_religion
 capital = "Chactemal" 
@@ -7,9 +10,9 @@ trade_goods = sugar
 hre = no 
 base_tax = 4 
 base_production = 4 
-base_manpower = 1 
+base_manpower = 3 
 is_city = yes 
-add_local_autonomy = 25
+
 
 discovered_by = mesoamerican
 center_of_trade = 1

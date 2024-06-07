@@ -1,13 +1,16 @@
 # No previous file for Ashshipite
 
-culture = shoshone
+owner = BLA
+controller = BLA
+add_core = BLA
+culture = blackfoot
 religion = totemism
 capital = "Ashshipite"
 trade_goods = fur
 hre = no
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 4
+base_production = 4
+base_manpower = 4
 native_size = 5
 native_ferocity = 1
 native_hostileness = 2

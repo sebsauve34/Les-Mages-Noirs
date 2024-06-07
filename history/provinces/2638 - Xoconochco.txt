@@ -1,6 +1,9 @@
 # No previous file for Xoconochco
 
-culture = zapotek
+owner = XIU
+controller = XIU
+add_core = XIU
+culture = yucatec
 
 is_city = yes
 religion = nahuatl
@@ -9,9 +12,9 @@ trade_goods = cocoa
 hre = no
 base_tax = 3 
 base_production = 3
-base_manpower = 1
+base_manpower = 2
  #Precolumbian international trade hub
-add_local_autonomy = 50
+
 native_size = 5
 native_ferocity = 1
 native_hostileness = 2

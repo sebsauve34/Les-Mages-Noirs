@@ -1,13 +1,16 @@
 # No previous file for Piegan
-
+owner = BLA
+controller = BLA
+add_core = BLA
 culture = blackfoot
+fort_15th = yes
 religion = totemism
 capital = "Piegan"
 trade_goods = fur
 hre = no
-base_tax = 1
-base_production = 1
-base_manpower = 1 
+base_tax = 6
+base_production = 6
+base_manpower = 6 
 
 
 

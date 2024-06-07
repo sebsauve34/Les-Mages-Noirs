@@ -1,16 +1,18 @@
 # No previous file for Xiu
-
+owner = XIU
+controller = XIU
+add_core = XIU
 culture = yucatec
-
+fort_15th = yes
 is_city = yes
 religion = mesoamerican_religion
 capital = "Mani"
 trade_goods = cocoa
 hre = no
-base_tax = 4 
-base_production = 4
-base_manpower = 1
-add_local_autonomy = 25
+base_tax = 6
+base_production = 6
+base_manpower = 6
+
 native_size = 5
 native_ferocity = 1
 native_hostileness = 2

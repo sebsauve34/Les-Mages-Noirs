@@ -1,13 +1,16 @@
 #489 - Tortuga
-
+add_core = CAB
+owner = CAB
+controller = CAB
 culture = carib
+fort_15th = yes
 religion = animism
 capital = "Tortuga"
 trade_goods = sugar
 hre = no
-base_tax = 3
-base_production = 3
-base_manpower = 1
+base_tax = 4
+base_production = 4
+base_manpower = 4
 discovered_by = CAB
 discovered_by = ARW
 

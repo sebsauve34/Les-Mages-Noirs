@@ -1,14 +1,17 @@
 # - Arrial dos Couros
 
+owner = TUA
+controller = TUA
+add_core = TUA
 culture = ge
 discovered_by = south_american
 religion = animism
 capital = "Arrial dos Couros"
 trade_goods = cocoa
 hre = no
-base_tax = 1
-base_production = 1
-base_manpower = 1
+base_tax = 4
+base_production = 4
+base_manpower = 3
 
 
 

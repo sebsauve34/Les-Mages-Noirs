@@ -1,14 +1,17 @@
 # No previous file for Qumarkaj
 
 
-culture = highland_mayan 
+owner = XIU
+controller = XIU
+add_core = XIU
+culture = yucatec
 religion = mesoamerican_religion
 capital = "Qumarkaj" 
 trade_goods = cocoa 
 hre = no 
 base_tax = 3 
 base_production = 3
-base_manpower = 1 
+base_manpower = 2 
 is_city = yes
 
 

@@ -1,14 +1,17 @@
 #931 - Chiaha
 
 
-culture = creek
+add_core = CHE
+owner = CHE
+controller = CHE
+culture = cherokee
 religion = totemism
 capital = "Chiaha"
 trade_goods = fur
 hre = no
 base_tax = 3
-base_production = 2
-base_manpower = 1
+base_production = 3
+base_manpower = 3
 is_city = yes
 
 native_size = 10

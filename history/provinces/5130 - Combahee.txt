@@ -1,13 +1,16 @@
 # No previous file for Combahee
 
-culture = yamasee
+add_core = CHE
+owner = CHE
+controller = CHE
+culture = cherokee
 religion = totemism
 capital = "Combahee"
 trade_goods = tobacco
 hre = no
 base_tax = 3
-base_production = 2
-base_manpower = 1
+base_production = 3
+base_manpower = 3
 native_size = 5
 native_ferocity = 1
 native_hostileness = 6

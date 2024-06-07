@@ -1,14 +1,17 @@
 #488 - Les Cayes
 
 
+add_core = CAB
+owner = CAB
+controller = CAB
 culture = carib
 religion = animism
 capital = "Les Cayes"
 trade_goods = tobacco
 hre = no
-base_tax = 3
-base_production = 3
-base_manpower = 1
+base_tax = 5
+base_production = 5
+base_manpower = 4
 discovered_by = CAB
 discovered_by = ARW
 extra_cost = 8

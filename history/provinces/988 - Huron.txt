@@ -1,14 +1,17 @@
 #988 - Huron
 
 
+add_core = HUR
+owner = HUR
+controller = HUR
 culture = huron
 religion = totemism
 capital = "Huron"
 trade_goods = fur
 hre = no
-base_tax = 2
-base_production = 2
-base_manpower = 2
+base_tax = 4
+base_production = 4
+base_manpower = 4
 is_city = yes
 
 

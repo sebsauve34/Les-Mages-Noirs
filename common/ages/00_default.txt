@@ -793,7 +793,7 @@ age_of_absolutism = {
 				}
 			}
 			modifier = {
-				manpower_in_culture_group_provinces = 0.2
+				manpower_in_accepted_culture_provinces = 0.25
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {

@@ -7,7 +7,7 @@ technology_group = north_american
 capital = 2501 # Niitsitapi
 
 
-1410.1.1 = {
+1400.1.1 = {
 	monarch = {
 		name = "Zaibou the Zoopega"
 		adm = 5

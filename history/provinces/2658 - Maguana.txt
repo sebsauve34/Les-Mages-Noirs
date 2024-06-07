@@ -1,6 +1,9 @@
 # No previous file for Maguana
 
 
+add_core = CAB
+owner = CAB
+controller = CAB
 culture = carib
 religion = animism
 capital = "Maguana"
@@ -8,7 +11,7 @@ trade_goods = cotton
 hre = no
 base_tax = 3
 base_production = 3
-base_manpower = 1
+base_manpower = 3
 
 discovered_by = CAB
 discovered_by = ARW

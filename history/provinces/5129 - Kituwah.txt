@@ -1,6 +1,9 @@
 # No previous file for Kituwah
 
 
+add_core = CHE
+owner = CHE
+controller = CHE
 culture = cherokee
 religion = totemism
 capital = "Kituwah"
@@ -8,7 +11,7 @@ trade_goods = tobacco
 hre = no
 base_tax = 3
 base_production = 3
-base_manpower = 2
+base_manpower = 3
 native_size = 10
 native_ferocity = 7
 native_hostileness = 2

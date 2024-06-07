@@ -1,14 +1,16 @@
 #960 - Onondaga
-
-
+add_core = IRO
+owner = IRO
+controller = IRO
+fort_15th = yes
 culture = iroquois
 religion = totemism
 capital = "Onondaga"
 trade_goods = fur
 hre = no
-base_tax = 4
-base_production = 4
-base_manpower = 2
+base_tax = 5
+base_production = 5
+base_manpower = 5
 is_city = yes
 
 

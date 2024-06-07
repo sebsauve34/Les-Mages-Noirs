@@ -1312,12 +1312,12 @@ siberian_ideas = {
 
 mesoamerican_ideas = {
 	start = {
-		heir_chance = 0.5
-		vassal_income = 0.25
+		hostile_attrition = 3
+		defensiveness = 0.25
 	}
 	
 	bonus = {
-		defensiveness = 0.2
+		reinforce_speed = 0.2
 	}
 	
 	trigger = {
@@ -2783,7 +2783,7 @@ nw_native_ideas = {
 
 plains_native_ideas = {
 	start = {
-		tolerance_own = 1
+		cavalry_fire = 1
 		state_maintenance_modifier = -0.25
 	}
 	
@@ -2810,9 +2810,12 @@ plains_native_ideas = {
 	bow_archery = {
 		fire_damage = 0.10
 	}
-	dwellers_of_tipis = {
-#		migration_cost = -0.20
+	horse_riders = {
+		cav_to_inf_ratio = 0.4
+		envoy_travel_time = -0.2
+		movement_speed = 0.10
 	}
+	
 	peaceful_people = {
 		diplomatic_reputation = 1
 		stability_cost_modifier = -0.10
@@ -2823,10 +2826,8 @@ plains_native_ideas = {
 	plains_sign_language = {
 		prestige = 0.5
 	}
-	horse_riders = {
-		cav_to_inf_ratio = 0.10
-		envoy_travel_time = -0.2
-		movement_speed = 0.10
+	dwellers_of_tipis = {
+		same_culture_advisor_cost = -0.25
 	}
 }
 
