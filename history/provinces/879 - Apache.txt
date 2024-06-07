@@ -3,13 +3,16 @@
 
 is_city = yes
 
-culture = apache 
+add_core = PUE
+owner = PUE
+controller = PUE
+culture = pueblo  
 religion = totemism
 capital = "Apache" 
 trade_goods = salt 
 hre = no 
-base_tax = 1 
-base_production = 1 
+base_tax = 2
+base_production = 2 
 base_manpower = 2
 native_size = 5 
 native_ferocity = 2 

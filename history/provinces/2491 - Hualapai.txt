@@ -1,13 +1,16 @@
 # No previous file for Hualapai
 
-culture = piman
+add_core = PUE
+owner = PUE
+controller = PUE
+culture = pueblo 
 religion = totemism
 capital = "Hualapai"
 trade_goods = gold
 hre = no
-base_tax = 1 
-base_production = 1
-base_manpower = 1
+base_tax = 3
+base_production = 7
+base_manpower = 3
 native_size = 5
 native_ferocity = 1
 native_hostileness = 2

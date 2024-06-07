@@ -4,7 +4,7 @@ government_rank = 2
 primary_culture = pueblo
 religion = totemism
 technology_group = north_american
-
+capital = 880
 
 
 1444.11.11 = {

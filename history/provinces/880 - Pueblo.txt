@@ -1,18 +1,21 @@
 #880 - Pueblo
-
+add_core = PUE
+owner = PUE
+controller = PUE
 culture = pueblo 
 religion = totemism
 capital = "Ohkay Owingeh" 
 trade_goods = salt 
 hre = no 
-base_tax = 3
-base_production = 3 
-base_manpower = 2
+base_tax = 6
+base_production = 6
+base_manpower = 5
 is_city = yes
 native_size = 15 
 native_ferocity = 3 
 native_hostileness = 5 
 discovered_by = north_american
+fort_15th = yes # Kalmar Slott
 extra_cost = 8
 center_of_trade = 1
 
