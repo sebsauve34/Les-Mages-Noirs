@@ -438,6 +438,11 @@ h_cav_ratio = {
 	cav_to_inf_ratio = 0.5
 }
 
+hab_german_hegemony = {
+	infantry_power = 0.1
+	administrative_efficiency = 0.05
+	governing_capacity_modifier = 0.2
+}
 
 #xaime scandinavia
 

@@ -1035,6 +1035,9 @@
  desc_tau_ae:0 "AE Reduction"
  settle_the_island:0 "Settle the Islands"
  desc_settle_the_island:0 "Colonize the islands fast"
+ hab_german_hegemony:0 "German Hegemony"
+ desc_hab_german_hegemony:0 "German Hegemony"
+
 
 #korean minors
  fo_korean_city_ideas:0 "Korean City State Ideas"

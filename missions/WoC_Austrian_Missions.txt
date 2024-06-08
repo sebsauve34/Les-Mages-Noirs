@@ -1466,8 +1466,13 @@ WoC_austria_2_germany = {
 		} 
 
 		effect = {  
-			custom_tooltip = HAB_REMOVE_GERMANY_TECH_REQUIREMENT
-			set_country_flag = remove_germany_tech_requirement_flag
+			adm = 200
+			dip = 200
+			mil = 200
+			add_country_modifier = {
+						name = hab_german_hegemony
+						duration = -1
+					}
 
 			custom_tooltip = SEPERATOR_TOOLTIP
 
