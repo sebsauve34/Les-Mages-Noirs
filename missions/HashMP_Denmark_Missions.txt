@@ -406,13 +406,50 @@ h_danish_missions_christian_3 = {
 			}
 		}
 	}
-	
+	##Mission End
+	##Mission Start
+	h_dan_norway_1_christian = {
+		icon = mission_empire
+		required_missions = {
+			 
+		}
+		position = 5
+		provinces_to_highlight = {
+			##PROVINCESHIGHLIGHTCODE
+		}
+		trigger = {
+			eastern_norway = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			northern_norway = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			western_norway = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+			jemtland_area = {
+				type = all
+				country_or_non_sovereign_subject_holds = ROOT
+			}
+		}
+		effect = {
+			add_navy_Tradition = 20
+
+			add_country_modifier = {
+				name = h_danish_norwegian_ships
+				duration = 7300
+			}
+		}
+	}
 	##Mission End
 	##Mission Start
 	h_dan_kalmar_union_christian = {
 		icon = mission_monarch_in_throne_room
 		required_missions = {
-			h_dan_norway_1 h_dan_sweden_4_christian
+			h_dan_norway_1_christian h_dan_sweden_4_christian
 		}
 		position = 6
 		provinces_to_highlight = {
@@ -475,8 +512,8 @@ h_danish_missions_christian_4 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			land_forcelimit = 100
-			naval_forcelimit = 100
+			land_forcelimit = 50
+			naval_forcelimit = 50
 			army_tradition = 50
 			navy_tradition = 50
 		}
