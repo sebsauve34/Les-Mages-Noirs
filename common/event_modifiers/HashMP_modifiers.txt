@@ -792,6 +792,9 @@ h_danish_highlanders = {
 h_danish_royal_army = {
 	artillery_fire = 0.5
 }
+h_danish_royal_navy = {
+	movement_speed_in_fleet_modifier = 1
+}
 h_danish_north_sea_ambitions = {
 	naval_morale = 0.1
 	sailors_recovery_speed = 0.1

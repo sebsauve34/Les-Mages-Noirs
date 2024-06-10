@@ -18,9 +18,9 @@ national_focus = MIL
 1444.11.11 = {
 	monarch = {
 		name = "(Interregnum)"
-		adm = 1
-		mil = 1
-		dip = 1
+		adm = 3
+		mil = 3
+		dip = 3
 		regent = yes
 	}
 }
