@@ -1,5 +1,5 @@
 government = native
-add_government_reform = h_reform_native_kingdom
+add_government_reform = h_reform_native_empire 
 government_rank = 2
 primary_culture = carib
 religion = animism

@@ -352,6 +352,7 @@ h_reform_native_empire = {
 			OR = {
 				tag = AZT
 				tag = INC
+				tag = CAB
 			}
 			is_subject = no
 		}
@@ -389,7 +390,7 @@ h_reform_native_kingdom = {
 				tag = PUE
 				tag = CUA
 				tag = XIU
-				tag = CAB
+				
 				tag = TUA
 			}
 			is_subject = no

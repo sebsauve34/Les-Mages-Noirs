@@ -1002,7 +1002,7 @@ the_integrated_administration_act = {
 	}	
 	
 	discipline = 0.03
-	vassal_forcelimit_bonus = 0.5
+	
 	
 	effect = {}
 	removed_effect = {}
