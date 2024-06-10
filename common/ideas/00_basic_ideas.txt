@@ -816,22 +816,23 @@ trade_ideas = {
   	}
 	merchant_adventures = {
 		trade_range_modifier = 0.25
-		mercantilism_cost = -0.2
+		mercantilism_cost = -0.25
 	}
 	national_trade_policy = {
-		trade_efficiency = 0.10
+		trade_efficiency = 0.15
 		mercenary_manpower = 0.5
 	}
 	overseas_merchants = {
-		global_prov_trade_power_modifier = 0.2
+		global_prov_trade_power_modifier = 0.25
+		caravan_power = 0.2
 	}
 	trade_manipulation = {
 		trade_steering = 0.25
-		placed_merchant_power = 15
+		placed_merchant_power = 20
 	}
 	fast_negotiations = {
-		center_of_trade_upgrade_cost = -0.2
-		reduced_trade_penalty_on_non_main_tradenode = 0.2
+		center_of_trade_upgrade_cost = -0.25
+		reduced_trade_penalty_on_non_main_tradenode = 0.25
 	}
 
 	ai_will_do = {
