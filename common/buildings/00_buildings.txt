@@ -316,7 +316,7 @@ barracks = {
 }
 
 shipyard = {
-	cost = 100
+	cost = 150
 	time = 12
 	build_trigger = {
 		#has_port = yes

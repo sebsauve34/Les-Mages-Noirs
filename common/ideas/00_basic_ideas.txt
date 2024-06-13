@@ -663,7 +663,7 @@ defensive_ideas = {
 	}
 
 	battlefield_commisions = {
-		shock_damage_received = -0.15
+		shock_damage_received = -0.1
 	}
 	military_drill = {
 		morale_damage_received = -0.15
@@ -1503,7 +1503,6 @@ administrative_ideas = {
 		adm_advisor_cost = -0.15
 	}
 	local_rule = {
-		country_admin_power = 1
 		all_estate_possible_privileges = 1
 	}
 	adaptability = {
@@ -1522,7 +1521,7 @@ administrative_ideas = {
 		reinforce_cost_modifier = -0.1
 	}
 	civil_servants = {
-		administrative_efficiency = 0.05
+		country_admin_power = 1
 		monarch_admin_power = 1
 	}
 

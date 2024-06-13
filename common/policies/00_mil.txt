@@ -993,7 +993,7 @@ military_allotment_act = {
 		full_idea_group = plutocracy_ideas
 	}
 
-	fire_damage_received = -0.15
+	fire_damage_received = -0.1
 
 	effect = {}
 	removed_effect = {}

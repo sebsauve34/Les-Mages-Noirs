@@ -1128,7 +1128,7 @@ naval_school_act = {
 		full_idea_group = maritime_ideas
 	}
 
-	global_sailors_modifier = 0.25
+	global_sailors_modifier = 0.33
 
 	effect = {}
 	removed_effect = {}
@@ -1498,7 +1498,7 @@ one_and_true = {
 	}
 	
 	land_morale = 0.05
-	shock_damage_received = -0.1
+	shock_damage_received = -0.075
 
 	effect = {}
 	removed_effect = {}

@@ -1048,11 +1048,12 @@ h_colonel_flag = {
 
 traditional_stratagem = {
     cavalry_power = 0.1
-    fire_damage_received = -0.1
+    cav_to_inf_ratio = 0.1
+  
 }
 
 strategic_stratagem = {
-    mercenary_discipline = 0.05
+    mercenary_discipline = 0.075
     fire_damage = 0.1
 }
 
@@ -1062,7 +1063,7 @@ offensive_stratagem = {
 }
 
 defensive_stratagem = {
-    shock_damage_received = -0.15
+    morale_damage_received = -0.15
     military_tactics = 0.1
 }
 
@@ -1073,7 +1074,7 @@ quality_stratagem = {
 
 quantity_stratagem = {
     land_forcelimit_modifier = 0.33
-    regiment_manpower_usage = -0.1
+    regiment_manpower_usage = -0.15
 }
 
 divine_stratagem = {
