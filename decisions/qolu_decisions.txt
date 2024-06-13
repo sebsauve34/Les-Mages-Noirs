@@ -27,7 +27,53 @@ country_decisions = {
 		}
 	}
 	
-
+	manpower_edict_decision = {
+		major = yes
+		potential = {
+			ai = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+			any_state = {
+				NOT = { has_state_edict = edict_promote_military_recruitment }
+			}
+		}
+		effect = {
+			
+			every_owned_province = {
+				limit = {
+					is_state = yes
+				}
+				set_state_edict = edict_promote_military_recruitment
+			}
+		}
+	}
+	
+	institution_edict_decision = {
+		major = yes
+		potential = {
+			ai = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+			any_state = {
+				NOT = { has_state_edict = edict_advancement_effort }
+			}
+		}
+		effect = {
+			
+			every_owned_province = {
+				limit = {
+					is_state = yes
+				}
+				set_state_edict = edict_advancement_effort
+			}
+		}
+	}
 	qolu_wool_into_cloth_d = {
 		color = { 166  0  0 }
 		potential = {

@@ -8,7 +8,7 @@ edict_advancement_effort = {
 	}
 	
 	modifier = {
-		institution_growth = 6
+		institution_growth = 4
 	}
 
 	notify_trigger = {

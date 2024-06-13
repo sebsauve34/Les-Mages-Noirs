@@ -1037,7 +1037,10 @@
  desc_settle_the_island:0 "Colonize the islands fast"
  hab_german_hegemony:0 "German Hegemony"
  desc_hab_german_hegemony:0 "German Hegemony"
-
+ manpower_edict_decision_title:0 "Enable Manpower Edict"
+ manpower_edict_decision_desc:0 "Sets every state in our nation to the 'Promote Military Recruitment' state edict."	
+ institution_edict_decision_title:0 "Enable Advancement Effort Edict"
+ institution_edict_decision_desc:0 "Sets every state in our nation to the 'Advancement Effort' state edict."	
 
 #korean minors
  fo_korean_city_ideas:0 "Korean City State Ideas"
