@@ -1838,7 +1838,7 @@ sustained_discipline_reform = {
 	}
 	modifiers = {
 		land_attrition = -0.15
-		drill_decay_modifier = -0.33
+		drill_decay_modifier = -0.2
 		drill_gain_modifier = 0.33
 	}
 	
@@ -2164,7 +2164,7 @@ mansure_army_reform = {
 		is_not_blocked_by_estate_privilege = { estate = estate_janissaries }
 	}
 	modifiers = {
-		drill_decay_modifier = -0.5
+		drill_decay_modifier = -0.1
 		drill_gain_modifier = 0.5
 		infantry_power = 0.1
 		army_tradition_decay = -0.01
@@ -3048,8 +3048,8 @@ compagnie_dordonnance_reform = {
 		}
 	}
 	modifiers = {
-		drill_decay_modifier = -0.33
-		army_tradition_decay = -0.005
+		drill_decay_modifier = -0.2
+		army_tradition_decay = -0.01
 		cav_to_inf_ratio = 0.1
 		global_regiment_cost = -0.05
 	}

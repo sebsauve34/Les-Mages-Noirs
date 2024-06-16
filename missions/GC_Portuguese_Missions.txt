@@ -1474,6 +1474,14 @@ gc_por_3 = {
 		effect = {
 			add_prestige = 5
 			add_navy_tradition = 5
+
+			kongo_region = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}	
 			hidden_effect = {
 				4097 = {
 					discover_country = ROOT

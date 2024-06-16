@@ -1,11 +1,9 @@
 #1163 - Calabar
-owner = LOA
-controller = LOA
-add_core = LOA
+
 culture = sawabantu
 religion = shamanism #Fetishism
 capital = "Calabar"
-trade_goods = slaves
+trade_goods = unknown
 hre = no
 base_tax = 1 
 base_production = 1

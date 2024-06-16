@@ -2204,6 +2204,7 @@ reverse_average_overseas_subject_liberty_desire = { #only counts subjects with c
 	monthly_council_consensus = 0.2
 }
 reverse_under_governing_capacity_modifier = {
+	development_cost = -0.1
 }
 manpower_percentage = {
 

@@ -1,11 +1,9 @@
 #1164 - Cameroon
-owner = LOA
-controller = LOA
-add_core = LOA
+
 culture = sawabantu
 religion = shamanism #Fetishism
 capital = "Cameroon"
-trade_goods = fish
+trade_goods = unknown
 hre = no
 base_tax = 1
 base_production = 1

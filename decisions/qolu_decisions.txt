@@ -28,6 +28,7 @@ country_decisions = {
 	}
 	
 	manpower_edict_decision = {
+		color = { 166  0  0 }
 		major = yes
 		potential = {
 			ai = no
@@ -52,6 +53,7 @@ country_decisions = {
 	}
 	
 	institution_edict_decision = {
+		color = { 166  0  0 }
 		major = yes
 		potential = {
 			ai = no

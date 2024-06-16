@@ -2615,7 +2615,7 @@ h_danish_missions_main_1 = {
 		trigger = {
 			45 = {
 				trade_share = {
-					country = DAN
+					country = ROOT
 					share = 80
 				}
 			}

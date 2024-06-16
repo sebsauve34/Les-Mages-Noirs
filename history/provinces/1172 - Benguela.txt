@@ -1,11 +1,9 @@
 #1172 - Benguela
-owner = KON
-controller = KON 
-add_core = KON
+
 culture = mbundu
 religion = shamanism #Fetishism
 capital = "Benguela"
-trade_goods = fish
+trade_goods = unknown
 hre = no
 base_tax = 4 
 base_production = 4
