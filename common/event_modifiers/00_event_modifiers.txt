@@ -4114,10 +4114,11 @@ birth_of_a_new_city_adm = {
 birth_of_a_new_city_dip = {
 	province_trade_power_value = 25
 	local_development_cost = -0.05
+	trade_goods_size_modifier = 0.1
 }
 birth_of_a_new_city_mil = {
 	local_development_cost = -0.05
-	local_defensiveness = 1
+	local_defensiveness = 0.25
 	local_manpower_modifier = 0.25
 }
 
