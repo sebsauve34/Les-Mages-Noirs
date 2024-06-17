@@ -5631,7 +5631,6 @@ centralize_empire_reform = {
 		global_autonomy = -0.05
 		autonomy_change_time = -0.25
 		culture_conversion_cost = -0.1
-		all_estate_loyalty_equilibrium = -0.05
 	}
 	conditional = {
 		allow = {

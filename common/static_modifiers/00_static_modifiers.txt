@@ -114,8 +114,12 @@ city = {
 
 port = {
 	local_institution_spread = 0.10
-	local_has_geobukseon = yes
-	local_has_voc_indiamen = yes
+		local_has_man_of_war = yes
+		local_has_galleass = yes
+		local_has_galleon = yes
+		local_has_geobukseon = yes
+		local_has_caravel = yes
+		local_has_voc_indiamen = yes
 }
 
 in_state = {

@@ -412,6 +412,65 @@ h_merc_d_60_small_1 = {
 ###########
 # Artillery
 ###########
+h_merc_artillery_6 = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.5
+	artillery_weight = 0.5
+	cavalry_cap = 0
+	min_size = 120
+	max_size = 120
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.4
+	trigger = {
+		AND = {
+		current_age = age_of_revolutions
+		mil_tech = 26
+		}
+	}
+	modifier = {
+		
+	}
+}
+
+h_merc_artillery_5 = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.5
+	artillery_weight = 0.5
+	cavalry_cap = 0
+        min_size = 96
+	max_size = 96
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.4
+	trigger = {
+		AND = {
+		current_age = age_of_absolutism
+		mil_tech = 18
+		}
+	}
+	modifier = {
+		
+	}
+}
+
+h_merc_artillery_4 = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.5
+	artillery_weight = 0.5
+	cavalry_cap = 0
+	min_size = 65
+	max_size = 65
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.4
+	trigger = {
+		AND = {
+		current_age = age_of_reformation
+		mil_tech = 10
+		}
+	}
+	modifier = {
+		
+	}
+}
 h_merc_artillery_3 = {
 	regiments_per_development = 0.01
 	cavalry_weight = 0.0

@@ -328,12 +328,7 @@ shipyard = {
 		land_forcelimit = 0.5
 		ship_recruit_speed = -0.25
 		local_ship_repair = 0.25
-		local_has_man_of_war = yes
-		local_has_galleass = yes
-		local_has_galleon = yes
-		local_has_geobukseon = yes
-		local_has_caravel = yes
-		local_has_voc_indiamen = yes
+		
 	}
 	on_built = {
 		add_development_from_building = {
@@ -659,12 +654,7 @@ dock = {
 	modifier = {
 		local_sailors_modifier = 0.5
 		local_manpower_modifier = 0.25
-		local_has_man_of_war = yes
-		local_has_galleass = yes
-		local_has_galleon = yes
-		local_has_geobukseon = yes
-		local_has_caravel = yes
-		local_has_voc_indiamen = yes
+		
 	}
 	
 	on_built = {
@@ -1284,12 +1274,7 @@ grand_shipyard = {
 		land_forcelimit = 1
 		ship_recruit_speed = -0.50
 		local_ship_repair = 0.50
-		local_has_man_of_war = yes
-		local_has_galleass = yes
-		local_has_galleon = yes
-		local_has_geobukseon = yes
-		local_has_caravel = yes
-		local_has_voc_indiamen = yes
+		
 	}
 
 	on_built = {
@@ -1822,12 +1807,7 @@ drydock = {
 	modifier = {
 		local_sailors_modifier = 1.0
 		local_manpower_modifier = 0.5
-		local_has_man_of_war = yes
-		local_has_galleass = yes
-		local_has_galleon = yes
-		local_has_geobukseon = yes
-		local_has_caravel = yes
-		local_has_voc_indiamen = yes
+		
 	}
 	
 	on_built = {
