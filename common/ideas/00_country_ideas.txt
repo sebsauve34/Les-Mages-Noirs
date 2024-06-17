@@ -310,7 +310,7 @@ SPA_ideas = {
 
 	devout_catholisism = {
 		papal_influence = 2
-		missionaries = 1
+		prestige = 1
 	}
 	inter_caetera = {
 		idea_claim_colonies = yes
@@ -328,10 +328,11 @@ SPA_ideas = {
 		global_tariffs = 0.10
 	}
 	spa_cortes = { 
-		possible_dip_policy = 1
+		country_diplomatic_power = 1
 	}
 	siglo_de_oro = {
-		prestige = 1
+		allowed_tercio_fraction = 0.15
+		army_tradition_decay = -0.01
 	}
 }
 
@@ -14260,6 +14261,7 @@ MOR_ideas = {
 	}
 	mor_slave_soldiers = {
 		land_morale = 0.10
+		cav_to_inf_ratio = 0.15
 	}
 	mor_powerful_viziers = {
 		same_culture_advisor_cost = -0.15
