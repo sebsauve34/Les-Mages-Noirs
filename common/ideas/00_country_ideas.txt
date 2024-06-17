@@ -1661,7 +1661,7 @@ SIC_ideas = {
 
 ARA_ideas = {
 	start = {
-		galley_power = 0.1
+		global_tax_income = 72
 		trade_efficiency = 0.1
 	}
 	
@@ -1676,6 +1676,7 @@ ARA_ideas = {
 	
 	mercenary_princes = {
 		merc_maintenance_modifier = -0.15
+		galley_power = 0.1
 	}
 	protection_of_coastlines = {
 		naval_forcelimit_modifier = 0.10
