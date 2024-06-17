@@ -1795,7 +1795,7 @@ court_ideas = {
 	
 	long_echo = {
 		same_culture_advisor_cost = -0.1
-		imperial_authority = 0.05
+		imperial_authority_value = 0.05
 	}
 	recognize_hierarchy = {
 		monthly_splendor = 2
