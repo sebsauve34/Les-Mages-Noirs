@@ -3295,7 +3295,7 @@ SWI_ideas = {
 	}
 	
 	bonus = {
-		trade_efficiency = 0.1
+		army_tradition_decay = -0.01	
 	}
 	
 	trigger = {
@@ -3305,21 +3305,25 @@ SWI_ideas = {
 	
 	the_swiss_confederation = {
 		stability_cost_modifier = -0.1
+		monthly_reform_progress = 0.25
 	}
 	swiss_mercenaries = {
 		mercenary_discipline = 0.05
+		mercenary_manpower = 0.5
 		merc_maintenance_modifier = -0.25
 	}
 	alpine_defensiveness = {
 		fort_maintenance_modifier = -0.2
+		hostile_attrition = 1
+		max_hostile_attrition = 1
 	}
 	oasis_of_peace_and_prosperity = {
 		development_cost = -0.1
 	}
 	swiss_tolerance = {
 		tolerance_heretic = 3
-		monthly_fervor_increase = 0.25
-		church_power_modifier = 0.20
+		monthly_fervor_increase = 0.5
+		church_power_modifier = 0.25
 	}
 	haven_for_refugees = {
 		prestige = 1
@@ -14259,6 +14263,7 @@ MOR_ideas = {
 	free = yes
 	mor_marabouts = {
 		idea_cost = -0.1
+		shock_damage = 0.1
 	}
 	mor_slave_soldiers = {
 		land_morale = 0.10

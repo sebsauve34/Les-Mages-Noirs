@@ -3180,9 +3180,9 @@ swiss_mercenary_reform = {
 		}
 	}
 	modifiers = {
-		mercenary_cost = -0.25
+		mercenary_cost = -0.33
 		possible_condottieri = 0.5
-		merc_leader_army_tradition = 0.33
+		mercenary_manpower = 0.5
 		mercenary_discipline = 0.05
 	}
 	conditional = {

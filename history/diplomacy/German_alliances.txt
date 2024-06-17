@@ -1,10 +1,10 @@
 # Savoy and Geneva - Now SWI
-#vassal = {
-#	first = SWI
-#	second = GNV
-#	start_date = 1444.1.1
-#	end_date = 1526.1.1
-#}
+vassal = {
+	first = SWI
+	second = MBZ
+	start_date = 1444.1.1
+	end_date = 1526.1.1
+}
 
 # Ansbach and Bayreuth
 union = { #a bit more extensive than in history, I know!
