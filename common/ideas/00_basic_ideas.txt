@@ -1790,16 +1790,15 @@ court_ideas = {
 
 	bonus = {
 		all_estate_loyalty_equilibrium = 0.05
-		manpower_against_imperial_enemies = 0.1
+		no_stability_loss_on_monarch_death = yes
 	}
 	
 	long_echo = {
 		same_culture_advisor_cost = -0.1
-		imperial_authority_value = 0.05
 	}
 	recognize_hierarchy = {
 		monthly_splendor = 2
-		no_stability_loss_on_monarch_death = yes
+		imperial_authority_value = 0.05
 	}
 	welcoming_ceremonies = {
 		heir_chance = 0.5
