@@ -2,7 +2,7 @@
 estate_janissary_sultans_aghas = {
 	icon = privilege_aghas
 	max_absolutism = 0
-	loyalty = -0.05
+	
 	influence = 0.05
 	land_share = 0
 	cooldown_years = 0
@@ -42,7 +42,7 @@ estate_janissary_sultans_aghas = {
 estate_janissary_recruited_by_merit = {
 	icon = privilege_infantry
 	max_absolutism = 0
-	loyalty = -0.05
+	
 	influence = 0.05
 	land_share = 5
 	cooldown_years = 0
@@ -89,7 +89,7 @@ estate_janissary_recruited_by_merit = {
 estate_janissary_professional_soldiers = {
 	icon = privilege_janissaries
 	max_absolutism = 0
-	loyalty = -0.1
+	
 	influence = 0.05
 	land_share = 0
 	cooldown_years = 0

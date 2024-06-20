@@ -1632,7 +1632,7 @@ estate_church_influence_temples = {
 
 estate_church_lao_animism = {
 	icon = privilege_tolerance_heathen
-	loyalty = -0.05
+	
 	influence = 0.6
 	can_select = {
 		primary_culture = lao
@@ -2841,7 +2841,7 @@ estate_church_BYZ_legitimization_of_dynasty = {
 
 estate_church_union_of_the_churches = {
 	icon = estate_church_union_of_the_churches
-	loyalty = -0.1
+	
 	influence = 0
 	max_absolutism = -10
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
@@ -3077,7 +3077,7 @@ estate_church_INC_idol_making = {
 		modifier = { max_absolutism = 5 } 
 	}
 	influence = 0
-	loyalty = 0.1
+	
 	is_valid = {
 		has_country_flag = INC_unlock_the_idol_privilege_flag
 	}
@@ -3247,7 +3247,7 @@ estate_church_religious_tolerance = {
 	icon = privilege_nomadic_tolerance
 	max_absolutism = -10
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
-	loyalty = 0.05
+	
 	influence = 0.1
 	is_valid = {
 		has_country_flag = hordes_religious_tolerance_tribal_privilege_flag
@@ -3271,7 +3271,7 @@ estate_church_TIM_yasa_supremacy = {
 	icon = privilege_aged_paper
 	max_absolutism = 0
 	influence = 0.0
-	loyalty = -0.1
+	
 	is_valid = {
 		OR = {
 			tag = TIM
@@ -3303,7 +3303,7 @@ estate_church_TIM_promote_ijazah = {
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
 	influence = 0.05
-	loyalty = 0.1
+	
 	land_share = 3
 	is_valid = {
 		has_country_flag = TIM_unlock_privilege_for_innovativeness_gain_flag
@@ -3331,7 +3331,7 @@ estate_church_TIM_promote_ijazah = {
 
 estate_church_MUG_promote_divine_religion = {
 	icon = privilege_legitimacy
-	loyalty = -0.1
+	
 	max_absolutism = 10
 	is_valid = {
 		has_country_flag = MUG_promote_din_i_ilahi_flag

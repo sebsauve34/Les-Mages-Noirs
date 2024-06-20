@@ -1601,7 +1601,7 @@ estate_burghers_khmer_irrigation = {
 
 estate_burghers_tropical_nation = {
 	icon = privilege_grant_new_world_charter
-	loyalty = 0.05
+	
 	influence = 0.05
 	is_valid = {
 		OR = {
@@ -3112,7 +3112,7 @@ estate_burghers_monopoly_of_coffee = {
 
 estate_burghers_reliance_on_republics = {
 	icon = estate_burghers_reliance_on_republics
-	loyalty = -0.05
+	
 	influence = 0
 	max_absolutism = -10
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
@@ -3194,7 +3194,7 @@ estate_burghers_reliance_on_republics = {
 
 estate_burghers_exkousseiai_for_latins = {
 	icon = estate_burghers_exkousseiai_for_latins
-	loyalty = -0.1
+	
 	influence = -0.05
 	max_absolutism = -10
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
@@ -3699,7 +3699,7 @@ estate_burghers_italian_coastal_influence = {
 
 estate_burghers_livestock_regulations = {
 	icon = privilege_monopoly_of_goods_livestock
-	loyalty = 0.05
+	
 	influence = 0.1
 	max_absolutism = -10
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
@@ -3744,7 +3744,7 @@ estate_burghers_livestock_regulations = {
 
 estate_burghers_arabian_traders = {
 	icon = privilege_make_generous_donation
-	loyalty = 0.1
+	
 	influence = 0.05
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
@@ -3843,7 +3843,7 @@ estate_burghers_omani_marines = {
 
 estate_burghers_ITA_promote_latin_merchants = {
 	icon = privilege_ducats
-	loyalty = 0.05
+	
 	influence = 0.1
 	max_absolutism = -10
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
@@ -3996,7 +3996,7 @@ estate_burghers_ITA_promote_latin_merchants = {
 
 estate_burghers_ITA_permit_merchant_colonists = {
 	icon = estate_burghers_ITA_permit_merchant_colonists
-	loyalty = 0.1
+	
 	influence = 0.05
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
@@ -4030,7 +4030,7 @@ estate_burghers_ITA_permit_merchant_colonists = {
 
 estate_burghers_GER_customs_union = {
 	icon = estate_burghers_GER_customs_union
-	loyalty = 0.05
+	
 	influence = 0.1
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
@@ -4052,7 +4052,7 @@ estate_burghers_GER_customs_union = {
 
 estate_burghers_GER_turn_towards_mercantilism = {
 	icon = estate_burghers_GER_turn_towards_mercantilism
-	loyalty = 0.1
+	
 	influence = 0
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
@@ -4263,7 +4263,7 @@ estate_burghers_hungarian_royal_cities = {
 	icon = privilege_development_efficiency
 	max_absolutism = -5
 	land_share = 5
-	loyalty = 0.1
+	
 	influence = 0.05
 	is_valid = {
 		has_unlocked_estate_privilege = {
@@ -4325,7 +4325,7 @@ estate_burghers_INC_mountain_development = {
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
 	influence = 0.1
-	loyalty = 0.05
+	
 	is_valid = {
 		is_andean_society_trigger = yes
 	}
@@ -4491,7 +4491,7 @@ estate_burghers_INC_mountain_development = {
 
 estate_burghers_MAY_support_of_chontal_maya = {
 	icon = privilege_mayan_canoes
-	loyalty = 0.1
+	
 	influence = 0
 	max_absolutism = -10
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
@@ -4514,7 +4514,7 @@ estate_burghers_MAY_support_of_chontal_maya = {
 
 estate_burghers_MAY_tropical_adaptation = {
 	icon = privilege_jungle_adaptation
-	loyalty = 0.05
+	
 	influence = 0.1
 	max_absolutism = -10
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 2 } }
@@ -4590,7 +4590,7 @@ estate_burghers_MAY_tropical_adaptation = {
 
 estate_burghers_SUN_support_recovering_populations = {
 	icon = privilege_development_efficiency
-	loyalty = 0.05
+	
 	influence = 0.1
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
@@ -4624,7 +4624,7 @@ estate_burghers_SUN_support_recovering_populations = {
 
 estate_burghers_AZT_sponsor_artisans = {
 	icon = privilege_aztec_artisans
-	loyalty = 0.05
+	
 	influence = 0.1
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
@@ -4649,7 +4649,7 @@ estate_burghers_AZT_sponsor_artisans = {
 
 estate_burghers_AZT_mexican_gold_mines = {
 	icon = privilege_gold_mint
-	loyalty = 0.05
+	
 	influence = 0.1
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
@@ -4737,7 +4737,7 @@ estate_burghers_TIM_gulf_toll = {
 	max_absolutism = -5
 	conditional_modifier = { trigger = { has_absolutism_reduction_for_estate_privileges = yes } modifier = { max_absolutism = 1 } }
 	influence = 0.0
-	loyalty = -0.05
+	
 	is_valid = {
 		has_country_flag = TIM_gulf_toll_privilege_flag
 	}
