@@ -11689,30 +11689,30 @@ estate_maratha_monopoly_of_gems_mod = {
 }
 
 estate_janissary_professional_soldiers_mod = {
-	drill_decay_modifier = -0.25
-	reinforce_cost_modifier = -0.2
+	drill_decay_modifier = -0.1
+	reinforce_cost_modifier = -0.1
 	is_janissary_modifier = yes
 }
 
 estate_janissary_rough_discipline_mod = {
-	discipline = 0.05
+	discipline = 0.03
 	is_janissary_modifier = yes
 }
 
 estate_janissary_janissary_officers_mod = {
-	discipline = -0.05
+	discipline = -0.03
 	is_janissary_modifier = yes
 }
 
 estate_janissary_strict_devshirme_recruitment_mod = {
-	local_manpower_modifier = 0.2
+	local_manpower_modifier = 0.15
 	local_defensiveness = 0.15
 	religion = yes
 }
 
 estate_janissary_janissaries_from_muslims_mod = {
-	reinforce_cost_modifier = -0.2
-	reinforce_speed = 0.33
+	reinforce_cost_modifier = -0.1
+	reinforce_speed = 0.2
 	shock_damage_received = 0.1
 	fire_damage_received = 0.1
 	is_janissary_modifier = yes

@@ -7,11 +7,11 @@ emperor_reichsreform = {
 		local_autonomy = -0.025
 	}
 	member = {
-		global_tax_income = 6
+		global_tax_income = 18
 	}
 	emperor = {
-		global_tax_income = 12
-		global_manpower = 2
+		global_tax_income = 36
+		global_manpower = 5
 	}
 	on_effect = {
 		imperial_ban_allowed = yes
@@ -28,14 +28,15 @@ emperor_reichsregiment = {
 		has_dlc = "Emperor"
 	}
 	province = {
-		local_unrest = -2
+		local_prosperity_growth = 0.25
+		local_monthly_devastation = -0.1
 	}
 	member = {
-		adm_tech_cost_modifier = -0.05
+		prestige = 0.5	
 	}
 	emperor = {
-		adm_tech_cost_modifier = -0.05
-		global_manpower = 2
+		prestige = 1
+		global_manpower = 5
 	}
 	required_reform = emperor_reichsreform
 	gui_container = mainline
@@ -51,10 +52,16 @@ emperor_reichsstabilitaet = {
 	}
 	province = {
 		local_build_cost = -0.05
-		local_tax_modifier = 0.05
+		local_tax_modifier = 0.2
+	}
+	member = {
+		technology_cost = -0.05
+		
 	}
 	emperor = {
-		global_manpower = 2
+		global_manpower = 5
+		imperial_authority_value = 0.05
+		technology_cost = -0.1
 	}
 }
 
@@ -63,16 +70,21 @@ emperor_gemeinerpfennig = {
 	potential = {
 		has_dlc = "Emperor"
 	}
+	province = {
+		local_manpower_modifier = 0.1
+		local_defensiveness = 0.1	
+	}
 	member = {
-		global_tax_income = 12
+		global_missionary_strength = 0.015	
 		legitimacy = 0.5
-		republican_tradition = 0.1
+		republican_tradition = 0.2
+		devotion = 0.5
 	}
 	emperor = {
-		global_tax_income = 24
-		legitimacy = 0.5
-		republican_tradition = 0.1
-		global_manpower = 2
+		global_missionary_strength = 0.03	
+		legitimacy = 1
+		global_manpower = 5	
+		enforce_religion_cost = -0.25
 	}
 	required_reform = emperor_reichsstabilitaet
 	gui_container = mainline
@@ -86,14 +98,15 @@ emperor_perpetual_diet = {
 	potential = {
 		has_dlc = "Emperor"
 	}
+	province = {
+		local_state_maintenance_modifier = -0.25	
+	}	
 	member = {
 		army_tradition = 0.5
-		prestige = 0.5
 	}
 	emperor = {
-		army_tradition = 0.5
-		prestige = 0.5
-		global_manpower = 2
+		army_tradition = 1
+		global_manpower = 5
 	}
 	on_effect = {
 		custom_tooltip = "PERPETUAL_DIET_ESTABLISHED"
@@ -142,9 +155,13 @@ emperor_landsknechtswesen = {
 	province = {
 		development_cost = -0.05
 	}
+	member = {
+		governing_capacity_modifier = 0.1	
+	}
 	emperor = {
-		imperial_authority = 0.05
-		global_manpower = 2
+		imperial_authority_value = 0.05
+		global_manpower = 5
+		governing_capacity_modifier = 0.2
 	}
 }
 
@@ -153,15 +170,19 @@ emperor_landfriede = {
 	potential = {
 		has_dlc = "Emperor"
 	}
+	province = {
+		local_governing_cost = -0.1	
+	}
 	member = {
 		infantry_power = 0.05
 		land_morale = 0.05
+		max_absolutism = 5
 	}
 	emperor = {
-		infantry_power = 0.10
+		infantry_power = 0.1
 		land_morale = 0.05
-		yearly_absolutism = 0.1
-		global_manpower = 3
+		max_absolutism = 10	
+		global_manpower = 5
 	}
 #	on_effect = {
 #		internal_hre_cb = no

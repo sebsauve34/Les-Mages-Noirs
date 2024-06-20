@@ -157,8 +157,10 @@ t_hre_elector_1 = {
 		was_player = yes
 	}
 	trigger = {
+		OR = {
 		is_elector = yes
-		is_emperor = no
+		is_emperor = yes
+		}
 		NOT = {
 			hre_reform_passed = emperor_reichsstabilitaet
 		}
@@ -183,14 +185,16 @@ t_hre_elector_2 = {
 		was_player = yes
 	}
 	trigger = {
+		OR = {
 		is_elector = yes
-		is_emperor = no
+		is_emperor = yes
+		}
 		hre_reform_passed = emperor_reichsstabilitaet
 		NOT = {
 			hre_reform_passed = emperor_perpetual_diet
 		}
 		NOT = {
-			total_development = 750
+			total_development = 1000
 		}
 	}
 	interest = -0.25
@@ -212,11 +216,13 @@ t_hre_elector_3 = {
 		was_player = yes
 	}
 	trigger = {
+		OR = {
 		is_elector = yes
-		is_emperor = no
+		is_emperor = yes
+		}
 		hre_reform_passed = emperor_perpetual_diet
 		NOT = {
-			total_development = 750
+			total_development = 1250
 		}
 	}
 	interest = -0.25

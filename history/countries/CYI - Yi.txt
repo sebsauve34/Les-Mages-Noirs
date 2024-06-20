@@ -22,5 +22,5 @@ add_army_professionalism = 0.1
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = immortal_personality
-	add_ruler_personality = just_personality
+	add_ruler_personality = strict_personality
 }
