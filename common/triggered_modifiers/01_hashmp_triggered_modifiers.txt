@@ -165,7 +165,7 @@ t_hre_elector_1 = {
 			hre_reform_passed = emperor_reichsstabilitaet
 		}
 		NOT = {
-			total_development = 750
+			total_development = 500
 		}
 	}
 	advisor_cost = -0.05
@@ -222,7 +222,7 @@ t_hre_elector_3 = {
 		}
 		hre_reform_passed = emperor_perpetual_diet
 		NOT = {
-			total_development = 1250
+			total_development = 1500
 		}
 	}
 	interest = -0.25

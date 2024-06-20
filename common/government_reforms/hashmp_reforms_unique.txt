@@ -352,7 +352,7 @@ h_reform_native_empire = {
 			OR = {
 				tag = AZT
 				tag = INC
-				tag = CAB
+				
 			}
 			is_subject = no
 		}
@@ -362,8 +362,8 @@ h_reform_native_empire = {
 		all_power_cost = -0.3
 		liberty_desire = 500
 		reduced_liberty_desire = 100
-		global_tax_income = 300
-		land_forcelimit = 75
+		global_tax_income = 330
+		land_forcelimit = 80
 		global_manpower = 100
 		
 	}
@@ -389,7 +389,7 @@ h_reform_native_kingdom = {
 				tag = PUE
 				tag = CUA
 				tag = XIU
-				
+				tag = CAB
 				tag = TUA
 			}
 			is_subject = no
@@ -400,7 +400,7 @@ h_reform_native_kingdom = {
 		all_power_cost = -0.3
 		liberty_desire = 500
 		reduced_liberty_desire = 100
-		global_tax_income = 240
+		global_tax_income = 270
 		land_forcelimit = 50
 		global_manpower = 75
 		
