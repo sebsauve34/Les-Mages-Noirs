@@ -25,7 +25,7 @@ council_of_ten = {
 			
 			reverse_scaled_modifier = {
 				modifier = {
-					monthly_authority_power = 0.5
+					monthly_authority_power = 0.25
 				}
 				start_value = 0
 				end_value = 50
@@ -37,7 +37,7 @@ council_of_ten = {
 	interactions = {
 		adm_interaction = {
 			icon = GFX_council_of_ten_adm_interaction_button
-			cooldown_years = 3
+			cooldown_years = 10
 			trigger = {
 				adm_power = 50
 				custom_trigger_tooltip = {
@@ -181,7 +181,7 @@ council_of_ten = {
 		}
 		dip_interaction = { #
 			icon = GFX_council_of_ten_dip_interaction_button
-			cooldown_years = 3
+			cooldown_years = 10
 			trigger = {
 				dip_power = 50
 				custom_trigger_tooltip = {
@@ -385,7 +385,7 @@ council_of_ten = {
 		}
 		mil_interaction = {
 			icon = GFX_council_of_ten_mil_interaction_button
-			cooldown_years = 3
+			cooldown_years = 10
 			trigger = {
 				mil_power = 50
 				custom_trigger_tooltip = {

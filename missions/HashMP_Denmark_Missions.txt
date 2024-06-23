@@ -2657,12 +2657,12 @@ h_danish_missions_main_1 = {
 		}
 		trigger = {
 			370 = {
-				owned_by = DAN
-				is_core = DAN
+				owned_by = ROOT
+				is_core = ROOT
 			}
 			371 = {
-				owned_by = DAN
-				is_core = DAN
+				owned_by = ROOT
+				is_core = ROOT
 			}
 		}
 		effect = {

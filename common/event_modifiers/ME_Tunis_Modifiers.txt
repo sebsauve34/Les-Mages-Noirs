@@ -195,6 +195,6 @@ TUN_emirate_of_siicly = {
 }
 maghreb_oases_stability_pmod = {
 	trade_value_modifier = 0.25
-	local_development_cost = -0.3
+	local_development_cost = -0.15
 	allowed_num_of_buildings = 1
 }
