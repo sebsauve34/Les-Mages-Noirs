@@ -1362,9 +1362,10 @@ woc_moghulistan_5 = {
 		icon = mission_non-western_cavalry_raid
 		position = 9
 		trigger = {  
-		
+			
+			else = {
 				army_size = 50
-	
+			}
 		} 
 
 		effect = {  
@@ -1373,11 +1374,13 @@ woc_moghulistan_5 = {
 				duration = 5475
 			}
 			
+			
+			
 				change_ruler_stat = {
 					type = mil
 					amount = 1
+				
 				}
-			}
 		}
 	}
 }
