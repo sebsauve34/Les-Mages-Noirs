@@ -44,7 +44,6 @@ country_decisions = {
 				province_id = 723 #Xilin Gol
 				province_id = 1816 #Beijing
 				province_id = 4678 #Qaraqorum
-				province_id = 2136 #Xuanha
 				AND = {
 					culture = mongol
 					NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -78,7 +77,6 @@ country_decisions = {
 			stability = 2
 			owns_core_province = 723 	#Xilin Gol
 			owns_core_province = 4678 	#Qaraqorum
-			owns_core_province = 2136 	#Xuanha
 			owns_core_province = 1816 	#Beijing
 			1816 = {					#Beijing
 				is_state = yes
@@ -110,25 +108,25 @@ country_decisions = {
 					}
 				}
 			}
-			#if = {
-			#	limit = {
-			#		has_dlc = "Mandate of Heaven"
-			#		any_country = {
-			#			is_emperor_of_china = yes
-			#		}
-			#	}
-			#	is_emperor_of_china = yes
-			#}
-			#else_if = {
-			#	limit = {
-			#		has_dlc = "Common Sense"
-			#	}
-			#	government_rank = 3
-			#}
-			#else = {
-			#	total_development = 1000
-			#}
-		#}
+			if = {
+				limit = {
+					has_dlc = "Mandate of Heaven"
+					any_country = {
+						is_emperor_of_china = yes
+					}
+				}
+				is_emperor_of_china = yes
+			}
+			else_if = {
+				limit = {
+					has_dlc = "Common Sense"
+				}
+				government_rank = 3
+			}
+			else = {
+				total_development = 1000
+			}
+		}
 		effect = {
 			1816 = {
 				add_base_tax = 1
@@ -141,10 +139,6 @@ country_decisions = {
 			723 = {
 				change_province_name = Xanadu
 				rename_capital = Xanadu 
-			}
-			2136 = {
-				change_province_name = Zhongdu
-				rename_capital = Zhongdu 
 			}
 			change_tag = YUA
 			on_change_tag_effect = yes

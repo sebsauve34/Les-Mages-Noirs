@@ -1363,9 +1363,9 @@ woc_moghulistan_5 = {
 		position = 9
 		trigger = {  
 			
-			else = {
-				army_size = 50
-			}
+			
+				army_size = 60
+			
 		} 
 
 		effect = {  
