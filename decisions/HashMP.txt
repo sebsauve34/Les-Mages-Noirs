@@ -256,63 +256,63 @@ country_decisions = {
 		}
 	}
 
-	h_unify_indochina = {
-		major = yes
-		potential = {
-			NOT = { has_country_flag = h_indochina_unified }
-			OR = {
-				tag = TAU
-				tag = AYU
-			}
-		}
-		provinces_to_highlight = {
-			OR = {
-				AND = {
-					OR = {
-						region = burma_region
-						region = indo_china_region
-					}
-					NOT = {
-						ROOT = {
-							num_of_owned_provinces_with = {
-								value = 75 #out of 34
-								is_core = root
-								OR = {
-									region = burma_region
-									region = indo_china_region
-								}
-							}
-						}
-					}
-				}
-			}
-			OR = {
-				NOT = { owned_by = ROOT }
-				NOT = { is_core = ROOT }
-			}
-		}
-		allow = {
-			is_free_or_tributary_trigger = yes
-			num_of_owned_provinces_with = {
-				value = 75 #out of 34
-				is_core = root
-				OR = {
-					region = burma_region
-					region = indo_china_region
-				}
-			}
-			is_at_war = no
-		}
-		effect = {
-			set_government_rank = 3
-			add_prestige = 25
-			set_country_flag = h_indochina_unified
-			add_country_modifier = {
-				name = "h_indochina_mod"
-				duration = -1
-			}
-		}
-	}
+#	h_unify_indochina = {
+#		major = yes
+#		potential = {
+#			NOT = { has_country_flag = h_indochina_unified }
+#			OR = {
+#				tag = TAU
+#				tag = AYU
+#			}
+#		}
+#		provinces_to_highlight = {
+#			OR = {
+#				AND = {
+#					OR = {
+#						region = burma_region
+#						region = indo_china_region
+#					}
+#					NOT = {
+#						ROOT = {
+#							num_of_owned_provinces_with = {
+#								value = 75 #out of 34
+#								is_core = root
+#								OR = {
+#									region = burma_region
+#									region = indo_china_region
+#								}
+#							}
+#						}
+#					}
+#				}
+#			}
+#			OR = {
+#				NOT = { owned_by = ROOT }
+#				NOT = { is_core = ROOT }
+#			}
+#		}
+#		allow = {
+#			is_free_or_tributary_trigger = yes
+#			num_of_owned_provinces_with = {
+#				value = 75 #out of 34
+#				is_core = root
+#				OR = {
+#					region = burma_region
+#					region = indo_china_region
+#				}
+#			}
+#			is_at_war = no
+#		}
+#		effect = {
+#			set_government_rank = 3
+#			add_prestige = 25
+#			set_country_flag = h_indochina_unified
+#			add_country_modifier = {
+#				name = "h_indochina_mod"
+#				duration = -1
+#			}
+#		}
+#	}
 	
 	h_remove_regency = {
 		major = yes

@@ -19,6 +19,7 @@ country_decisions = {
 			NOT = { tag = MNG }
 			NOT = { tag = MCH }
 			OR = {
+				tag = SHY
 				primary_culture = altaic_new 
 				culture_group = altaic
 			}
@@ -69,6 +70,7 @@ country_decisions = {
 		allow = {
 			is_free_or_tributary_trigger = yes
 			OR = {
+				tag = SHY
 				primary_culture = altaic_new 
 				culture_group = altaic
 			}

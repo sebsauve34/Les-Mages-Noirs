@@ -1484,7 +1484,7 @@ kok_persia_military_mission_slot_1 = {
 		}
 		position = 9
 		provinces_to_highlight = {
-			culture_group = caucasian
+			culture = georgian
 			OR = {
 				NOT = { has_manpower_building_trigger = yes }
 				NOT = { num_of_times_improved = 2 }
@@ -1493,10 +1493,10 @@ kok_persia_military_mission_slot_1 = {
 		}
 		trigger = {
 			num_of_owned_provinces_with = {
-				culture_group = caucasian
+				culture = georgian
 				has_manpower_building_trigger = yes
-				num_of_times_improved = 2
-				value = 12
+				num_of_times_improved = 5
+				value = 9
 			}
 		}
 		effect = {

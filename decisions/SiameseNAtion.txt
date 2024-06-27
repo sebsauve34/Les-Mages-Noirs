@@ -18,7 +18,10 @@ country_decisions = {
 				NOT = { exists = SIA }
 				ai = no
 			}
-			culture_group = thai_group
+			OR = {
+				tag = KHM
+				tag = TAU
+			}
 			OR = {
 				ai = no
 				AND = {
@@ -58,9 +61,13 @@ country_decisions = {
 			owns_core_province = 601
 			owns_core_province = 589
 			num_of_owned_provinces_with = {	
-				value = 50
+				value = 70
 				is_core = ROOT
 				region = indo_china_region
+			}
+			OR = {
+				tag = KHM
+				tag = TAU
 			}
 			#total_non_estate_disasters_completed = { value = 2 }
 		}

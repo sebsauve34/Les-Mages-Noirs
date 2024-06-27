@@ -13,7 +13,7 @@ base_production = 4
 is_city = yes
 add_core = HSK
 add_core = MRI
-add_claim = SMZ
+
 discovered_by = chinese
 discovered_by = MCH
 discovered_by = KHA

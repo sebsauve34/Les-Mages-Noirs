@@ -332,7 +332,7 @@ ottoman_great_navy = {
 	cost = 0.1
 	country_modifier = {
 		global_ship_cost = -0.1
-		naval_forcelimit_modifier = 0.2
+		naval_forcelimit_modifier = 0.25
 	}
 	effect = {}
 	removed_effect = {}
@@ -451,8 +451,11 @@ the_junk_fleet = {
 
 	cost = 0.1
 	country_modifier = {
-		light_ship_cost = -0.5
+		light_ship_cost = -0.25
 		naval_forcelimit_modifier = 0.25
+		light_ship_hull_size_modifier = -0.25	
+		light_ship_number_of_cannons_modifier = -0.25
+		
 	}
 	effect = {}
 	removed_effect = {}

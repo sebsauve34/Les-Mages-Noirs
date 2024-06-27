@@ -243,74 +243,75 @@ t_hre_elector_3 = {
 # Misc Modifiers
 ###########################################
 
-t_over_merc_cap_early = {
-	potential = {
-		was_player = yes
-	}
-	trigger = {
-		army_size_percentage = 1.5
-	
-	NOT = {
-		army_size_percentage = 2.0
-		}
-}
-	global_unrest = 1
-	war_exhaustion = 0.02
-	war_taxes_cost_modifier = 0.5
-	reinforce_speed = -0.1
-	reinforce_cost_modifier = 0.1
-	global_trade_goods_size_modifier = -0.025
-	merc_maintenance_modifier = 0.1
-}
+#t_over_merc_cap_early = {
+#	potential = {
+#		was_player = yes
+#	}
+#	trigger = {
+#		army_size_percentage = 1.5
+#	
+#	NOT = {
+#		army_size_percentage = 2.0
+#		}
+#}
+#	global_unrest = 1
+#	war_exhaustion = 0.02
+#	war_taxes_cost_modifier = 0.5
+#	reinforce_speed = -0.1
+#	reinforce_cost_modifier = 0.1
+#	global_trade_goods_size_modifier = -0.025
+#	merc_maintenance_modifier = 0.1
+#}
 
-t_over_merc_cap_mid = {
-	potential = {
-		was_player = yes
-	}
-	trigger = {
-		army_size_percentage = 2.0
-	
-	NOT = {
-		army_size_percentage = 2.5
-		
-		}
-}
-	global_unrest = 2.5
-	war_exhaustion = 0.04
-	war_taxes_cost_modifier = 1
-	global_trade_goods_size_modifier = -0.05
-	merc_maintenance_modifier = 0.2
-	reinforce_speed = -0.2
-	reinforce_cost_modifier = 0.2
-}
+#t_over_merc_cap_mid = {
+#	potential = {
+#		was_player = yes
+#	}
+#	trigger = {
+#		army_size_percentage = 2.0
+#	
+#	NOT = {
+#		army_size_percentage = 2.5
+#		
+#		}
+#}
+#	global_unrest = 2.5
+#	war_exhaustion = 0.04
+#	war_taxes_cost_modifier = 1
+#	global_trade_goods_size_modifier = -0.05
+#	merc_maintenance_modifier = 0.2
+#	reinforce_speed = -0.2
+#	reinforce_cost_modifier = 0.2
+#}
 
-t_over_merc_cap_late = {
-	potential = {
-		was_player = yes
-	}
-	trigger = {
-		army_size_percentage = 2.5
-	
-	NOT = {
-		army_size_percentage = 3.0
-		
-		}
-}
-	global_unrest = 4
-	war_exhaustion = 0.06
-	reinforce_speed = -0.3
-	reinforce_cost_modifier = 0.3
-	global_trade_goods_size_modifier = -0.075
-	merc_maintenance_modifier = 0.3
-	war_taxes_cost_modifier = 1.5
-}
+#t_over_merc_cap_late = {
+#	potential = {
+#		was_player = yes
+#	}
+#	trigger = {
+#		army_size_percentage = 2.5
+#	
+#	NOT = {
+#		army_size_percentage = 3.0
+#		
+#		}
+#}
+#	global_unrest = 4
+#	war_exhaustion = 0.06
+#	reinforce_speed = -0.3
+#	reinforce_cost_modifier = 0.3
+#	global_trade_goods_size_modifier = -0.075
+#	merc_maintenance_modifier = 0.3
+#	war_taxes_cost_modifier = 1.5
+#}
+
 t_over_merc_cap_superlate = {
 	potential = {
 		was_player = yes
 	}
 	trigger = {
 	
-		army_size_percentage = 3
+		army_size_percentage = 2.5
 }
 	global_unrest = 6
 	war_exhaustion = 0.1
@@ -326,72 +327,6 @@ t_over_merc_cap_superlate = {
 # Denmark Modifiers
 ###########################################
 
-h_denmark_dominions_bonus_i = {
-	potential = {
-		OR = {
-			tag = SCA
-			tag = DAN
-		}
-
-		mission_completed = h_dan_colonial_3
-
-		OR = {
-			calc_true_if = {
-				any_subject_country = {
-					has_reform = h_reform_dominion
-				}
-				amount = 1
-			}
-
-			colony = 1
-		}
-	}
-	trigger = {
-		calc_true_if = {
-			any_subject_country = {
-				has_reform = h_reform_dominion
-			}
-			amount = 1
-		}
-	}
-
-	global_trade_goods_size_modifier = 0.05
-	naval_forcelimit_modifier = 0.025
-	global_manpower = 5
-	global_sailors = 500
-}
-
-h_denmark_dominions_bonus_ii = {
-	potential = {
-		OR = {
-			tag = SCA
-			tag = DAN
-		}
-
-		mission_completed = h_dan_colonial_3
-
-		calc_true_if = {
-			any_subject_country = {
-				has_reform = h_reform_dominion
-			}
-			amount = 2
-		}
-	}
-	trigger = {
-		calc_true_if = {
-			any_subject_country = {
-				has_reform = h_reform_dominion
-			}
-			amount = 2
-		}
-	}
-
-	global_trade_goods_size_modifier = 0.1
-	naval_forcelimit_modifier = 0.05
-	global_manpower = 10
-	global_sailors = 1000
-}
-
 h_denmark_dominions_bonus_iii= {
 	potential = {
 		OR = {
@@ -405,7 +340,7 @@ h_denmark_dominions_bonus_iii= {
 			any_subject_country = {
 				has_reform = h_reform_dominion
 			}
-			amount = 3
+			amount = 1
 		}
 	}
 	trigger = {
@@ -413,7 +348,7 @@ h_denmark_dominions_bonus_iii= {
 			any_subject_country = {
 				has_reform = h_reform_dominion
 			}
-			amount = 3
+			amount = 1
 		}
 	}
 
@@ -436,7 +371,7 @@ h_denmark_dominions_bonus_iv = {
 			any_subject_country = {
 				has_reform = h_reform_dominion
 			}
-			amount = 4
+			amount = 2
 		}
 	}
 	trigger = {
@@ -444,7 +379,7 @@ h_denmark_dominions_bonus_iv = {
 			any_subject_country = {
 				has_reform = h_reform_dominion
 			}
-			amount = 4
+			amount = 2
 		}
 	}
 
@@ -467,7 +402,7 @@ h_denmark_dominions_bonus_v = {
 			any_subject_country = {
 				has_reform = h_reform_dominion
 			}
-			amount = 5
+			amount = 3
 		}
 	}
 	trigger = {
@@ -475,12 +410,13 @@ h_denmark_dominions_bonus_v = {
 			any_subject_country = {
 				has_reform = h_reform_dominion
 			}
-			amount = 5
+			amount = 3
 		}
 	}
 
 	global_trade_goods_size_modifier = 0.25
 	naval_forcelimit_modifier = 0.125
+	land_forcelimit_modifier = 0.125
 	global_manpower = 25
 	global_sailors = 2500
 }
