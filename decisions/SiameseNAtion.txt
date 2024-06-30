@@ -45,7 +45,10 @@ country_decisions = {
 			}
 		}
 		provinces_to_highlight = {
-			region = indo_china_region
+			OR = {
+					region = burma_region
+					region = indo_china_region
+				}
 			OR = {
 				NOT = { owned_by = ROOT }
 				NOT = { is_core = ROOT }
@@ -61,9 +64,12 @@ country_decisions = {
 			owns_core_province = 601
 			owns_core_province = 589
 			num_of_owned_provinces_with = {	
-				value = 70
+				value = 75
 				is_core = ROOT
-				region = indo_china_region
+				OR = {
+					region = burma_region
+					region = indo_china_region
+				}
 			}
 			OR = {
 				tag = KHM
