@@ -17017,7 +17017,7 @@ salvador_da_bahia = {
 		area_modifier = {
 		}
 		region_modifier = {
-			trade_goods_size = 0.25
+			
 		}
 		country_modifiers = {
 			global_trade_power = 0.15
@@ -17040,11 +17040,12 @@ salvador_da_bahia = {
 		area_modifier = {
 		}
 		region_modifier = {
-			trade_goods_size = 0.5
+			
 		}
 		country_modifiers = {
 			global_trade_power = 0.2
 			global_colonial_growth = 20
+			colonists = 1
 		}
 		on_upgraded = {
 		}

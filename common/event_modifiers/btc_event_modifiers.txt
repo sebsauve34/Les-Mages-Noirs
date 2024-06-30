@@ -112,7 +112,7 @@ regulated_slave_trade = {
 }
 
 weak_control = {
-	yearly_corruption = 0.3
+	global_tariffs = -0.1
 }
 
 strong_feitorias = {
