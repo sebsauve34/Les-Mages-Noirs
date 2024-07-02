@@ -4,7 +4,8 @@ government_rank = 1
 technology_group = chinese
 religion = confucianism
 primary_culture = korean
-capital = 835
-fixed_capital = 835
+capital = 2743
+fixed_capital = 2743
+
 add_truce_with = MJZ
 historical_rival = MJZ

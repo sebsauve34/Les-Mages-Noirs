@@ -18,6 +18,12 @@ hessian_militarization_mechanic = {
 					monthly_hessian_militarization = -0.5
 				}
 			}
+			scaled_modifier = {
+				trigger = { has_country_flag = ven_condottieri_flag }
+				modifier = {
+					assault_fort_cost_modifier = -0.5
+				}		
+			}
 			reverse_scaled_modifier = {
 				modifier = {
 					merc_maintenance_modifier = -0.1

@@ -213,6 +213,9 @@ suez_canal = {
 			OR = {
 				adm_tech = 22
 				mission_completed = mam_highway_empire
+				mission_completed = hsn_suez_canal
+				mission_completed = ITA_explore_eastern_markets
+				mission_completed = ven_mamluk_suez
 			}
 		}
 	}
