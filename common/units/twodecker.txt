@@ -7,6 +7,6 @@ blockade = 5
 
 sail_speed = 8
 
-sailors = 750
+sailors = 600
 
 sprite_level = 5

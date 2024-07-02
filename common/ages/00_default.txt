@@ -923,7 +923,7 @@ age_of_revolutions = {
 		ab_napoleonic_warfare = {
 			modifier = {
 				artillery_levels_available_vs_fort = 3
-				assault_fort_ability = 0.25
+				assault_fort_ability = 0.15
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {

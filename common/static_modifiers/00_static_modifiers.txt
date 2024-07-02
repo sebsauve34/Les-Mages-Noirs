@@ -300,7 +300,7 @@ development = {
 	local_missionary_strength = -0.001
 	land_forcelimit	= 0.1			# special case, affected by autonomy
 	naval_forcelimit = 0.1			# special case, affected by autonomy & set to 0 by code if not port
-	local_sailors = 60			# special case, affected by autonomy & set to 0 by code if not port
+	local_sailors = 75			# special case, affected by autonomy & set to 0 by code if not port
 	province_trade_power_value = 0.2
 	local_amount_of_banners = 0.066
 	local_amount_of_cawa = 0.125
@@ -1775,7 +1775,7 @@ regiment_drill_modifier = { # Used by individual regiments
 	fire_damage_received = -0.25
 	shock_damage_received = -0.25
 	movement_speed = 0.25
-	assault_fort_ability = 0.25
+	assault_fort_ability = 0.15
 	
 }
 
@@ -1784,7 +1784,7 @@ army_drill_modifier = { # Used by an entire army, is the average of all subunits
 }
 
 janissary_regiment = {
-	assault_fort_ability = 0.25
+	assault_fort_ability = 0.15
 	fire_damage_received = -0.05
 	shock_damage_received = -0.05
 	reinforce_cost_modifier = 1.0

@@ -1557,7 +1557,7 @@ anti_heresy_act = {
 	}
 	
 	morale_damage = 0.075
-	assault_fort_ability = 0.25
+	assault_fort_ability = 0.15
 
 	effect = {}
 	removed_effect = {}
