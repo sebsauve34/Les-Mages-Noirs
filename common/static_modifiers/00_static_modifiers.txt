@@ -2116,6 +2116,11 @@ cossacks_regiment = {
 #Scales with used capacity, being at full capacity means 100% of the modifier
 under_governing_capacity_modifier = {
 }
+#Scales with unused capacity, eing at full capacity means 0% of the modifier
+reverse_under_governing_capacity_modifier = {
+development_cost = -0.1
+}
+
 diplomatic_reputation = {
 }
 tolerance_own = {
@@ -2206,9 +2211,6 @@ average_overseas_subject_liberty_desire = { #only counts subjects with capitals 
 
 reverse_average_overseas_subject_liberty_desire = { #only counts subjects with capitals on different continents than yours, 100% LD => 0% modifier
 	monthly_council_consensus = 0.2
-}
-reverse_under_governing_capacity_modifier = {
-	development_cost = -0.1
 }
 manpower_percentage = {
 
