@@ -1057,8 +1057,8 @@ trade_kontor_network = {
 		full_idea_group = trade_ideas
 	}
 	
-	mercenary_manpower = 0.5
-	merc_maintenance_modifier = -0.2
+	mercenary_manpower = 0.33
+	merc_maintenance_modifier = -0.25
 
 	effect = {}
 	removed_effect = {}

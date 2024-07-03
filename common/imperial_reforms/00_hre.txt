@@ -111,7 +111,7 @@ erbkaisertum = {
 		NOT = { has_dlc = "Emperor" }
 	}
 	province = {
-		development_cost = -0.075
+		local_development_cost = -0.075
 	}
 	emperor = {
 		imperial_authority = 0.1

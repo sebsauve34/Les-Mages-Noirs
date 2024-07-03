@@ -3328,8 +3328,10 @@ dom_cas_missions_4_c = {
 		
 		trigger = { 
 			OR = { 
-				full_idea_group = exploration_ideas
-				full_idea_group = expansion_ideas
+				
+				has_idea_group = exploration_ideas
+				has_idea_group = expansion_ideas
+			
 			}
 		}
 	

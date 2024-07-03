@@ -620,7 +620,7 @@ the_education_act = {
 	}
 
 	mercenary_discipline = 0.03
-	mercenary_manpower = 0.5
+	mercenary_manpower = 0.33
 
 	effect = {}
 	removed_effect = {}

@@ -100,7 +100,7 @@ plutocracy_ideas = {
 	#}
 
 	tradition_of_payment = {
-		mercenary_manpower = 1
+		mercenary_manpower = 0.75
 		mercenary_discipline = 0.05
 	}
 	abolished_serfdom = {
@@ -279,7 +279,7 @@ innovativeness_ideas = {
 		technology_cost = -0.1
 	}
 	dynamic_court = {
-		mercenary_manpower = 0.5
+		mercenary_manpower = 0.33
 		mercenary_discipline = 0.025
 	}
 	print_culture = {
@@ -824,7 +824,7 @@ trade_ideas = {
 	}
 	national_trade_policy = {
 		trade_efficiency = 0.15
-		mercenary_manpower = 0.5
+		mercenary_manpower = 0.33
 	}
 	overseas_merchants = {
 		global_prov_trade_power_modifier = 0.25
