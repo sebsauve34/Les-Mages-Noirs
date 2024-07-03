@@ -2210,14 +2210,8 @@ machu_picchu = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		OR = {
-		capital_scope = {
-					continent = north_america
-				}
-		capital_scope = {
-					continent = south_america
-				}
-		}
+	#	culture_group = andean_group
+		province_is_or_accepts_culture = yes
 	}
 
 	#can our country upgrade it?
@@ -2352,6 +2346,12 @@ machu_picchu = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_church
+					loyalty = 15
+				}
+			}
 		}
 	}
 }
@@ -2401,14 +2401,8 @@ chichen_itza = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		OR = {
-		capital_scope = {
-					continent = north_america
-				}
-		capital_scope = {
-					continent = south_america
-				}
-		}
+	#	culture_group = maya
+		province_is_or_accepts_culture = yes
 	}
 
 	#can our country upgrade it?
@@ -2477,6 +2471,12 @@ chichen_itza = {
 
 		#what effects happen when this tier is achieved
 		on_upgraded = {
+			owner = {
+				add_estate_loyalty = {
+					estate = estate_nobles
+					loyalty = 5
+				}
+			}
 		}
 	}
 
@@ -3484,14 +3484,8 @@ tenochtitlan = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		OR = {
-		capital_scope = {
-					continent = north_america
-				}
-		capital_scope = {
-					continent = south_america
-				}
-		}
+	#	culture_group = central_american
+		province_is_or_accepts_culture = yes
 	}
 
 	#can our country upgrade it?
@@ -4448,14 +4442,9 @@ mesa_verde = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		OR = {
-		capital_scope = {
-					continent = north_america
-				}
-		capital_scope = {
-					continent = south_america
-				}
-		}
+	#	province_is_or_accepts_religion = {
+	#		religion = totemism
+	#	}
 	}
 
 	#can our country upgrade it?
@@ -7597,15 +7586,7 @@ inukshuk = {
 	}
 
 	#can our country use it?
-	can_use_modifiers_trigger = {
-		OR = {
-		capital_scope = {
-					continent = north_america
-				}
-		capital_scope = {
-					continent = south_america
-				}
-		}
+	can_use_modifiers_trigger = {		
 	}
 
 	#can our country upgrade it?
@@ -9459,14 +9440,7 @@ potosi = {
 
 	#can our country use it?
 	can_use_modifiers_trigger = {
-		OR = {
-		capital_scope = {
-					continent = north_america
-				}
-		capital_scope = {
-					continent = south_america
-				}
-		}
+		#anyone
 	}
 
 	#can our country upgrade it?
@@ -11154,7 +11128,9 @@ cahokia = {
 	type = monument
 
 	build_trigger = {
-		
+		province_is_or_accepts_religion = {
+			religion = totemism
+		}
 	}
 
 	on_built = {
@@ -11164,18 +11140,15 @@ cahokia = {
 	}
 
 	can_use_modifiers_trigger = {
-		OR = {
-		capital_scope = {
-					continent = north_america
-				}
-		capital_scope = {
-					continent = south_america
-				}
+		province_is_or_accepts_religion = {
+			religion = totemism
 		}
 	}
 
 	can_upgrade_trigger = {
-		
+		province_is_or_accepts_religion = {
+			religion = totemism
+		}
 	}
 
 	keep_trigger = {
@@ -11211,7 +11184,7 @@ cahokia = {
 		area_modifier = {
 		}
 		country_modifiers = {
-						
+			tribal_development_growth = 0.01			
 		}
 		on_upgraded = {
 		}
@@ -11230,7 +11203,7 @@ cahokia = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			
+			tribal_development_growth = 0.02
 			global_manpower_modifier = 0.1
 		}
 		on_upgraded = {
@@ -11250,7 +11223,7 @@ cahokia = {
 			local_monthly_devastation = -1
 		}
 		country_modifiers = {
-			
+			tribal_development_growth = 0.03
 			global_manpower_modifier = 0.2
 		}
 		on_upgraded = {
@@ -11278,14 +11251,6 @@ cartagena_de_indias = {
 	}
 
 	can_use_modifiers_trigger = {
-		OR = {
-		capital_scope = {
-					continent = north_america
-				}
-		capital_scope = {
-					continent = south_america
-				}
-		}
 	}
 
 	can_upgrade_trigger = {
@@ -11398,14 +11363,6 @@ chan_chan_citadel = {
 	}
 
 	can_use_modifiers_trigger = {
-		OR = {
-		capital_scope = {
-					continent = north_america
-				}
-		capital_scope = {
-					continent = south_america
-				}
-		}
 	}
 
 	can_upgrade_trigger = {
@@ -12258,14 +12215,6 @@ fuerte_del_morro = {
 	}
 
 	can_use_modifiers_trigger = {
-		OR = {
-		capital_scope = {
-					continent = north_america
-				}
-		capital_scope = {
-					continent = south_america
-				}
-		}
 	}
 
 	can_upgrade_trigger = {
@@ -14395,14 +14344,12 @@ qhapaq_nam = {
 	}
 
 	can_use_modifiers_trigger = {
-		OR = {
-		capital_scope = {
-					continent = north_america
-				}
-		capital_scope = {
-					continent = south_america
-				}
-		}
+	#	OR = {
+	#		culture_group = andean_group
+	#		culture = cara
+	#		culture = chachapoyan
+	#	}
+		province_is_or_accepts_culture = yes
 	}
 
 	can_upgrade_trigger = {
@@ -14858,14 +14805,9 @@ san_antonio_missions = {
 	}
 
 	can_use_modifiers_trigger = {
-		OR = {
-		capital_scope = {
-					continent = north_america
-				}
-		capital_scope = {
-					continent = south_america
-				}
-		}
+	#	province_is_or_accepts_religion = {
+	#		religion = catholic
+	#	}
 	}
 
 	can_upgrade_trigger = {
@@ -15648,7 +15590,7 @@ white_house = {
 	type = monument
 
 	build_trigger = {
-		
+		always = no
 	}
 
 	on_built = {
@@ -15658,18 +15600,11 @@ white_house = {
 	}
 
 	can_use_modifiers_trigger = {
-		OR = {
-		capital_scope = {
-					continent = north_america
-				}
-		capital_scope = {
-					continent = south_america
-				}
-		}
+		always = no
 	}
 
 	can_upgrade_trigger = {
-		
+		always = no
 	}
 
 	keep_trigger = {
@@ -15775,14 +15710,8 @@ tikal = {
 	}
 
 	can_use_modifiers_trigger = {
-		OR = {
-		capital_scope = {
-					continent = north_america
-				}
-		capital_scope = {
-					continent = south_america
-				}
-		}
+	#	culture_group = maya
+		province_is_or_accepts_culture = yes
 	}
 
 	can_upgrade_trigger = {
@@ -16005,14 +15934,6 @@ tortuga_island = {
 	}
 
 	can_use_modifiers_trigger = {
-		OR = {
-		capital_scope = {
-					continent = north_america
-				}
-		capital_scope = {
-					continent = south_america
-				}
-		}
 	}
 
 	can_upgrade_trigger = {
@@ -16052,7 +15973,7 @@ tortuga_island = {
 		area_modifier = {
 		}
 		country_modifiers = {
-			privateer_efficiency = 0.2
+			privateer_efficiency = 0.1
 			capture_ship_chance = 0.05
 		}
 		on_upgraded = {
@@ -16073,7 +15994,7 @@ tortuga_island = {
 			blockade_force_required = 1
 		}
 		country_modifiers = {
-			privateer_efficiency = 0.33
+			privateer_efficiency = 0.2
 			power_projection_from_insults = 0.5
 			capture_ship_chance = 0.1
 		}
@@ -16095,7 +16016,7 @@ tortuga_island = {
 			blockade_force_required = 1
 		}
 		country_modifiers = {
-			privateer_efficiency = 0.5
+			privateer_efficiency = 0.33
 			power_projection_from_insults = 1
 			capture_ship_chance = 0.15
 		}
@@ -16477,14 +16398,6 @@ zacatecas_mine_city = {
 	}
 
 	can_use_modifiers_trigger = {
-		OR = {
-		capital_scope = {
-					continent = north_america
-				}
-		capital_scope = {
-					continent = south_america
-				}
-		}
 	}
 
 	can_upgrade_trigger = {
@@ -17046,14 +16959,6 @@ salvador_da_bahia = {
 	}
 
 	can_use_modifiers_trigger = {
-		OR = {
-		capital_scope = {
-					continent = north_america
-				}
-		capital_scope = {
-					continent = south_america
-				}
-		}
 	}
 
 	can_upgrade_trigger = {
@@ -20251,20 +20156,27 @@ tzintzuntzan = {
 	starting_tier = 1
 	type = monument
 	build_trigger = {
+		culture_group = central_american
+		province_is_or_accepts_culture = yes
+		province_is_or_accepts_religion = {
+			religion = nahuatl
+		}
 	}
 	on_built = {}
 	on_destroyed = {}
 	can_use_modifiers_trigger = {
-		OR = {
-		capital_scope = {
-					continent = north_america
-				}
-		capital_scope = {
-					continent = south_america
-				}
+		culture_group = central_american
+		province_is_or_accepts_culture = yes
+		province_is_or_accepts_religion = {
+			religion = nahuatl
 		}
 	}
 	can_upgrade_trigger = {
+		culture_group = central_american
+		province_is_or_accepts_culture = yes
+		province_is_or_accepts_religion = {
+			religion = nahuatl
+		}
 	}
 	keep_trigger = {}
 	tier_0 = {
