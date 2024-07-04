@@ -2873,10 +2873,10 @@ h_danish_missions_main_1 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+			num_of_owned_provinces_with = {
 				value = 10
 				trade_goods = fish
-				has_manufactory_no_custom_tooltip_trigger = yes
+				has_manufactory_trigger = yes
 			}
 
 		}
@@ -2885,7 +2885,7 @@ h_danish_missions_main_1 = {
 				years = 5
 				trigger = {
 					trade_goods = fish
-					has_manufactory_no_custom_tooltip_trigger = yes
+					has_manufactory_trigger = yes
 				}
 			}
 
@@ -2910,10 +2910,10 @@ h_danish_missions_main_1 = {
 		}
 		trigger = {
 			OR = {
-				num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				num_of_owned_provinces_with = {
 					value = 10
 					trade_goods = naval_supplies
-					has_manufactory_no_custom_tooltip_trigger = yes
+					has_manufactory_trigger = yes
 				}
 				trading_bonus = {
 					trade_goods = naval_supplies
@@ -2926,7 +2926,7 @@ h_danish_missions_main_1 = {
 				years = 3
 				trigger = {
 					trade_goods = naval_supplies
-					has_manufactory_no_custom_tooltip_trigger = yes
+					has_manufactory_trigger = yes
 				}
 			}
 
@@ -3172,14 +3172,11 @@ h_danish_missions_main_2 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			calc_true_if = {
-				british_isles_region = {
-					owned_by = ROOT
-					is_core = ROOT
-					culture = danish
-				}
-
-				amount = 20
+			num_of_owned_provinces_with = { 
+			region = british_isles_region 
+			owned_by = ROOT 
+			is_core = ROOT 
+			culture = danish value = 25 
 			}
 
 			245 = {

@@ -1986,8 +1986,7 @@ cossacks_reform = {
 	nation_designer_cost = 60
 
 	modifiers = {
-		infantry_power = 0.1
-		shock_damage = 0.1
+		shock_damage = 0.15
 		cavalry_power = -0.1
 		governing_capacity = 100
 		allowed_cossack_fraction = 0.25

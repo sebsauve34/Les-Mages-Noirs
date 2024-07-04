@@ -2081,7 +2081,7 @@ KOR_ideas = {
 BUK_ideas = {
 	start = {
 		development_cost = -0.1
-		infantry_power = 0.1
+		discipline = 0.05
 		cavalry_power = -0.1
 	}
 	bonus = {
@@ -2117,6 +2117,6 @@ BUK_ideas = {
 		shock_damage = 0.1
 	}
 	buk_sahih_al-bukhari = {
-		discipline = 0.05
+		infantry_shock = 0.5
 	}
 }
