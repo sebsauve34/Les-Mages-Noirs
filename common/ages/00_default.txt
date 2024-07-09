@@ -188,17 +188,13 @@ age_of_discovery = {
 		ab_ottoman_siege_ability = {
 			allow = {
 				OR = {
-				tag = TUR
-				tag = MAM
-				tag = ORM
-				tag = AKK
-				tag = KHO
-				tag = AFG
+					technology_group = muslim
+					technology_group = ottoman
 				}
 			}
 			modifier = {
 				leader_siege = 1 
-				siege_ability = 0.20
+				siege_ability = 0.2
 				special_unit_forcelimit = 0.2
 				num_of_age_rewards = 1
 			}
@@ -245,9 +241,9 @@ age_of_discovery = {
 				}
 			}
 			modifier = {
-				reduced_liberty_desire = 30
+				vassal_forcelimit_bonus = 0.25
 				diplomatic_reputation = 2
-				diplomatic_upkeep = 2
+				accept_vassalization_reasons = 10
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
