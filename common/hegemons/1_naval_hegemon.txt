@@ -17,7 +17,7 @@ naval_hegemon = {
 	}
 	
 	base = {
-		sailor_maintenance_modifer = -0.1
+		sea_repair = yes
 		war_exhaustion = -0.1
 		country_diplomatic_power = 1	
 	}

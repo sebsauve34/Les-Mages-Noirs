@@ -277,7 +277,7 @@ development_of_infrastructure = {
 	category = 3
 
 	allow = {
-		always = no
+		
 	}
 	
 	effect = {
@@ -293,7 +293,7 @@ development_of_infrastructure = {
 	}
 	
 	modifier = {
-		development_cost = -0.1
+		development_cost = -0.05
 	}
 	
 	chance = {
