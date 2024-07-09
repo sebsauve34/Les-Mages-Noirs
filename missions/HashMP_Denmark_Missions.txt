@@ -2130,7 +2130,7 @@ h_danish_missions_prologue_2 = {
 		trigger = {
 			has_ruler_modifier = h_christopher_iii
 			sailors_percentage = 0.25
-			navy_size_percentage = 1
+			navy_size_percentage = 0.75
 			num_of_admirals = 1
 		}
 		effect = {
@@ -2425,7 +2425,7 @@ h_danish_missions_prologue_4 = {
 		}
 		trigger = {
 			has_ruler_modifier = h_christopher_iii
-			army_size_percentage = 1
+			army_size_percentage = 0.75
 			num_of_generals = 1
 		}
 		effect = {
