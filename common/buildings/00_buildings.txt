@@ -2143,7 +2143,7 @@ wharf = {
 		add_development_from_building = {
 			building = manufactory
 			type = production
-			value = 1
+			value = 2
 		}
 		add_dev_from_building = {
 			building = manufactory 
@@ -2156,7 +2156,7 @@ wharf = {
 		remove_development_from_building = {
 			building = manufactory
 			type = production
-			value = 1
+			value = 2
 		}
 		remove_dev_from_building = {
 			building = manufactory 
@@ -2207,7 +2207,7 @@ weapons = {
 		add_development_from_building = {
 			building = manufactory
 			type = production
-			value = 1
+			value = 2
 		}
 		add_dev_from_building = {
 			building = manufactory 
@@ -2219,7 +2219,7 @@ weapons = {
 		remove_development_from_building = {
 			building = manufactory
 			type = production
-			value = 1
+			value = 2
 		}
 		remove_dev_from_building = {
 			building = manufactory 
@@ -2247,7 +2247,7 @@ textile = {
 		add_development_from_building = {
 			building = manufactory
 			type = production
-			value = 1
+			value = 2
 		}
 		add_dev_from_building = {
 			building = manufactory 
@@ -2259,7 +2259,7 @@ textile = {
 		remove_development_from_building = {
 			building = manufactory
 			type = production
-			value = 1
+			value = 2
 		}
 		remove_dev_from_building = {
 			building = manufactory 
@@ -2289,7 +2289,7 @@ plantations = {
 		add_development_from_building = {
 			building = manufactory
 			type = production
-			value = 1
+			value = 2
 		}
 		add_dev_from_building = {
 			building = manufactory 
@@ -2301,7 +2301,7 @@ plantations = {
 		remove_development_from_building = {
 			building = manufactory
 			type = production
-			value = 1
+			value = 2
 		}
 		remove_dev_from_building = {
 			building = manufactory 
@@ -2331,7 +2331,7 @@ tradecompany = {
 		add_development_from_building = {
 			building = manufactory
 			type = production
-			value = 1
+			value = 2
 		}
 		add_dev_from_building = {
 			building = manufactory 
@@ -2343,7 +2343,7 @@ tradecompany = {
 		remove_development_from_building = {
 			building = manufactory
 			type = production
-			value = 1
+			value = 2
 		}
 		remove_dev_from_building = {
 			building = manufactory 
@@ -2370,7 +2370,7 @@ farm_estate = {
 		add_development_from_building = {
 			building = manufactory
 			type = production
-			value = 1
+			value = 2
 		}
 		add_dev_from_building = {
 			building = manufactory 
@@ -2390,7 +2390,7 @@ farm_estate = {
 		remove_development_from_building = {
 			building = manufactory 
 			type = production 
-			value = 1
+			value = 2
 		}
 		remove_dev_from_building = {
 			building = manufactory 
@@ -2427,7 +2427,7 @@ mills = {
 		add_development_from_building = {
 			building = manufactory
 			type = production
-			value = 1
+			value = 2
 		}
 		add_dev_from_building = {
 			building = manufactory 
@@ -2439,7 +2439,7 @@ mills = {
 		remove_development_from_building = {
 			building = manufactory
 			type = production
-			value = 1
+			value = 2
 		}
 		remove_dev_from_building = {
 			building = manufactory 
@@ -2585,7 +2585,7 @@ soldier_households = {
 		add_development_from_building = {
 			building = manufactory
 			type = manpower
-			value = 1
+			value = 2
 		}
 		add_dev_from_building = {
 			building = manufactory 
@@ -2608,7 +2608,7 @@ soldier_households = {
 		remove_development_from_building = {
 			building = manufactory
 			type = manpower
-			value = 1
+			value = 2
 		}
 		remove_dev_from_building = {
 			building = manufactory 
@@ -2664,7 +2664,7 @@ impressment_offices = {
 		add_development_from_building = {
 			building = impressment_offices
 			type = manpower
-			value = 1
+			value = 2
 		}
 		add_dev_from_building = {
 			building = impressment_offices 
@@ -2676,7 +2676,7 @@ impressment_offices = {
 		remove_development_from_building = {
 			building = impressment_offices
 			type = manpower
-			value = 1
+			value = 2
 		}
 		remove_dev_from_building = {
 			building = impressment_offices 
