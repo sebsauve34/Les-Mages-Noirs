@@ -1965,6 +1965,9 @@ expanded_infrastructure = {
 	local_build_time = -0.025
 	province_trade_power_modifier = 0.025
 	trade_goods_size_modifier = 0.025
+	local_hostile_attrition = 1
+	local_friendly_movement_speed = 0.1
+	local_defensiveness = 0.05
 }
 
 centralize_state = {
