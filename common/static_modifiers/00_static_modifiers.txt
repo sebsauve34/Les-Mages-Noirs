@@ -846,7 +846,7 @@ positive_piety = { #As of 1.23 Legalism
 	global_tax_modifier = 0.2
 	brahmins_muslim_loyalty_modifier = -0.1
 	church_loyalty_modifier = 0.1
-	piety_dhimmi_loyalty_modifier = -0.1
+	dhimmi_loyalty_modifier = -0.1
 }
 
 #For convenience, its multiplied by negative piety in code.
@@ -855,7 +855,7 @@ negative_piety = { #As of 1.23 Mysticism
 	idea_cost = -0.1
 	global_missionary_strength = 0.03
 	brahmins_muslim_loyalty_modifier = 0.1
-	piety_church_loyalty_modifier = -0.1
+	church_loyalty_modifier = -0.1
 	dhimmi_loyalty_modifier = 0.1
 }
 
@@ -1688,6 +1688,8 @@ inward_focus_modifier = {
 	ae_impact = 0.33
 	fort_maintenance_modifier = -0.2
 	build_cost = -0.05
+	development_cost = -0.05
+	defensiveness = 0.15
 	global_unrest = -2
 	all_estate_loyalty_equilibrium = 0.05
 }
@@ -1700,9 +1702,11 @@ outward_focus_modifier = {
 	global_colonial_growth = 20
 	range = 0.25
 	harmonization_speed = 0.25
+	burghers_loyalty_modifier = 0.05
 }
 
 expansion_focus_modifier = {
+	all_estate_loyalty_equilibrium = -0.05
 	global_unrest = 2
 	diplomatic_reputation = -1
 	core_creation = -0.1
