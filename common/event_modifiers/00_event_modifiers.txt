@@ -10361,9 +10361,9 @@ cairo_markets = {
 }
 
 cairo_slums = {
-	development_cost = -0.15
-	local_tax_modifier = -0.15
-	local_build_cost = 0.1
+	local_development_cost = -0.15
+	local_tax_modifier = 0.15
+	local_build_cost = -0.1
 }
 
 cairo_al_ahzar = {

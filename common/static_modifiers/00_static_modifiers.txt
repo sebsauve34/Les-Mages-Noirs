@@ -714,7 +714,7 @@ bankruptcy = {
 	monthly_fervor_increase = -1
 	global_colonial_growth = -200
 	global_autonomy = 0.1
-	#global_institution_spread = -0.50
+	#global_institution_spread = -0.5
 	monthly_militarized_society = -0.5
 	yearly_absolutism = -2.0
 	#technology_cost = 0.5
@@ -818,16 +818,20 @@ army_tradition = {
 	nobles_loyalty_modifier = 0.05
 	maratha_loyalty_modifier = 0.05
 	rajput_loyalty_modifier = 0.05
+	janissaries_loyalty_modifier = 0.05
+	qizilbash_loyalty_modifier = 0.05
+	ghulams_loyalty_modifier = 0.05
 	yearly_army_professionalism = 0.01
 	monthly_prussian_militarized_society_1 = 0.1
 	land_forcelimit_modifier = 0.1
+	allowed_tercio_fraction = 0.1
+	allowed_samurai_fraction = 0.1
 }
 
 navy_tradition = {
 	recover_navy_morale_speed = 0.1
 	naval_morale = 0.10
 	trade_steering = 0.5
-	privateer_efficiency = 0.25
 	enuchs_influence = 0.1
 	mr_traders_influence = 0.1
 	blockade_efficiency = 1
@@ -838,20 +842,20 @@ navy_tradition = {
 
 positive_piety = { #As of 1.23 Legalism
 	technology_cost = -0.1
-	global_manpower_modifier = 0.20
-	global_tax_modifier = 0.20
+	global_manpower_modifier = 0.2
+	global_tax_modifier = 0.2
 	brahmins_muslim_loyalty_modifier = -0.1
 	church_loyalty_modifier = 0.1
-	dhimmi_loyalty_modifier = -0.1
+	piety_dhimmi_loyalty_modifier = -0.1
 }
 
 #For convenience, its multiplied by negative piety in code.
 negative_piety = { #As of 1.23 Mysticism
-	land_morale = 0.15
+	land_morale = 0.1
+	idea_cost = -0.1
 	global_missionary_strength = 0.03
-	defensiveness = 0.20
 	brahmins_muslim_loyalty_modifier = 0.1
-	church_loyalty_modifier = -0.1
+	piety_church_loyalty_modifier = -0.1
 	dhimmi_loyalty_modifier = 0.1
 }
 

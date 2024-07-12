@@ -531,7 +531,7 @@ coastal_defence = {
 		has_port = yes
 	}
 	modifier = {
-		blockade_force_required = 0.5
+		blockade_force_required = 0.25
 		hostile_disembark_speed = 1.0
 		hostile_fleet_attrition = 2
 		fort_level = 1
@@ -1004,7 +1004,7 @@ naval_battery = {
 		has_port = yes
 	}
 	modifier = {
-		blockade_force_required = 1.0
+		blockade_force_required = 0.25
 		hostile_disembark_speed = 1.0
 		hostile_fleet_attrition = 4
 		block_slave_raid = yes
