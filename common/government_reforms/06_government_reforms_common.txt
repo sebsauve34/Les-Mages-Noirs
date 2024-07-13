@@ -4,7 +4,7 @@ united_cantons_reform = {
 	modifiers = {
 		governing_capacity = -50
 		free_policy = 1
-		mercenary_manpower = 0.5
+		mercenary_manpower = 0.33
 	}
 	valid_for_nation_designer = yes
 	nation_designer_cost = 40
@@ -1993,7 +1993,7 @@ doppelsoldner_reform = {
 	}
 	modifiers = {
 		mercenary_cost = -0.33
-		mercenary_manpower = 0.5
+		mercenary_manpower = 0.33
 		mercenary_discipline = 0.05
 	}
 	conditional = {
@@ -3182,7 +3182,7 @@ swiss_mercenary_reform = {
 	modifiers = {
 		mercenary_cost = -0.33
 		possible_condottieri = 0.5
-		mercenary_manpower = 0.5
+		mercenary_manpower = 0.33
 		mercenary_discipline = 0.05
 	}
 	conditional = {
@@ -3212,7 +3212,7 @@ expanded_black_army_reform = {
 		primary_culture = hungarian
 	}
 	modifiers = {
-		mercenary_manpower = 1
+		mercenary_manpower = 0.33
 		war_taxes_cost_modifier = -0.5
 		army_tradition_from_battle = 1
 		allow_mercenary_drill = yes
