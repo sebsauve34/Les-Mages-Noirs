@@ -41,7 +41,7 @@ add_army_professionalism = 0.1
 		name = "Vasiliy II Temny"
 		dynasty = Rurikovich
 		birth_date = 1415.3.10
-		adm = 3
+		adm = 4
 		dip = 3
 		mil = 4	
 	}

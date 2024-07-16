@@ -1,5 +1,5 @@
 government = monarchy
-add_government_reform = grand_duchy_reform
+add_government_reform = principality
 government_rank = 1
 primary_culture = lithuanian
 add_accepted_culture = byelorussian
@@ -53,9 +53,9 @@ national_focus = MIL
 		name = "Kazimierz"
 		dynasty = Jagiellon
 		birth_date = 1427.11.30
-		adm = 4
-		dip = 4
-		mil = 4
+		adm = 5
+		dip = 5
+		mil = 5
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = scholar_personality

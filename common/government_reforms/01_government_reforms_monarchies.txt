@@ -414,12 +414,13 @@ absolutist_france_reform = {
 	modifiers = {
 		all_estate_influence_modifier = -0.1
 		max_absolutism = 10
-		
+		allowed_musketeer_fraction = 0.15
+		has_musketeer = yes
 	}
 
-	custom_attributes = {
-		centralize_state_development = yes 
-	}
+	#custom_attributes = {
+	#	centralize_state_development = yes 
+	#}
 }
 
 indep_daimyo = {

@@ -1117,12 +1117,12 @@ POR_ideas = {
 
 POL_ideas = {
 	start = {
-		infantry_power = 0.1
-		num_accepted_cultures = 1
+		tolerance_heretic = 3
+		num_accepted_cultures = 2
 	}
 	
 	bonus = {
-	 	tolerance_heretic = 3
+	 	development_cost_in_primary_culture = -0.1
 	}
 	
 	trigger = {
@@ -1137,7 +1137,7 @@ POL_ideas = {
 		production_efficiency = 0.1
 	}
 	focus_on_field_defences = {
-		land_morale = 0.10
+		land_morale = 0.1
 	}
 	nihil_novi = {
 		stability_cost_modifier = -0.1
@@ -1152,7 +1152,7 @@ POL_ideas = {
 		can_recruit_hussars = yes
 	}
 	wojsko_komputoe = {
-		global_regiment_cost = -0.10
+		global_regiment_cost = -0.1
 	}
 	foreign_section = {
 		discipline = 0.05
@@ -2638,7 +2638,7 @@ SAX_ideas = {
 
 LIT_ideas = {
 	start = {
-		manpower_recovery_speed = 0.15
+		leader_land_shock = 1
 		tolerance_heretic = 3
 	}
 	
@@ -2652,7 +2652,7 @@ LIT_ideas = {
 	free = yes		#will be added at load.
 	
 	warlord_dukes = {
-		leader_land_shock = 1
+		manpower_recovery_speed = 0.15
 	}
 	auksine_laisve = {
 		cavalry_power = 0.1
@@ -2677,7 +2677,7 @@ LIT_ideas = {
 }
 LIT2_ideas = {
 	start = {
-		manpower_recovery_speed = 0.15
+		leader_land_shock = 1
 		tolerance_heretic = 3
 	}
 	
@@ -2692,7 +2692,7 @@ LIT2_ideas = {
 	free = yes		#will be added at load.
 	
 	warlord_dukes = {
-		leader_land_shock = 1
+		manpower_recovery_speed = 0.15
 	}
 	auksine_laisve = {
 		cavalry_power = 0.1
