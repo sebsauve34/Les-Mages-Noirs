@@ -619,8 +619,8 @@ the_education_act = {
 		full_idea_group = plutocracy_ideas
 	}
 
-	mercenary_discipline = 0.03
-	mercenary_manpower = 0.33
+	mercenary_discipline = 0.025
+	mercenary_manpower = 0.25
 
 	effect = {}
 	removed_effect = {}

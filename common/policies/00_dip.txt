@@ -34,7 +34,7 @@ plutocratic_ethos_act = {
 	}
 	
 	infantry_power = 0.1
-	mercenary_cost = -0.15
+	mercenary_cost = -0.1
 	
 	effect = {}
 	removed_effect = {}
@@ -1272,7 +1272,7 @@ armed_neutrality_act = {
 	}
 	
 	military_tactics = 0.1
-	mercenary_discipline = 0.03
+	mercenary_discipline = 0.025
 	effect = {}
 	removed_effect = {}
 	ai_will_do = {
