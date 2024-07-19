@@ -1514,9 +1514,9 @@ MAM_ideas = {
 	}
 	free = yes
 	
-	red_sea_trade = {
-		global_trade_power = 0.10
-		trade_range_modifier = 0.10
+	mam_army_reform = {
+		discipline = 0.05
+		cav_to_inf_ratio = 0.15
 	}
 	monuments_to_greatness = {
 		prestige = 1
@@ -1524,9 +1524,9 @@ MAM_ideas = {
 	purchase_new_mamelukes = {
 		manpower_recovery_speed = 0.2
 	}
-	mam_army_reform = {
-		discipline = 0.05
-		cav_to_inf_ratio = 0.15
+	red_sea_trade = {
+		global_trade_power = 0.10
+		trade_range_modifier = 0.10
 	}
 	reform_fellah_system = {
 		production_efficiency = 0.1
@@ -1554,9 +1554,9 @@ MAM2_ideas = { #Mission reward to double mam_monopoly_ports // see mam_establish
 	}
 	free = yes
 	
-	red_sea_trade = {
-		global_trade_power = 0.2
-		trade_range_modifier = 0.2
+	mam_army_reform = {
+		discipline = 0.05
+		cav_to_inf_ratio = 0.15
 	}
 	monuments_to_greatness = {
 		prestige = 1
@@ -1564,9 +1564,9 @@ MAM2_ideas = { #Mission reward to double mam_monopoly_ports // see mam_establish
 	purchase_new_mamelukes = {
 		manpower_recovery_speed = 0.2
 	}
-	mam_army_reform = {
-		discipline = 0.05
-		cav_to_inf_ratio = 0.15
+	red_sea_trade = {
+		global_trade_power = 0.2
+		trade_range_modifier = 0.2
 	}
 	mam_monopoly_ports_evolved = {
 		trade_efficiency = 0.2
