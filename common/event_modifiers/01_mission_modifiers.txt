@@ -12719,16 +12719,16 @@ ven_wealth_of_india_modifier = {
 }
 
 ned_seven_provinces_organization_positive_modifier = {
-	local_development_cost = -0.1
-	trade_goods_size_modifier = 0.1
-	local_governing_cost = -0.25
+	local_development_cost = -0.05
+	trade_goods_size_modifier = 0.05
+	local_governing_cost = -0.2
 	local_build_cost = -0.1
 	local_build_time = -0.1
 }
 
 ned_seven_provinces_organization_negative_modifier = {
-	local_governing_cost = 0.25
-	min_local_autonomy = 33
+	local_governing_cost = 0.2
+	min_local_autonomy = 25
 }
 
 ned_protection_of_frisian_freedom = {
@@ -12741,8 +12741,8 @@ ned_hollander_settlers = {
 }
 
 ned_je_maintiedrai = {
-	discipline = 0.05
-	development_cost = -0.1
+	discipline = 0.025
+	development_cost = -0.05
 }
 
 ned_devise_glorious_crossing = {
@@ -12780,13 +12780,13 @@ ned_connection_to_the_baltic = {
 }
 
 ned_found_dutch_states_army = {
-	drill_gain_modifier = 0.3
+	drill_gain_modifier = 0.33
 	land_morale = 0.1
 }
 
 ned_empowered_staatse_leger = {
-	drill_gain_modifier = 0.15
-	discipline = 0.025
+	drill_gain_modifier = 0.33
+	drill_decay_modifier = -0.1
 }
 
 ned_low_countries_fort_buff = {
@@ -12796,7 +12796,7 @@ ned_low_countries_fort_buff = {
 }
 
 ned_low_countries_fort_buff_buffed = {
-	local_development_cost = -0.1
+	local_development_cost = -0.05
 	local_production_efficiency = 0.2
 	local_defensiveness = 0.2
 }
@@ -12815,7 +12815,7 @@ ned_dutch_polders_modifier = {
 }
 
 ned_reclamation_of_coast = {
-	local_build_cost = -0.2
+	local_build_cost = -0.1
 	local_production_efficiency = 0.1
 }
 
@@ -12825,7 +12825,7 @@ ned_dutch_urbanization = {
 	local_build_cost = -0.1
 }
 ned_flemish_urbanization = {
-	trade_goods_size_modifier = 0.15
+	trade_goods_size_modifier = 0.1
 	local_governing_cost = -0.2
 	local_build_cost = -0.2
 }
@@ -12874,7 +12874,7 @@ ned_prelude_true_freedom = {
 }
 
 ned_true_freedom = {
-	all_power_cost = -0.025
+	advisor_cost = -0.1
 	stability_cost_modifier = -0.1
 }
 
@@ -12890,7 +12890,7 @@ ned_seat_of_many_artists = {
 
 ned_dutch_golden_age = {
 	monthly_splendor = 2
-	same_culture_advisor_cost = -0.2
+	same_culture_advisor_cost = -0.1
 }
 
 ned_set_sail_to_unknown = {
@@ -12898,8 +12898,8 @@ ned_set_sail_to_unknown = {
 }
 
 ned_carribean_colony = {
-	global_trade_goods_size_modifier = 0.2
-	overlord_naval_forcelimit_modifier = 0.15
+	global_trade_goods_size_modifier = 0.1
+	overlord_naval_forcelimit_modifier = 0.1
 }
 
 ned_grand_designs_effects = {
