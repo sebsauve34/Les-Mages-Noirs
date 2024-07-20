@@ -87,10 +87,7 @@ parliamentary_reform = {
 			}
 		}
 		has_parliament = yes
-		custom_attributes = {
-			disables_estate_nobles = yes
-			blocked_call_diet = yes
-		}
+		
 	}
 	ai = {
 		factor = 1
@@ -116,9 +113,7 @@ parliamentary_reform = {
 			}
 		}
 	}
-	post_removed_effect = {
-		give_estate_land_share_init = { estate = estate_nobles }
-	}
+	
 }
 
 restoration_of_the_senate_reform = {
