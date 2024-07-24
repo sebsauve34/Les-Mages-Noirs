@@ -3822,7 +3822,7 @@ estate_nobles_enlist_the_mamluks = {
 	}
 	benefits = {
 		has_mamluks = yes 
-		allowed_mamluks_fraction = 0.2
+		allowed_mamluks_fraction = 0.25
 	}
 	ai_will_do = {
 		factor = 100

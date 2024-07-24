@@ -3867,8 +3867,8 @@ dom_cas_missions_5 = {
 			reform_level = 3
 			OR = { 
 				full_idea_group = administrative_ideas 
-				adm = 6 
-				monthly_adm = 15 
+				adm = 4 
+				monthly_adm = 12 
 			}
 			crown_land_share = 50
 		}

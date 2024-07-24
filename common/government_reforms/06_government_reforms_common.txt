@@ -4453,7 +4453,7 @@ modernized_furusiyya_reform = {
 		
 	}
 	modifiers = {
-		allowed_mamluks_fraction = 0.05
+		allowed_mamluks_fraction = 0.1
 	}
 
 	custom_attributes = {

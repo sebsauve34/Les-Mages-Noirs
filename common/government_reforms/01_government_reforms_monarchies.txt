@@ -1650,7 +1650,7 @@ portuguese_monarchy_reform = {
 	nation_designer_cost = 10
 	modifiers = {
 		naval_forcelimit_modifier = 0.2
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.2
 		sailors_recovery_speed = 0.2
 	}
 	ai = {
