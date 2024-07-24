@@ -829,7 +829,7 @@ peasants_republic = {
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
-		disables_estate_nobles = yes
+		
 		is_peasants_republic = yes
 	}
 	duration = 4
@@ -876,7 +876,7 @@ ikko_ikki_republic_reform = {
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
-		disables_estate_nobles = yes
+		
 		is_peasants_republic = yes
 	}
 	duration = 4
@@ -909,7 +909,7 @@ kongsi_federation = {
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
 		allow_draft_transport_ships = yes
-		disables_estate_nobles = yes
+		
 	}
 	duration = 4
 }
@@ -1296,7 +1296,7 @@ american_republic = {
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
-		disables_estate_nobles = yes
+		
 	}
 	conditional = {
 		allow = {
@@ -1347,7 +1347,7 @@ federal_republic = {
 	custom_attributes = {
 		enables_plutocratic_idea_group = yes
 		enables_aristocratic_idea_group = no
-		disables_estate_nobles = yes
+		
 	}
 	conditional = {
 		allow = {

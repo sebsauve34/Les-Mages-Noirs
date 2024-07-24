@@ -189,37 +189,8 @@ dom_cas_missions_1 = {
 				name = "spa_prepared_armada"
 				duration = 7300
 			}
-			if = {
-				limit = {
-					exists = GBR
-					valid_for_personal_unions_trigger = yes
-					GBR = {
-						valid_for_personal_unions_trigger = yes
-						NOT = { religion = ROOT }
-					}
-				}
-				add_casus_belli = {
-					type = cb_restore_personal_union
-					months = 300
-					target = GBR
-				}
-			}
-			else_if = {
-				limit = {
-					exists = ENG
-					valid_for_personal_unions_trigger = yes
-					ENG = {
-						valid_for_personal_unions_trigger = yes
-						NOT = { religion = ROOT }
-					}
-				}
-				add_casus_belli = {
-					type = cb_restore_personal_union
-					months = 300
-					target = ENG
-				}
-			}
-			else = {
+			
+			
 				wessex_area = {
 					limit = {
 						NOT = { is_permanent_claim = ROOT }
@@ -263,7 +234,7 @@ dom_cas_missions_1 = {
 					add_permanent_claim = ROOT
 				}
 				custom_tooltip = cas_armada_info_tt
-			}
+			
 		}
 	}
 	
@@ -314,33 +285,11 @@ dom_cas_missions_1 = {
 				type = mission_rewards_power_projection
 				amount = 50
 			}
-			if = {
-				limit = {
-					GBR = {
-						is_subject_of_type = personal_union
-						is_subject_of = ROOT
-						NOT = { religion = ROOT }
-					}
-				}
-				GBR = {
-					change_religion = ROOT
-				}
-			}
-			else_if = {
-				limit = {
-					ENG = {
-						is_subject_of_type = personal_union
-						is_subject_of = ROOT
-						NOT = { religion = ROOT }
-					}
-				}
-				ENG = {
-					change_religion = ROOT
-				}
-			}
-			else = {
+			
+			
+			
 				add_prestige = 25
-			}
+			
 			if = {
 				limit = {
 					religion = catholic
@@ -1171,21 +1120,8 @@ dom_cas_missions_2_b = {
 			}
 			else = { custom_tooltip = ara_if_cas_dip_tt } 
 			
-			if = {
-				limit = {
-					exists = POR
-					valid_for_personal_unions_trigger = yes
-					POR = {
-						valid_for_personal_unions_trigger = yes
-					}
-				}
-				add_casus_belli = {
-					type = cb_restore_personal_union
-					months = 300
-					target = POR
-				}
-			}
-			else = {
+			
+		
 				alentejo_area = {
 					limit = {
 						NOT = { is_permanent_claim = ROOT }
@@ -1200,7 +1136,7 @@ dom_cas_missions_2_b = {
 					}
 					add_permanent_claim = ROOT
 				}
-			}
+			
 		}
 	}
 	
@@ -1870,97 +1806,6 @@ dom_cas_missions_3 = {
 		}
 
 		effect = {
-			if = {
-				limit = {
-					exists = POR
-					valid_for_personal_unions_trigger = yes
-					POR = {
-						valid_for_personal_unions_trigger = yes
-						NOT = { 
-							alliance_with = ROOT 
-							marriage_with = ROOT 
-						}
-					}
-				}
-				add_casus_belli = {
-					type = cb_restore_personal_union
-					months = 300
-					target = POR
-				}
-			}
-			else_if = {
-				limit = {
-					exists = POR
-					valid_for_personal_unions_trigger = yes
-					POR = {
-						valid_for_personal_unions_trigger = yes
-						OR = {
-							alliance_with = ROOT 
-							marriage_with = ROOT 
-						}
-					}
-				}
-				custom_tooltip = spa_pu_por_tt
-			}		
-			if = {
-				limit = {
-					exists = NAP
-					valid_for_personal_unions_trigger = yes
-					NAP = {
-						valid_for_personal_unions_trigger = yes
-					}
-				}
-				add_casus_belli = {
-					type = cb_restore_personal_union
-					months = 300
-					target = NAP
-				}
-				sicily_area = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_permanent_claim = ROOT }
-					}
-					add_permanent_claim = ROOT
-				}
-				western_sicily_area = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_permanent_claim = ROOT }
-					}
-					add_permanent_claim = ROOT
-				}
-				calabria_area = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_permanent_claim = ROOT }
-					}
-					add_permanent_claim = ROOT
-				}
-				apulia_area = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_permanent_claim = ROOT }
-					}
-					add_permanent_claim = ROOT
-				}
-				naples_area = {
-					limit = {
-						NOT = { is_core = ROOT }
-						NOT = { is_permanent_claim = ROOT }
-					}
-					add_permanent_claim = ROOT
-				}
-				120 = {
-					if = {
-						limit = {
-							NOT = { is_core = ROOT }
-							NOT = { is_permanent_claim = ROOT }
-						}
-					add_permanent_claim = ROOT
-					}
-				}
-			}
-			else = {
 				sicily_area = {
 					limit = {
 						NOT = { is_core = ROOT }
@@ -2005,7 +1850,7 @@ dom_cas_missions_3 = {
 						add_permanent_claim = ROOT
 					}
 				}
-			}
+			
 		}
 	}
 	
@@ -2026,10 +1871,8 @@ dom_cas_missions_3 = {
 		}
 
 		trigger = {
-			OR = {
-				NAP = {
-					junior_union_with = ROOT
-				}
+			
+				
 				AND = {
 					sicily_area = {
 						type = all
@@ -2055,7 +1898,7 @@ dom_cas_missions_3 = {
 						country_or_non_sovereign_subject_holds = ROOT
 					}
 				}
-			}
+			
 		}
 
 		effect = {
@@ -2105,12 +1948,7 @@ dom_cas_missions_3 = {
 				}
 				add_permanent_claim = ROOT
 			}
-			hidden_effect = {
-				remove_casus_belli = {
-					type = cb_restore_personal_union
-					target = NAP
-				}
-			}
+			
 		}
 	}
 	
@@ -2946,21 +2784,8 @@ dom_cas_missions_4 = {
 				name = spa_bid_for_the_hab_crown_modifier
 				duration = 5475
 			}
-			if = { 
-				limit = {
-					exists = HAB
-					valid_for_personal_unions_trigger = yes
-					HAB = {
-						valid_for_personal_unions_trigger = yes
-					}
-				}
-				add_casus_belli = {
-					type = cb_restore_personal_union
-					months = 300
-					target = HAB
-				}
-			}
-			else = {
+			
+			
 				tirol_area = {
 					limit = {
 						NOT = { is_core = ROOT }
@@ -2982,7 +2807,7 @@ dom_cas_missions_4 = {
 					}
 					add_permanent_claim = ROOT
 				}
-			}
+			
 		}
 	}
 	
@@ -3453,7 +3278,7 @@ dom_cas_missions_4_c = {
 				fire = 5
 				manuever = 6
 				siege = 1
-				name = "Hernán Cortés"
+				name = "Hernï¿½n Cortï¿½s"
 			}
 			490 = {
 				add_base_production = 3
