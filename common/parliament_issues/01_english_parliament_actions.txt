@@ -754,44 +754,44 @@ the_tea_act = {
 #	}
 #}
 
-colonial_venture_act = {
-	category = 4
-
-	allow = {
-		has_not_enacted_parliament_action = {
-			parliament_action = colonial_venture_act
-		}
-		has_government_attribute = english_parliament
-		NOT = { has_country_modifier = colonial_venture_act_modifier }
-		has_issue_unlocked = {
-			issue = colonial_venture_act
-		}
-	}
-	
-	effect = {
-		custom_tooltip = EXPENSIVE_ISSUE_TT
-		set_parliament_action_flag = {
-			parliament_action = colonial_venture_act
-		}
-		add_country_modifier = {
-			name = colonial_venture_act_modifier
-			duration = -1
-		}
-		custom_tooltip = colonial_venture_act_modifier_tt
-	}
-	
+#colonial_venture_act = {
+#	category = 4
+#
+#	allow = {
+#		has_not_enacted_parliament_action = {
+#			parliament_action = colonial_venture_act
+#		}
+#		has_government_attribute = english_parliament
+#		NOT = { has_country_modifier = colonial_venture_act_modifier }
+#		has_issue_unlocked = {
+#			issue = colonial_venture_act
+#		}
+#	}
+#	
+#	effect = {
+#		custom_tooltip = EXPENSIVE_ISSUE_TT
+#		set_parliament_action_flag = {
+#			parliament_action = colonial_venture_act
+#		}
+#		add_country_modifier = {
+#			name = colonial_venture_act_modifier
+#			duration = -1
+#		}
+#		custom_tooltip = colonial_venture_act_modifier_tt
+#	}
+#	
 	#modifier = {
 	#	colony_development_boost = 1
 	#}
-	
-	chance = {
-		factor = 0
-	}
-
-	ai_will_do = {
-		factor = 1
-	}
-}
+#	
+#	chance = {
+#		factor = 0
+#	}
+#
+#	ai_will_do = {
+#		factor = 1
+#	}
+#}
 
 french_english_reconciliation_act = {
 	category = 4

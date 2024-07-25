@@ -13511,7 +13511,7 @@ internal_focus_act_modifier = {
 
 colonial_venture_act_modifier = {
 	colonist_placement_chance = 0.05
-	#Can select trade goods of the colonized province
+	
 }
 
 ara_nile_production_monopoly_modifier = {

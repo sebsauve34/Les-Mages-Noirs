@@ -15,13 +15,13 @@ country_decisions = {
 			NOT = { tag = MUG }
 			NOT = { tag = TUR }
 			NOT = { tag = HLR }
+			NOT = { tag = TIM }
 			OR = {
 				NOT = { exists = MUG }
 				ai = no
 			}
 			OR = {
 				tag = KHO
-				tag = TIM
 				tag = AFG
 				tag = TRS
 				tag = SIS

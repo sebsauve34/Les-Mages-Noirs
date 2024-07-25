@@ -6607,9 +6607,7 @@ strengthened_parliament_reform = {
 		has_parliament = yes
 	}
 	modifiers = {
-		max_absolutism = -20
-		development_cost_in_primary_culture = -0.1
-		parliament_backing_chance = 0.05
+		parliament_backing_chance = 0.2
 	}
 	ai = {
 		factor = 10
