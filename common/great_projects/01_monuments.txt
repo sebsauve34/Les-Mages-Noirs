@@ -11127,9 +11127,7 @@ cahokia = {
 	type = monument
 
 	build_trigger = {
-		province_is_or_accepts_religion = {
-			religion = totemism
-		}
+		
 	}
 
 	on_built = {
@@ -11139,15 +11137,11 @@ cahokia = {
 	}
 
 	can_use_modifiers_trigger = {
-		province_is_or_accepts_religion = {
-			religion = totemism
-		}
+		
 	}
 
 	can_upgrade_trigger = {
-		province_is_or_accepts_religion = {
-			religion = totemism
-		}
+		
 	}
 
 	keep_trigger = {
@@ -15589,7 +15583,7 @@ white_house = {
 	type = monument
 
 	build_trigger = {
-		always = no
+		
 	}
 
 	on_built = {
@@ -15599,11 +15593,11 @@ white_house = {
 	}
 
 	can_use_modifiers_trigger = {
-		always = no
+		
 	}
 
 	can_upgrade_trigger = {
-		always = no
+		
 	}
 
 	keep_trigger = {

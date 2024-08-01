@@ -261,7 +261,7 @@ technology = { #University
 	}
 	
 	university = yes	
-	governing_capacity = 200
+	governing_capacity = 150
 	
 	administrative_efficiency = 0.05
 	development_cost_modifier = -0.05
@@ -308,7 +308,7 @@ technology = { #Absolute Rulership
 	}
 	
 	republican_dictatorship = yes
-	governing_capacity = 250
+	governing_capacity = 200
 	administrative_efficiency = 0.05
 	development_cost_modifier = -0.05
 }
@@ -326,7 +326,6 @@ technology = { #Land Clearance
 	}
 	allowed_idea_groups = 6
 	#Land Clearance
-	production_efficiency 	=	0.02
 	furnace = yes
 }
 
@@ -342,7 +341,7 @@ technology = { #The Constitution
 	#	manufactories = 0.3
 	}
 	
-	
+	production_efficiency 	=	0.02
 	constitutional_monarchy = yes
 	constitutional_republic = yes  
 
@@ -379,7 +378,7 @@ technology = { #Bonds and Tontines
 	}
 	allowed_idea_groups 	= 	7
 	counting_house = yes  
-	governing_capacity = 250
+	governing_capacity = 200
 }
 
 technology = { #Improved Production
@@ -505,7 +504,7 @@ technology = { #Revolutionary Ideals
 	
 	revolutionary_republic = yes
 	revolutionary_empire = yes
-	governing_capacity = 500
+	governing_capacity = 350
 }
 
 technology = { #Four Field Rotation

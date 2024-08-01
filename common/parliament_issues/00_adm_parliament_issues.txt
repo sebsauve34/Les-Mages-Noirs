@@ -277,7 +277,7 @@ development_of_infrastructure = {
 	category = 3
 
 	allow = {
-		
+		full_idea_group = economic_ideas
 	}
 	
 	effect = {

@@ -1058,7 +1058,7 @@ strategic_stratagem = {
 }
 
 offensive_stratagem = {
-    morale_damage = 0.2
+    morale_damage = 0.15
     shock_damage = 0.15
 }
 
@@ -1074,7 +1074,7 @@ quality_stratagem = {
 
 quantity_stratagem = {
     land_forcelimit_modifier = 0.33
-    regiment_manpower_usage = -0.15
+    regiment_manpower_usage = -0.1
 }
 
 divine_stratagem = {

@@ -1781,11 +1781,11 @@ BLV_ideas = { #Bolivia
 PEU_ideas = { #Peru
 	start = {
 		backrow_artillery_damage = 0.1
-		land_attrition = -0.2
+		land_attrition = -0.1
 	}
 	
 	bonus = {
-		artillery_fire = 0.5
+		fire_damage = 0.1
 	}
 	
 	trigger = {
@@ -1794,7 +1794,6 @@ PEU_ideas = { #Peru
 	free = yes
 	
 	peu_1 = { #Mountain Foundries
-		fire_damage = 0.1
 		artillery_power = 0.1
 	}
 	peu_2 = { #Andes Rangers

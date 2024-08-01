@@ -1528,8 +1528,8 @@ administrative_ideas = {
 		reinforce_cost_modifier = -0.1
 	}
 	stable_government = {
-		stability_cost_modifier = -0.2
-		reform_progress_growth = 0.5
+		stability_cost_modifier = -0.1
+		reform_progress_growth = 0.25
 	}
 	cultural_regulations = {
 		state_maintenance_modifier = -0.25

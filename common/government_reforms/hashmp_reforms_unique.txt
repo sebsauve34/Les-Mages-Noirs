@@ -42,6 +42,8 @@ h_reform_dominion = {
 		land_morale = -0.1
 		max_absolutism = -50
 		governing_capacity = 250
+		development_cost_in_primary_culture = 0.1
+		manpower_in_own_culture_provinces = -0.15
 	}
 
 	custom_attributes = {

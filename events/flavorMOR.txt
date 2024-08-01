@@ -157,72 +157,9 @@ country_event = {
 	
 }
 
-#A Wattasid Conspiracy?
-country_event = {
-	id = flavor_mor.6
-	title = flavor_mor.6.t
-	desc = flavor_mor.6.d
-	picture = ACCUSATION_eventPicture
-	
-	fire_only_once = yes
-	
-	trigger = {
-		tag = MOR
-		has_country_flag = mor_death_of_yahya
-		NOT = { is_year = 1490 }
-	}
-	
-	mean_time_to_happen = {
-		months = 126
-	}
-	
-	option = {
-		name = flavor_mor.6.a #Kill them all!
-		ai_chance = { factor = 1 }
-		add_stability = -1
-		country_event = { id = flavor_mor.7 days = 30 }
-	}
-	
-	option = {
-		name = flavor_mor.6.b #They remain our trusted advisors.
-		ai_chance = { factor = 0 }
-		set_country_flag = mor_wattasid_power
-	}
-	
-}
 
-#Wattasid Revolt
-country_event = {
-	id = flavor_mor.7
-	title = flavor_mor.7.t
-	desc = flavor_mor.7.d
-	picture = CIVIL_WAR_eventPicture
-	
-	fire_only_once = yes
-	is_triggered_only = yes
-	
-	immediate = {
-		set_country_flag = wattasid_resolution
-	}
-	
-	option = {
-		name = flavor_mor.7.a
-		random_owned_province = {
-			limit = {
-				is_capital = no
-			}
-			spawn_rebels = {
-				type = pretender_rebels
-				size = 3
-				culture = berber
-				religion = sunni
-				leader = "Muhammad"
-				leader_dynasty = "ibn Yahya Wattasid"
-			}
-		}
-	}
-	
-}
+
+
 
 #Wattasid Ultimatum
 country_event = {
