@@ -7999,8 +7999,8 @@ ORM_ideas = {
 		cav_to_inf_ratio = 0.15
 	}
 	orm_moqarrariya = {
-		caravan_power = 0.25
-		placed_merchant_power_modifier = 1
+		caravan_power = 0.2
+		placed_merchant_power_modifier = 0.2
 	}
 	orm_develop_qeshm_and_ormuz = {
 		development_cost = -0.1
