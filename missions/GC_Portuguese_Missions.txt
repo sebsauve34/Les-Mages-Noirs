@@ -1343,17 +1343,10 @@ gc_por_3 = {
 		position = 2
 
 		trigger = {
-			if = {
-				limit = { ai = no }
-				num_of_owned_provinces_with = {
-					value = 1 
-					region = iberia_region
-					holy_order = jesuit_order
-				}
-			}
-			else = {
+			
+			
 				navy_size_percentage = 0.85
-			}
+			
 		}
 
 		effect = {
