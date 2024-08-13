@@ -10049,7 +10049,7 @@ eoc_expanded_palace_bureaucracy_modifier = {
 
 jap_grant_samurai_modifier = {
 	has_samurai = yes 
-	allowed_samurai_fraction = 0.1
+	allowed_samurai_fraction = 0.2
 }
 
 allow_local_banners_modifier = {

@@ -557,7 +557,7 @@ FRA_ideas_2 = {
 	}
 	napoleonic_tactics = {
 		military_tactics = 0.1
-		siege_ability = 0.15
+		artillery_fire = 0.5
 	}
 	european_ambitions = {
 		core_creation = -0.25
@@ -1520,8 +1520,7 @@ JAP_ideas = {
 	free = yes
 	
 	jap_unification_under_the_emperor = {
-		allowed_samurai_fraction = 0.2
-		has_samurai = yes 
+		prestige = 1
 	}
 	reformed_land_holding = {
 		development_cost = -0.05
