@@ -1164,6 +1164,7 @@ KUT_ideas = {
 	trigger = {
 		primary_culture = bornean
 		NOT = { tag = BEI }
+		NOT = { tag = MSA }
 	}
 	
 	free = yes

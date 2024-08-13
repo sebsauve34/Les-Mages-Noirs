@@ -345,7 +345,7 @@ the_spy_discovery_act = {
 	}
 
 	reinforce_speed = 0.25
-	reinforce_cost = -0.1
+	reinforce_cost_modifier = -0.1
 
 	effect = {}
 	removed_effect = {}
