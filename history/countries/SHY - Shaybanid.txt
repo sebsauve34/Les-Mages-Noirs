@@ -13,8 +13,8 @@ add_army_professionalism = 0.1
 	monarch = { 
 		name = "Abu'l-Khayr" 
 		dynasty = "Shaybanid"
-		dip = 2
-		adm = 6
+		dip = 3
+		adm = 3
 		mil = 4
 	}
 }

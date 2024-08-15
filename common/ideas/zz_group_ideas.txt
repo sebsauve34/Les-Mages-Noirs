@@ -539,13 +539,13 @@ mindanao_ideas = {
 
 horde_ideas = {
 	start = {
-		core_creation = -0.25
+		years_of_nationalism = -5
 		cavalry_cost = -0.1
 		
 	}
 	
 	bonus = {
-		years_of_nationalism = -5
+		horde_unity = 1
 	}
 	
 	trigger = {
@@ -554,20 +554,20 @@ horde_ideas = {
 	free = yes
 	
 	life_of_steppe_warrior = {
-		land_attrition = -0.20
+		land_attrition = -0.1
 	}
 	traditions_of_the_great_khan = {
 		cavalry_power = 0.15
 		cav_to_inf_ratio = 0.1
 	}
 	horse_supplies = {
-		land_maintenance_modifier = -0.075
+		land_maintenance_modifier = -0.05
 	}
 	steppe_leaders = {
 		leader_land_shock = 1
 	}
 	tradition_of_conquest = {
-		tolerance_heathen = 3
+		core_creation = -0.25
 	}
 	logistics_of_khan = {
 		#manpower_recovery_speed = 0.2 (effect taken in GLH idea)
