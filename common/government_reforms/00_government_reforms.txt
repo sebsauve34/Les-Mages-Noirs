@@ -250,7 +250,7 @@ revolutionary_empire = {
 		global_manpower_modifier = 0.25
 		land_morale = 0.10
 		global_autonomy = -0.2
-		allowed_rev_guard_fraction = 0.2
+		allowed_rev_guard_fraction = 0.1
 	}
 	removed_effect = {
 		hidden_effect = {
@@ -1000,7 +1000,7 @@ revolutionary_republic = {
 		tolerance_heretic = 2
 		land_morale = 0.1
 		global_autonomy = -0.2
-		allowed_rev_guard_fraction = 0.2
+		allowed_rev_guard_fraction = 0.1
 	}
 
 	conditional = {
