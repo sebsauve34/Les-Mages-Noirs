@@ -151,7 +151,7 @@ anglican_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = anglican } }
 				}
-				change_religion = anglican
+				#change_religion = anglican
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730

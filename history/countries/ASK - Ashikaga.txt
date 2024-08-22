@@ -4,7 +4,14 @@ primary_culture = japanese
 add_accepted_culture = togoku
 religion = shinto
 technology_group = chinese
-capital = 1020	# Yamashiro
+capital = 1020	# Yamash
+historical_rival = FO1
+historical_rival = FO2
+historical_rival = FO3
+historical_rival = FO4
+historical_rival = FO5
+historical_rival = FO6
+historical_rival = FO7
 
 1325.1.1 = {
 	monarch = {
