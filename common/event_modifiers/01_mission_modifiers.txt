@@ -14421,7 +14421,7 @@ TIM_gunpowder_empire = {
 
 TIM_horsemen_of_apocalypse_modifier = {
 	cavalry_flanking = 0.5
-	cavalry_power = 0.2
+	cavalry_power = 0.1
 }
 
 TIM_great_power = {
@@ -14474,7 +14474,7 @@ TIM_loot_and_plunder = {
 }
 
 TIM_dev_cost_until_persia_formation = {
-	development_cost_in_primary_culture = -0.2
+	development_cost_in_primary_culture = -0.1
 }
 
 TIM_great_architects = {

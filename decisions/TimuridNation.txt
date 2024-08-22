@@ -13,6 +13,7 @@ country_decisions = {
 			NOT = { tag = HLR }
 			NOT = { tag = ROM }
 			NOT = { tag = MUG }
+			NOT = { tag = BUK }
 			NOT = { tag = PER }
 			OR = {
 				ai = no
@@ -119,6 +120,7 @@ country_decisions = {
 			NOT = { tag = PER }
 			NOT = { tag = TIM }
 			NOT = { tag = ARB }
+			NOT = { tag = BUK }
 			is_colonial_nation = no
 			OR = {
 				is_former_colonial_nation = no

@@ -351,10 +351,9 @@ age_of_reformation = {
 		}
 		
 		obj_humanism_religious = {
-			OR = {
-				full_idea_group = humanist_ideas
-				full_idea_group = religious_ideas
-			}
+			
+				religious_unity = 0.9
+			
 		}
 		
 		obj_convert_10_provinces = {
@@ -365,7 +364,7 @@ age_of_reformation = {
 		}
 		
 		obj_colonial_empire = {
-			colony = 2
+			colony = 1
 		}
 		
 		obj_force_converted = {
@@ -413,8 +412,13 @@ age_of_reformation = {
 				
 			}
 			modifier = {
-				
+				papal_influence = 1	
+				church_power_modifier = 0.2
+				monthly_piety_accelerator = 0.001	
+				yearly_karma_decay = 0.005
+				yearly_harmony = 1		
 				num_of_age_rewards = 1
+				tolerance_own = 1	
 			}
 			ai_will_do = {
 				factor = 0

@@ -697,7 +697,7 @@ NCountry = {
 	PIETY_PERCENTAGE_AT_NEW_RULER = 0.0,			-- percentage of piety kept at new ruler.
 	PIETY_INCREASE_AT_GOOD_WAR = 0.0,
 	PIETY_DECREASE_AT_BAD_WAR = -0.0,
-	ADVISOR_COST_INCREASE_PER_YEAR = 0.006,			-- yearly increase in price in percent,
+	ADVISOR_COST_INCREASE_PER_YEAR = 0.008,			-- yearly increase in price in percent,
 	SCRIPTED_ADVISOR_DISCOUNT = 0.5,				-- Multiplier on cost for advisors scripted with discount=yes
 	MINIMUM_ADVISOR_DURATION = 10, 					-- _CDEF_MINIMUM_ADVISOR_DURATION_
 	MINIMUM_ADVISOR_DURATION_CHANCE_VALUE = 15,		-- Higher value here gives lower daily death chance after MINIMUM_ADVISOR_DURATION
