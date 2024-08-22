@@ -1081,7 +1081,7 @@ mer_army_tree = {
 			}
 			has_global_modifier_value = {
 				which = discipline
-				value = 0.2
+				value = 0.1
 				extra_shortcut = yes
 			}
 		}
@@ -1114,7 +1114,7 @@ mer_army_tree = {
 			}
 			has_global_modifier_value = {
 				which = discipline
-				value = 0.25
+				value = 0.15
 				extra_shortcut = yes
 			}
 		}
