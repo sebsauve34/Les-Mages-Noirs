@@ -388,7 +388,7 @@ the_draft = {
 	category = 1
 
 	allow = {
-		
+		full_idea_group = quantity_ideas
 	}
 	
 	effect = {

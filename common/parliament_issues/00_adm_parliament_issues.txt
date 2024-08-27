@@ -104,21 +104,21 @@ appoint_a_new_prime_minister = {
 			define_advisor = {
 				type = statesman
 				skill = 3
-				cost_multiplier = 0.75
+				cost_multiplier = 0.4
 			}
 			"
 			effect3 = "
 			define_advisor = {
 				type = statesman
 				skill = 3
-				cost_multiplier = 0.5
+				cost_multiplier = 0.3
 			}
 			"
 			effect4 = "
 			define_advisor = {
 				type = statesman
 				skill = 3
-				cost_multiplier = 0.25
+				cost_multiplier = 0.2
 			}
 			"
 			effect5 = "
@@ -132,7 +132,7 @@ appoint_a_new_prime_minister = {
 			define_advisor = {
 				type = statesman
 				skill = 3
-				cost_multiplier = 0.75
+				cost_multiplier = 0.4
 			}
 			"
 		}
@@ -1673,21 +1673,21 @@ propagation_of_state_religion = {
 			define_advisor = {
 				type = inquisitor
 				skill = 3
-				cost_multiplier = 0.75
+				cost_multiplier = 0.4
 			}
 			"
 			effect3 = "
 			define_advisor = {
 				type = inquisitor
 				skill = 3
-				cost_multiplier = 0.5
+				cost_multiplier = 0.3
 			}
 			"
 			effect4 = "
 			define_advisor = {
 				type = inquisitor
 				skill = 3
-				cost_multiplier = 0.25
+				cost_multiplier = 0.2
 			}
 			"
 			effect5 = "
@@ -1701,7 +1701,7 @@ propagation_of_state_religion = {
 			define_advisor = {
 				type = inquisitor
 				skill = 3
-				cost_multiplier = 0.75
+				cost_multiplier = 0.4
 			}
 			"
 		}
