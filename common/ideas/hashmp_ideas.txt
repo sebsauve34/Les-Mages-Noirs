@@ -1011,11 +1011,11 @@ ALA_ideas = { Alaska
 CAL_ideas = { #California
 	start = {
 		reelection_cost = -0.2
-		land_morale = 0.1
+		yearly_corruption = -0.2
 	}
 	
 	bonus = {
-		interest = -0.5
+		interest = -0.25
 	}
 	
 	trigger = {
@@ -1031,7 +1031,8 @@ CAL_ideas = { #California
 		global_trade_goods_size_modifier = 0.1
 	}
 	cal_3 = { #Outlaw Country
-		infantry_power = 0.1
+		infantry_power = 0.15
+		infantry_shock = 0.25
 	}
 	cal_4 = { #City of Angels
 		advisor_cost = -0.1
@@ -1333,7 +1334,7 @@ VNZ_ideas = { #Venezuela
 USA_ideas = { #United States
 	start = {
 		war_exhaustion = -0.05
-		fort_maintenance_modifier = -0.2
+		fire_damage = 0.1
 	}
 	
 	bonus = {
@@ -1347,7 +1348,7 @@ USA_ideas = { #United States
 	
 	freedom_of_religion = {
 		no_religion_penalty = yes
-		manpower_in_true_faith_provinces= 0.15
+		same_religion_advisor_cost = -0.1
 	}
 	usa_bill_of_rights = {
 		republican_tradition = 0.2
@@ -1360,7 +1361,8 @@ USA_ideas = { #United States
 		infantry_fire = 0.25
 	}
 	workshop_of_the_world = {
-		global_trade_goods_size_modifier = 0.1
+		production_efficiency = 0.2
+		global_prosperity_growth = 0.25
 	}
 	shining_city_on_a_hill = {
 		defensiveness = 0.2
@@ -1613,12 +1615,12 @@ TEX_ideas = { #Texas
 
 LOU_ideas = { #Louisiana
 	start = {
-		mercenary_cost = -0.25
-		mercenary_manpower = 1
+		land_morale = 0.1
+		global_regiment_cost = -0.1
 	}
 	
 	bonus = {
-		merc_maintenance_modifier = -0.25
+		army_tradition_decay = -0.01	
 	}
 	
 	trigger = {
@@ -1630,8 +1632,8 @@ LOU_ideas = { #Louisiana
 		prestige_decay = -0.01
 	}
 	lou_2 = { #Port of New Orleans
-		naval_forcelimit_modifier = 0.25
-		global_sailors_modifier = 0.5
+		naval_forcelimit_modifier = 0.33
+		global_sailors_modifier = 0.5	
 	}
 	lou_3 = { #Breadbasket of America
 		global_trade_goods_size_modifier = 0.1
@@ -1639,15 +1641,17 @@ LOU_ideas = { #Louisiana
 	lou_4 = { #Voodoo
 		morale_damage = 0.2
 	}
-	lou_5 = { #Mississippi Watershed
-		development_cost = -0.1
+	lou_5 = { #Order of Saint Ursula
+		missionaries = 1
+		manpower_in_true_faith_provinces= 0.25	
 	}
 	lou_6 = { #Slave Labor
 		build_time = -0.25
 		build_cost = -0.1
 	}
-	lou_7 = { #Soldiers of Fortune
-		mercenary_discipline = 0.1
+	lou_7 = { #Legacy of the Ancien regime
+		max_absolutism = 50
+		max_absolutism_effect = 0.1	
 	}
 }
 
@@ -1670,6 +1674,7 @@ MEX_ideas = { #Mexico #its actually not a thing anymore KEKW
 	
 	cam_1 = { #Grand Commissariat
 		recover_army_morale_speed = 0.1
+		reserves_organisation = 0.2
 	}
 	cam_2 = { #Arm the Masses
 		infantry_power = -0.2
@@ -1808,7 +1813,7 @@ PEU_ideas = { #Peru
 		republican_tradition = 0.1
 	}
 	peu_5 = { #Sacred Valley
-		development_cost = -0.1
+		monthly_splendor = 3
 	}
 	peu_6 = { #Faithful Unto Death
 		morale_damage = 0.2
