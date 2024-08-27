@@ -1422,7 +1422,7 @@ colonial_governor = {
 	}
 	
 	# Bonus
-	global_tariffs = 0.10
+	global_colonial_growth = 15
 	
 	skill_scaled_modifier = {
 		trigger = {
