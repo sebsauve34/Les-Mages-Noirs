@@ -1319,12 +1319,6 @@ ave_row_slot_2_continuation = {
 					value = 200
 				}
 			}
-			if = {
-				limit = { has_government_attribute = english_parliament }
-				has_enacted_parliament_action = {
-					parliament_action = french_english_reconciliation_act		#Special tooltip here
-				}
-			}
 		}	
 		effect = {
 			custom_tooltip = ave_promote_angevin_culture_bt
@@ -2009,12 +2003,6 @@ ave_row_3 = {
 		}		
 		trigger = { 
 			not_in_mission_preview_mode = { key = GBR }
-			if = {
-				limit = { has_government_attribute = english_parliament }
-				has_enacted_parliament_action = {
-					parliament_action = crush_french_nobles
-				}
-			}
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				region = france_region
 				NOT = { controlled_by = REB }

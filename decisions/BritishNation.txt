@@ -6,6 +6,7 @@ country_decisions = {
 			tag = ENG
 			normal_or_historical_nations = yes
 			NOT = { has_country_flag = formed_great_britain_flag }
+			NOT = { has_country_flag = eng_took_ave_branch }
 			was_never_end_game_tag_trigger = yes
 			OR = {
 				ai = no
@@ -153,6 +154,7 @@ country_decisions = {
 			normal_or_historical_nations = yes
 			was_never_end_game_tag_trigger = yes
 			NOT = { exists = GBR }
+			NOT = { has_country_flag = eng_took_ave_branch }
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
