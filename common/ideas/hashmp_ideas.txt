@@ -478,12 +478,13 @@ ARB_ideas = { #Arabian Empire
 
 ZUL_ideas = { #Zulu Empire
 	start = {  
-		governing_capacity_modifier = 0.1
+		governing_capacity_modifier = 0.25
 		leader_land_manuever = 1
+		development_cost = 0.1
 	}
   
 	bonus = {
-		fire_damage_received = -0.1
+		fire_damage_received = -0.15
 	}
   
 	trigger = {
@@ -492,7 +493,7 @@ ZUL_ideas = { #Zulu Empire
 	free = yes
   
 	zul_1 = {
-		leader_cost = -0.10
+		leader_cost = -0.1
 	}
 	zul_2 = {
 		global_trade_goods_size_modifier = 0.1

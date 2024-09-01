@@ -9048,6 +9048,7 @@ RZW_ideas = {
 	start = {  
 		land_morale = 0.1
 		infantry_cost = -0.1
+		development_cost = 0.2
 	}
   
 	bonus = {
@@ -9085,6 +9086,7 @@ GZM_ideas = { #Great Zimbabwe Empire
 	start = {
 		land_morale = 0.1
 		infantry_cost = -0.2
+		development_cost = 0.2
 	}
 	
 	bonus = {
@@ -16640,12 +16642,12 @@ SCA_ideas = {
 
 AVE_ideas = {
 	start = {
-		global_manpower_modifier = 0.2
-		improve_relation_modifier = 0.3
+		global_manpower_modifier = 0.25
+		morale_damage = 0.2
 	}
 
 	bonus = {
-		years_of_nationalism = -5
+		discipline = 0.05
 	}
 	
 	trigger = {
@@ -16654,31 +16656,31 @@ AVE_ideas = {
 	free = yes		#will be added at load.
 
 	angevin_decentralized_rule = {
-		core_creation = -0.2
+		core_creation = -0.25
+		diplomatic_upkeep = 1
 	}
 	english_common_law = {
-		global_tax_modifier = 0.15
+		global_tax_modifier = 0.2
 		num_of_parliament_issues = 1
 	}
 	lessons_of_the_anglo_french_wars = {
-		discipline = 0.05
+		shock_damage = 0.15
+		shock_damage_received = -0.15	
 	}
 	the_many_thrones = {
-		heir_chance = 0.5
-		years_to_integrate_personal_union = -10
+		global_trade_goods_size_modifier = 0.1
+		colonists = 1	
 	}
 	reformed_angevin_infantry = {
 		infantry_power = 0.2
 	}
 	seneschal_of_france = {
-		governing_capacity_modifier = 0.15
+		governing_capacity_modifier = 0.25
+		technology_cost = -0.05
 	}
 	rule_of_the_plantagenet = {
-		legitimacy = 1
-		devotion = 1
-		horde_unity = 1
-		republican_tradition = 0.3
-		meritocracy = 1
+		army_tradition = 0.5
+		leader_land_shock = 1
 	}
 }
 #tongan_ideas = { #Credit to James Beaumont
