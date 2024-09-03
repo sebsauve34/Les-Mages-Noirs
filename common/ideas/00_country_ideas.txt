@@ -1807,12 +1807,11 @@ TIM_ideas = {
 		development_cost = -0.05
 	}
 	the_mantle_of_the_great_khan = {
-		land_morale = 0.15
-		
+		land_morale = 0.1
 	}
 	unleash_the_tiger = {
 		shock_damage = 0.1
-		cav_to_inf_ratio = 0.2
+		cav_to_inf_ratio = 0.3
 	}
 	chagatai_literature = {
 		legitimacy = 1
@@ -16643,7 +16642,7 @@ SCA_ideas = {
 AVE_ideas = {
 	start = {
 		global_manpower_modifier = 0.25
-		morale_damage = 0.2
+		navy_tradition = 1	
 	}
 
 	bonus = {
@@ -16668,7 +16667,7 @@ AVE_ideas = {
 		shock_damage_received = -0.15	
 	}
 	the_many_thrones = {
-		global_trade_goods_size_modifier = 0.1
+		global_sailors_modifier = 0.33
 		colonists = 1	
 	}
 	reformed_angevin_infantry = {
