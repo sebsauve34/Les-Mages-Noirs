@@ -99,6 +99,7 @@ h_merc_d_200_large_1 = {
 		}
 	}
 	modifier = {
+		
 	}
 }
 
@@ -114,6 +115,8 @@ h_merc_p_200_med_2 = {
 		current_age = age_of_revolutions
 	}
 	modifier = {
+		recover_army_morale_speed = -0.05
+		land_morale = -0.05
 	}
 }
 
@@ -129,6 +132,8 @@ h_merc_d_200_med_1 = {
 		current_age = age_of_revolutions
 	}
 	modifier = {
+		recover_army_morale_speed = -0.05
+		land_morale = -0.05
 	}
 }
 
@@ -144,6 +149,8 @@ h_merc_d_200_small_2 = {
 		current_age = age_of_revolutions
 	}
 	modifier = {
+		recover_army_morale_speed = -0.05
+		land_morale = -0.05
 	}
 }
 
@@ -159,6 +166,8 @@ h_merc_d_200_small_1 = {
 		current_age = age_of_revolutions
 	}
 	modifier = {
+		recover_army_morale_speed = -0.05
+		land_morale = -0.05
 	}
 }
 
@@ -179,6 +188,7 @@ h_merc_d_150_large_1 = {
 		}
 	}
 	modifier = {
+		
 	}
 }
 
@@ -194,6 +204,8 @@ h_merc_p_150_med_2 = {
 		current_age = age_of_absolutism
 	}
 	modifier = {
+		recover_army_morale_speed = -0.05
+		land_morale = -0.05
 	}
 }
 
@@ -209,6 +221,8 @@ h_merc_d_150_med_1 = {
 		current_age = age_of_absolutism
 	}
 	modifier = {
+		recover_army_morale_speed = -0.05
+		land_morale = -0.05
 	}
 }
 
@@ -224,6 +238,8 @@ h_merc_d_150_small_2 = {
 		current_age = age_of_absolutism
 	}
 	modifier = {
+		recover_army_morale_speed = -0.05
+		land_morale = -0.05
 	}
 }
 
@@ -239,6 +255,8 @@ h_merc_d_150_small_1 = {
 		current_age = age_of_absolutism
 	}
 	modifier = {
+		recover_army_morale_speed = -0.05
+		land_morale = -0.05
 	}
 }
 
@@ -259,6 +277,7 @@ h_merc_d_100_large_1 = {
 		}
 	}
 	modifier = {
+		
 	}
 }
 
@@ -274,6 +293,8 @@ h_merc_p_100_med_2 = {
 		current_age = age_of_reformation 
 	}
 	modifier = {
+		recover_army_morale_speed = -0.05
+		land_morale = -0.05
 	}
 }
 
@@ -289,6 +310,8 @@ h_merc_d_100_med_1 = {
 		current_age = age_of_reformation 
 	}
 	modifier = {
+		recover_army_morale_speed = -0.05
+		land_morale = -0.05
 	}
 }
 
@@ -304,6 +327,8 @@ h_merc_d_100_small_2 = {
 		current_age = age_of_reformation 
 	}
 	modifier = {
+		recover_army_morale_speed = -0.05
+		land_morale = -0.05
 	}
 }
 
@@ -319,6 +344,8 @@ h_merc_d_100_small_1 = {
 		current_age = age_of_reformation 
 	}
 	modifier = {
+		recover_army_morale_speed = -0.05
+		land_morale = -0.05
 	}
 }
 
@@ -339,6 +366,7 @@ h_merc_d_60_large_1 = {
 		}
 	}
 	modifier = {
+		
 	}
 }
 
@@ -354,6 +382,8 @@ h_merc_p_60_med_2 = {
 		current_age = age_of_discovery
 	}
 	modifier = {
+		recover_army_morale_speed = -0.05
+		land_morale = -0.05
 	}
 }
 
@@ -369,6 +399,8 @@ h_merc_d_60_med_1 = {
 		current_age = age_of_discovery
 	}
 	modifier = {
+		recover_army_morale_speed = -0.05
+		land_morale = -0.05
 	}
 }
 
@@ -384,6 +416,8 @@ h_merc_d_60_small_2 = {
 		current_age = age_of_discovery
 	}
 	modifier = {
+		recover_army_morale_speed = -0.05
+		land_morale = -0.05
 	}
 }
 
@@ -399,6 +433,8 @@ h_merc_d_60_small_1 = {
 		current_age = age_of_discovery
 	}
 	modifier = {
+		recover_army_morale_speed = -0.05
+		land_morale = -0.05
 	}
 }
 
@@ -428,7 +464,8 @@ h_merc_artillery_6 = {
 		}
 	}
 	modifier = {
-		
+		recover_army_morale_speed = -0.05
+		land_morale = -0.05
 	}
 }
 
@@ -448,7 +485,8 @@ h_merc_artillery_5 = {
 		}
 	}
 	modifier = {
-		
+		recover_army_morale_speed = -0.05
+		land_morale = -0.05
 	}
 }
 
@@ -468,7 +506,8 @@ h_merc_artillery_4 = {
 		}
 	}
 	modifier = {
-		
+		recover_army_morale_speed = -0.05
+		land_morale = -0.05
 	}
 }
 h_merc_artillery_3 = {
@@ -487,7 +526,8 @@ h_merc_artillery_3 = {
 		}
 	}
 	modifier = {
-		
+		recover_army_morale_speed = -0.05
+		land_morale = -0.05
 	}
 }
 
@@ -507,7 +547,8 @@ h_merc_artillery_2 = {
 		}
 	}
 	modifier = {
-		
+		recover_army_morale_speed = -0.05
+		land_morale = -0.05
 	}
 }
 
@@ -527,7 +568,8 @@ h_merc_artillery_1 = {
 		}
 	}
 	modifier = {
-		
+		recover_army_morale_speed = -0.05
+		land_morale = -0.05
 	}
 }
 
@@ -551,6 +593,8 @@ h_merc_cavmed_3 = {
 		}
 	}
 	modifier = {
+		recover_army_morale_speed = -0.05
+		land_morale = -0.05
 		}
 }
 
@@ -570,7 +614,8 @@ h_merc_cavmed_2 = {
 		}
 	}
 	modifier = {
-	
+		recover_army_morale_speed = -0.05
+		land_morale = -0.05
 	}
 }
 
@@ -590,7 +635,8 @@ h_merc_cavmed_1 = {
 		}
 	}
 	modifier = {
-	
+		recover_army_morale_speed = -0.05
+		land_morale = -0.05
 	}
 }
 
@@ -611,7 +657,8 @@ h_merc_cavsmall_3 = {
         
 	}
 	modifier = {
-	
+		recover_army_morale_speed = -0.05
+		land_morale = -0.05
 	}
 }
 
@@ -632,7 +679,8 @@ h_merc_cavsmall_2 = {
        		
 		}
 	modifier = {
-	
+		recover_army_morale_speed = -0.05
+		land_morale = -0.05
 	}
 }
 
@@ -652,7 +700,8 @@ h_merc_cavsmall_1 = {
 			}
 		}
 	modifier = {
-	
+		recover_army_morale_speed = -0.05
+		land_morale = -0.05
 	}
 }
 

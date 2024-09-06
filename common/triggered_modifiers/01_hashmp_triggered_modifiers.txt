@@ -304,7 +304,38 @@ t_hre_elector_3 = {
 #	merc_maintenance_modifier = 0.3
 #	war_taxes_cost_modifier = 1.5
 #}
-
+#t_over_merc_cap_early = {
+#	potential = {
+#		always = no
+#		#was_player = yes
+#	}
+#	trigger = {
+#		num_of_hired_mercenary_companies = 3
+#		NOT = {
+#			full_idea_group = plutocracy_ideas
+#		}
+#	}
+#
+#	merc_maintenance_modifier = 0.5
+#	mercenary_cost = 0.5
+#	mercenary_discipline = -0.1
+#	mercenary_manpower = -0.5
+#}
+#t_over_merc_cap_mid = {
+#	potential = {
+#		always = no		
+#		was_player = yes
+#	}
+#	trigger = {
+#		num_of_hired_mercenary_companies = 5
+#		full_idea_group = plutocracy_ideas
+#	}
+#
+#	merc_maintenance_modifier = 0.5
+#	mercenary_cost = 0.5
+#	mercenary_discipline = -0.1
+#	mercenary_manpower = -0.5
+#}
 t_over_merc_cap_superlate = {
 	potential = {
 		was_player = yes
