@@ -532,7 +532,7 @@ country_event = {
 		change_price = {
 			trade_goods = spices
 			key = SPICE_TRADE
-			value = 1.0
+			value = 0.5
 			duration = -1
 		}
 		add_years_of_income  = 0.25
