@@ -552,9 +552,9 @@ courthouse = {
 	modifier = {
 		local_state_maintenance_modifier = -0.1
 		allowed_num_of_buildings = 1
-		local_manpower_modifier = 0.1
+		local_manpower_modifier = 0.05
 		local_autonomy = -0.1
-		local_tax_modifier = 0.1	
+		local_tax_modifier = 0.05	
 		local_governing_cost = -0.25
 		local_friendly_movement_speed = 0.1
 	}
@@ -653,7 +653,7 @@ dock = {
 	}
 	modifier = {
 		local_sailors_modifier = 0.5
-		local_manpower_modifier = 0.25
+		local_manpower_modifier = 0.2
 		
 	}
 	
@@ -1692,9 +1692,9 @@ town_hall = {
 
 	modifier = {
 		local_state_maintenance_modifier = -0.1
-		local_manpower_modifier = 0.2
+		local_manpower_modifier = 0.1
 		local_autonomy = -0.2
-		local_tax_modifier = 0.2
+		local_tax_modifier = 0.1
 		allowed_num_of_buildings = 1
 		local_governing_cost = -0.5
 		local_friendly_movement_speed = 0.2
@@ -1806,7 +1806,7 @@ drydock = {
 
 	modifier = {
 		local_sailors_modifier = 1.0
-		local_manpower_modifier = 0.5
+		local_manpower_modifier = 0.4
 		
 	}
 	
@@ -2647,14 +2647,14 @@ impressment_offices = {
 	}
 
 	modifier = {
-		local_sailors = 300
-		local_manpower = 0.2	
+		local_sailors = 400
+		local_manpower = 0.1
 		ship_recruit_speed = -0.1
 		local_ship_cost = -0.05
 	}
 	bonus_modifier = {
-		local_sailors = 300
-		local_manpower = 0.2
+		local_sailors = 400
+		local_manpower = 0.1
 		ship_recruit_speed = -0.1
 		local_ship_cost = -0.05
 	}
