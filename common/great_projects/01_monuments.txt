@@ -25717,3 +25717,105 @@ gme_santiago_compostela = {
 		on_upgraded = { }
 	}
 }
+
+gme_hofburg = {
+	start = 134
+	date = 1.01.01
+	time = { months = 120 }
+	build_cost = 1000
+	starting_tier = 1
+	type = monument
+	can_be_moved = no
+	build_trigger = { }
+	on_built = { }
+	on_destroyed = { }
+	can_use_modifiers_trigger = {
+		has_owner_accepted_culture = yes
+		owner = {
+			OR = {
+				dynasty = "von Habsburg"
+				is_emperor = yes
+				tag = HLR
+			}
+		}
+	}
+	can_upgrade_trigger = {
+		has_owner_accepted_culture = yes
+		owner = {
+			OR = {
+				dynasty = "von Habsburg"
+				is_emperor = yes
+				tag = HLR
+			}
+		}
+	}
+	keep_trigger = { }
+	tier_0 = {
+		upgrade_time = { months = 0 }
+		cost_to_upgrade = { factor = 0 }
+		province_modifiers = { }
+		area_modifier = { }
+		region_modifier = { }
+		country_modifiers = { }
+		on_upgraded = { }
+	}
+	tier_1 = {
+		upgrade_time = { months = 120 }
+		cost_to_upgrade = { factor = 1000 }
+		province_modifiers = {
+			local_development_cost = -0.10
+			local_institution_spread = 0.15
+		}
+		area_modifier = {
+			local_prosperity_growth = 0.5
+		}
+		region_modifier = { }
+		country_modifiers = {
+			diplomatic_reputation = 1
+		}
+		on_upgraded = { }
+	}
+	tier_2 = {
+		upgrade_time = { months = 240 }
+		cost_to_upgrade = { factor = 2500 }
+		province_modifiers = {
+			allowed_num_of_buildings = 1
+			local_institution_spread = 0.25
+		}
+		area_modifier = {
+			local_development_cost = -0.10
+			local_prosperity_growth = 0.5
+		}
+		region_modifier = { }
+		country_modifiers = {
+			diplomatic_reputation = 1
+			diplomatic_upkeep = 1
+			
+		}
+		on_upgraded = { }
+	}
+	tier_3 = {
+		upgrade_time = { months = 480 }
+		cost_to_upgrade = { factor = 5000 }
+		province_modifiers = { }
+		area_modifier = {
+			allowed_num_of_buildings = 1
+			local_development_cost = -0.15
+			local_institution_spread = 0.25
+			local_prosperity_growth = 1
+		}
+		region_modifier = { }
+		country_modifiers = {
+			diplomatic_reputation = 2
+			diplomatic_upkeep = 2
+			imperial_authority = 0.05
+			
+			
+		}
+		on_upgraded = {
+			owner = {
+				add_imperial_influence = 5
+			}
+		}
+	}
+}
