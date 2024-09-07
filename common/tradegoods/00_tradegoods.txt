@@ -751,7 +751,7 @@ iron = {
 slaves = {
 	color = { 0.0 0.0 0.0 }
 	modifier = {
-		global_tariffs = 0.10
+		global_tax_modifier = 0.2
 	}
 	province = {
 		local_missionary_strength = 0.01
@@ -1584,7 +1584,7 @@ livestock = {
 incense = {
 	color = { 0.89 0.79 0.47 }
 	modifier = {
-		tolerance_own = 0.5
+		tolerance_own = 1
 	}
 	province = {
 		local_unrest = -1
