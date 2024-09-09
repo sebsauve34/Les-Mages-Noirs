@@ -321,13 +321,15 @@ capital_city = {
 
 patriarch_state = {
 	local_state_maintenance_modifier = 0.1
-	local_monthly_devastation = -0.05
+	local_monthly_devastation = -0.1
+	local_tax_modifier = 0.1
 }
 
 # Multiplied in provinces of same religion.
 patriarch_authority_local = {
 	local_unrest = -3
 	local_manpower_modifier = 0.25
+	local_tax_modifier = 0.25
 }
 
 #for the country
