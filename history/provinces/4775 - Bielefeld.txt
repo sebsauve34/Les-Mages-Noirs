@@ -1,8 +1,8 @@
 # 4775 - Bielefeld
 
-owner = LPP
-controller = LPP
-#add_core = BRG
+owner = HES
+controller = HES
+add_core = HES
 add_core = LPP
 culture = hannoverian
 religion = catholic

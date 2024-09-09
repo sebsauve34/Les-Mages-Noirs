@@ -7218,8 +7218,8 @@ SHL_ideas = {
 
 HES_ideas = {
 	start = {
-		infantry_cost = -0.10
-		infantry_power = 0.10
+		infantry_cost = -0.1
+		infantry_power = 0.1
 	}
 	bonus = {
 		mercenary_discipline = 0.05
@@ -7229,9 +7229,9 @@ HES_ideas = {
 	}
 	
 	free = yes
-	
-	break_the_hessian_estates = {
-		stability_cost_modifier = -0.1
+
+	modernization_of_the_hessian_army = {
+		land_forcelimit_modifier = 0.2
 	}
 	marburg_university = {
 		idea_cost = -0.1
@@ -7250,8 +7250,8 @@ HES_ideas = {
 	hessian_economic_reforms = {
 		production_efficiency = 0.1
 	}
-	modernization_of_the_hessian_army = {
-		land_forcelimit_modifier = 0.2
+	break_the_hessian_estates = {
+		stability_cost_modifier = -0.1
 	}
 }
 
