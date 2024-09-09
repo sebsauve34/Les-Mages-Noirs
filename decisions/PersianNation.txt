@@ -46,26 +46,11 @@ country_decisions = {
 				province_id = 433		# Yazd
 				province_id = 2213		# Qom
 				province_id = 2215		# Qazvin
-				AND = {
-					province_id = 416
-					ROOT = { NOT = { owns_core_province = 432 } }
-					ROOT = { NOT = { owns_core_province = 2221 } }
-				}
-				AND = {
-					province_id = 432
-					ROOT = { NOT = { owns_core_province = 416 } }
-					ROOT = { NOT = { owns_core_province = 2221 } }
-				}
-				AND = {
-					province_id = 2221
-					ROOT = { NOT = { owns_core_province = 416 } }
-					ROOT = { NOT = { owns_core_province = 432 } }
-				}
+				province_id = 416
+				province_id = 432
+				province_id = 2221
 			}
-			OR = {
-				NOT = { owned_by = ROOT }
-				NOT = { is_core = ROOT }
-			}
+			
 		}
 		allow = {
 			is_free_or_tributary_trigger = yes
@@ -78,11 +63,11 @@ country_decisions = {
 			owns_core_province = 433		# Yazd
 			owns_core_province = 2213		# Qom
 			owns_core_province = 2215		# Qazvin
-			OR = {
+			
 				owns_core_province = 416		# Tabriz
 				owns_core_province = 432		# Kerman
 				owns_core_province = 2221		# Mashhad
-			}
+			
 		}
 		effect = {
 			change_tag = PER
