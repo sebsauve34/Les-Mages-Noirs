@@ -213,7 +213,7 @@ qolu_frn_slot_2 = {
 		effect = {
 			add_country_modifier = {
 				name = qolu_rhenish_mercenaries
-				duration = 10950
+				duration = -1
 			}
 		}
 	}

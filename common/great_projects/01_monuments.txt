@@ -21092,20 +21092,25 @@ gme_externsteine = {
 		}
 		area_modifier = { }
 		region_modifier = { }
-		country_modifiers = { }
+		country_modifiers = { 
+		global_tax_modifier = 0.05
+		}
 		on_upgraded = { }
 	}
 	tier_2 = {
 		upgrade_time = { months = 120 }
 		cost_to_upgrade = { factor = 1000 }
 		province_modifiers = {
-			local_development_cost = -0.1
+			
 			
 		}
-		area_modifier = { }
+		area_modifier = {
+		local_development_cost = -0.05
+			 }
 		region_modifier = { }
 		country_modifiers = {
 			prestige = 0.5
+			global_tax_modifier = 0.1
 		}
 		on_upgraded = { }
 	}
@@ -21113,13 +21118,15 @@ gme_externsteine = {
 		upgrade_time = { months = 240 }
 		cost_to_upgrade = { factor = 2000 }
 		province_modifiers = {
-			local_development_cost = -0.15
+			
 			
 		}
 		area_modifier = { }
-		region_modifier = { }
+		region_modifier = {
+		local_development_cost = -0.05
+			 }
 		country_modifiers = {
-			tolerance_own = 1
+			global_tax_modifier = 0.2
 			prestige = 1
 		}
 		on_upgraded = { }

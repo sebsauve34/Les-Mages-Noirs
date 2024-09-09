@@ -15278,11 +15278,11 @@ CLI_ideas = {
 
 WES_ideas = {
 	start = {
-		diplomats = 1
+		build_cost = -0.1
 		land_forcelimit_modifier = 0.25
 	}
 	bonus = {
-		global_manpower_modifier = 0.20
+		global_manpower_modifier = 0.25
 	}
 	trigger = {
 		tag = WES
@@ -15291,28 +15291,29 @@ WES_ideas = {
 
 	wes_jewish_rights = {
 		idea_cost = -0.1
+		interest = -0.25
 	}
 	wes_westphalian_decentralisation  = {
-		state_maintenance_modifier = -0.1
+		state_maintenance_modifier = -0.25
 		development_cost = -0.1
 	}
 	wes_increased_conscription = {
 		discipline = 0.05
-		infantry_power = 0.10
+		infantry_power = 0.1
 	}
 	wes_administrative_assimilation_of_rheinlanders = {
 		num_accepted_cultures = 1
-		same_culture_advisor_cost = -0.25
+		same_culture_advisor_cost = -0.15
 	}
 	wes_taxation = {
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.2
 	}
 	wes_enlightenment = {
-		tolerance_heretic = 1
-		tolerance_heathen = 1
+		tolerance_heretic = 2
+		tolerance_heathen = 2
 	}
 	wes_cities_of_the_rhineland = {
-		global_prov_trade_power_modifier = 0.15
+		global_prov_trade_power_modifier = 0.25
 	}
 }
 
