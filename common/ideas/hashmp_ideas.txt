@@ -493,20 +493,20 @@ ZUL_ideas = { #Zulu Empire
 	free = yes
   
 	zul_1 = {
-		leader_cost = -0.1
+		leader_cost = -0.15
 	}
 	zul_2 = {
 		global_trade_goods_size_modifier = 0.1
 		inflation_reduction = 0.1
 	}
 	zul_3 = {
-		infantry_power = 0.15
+		infantry_power = 0.2
 		discipline = 0.05
 	}
 	zul_4 = {
 		hostile_attrition = 1
 		max_hostile_attrition = 1
-		defensiveness = 0.1
+		defensiveness = 0.15
 	}
 	zul_5 = {
 		manpower_recovery_speed = 0.25
