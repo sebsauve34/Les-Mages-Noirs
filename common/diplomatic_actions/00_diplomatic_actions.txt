@@ -576,6 +576,15 @@ annexationaction = {
 		}
 	}
 	condition = {
+		tooltip = ASK_cannot_annex
+		potential = {
+			tag = ASK
+		}
+		allow = {
+			always = no
+		}
+	}
+	condition = {
 		tooltip = NEEDS_TO_HAVE_SEIZED_LAND
 		potential = {
 			has_government_attribute = has_appanages
