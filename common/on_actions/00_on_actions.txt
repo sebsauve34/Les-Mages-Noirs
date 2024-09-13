@@ -5488,8 +5488,68 @@ on_capital_moved = {
 	on_capital_moved_effect = yes
 }
 
-#ROOT = province that was expanded in, FROM = country that did it
 on_expanded_infrastructure = {
+	if = {
+		limit = {
+			province_id = 266
+			owner = {
+				has_country_flag = boh_expand_infrastructure_prague_flag
+			}
+			NOT = {
+				check_variable = {
+					which = boh_expanded_infrastructure_prague
+					value = 3
+				}
+			}
+		}
+        change_variable = {
+            which = boh_expanded_infrastructure_prague
+            value = 1
+        }
+		add_base_tax = 1
+		add_base_production = 1
+		add_base_manpower = 1
+	}
+	if = {
+		limit = {
+			has_province_flag = feo_expand_infrastructure_gold_income
+		}
+		FROM = {
+			add_years_of_owned_provinces_production_income = {
+				years = 2
+				trigger = {
+					province_id = 1766
+				}
+			}
+		}
+		1766 = { clr_province_flag = feo_expand_infrastructure_gold_income}
+	}
+	if = {
+		limit = {
+			has_province_flag = azt_tenochtitlan_expand_infrastructure_flag
+		}
+		FROM = {
+			change_government_reform_progress = 10
+		}
+	}
+	if = {
+		limit = {
+			FROM = {
+				has_country_flag = MUG_upgrade_expanding_infrastructure
+			}
+		}
+		area = {
+			limit = {
+				owned_by = FROM
+			}
+			add_province_modifier = {
+				name = MUG_expanded_infrastructure
+				duration = 7300
+			}
+		}
+	}
+}
+on_expanded_infrastructure_removed = {
 }
 
 #ROOT = province that was centralized in
