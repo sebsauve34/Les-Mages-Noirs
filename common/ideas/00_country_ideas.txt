@@ -3281,15 +3281,17 @@ TUS_ideas = {
 	}
 	tuscan_banking = {
 		interest = -0.25
+		global_tax_modifier = 0.1
 	}
 	tuscan_arts = {
 		prestige = 1
 	}
 	porto_franco = {
-		trade_efficiency = 0.15
+		trade_efficiency = 0.1
+		global_trade_power = 0.1
 	}
 	tuscan_administrative_reforms = {
-		production_efficiency = 0.10
+		production_efficiency = 0.1
 	}
 	tuscan_grand_duchy = {
 		global_manpower_modifier = 0.25

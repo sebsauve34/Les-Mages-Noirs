@@ -16603,7 +16603,7 @@ falun_copper_mine = {
 }
 
 kronborg = {
-	start = 12 #Sjaelland
+	start = 5004 #Sjaelland
 	date = 1420.01.01
 	time = { months = 0	}
 	build_cost = 0

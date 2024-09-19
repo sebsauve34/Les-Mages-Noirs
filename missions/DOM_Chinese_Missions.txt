@@ -963,10 +963,10 @@ DOM_Qing_Missions_1_b_formable = {
 		trigger = {
 			if = {
 				limit = { has_dlc = "Mandate of Heaven" } 
-				num_of_banners = 32 
+				num_of_banners = 200
 			}
-			else = { num_of_cavalry = 50 } 
-			empire_of_china_reform_passed = modernize_the_banners_decision
+			else = { num_of_cavalry = 400 } 
+			
 			OR = {
 				national_focus = MIL 
 				army_reformer = 3 
