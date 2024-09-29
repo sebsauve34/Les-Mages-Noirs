@@ -984,10 +984,15 @@ scuola_grande = {
 		tag = VEN
 		tag = LOM	
 		tag = ITA
+		tag = GEN
+		tag = NAP
+		tag = SPI
+		tag = TUS
+		tag = TTS
 	}
     }
     color = { 173 216 230 }
-    cost = 50
+    cost = 75
     cost_type = dip_power
     per_province_effect = {
         owner = { add_splendor = 10 }

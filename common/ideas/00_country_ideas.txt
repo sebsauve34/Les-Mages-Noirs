@@ -2186,7 +2186,7 @@ ITA_ideas = {
 	free = yes
 	
 	no_a_geographical_construct = {
-		development_cost = -0.10
+		development_cost = -0.1
 	}
 	tradition_of_the_legion = {
 		infantry_power = 0.15
@@ -2206,10 +2206,11 @@ ITA_ideas = {
 	}
 	heir_to_the_empire = {
 		prestige = 1
-		core_creation = -0.20
+		core_creation = -0.25
 	}
 	path_to_citizenship = {
-		shock_damage = 0.1
+		shock_damage = 0.15
+		army_tradition = 0.5
 	}
 }
 
@@ -15321,11 +15322,11 @@ WES_ideas = {
 
 SWA_ideas = {
 	start = {
-		global_manpower_modifier = 0.2
+		global_manpower_modifier = 0.25
 		discipline = 0.05
 	}
 	bonus = {
-		infantry_power = 0.1
+		infantry_power = 0.15
 	}
 	trigger = {
 		tag = SWA
