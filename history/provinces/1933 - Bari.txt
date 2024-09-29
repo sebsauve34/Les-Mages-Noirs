@@ -12,7 +12,7 @@ base_manpower = 2
 capital = "Bari"
 is_city = yes # Estimated 
 add_core = NAP
-
+center_of_trade = 1
 
 
 discovered_by = western
