@@ -2088,6 +2088,9 @@ sultanate_of_rum_reform = {
 		has_janissaries = yes
 		has_harem = yes
 		custom_attributes = {
+			enables_estate_janissaries = yes
+			
+	
 			has_harem_events = yes
 			has_eyalets = yes
 		}

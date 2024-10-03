@@ -3180,7 +3180,7 @@ woc_hun_fifth_branch = {
 		trigger = {
 			num_accepted_cultures = 3
 			development_in_provinces = {
-				value = 250
+				value = 125
 				culture_group = carpathian
 			}
 		}
