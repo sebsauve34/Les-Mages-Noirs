@@ -111,7 +111,7 @@ NDiplomacy = {
 	PEACE_IMPACT_MIL_SCORE = 0.25,
 
 	AUTONOMY_WARSCORE_COST_MODIFIER = 0.5,			-- How much autonomy reduces score by (at 1, 50% autonomy = 50% reduction)
-	GREAT_PROJECT_WARSCORE_COST_MODIFIER = 0.25,	-- How much each great project multiplies a war score cost by (so 1 GP adds 33%, 2 add 66% etc)
+	GREAT_PROJECT_WARSCORE_COST_MODIFIER = 0,	-- How much each great project multiplies a war score cost by (so 1 GP adds 33%, 2 add 66% etc)
 
 	NUM_POSSIBLE_RIVALS = 3,
 	RIVAL_PRESTIGE_BONUS = 0.25,
@@ -1285,7 +1285,7 @@ NMilitary = {
 	ARMY_ATTRITION_AT_COAST = 1,					-- How many percent attrition units take while loaded onto ships along the coast
 	ARMY_ATTRITION_AT_SEA = 1,						-- How many percent attrition units take while loaded onto ships traveling open sea
 	NATIVE_FEROCITY_IMPACT = 0.05,					-- how many percentage each ferocity gives in combat bonus
-	GALLEY_BONUS_INLAND_SEA = 1.0,
+	GALLEY_BONUS_INLAND_SEA = 1.25,
 	GALLEY_BONUS_COASTAL_SEA = 0.5,
 	GALLEY_DICE_MALLUS_HIGH_SEA = 0,				-- Malus dice roll when not fighting in inland sea.
 	INSUFFICIENT_SUPPORT = -1.0,

@@ -802,7 +802,7 @@ designate_march = {
 	condition = {
 		tooltip = qolu_tooltip_many_marches_influence
 		potential = {
-			
+			ROOT = { full_idea_group = influence_ideas }
 		}
 		allow = {
 			NOT = {
