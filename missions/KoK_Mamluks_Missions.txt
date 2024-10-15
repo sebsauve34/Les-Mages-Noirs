@@ -1837,15 +1837,10 @@ mam_missions_4 = {
 			if = {
 				limit = { 
 					tag = EGY 
-					has_government_mechanic = egyptian_westernization
+					
 				}
-				has_government_power = {
-					mechanic_type = egyptian_westernization
-					power_type = egyptian_modernization_power
-					value = 90
-				}
-				has_better_tech_than_westerns = yes
-				has_more_institutions_than_westerns = yes
+				
+				
 				OR = {
 					num_accepted_cultures = 8
 					full_idea_group = innovativeness_ideas
