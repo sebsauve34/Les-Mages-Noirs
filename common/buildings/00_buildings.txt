@@ -2501,7 +2501,9 @@ ramparts = {
 	#}
 	modifier = {
 		local_hostile_attrition = 1
-		local_defensiveness = 0.15
+		local_defensiveness = 0.1
+		local_garrison_damage = 0.25
+		local_assault_fort_ability = -0.25
 		
 	}
 	onmap = no
