@@ -206,15 +206,7 @@ age_of_discovery = {
 		ab_portugal_colonial_growth = {
 		
 			allow = {
-				OR = {
-				tag = POR
-				tag = CAS
-				tag = FRA
-				tag = ENG
-				tag = DAN
-				tag = BUR
-				tag = SWE
-				}
+				technology_group = western
 			}
 			modifier = {
 				range = 1	
