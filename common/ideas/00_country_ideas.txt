@@ -1534,7 +1534,7 @@ JAP_ideas = {
 		ship_durability = 0.05
 	}
 	jap_land_of_the_rising_sun = {
-		backrow_artillery_damage = 0.1
+		max_general_fire = 1	
 		leader_land_fire = 1
 	}
 	jap_kaitakudan = {
@@ -2815,7 +2815,7 @@ MAR_ideas = {
 
 TAU_ideas = {
 	start = {
-		morale_damage = 0.1
+		morale_damage = 0.15
 		global_manpower_modifier = 0.25	
 	}
 	
@@ -14920,6 +14920,7 @@ KHA_ideas = {
 	mongolian_mobility = {
 		leader_land_manuever = 1
 		movement_speed = 0.1
+		max_general_manuever = 1	
 	}
 	MNG_kheshig = {
 		leader_land_shock = 1
@@ -16682,7 +16683,7 @@ AVE_ideas = {
 		technology_cost = -0.05
 	}
 	rule_of_the_plantagenet = {
-		army_tradition = 0.5
+		max_general_shock = 1	
 		leader_land_shock = 1
 	}
 }

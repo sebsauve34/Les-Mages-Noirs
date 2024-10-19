@@ -295,6 +295,7 @@ QIC_ideas = { #Qi
 	QIC_6 = {
 		movement_speed = 0.1
 		leader_land_manuever = 1
+		max_general_manuever = 1
 	}
 	QIC_7 = {
 		development_cost = -0.1
@@ -471,8 +472,8 @@ ARB_ideas = { #Arabian Empire
 		trade_efficiency = 0.1
 	}
 	arb_7 = { #Arabia
-		prestige = 1
-		army_tradition = 0.5
+		max_general_shock = 1	
+		leader_land_shock = 1
 	}
 }
 
@@ -500,7 +501,7 @@ ZUL_ideas = { #Zulu Empire
 		inflation_reduction = 0.1
 	}
 	zul_3 = {
-		infantry_power = 0.2
+		infantry_fire = 0.25
 		discipline = 0.05
 	}
 	zul_4 = {
@@ -513,7 +514,7 @@ ZUL_ideas = { #Zulu Empire
 	}
 	zul_6 = {
 		leader_land_fire = 1
-		free_leader_pool = 1
+		max_general_fire = 1	
 	}
 	zul_7 = {
 		monarch_military_power = 1
@@ -953,11 +954,12 @@ QUE_ideas = { #Quebec
 		max_hostile_attrition = 1
 	}
 	college_of_quebec = {
-		leader_land_shock = 1
 		leader_land_manuever = 1
+		max_general_manuever = 1
 	}
 	commissions_for_noble_sons = {
 		army_tradition_decay = -0.01
+		leader_land_shock = 1
 	}
 	jesuit_missions = {
 		tolerance_own = 1

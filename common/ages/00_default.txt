@@ -493,7 +493,7 @@ age_of_reformation = {
 				technology_group = western
 			}
 			modifier = {
-				infantry_shock = 0.25
+				infantry_shock = 0.2
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
@@ -757,6 +757,7 @@ age_of_absolutism = {
 			}
 			modifier = {
 				leader_land_fire = 1	
+				max_general_fire = 1	
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
