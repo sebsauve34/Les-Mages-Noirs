@@ -14920,7 +14920,7 @@ KHA_ideas = {
 	mongolian_mobility = {
 		leader_land_manuever = 1
 		movement_speed = 0.1
-		max_general_manuever = 1	
+		max_general_maneuver = 1	
 	}
 	MNG_kheshig = {
 		leader_land_shock = 1

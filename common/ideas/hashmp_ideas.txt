@@ -295,7 +295,7 @@ QIC_ideas = { #Qi
 	QIC_6 = {
 		movement_speed = 0.1
 		leader_land_manuever = 1
-		max_general_manuever = 1
+		max_general_maneuver = 1	
 	}
 	QIC_7 = {
 		development_cost = -0.1
@@ -955,7 +955,7 @@ QUE_ideas = { #Quebec
 	}
 	college_of_quebec = {
 		leader_land_manuever = 1
-		max_general_manuever = 1
+		max_general_maneuver = 1	
 	}
 	commissions_for_noble_sons = {
 		army_tradition_decay = -0.01
