@@ -16676,7 +16676,8 @@ AVE_ideas = {
 		colonists = 1	
 	}
 	reformed_angevin_infantry = {
-		infantry_power = 0.2
+		infantry_power = 0.1
+		infantry_shock = 0.25
 	}
 	seneschal_of_france = {
 		governing_capacity_modifier = 0.25
