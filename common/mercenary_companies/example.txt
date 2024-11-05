@@ -28,8 +28,8 @@ merc__local_free_city_company = {
     cavalry_weight = 0
     artillery_weight = 0
     cavalry_cap = 2
-    min_size = 10
-    max_size = 10
+    min_size = 5
+    max_size = 5
     no_additional_manpower_from_max_size = yes
     trigger = {
         
