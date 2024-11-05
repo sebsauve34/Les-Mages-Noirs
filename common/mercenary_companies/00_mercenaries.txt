@@ -89,8 +89,8 @@ h_merc_d_200_large_1 = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cost_modifier = 1
-	min_size = 70
-	max_size = 70
+	min_size = 60
+	max_size = 60
 	no_additional_manpower_from_max_size = yes
 	trigger = {
 		AND = {
@@ -108,15 +108,17 @@ h_merc_p_200_med_2 = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cost_modifier = 1	
-	min_size = 70
-	max_size = 70
+	min_size = 80
+	max_size = 80
 	no_additional_manpower_from_max_size = yes
 	trigger = {
+		AND = {
+		full_idea_group = quantity_ideas
 		current_age = age_of_revolutions
+		}
 	}
 	modifier = {
-		recover_army_morale_speed = -0.05
-		land_morale = -0.05
+
 	}
 }
 
@@ -129,11 +131,13 @@ h_merc_d_200_med_1 = {
 	no_additional_manpower_from_max_size = yes
 	max_size = 60
 	trigger = {
-		current_age = age_of_revolutions
+		AND = {
+		full_idea_group = quantity_ideas
+		current_age = age_of_absolutism
+		}
 	}
 	modifier = {
-		recover_army_morale_speed = -0.05
-		land_morale = -0.05
+		
 	}
 }
 
@@ -142,15 +146,17 @@ h_merc_d_200_small_2 = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cost_modifier = 1
-	min_size = 50
+	min_size = 40
 	no_additional_manpower_from_max_size = yes
-	max_size = 50
+	max_size = 40
 	trigger = {
-		current_age = age_of_revolutions
+		AND = {
+		full_idea_group = quantity_ideas
+		current_age = age_of_reformation 
+		}
 	}
 	modifier = {
-		recover_army_morale_speed = -0.05
-		land_morale = -0.05
+		
 	}
 }
 
@@ -158,16 +164,20 @@ h_merc_d_200_small_1 = {
 	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
-	min_size = 40
+	min_size = 20
 	no_additional_manpower_from_max_size = yes
-	max_size = 40
+	max_size = 20
 	cost_modifier = 1
 	trigger = {
-		current_age = age_of_revolutions
+		AND = {
+		full_idea_group = quantity_ideas
+		current_age = age_of_discovery
+		}
 	}
 	modifier = {
 		recover_army_morale_speed = -0.05
-		land_morale = -0.05
+		land_morale = -0.05	
+		reinforce_speed = -0.15
 	}
 }
 
@@ -205,7 +215,8 @@ h_merc_p_150_med_2 = {
 	}
 	modifier = {
 		recover_army_morale_speed = -0.05
-		land_morale = -0.05
+		land_morale = -0.05	
+		reinforce_speed = -0.15
 	}
 }
 
@@ -222,7 +233,8 @@ h_merc_d_150_med_1 = {
 	}
 	modifier = {
 		recover_army_morale_speed = -0.05
-		land_morale = -0.05
+		land_morale = -0.05	
+		reinforce_speed = -0.15
 	}
 }
 
@@ -239,7 +251,8 @@ h_merc_d_150_small_2 = {
 	}
 	modifier = {
 		recover_army_morale_speed = -0.05
-		land_morale = -0.05
+		land_morale = -0.05	
+		reinforce_speed = -0.15
 	}
 }
 
@@ -256,7 +269,8 @@ h_merc_d_150_small_1 = {
 	}
 	modifier = {
 		recover_army_morale_speed = -0.05
-		land_morale = -0.05
+		land_morale = -0.05	
+		reinforce_speed = -0.15
 	}
 }
 
@@ -266,9 +280,9 @@ h_merc_d_100_large_1 = {
 	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
-	min_size = 35
+	min_size = 30
 	no_additional_manpower_from_max_size = yes
-	max_size = 35
+	max_size = 30
 	cost_modifier = 1
 	trigger = {
 		AND = {
@@ -285,8 +299,8 @@ h_merc_p_100_med_2 = {
 	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
-	min_size = 35
-	max_size = 35
+	min_size = 30
+	max_size = 30
 	no_additional_manpower_from_max_size = yes
 	cost_modifier = 1
 	trigger = {
@@ -294,7 +308,8 @@ h_merc_p_100_med_2 = {
 	}
 	modifier = {
 		recover_army_morale_speed = -0.05
-		land_morale = -0.05
+		land_morale = -0.05	
+		reinforce_speed = -0.15
 	}
 }
 
@@ -302,16 +317,17 @@ h_merc_d_100_med_1 = {
 	regiments_per_development = 0.01
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
-	min_size = 30
+	min_size = 25
 	no_additional_manpower_from_max_size = yes
-	max_size = 30
+	max_size = 25
 	cost_modifier = 1
 	trigger = {
 		current_age = age_of_reformation 
 	}
 	modifier = {
 		recover_army_morale_speed = -0.05
-		land_morale = -0.05
+		land_morale = -0.05	
+		reinforce_speed = -0.15
 	}
 }
 
@@ -328,7 +344,8 @@ h_merc_d_100_small_2 = {
 	}
 	modifier = {
 		recover_army_morale_speed = -0.05
-		land_morale = -0.05
+		land_morale = -0.05	
+		reinforce_speed = -0.15
 	}
 }
 
@@ -345,7 +362,8 @@ h_merc_d_100_small_1 = {
 	}
 	modifier = {
 		recover_army_morale_speed = -0.05
-		land_morale = -0.05
+		land_morale = -0.05	
+		reinforce_speed = -0.15
 	}
 }
 
@@ -356,8 +374,8 @@ h_merc_d_60_large_1 = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cost_modifier = 1
-	min_size = 25
-	max_size = 25
+	min_size = 15
+	max_size = 15
 	no_additional_manpower_from_max_size = yes
 	trigger = {
 		AND = {
@@ -375,15 +393,16 @@ h_merc_p_60_med_2 = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cost_modifier = 1
-	min_size = 25
+	min_size = 20
 	no_additional_manpower_from_max_size = yes
-	max_size = 25
+	max_size = 20
 	trigger = {
 		current_age = age_of_discovery
 	}
 	modifier = {
 		recover_army_morale_speed = -0.05
-		land_morale = -0.05
+		land_morale = -0.05	
+		reinforce_speed = -0.15
 	}
 }
 
@@ -392,8 +411,8 @@ h_merc_d_60_med_1 = {
 	cavalry_weight = 0.0
 	artillery_weight = 0.0
 	cost_modifier = 1
-	min_size = 20
-	max_size = 20
+	min_size = 15
+	max_size = 15
 	no_additional_manpower_from_max_size = yes
 	trigger = {
 		current_age = age_of_discovery
@@ -401,6 +420,7 @@ h_merc_d_60_med_1 = {
 	modifier = {
 		recover_army_morale_speed = -0.05
 		land_morale = -0.05
+		reinforce_speed = -0.15
 	}
 }
 
@@ -418,6 +438,7 @@ h_merc_d_60_small_2 = {
 	modifier = {
 		recover_army_morale_speed = -0.05
 		land_morale = -0.05
+		reinforce_speed = -0.15
 	}
 }
 
@@ -435,6 +456,7 @@ h_merc_d_60_small_1 = {
 	modifier = {
 		recover_army_morale_speed = -0.05
 		land_morale = -0.05
+		reinforce_speed = -0.15
 	}
 }
 
@@ -459,6 +481,7 @@ h_merc_artillery_6 = {
 	cost_modifier = 0.4
 	trigger = {
 		AND = {
+		full_idea_group = aristocracy_ideas
 		current_age = age_of_revolutions
 		mil_tech = 26
 		}
@@ -466,6 +489,7 @@ h_merc_artillery_6 = {
 	modifier = {
 		recover_army_morale_speed = -0.05
 		land_morale = -0.05
+		reinforce_speed = -0.15
 	}
 }
 
@@ -480,6 +504,7 @@ h_merc_artillery_5 = {
 	cost_modifier = 0.4
 	trigger = {
 		AND = {
+		full_idea_group = aristocracy_ideas
 		current_age = age_of_absolutism
 		mil_tech = 18
 		}
@@ -487,6 +512,7 @@ h_merc_artillery_5 = {
 	modifier = {
 		recover_army_morale_speed = -0.05
 		land_morale = -0.05
+		reinforce_speed = -0.15
 	}
 }
 
@@ -501,6 +527,7 @@ h_merc_artillery_4 = {
 	cost_modifier = 0.4
 	trigger = {
 		AND = {
+		full_idea_group = aristocracy_ideas
 		current_age = age_of_reformation
 		mil_tech = 10
 		}
@@ -508,6 +535,7 @@ h_merc_artillery_4 = {
 	modifier = {
 		recover_army_morale_speed = -0.05
 		land_morale = -0.05
+		reinforce_speed = -0.15
 	}
 }
 h_merc_artillery_3 = {
@@ -523,11 +551,15 @@ h_merc_artillery_3 = {
 		AND = {
 		current_age = age_of_revolutions
 		mil_tech = 26
+		}	
+		NOT = {
+		full_idea_group = aristocracy_ideas
 		}
 	}
 	modifier = {
 		recover_army_morale_speed = -0.05
 		land_morale = -0.05
+		reinforce_speed = -0.15
 	}
 }
 
@@ -545,10 +577,14 @@ h_merc_artillery_2 = {
 		current_age = age_of_absolutism
 		mil_tech = 18
 		}
+		NOT = {
+		full_idea_group = aristocracy_ideas
+		}
 	}
 	modifier = {
 		recover_army_morale_speed = -0.05
 		land_morale = -0.05
+		reinforce_speed = -0.15
 	}
 }
 
@@ -566,35 +602,60 @@ h_merc_artillery_1 = {
 		current_age = age_of_reformation
 		mil_tech = 10
 		}
+		NOT = {
+		full_idea_group = aristocracy_ideas
+		}
 	}
 	modifier = {
 		recover_army_morale_speed = -0.05
 		land_morale = -0.05
+		reinforce_speed = -0.15
 	}
 }
 
 ###########
 # Cavalry
 ###########
-
+h_merc_cavmed_4 = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.7
+	artillery_weight = 0.0
+	cavalry_cap = 40
+	min_size = 60
+	max_size = 60
+	no_additional_manpower_from_max_size = yes
+	cost_modifier = 0.5
+	trigger = {
+		
+       		
+		current_age = age_of_revolutions
+		
+	}
+	modifier = {
+		recover_army_morale_speed = -0.05
+		land_morale = -0.05
+		reinforce_speed = -0.15
+		}
+}
 h_merc_cavmed_3 = {
 	regiments_per_development = 0.01
 	cavalry_weight = 0.7
 	artillery_weight = 0.0
 	cavalry_cap = 40
-	min_size = 70
-	max_size = 70
+	min_size = 50
+	max_size = 50
 	no_additional_manpower_from_max_size = yes
 	cost_modifier = 0.5
 	trigger = {
-		OR = {
-       		current_age = age_of_absolutism
+		
+       		
 		current_age = age_of_revolutions
-		}
+		
 	}
 	modifier = {
 		recover_army_morale_speed = -0.05
 		land_morale = -0.05
+		reinforce_speed = -0.15
 		}
 }
 
@@ -604,18 +665,19 @@ h_merc_cavmed_2 = {
 	artillery_weight = 0.0
 	cavalry_cap = 40
 	cost_modifier = 0.5
-	min_size = 60
-	max_size = 60
+	min_size = 40
+	max_size = 40
 	no_additional_manpower_from_max_size = yes
 	trigger = {
-		OR = {
+		
        		current_age = age_of_absolutism
-		current_age = age_of_revolutions
-		}
+		
+		
 	}
 	modifier = {
 		recover_army_morale_speed = -0.05
 		land_morale = -0.05
+		reinforce_speed = -0.15
 	}
 }
 
@@ -624,19 +686,42 @@ h_merc_cavmed_1 = {
 	cavalry_weight = 0.7
 	artillery_weight = 0.0
 	cavalry_cap = 40
-	min_size = 40
-	max_size = 40
+	min_size = 30
+	max_size = 30
 	no_additional_manpower_from_max_size = yes
 	cost_modifier = 0.5
 	trigger = {
-		OR = {
+		
        		current_age = age_of_absolutism
-		current_age = age_of_revolutions
-		}
+		
+		
 	}
 	modifier = {
 		recover_army_morale_speed = -0.05
 		land_morale = -0.05
+		reinforce_speed = -0.15
+	}
+}
+h_merc_cavsmall_4 = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.7
+	artillery_weight = 0.0
+	cavalry_cap = 40
+	cost_modifier = 0.4
+	min_size = 25
+	max_size = 25
+	no_additional_manpower_from_max_size = yes
+	trigger = {
+		
+       		
+		current_age = age_of_reformation 
+		
+        
+	}
+	modifier = {
+		recover_army_morale_speed = -0.05
+		land_morale = -0.05
+		reinforce_speed = -0.15
 	}
 }
 
@@ -645,20 +730,21 @@ h_merc_cavsmall_3 = {
 	cavalry_weight = 0.7
 	artillery_weight = 0.0
 	cavalry_cap = 40
-	cost_modifier = 0.3
-	min_size = 25
-	max_size = 25
+	cost_modifier = 0.4
+	min_size = 20
+	max_size = 20
 	no_additional_manpower_from_max_size = yes
 	trigger = {
-		OR = {
-       		current_age = age_of_discovery
+		
+       		
 		current_age = age_of_reformation 
-		}
+		
         
 	}
 	modifier = {
 		recover_army_morale_speed = -0.05
 		land_morale = -0.05
+		reinforce_speed = -0.15
 	}
 }
 
@@ -667,20 +753,20 @@ h_merc_cavsmall_2 = {
 	cavalry_weight = 0.7
 	artillery_weight = 0.0
 	cavalry_cap = 40
-	min_size = 20
-	max_size = 20
+	min_size = 15
+	max_size = 15
 	no_additional_manpower_from_max_size = yes
-	cost_modifier = 0.3
+	cost_modifier = 0.4
 	trigger = {
-		OR = {
-       		current_age = age_of_discovery
-		current_age = age_of_reformation 
-		}
+		
+		current_age = age_of_discovery	
+		
        		
 		}
 	modifier = {
 		recover_army_morale_speed = -0.05
 		land_morale = -0.05
+		reinforce_speed = -0.15
 	}
 }
 
@@ -689,19 +775,17 @@ h_merc_cavsmall_1 = {
 	cavalry_weight = 0.7
 	artillery_weight = 0.0
 	cavalry_cap = 40
-	cost_modifier = 0.3
-	min_size = 15
-	max_size = 15
+	cost_modifier = 0.4
+	min_size = 10
+	max_size = 10
 	no_additional_manpower_from_max_size = yes
 	trigger = {
-		OR = {
-       		current_age = age_of_discovery
-		current_age = age_of_reformation 
-			}
+       		current_age = age_of_discovery	
 		}
 	modifier = {
 		recover_army_morale_speed = -0.05
 		land_morale = -0.05
+		reinforce_speed = -0.15
 	}
 }
 
@@ -2232,7 +2316,10 @@ merc_zeybeks = {
 	cost_modifier = 0.6
 	sprites = { dlc002_tur_sprite_pack dlc042_tur_sprite_pack tur_base_sprite_pack }
 	trigger = {
+		OR = {
 		tag = RUM
+		tag = EGY
+		}
 	}
     modifier = { 
 		discipline = 0.05

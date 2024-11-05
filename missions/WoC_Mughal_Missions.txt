@@ -2539,7 +2539,7 @@ WoC_mughals_5 = {
 					area = balkh_area
 					area = kabulistan_area
 				}
-				value = 16
+				value = 12
 			}
 		}
 		effect = {

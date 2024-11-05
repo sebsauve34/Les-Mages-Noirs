@@ -1,7 +1,7 @@
 ########################################
-# Custom ideas for the HashMP Multiplayer mod
+# Custom ideas for the Les Mages Noirs Multiplayer mod
 #
-# by Foffy123 and hashinshin
+# by sebsauve34
 ########################################
 
 ########################################
@@ -1946,7 +1946,8 @@ TTS_ideas = { #By Xaime
 		cavalry_power = 0.15
 	}
 	tts_five = { ##sic_noble_admirals // Extra leader pool so having an admiral isn't agony when focusing on land.
-		development_cost = -0.1
+		development_cost = -0.05
+		innovativeness_gain = 0.5
 	}
 	tts_six = { ##city_of_artists // Carried over prestige for consistency, loses out on legitimacy gain.
 		land_morale = 0.1
@@ -1984,7 +1985,8 @@ LOM_ideas = {
 		shock_damage_received = -0.15
 	}
 	lom_4 = {
-		development_cost = -0.1
+		development_cost = -0.05
+		embracement_cost = -0.15
 	}
 	lom_5 = {
 		global_sailors_modifier = 0.25

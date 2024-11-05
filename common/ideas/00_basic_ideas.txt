@@ -22,7 +22,7 @@ aristocracy_ideas = {
 	#}
 	
 	noble_knights = {
-		cavalry_power = 0.15
+		cavalry_power = 0.1
 		cavalry_cost = -0.1
 	}
 	serfdom = {
@@ -100,11 +100,11 @@ plutocracy_ideas = {
 	#}
 
 	tradition_of_payment = {
-		mercenary_manpower = 0.5
+		mercenary_manpower = 0.33
 		mercenary_discipline = 0.05
 	}
 	abolished_serfdom = {
-		land_morale = 0.10
+		infantry_cost = -0.1
 		global_unrest = -1
 	}
 	bill_of_rights = {
@@ -113,14 +113,14 @@ plutocracy_ideas = {
 	}
 	free_merchants = {
 		merchants = 1
-		development_cost = -0.05
+		reduced_trade_penalty_on_non_main_tradenode = 0.2
 	}
 	free_subjects = {
 		global_trade_goods_size_modifier = 0.1
 		reelection_cost = -0.15
 	}
 	free_cities = {
-		infantry_cost = -0.1
+		land_morale = 0.1
 		possible_condottieri = 1 
 	}
 	emancipation = {
@@ -442,7 +442,7 @@ spy_ideas = {
 	
 	claim_fabrication = {
 		global_spy_defence = 0.33
-		advisor_cost = -0.075
+		advisor_cost = -0.1
 		
 	}
 

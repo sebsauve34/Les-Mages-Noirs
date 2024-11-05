@@ -64,14 +64,15 @@ GER_ideas = {
 		prestige = 1
 	}
 	ger_reichsheer = {
-		land_morale = 0.20
-		naval_morale = 0.10
+		land_morale = 0.2
+		naval_morale = 0.1
 	}
 	ger_new_hanseatics = {
-		development_cost = -0.10
+		development_cost = -0.05
 	}
 	ger_junkers = {
 		army_tradition_decay = -0.01
+		navy_tradition_decay = -0.01	
 	}
 	ger_reichstag = {
 		administrative_efficiency = 0.05
@@ -1025,10 +1026,10 @@ VEN_ideas = {
 	}
 	conscription = {
 		naval_maintenance_modifier = -0.2
-		galley_cost = -0.20
+		galley_cost = -0.2
 	}
 	printing_industry = {
-		technology_cost = -0.10
+		technology_cost = -0.1
 	}
 	state_inquisition = {
 		global_spy_defence = 0.33
@@ -1047,7 +1048,7 @@ VEN_ideas = {
 PRU_ideas = {
 	start = {
 		army_tradition = 0.5
-		diplomatic_reputation = 1
+		leader_siege = 1
 	}
 	
 	bonus = {
@@ -1075,12 +1076,12 @@ PRU_ideas = {
 		infantry_power = 0.15
 	}
 	regimental_cantons = {
-		global_regiment_recruit_speed = -0.15
+		global_regiment_recruit_speed = -0.2
 		global_manpower_modifier = 0.2
 	}
 	religious_toleration = {
 		tolerance_heretic = 2
-		development_cost = -0.10
+		development_cost = -0.05
 	}
 }
 
@@ -1112,7 +1113,8 @@ BRA_ideas = {
 		infantry_power = 0.10
 	}
 	seat_of_the_old_emperors = {
-		development_cost = -0.10
+		development_cost = -0.05
+		prestige = 1
 	}
 	iron_tooth = {
 		global_manpower_modifier = 0.10
@@ -1410,7 +1412,7 @@ GEN_Ideas = {
 		defensiveness = 0.1
 	}
 	the_genoese_arsenal = {
-		build_cost = -0.10
+		build_cost = -0.1
 	}	
 	reunited_genoa = {
 		stability_cost_modifier = -0.1
@@ -1652,7 +1654,8 @@ NAP_ideas = {
 		trade_efficiency = 0.1
 	}
 	academia_pontaniana = {
-		development_cost = -0.10
+		development_cost = -0.05
+		innovativeness_gain = 0.25	
 	}
 	encouraged_city_living = {
 		global_tax_modifier = 0.1 #Often among the largest cities of Europe
@@ -2186,7 +2189,8 @@ ITA_ideas = {
 	free = yes
 	
 	no_a_geographical_construct = {
-		development_cost = -0.1
+		development_cost = -0.05
+		build_cost = -0.1	
 	}
 	tradition_of_the_legion = {
 		infantry_power = 0.15
@@ -3257,7 +3261,7 @@ ASS_ideas = {
 TUS_ideas = {
 	start = {
 		infantry_power = 0.15
-		development_cost = -0.1
+		development_cost = -0.05
 	}
 	
 	bonus = {
@@ -3273,7 +3277,7 @@ TUS_ideas = {
 	free = yes
 	
 	birthplace_of_the_renaissance = {
-		idea_cost = -0.05
+		idea_cost = -0.1
 		technology_cost = -0.05
 	}
 	tuscan_condottieri = {
@@ -3282,7 +3286,7 @@ TUS_ideas = {
 	}
 	tuscan_banking = {
 		interest = -0.25
-		global_tax_modifier = 0.1
+		global_tax_modifier = 0.15
 	}
 	tuscan_arts = {
 		prestige = 1
@@ -3369,7 +3373,8 @@ SWI_ideas = {
 		max_hostile_attrition = 1
 	}
 	oasis_of_peace_and_prosperity = {
-		development_cost = -0.1
+		development_cost = -0.05
+		global_prosperity_growth = 0.25
 	}
 	swiss_tolerance = {
 		tolerance_heretic = 3
@@ -7245,7 +7250,8 @@ HES_ideas = {
 		monthly_fervor_increase = 0.25
 	}
 	let_in_religious_emigrants = {
-		development_cost = -0.1
+		development_cost = -0.05
+		advisor_cost = -0.1
 	}
 	hessian_mercenaries_idea = {
 		mercenary_manpower = 0.2
@@ -9088,7 +9094,7 @@ GZM_ideas = { #Great Zimbabwe Empire
 	start = {
 		land_morale = 0.1
 		infantry_cost = -0.2
-		development_cost = 0.2
+		development_cost = 0.2	
 	}
 	
 	bonus = {
@@ -11069,10 +11075,12 @@ HAN_ideas = {
 	free = yes
 	
 	han_niedersachsicher_reichskreis = {
-		state_maintenance_modifier = -0.2
+		state_maintenance_modifier = -0.25
+		same_culture_advisor_cost = -0.1
 	}
 	han_weser_renaissance = {
-		development_cost = -0.1
+		development_cost = -0.05
+		monthly_splendor = 2
 	}
 	han_shutzenfest = {
 		land_maintenance_modifier = -0.1
@@ -15299,7 +15307,7 @@ WES_ideas = {
 	}
 	wes_westphalian_decentralisation  = {
 		state_maintenance_modifier = -0.25
-		development_cost = -0.1
+		development_cost = -0.05
 	}
 	wes_increased_conscription = {
 		discipline = 0.05
@@ -15318,6 +15326,7 @@ WES_ideas = {
 	}
 	wes_cities_of_the_rhineland = {
 		global_prov_trade_power_modifier = 0.25
+		garrison_damage = 0.15
 	}
 }
 
@@ -15335,7 +15344,8 @@ SWA_ideas = {
 	free = yes
 
 	swa_decentralisation = {
-		development_cost = -0.1
+		development_cost = -0.05
+		vassal_forcelimit_bonus = 0.5
 	}
 	fugger_banks = { #from HAB_ideas
 		inflation_reduction = 0.05
@@ -15355,6 +15365,7 @@ SWA_ideas = {
 	}
 	swa_barbarossas_legacy = {
 		diplomatic_upkeep = 1	
+		vassal_income = 0.25
 	}
 }
 
@@ -16512,6 +16523,7 @@ GZI_ideas = {
 	start = {
 		fire_damage_received = -0.1
 		land_morale = 0.1
+		development_cost = 0.2
 	}
 
 	bonus = {

@@ -158,6 +158,8 @@
  h_merc_d_1500up_med_1:0 "Free Routiers"
  h_merc_d_1500up_large_1:0 "Free Army"
  h_merc_p_1500up_med_2:0 "Free Battalion"
+ h_merc_cavmed_4:0 "Free Sipahis" 
+ h_merc_cavsmall_4:0 "Free Sipahis"
  h_merc_cavmed_3:0 "Free Lancers"
  h_merc_cavsmall_3:0 "Free Lancers"
  h_merc_cavsmall_2:0 "Free Chevauchers"
