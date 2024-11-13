@@ -585,7 +585,7 @@ sca_development_slot_2 = {
 		required_missions = { sca_expand_danish_agriculture }
 		position = 5
 		provinces_to_highlight = {
-			province_id = 12
+			province_id = 5004 
 			OR = {
 				NOT = { owned_by = ROOT }
 				NOT = { is_core = ROOT }
@@ -612,7 +612,7 @@ sca_development_slot_2 = {
 			}
 		}
 		trigger = {
-			owns_core_province = 12
+			owns_core_province = 5004 
 			12 = {
 				if = {
 					limit = {
@@ -641,7 +641,7 @@ sca_development_slot_2 = {
 					key = sca_develop_kronborg_tt
 				}
 			}
-			12 = {
+			5004 = {
 				add_base_manpower = 4
 				add_province_modifier = {
 					name = sca_reinforcement_of_kronborg

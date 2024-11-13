@@ -6093,7 +6093,7 @@ rebuilding_the_towns = {
 }
 
 new_khmer_golden_age = {
-	all_power_cost = -0.25
+	all_power_cost = -0.1
 	culture_conversion_cost = -0.33
 }
 
