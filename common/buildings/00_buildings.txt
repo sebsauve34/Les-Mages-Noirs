@@ -320,7 +320,7 @@ shipyard = {
 	time = 12
 	build_trigger = {
 		#has_port = yes
-		development = 10
+		development = 15
 	}
 	modifier = {
 		allowed_num_of_buildings = 1
@@ -1266,7 +1266,7 @@ grand_shipyard = {
 
 	build_trigger = {
 		#has_port = yes
-		development = 20
+		development = 30
 	}
 	modifier = {
 		allowed_num_of_buildings = 1
