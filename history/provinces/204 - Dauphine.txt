@@ -13,7 +13,6 @@ trade_goods = wool
 base_manpower = 3
 add_core = FRA
 add_core = DAU
-add_core = PRO
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
