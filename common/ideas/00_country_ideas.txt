@@ -15205,6 +15205,7 @@ LOT_ideas = {
 	}
 	lot_european_empire = {
 		core_creation = -0.25
+		governing_capacity_modifier = 0.25
 	}
 }
 

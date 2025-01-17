@@ -963,9 +963,7 @@ emp_bra_pru_3 = {
 					area = south_saxony_area 
 				}
 			}			
-			1931 = {
-				country_or_non_sovereign_subject_holds = ROOT
-			}
+			
 			61 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
@@ -1014,7 +1012,7 @@ emp_bra_pru_3 = {
 		provinces_to_highlight = {
 			OR = {
 				AND = {
-					province_id = 1931
+					province_id = 1874
 					OR = {
 						has_shipyard_building_trigger = no
 						NOT = { owned_by = ROOT }
@@ -1031,7 +1029,7 @@ emp_bra_pru_3 = {
 		}
 		position = 4
 		trigger = {
-			1931 = {
+			1874 = {
 				has_shipyard_building_trigger = yes
 				owned_by = ROOT
 			}
