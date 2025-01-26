@@ -4,6 +4,11 @@ estate_vaisyas = {
 	# If true, country will get estate
 	#Replaces Burghers
 	trigger = {	
+		OR = {
+		ai = no
+		overlord = { ai = no }
+		was_player = yes
+		}
 		has_dlc = "Dharma"
 		NOT = { has_government_attribute = disables_estate_vaisyas }
 		NOT = { has_disabled_estate = { estate = estate_vaisyas } }

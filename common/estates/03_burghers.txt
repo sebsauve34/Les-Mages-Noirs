@@ -3,6 +3,11 @@ estate_burghers = {
 
 	# If true, country will get estate
 	trigger = {	
+		OR = {
+		ai = no
+		overlord = { ai = no }
+		was_player = yes
+		}
 		NOT = { has_government_attribute = disables_estate_burghers }
 		NOT = { has_disabled_estate = { estate = estate_burghers } }
 		OR = {

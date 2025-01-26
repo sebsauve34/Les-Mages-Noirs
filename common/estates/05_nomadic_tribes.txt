@@ -4,6 +4,11 @@ estate_nomadic_tribes = {
 	# If true, country will get estate
 	trigger = {
 		OR = {
+		ai = no
+		overlord = { ai = no }
+		was_player = yes
+		}
+		OR = {
 			has_dlc = "The Cossacks"
 			has_dlc = "King of Kings"
 		}

@@ -4,6 +4,11 @@ estate_brahmins = {
 	# If true, country will get estate
 	#This replaces Church Estate for Dharmic Group and replaces Dhimmi Estate for Muslim Group.
 	trigger = {
+		OR = {
+		ai = no
+		overlord = { ai = no }
+		was_player = yes
+		}
 		has_dlc = "Dharma"
 		NOT = { has_government_attribute = disables_estate_brahmins }
 		NOT = { has_disabled_estate = { estate = estate_brahmins } }
