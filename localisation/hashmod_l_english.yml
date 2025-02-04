@@ -24,6 +24,8 @@
  h_cav_ratio_title:0 "Import Eastern Cavalry Tactics"
  AHU: "Austria-Hungary"
  AHU_ADJ: "Austro-Hungarian"
+ h_latin_empire_nation_title:0 "Restore the Latin Empire"
+ h_latin_empire_nation_desc:0 ""
  h_austria-hungary_nation_title:0 "Form Austria-Hungary"
  h_austria-hungary_nation_desc:0 ""
  h_dual_monarchy:0 "Dual Monarchy"

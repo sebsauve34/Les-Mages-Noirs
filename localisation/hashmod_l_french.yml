@@ -1,4 +1,4 @@
-﻿l_french:
+﻿l_english:
  malayan_empire_ideas:0 "Malayan Empire Ideas"
  malayan_empire_ideas_start:0 "Malayan Empire Traditions"
  malayan_empire_ideas_bonus:0 "Malayan Empire Ambition"
@@ -24,6 +24,8 @@
  h_cav_ratio_title:0 "Import Eastern Cavalry Tactics"
  AHU: "Austria-Hungary"
  AHU_ADJ: "Austro-Hungarian"
+ h_latin_empire_nation_title:0 "Restore the Latin Empire"
+ h_latin_empire_nation_desc:0 ""
  h_austria-hungary_nation_title:0 "Form Austria-Hungary"
  h_austria-hungary_nation_desc:0 ""
  h_dual_monarchy:0 "Dual Monarchy"
@@ -132,6 +134,7 @@
  CSC_ADJ:0 "Columbian"
  NZL:0 "New Zealand"
  NZL_ADJ:0 "New Zealander"
+ h_angevin_nation_title:0 "Form the Angevin Kingdom"
  t_vassal_cav_ratio:0 "Horde Military Advisors"
  h_form_australia_title:0 "Form the Dominion of Australia"
  h_form_newzealand_title:0 "Form the Dominion of Zealandia"
@@ -403,9 +406,9 @@
  lou_2:0 "Port of New Orleans"
  lou_3:0 "Breadbasket of America"
  lou_4:0 "Voodoo"
- lou_5:0 "Mississippi Watershed"
+ lou_5:0 "Order of Saint Ursula"
  lou_6:0 "Slave Labor"
- lou_7:0 "Soldiers of Fortune"
+ lou_7:0 "Legacy of the Ancien regime"
  lou_1_desc:0 ""
  lou_2_desc:0 ""
  lou_3_desc:0 ""
@@ -1035,6 +1038,17 @@
  desc_tau_ae:0 "AE Reduction"
  settle_the_island:0 "Settle the Islands"
  desc_settle_the_island:0 "Colonize the islands fast"
+ hab_german_hegemony:0 "German Hegemony"
+ desc_hab_german_hegemony:0 "German Hegemony"
+ manpower_edict_decision_title:0 "Enable Manpower Edict"
+ manpower_edict_decision_desc:0 "Sets every state in our nation to the 'Promote Military Recruitment' state edict."	
+ institution_edict_decision_title:0 "Enable Advancement Effort Edict"
+ institution_edict_decision_desc:0 "Sets every state in our nation to the 'Advancement Effort' state edict."	
+
+#korean minors
+ fo_korean_city_ideas:0 "Korean City State Ideas"
+ fo_korean_city_ideas_start:0 "Korean City State Traditions"
+ fo_korean_city_ideas_bonus:0 "Korean City State Ambitions"
 
 # Modifiers:
  transcaucasian_wine_valleys: "Transcaucasian Wine Valleys"
@@ -1047,6 +1061,9 @@
 # Modifiers:
  alte_salzstrase: "Alte Salzstraße"
  desc_alte_salzstrase:0 "The Alte Salzstraße, also known as the Old Salt Road, was a very rich salt transporting network. Often called "White Gold", the salt mines were very lucrative for the northern parts of Germany, especially Lübeck, until the 17th century."
+#modifiers:
+  stannery_law_modifier:0 "Stannary Law"
+  desc_stannery_law_modifier:0 "The Stannary Laws, present since at least 1305, govern the tin mines of Cornwall and Devon. The laws established independent Stannary Courts, special taxation rights, and a local parliament especially for the many tin miners. These laws are still part of British law today, and despite being of little relevance now, it makes up the oldest law in the English Legal System."
 
 # Modifiers:
  granary_of_europe: "Granary of Europe"
@@ -1067,3 +1084,49 @@ PR_events.1.t:0 "Cartography of Africa"
  PR_colonialism_cot_lvl_3_no_coast_in_country:0 "Province with level 3 Centre of Trade and no coast."
  PR_printing_press_capital_20_dev:0 "Capital with at least 20 development."
  PR_printing_press_paper:0 "Province produces paper outside of Europe."
+ h_hire_conquistador_title:0 "Hire A Foreign Conquistador"
+ h_hire_conquistador_desc:0 "The recent discovery of the New World has led to a rush to explore and establish new trade routes. We must ensure we are the first to establish colonies in these new lands. Foreign conquistadors are available to hire to meet this purpose."
+ h_hire_explorer_title:0 "Hire A Foreign Explorer"
+ h_hire_explorer_desc:0 "The recent discovery of the New World has led to a rush to explore and establish new trade routes. We must ensure we are the first to establish colonies in these new lands. Foreign explorers are available to hire to meet this purpose."
+ form_great_yuan_title:0 "Reform Great Yuan"
+ form_great_yuan_desc:0 "The heirs of Kublai Khan once ruled over all Chinese and Mongol lands. Let us rise to reclaim the legacy of the old Yuan and crush the weaker lineages that have attempted to claim the Empire that is our birthright!"
+#AP Stratagems
+ divine_stratagem:0 "Divine Stratagem"
+ traditional_stratagem:0 "Aristocratic Stratagem"
+ strategic_stratagem:0 "Plutocratic Stratagem"
+ offensive_stratagem:0 "Offensive Stratagem"
+ defensive_stratagem:0 "Defensive Stratagem"
+ quality_stratagem:0 "Quality Stratagem"
+ quantity_stratagem:0 "Quantity Stratagem"
+
+#Bastard triggered modifiers
+Steppe_rule:0 "Steppe Rule: Islam"
+Steppe_rule_2:0 "Steppe Rule: Tengri"
+##CoT's 
+
+regional_port:0 "Regional Port"
+regional_port_desc:0 ""
+regional_hub:0 "Regional Hub"
+regional_hub_desc:0 ""
+world_port_2:0 "Trade Center Cap"
+world_port_2_desc:0 ""
+world_trade_center_2:0 "Trade Center Cap"
+world_trade_center_2_desc:0 "
+ l_english:
+#AP War
+ ap_from_war:0 "Lessons of War"
+#AP Stratagems
+ divine_stratagem_title:0 "£icon_ap_stratagems£ Enact Divine Stratagem"
+ divine_stratagem_desc:0 "-- You may only have 2 stratagems active at the same time while conscription has not been enacted."
+ traditional_stratagem_title:0 "£icon_ap_stratagems£ Enact Aristocratic Stratagem"
+ traditional_stratagem_desc:0 "-- You may only have 2 stratagems active at the same time while conscription has not been enacted."
+ strategic_stratagem_title:0 "£icon_ap_stratagems£ Enact Plutocratic Stratagem"
+ strategic_stratagem_desc:0 "-- You may only have 2 stratagems active at the same time while conscription has not been enacted."
+ offensive_stratagem_title:0 "£icon_ap_stratagems£ Enact Offensive Stratagem"
+ offensive_stratagem_desc:0 "-- You may only have 2 stratagems active at the same time while conscription has not been enacted."
+ defensive_stratagem_title:0 "£icon_ap_stratagems£ Enact Defensive Stratagem"
+ defensive_stratagem_desc:0 "-- You may only have 2 stratagems active at the same time while conscription has not been enacted."
+ quality_stratagem_title:0 "£icon_ap_stratagems£ Enact Quality Stratagem"
+ quality_stratagem_desc:0 "-- You may only have 2 stratagems active at the same time while conscription has not been enacted."
+ quantity_stratagem_title:0 "£icon_ap_stratagems£ Enact Quantity Stratagem"
+ quantity_stratagem_desc:0 "-- You may only have 2 stratagems active at the same time while conscription has not been enacted."

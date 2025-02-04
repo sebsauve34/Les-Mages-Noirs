@@ -15157,7 +15157,9 @@ EPI_ideas = {
 		idea_cost = -0.1
 	}
 	epi_latin_knights = {
-		cavalry_power = 0.15
+		shock_damage = 0.15
+		max_general_shock = 1	
+		leader_land_shock = 1	
 	}
 	epi_trade_influences = {
 		global_trade_power = 0.1
@@ -16823,7 +16825,57 @@ AVE_ideas = {
 #	}
 #}
 
-
+LAE_ideas = {
+	start = {
+        discipline = 0.05
+        morale_damage = 0.15
+	}
+	
+	bonus = {
+		land_forcelimit_modifier = 0.25
+	}
+	
+	trigger = {
+		tag = LAE
+	}
+	free = yes
+    
+    lae_emperor_constantinople = {
+		legitimacy = 1
+		devotion = 1
+		republican_tradition = 0.3
+		meritocracy = 1
+		horde_unity = 1
+        vassal_forcelimit_bonus = 1
+	can_fabricate_for_vassals = yes	
+	vassal_naval_forcelimit_bonus = 1
+    }
+    lae_latin_patriarch = {
+        papal_influence = 2
+        curia_powers_cost = -0.1
+    }
+    lae_byzantine_bureaucracy = {
+        development_cost = -0.05
+	idea_cost = -0.1
+    }
+    lae_guilds_pera = {
+        galley_cost = -0.15	
+        galley_power = 0.15
+    }
+    epi_latin_knights = {
+        #shock_damage = 0.15
+	#max_general_shock = 1	
+	#leader_land_shock = 1	 same as Epirus
+    }
+    lae_partitio_graeci = {
+        warscore_cost_vs_other_religion = -0.1
+        unjustified_demands = -0.5
+    }
+    lae_frankokratia = {
+        same_religion_advisor_cost = -0.1
+        manpower_in_true_faith_provinces = 0.2
+    }
+}
 
 UCN_ideas = {
 	start = {

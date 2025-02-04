@@ -4415,6 +4415,8 @@ kor_factional_unity = {
 
 kni_converted_the_holy_land = {
 	missionary_maintenance_cost = -0.25
+	tolerance_own = 2
+	manpower_in_true_faith_provinces= 0.1
 }
 
 kni_new_crusade = {
@@ -4423,10 +4425,14 @@ kni_new_crusade = {
 
 kni_kingdom_of_heaven = {
 	global_missionary_strength = 0.03
+	prestige = 1
+	land_morale = 0.15
 }
 
 kni_alexandrian_archbishopric = {
-	papal_influence = 1
+	papal_influence = 2
+	defensiveness = 0.2
+	global_tax_modifier = 0.2
 }
 
 kni_ark_of_the_covenant = {
@@ -4434,6 +4440,8 @@ kni_ark_of_the_covenant = {
 	legitimacy = 1
 	devotion = 1
 	republican_tradition = 0.5
+	can_recruit_cawa = yes
+	amount_of_cawa = 0.5
 }
 
 kni_ten_commandments = {
@@ -4458,6 +4466,7 @@ restored_hospitaler_knights = {
 
 guardians_of_the_fountain = {
 	monarch_lifespan = 0.15
+	heir_chance = 0.5
 }
 
 

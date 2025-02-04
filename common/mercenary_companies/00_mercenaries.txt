@@ -1771,7 +1771,10 @@ merc_stratioti = {
 	cost_modifier = 0.75
 	sprites = { easterngfx_sprite_pack }
     trigger = {	
+		OR = {	
 		tag = BYZ
+		tag = LAE
+		}
 	}
 	modifier = {
 		land_morale = 0.1
