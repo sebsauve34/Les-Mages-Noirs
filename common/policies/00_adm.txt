@@ -559,7 +559,7 @@ the_witchcraft_act = {
 		full_idea_group = aristocracy_ideas
 	}
 	
-	shock_damage = 0.1
+	shock_damage = 0.125
 
 	effect = {}
 	removed_effect = {}

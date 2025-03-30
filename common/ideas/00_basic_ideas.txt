@@ -685,7 +685,7 @@ defensive_ideas = {
 		max_hostile_attrition = 1
 	}
 	supply_trains = {
-		garrison_damage = 0.1
+		garrison_damage = 0.2
 		global_garrison_growth = 0.5
 		may_refill_garrison = yes	
 	}

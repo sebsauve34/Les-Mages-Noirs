@@ -1064,7 +1064,7 @@ offensive_stratagem = {
 
 defensive_stratagem = {
     morale_damage_received = -0.2
-    military_tactics = 0.1
+    fire_damage_received = -0.1
 }
 
 quality_stratagem = {

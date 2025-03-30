@@ -1951,12 +1951,12 @@ MLO_ideas = {
 
 BYZ_ideas = {
 	start = {
-		advisor_cost = -0.10
-		regiment_manpower_usage = -0.05
+		advisor_cost = -0.1
+		regiment_manpower_usage = -0.1
 	}
 	
 	bonus = {
-		military_tactics = 0.125
+		military_tactics = 0.1
 	}
 	
 	trigger = {

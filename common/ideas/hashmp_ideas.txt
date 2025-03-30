@@ -1643,6 +1643,7 @@ LOU_ideas = { #Louisiana
 	}
 	lou_4 = { #Voodoo
 		morale_damage = 0.2
+		military_tactics = 0.1
 	}
 	lou_5 = { #Order of Saint Ursula
 		missionaries = 1
@@ -1653,7 +1654,7 @@ LOU_ideas = { #Louisiana
 		build_cost = -0.1
 	}
 	lou_7 = { #Legacy of the Ancien regime
-		max_absolutism = 50
+		max_absolutism = 75
 		max_absolutism_effect = 0.1	
 	}
 }
