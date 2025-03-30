@@ -962,15 +962,6 @@ exploration_ideas = {
 	category = DIP
 	important = yes
 
-	trigger = { OR = {
-			technology_group = western 
-          		  technology_group = eastern 
-           		 technology_group = muslim 
-			technology_group = ottoman
-			adm_tech = 7
-		} 
-	}
-
 	bonus = {
 		cb_on_primitives = yes
 		colonist_placement_chance = 0.1
