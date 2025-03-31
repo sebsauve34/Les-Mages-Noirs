@@ -170,7 +170,7 @@ country_decisions = {
 
 		allow = {
 			adm_tech = 5
-			dip_tech = 5
+			
 			dip_power = 50
 		}
 
@@ -190,7 +190,7 @@ country_decisions = {
 		potential = {
 			ai =  no
 			adm_tech = 7
-			dip_tech = 7
+			
 			capital_scope = {
 				continent = africa
 			}
@@ -203,7 +203,7 @@ country_decisions = {
 
 		allow = {
 			adm_tech = 7
-			dip_tech = 7
+			
 			dip_power = 50
 		}
 
@@ -223,7 +223,7 @@ country_decisions = {
 		potential = {
 			ai =  no
 			adm_tech = 7
-			dip_tech = 7
+			
 			capital_scope = {
 				continent = asia
 			}
@@ -236,7 +236,7 @@ country_decisions = {
 
 		allow = {
 			adm_tech = 7
-			dip_tech = 7
+			
 			dip_power = 50
 		}
 
