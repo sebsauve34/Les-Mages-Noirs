@@ -888,7 +888,7 @@ CAN_ideas = { #Canada
 	}
 	
 	bonus = {
-		naval_forcelimit_modifier = 0.25
+		naval_forcelimit_modifier = 0.33
 	}
 	
 	trigger = {
@@ -907,7 +907,7 @@ CAN_ideas = { #Canada
 		development_cost = -0.15
 	}
 	the_maritimes = {
-		global_sailors_modifier = 0.3
+		global_sailors_modifier = 1
 		allowed_marine_fraction = 0.2
 	}
 	the_quebec_act = {
@@ -919,6 +919,7 @@ CAN_ideas = { #Canada
 	}
 	the_forests_of_canada = {
 		build_cost = -0.1
+		build_time = -0.25
 	}
 }
 

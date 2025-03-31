@@ -12,9 +12,9 @@ aristocracy_ideas = {
 
 	bonus = {
 		merchants = 1
-		nobles_loyalty_modifier = 0.1
-		rajput_loyalty_modifier = 0.1
-		maratha_loyalty_modifier = 0.1
+		nobles_loyalty_modifier = 0.05
+		rajput_loyalty_modifier = 0.05
+		maratha_loyalty_modifier = 0.05
 	}
 
 	#trigger = {
@@ -91,8 +91,8 @@ plutocracy_ideas = {
 
 	bonus = {
 		fire_damage = 0.1
-		burghers_loyalty_modifier = 0.1
-		vaisyas_loyalty_modifier = 0.1
+		burghers_loyalty_modifier = 0.05
+		vaisyas_loyalty_modifier = 0.05
 	}
 
 	#trigger = {
@@ -100,7 +100,7 @@ plutocracy_ideas = {
 	#}
 
 	tradition_of_payment = {
-		mercenary_manpower = 0.33
+		mercenary_manpower = 0.25
 		mercenary_discipline = 0.05
 	}
 	abolished_serfdom = {
@@ -108,7 +108,7 @@ plutocracy_ideas = {
 		global_unrest = -1
 	}
 	bill_of_rights = {
-		mercenary_cost = -0.2
+		mercenary_cost = -0.15
 		leader_land_manuever = 1
 	}
 	free_merchants = {
@@ -121,7 +121,6 @@ plutocracy_ideas = {
 	}
 	free_cities = {
 		land_morale = 0.1
-		possible_condottieri = 1 
 	}
 	emancipation = {
 		allow_mercenary_drill = yes
@@ -157,10 +156,10 @@ theocracy_gov_ideas = {
 	category = MIL
 
 	bonus = {
-		backrow_artillery_damage = 0.10
-		church_loyalty_modifier = 0.1
-		brahmins_hindu_loyalty_modifier = 0.1
-		brahmins_muslim_loyalty_modifier = 0.1
+		backrow_artillery_damage = 0.1
+		church_loyalty_modifier = 0.05
+		brahmins_hindu_loyalty_modifier = 0.05
+		brahmins_muslim_loyalty_modifier = 0.05
 	}
 	
 	#trigger = {
@@ -805,9 +804,9 @@ trade_ideas = {
 	bonus = {
 		free_dip_policy = 1
 		possible_dip_policy = 1
-		burghers_loyalty_modifier = 0.1
-		jains_loyalty_modifier = 0.1
-		vaisyas_loyalty_modifier = 0.1
+		burghers_loyalty_modifier = 0.05
+		jains_loyalty_modifier = 0.05
+		vaisyas_loyalty_modifier = 0.05
 		num_of_parliament_issues = 1	
 	}
 
@@ -1235,7 +1234,7 @@ quality_ideas = {
 
 	bonus = {
 		discipline = 0.03
-		janissaries_loyalty_modifier = 0.1
+		janissaries_loyalty_modifier = 0.05
 	}
 
 	private_to_marshal = {
@@ -1578,8 +1577,8 @@ humanist_ideas = {
 
 	bonus = {
 		development_cost_modifier = -0.05
-		brahmins_muslim_loyalty_modifier = 0.1
-		dhimmi_loyalty_modifier = 0.1
+		brahmins_muslim_loyalty_modifier = 0.05
+		dhimmi_loyalty_modifier = 0.05
 	}
 
 	local_traditions = {
@@ -1683,8 +1682,8 @@ influence_ideas = {
 		years_to_integrate_personal_union = -5
 	}
 	marcher_lords = {
-		global_manpower = 10
-		global_sailors = 5000
+		monarch_diplomatic_power = 1 
+		country_diplomatic_power = 1
 	}
 
 	ai_will_do = {
@@ -1788,6 +1787,7 @@ court_ideas = {
 	
 	long_echo = {
 		same_culture_advisor_cost = -0.1
+		national_focus_years = -10
 	}
 	recognize_hierarchy = {
 		monthly_splendor = 2
@@ -1811,8 +1811,8 @@ court_ideas = {
 		development_cost_in_primary_culture = -0.05
 	}
 	court_embassies = {
-		monarch_diplomatic_power = 1 
-		country_diplomatic_power = 1
+		max_terms = 2
+		max_absolutism = 10	
 	}
 
 	ai_will_do = {

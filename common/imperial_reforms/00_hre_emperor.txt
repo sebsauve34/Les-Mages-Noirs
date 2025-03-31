@@ -153,7 +153,7 @@ emperor_landsknechtswesen = {
 		has_dlc = "Emperor"
 	}
 	province = {
-		local_development_cost = -0.075
+		local_development_cost = -0.05
 	}
 	member = {
 		governing_capacity_modifier = 0.1	
