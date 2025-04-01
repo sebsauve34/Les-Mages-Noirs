@@ -527,8 +527,8 @@ civil_society_reform = {
 	allow_normal_conversion = yes
 	icon = "tribal_civil_society"
 	modifiers = {
-		global_tax_modifier = 0.05
-		yearly_corruption = -0.05
+		global_tax_modifier = 0.2
+		yearly_corruption = -0.1
 	}
 	ai = {
 		factor = 1
@@ -549,7 +549,7 @@ religious_societies_reform = {
 	icon = "tribal_religious_society"
 	allow_normal_conversion = yes
 	modifiers = {
-		stability_cost_modifier = -0.1
+		global_missionary_strength = 0.03
 		religious_unity = 0.15
 	}
 	ai = {
@@ -599,8 +599,8 @@ centralize_tribal_power_reform = {
 	icon = "tribal_centralize_power"
 	allow_normal_conversion = yes
 	modifiers = {
-		core_creation = -0.05
-		stability_cost_modifier = -0.05
+		core_creation = -0.1
+		stability_cost_modifier = -0.1
 	}
 }
 

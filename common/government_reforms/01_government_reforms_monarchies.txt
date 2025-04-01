@@ -6157,7 +6157,6 @@ dyanstic_administration_reform = {
 		}
 	}
 	modifiers = {
-		yearly_corruption = 0.15
 		all_estate_influence_modifier = -0.1
 		monarch_admin_power = 1
 		advisor_pool = 1
