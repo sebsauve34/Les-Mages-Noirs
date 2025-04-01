@@ -1983,7 +1983,7 @@ cossacks_reform = {
 		is_not_blocked_by_estate_privilege = { estate = estate_nobles }
 	}
 	
-	raze_province = yes
+	
 	government_abilities = {
 		cossacks_mechanic
 	}
@@ -3661,7 +3661,7 @@ rule_through_plunder_reform = {
 		loot_amount = 1
 		land_attrition = -0.05
 	}
-	raze_province = yes
+	
 	
 	ai = {
 		factor = 0

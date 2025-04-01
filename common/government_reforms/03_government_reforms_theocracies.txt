@@ -317,7 +317,7 @@ holy_horde_reform = {
 		allow = {
 			has_dlc = "The Cossacks"
 		}
-		raze_province = yes
+		
 	}
 	fixed_rank = 3
 	custom_attributes = {

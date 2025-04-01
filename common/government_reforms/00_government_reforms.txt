@@ -1254,7 +1254,7 @@ steppe_horde_legacy = {
 	allow_convert = no
 	tribal = yes
 	nomad = yes
-	raze_province = yes
+	raze_province = no
 
 	nation_designer_cost = 0
 	nation_designer_trigger = {
@@ -1288,7 +1288,7 @@ great_mongol_state_legacy = {
 	allow_convert = no
 	tribal = yes
 	nomad = yes
-	raze_province = yes
+	raze_province = no
 
 	nation_designer_cost = 0
 	nation_designer_trigger = {
