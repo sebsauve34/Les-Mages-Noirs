@@ -1885,7 +1885,7 @@ country_event = {
 		add_prestige = 5
 		add_country_modifier = {
 			name = "growth_of_the_cattle_trade"
-			duration = 10950
+			duration = 3650
 		}
 		
 	}

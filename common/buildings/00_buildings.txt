@@ -752,7 +752,7 @@ regimental_camp = {
 		monthly_militarized_society = 0.0005
 	}
 	build_trigger = {
-		development = 15
+		development = 20
 	}
 #	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
 #	on_built = {
@@ -1272,8 +1272,8 @@ grand_shipyard = {
 		allowed_num_of_buildings = 1
 		naval_forcelimit = 4
 		land_forcelimit = 1
-		ship_recruit_speed = -0.50
-		local_ship_repair = 0.50
+		ship_recruit_speed = -0.5
+		local_ship_repair = 0.5
 		
 	}
 
@@ -1891,7 +1891,7 @@ conscription_center = {
 			monthly_militarized_society = 0.001
 	}
 	build_trigger = {
-		development = 30
+		development = 40
 	}
 	on_built = {
 		add_development_from_upgrading_or_building = {
