@@ -16916,51 +16916,7 @@ UCN_ideas = {
 	}
 }
 
-voc_ideas = {
-	start = {
-		fire_damage = 0.15
-		naval_tradition_from_trade = 0.5
-	}
-	
-	bonus = {
-		global_trade_goods_size_modifier = 0.1
-	}
-	
-	trigger = {
-		tag = VOC
-	}
-	free = yes
-	
-	voc_1 = {
-		defensiveness = 0.2
-		own_territory_dice_roll_bonus = 1
-		garrison_damage = 0.2		
-	}
-	voc_2 = {
-		regiment_disembark_speed = 0.5
-		movement_speed_in_fleet_modifier = 1	
-	}
-	voc_3 = {
-		development_cost = -0.1
-		merchants = 1
-	}
-	voc_4 = {
-		trade_range_modifier = 0.5
-		trade_steering = 0.33	
-	}
-	voc_5 = {
-		light_ship_cost = -0.2
-		naval_forcelimit_modifier = 0.5
-	}
-	voc_6 = {
-		light_ship_number_of_cannons_modifier = 0.5
-		ship_trade_power_modifier = 0.25	
-	}
-	voc_7 = {
-		allowed_marine_fraction = 0.25
-		sailors_recovery_speed = 0.2
-	}
-}
+
 
 EIC_ideas = {
 	start = {
@@ -17004,5 +16960,51 @@ EIC_ideas = {
 		leader_cost = 1
 		leader_land_fire = 2
 		leader_land_shock = 2
+	}
+}
+
+voc_ideas = {
+	start = {
+		fire_damage = 0.15
+		naval_tradition_from_trade = 0.5
+	}
+	
+	bonus = {
+		global_trade_goods_size_modifier = 0.1
+	}
+	
+	trigger = {
+		tag = VOC
+	}
+	free = yes
+	
+	voc_1 = {
+		defensiveness = 0.2
+		own_territory_dice_roll_bonus = 1
+		garrison_damage = 0.2		
+	}
+	voc_2 = {
+		regiment_disembark_speed = 0.5
+		movement_speed_in_fleet_modifier = 1	
+	}
+	voc_3 = {
+		development_cost = -0.1
+		merchants = 1
+	}
+	voc_4 = {
+		trade_range_modifier = 0.5
+		trade_steering = 0.33	
+	}
+	voc_5 = {
+		light_ship_cost = -0.2
+		naval_forcelimit_modifier = 0.5
+	}
+	voc_6 = {
+		light_ship_number_of_cannons_modifier = 0.5
+		ship_trade_power_modifier = 0.25	
+	}
+	voc_7 = {
+		allowed_marine_fraction = 0.25
+		sailors_recovery_speed = 0.2
 	}
 }
