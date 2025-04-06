@@ -8,6 +8,8 @@ nothingness_modifier = {
 	trigger = {
 		always = yes
 	}
+	may_build_supply_depot = yes
+	may_refill_garrison = yes
 }
 
 supply_depot_modifier = {
@@ -20,7 +22,7 @@ supply_depot_modifier = {
 		always = yes
 	}
 
-	may_build_supply_depot = yes
+	reinforce_cost_modifier = -0.1
 }
 
 refill_garrison_modifier = {
@@ -32,8 +34,8 @@ refill_garrison_modifier = {
 	trigger = {
 		always = yes
 	}
+	garrison_damage = 0.15
 	
-	may_refill_garrison = yes
 }
 
 return_manpower_modifier = {
@@ -46,7 +48,7 @@ return_manpower_modifier = {
 	trigger = {
 		always = yes
 	}
-
+	recover_army_morale_speed = 0.05
 	may_return_manpower_on_disband = yes
 }
 
@@ -74,7 +76,6 @@ reserves_organisation_modifier = {
 	trigger = {
 		always = yes
 	}
-
-	general_cost = -0.5
 	drill_gain_modifier = 1
+	artillery_barrage_cost = -0.33
 }

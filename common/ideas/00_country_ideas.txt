@@ -16921,7 +16921,7 @@ UCN_ideas = {
 EIC_ideas = {
 	start = {
 		manpower_recovery_speed = 0.1
-		no_religion_penalty = yes
+		global_tax_modifier = 0.2
 	}
 
 	bonus = {
@@ -16946,11 +16946,12 @@ EIC_ideas = {
 		trade_steering = 0.25
 	}
 	eic_presidency_armies = {
-		global_manpower_modifier = 0.5
-		discipline = -0.075
+		manpower_in_accepted_culture_provinces = 0.5
+		discipline = -0.05
 	}
 	eic_intercontinental_trade = {
 		trade_efficiency = 0.15
+		num_accepted_cultures = 2
 	}
 	eic_colonial_monopoly = {
 		build_cost = -0.1	
@@ -16958,8 +16959,10 @@ EIC_ideas = {
 	}
 	eic_colonial_exploitation = {
 		leader_cost = 1
-		leader_land_fire = 2
-		leader_land_shock = 2
+		leader_land_fire = 1
+		max_general_fire = 1	
+		max_general_maneuver = 1	
+		leader_land_manuever = 1	
 	}
 }
 
