@@ -770,6 +770,7 @@ age_of_absolutism = {
 			}
 			modifier = {
 				build_cost = -0.1
+				great_project_upgrade_cost = -0.25
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {
