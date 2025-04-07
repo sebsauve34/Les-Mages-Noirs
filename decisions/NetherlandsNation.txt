@@ -24,6 +24,16 @@ country_decisions = {
 			OR = {
 				tag = HES
 				tag = BUR
+				tag = HOL
+				tag = UTR
+				tag = GEL
+				tag = FRI
+				tag = BRB
+				tag = FLA	
+				tag = EFR
+				tag = LIE
+				tag = LUX
+				tag = HAI
 			}
 		}
 		provinces_to_highlight = {
