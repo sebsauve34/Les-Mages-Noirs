@@ -6,7 +6,7 @@ religion = orthodox
 technology_group = eastern
 capital = 4147 # Moskva
 fixed_capital = 4147 # Cannot move capital away from this province & no power cost to move to it
-
+historical_friend = MOS
 1444.1.1 = {
 	monarch = {
 		name = "Vladimir" #Co-Ruler with Ivan

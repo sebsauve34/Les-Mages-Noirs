@@ -11745,8 +11745,9 @@ estate_burghers_development_of_cities_mod = {
 	local_governing_cost = -0.15
 }
 estate_cossacks_freedom_of_the_steppes_mod = {
-	local_governing_cost = -0.33
-	min_local_autonomy = 33
+	local_build_cost = 0.25	
+	local_tax_modifier = -0.25
+	local_production_efficiency = -0.25
 	local_development_cost = -0.05
 }
 estate_nomadic_tribes_freedom_of_the_steppes_mod = {
