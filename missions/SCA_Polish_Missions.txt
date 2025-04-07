@@ -2789,7 +2789,7 @@ poland_sca_slot_4_a = {
 			}
 			if = {
 				limit = { has_dlc = "Cradle of Civilization" }
-				army_professionalism = 1 
+				army_professionalism = 0.8 
 			}
 			else = { army_tradition = 95 } 
 			army_size = 150 
@@ -2902,7 +2902,7 @@ poland_sca_slot_4_plc_1 = {
 		trigger = {
 			if = {
 				limit = { has_dlc = "Cradle of Civilization" }
-				army_professionalism = 1 
+				army_professionalism = 0.8 
 			}
 			else = { army_tradition = 95 } 
 			army_size = 150 
