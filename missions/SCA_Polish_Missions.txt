@@ -2812,11 +2812,11 @@ poland_sca_slot_4_a = {
 					}
 					has_global_modifier_value = {
 						which = infantry_power 
-						value = 0.35 
+						value = 0.2 
 					}
 					has_global_modifier_value = {
 						which = discipline  
-						value = 0.25
+						value = 0.1
 					}
 				}
 			}
@@ -2838,11 +2838,11 @@ poland_sca_slot_4_a = {
 					}
 					has_global_modifier_value = {
 						which = infantry_power 
-						value = 0.35 
+						value = 0.2 
 					}
 					has_global_modifier_value = {
 						which = discipline  
-						value = 0.25
+						value = 0.1
 					}
 				}
 			}
@@ -2852,11 +2852,11 @@ poland_sca_slot_4_a = {
 					num_of_hussars = 8 
 					has_global_modifier_value = {
 						which = infantry_power 
-						value = 0.35 
+						value = 0.2 
 					}
 					has_global_modifier_value = {
 						which = discipline  
-						value = 0.25
+						value = 0.1
 					}
 				}
 			}
@@ -2865,11 +2865,11 @@ poland_sca_slot_4_a = {
 					num_of_cavalry = 65
 					has_global_modifier_value = {
 						which = infantry_power 
-						value = 0.35 
+						value = 0.2 
 					}
 					has_global_modifier_value = {
 						which = discipline  
-						value = 0.25
+						value = 0.1
 					}
 				}
 			}
