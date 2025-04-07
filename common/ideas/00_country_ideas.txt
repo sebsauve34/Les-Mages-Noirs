@@ -225,7 +225,7 @@ MOS_ideas = {
 	free = yes		#will be added at load.
 
 	gatherers_of_tribute = {
-		global_tax_modifier = 0.15
+		global_tax_modifier = 0.2
 	}
 	legacy_of_dmitriy_donskoi = {
 		army_tradition = 0.5
@@ -235,13 +235,13 @@ MOS_ideas = {
 		global_missionary_strength = 0.01
 	}
 	pomestnoe_voisko = {
-		land_morale = 0.10
+		land_morale = 0.1
 	}
 	strength_of_the_boyars = {
 		stability_cost_modifier = -0.2
  	}
 	zasechnaya_cherta = {
-		fort_maintenance_modifier = -0.20
+		fort_maintenance_modifier = -0.2
 	}
 	descendants_of_byzantine_emperors = {
 		diplomatic_reputation = 1
@@ -266,7 +266,7 @@ RUS_ideas = {
 	free = yes		#will be added at load.
 
 	land_of_the_rus = {
-		ae_impact = -0.1
+		governing_capacity_modifier = 0.25
 		core_creation = -0.25
 	}
 	siberian_frontier = {
