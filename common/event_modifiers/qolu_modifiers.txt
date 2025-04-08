@@ -109,3 +109,29 @@ qolu_italian_breweries_w = {
 	local_production_efficiency = 0.5
 }
 
+bastard_dev_cost_modifier_1 = {
+	local_development_cost_modifier = -0.0125
+}
+
+bastard_dev_cost_modifier_2  = {
+	local_development_cost_modifier = -0.025
+}
+
+bastard_dev_cost_modifier_3 = {
+	local_development_cost_modifier = -0.0375
+}
+bastard_dev_cost_modifier_4 = {
+	local_development_cost_modifier = -0.05
+}
+bastard_dev_cost_modifier_5 = {
+	local_development_cost_modifier = -0.0625
+}
+bastard_dev_cost_modifier_6 = {
+	local_development_cost_modifier = -0.075
+}
+bastard_dev_cost_modifier_7 = {
+	local_development_cost_modifier = -0.0875
+}
+bastard_dev_cost_modifier_8 = {
+	local_development_cost_modifier = -0.1
+}

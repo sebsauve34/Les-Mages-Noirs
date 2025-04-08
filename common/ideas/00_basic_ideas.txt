@@ -1249,14 +1249,15 @@ quality_ideas = {
 		land_attrition = -0.1
 	}
 	escort_ships = {
-		special_unit_forcelimit = 0.15
+		special_unit_forcelimit = 0.2
+		special_unit_cost_modifier = -0.1
 	}
 	naval_drill = {
 		prestige_from_land = 1.0
 		army_tradition_from_battle = 0.5
 	}
 	copper_bottoms = {
-		yearly_army_professionalism = 0.005
+		yearly_army_professionalism = 0.004
 	}
 	massed_battery = {
 		artillery_power = 0.1

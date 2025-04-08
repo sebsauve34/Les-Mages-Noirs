@@ -1,3 +1,179 @@
+bastard_dev_cost_add_from_buildings = {
+	if = {
+		limit = {
+			num_of_buildings_in_province = 1
+			NOT = {num_of_buildings_in_province = 2}
+		}
+		add_province_modifier = {
+				name = bastard_dev_cost_modifier_1
+				duration = -1
+		}
+	}
+	if = {
+		limit = {
+			num_of_buildings_in_province = 2
+			NOT = {num_of_buildings_in_province = 3}
+		}
+		remove_province_modifier = bastard_dev_cost_modifier_1
+		add_province_modifier = {
+				name = bastard_dev_cost_modifier_2
+				duration = -1
+		}
+	}
+	if = {
+		limit = {
+			num_of_buildings_in_province = 3
+			NOT = {num_of_buildings_in_province = 4}
+		}
+		remove_province_modifier = bastard_dev_cost_modifier_2
+		add_province_modifier = {
+				name = bastard_dev_cost_modifier_3
+				duration = -1
+		}
+	}
+	if = {
+		limit = {
+			num_of_buildings_in_province = 4
+			NOT = {num_of_buildings_in_province = 5}
+		}
+		remove_province_modifier = bastard_dev_cost_modifier_3
+		add_province_modifier = {
+				name = bastard_dev_cost_modifier_4
+				duration = -1
+		}
+	}
+	if = {
+		limit = {
+			num_of_buildings_in_province = 5
+			NOT = {num_of_buildings_in_province = 6}
+		}
+		remove_province_modifier = bastard_dev_cost_modifier_4
+		add_province_modifier = {
+				name = bastard_dev_cost_modifier_5
+				duration = -1
+		}
+	}
+	if = {
+		limit = {
+			num_of_buildings_in_province = 6
+			NOT = {num_of_buildings_in_province = 7}
+		}
+		remove_province_modifier = bastard_dev_cost_modifier_5
+		add_province_modifier = {
+				name = bastard_dev_cost_modifier_6
+				duration = -1
+		}
+	}
+	if = {
+		limit = {
+			num_of_buildings_in_province = 7
+			NOT = {num_of_buildings_in_province = 8}
+		}
+		remove_province_modifier = bastard_dev_cost_modifier_6
+		add_province_modifier = {
+				name = bastard_dev_cost_modifier_7
+				duration = -1
+		}
+	}
+	if = {
+		limit = {
+			num_of_buildings_in_province = 8
+			NOT = {num_of_buildings_in_province = 9}
+		}
+		remove_province_modifier = bastard_dev_cost_modifier_7
+		add_province_modifier = {
+				name = bastard_dev_cost_modifier_8
+				duration = -1
+		}
+	}
+}
+
+bastard_dev_cost_remove_from_buildings = {
+	if = {
+		limit = {
+			NOT = {num_of_buildings_in_province = 1}
+		}
+		remove_province_modifier = bastard_dev_cost_modifier_1
+	}
+	if = {
+		limit = {
+			num_of_buildings_in_province = 1
+			NOT = {num_of_buildings_in_province = 2}
+		}
+		remove_province_modifier = bastard_dev_cost_modifier_2
+		add_province_modifier = {
+				name = bastard_dev_cost_modifier_1
+				duration = -1
+		}
+	}
+	if = {
+		limit = {
+			num_of_buildings_in_province = 2
+			NOT = {num_of_buildings_in_province = 3}
+		}
+		remove_province_modifier = bastard_dev_cost_modifier_3
+		add_province_modifier = {
+				name = bastard_dev_cost_modifier_2
+				duration = -1
+		}
+	}
+	if = {
+		limit = {
+			num_of_buildings_in_province = 3
+			NOT = {num_of_buildings_in_province = 4}
+		}
+		remove_province_modifier = bastard_dev_cost_modifier_4
+		add_province_modifier = {
+				name = bastard_dev_cost_modifier_3
+				duration = -1
+		}
+	}
+	if = {
+		limit = {
+			num_of_buildings_in_province = 4
+			NOT = {num_of_buildings_in_province = 5}
+		}
+		remove_province_modifier = bastard_dev_cost_modifier_5
+		add_province_modifier = {
+				name = bastard_dev_cost_modifier_4
+				duration = -1
+		}
+	}
+	if = {
+		limit = {
+			num_of_buildings_in_province = 5
+			NOT = {num_of_buildings_in_province = 6}
+		}
+		remove_province_modifier = bastard_dev_cost_modifier_6
+		add_province_modifier = {
+				name = bastard_dev_cost_modifier_5
+				duration = -1
+		}
+	}
+	if = {
+		limit = {
+			num_of_buildings_in_province = 6
+			NOT = {num_of_buildings_in_province = 7}
+		}
+		remove_province_modifier = bastard_dev_cost_modifier_7
+		add_province_modifier = {
+				name = bastard_dev_cost_modifier_6
+				duration = -1
+		}
+	}
+	if = {
+		limit = {
+			num_of_buildings_in_province = 7
+			NOT = {num_of_buildings_in_province = 8}
+		}
+		remove_province_modifier = bastard_dev_cost_modifier_8
+		add_province_modifier = {
+				name = bastard_dev_cost_modifier_7
+				duration = -1
+		}
+	}
+}
+
 echo_development_counter = {
 	[[on_startup]
 		if = {
