@@ -27,6 +27,7 @@ aristocracy_ideas = {
 	}
 	serfdom = {
 		global_manpower_modifier = 0.25
+		diplomats = 1	
 	}
 	noble_resilience = {
 		devotion = 1
@@ -44,11 +45,12 @@ aristocracy_ideas = {
 		navy_tradition_decay = -0.01
 	}
 	rightful_conquest = {
-		development_cost = -0.05
 		global_autonomy = -0.05
+		centralize_state_cost = -0.2
 	}
 	local_nobility = {
 		fire_damage_received = -0.1
+		development_cost = -0.05
 	}
 	
 
@@ -186,10 +188,16 @@ theocracy_gov_ideas = {
 	}
 	conviction_of_sin = {
 		manpower_in_own_culture_provinces = 0.25
-		development_cost_in_primary_culture = -0.05
+		monthly_fervor_increase = 1
+		yearly_patriarch_authority = 0.1	
+		monthly_karma_accelerator = 0.01	
+		monthly_piety_accelerator = 0.001	
+		church_power_modifier = 0.25
+		papal_influence_from_cardinals = 1
 	}
 	martyrs = {
 		manpower_in_true_faith_provinces = 0.15
+		development_cost_in_primary_culture = -0.05
 	}
 	ai_will_do = {
 		factor = 3.75
