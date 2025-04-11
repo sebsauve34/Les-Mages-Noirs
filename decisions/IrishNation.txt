@@ -79,6 +79,7 @@ country_decisions = {
 		}
 		effect = {
 			change_tag = IRE
+			change_primary_culture = irish
 			remove_non_electors_emperors_from_empire_effect = yes
 			swap_non_generic_missions = yes
 			# should grant cores on all ireland
