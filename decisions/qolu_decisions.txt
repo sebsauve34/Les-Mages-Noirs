@@ -225,7 +225,10 @@ country_decisions = {
 			adm_tech = 7
 			
 			capital_scope = {
+				OR = {
 				continent = asia
+				continent = oceania
+				}
 			}
 			NOT = { has_country_modifier = qolu_2colonists }
 			NOT = { tag = OIR }
