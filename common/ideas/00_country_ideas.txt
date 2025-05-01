@@ -3674,7 +3674,7 @@ KNI_ideas = {
 
 KON_ideas = {
 	start = {
-		infantry_power = 0.15
+		mil_tech_cost_modifier  = -0.1
 		land_attrition = -0.20
 	}
 
@@ -3699,8 +3699,8 @@ KON_ideas = {
 		stability_cost_modifier = -0.1
 	}
 	imported_european_weaponry = {
-		mil_tech_cost_modifier  = -0.1
 		fire_damage = 0.1
+		infantry_power = 0.15
 	}
 	diplomacy_with_european_monarchs = {
 		dip_tech_cost_modifier = -0.1

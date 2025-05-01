@@ -315,14 +315,14 @@ country_event = {
 				tag = SCA
 			}		
 		}
-		is_year = 1650
+		is_year = 1620
 		NOT = { is_year = 1750 }
 		government = monarchy
 		is_free_or_tributary_trigger = yes
 	}
 	
 	mean_time_to_happen = {
-		months = 300
+		months = 200
 	}
 	
 	option = {

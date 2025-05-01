@@ -547,7 +547,7 @@ h_danish_missions_christian_4 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 				NOT = {
-					nationalism = 5
+					
 					local_autonomy = 30
 					devastation = 1
 				}
@@ -1912,7 +1912,7 @@ h_danish_missions_charles_4 = {
 				type = all
 				country_or_non_sovereign_subject_holds = ROOT
 				NOT = {
-					nationalism = 5
+					
 					local_autonomy = 30
 					devastation = 1
 				}
@@ -3712,12 +3712,13 @@ h_danish_missions_main_5 = {
 			##PROVINCESHIGHLIGHTCODE
 		}
 		trigger = {
-			crown_land_share = 50
+			crown_land_share = 80
 			current_age = age_of_absolutism
 		}
 		effect = {
-			country_event = {
-				id = flavor_dan.3297
+			add_country_modifier = {
+			name = h_swedish_absolutism
+			duration = -1
 			}
 		}
 	}

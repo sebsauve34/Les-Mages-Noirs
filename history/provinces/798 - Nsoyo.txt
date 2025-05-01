@@ -2,7 +2,7 @@
 
 owner = KON
 controller = KON
-culture = mbundu
+culture = kongolese
 religion = shamanism #Fetishism
 capital = "Nsoyo"
 is_city = yes
