@@ -2763,7 +2763,7 @@ LIT_ideas = {
 		global_unrest = -2
 	}
 	lithuanian_renaissance = {
-		technology_cost = -0.05
+		technology_cost = -0.1
 	}
 }
 LIT2_ideas = {
@@ -2797,14 +2797,14 @@ LIT2_ideas = {
 		production_efficiency = 0.1
 	}
 	lithuanian_hussars = {
-		cavalry_cost = -0.10
+		cavalry_cost = -0.1
 		can_recruit_hussars = yes
 	}
 	statutes_of_lithuania = {
 		global_unrest = -2
 	}
 	lithuanian_renaissance = {
-		technology_cost = -0.05
+		technology_cost = -0.1
 	}
 }
 
@@ -17010,5 +17010,94 @@ voc_ideas = {
 	voc_7 = {
 		allowed_marine_fraction = 0.25
 		sailors_recovery_speed = 0.2
+	}
+}
+
+PLC_ideas = {
+	start = {
+		land_morale = 0.1
+		num_accepted_cultures = 2 
+	}
+	
+	bonus = {
+		tolerance_heretic = 3
+	}
+	
+	trigger = {
+		tag = PLC
+		NOT = { has_country_flag = is_LPC_flag }
+	}
+	free = yes
+	
+	plc_prosperous_folwarks = { #Same for all of them
+		global_trade_goods_size_modifier = 0.1
+	}
+	pol_jagiellonian_university = {
+		idea_cost = -0.1
+	}
+	plc_the_obrona_potoczna = { #Same for all of them
+		army_tradition = 1
+		special_unit_forcelimit = 0.25
+	}
+	winged_hussars = { 
+		cavalry_power = 0.15
+		cav_to_inf_ratio = 0.25
+		can_recruit_hussars = yes
+	}
+	plc_refine_our_golden_liberty = { #Same for all of them
+		country_admin_power = 1 
+	}
+	pol_royal_guards = {
+		infantry_power = 0.1
+		global_manpower_modifier = 0.1
+	}
+	plc_tempered_by_neighbors = { #Same for all of them
+		discipline = 0.05
+	}
+}
+
+PLC_LIT_ideas = {
+	start = {
+		global_manpower_modifier = 0.25
+		tolerance_heretic = 3
+	}
+	
+	bonus = {
+		governing_capacity_modifier = 0.25
+	}
+	
+	trigger = {
+		tag = PLC 
+		has_country_flag = is_LPC_flag 
+	}
+	free = yes	
+	
+	warlord_dukes = {
+		leader_land_shock = 1 
+		shock_damage = 0.15
+	}
+	plc_tempered_by_neighbors = { 
+		discipline = 0.05
+	}
+	lit_new_magdeburg_laws = {
+		global_trade_goods_size_modifier = 0.1
+		development_cost = -0.1
+	}
+	reciprocal_guarantee_of_two_nations = {
+		all_estate_loyalty_equilibrium = 0.05
+		manpower_recovery_speed = 0.1
+	}
+	lithuanian_hussars = {
+		cavalry_power = 0.15
+		cav_to_inf_ratio = 0.25
+		can_recruit_hussars = yes 
+	}
+	statutes_of_lithuania = {
+		global_unrest = -2
+		cavalry_cost = -0.1
+	}
+	lithuanian_renaissance = {
+		technology_cost = -0.1
+		num_accepted_cultures = 2 
 	}
 }
