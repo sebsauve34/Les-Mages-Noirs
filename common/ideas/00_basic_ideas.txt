@@ -183,11 +183,11 @@ theocracy_gov_ideas = {
 		land_morale = 0.1
 	}
 	alpha_and_omega = {
-		enforce_religion_cost = -0.3
+		culture_conversion_time = -0.1
 		culture_conversion_cost = -0.1
 	}
 	conviction_of_sin = {
-		manpower_in_own_culture_provinces = 0.25
+		manpower_in_own_culture_provinces = 0.2
 		monthly_fervor_increase = 1
 		yearly_patriarch_authority = 0.1	
 		monthly_karma_accelerator = 0.01	
@@ -352,7 +352,8 @@ religious_ideas = {
 	category = ADM
 
 	bonus = {
-		culture_conversion_cost = -0.25
+		culture_conversion_cost = -0.1
+		culture_conversion_time = -0.1
 		brahmins_hindu_loyalty_modifier = 0.05
 		church_loyalty_modifier = 0.05
 	}
@@ -1808,7 +1809,7 @@ court_ideas = {
 		monarch_lifespan = 0.25
 	}
 	tranquil_coordination = {
-		culture_conversion_cost = -0.25
+		culture_conversion_cost = -0.1
 		culture_conversion_time = -0.1
 	}
 	respected_authority = {

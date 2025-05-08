@@ -1845,7 +1845,7 @@ centralization_power_act = {
 		full_idea_group = court_ideas 
 	}
 	
-	development_cost_in_primary_culture = -0.075
+	development_cost_in_primary_culture = -0.05
 
 	effect = {}
 	removed_effect = {}
