@@ -24,17 +24,49 @@ ahead_of_time = {
 
 the_great_debasement = {
 	potential = {
+		OR = {
 		ROOT = {
 				ai = no	
 			}
+		ROOT = {
+				ai = yes
+			}
+		}
 	}
 	trigger = {
 		is_year = 1540
 		not = { is_year = 1555 }
 		}
 	interest = 0.25
-	gold_depletion_chance_modifier = 10
+	gold_depletion_chance_modifier = 15
 	inflation_reduction = -1
-	monthly_gold_inflation_modifier = 2
+	monthly_gold_inflation_modifier = 3
 	treasure_fleet_income = -0.8
+	inflation_action_cost = 1
 }
+
+the_general_crisis= {
+	potential = {
+		OR = {
+		ROOT = {
+				ai = no	
+			}
+		ROOT = {
+				ai = yes
+			}
+		}
+	}
+	trigger = {
+		is_year = 1640
+		not = { is_year = 1665 }
+		}
+	development_cost = 0.1
+	global_prosperity_growth = -0.5
+	global_trade_goods_size_modifier = -0.1	
+	global_supply_limit_modifier = -0.25
+	trade_efficiency = -0.1
+	land_attrition = 0.1
+	global_unrest = 2
+	monarch_lifespan = -0.2	
+	global_monthly_devastation = 0.2
+}	

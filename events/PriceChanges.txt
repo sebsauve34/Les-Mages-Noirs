@@ -1085,8 +1085,8 @@ country_event = {
 		change_price = {
 			trade_goods = copper
 			key = GREAT_DEBASEMENT
-			value = 1
-			duration = 3650
+			value = 2
+			duration = 5475
 		}
 	}
 }
@@ -1112,6 +1112,12 @@ country_event = {
 		name = prices.51.a
 		change_price = {
 			trade_goods = cloth
+			key = GREAT_SLUMP
+			value = -0.35
+			duration = 7300
+		}
+		change_price = {
+			trade_goods = wool
 			key = GREAT_SLUMP
 			value = -0.35
 			duration = 7300
@@ -1145,7 +1151,6 @@ country_event = {
 		}
 	}
 }
-
 
 # Japanese Tea Culture
 country_event = {
