@@ -35,7 +35,7 @@ the_great_debasement = {
 	}
 	trigger = {
 		is_year = 1540
-		not = { is_year = 1555 }
+		not = { is_year = 1560 }
 		}
 	interest = 0.25
 	gold_depletion_chance_modifier = 10

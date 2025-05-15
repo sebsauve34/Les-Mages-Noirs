@@ -1086,7 +1086,7 @@ country_event = {
 			trade_goods = copper
 			key = GREAT_DEBASEMENT
 			value = 2
-			duration = 5475
+			duration = 7300
 		}
 	}
 }

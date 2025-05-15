@@ -7,7 +7,7 @@ country_event = {
 	
 	trigger = {
 		NOT = { has_country_flag = bank }
-		is_year = 1555
+		is_year = 1550
 	}
 
 	mean_time_to_happen = {
