@@ -22,3 +22,19 @@ ahead_of_time = {
 	expand_infrastructure_cost_modifier = -0.25
 }
 
+the_great_debasement = {
+	potential = {
+		ROOT = {
+				ai = no	
+			}
+	}
+	trigger = {
+		is_year = 1540
+		not = { is_year = 1555 }
+		}
+	interest = 0.25
+	gold_depletion_chance_modifier = 10
+	inflation_reduction = -1
+	monthly_gold_inflation_modifier = 2
+	treasure_fleet_income = -0.8
+}
