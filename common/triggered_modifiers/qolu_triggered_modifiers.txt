@@ -38,10 +38,10 @@ the_great_debasement = {
 		not = { is_year = 1555 }
 		}
 	interest = 0.25
-	gold_depletion_chance_modifier = 15
+	gold_depletion_chance_modifier = 10
 	inflation_reduction = -1
 	monthly_gold_inflation_modifier = 3
-	treasure_fleet_income = -0.8
+	treasure_fleet_income = -1
 	inflation_action_cost = 1
 }
 
