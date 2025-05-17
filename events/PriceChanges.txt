@@ -1125,6 +1125,7 @@ country_event = {
 	}
 }
 
+picture = TRADEGOODS_eventPicture
 #Decline of the Salt Trade
 country_event = {
 	id = prices.52
@@ -1151,7 +1152,31 @@ country_event = {
 		}
 	}
 }
-
+#Decline of the African Elephant Population
+country_event = {
+	id = prices.53
+	title = prices.53.t
+	desc = prices.53.d
+	fire_only_once = yes
+	
+	major = yes
+	trigger = {
+		owns = 2448
+		is_year = 1610
+		}
+	mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+		name = prices.53.a
+		change_price = {
+			trade_goods = ivory
+			key = ELEPHANT_DECLINE
+			value = -0.35
+			duration = 7300
+		}
+	}
+}
 # Japanese Tea Culture
 country_event = {
 	id = prices.21
