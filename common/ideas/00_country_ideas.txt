@@ -13111,8 +13111,8 @@ ORD_ideas = {
 
 irish_ideas = {
 	start = {
-		land_morale = 0.15
-		trade_efficiency = 0.15
+		land_morale = 0.1
+		trade_efficiency = 0.1
 	}
 	
 	bonus = {
@@ -13133,8 +13133,8 @@ irish_ideas = {
 		same_culture_advisor_cost = -0.2
 	}
 	more_than_irish = {
-		land_forcelimit_modifier = 0.25
-		global_manpower_modifier = 0.25
+		land_forcelimit_modifier = 0.2
+		global_manpower_modifier = 0.2
 	}
 	loyal_catholics = {
 		papal_influence = 2
@@ -13143,8 +13143,8 @@ irish_ideas = {
 		global_heretic_missionary_strength = 0.02
 	}
 	ire_abundant_harvests = {
-		global_trade_goods_size_modifier = 0.10
-		development_cost = -0.1
+		global_trade_goods_size_modifier = 0.1
+		development_cost = -0.05
 	}
 	unconquerable_ireland = {
 		war_exhaustion = -0.05

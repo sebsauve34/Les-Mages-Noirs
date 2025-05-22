@@ -1682,7 +1682,7 @@ MEX_ideas = { #Mexico #its actually not a thing anymore KEKW
 		reserves_organisation = 0.2
 	}
 	cam_2 = { #Arm the Masses
-		infantry_power = -0.2
+		infantry_power = -0.3
 		infantry_cost = -0.2
 	}
 	cam_3 = { #Imperial Schools
@@ -1690,17 +1690,17 @@ MEX_ideas = { #Mexico #its actually not a thing anymore KEKW
 	}
 	cam_4 = { #Forced Conversion
 		culture_conversion_cost = -0.5
-		manpower_in_own_culture_provinces = 0.5
+		manpower_in_own_culture_provinces = 0.4
 	}
 	cam_5 = { #Highland Conscription
-		manpower_recovery_speed = 0.33
+		manpower_recovery_speed = 0.25
 	}
 	cam_6 = { #Redoubts
 		defensiveness = 0.2
 		garrison_size = 0.1
 	}
 	cam_7 = { #Militia
-		land_forcelimit_modifier = 0.33
+		land_forcelimit_modifier = 0.25
 	}
 }	
 

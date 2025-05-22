@@ -332,7 +332,7 @@ shipyard = {
 	}
 	modifier = {
 		allowed_num_of_buildings = 1
-		naval_forcelimit = 2
+		naval_forcelimit = 1.5
 		land_forcelimit = 0.5
 		ship_recruit_speed = -0.25
 		local_ship_repair = 0.25
@@ -764,7 +764,7 @@ regimental_camp = {
 	cost = 250
 	time = 12
 	modifier = {
-		land_forcelimit = 1.5
+		land_forcelimit = 1
 		monthly_militarized_society = 0.0005
 	}
 	build_trigger = {
@@ -1296,7 +1296,7 @@ grand_shipyard = {
 	}
 	modifier = {
 		allowed_num_of_buildings = 1
-		naval_forcelimit = 4
+		naval_forcelimit = 3
 		land_forcelimit = 1
 		ship_recruit_speed = -0.5
 		local_ship_repair = 0.5
@@ -1927,11 +1927,11 @@ conscription_center = {
 #	}
 
 	modifier = {
-		land_forcelimit = 3
+		land_forcelimit = 2
 			monthly_militarized_society = 0.001
 	}
 	build_trigger = {
-		development = 40
+		development = 30
 	}
 	on_built = {
 		bastard_dev_cost_add_from_buildings = yes
