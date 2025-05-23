@@ -4644,7 +4644,7 @@ on_general_recruited = {
 on_admiral_recruited = {
 	if = {
 		limit = { has_country_flag = admirals_give_army_professionalism }
-		add_army_professionalism = 0.005
+		add_navy_tradition = 1
 	}
 	if = {
 		limit = { 

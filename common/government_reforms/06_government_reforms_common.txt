@@ -3333,10 +3333,8 @@ professional_navy_reform = {
 	modifiers = {
 		navy_tradition_decay = -0.01
 		max_flagships = 2
-		siege_blockade_progress = 2
-		naval_morale = 0.1
+		blockade_efficiency = 0.25		
 		sailor_maintenance_modifer = -0.1
-		global_sailors_modifier = 0.25
 	}
 	
 	ai = {
