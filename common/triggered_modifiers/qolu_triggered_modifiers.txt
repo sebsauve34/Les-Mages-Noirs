@@ -61,12 +61,12 @@ the_general_crisis= {
 		not = { is_year = 1665 }
 		}
 	development_cost = 0.1
-	global_prosperity_growth = -2
+	global_prosperity_growth = -3
 	global_trade_goods_size_modifier = -0.15	
 	global_supply_limit_modifier = -0.25
 	trade_efficiency = -0.15
 	land_attrition = 0.15
 	global_unrest = 2
 	monarch_lifespan = -0.2	
-	global_monthly_devastation = 0.3
+	global_monthly_devastation = 0.4
 }	

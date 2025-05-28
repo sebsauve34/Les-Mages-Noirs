@@ -1273,11 +1273,16 @@ is_great_power = {						#Only works with Rights of Man DLC enabled
 }
 
 in_golden_era = {
-	land_morale = 0.1
-	naval_morale = 0.1
-	max_absolutism = 5
-	max_revolutionary_zeal = 10
-	monthly_arabic_trade_influence_power = 0.25
+	army_tradition = 1
+	navy_tradition = 1		
+	prestige_from_land = 1
+	naval_tradition_from_battle = 1
+	army_tradition_from_battle = 0.5
+	naval_tradition_from_battle = 0.5
+	yearly_absolutism = 1
+	yearly_revolutionary_zeal = 1
+	yearly_army_professionalism = 0.005
+	war_exhaustion = -0.05
 }
 
 absolutism = {
