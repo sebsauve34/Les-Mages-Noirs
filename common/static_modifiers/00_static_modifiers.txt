@@ -727,13 +727,8 @@ bank_loan = {
 
 inflation = {
 	build_cost = 0.01						#1% for each inflation step.
-	infantry_cost = 0.01					#1% for each inflation step
-	cavalry_cost = 0.01						#1% for each inflation step
-	artillery_cost = 0.01					#1% for each inflation step
-	heavy_ship_cost = 0.01					#1% for each inflation step
-	light_ship_cost = 0.01					#1% for each inflation step
-	galley_cost = 0.01						#1% for each inflation step
-	transport_cost = 0.01					#1% for each inflation step
+	global_regiment_cost = 0.01
+	global_ship_cost = 0.01
 	flagship_cost = 0.01					#1% for each inflation step
 	advisor_cost = 0.01						#1% for each inflation step
 	mercenary_cost = 0.01					#1% for each inflation step
@@ -747,6 +742,11 @@ inflation = {
 	center_of_trade_upgrade_cost = 0.01					#1% for each inflation step
 	trade_company_investment_cost = 0.01				#1% for each inflation step
 	state_maintenance_modifier = 0.01	
+	monthly_gold_inflation_modifier = 0.01
+	gold_depletion_chance_modifier = 0.1
+	yearly_corruption = 0.01
+	interest = 0.01
+	stability_cost_modifier = 0.01
 }
 
 bankruptcy = {
