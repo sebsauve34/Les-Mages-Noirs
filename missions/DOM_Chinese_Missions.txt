@@ -2652,7 +2652,7 @@ chinese_kingdoms_3 = {
 						has_dlc = "Rights of Man"
 					}
 				}
-				NOT = { great_power_rank = 2 } 
+				NOT = { great_power_rank = 3 } 
 			}
 			total_development = 1500 
 		}
