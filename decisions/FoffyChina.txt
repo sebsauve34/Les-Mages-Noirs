@@ -456,36 +456,42 @@ country_decisions = {
 				limit = {
 					tag = CSH
 				}
+				north_china_region = { add_permanent_claim = ROOT }
 				country_event = { id = foffychina.7 } #Ancillary 1
 			}
 			if = {
 				limit = {
 					tag = CXI
 				}
+				north_china_region = { add_permanent_claim = ROOT }
 				country_event = { id = foffychina.10 } #Ancillary 1
 			}
 			if = {
 				limit = {
 					tag = CYI
 				}
+				xinan_region = { add_permanent_claim = ROOT }
 				country_event = { id = foffychina.13 } #Ancillary 1
 			}
 			if = {
 				limit = {
 					tag = QIC
 				}
+				north_china_region = { add_permanent_claim = ROOT }
 				country_event = { id = foffychina.16 } #Ancillary 1
 			}
 			if = {
 				limit = {
 					tag = WUU
 				}
+				south_china_region = { add_permanent_claim = ROOT }
 				country_event = { id = foffychina.19 } #Ancillary 1
 			}
 			if = {
 				limit = {
 					tag = YUE
 				}
+				south_china_region = { add_permanent_claim = ROOT }
 				country_event = { id = foffychina.22 } #Ancillary 1
 			}
 		}
@@ -512,36 +518,42 @@ country_decisions = {
 				limit = {
 					tag = CSH
 				}
+				xinan_region = { add_permanent_claim = ROOT }
 				country_event = { id = foffychina.8 } #Ancillary 2
 			}	
 			if = {
 				limit = {
 					tag = CXI
 				}
+				south_china_region = { add_permanent_claim = ROOT }
 				country_event = { id = foffychina.11 } #Ancillary 2
 			}
 			if = {
 				limit = {
 					tag = CYI
 				}
+				south_china_region = { add_permanent_claim = ROOT }
 				country_event = { id = foffychina.14 } #Ancillary 2
 			}
 			if = {
 				limit = {
 					tag = QIC
 				}
+				south_china_region = { add_permanent_claim = ROOT }
 				country_event = { id = foffychina.17 } #Ancillary 2
 			}
 			if = {
 				limit = {
 					tag = WUU
 				}
+				north_china_region = { add_permanent_claim = ROOT }
 				country_event = { id = foffychina.20 } #Ancillary 2
 			}
 			if = {
 				limit = {
 					tag = YUE
 				}
+				xinan_region = { add_permanent_claim = ROOT }
 				country_event = { id = foffychina.23 } #Ancillary 2
 			}
 		}
@@ -574,6 +586,7 @@ country_decisions = {
 				name = "h_chinese_empire"
 				duration = 9125
 			}			
+			china_superregion = { add_permanent_claim = ROOT }
 			add_government_reform = h_reform_warlord_4
 			if = {
 				limit = {
@@ -616,6 +629,7 @@ country_decisions = {
 				}
 				country_event = { id = foffychina.24 } #Ancillary 3
 				override_country_name = YUE_Empire
+				
 			}
 		}
 	}

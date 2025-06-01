@@ -11,12 +11,19 @@ country_event = { #Li Shun
 	title = foffychina.1.t
 	desc = foffychina.1.d
 	picture = COURT_eventPicture
-	
-	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = CSH
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
 	
 	option = {
 		name = foffychina.1.a
-		change_mil = 1
+		lanzhou_area = { add_permanent_claim = ROOT }
+		gansu_area = { add_permanent_claim = ROOT }
+		xia_area = { add_permanent_claim = ROOT }
 	}
 	
 }
@@ -26,12 +33,19 @@ country_event = { #Zhang Xi
 	title = foffychina.2.t
 	desc = foffychina.2.d
 	picture = COURT_eventPicture
-	
-	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = CXI
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
 	
 	option = {
 		name = foffychina.2.a
-		change_mil = 1
+		biyang_area = { add_permanent_claim = ROOT }
+		wuchang_area = { add_permanent_claim = ROOT }
+		ankang_area = { add_permanent_claim = ROOT }
 	}
 	
 }
@@ -41,12 +55,20 @@ country_event = { #Meng Yi
 	title = foffychina.3.t
 	desc = foffychina.3.d
 	picture = COURT_eventPicture
-	
-	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = CYI
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
 	
 	option = {
 		name = foffychina.3.a
-		change_mil = 1
+		chengdu_area = { add_permanent_claim = ROOT }
+		yunnan_area = { add_permanent_claim = ROOT }
+		luzhou_area = { add_permanent_claim = ROOT }
+		kunming_area = { add_permanent_claim = ROOT }
 	}
 	
 }
@@ -56,12 +78,19 @@ country_event = { #Huan Qi
 	title = foffychina.4.t
 	desc = foffychina.4.d
 	picture = COURT_eventPicture
-	
-	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = QIC
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
 	
 	option = {
 		name = foffychina.4.a
-		change_mil = 1
+		shandong_area = { add_permanent_claim = ROOT }
+		tai-an_area = { add_permanent_claim = ROOT }
+		xuzhou_area = { add_permanent_claim = ROOT }
 	}
 	
 }
@@ -71,12 +100,17 @@ country_event = { #Qian Wu
 	title = foffychina.5.t
 	desc = foffychina.5.d
 	picture = COURT_eventPicture
-	
-	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = WUU
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
 	
 	option = {
 		name = foffychina.5.a
-		change_mil = 1
+		hangzhou_area = { add_permanent_claim = ROOT } 
 	}
 	
 }
@@ -86,12 +120,19 @@ country_event = { #Goujian Yue
 	title = foffychina.6.t
 	desc = foffychina.6.d
 	picture = COURT_eventPicture
-	
-	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		tag = YUE
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
 	
 	option = {
 		name = foffychina.6.a
-		change_mil = 1
+		guangzhou_area = { add_permanent_claim = ROOT }
+		guangxi_area = { add_permanent_claim = ROOT }
+		hainan_area = { add_permanent_claim = ROOT }
 	}
 	
 }
