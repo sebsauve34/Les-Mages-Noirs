@@ -375,7 +375,6 @@ h_reform_native_empire = {
 		global_tax_income = 330
 		land_forcelimit = 80
 		global_manpower = 100
-		colonists = 1
 		global_supply_limit_modifier = 0.25
 	}
 
@@ -414,7 +413,6 @@ h_reform_native_kingdom = {
 		global_tax_income = 270
 		land_forcelimit = 50
 		global_manpower = 75
-		colonists = 1
 		global_supply_limit_modifier = 0.25
 	}
 
