@@ -2985,7 +2985,7 @@ sichuan_area = { #3
 }
 
 huguang_area = { #5 (Hubei)
-	4859 4885 4886 680 4928
+	4859 4885 4886 4928
 }
 
 hunan_area = { #4
@@ -3087,7 +3087,7 @@ lanzhou_area = {
 
 luzhou_area = { 
 	color = { 227 153 153 }
-	4838 4878 4941 4937
+	4838 4878 4941 4937 680
 }
 
 shenyang_area = {
@@ -3158,7 +3158,7 @@ wuchang_area = {
 
 kaiyang_area = {
 	color = { 255 204 0 }
-	4940 4938 4812 673
+	4938 4812 673 4940
 }
 
 yunnan_area = {
