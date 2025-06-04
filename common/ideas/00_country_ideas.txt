@@ -17101,3 +17101,49 @@ PLC_LIT_ideas = {
 		num_accepted_cultures = 2 
 	}
 }
+
+LNS_ideas = {
+	start = {
+		reinforce_speed = 0.33
+		artillery_power = 0.1
+	}
+	
+	bonus = {
+		shock_damage_received = -0.15
+	}
+	
+	trigger = {
+		tag = VEN
+		NOT = { has_country_flag = ven_upgrade_state_inuisition_idea_flag }
+	}
+	free = yes		#will be added at load.
+	
+	lns_renaissance_art = {
+		technology_cost = -0.1
+		development_cost = -0.05
+	}
+	stato_da_mar = {
+		#Present in the previous VEN_ideas ideaset
+	}
+	lns_maritime_dominance = {
+		global_trade_power = 0.2
+		trade_steering = 0.33
+	}
+	lns_a_gunpowder_republic = {
+		fire_damage = 0.15
+		land_forcelimit_modifier = 0.2
+	}
+	backing_of_the_ducat = {
+		naval_forcelimit_modifier = 0.5
+		galley_power = 0.2
+	}
+	reform_the_uscocchi = {
+		global_ship_trade_power = 0.35
+		global_trade_goods_size_modifier = 0.1
+	}
+	maggior_consiglio = {
+		discipline = 0.05
+		max_absolutism = 10
+		max_revolutionary_zeal = 10
+	}
+}

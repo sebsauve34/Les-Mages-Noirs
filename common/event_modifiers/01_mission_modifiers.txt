@@ -5441,8 +5441,8 @@ lan_clean_government = {
 # New Prussian missions
 
 pru_space_marines = {
-	drill_gain_modifier = 0.25
-	drill_decay_modifier = -0.25
+	drill_gain_modifier = 0.2
+	drill_decay_modifier = -0.2
 	reinforce_cost_modifier = -0.15
 }
 
@@ -9830,7 +9830,7 @@ pru_oblique_order_modifier = {
 }
 
 pru_rewrite_military_manual_modifier = {
-	drill_decay_modifier = -0.33
+	drill_decay_modifier = -0.2
 	reinforce_speed = 0.25
 	war_exhaustion = -0.05
 }
