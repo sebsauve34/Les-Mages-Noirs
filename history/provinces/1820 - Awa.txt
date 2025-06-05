@@ -1,7 +1,7 @@
 #1820 - Awa
 
-owner = HSK
-controller = HSK
+owner = MRI 
+controller = MRI 
 culture = japanese
 religion = shinto
 capital = "Tokushima"
@@ -9,9 +9,9 @@ trade_goods = fish
 hre = no
 base_tax = 3
 base_production = 3
-base_manpower = 2
+base_manpower = 3
 is_city = yes
-add_core = HSK
+add_core = MRI 
 
 
 

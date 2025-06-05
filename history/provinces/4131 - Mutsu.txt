@@ -1,8 +1,8 @@
 #Northern Mutsu
 
-owner = AKT
-controller = AKT
-add_core = AKT
+owner = DTE
+controller = DTE
+add_core = DTE
 culture = togoku
 religion = shinto
 capital = "Sannohe"

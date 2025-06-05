@@ -145,9 +145,9 @@ add_army_professionalism = 0.1
 		dynasty = "Uesugi"
 		birth_date = 1428.1.1
 #		death_date = 1455.1.15
-		adm = 5
+		adm = 6
 		dip = 4
-		mil = 5
+		mil = 3
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = careful_personality

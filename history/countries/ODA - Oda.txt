@@ -11,14 +11,14 @@ capital = 1030	# Owari
 		name = "Hisanaga"
 		dynasty = "Oda"
 		birth_date = 1420.1.1
-		adm = 3
+		adm = 5
 		dip = 4
-		mil = 3
+		mil = 5
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = incorruptible_personality
 	add_ruler_personality = lawgiver_personality
-	add_ruler_personality = zealot_personality
+	add_ruler_personality = strict_personality
 }
 
 1452.1.1 = {

@@ -71,10 +71,14 @@ capital = 1825	# Aki
 	monarch = {
 		name = "Hiromoto" 
 		dynasty = "Mori"
-		adm = 2
-		dip = 2
-		mil = 2
+		birth_date = 1420.1.1
+		death_date = 1476.1.1
+		adm = 4
+		dip = 6
+		mil = 4
 	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = navigator_personality
 }
 
 1444.1.1 = {
@@ -85,9 +89,9 @@ capital = 1825	# Aki
 		birth_date = 1444.1.1
 		death_date = 1476.1.1
 		claim = 95
-		adm = 2
-		dip = 2
-		mil = 3
+		adm = 3
+		dip = 6
+		mil = 5
 	}
 }
 

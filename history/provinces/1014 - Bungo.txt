@@ -1,10 +1,10 @@
 #1014 - Bungo
 
-owner = SHN
+owner = OTM
 add_core = SHN
-controller = SHN
+controller = OTM
 culture = kyushuan
-religion = shinto
+religion = catholic
 capital = "Funai"
 trade_goods = tropical_wood
 hre = no

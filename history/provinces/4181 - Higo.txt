@@ -1,14 +1,14 @@
 #4181 - Higo
 
-owner = SHN
-controller = SHN
-add_core = SHN
+owner = OTM
+controller = OTM
+add_core = OTM
 culture = kyushuan
-religion = shinto
+religion = catholic
 capital = "Kumamoto"
 trade_goods = fish
 hre = no
-base_tax = 2
+base_tax = 3
 base_manpower = 3
 base_production = 3
 is_city = yes

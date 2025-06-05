@@ -9984,7 +9984,7 @@ HSK_ideas = {
 
 UES_ideas = {
 	start = {
-		infantry_power = 0.1
+		core_creation = -0.2
 		technology_cost = -0.1
 	}
 	
@@ -10075,12 +10075,12 @@ YMN_ideas = {
 
 DTE_ideas = {
 	start = {
-		infantry_power = 0.1
-		diplomatic_reputation = 1
+		range = 0.5	
+		colonists = 1
 	}
 	
 	bonus = {
-		global_trade_power = 0.15
+		fire_damage = 0.1
 	}
 
 	trigger = {
@@ -10089,30 +10089,29 @@ DTE_ideas = {
 	free = yes
 	
 	dte_oshu_shugo = {
-		core_creation = -0.1
+		colonist_placement_chance = 0.05	
+		global_colonial_growth = 15
 	}
 	
 	dte_expansion_trhough_marriages = {
-		ae_impact = -0.1
+		navy_tradition_decay = -0.01	
+		allowed_marine_fraction = 0.25
 	}
 	
 	dte_renga_group = {
-		idea_cost = -0.10
+		idea_cost = -0.1
 	}
-	
 	dte_dragon_corps = {
-		fire_damage = 0.1
+		infantry_power = 0.1
+		drill_decay_modifier = -0.1	
 	}
-	
 	dte_red_seal_ships = {
-		heavy_ship_power = 0.1
-		heavy_ship_cost = -0.05
+		naval_forcelimit_modifier = 0.33
+		global_ship_cost = -0.1	
 	}
-	
 	dte_keicho_embassy = {
-		technology_cost = -0.05
+		technology_cost = -0.1
 	}
-	
 	dte_intensive_domain_development = {
 		development_cost = -0.1
 	}
@@ -10211,12 +10210,12 @@ OGS_ideas = {
 
 OTM_ideas = {
 	start = {
-		global_tax_modifier = 0.1
-		production_efficiency = 0.1
+		global_tax_modifier = 0.2
+		global_missionary_strength = 0.03
 	}
 	
 	bonus = {
-		artillery_power = 0.1
+		infantry_fire = 0.3
 	}
 
 	trigger = {
@@ -10224,35 +10223,31 @@ OTM_ideas = {
 	}
 	free = yes
 	
-
-	
-	otm_domination_of_northern_kyushu = {
-		global_manpower_modifier = 0.2
+	otm_christian_conversion = {
+		missionaries = 1
+		papal_influence = 2
 	}
-	
+	otm_domination_of_northern_kyushu = {
+		manpower_in_true_faith_provinces= 0.2
+		development_cost_in_primary_culture = -0.1
+	}
 	otm_lord_of_bungo = {
 		global_trade_goods_size_modifier = 0.1
 	}
-	
-	otm_brave_retainers = {
-		discipline = 0.05
-	}
-	
 	otm_nanban_trade = {
-		global_own_trade_power = 0.15
+		same_culture_advisor_cost = -0.15
+		culture_conversion_cost = -0.15	
 	}
-	
-	otm_christian_conversion = {
-		missionaries = 1
-		papal_influence = 1
-	}
-	
 	otm_tensho_embassy = {
-		global_institution_spread = 0.1
+		global_institution_spread = 0.33
 	}
-	
 	otm_kunikuzushi = {
-		siege_ability = 0.1
+		siege_ability = 0.15
+		artillery_power = 0.1
+	}
+	otm_brave_retainers = {
+		leader_land_fire = 1	
+		leader_naval_fire = 1	
 	}
 }
 
@@ -10840,12 +10835,12 @@ RFR_ideas = { # Nanbu clan
 
 TKD_ideas = {
 	start = {
-		cavalry_power = 0.1
+		land_morale = 0.1
 		cavalry_cost = -0.1
 	}
 	
 	bonus = {
-		global_institution_spread = 0.1
+		shock_damage = 0.15
 	}
 
 	trigger = {
@@ -10854,26 +10849,29 @@ TKD_ideas = {
 	free = yes
 	
 	tkd_leader_of_kai_genji = {
-		land_morale = 0.1
+		cavalry_power = 0.1
+		cav_to_inf_ratio = 0.15
 	}
 	tkd_river_dams = {
 		global_trade_goods_size_modifier = 0.1
 	}
 	tkd_information_network = {
-		spy_offence = 0.1
-		global_spy_defence = 0.1
+		spy_offence = 0.25
+		global_spy_defence = 0.25
 	}
 	tkd_kurokawa_gold_mine = {
-		improve_relation_modifier = 0.3
+		gold_depletion_chance_modifier = -0.25
+		monthly_gold_inflation_modifier = -0.25
 	}
 	tkd_koshu_hatto = {
 		idea_cost = -0.1
 	}
 	tkd_twentyfour_generals = {
-		free_leader_pool = 1
+		leader_land_shock = 1
+		
 	}
 	tkd_koyo_gunkan = {
-		army_tradition = 0.5
+		army_tradition = 1
 	}
 }
 
@@ -12457,12 +12455,12 @@ KTB_ideas = {
 
 ODA_ideas = {
 	start = {
-		infantry_power = 0.1
-		land_morale = 0.1
+		land_forcelimit_modifier = 0.33
+		land_morale = 0.15
 	}
 
 	bonus = {
-		leader_land_fire = 1
+		manpower_recovery_speed = 0.2
 	}
 	
 	trigger = {
@@ -12471,36 +12469,42 @@ ODA_ideas = {
 	free = yes		#will be added at load.
 	
 	oda_rakuichi_rakuza = {
-		global_trade_goods_size_modifier = 0.1
+		global_trade_goods_size_modifier = 0.2
+		global_tax_modifier = -0.4
+	}
+	oda_kenchi = {
+		global_manpower_modifier = 0.33
 	}
 	oda_tenka_fubu = {
 		province_warscore_cost = -0.1
 		core_creation = -0.1
 	}
-	oda_generals = {
-		leader_land_shock = 1
-	}
-	oda_azuchi_castle = {
-		leader_siege = 1
-	}
 	oda_triple_firing = {
-		fire_damage = 0.1
+		fire_damage = 0.2
+		shock_damage_received = 0.1
 	}
 	oda_patronization_of_the_west = {
-		technology_cost = -0.05
+		technology_cost = -0.1
 	}
-	oda_kenchi = {
-		global_manpower_modifier = 0.2
+	oda_generals = {
+		leader_land_shock = 1
+		leader_siege = 1
+		leader_land_fire = 1
+		general_cost = 1
+	}
+	oda_azuchi_castle = {
+		defensiveness = 0.2
+		garrison_damage = 0.2
 	}
 }
 
 TKG_ideas = {
 	start = {
-		infantry_power = 0.1
-		ae_impact = -0.1
+		amount_of_samurai = 40
+		development_cost = -0.1
 	}
 	bonus = {
-		development_cost = -0.1
+		backrow_artillery_damage = 0.1
 	}
 	trigger = {
 		tag = TKG
@@ -12512,22 +12516,26 @@ TKG_ideas = {
 		land_morale = 0.1
 	}
 	tkg_strengthen_the_sekisho_network = {
-		spy_offence = 0.2
+		spy_offence = 0.25
+		diplomats = 1	
 	}
 	tkg_hatamoto = {
 		discipline = 0.05
 	}
 	tkg_metsuke = {
-		stability_cost_modifier = -0.1
+		global_trade_goods_size_modifier = 0.1
 	}
 	tkg_matsudaira_branches = {
-		global_autonomy = -0.05
+		global_tax_modifier = 0.2
+		heir_chance = 0.5
 	}
 	tkg_toshogu = {
 		tolerance_own = 2
+		same_religion_advisor_cost = -0.1
 	}
 	tkg_famine_policies = {
-		global_unrest = -1
+		global_unrest = -1	
+		state_maintenance_modifier = -0.25	
 	}
 }
 
@@ -12764,10 +12772,11 @@ CSK_ideas = {
 MRI_ideas = {
 	start = {
 		navy_tradition = 1
-		diplomats = 1
+		ship_durability = 0.05
 	}
 	bonus = {
-		leader_land_fire = 1
+		may_perform_slave_raid = yes	
+		coast_raid_range = 1
 	}
 	
 	trigger = {
@@ -12775,27 +12784,33 @@ MRI_ideas = {
 	}
 	
 	free = yes
-	
-	mri_descendant_of_oe_hiromoto = {
-		adm_tech_cost_modifier = -0.1
-	}
-	mri_leader_of_kokujin_ikki = {
-		land_forcelimit_modifier = 0.2
-	}
-	mri_diplomatic_intrigues = {
-		diplomatic_upkeep = 1
-	}
 	mri_three_arrows = {
 		global_autonomy = -0.05
-	}
-	mri_hiroshima_castle = {
 		development_cost = -0.1
 	}
 	mri_itsukushima_shrine = {
-		ship_durability = 0.05
+		galley_power = 0.2
+		galley_cost = -0.2	
+	}
+	mri_descendant_of_oe_hiromoto = {
+		dip_tech_cost_modifier = -0.2
+		sailors_recovery_speed = 0.2
+	}
+	mri_leader_of_kokujin_ikki = {
+		naval_forcelimit_modifier = 0.33
+		sunk_ship_morale_hit_recieved = -0.1	
+	}
+	mri_diplomatic_intrigues = {	
+		free_dip_policy = 1	
+		country_diplomatic_power = 1	
+	}
+	mri_hiroshima_castle = {
+		defensiveness = 0.25
+		garrison_size = 0.25
 	}
 	mri_hagi_ware = {
-		prestige = 1
+		leader_naval_shock = 2
+		max_admiral_shock = 1		
 	}
 }
 

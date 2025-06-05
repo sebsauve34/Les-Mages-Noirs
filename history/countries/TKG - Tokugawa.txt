@@ -10,14 +10,14 @@ capital = 4360	# Mikawa
 	monarch = {
 		name = "Nobumitsu"
 		dynasty = "Matsudaira"
-		birth_date = 1404.1.1
+		birth_date = 1424.1.1
 		death_date = 1488.8.29
-		adm = 4
-		dip = 4
-		mil = 5
+		adm = 6
+		dip = 5
+		mil = 6
 	}
 	clear_scripted_personalities = yes
-	add_ruler_personality = tactical_genius_personality
+	add_ruler_personality = scholar_personality
 }
 
 1440.6.14 = {
@@ -25,12 +25,12 @@ capital = 4360	# Mikawa
 		name = "Chikatada"
 		monarch_name = "Chikatada"
 		dynasty = "Matsudaira"
-		birth_date = 1431.1.1
+		birth_date = 1443.1.1
 		death_date = 1501.9.22
-		claim = 90
-		adm = 4
-		dip = 3
-		mil = 3
+		claim = 50
+		adm = 6
+		dip = 5
+		mil = 6
 	}
 }
 

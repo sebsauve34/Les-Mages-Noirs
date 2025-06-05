@@ -2,7 +2,7 @@ government = monarchy
 add_government_reform = daimyo
 government_rank = 1
 primary_culture = kyushuan
-religion = shinto
+religion = catholic
 technology_group = chinese
 capital = 1014	# Bungo
 
@@ -115,7 +115,7 @@ capital = 1014	# Bungo
 		name = "Mochinao"
 		dynasty = "Otomo"
 		birth_date = 1401.1.1
-#		death_date = 1445.1.1
+#		death_date = 1443.1.1
 		adm = 3
 		dip = 3
 		mil = 3
@@ -139,31 +139,32 @@ capital = 1014	# Bungo
 	}
 }
 	
-1445.1.1 = {
+1444.1.1 = {
 	monarch = {
 		name = "Chikatsuna"
 		dynasty = "Otomo"
-		birth_date = 1430.1.1
-#		death_date = 1459.1.1
-		adm = 2
-		dip = 2
-		mil = 2
+		birth_date = 1424.1.1
+		death_date = 1459.1.1
+		adm = 5
+		dip = 4
+		mil = 4
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = charismatic_negotiator_personality
+	add_ruler_personality = zealot_personality
 }
 	
-1450.1.1 = {
+1444.1.1 = {
 	heir = {
-		name = "Chikataka"
-		monarch_name = "Chikataka"
+		name = "Masachika"
+		monarch_name = "Masachika"
 		dynasty = "Shimazu"
-		birth_date = 1430.1.1
+		birth_date = 1444.1.1
 		death_date = 1565.1.1
 		claim = 90
-		adm = 2
-		dip = 2
-		mil = 2
+		adm = 6
+		dip = 4
+		mil = 3
 	}
 }
 	

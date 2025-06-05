@@ -119,13 +119,13 @@ capital = 4131 # Richizen
 	}
 }
 	
-1412.8.24 = { 
+1432.8.24 = { 
 	monarch = {
 		name = "Mochimune"
 		dynasty = "Date"
-		birth_date = 1393.1.1
-		adm = 3
-		dip = 3
+		birth_date = 1423.1.1
+		adm = 4
+		dip = 6
 		mil = 3
 	}
 	clear_scripted_personalities = yes
@@ -139,15 +139,15 @@ capital = 4131 # Richizen
 		name = "Narimune"
 		monarch_name = "Narimune"
 		dynasty = "Date"
-		birth_date = 1435.1.1
+		birth_date = 1444.1.1
 		death_date = 1487.10.11
 		claim = 90
 		adm = 3
-		dip = 3
-		mil = 3
+		dip = 6
+		mil = 4
 	}
 }
-	
+1443.1.1 = { leader = {	name = "Masamune"		type = explorer	fire = 3	shock = 3	manuever = 3	siege = 0	death_date = 1462.12.31 } }	
 1469.2.19 = { 
 	monarch = {
 		name = "Narimune"

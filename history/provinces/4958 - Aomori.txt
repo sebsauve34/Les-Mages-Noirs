@@ -1,7 +1,7 @@
 #Aomori
 
-owner = AKT
-controller = AKT
+owner = DTE
+controller = DTE
 culture = togoku
 religion = shinto
 capital = "Aomori"
@@ -11,7 +11,7 @@ base_tax = 2
 base_manpower = 2
 base_production = 2
 is_city = yes
-add_core = AKT
+add_core = DTE
 add_claim = UES
 discovered_by = chinese
 discovered_by = MCH

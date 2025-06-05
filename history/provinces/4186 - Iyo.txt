@@ -1,15 +1,15 @@
 #4186 - Iyo
 
-owner = HSK
-controller = HSK
-add_core = HSK
+owner = MRI 
+controller = MRI 
+add_core = MRI 
 culture = japanese
 religion = shinto
 capital = "Yuzuki"
 trade_goods = copper
 hre = no
 base_tax = 3
-base_manpower = 2
+base_manpower = 4
 base_production = 2
 is_city = yes
 add_core = KNO
