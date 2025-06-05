@@ -1,7 +1,7 @@
 #1819 - Tosa
 
-owner = MRI 
-controller = MRI 
+owner = CSK
+controller = CSK
 culture = japanese
 religion = shinto
 capital = "Nakamura"
@@ -10,8 +10,7 @@ hre = no
 base_tax = 3 
 base_production = 3
 base_manpower = 4
-is_city = yes
-add_core = MRI 
+is_city = yes 
 add_core = CSK
 discovered_by = chinese
 discovered_by = MCH

@@ -1,15 +1,15 @@
 #4651 - Tsushima
 
-owner = OUC
-controller = OUC
-add_core = OUC
+owner = MRI
+controller = MRI
+add_core = MRI
 culture = kyushuan
 religion = shinto
 capital = "Tsushima"
 trade_goods = chinaware
 hre = no
 base_tax = 2
-base_manpower = 1
+base_manpower = 3
 base_production = 1
 is_city = yes
 add_core = SOO
