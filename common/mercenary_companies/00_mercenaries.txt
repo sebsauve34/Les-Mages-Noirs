@@ -2146,6 +2146,12 @@ merc_shikoku_yojimbo = {
 		OR = {
 		tag = UES
 		tag = SMZ
+		tag = OTM
+		tag = MRI
+		tag = ODA
+		tag = TKD
+		tag = TKG
+		tag = DTE
 		}
 	}
 	modifier = { 
