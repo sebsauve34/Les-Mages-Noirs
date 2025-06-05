@@ -1,7 +1,8 @@
 #1819 - Tosa
 
-owner = CSK
-controller = CSK
+owner = KNO
+controller = KNO
+add_core = KNO
 culture = japanese
 religion = shinto
 capital = "Nakamura"
