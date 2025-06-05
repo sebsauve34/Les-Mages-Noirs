@@ -12456,7 +12456,7 @@ KTB_ideas = {
 ODA_ideas = {
 	start = {
 		land_forcelimit_modifier = 0.33
-		land_morale = 0.15
+		shock_damage_received = -0.1
 	}
 
 	bonus = {
@@ -12481,7 +12481,7 @@ ODA_ideas = {
 	}
 	oda_triple_firing = {
 		fire_damage = 0.2
-		shock_damage_received = 0.1
+		morale_damage_received = 0.1
 	}
 	oda_patronization_of_the_west = {
 		technology_cost = -0.1
