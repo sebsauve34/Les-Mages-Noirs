@@ -329,6 +329,7 @@ sok_colonial = {
 
 sok_col = {
 	colonists = 1
+	colony_cost_modifier = -0.25
 }
 
 sok_mor = {
@@ -552,6 +553,7 @@ h_danish_encouraged_settlements = {
 
 h_danish_colonial_aspirations = {
 	colonists = 1
+	colony_cost_modifier = -0.5
 }
 
 h_danish_colonial_rush = {
@@ -729,6 +731,7 @@ h_danish_cape = {
 h_danish_southern_route = {
 	colonists = 1
 	global_colonial_growth = 25
+	colony_cost_modifier = -0.25
 }
 
 h_danish_east_indies = {
@@ -763,6 +766,7 @@ h_danes_discovered_america = {
 h_northern_colonial_route = {
 	colonists = 1
 	range = 0.25
+	colony_cost_modifier = -0.25
 }
 
 h_north_sea_empire = {

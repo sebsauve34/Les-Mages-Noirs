@@ -202,6 +202,7 @@ h_wuu_anc2_2 = {
 
 h_wuu_anc2_3 = {
 	colonists = 1
+	colony_cost_modifier = -0.25
 	colonist_placement_chance = 0.03
 }
 

@@ -280,6 +280,7 @@ age_of_discovery = {
 			}
 			modifier = {
 				development_cost = -0.05
+				colony_cost_modifier = -0.5
 			}
 			ai_will_do = {
 				factor = 100

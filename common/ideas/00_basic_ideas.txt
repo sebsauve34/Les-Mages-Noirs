@@ -993,6 +993,7 @@ exploration_ideas = {
 	}
 	land_of_opportunity = {
 		global_colonial_growth = 20
+		colony_cost_modifier = -0.25
 	}
 	factories = {
 		global_tariffs = 0.1

@@ -14,6 +14,7 @@ qolu_2colonists = {
 por_exploration = {
 	range = 0.5
 	global_colonial_growth = 15
+	colony_cost_modifier = -0.5
 }
 
 echo_development = {
