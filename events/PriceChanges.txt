@@ -1088,6 +1088,12 @@ country_event = {
 			value = 2
 			duration = 7300
 		}
+		change_price = {
+			trade_goods = gems
+			key = GREAT_DEBASEMENT
+			value = 2
+			duration = 7300
+		}
 	}
 }
 
