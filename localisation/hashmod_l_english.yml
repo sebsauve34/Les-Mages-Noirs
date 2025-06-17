@@ -1148,5 +1148,5 @@ world_trade_center_2_desc:0 "
 
 #New Board game events
  antagonist_event.1.t:0 "Antagonist event: The Last Jousting Tournament"
- antagonist_event.1.d:0 "The Board game event of The Last Jousting Tournament has been played and you were picked as the target! A great tragedy strikes at the joust leading the death of your ruler. May we pray that this event hit Berg's ruler!"
+ antagonist_event.1.d:0 "The Board game event of The Last Jousting Tournament has been played and you were picked as the target! You have entered a jousting tournament against the four greatest rulers in the world! During one of your duels, a great tragedy strikes leading to you killing one of these rulers! (You should pick Berg's ruler.)"
  antagonist_event.1.a:0 "The bloated mess suffers a setback."

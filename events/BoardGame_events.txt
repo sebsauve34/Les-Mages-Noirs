@@ -9,12 +9,8 @@ country_event = {
 
 trigger = {
 	current_age = age_of_reformation
-	OR = {
-	great_power_rank = 1
-	great_power_rank = 2
-	great_power_rank = 3
-	great_power_rank = 4
-	}
+	is_subject = no
+	is_great_power = no
 	player = yes
 	}
 
@@ -23,7 +19,48 @@ mean_time_to_happen = {
 	}
 
 	option = {
-	name = antagonist_event.1.a
-	kill_ruler = yes
-	}
-}
+		name = antagonist_event.1.a
+		every_country = {
+				limit = {
+				NOT = { great_power_rank = 2 }
+				}
+		kill_ruler = yes
+			}
+		}
+	option = {
+		name = antagonist_event.1.a
+		every_country = {
+				limit = {
+					AND = {
+					great_power_rank = 2
+				NOT = { great_power_rank = 3 }
+				}
+			}
+		kill_ruler = yes
+			}
+		}
+
+	option = {
+		name = antagonist_event.1.a
+		every_country = {
+				limit = {
+					AND = {
+					great_power_rank = 3
+				NOT = { great_power_rank = 4 }
+				}
+			}
+		kill_ruler = yes
+			}
+		}
+	option = {
+		name = antagonist_event.1.a
+		every_country = {
+				limit = {
+					AND = {
+					great_power_rank = 4
+				NOT = { great_power_rank = 5 }
+				}
+			}
+		kill_ruler = yes
+			}
+		}
