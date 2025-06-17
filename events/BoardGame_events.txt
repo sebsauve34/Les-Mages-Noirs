@@ -1,0 +1,29 @@
+# The Last Jousting Tournament
+country_event = {
+	id = antagonist_event.1
+	title = antagonist_event.1.t
+	desc = antagonist_event.1.d
+	picture = TOURNAMENT_eventPicture
+	fire_only_once = yes
+	major = yes
+
+trigger = {
+	current_age = age_of_reformation
+	OR = {
+	great_power_rank = 1
+	great_power_rank = 2
+	great_power_rank = 3
+	great_power_rank = 4
+	}
+	player = yes
+	}
+
+mean_time_to_happen = {
+		months = 600
+	}
+
+	option = {
+	name = antagonist_event.1.a
+	kill_ruler = yes
+	}
+}

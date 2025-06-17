@@ -162,10 +162,7 @@ country_decisions = {
 				}
 			}
 			NOT = { has_country_modifier = qolu_2colonists }
-			NOT = { tag = OIR }
-			NOT = { tag = MJZ }
-			NOT = { tag = MCH }
-			NOT = { has_reform = steppe_horde }
+			
 		}
 
 		allow = {
@@ -195,10 +192,6 @@ country_decisions = {
 				continent = africa
 			}
 			NOT = { has_country_modifier = qolu_2colonists }
-			NOT = { tag = OIR }
-			NOT = { tag = MJZ }
-			NOT = { tag = MCH }
-			NOT = { has_reform = steppe_horde }
 		}
 
 		allow = {
@@ -231,10 +224,7 @@ country_decisions = {
 				}
 			}
 			NOT = { has_country_modifier = qolu_2colonists }
-			NOT = { tag = OIR }
-			NOT = { tag = MJZ }
-			NOT = { tag = MCH }
-			NOT = { has_reform = steppe_horde }
+			
 		}
 
 		allow = {

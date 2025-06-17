@@ -1676,7 +1676,6 @@ influence_ideas = {
 	}
 	
 	integrated_elites = {
-		vassal_income = 0.25
 		diplomatic_annexation_cost = -0.25
 		annexation_relations_impact = -0.25
 	}
@@ -1689,7 +1688,7 @@ influence_ideas = {
 		liberty_desire_from_subject_development = -0.25
 	}
 	postal_service = {
-		war_exhaustion = -0.05
+		vassal_income = 0.25
 		years_to_integrate_personal_union = -5
 	}
 	marcher_lords = {
