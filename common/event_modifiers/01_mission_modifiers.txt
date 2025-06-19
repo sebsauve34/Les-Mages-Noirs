@@ -8890,7 +8890,8 @@ mjz_formalized_black_shamanism_modifier = {
 	tolerance_own = 2 
 }
 mjz_formalized_confucian_practices_modifier = {
-	imperial_mandate = 0.05
+	harmonization_speed = 0.5
+	yearly_harmony = 0.5
 }
 mjz_horde_diplomatic_ties_modifier = {
 	horde_unity = 0.5

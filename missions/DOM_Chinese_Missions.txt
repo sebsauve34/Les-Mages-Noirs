@@ -6239,7 +6239,6 @@ DOM_Qing_Missions_5 = {
 					has_country_modifier = black_shamanism_modifier
 				}
 				AND = { 
-					is_emperor_of_china = yes 
 					religion = confucianism 
 					harmony = 80 
 				}
