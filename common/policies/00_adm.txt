@@ -259,7 +259,7 @@ edict_of_resistance = {
 	}
 
 
-	shock_damage_received = -0.125
+	shock_damage_received = -0.1
 
 	effect = {}
 	removed_effect = {}

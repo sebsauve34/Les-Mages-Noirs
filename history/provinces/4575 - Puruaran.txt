@@ -1,7 +1,7 @@
 # No previous file for Puruaran
 
 culture = purepecha
-
+fort_15th = yes
 is_city = yes
 religion = nahuatl
 capital = "Puruaran"

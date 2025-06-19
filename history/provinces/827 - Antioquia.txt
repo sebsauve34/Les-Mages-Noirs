@@ -8,7 +8,7 @@ add_core = MCA
 
 discovered_by = south_american
 discovered_by = MCA
-
+fort_15th = yes
 religion = animism
 capital = "Antioquía"
 trade_goods = livestock

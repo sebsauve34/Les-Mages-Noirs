@@ -1,5 +1,5 @@
 # No previous file for Acoma
-
+fort_15th = yes
 
 is_city = yes
 add_core = PUE

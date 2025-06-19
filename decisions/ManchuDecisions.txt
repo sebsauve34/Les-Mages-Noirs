@@ -230,6 +230,8 @@ country_decisions = {
 				#add_core = QNG
 			}
 			change_tag = QNG
+			override_country_name = QNG
+			set_country_flag = is_QNG_flag
 			swap_non_generic_missions = yes
 			set_government_rank = 3
 			north_china_region = {

@@ -1,6 +1,6 @@
 # No previous file for Yaquimo
 
-
+fort_15th = yes
 add_core = CAB
 owner = CAB
 controller = CAB

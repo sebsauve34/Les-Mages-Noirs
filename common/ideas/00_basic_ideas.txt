@@ -565,7 +565,7 @@ offensive_ideas = {
 
 	bayonet_leaders = {
 		leader_land_shock = 1
-		shock_damage = 0.1
+		shock_damage = 0.125
 	}
 	national_conscripts = {
 		movement_speed = 0.1
@@ -674,7 +674,7 @@ defensive_ideas = {
 	}
 
 	battlefield_commisions = {
-		shock_damage_received = -0.125
+		shock_damage_received = -0.1
 	}
 	military_drill = {
 		morale_damage_received = -0.2
@@ -693,7 +693,7 @@ defensive_ideas = {
 		max_hostile_attrition = 1
 	}
 	supply_trains = {
-		garrison_damage = 0.2
+		garrison_damage = 0.25
 		global_garrison_growth = 0.5
 		may_refill_garrison = yes	
 	}

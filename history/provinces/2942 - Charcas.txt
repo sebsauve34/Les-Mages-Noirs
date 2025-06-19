@@ -6,7 +6,7 @@ add_core = INC
 culture = aimara
 
 
-
+fort_15th = yes
 discovered_by = south_american
 discovered_by = andean
 

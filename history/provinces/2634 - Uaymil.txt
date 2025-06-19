@@ -4,7 +4,7 @@ owner = XIU
 controller = XIU
 add_core = XIU
 culture = yucatec
-
+fort_15th = yes
 is_city = yes
 religion = mesoamerican_religion
 capital = "Uaymil"

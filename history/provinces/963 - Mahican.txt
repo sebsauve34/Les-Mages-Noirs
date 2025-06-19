@@ -14,7 +14,7 @@ native_size = 5
 native_ferocity = 1
 native_hostileness = 4
 
-
+fort_15th = yes
 
 discovered_by = north_american
 

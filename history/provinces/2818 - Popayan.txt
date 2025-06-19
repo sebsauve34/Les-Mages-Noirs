@@ -8,7 +8,7 @@ add_core = MCA
 
 discovered_by = south_american
 discovered_by = andean
-
+fort_15th = yes
 religion = inti
 capital = "Popayan"
 trade_goods = cocoa

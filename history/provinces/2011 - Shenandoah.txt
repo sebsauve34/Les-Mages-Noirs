@@ -1,6 +1,6 @@
 #2011 - Shenandoah
 
-
+fort_15th = yes
 add_core = CHE
 owner = CHE
 controller = CHE

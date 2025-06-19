@@ -2047,7 +2047,7 @@ expanded_infrastructure = {
 	allowed_num_of_manufactories = 1
 	garrison_growth = 0.05
 	local_autonomy = -0.005
-	local_governing_cost_increase = 15
+	local_governing_cost_increase = 12
 	local_governing_cost = 0.1
 	local_great_project_upgrade_cost = -0.05
 	local_development_cost = -0.1
@@ -2068,8 +2068,10 @@ expanded_infrastructure = {
 	local_defensiveness = 0.05
 	local_assault_fort_ability = -0.025
 	local_garrison_damage = 0.025
-	local_manpower = 0.125
-	local_sailors = 150
+	local_manpower = 0.2
+	local_sailors = 200
+	local_monthly_devastation = -0.05
+	local_garrison_size = 0.1
 }
 
 centralize_state = {
