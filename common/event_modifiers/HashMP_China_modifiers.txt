@@ -133,10 +133,12 @@ h_cyi_anc3_1 = {
 h_cyi_anc3_2 = {
 	hostile_attrition = 2
 	max_hostile_attrition = 2
+	own_territory_dice_roll_bonus = 1	
 }
 
 h_cyi_anc3_3 = {
-	infantry_power = 0.1
+	fire_damage = 0.1
+	fire_damage_received = -0.1
 }
 
 h_qic_anc1_1 = {
@@ -246,8 +248,8 @@ h_yue_anc2_3 = {
 }
 
 h_yue_anc3_1 = {
-	fire_damage = 0.1
-	fire_damage_received = -0.1
+	morale_damage_received = -0.2
+	reinforce_speed = 0.25
 }
 
 h_yue_anc3_2 = {

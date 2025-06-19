@@ -254,9 +254,10 @@ YUE_ideas = { #Yue
 	}
 	YUE_6 = {
 		global_unrest = -1
+		adm_advisor_cost = -0.1	
 	}
 	YUE_5 = {
-		fire_damage = 0.1
+		morale_damage_received = -0.15	
 	}
 }
 
@@ -277,7 +278,7 @@ QIC_ideas = { #Qi
 	
 	QIC_1 = {
 		infantry_power = 0.15
-		drill_decay_modifier = -0.10
+		drill_decay_modifier = -0.1
 	}
 	QIC_2 = {
 		global_manpower_modifier = 0.25
@@ -331,6 +332,7 @@ CXI_ideas = { #Xi
 	}
 	CXI_4 = {
 		state_maintenance_modifier = -0.25
+		state_governing_cost = -0.1
 	}
 	CXI_5 = {
 		army_tradition = 1

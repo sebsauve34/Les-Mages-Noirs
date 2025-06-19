@@ -28,7 +28,7 @@ mean_time_to_happen = {
 			}
 		}
 	option = {
-		name = antagonist_event.1.a
+		name = antagonist_event.1.b
 		every_country = {
 				limit = {
 					AND = {
@@ -41,7 +41,7 @@ mean_time_to_happen = {
 		}
 
 	option = {
-		name = antagonist_event.1.a
+		name = antagonist_event.1.c
 		every_country = {
 				limit = {
 					AND = {
@@ -53,7 +53,7 @@ mean_time_to_happen = {
 			}
 		}
 	option = {
-		name = antagonist_event.1.a
+		name = antagonist_event.1.e
 		every_country = {
 				limit = {
 					AND = {

@@ -1,7 +1,7 @@
 clerical_poverty_aspect = {
 	cost = 100
 	modifier = {
-		church_influence_modifier = -0.1
+		global_tax_modifier = 0.2
 		stability_cost_modifier = -0.2
 	}
 }
@@ -9,7 +9,7 @@ clerical_poverty_aspect = {
 punishment_of_sins_aspect = {
 	cost = 100
 	modifier = {
-		nobles_influence_modifier = -0.1
+		fort_maintenance_modifier = -0.1
 		yearly_corruption = -0.1
 	}
 }
@@ -41,15 +41,16 @@ sola_scriptura_aspect = {
 adamite_services_aspect = {
 	cost = 100
 	modifier = {
-		culture_conversion_cost = -0.25
+		culture_conversion_cost = -0.15
+		development_cost_in_primary_culture = -0.05
 	}
 }
 
 pacifism_aspect = {
 	cost = 100
 	modifier = {
-		diplomatic_reputation = 1
-		improve_relation_modifier = 0.3
+		diplomatic_reputation = 2
+		improve_relation_modifier = 0.4
 	}
 	ai_will_do = {
 		factor = 0
@@ -60,6 +61,7 @@ regular_defenestrations_aspect = {
 	cost = 100
 	modifier = {
 		global_unrest = -2
+		core_creation = -0.1
 	}
 }
 
@@ -73,7 +75,7 @@ taborite_resurgence_aspect = {
 freedom_to_preach_aspect = {
 	cost = 100
 	modifier = {
-		religious_unity = 0.25
+		innovativeness_gain = 0.5
 		tolerance_heretic = 2
 	}
 }

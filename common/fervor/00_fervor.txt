@@ -45,7 +45,6 @@ fervor_war = {
 	}
 	effect = {
 		land_morale = 0.1
-		naval_morale = 0.1
 		morale_damage = 0.1
 	}
 	ai_will_do = {
@@ -69,7 +68,7 @@ fervor_stability = {
 	trigger = {
 	}
 	effect = {
-		development_cost = -0.1
+		development_cost = -0.05
 		global_unrest = -2
 		all_estate_loyalty_equilibrium = 0.1
 	}
@@ -165,7 +164,6 @@ fervor_war_buffed = {
 	}
 	effect = {
 		land_morale = 0.1
-		naval_morale = 0.1
 		morale_damage = 0.15
 	}
 	ai_will_do = {
@@ -189,7 +187,7 @@ fervor_stability_buffed = {
 	trigger = {
 	}
 	effect = {
-		development_cost = -0.1
+		development_cost = -0.075
 		global_unrest = -3
 		all_estate_loyalty_equilibrium = 0.15
 	}

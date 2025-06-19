@@ -187,7 +187,7 @@ monopoly_aspect = {
 	}
 	effect = {
 		add_mercantilism = 1
-		add_years_of_income = 0.25
+		add_years_of_income = 0.1
 	}
 	ai_will_do = {
 		factor = 1

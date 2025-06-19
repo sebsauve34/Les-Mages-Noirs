@@ -77,7 +77,7 @@ blessing_dakhma = {
 	is_blessing = yes
 
 	modifier = {
-		build_cost = -0.10
+		build_cost = -0.1
 		monthly_asha_vahishta = 0.5
 	}
 	ai_will_do = {
