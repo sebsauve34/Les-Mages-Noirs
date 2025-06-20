@@ -18,7 +18,7 @@ discovered_by = KHA
 discovered_by = OIR
 discovered_by = QNG
 discovered_by = ANU
-
+fort_15th = yes
 
 #1440.1.1 = { fort_15th = yes } # Inabayama (later Gifu) Castle, Estimation
 1542.1.1 = { discovered_by = POR }
