@@ -12468,23 +12468,23 @@ ODA_ideas = {
 	}
 	free = yes		#will be added at load.
 	
-	oda_rakuichi_rakuza = {
-		global_trade_goods_size_modifier = 0.2
-		global_tax_modifier = -0.4
-	}
-	oda_kenchi = {
-		global_manpower_modifier = 0.33
-	}
-	oda_tenka_fubu = {
-		province_warscore_cost = -0.1
-		core_creation = -0.1
-	}
 	oda_triple_firing = {
 		fire_damage = 0.2
 		morale_damage_received = 0.1
 	}
+	oda_kenchi = {
+		global_manpower_modifier = 0.33
+	}
 	oda_patronization_of_the_west = {
 		technology_cost = -0.1
+	}
+	oda_rakuichi_rakuza = {
+		global_trade_goods_size_modifier = 0.2
+		global_tax_modifier = -0.4
+	}
+	oda_tenka_fubu = {
+		province_warscore_cost = -0.1
+		core_creation = -0.1
 	}
 	oda_generals = {
 		leader_land_shock = 1

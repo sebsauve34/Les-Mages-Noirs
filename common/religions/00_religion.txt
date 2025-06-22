@@ -327,7 +327,7 @@ christian = {
 		}
 		country = {
 			development_cost = -0.1
-			fire_damage = 0.15
+			fire_damage = 0.1
 		}
 		
 		country_as_secondary = {

@@ -1086,3 +1086,10 @@ divine_stratagem = {
     backrow_artillery_damage = 0.1
     
 }
+
+#Boardgame events modifiers
+HRE_internal_focus = {
+	imperial_authority = 0.2
+	improve_relation_modifier = 0.3
+	global_prosperity_growth = 1
+}

@@ -151,7 +151,7 @@ hussite_rebels = {
 					is_reformation_center = no
 					NOT = { owner = { religion = hussite } }
 				}
-				change_religion = hussite
+				#change_religion = hussite
 				add_province_modifier = {
 					name = "forced_conversion"
 					duration = 730

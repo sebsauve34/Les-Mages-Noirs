@@ -1,3 +1,4 @@
+namespace = antagonist_event
 # The Last Jousting Tournament
 country_event = {
 	id = antagonist_event.1
@@ -64,3 +65,138 @@ mean_time_to_happen = {
 		kill_ruler = yes
 			}
 		}
+}
+#imperial intervention
+country_event = {
+	id = antagonist_event.2
+	title = antagonist_event.2.t
+	desc = antagonist_event.2.d
+	picture = HRE_eventPicture
+	fire_only_once = yes
+	major = yes
+
+trigger = {
+	is_emperor = yes
+	current_age = age_of_discovery
+	}
+mean_time_to_happen = {
+		months = 120
+	}
+
+	option = {
+		name = antagonist_event.2.a
+		every_country = {
+				limit = {
+				is_enemy = ROOT
+				}
+		add_years_of_income = -1
+		add_yearly_manpower = -1
+		add_adm_power = -100
+		add_dip_power = -100
+		add_mil_power = -100
+		}
+	}
+	option = {
+		name = antagonist_event.2.b
+		add_country_modifier = {
+			name = HRE_internal_focus
+			duration = 3650
+		}
+	}
+}
+
+#tatar raids
+country_event = {
+	id = antagonist_event.3
+	title = antagonist_event.3.t
+	desc = antagonist_event.3.d
+	picture = MONGOL_BANNERS_eventPicture
+	fire_only_once = yes
+	major = yes
+
+trigger = {
+	player = yes
+	is_year = 1460
+		NOT = {
+	tag = TUR
+	tag = MOS
+	tag = POL 
+	tag = HUN
+	tag = LIT
+	tag = SHY
+	tag = BUK
+		}
+	}
+mean_time_to_happen = {
+	
+		months = 300
+	}
+	option = {
+		name = antagonist_event.3.a
+		280 = {
+		spawn_rebels = {
+				type = cossack_rebels 
+				size = 2
+				win = yes
+			}
+		}
+		282 = {
+		spawn_rebels = {
+				type = cossack_rebels 
+				size = 3
+				win = yes
+			}
+		}
+	}
+	option = {
+		name = antagonist_event.3.b
+		1778 = {
+		spawn_rebels = {
+				type = cossack_rebels 
+				size = 2
+				win = yes
+			}
+		}
+		1079 = {
+		spawn_rebels = {
+				type = cossack_rebels 
+				size = 3
+				win = yes
+			}
+		}
+	}
+	option = {
+		name = antagonist_event.3.c
+		259 = {
+		spawn_rebels = {
+				type = cossack_rebels 
+				size = 2
+				win = yes
+			}
+		}
+		260 = {
+		spawn_rebels = {
+				type = cossack_rebels 
+				size = 3
+				win = yes
+			}
+		}
+	}
+	option = {
+		name = antagonist_event.3.e
+		155 = {
+		spawn_rebels = {
+				type = cossack_rebels 
+				size = 2
+				win = yes
+			}
+		}
+		1953 = {
+		spawn_rebels = {
+				type = cossack_rebels 
+				size = 3
+				win = yes
+			}
+		}
+	}
+}
