@@ -267,25 +267,31 @@ h_chinese_empire = {
 }
 
 h_csh_legacy = {
-	shock_damage = 0.2
+	shock_damage = 0.15
+	global_tax_modifier = 0.15
 }
 
 h_cxi_legacy = {
 	discipline = 0.05
+	core_creation = -0.15
 }
 
 h_cyi_legacy = {
-	morale_damage = 0.2
+	development_cost_modifier = -0.1
+	fire_damage = 0.2
 }
 
 h_qic_legacy = {
 	shock_damage_received = -0.15
+	technology_cost = -0.1	
 }
 
 h_wuu_legacy = {
 	advisor_cost = -0.25
+	infantry_power = 0.1
 }
 
 h_yue_legacy = {
+	global_trade_goods_size_modifier = 0.1	
 	land_morale = 0.1
 }

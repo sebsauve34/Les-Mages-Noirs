@@ -1093,3 +1093,12 @@ HRE_internal_focus = {
 	improve_relation_modifier = 0.3
 	global_prosperity_growth = 1
 }
+board_plague = {
+	local_tax_modifier = -0.5
+	local_production_efficiency = -0.5
+	local_monthly_devastation = 0.5
+	local_manpower_modifier = -0.75
+	local_development_cost = 0.5
+	trade_goods_size_modifier = -0.5
+	province_trade_power_modifier = -0.5
+}
