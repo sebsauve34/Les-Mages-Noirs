@@ -12,7 +12,7 @@ trigger = {
 	current_age = age_of_reformation
 	is_subject = no
 	is_great_power = no
-	player = yes
+	ai = no
 	}
 
 mean_time_to_happen = {
@@ -115,7 +115,7 @@ country_event = {
 	major = yes
 
 trigger = {
-	player = yes
+	ai = no
 	is_year = 1460
 	capital_scope = {
 	continent = europe 
@@ -218,7 +218,7 @@ trigger = {
 	year = 1480
 	is_subject = no
 	is_great_power = no
-	player = yes
+	ai = no
 	}
 
 mean_time_to_happen = {
@@ -333,7 +333,7 @@ country_event = {
 trigger = {
 	year = 1550
 	is_subject = yes
-	player = yes
+	ai = no
 	capital_scope = { 
 		OR = {
 		continent = north_america 

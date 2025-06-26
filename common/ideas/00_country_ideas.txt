@@ -15030,11 +15030,12 @@ CHG_ideas = {
 CSH_ideas = {
 	start = {
 		leader_land_shock = 1
-		cavalry_cost = -0.1
+		shock_damage = 0.15
 	}
 	
 	bonus = {
-		shock_damage = 0.1
+		fort_maintenance_modifier = -0.2
+		garrison_size = 0.25
 	}
 	
 	trigger = {
@@ -15043,28 +15044,28 @@ CSH_ideas = {
 	free = yes
 	
 	shun_humble_beginnings = {
-		cavalry_power = 0.1
-		cav_to_inf_ratio = 0.15
+		cavalry_power = 0.15
+		cav_to_inf_ratio = 0.2
 	}
 	shun_dashing_king = {
-		diplomatic_reputation = 1
-		diplomatic_upkeep = 1
+		global_regiment_cost = -0.1
 	}
 	shun_hidden_treasury = {
 		global_tax_modifier = 0.2
 	}
 	shun_obedient_to_heaven = {
-		land_morale = 0.1
+		global_manpower_modifier = 0.2
 	}
 	shun_perfection_of_sieging = {
 		siege_ability = 0.15
+		movement_speed = 0.15
 	}
 	shun_from_sticks_to_guns = {
 		fire_damage_received = -0.1
 	}
 	shun_claim_to_the_mandate = {
-		governing_capacity_modifier = 0.1
-		legitimacy = 0.5
+		development_cost_in_primary_culture = -0.1
+		culture_conversion_cost = -0.25	
 	}
 }
 

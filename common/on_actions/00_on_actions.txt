@@ -4988,6 +4988,10 @@ on_minority_expelled = {
 
 # THIS = Raiding country, FROM = Sea province
 on_raid_coast = {
+	change_variable = {
+			which = num_of_raided_coasts
+			value = 1
+		}
 	if = {
 		limit = {
 			has_faction = pr_buccaneers
@@ -5017,6 +5021,7 @@ on_raid_coast = {
 		}
 	}
 }
+
 
 # ROOT = Tag that captured the flagship, FROM = Tag that lost the flagship
 on_flagship_captured = {
