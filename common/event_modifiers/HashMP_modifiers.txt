@@ -1102,3 +1102,8 @@ board_plague = {
 	trade_goods_size_modifier = -0.5
 	province_trade_power_modifier = -0.5
 }
+Board_renaissance = {
+	idea_cost = -0.1
+	advisor_cost = -0.1
+	advisor_pool = 1	
+}

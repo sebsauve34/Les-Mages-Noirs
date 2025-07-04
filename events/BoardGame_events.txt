@@ -364,3 +364,205 @@ option = {
 				}	
 			}
 		}
+
+# Board game renaissance
+
+country_event = {
+	id = antagonist_event.6
+	title = antagonist_event.6.t
+	desc = antagonist_event.6.d
+	picture = PAINTER_ARTIST_eventPicture
+	fire_only_once = yes
+	major = yes
+
+trigger = {
+	capital_scope = { 
+	contient = europe
+	}
+	is_subject = no
+	current_age = age_of_discovery
+	ai = no
+	year = 1453
+}
+	mean_time_to_happen = {
+		months = 120
+	}
+	option = {
+		name = antagonist_event.6.a
+		define_advisor = {
+				name = "Leonardo de Vinci"
+				type = artist 
+				cost_multiplier = 0.25
+				skill = 4
+			}
+		}
+	option = {
+		name = antagonist_event.6.b
+		define_advisor = {
+				name = "Leonardo di Vinci"
+				type = fortification_expert
+				cost_multiplier = 0.25
+				skill = 3
+			}
+		}
+	option = {
+		name = antagonist_event.6.c
+			add_country_modifier_for_age = {
+				name = Board_renaissance
+				age = age_of_discovery
+			}
+		add_adm_power = -100
+		}
+	}
+#Board game comet sighted
+	country_event = {
+	id = antagonist_event.7
+	title = antagonist_event.7.t
+	desc = antagonist_event.7.d
+	picture = COMET_SIGHTED_eventPicture
+	fire_only_once = yes
+	major = yes
+
+trigger = {
+	is_subject = no
+	ai = no
+	year = 1460
+	}
+	mean_time_to_happen = {
+		months = 600
+	}
+	option = {
+		name = antagonist_event.7.a
+			every_country = {
+					limit = {
+					capital_scope = { 
+					superregion = europe_superregion 
+					}
+				}
+			add_stability = -2
+			}
+		}
+	option = {
+		name = antagonist_event.7.b
+			every_country = {
+					limit = {
+					capital_scope = { 
+					superregion = eastern_europe_superregion 
+					}
+				}
+			add_stability = -2
+			}
+		}
+	option = {
+		name = antagonist_event.7.c
+			every_country = {
+					limit = {
+					capital_scope = { 
+						OR = { 
+					superregion = africa_superregion 
+					superregion = southern_africa_superregion 
+						}
+					}
+				}
+			add_stability = -2
+			}
+		}
+	
+	option = {
+		name = antagonist_event.7.e
+			every_country = {
+					limit = {
+					capital_scope = { 
+						OR = { 
+					superregion = near_east_superregion 
+					superregion = persia_superregion 
+					superregion = tartary_superregion 
+						}
+					}
+				}
+			add_stability = -2
+			}
+		}
+	option = {
+		name = antagonist_event.7.f
+			every_country = {
+					limit = {
+					capital_scope = { 
+						OR = { 
+					superregion = far_east_superregion 
+					superregion = china_superregion 
+						}
+					}
+				}
+			add_stability = -2
+			}
+		}
+		option = {
+		name = antagonist_event.7.g
+			every_country = {
+					limit = {
+					capital_scope = { 
+						OR = { 
+					superregion = india_superregion 
+					superregion = east_indies_superregion 
+						}
+					}
+				}
+			add_stability = -2
+			}
+		}
+	}
+#A common ennemy
+#Board game comet sighted
+	country_event = {
+	id = antagonist_event.8
+	title = antagonist_event.8.t
+	desc = antagonist_event.8.d
+	picture = HORDE_ON_HORSEBACK_eventPicture
+	fire_only_once = yes
+	major = yes
+
+trigger = {
+	year = 1450
+	tag = MAM
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+		name = antagonist_event.8.a
+		add_years_of_income = -0.25
+		add_yearly_manpower = -1
+		add_mil_power = 50
+
+		329 = {
+		add_unrest = 10
+		spawn_rebels = {
+				type = pretender_rebels 
+				size = 2
+				win = yes
+			}
+		}
+		1848 = {
+		add_unrest = 10
+		spawn_rebels = {
+				type = pretender_rebels 
+				size = 2
+				win = yes
+			}
+		}
+		4312 = {
+		add_unrest = 10
+		spawn_rebels = {
+				type = pretender_rebels 
+				size = 2
+				win = yes
+			}
+		}
+	}
+	option = {
+		name = antagonist_event.8.b
+		add_dip_power = 50
+		vassalize = CYP
+		vassalize = KNI
+	}

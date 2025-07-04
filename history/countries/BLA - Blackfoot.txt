@@ -7,9 +7,11 @@ technology_group = north_american
 capital = 2501 # Niitsitapi
 
 
-1400.1.1 = {
+1444.1.1 = {
 	monarch = {
-		name = "Zaibou the Zoopega"
+		birth_date = 1397.1.1 #Age - 47
+		name = "Zaibou"
+		dynasty = "The Zoopega"
 		adm = 5
 		dip = 5
 		mil = 5

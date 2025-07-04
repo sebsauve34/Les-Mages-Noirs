@@ -15,7 +15,10 @@ war_goal = {
 	rem_attacker = MAM
 	rem_defender = TUR
 	rem_defender = ETH
+	rem_defender = VEN
+	rem_attack = CYP
 	rem_attacker = DUL
 	rem_attacker = RAM
 	rem_attacker = AKK
+	rem_attack = KNI
 }

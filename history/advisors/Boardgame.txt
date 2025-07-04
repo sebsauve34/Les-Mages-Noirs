@@ -1,0 +1,21 @@
+advisor = {
+	advisor_id = 5000
+	name = "Leonardo de Vinci" #universal genius
+	location = 104 #Milan!
+	type = artist 
+	cost_multiplier = 0.25
+	skill = 4
+	date = 1433.4.15	#25 years old
+	death_date = 1519.5.2
+}
+
+advisor = {
+	advisor_id = 5001
+	name = "Leonardo di Vinci" #universal genius
+	location = 104 #Milan!
+	type = fortification_expert
+	cost_multiplier = 0.25
+	skill = 3
+	date = 1433.4.15	#25 years old
+	death_date = 1519.5.2
+}

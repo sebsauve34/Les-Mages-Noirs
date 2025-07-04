@@ -2704,7 +2704,8 @@ mamluk_government = {
 
 	modifiers = {
 		num_accepted_cultures = 3
-		global_autonomy = -0.025
+		global_autonomy = -0.025	
+		diplomatic_upkeep = 1
 		monarch_admin_power = 2
 		same_culture_advisor_cost = -0.25
 		promote_culture_cost = -0.5
