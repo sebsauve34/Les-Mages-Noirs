@@ -89,7 +89,7 @@ technology = { #National Ideas
 
 	allowed_idea_groups = 1
 	production_efficiency	 =	0.02
-	governing_capacity = 100
+	governing_capacity = 125
 }
 
 technology = { #Workshop
@@ -127,7 +127,7 @@ technology = { #Courthouse
 	}
 
 	courthouse = yes
-	governing_capacity = 100
+	governing_capacity = 150
 	
 }
 
@@ -184,7 +184,7 @@ technology = { #Early Modern Administration
 	
 	administrative_monarchy	= yes 
 	administrative_republic	= yes
-	governing_capacity = 150
+	governing_capacity = 200
 	state_house = yes
 	administrative_efficiency = 0.05
 	development_cost_modifier = -0.05
@@ -216,7 +216,7 @@ technology = { #Scientific Experimentation
 	
 	plantations = yes
 	allowed_idea_groups	= 4
-	governing_capacity = 150
+	governing_capacity = 250
 }
 
 technology = { #Military Administration
@@ -262,7 +262,7 @@ technology = { #University
 	}
 	
 	university = yes	
-	governing_capacity = 150
+	governing_capacity = 250
 	
 	administrative_efficiency = 0.05
 	development_cost_modifier = -0.05
@@ -309,7 +309,7 @@ technology = { #Absolute Rulership
 	}
 	
 	republican_dictatorship = yes
-	governing_capacity = 200
+	governing_capacity = 300
 	administrative_efficiency = 0.05
 	development_cost_modifier = -0.05
 }
@@ -379,7 +379,7 @@ technology = { #Bonds and Tontines
 	}
 	allowed_idea_groups 	= 	7
 	counting_house = yes  
-	governing_capacity = 200
+	governing_capacity = 300
 }
 
 technology = { #Improved Production
@@ -431,7 +431,7 @@ technology = { #Modern Bureaucracy
 	allowed_idea_groups 	= 	8
 	administrative_efficiency = 0.05
 	development_cost_modifier = -0.05	
-	governing_capacity = 250
+	governing_capacity = 350
 }
 
 technology = { #Rotherham Plough
@@ -505,7 +505,7 @@ technology = { #Revolutionary Ideals
 	
 	revolutionary_republic = yes
 	revolutionary_empire = yes
-	governing_capacity = 350
+	governing_capacity = 400
 }
 
 technology = { #Four Field Rotation

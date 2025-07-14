@@ -241,8 +241,7 @@ h_merc_p_150_med_2 = {
 		current_age = age_of_revolutions
 	}
 	modifier = {
-		reinforce_speed = -0.25
-        	recover_army_morale_speed = -0.1
+		reinforce_speed = -0.1
 	}
 }
 
@@ -338,8 +337,8 @@ h_merc_p_100_med_2 = {
 		current_age = age_of_absolutism
 	}
 	modifier = {
-		reinforce_speed = -0.25
-       	 	recover_army_morale_speed = -0.1
+		reinforce_speed = -0.1
+       	 	
 	}
 }
 
@@ -355,8 +354,8 @@ h_merc_d_100_med_1 = {
 		current_age = age_of_reformation 
 	}
 	modifier = {
-		reinforce_speed = -0.25
-        	recover_army_morale_speed = -0.1
+		reinforce_speed = -0.1
+        	
 	}
 }
 
@@ -431,8 +430,8 @@ h_merc_p_60_med_2 = {
 		current_age = age_of_discovery
 	}
 	modifier = {
-		reinforce_speed = -0.25
-        	recover_army_morale_speed = -0.1
+		reinforce_speed = -0.1
+        	
 	}
 }
 
@@ -467,8 +466,8 @@ h_merc_d_60_small_2 = {
 		current_age = age_of_discovery
 	}
 	modifier = {
-		reinforce_speed = -0.25
-       	 	recover_army_morale_speed = -0.1
+		reinforce_speed = -0.1
+       	 	
 	}
 }
 
@@ -518,8 +517,8 @@ h_merc_artillery_6 = {
 		}
 	}
 	modifier = {
-		reinforce_speed = -0.25
-       		recover_army_morale_speed = -0.1
+		reinforce_speed = -0.1
+       		
 	}
 }
 
@@ -540,8 +539,8 @@ h_merc_artillery_5 = {
 		}
 	}
 	modifier = {
-		reinforce_speed = -0.25
-        	recover_army_morale_speed = -0.1
+		reinforce_speed = -0.1
+        	
 	}
 }
 
@@ -562,8 +561,8 @@ h_merc_artillery_4 = {
 		}
 	}
 	modifier = {
-		reinforce_speed = -0.25
-        	recover_army_morale_speed = -0.1
+		reinforce_speed = -0.1
+        	
 	}
 }
 h_merc_artillery_3 = {
@@ -585,8 +584,8 @@ h_merc_artillery_3 = {
 		}
 	}
 	modifier = {
-		reinforce_speed = -0.25
-        	recover_army_morale_speed = -0.1
+		reinforce_speed = -0.1
+        	
 	}
 }
 
@@ -609,8 +608,8 @@ h_merc_artillery_2 = {
 		}
 	}
 	modifier = {
-		reinforce_speed = -0.25
-       		recover_army_morale_speed = -0.1
+		reinforce_speed = -0.1
+       		
 	}
 }
 
@@ -633,8 +632,8 @@ h_merc_artillery_1 = {
 		}
 	}
 	modifier = {
-		reinforce_speed = -0.25
-       		recover_army_morale_speed = -0.1
+		reinforce_speed = -0.1
+       		
 	}
 }
 
@@ -830,122 +829,242 @@ regiments_per_development = 0.01
 		current_age = age_of_reformation 
 	}
 	modifier = {
-		reinforce_speed = -0.25
-        	recover_army_morale_speed = -0.1
+		reinforce_speed = -0.1
+        	
 	}
 }
-#
-#h_merc_inflarge_1 = {
-#	regiments_per_development = 0.06
-#	cavalry_weight = 0.0
-#	artillery_weight = 0.0
-#	cavalry_cap = 0
-#	cost_modifier = 0.7
-#	trigger = {
-#		total_development = 150
-#	}
-#	modifier = {
-#	
-#	}
-#}
-#
-#h_merc_infmed_3 = {
-#	regiments_per_development = 0.05
-#	cavalry_weight = 0.0
-#	artillery_weight = 0.0
-#	cavalry_cap = 0
-#	cost_modifier = 0.75
-#	trigger = {
-#		total_development = 150
-#	}
-#	modifier = {
-#	
-#	}
-#}
-#
-#h_merc_infmed_2 = {
-#	regiments_per_development = 0.05
-#	cavalry_weight = 0.0
-#	artillery_weight = 0.0
-#	cavalry_cap = 0
-#	cost_modifier = 0.75
-#	trigger = {
-#		total_development = 150
-#	}
-#	modifier = {
-#	
-#	}
-#}
-#
-#h_merc_infmed_1 = {
-#	regiments_per_development = 0.05
-#	cavalry_weight = 0.0
-#	artillery_weight = 0.0
-#	cavalry_cap = 0
-#	cost_modifier = 0.75
-#	trigger = {
-#		total_development = 150
-#	}
-#	modifier = {
-#	
-#	}
-#}
-#
-#h_merc_infsmallmed_1 = {
-#	regiments_per_development = 0.07
-#	cavalry_weight = 0.0
-#	artillery_weight = 0.0
-#	cavalry_cap = 0
-#	cost_modifier = 0.5
-#	trigger = {
-#		NOT = { total_development = 150 }
-#	}
-#	modifier = {
-#	
-#	}
-#}
-#
-#h_merc_infsmall_3 = {
-#	regiments_per_development = 0.06
-#	cavalry_weight = 0.0
-#	artillery_weight = 0.0
-#	cavalry_cap = 0
-#	cost_modifier = 0.75
-#	trigger = {
-#        NOT = { total_development = 150 }
-#	}
-#	modifier = {
-#	
-#	}
-#}
-#
-#h_merc_infsmall_2 = {
-#	regiments_per_development = 0.06
-#	cavalry_weight = 0.0
-#	artillery_weight = 0.0
-#	cavalry_cap = 0
-#	cost_modifier = 0.75
-#	trigger = {
-#        NOT = { total_development = 150 }
-#	}
-#	modifier = {
-#	
-#	}
-#}
-#
-#h_merc_infsmall_1 = {
-#	regiments_per_development = 0.06
-#	cavalry_weight = 0.0
-#	artillery_weight = 0.0
-#	cavalry_cap = 0
-#	cost_modifier = 0.75
-#	trigger = {
-#        NOT = { total_development = 150 }
-#	}
-#	modifier = {
-#	
-#	}
-#}
+
+h_merc_inflarge_1 = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 0.8
+	no_additional_manpower_from_max_size = yes
+	min_size = 20
+	max_size = 20
+	trigger = {
+		AND = {
+       		current_age = age_of_discovery	
+			OR = {
+				full_idea_group = innovativeness_ideas 
+				full_idea_group = religious_ideas 
+				full_idea_group = economic_ideas 
+				full_idea_group = expansion_ideas 
+				full_idea_group = administrative_ideas
+				full_idea_group = humanist_ideas 
+				full_idea_group = infrastructure_ideas 
+			}
+		}
+	}
+	modifier = {
+		land_attrition = -0.1
+		recover_army_morale_speed = 0.05
+	}
+}
+
+h_merc_infmed_3 = {
+	regiments_per_development = 0.01
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 0.8
+	no_additional_manpower_from_max_size = yes
+	min_size = 30
+	max_size = 30
+	trigger = {
+		AND = {
+       		current_age = age_of_reformation 
+			OR = {
+				full_idea_group = innovativeness_ideas 
+				full_idea_group = religious_ideas 
+				full_idea_group = economic_ideas 
+				full_idea_group = expansion_ideas 
+				full_idea_group = administrative_ideas
+				full_idea_group = humanist_ideas 
+				full_idea_group = infrastructure_ideas 
+			}
+		}
+	}
+	modifier = {
+		land_attrition = -0.1
+		recover_army_morale_speed = 0.05
+	}
+}
+
+h_merc_infmed_2 = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	no_additional_manpower_from_max_size = yes
+	min_size = 40
+	max_size = 40
+	cost_modifier = 0.8
+	trigger = {
+		AND = {
+       		current_age = age_of_absolutism
+			OR = {
+				full_idea_group = innovativeness_ideas 
+				full_idea_group = religious_ideas 
+				full_idea_group = economic_ideas 
+				full_idea_group = expansion_ideas 
+				full_idea_group = administrative_ideas
+				full_idea_group = humanist_ideas 
+				full_idea_group = infrastructure_ideas 
+			}
+		}
+	}
+	modifier = {
+		land_attrition = -0.1
+		recover_army_morale_speed = 0.05
+	}
+}
+
+h_merc_infmed_1 = {
+	regiments_per_development = 0.05
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	no_additional_manpower_from_max_size = yes
+	min_size = 55
+	max_size = 55
+	cost_modifier = 0.8
+	trigger = {
+		AND = {
+       		current_age = age_of_revolutions
+			OR = {
+				full_idea_group = innovativeness_ideas 
+				full_idea_group = religious_ideas 
+				full_idea_group = economic_ideas 
+				full_idea_group = expansion_ideas 
+				full_idea_group = administrative_ideas
+				full_idea_group = humanist_ideas 
+				full_idea_group = infrastructure_ideas 
+			}
+		}
+	}
+	modifier = {
+		land_attrition = -0.1
+		recover_army_morale_speed = 0.05
+	}
+}
+
+h_merc_infsmallmed_1 = {
+	regiments_per_development = 0.07
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	no_additional_manpower_from_max_size = yes
+	min_size = 20
+	max_size = 20
+	cost_modifier = 0.8
+	trigger = {
+		AND = {
+       		current_age = age_of_discovery	
+			OR = {
+				full_idea_group = spy_ideas 
+				full_idea_group = trade_ideas 
+				full_idea_group = exploration_ideas 
+				full_idea_group = maritime_ideas 
+				full_idea_group = influence_ideas 
+				full_idea_group = diplomatic_ideas 
+				full_idea_group = court_ideas 
+			}
+		}
+	}
+	modifier = {
+		reinforce_speed = 0.1
+		reinforce_cost_modifier = -0.1
+	}
+}
+
+h_merc_infsmall_3 = {
+	regiments_per_development = 0.06
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 0.8
+	no_additional_manpower_from_max_size = yes
+	min_size = 30
+	max_size = 30
+	trigger = {
+        AND = {
+       		current_age = age_of_reformation 
+			OR = {
+				full_idea_group = spy_ideas 
+				full_idea_group = trade_ideas 
+				full_idea_group = exploration_ideas 
+				full_idea_group = maritime_ideas 
+				full_idea_group = influence_ideas 
+				full_idea_group = diplomatic_ideas 
+				full_idea_group = court_ideas 
+			}
+		}
+	}
+	modifier = {
+		reinforce_speed = 0.1
+		reinforce_cost_modifier = -0.1	
+	}
+}
+
+h_merc_infsmall_2 = {
+	regiments_per_development = 0.06
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 0.8
+	no_additional_manpower_from_max_size = yes
+	min_size = 40
+	max_size = 40
+	trigger = {
+		AND = {
+      	 		current_age = age_of_absolutism
+			OR = {
+				full_idea_group = spy_ideas 
+				full_idea_group = trade_ideas 
+				full_idea_group = exploration_ideas 
+				full_idea_group = maritime_ideas 
+				full_idea_group = influence_ideas 
+				full_idea_group = diplomatic_ideas 
+				full_idea_group = court_ideas 
+			}
+		}
+	}
+	modifier = {
+		reinforce_speed = 0.1
+		reinforce_cost_modifier = -0.1
+	}
+}
+
+h_merc_infsmall_1 = {
+	regiments_per_development = 0.06
+	cavalry_weight = 0.0
+	artillery_weight = 0.0
+	cavalry_cap = 0
+	cost_modifier = 0.8
+	no_additional_manpower_from_max_size = yes
+	min_size = 55
+	max_size = 55
+	trigger = {
+        AND = {
+      	 		current_age = age_of_revolutions
+			OR = {
+				full_idea_group = spy_ideas 
+				full_idea_group = trade_ideas 
+				full_idea_group = exploration_ideas 
+				full_idea_group = maritime_ideas 
+				full_idea_group = influence_ideas 
+				full_idea_group = diplomatic_ideas 
+				full_idea_group = court_ideas 
+			}
+		}
+	}
+	modifier = {
+		reinforce_speed = 0.1
+		reinforce_cost_modifier = -0.1
+	}
+}
 
 ########################################
 # Unique Mercenaries - HashMP CE

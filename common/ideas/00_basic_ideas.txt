@@ -677,7 +677,7 @@ defensive_ideas = {
 		shock_damage_received = -0.1
 	}
 	military_drill = {
-		morale_damage_received = -0.2
+		morale_damage_received = -0.15
 	}
 	improved_manuever = {
 		reinforce_speed = 0.25

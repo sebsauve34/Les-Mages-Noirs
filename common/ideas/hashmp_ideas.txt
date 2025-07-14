@@ -336,9 +336,10 @@ CXI_ideas = { #Xi
 	}
 	CXI_5 = {
 		army_tradition = 1
+		leader_siege = 1	
 	}
 	CXI_6 = {
-		production_efficiency = 0.15
+		production_efficiency = 0.2
 	}
 	CXI_7 = {
 		governing_capacity_modifier = 0.1
