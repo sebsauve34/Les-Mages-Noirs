@@ -11724,11 +11724,13 @@ estate_janissary_ottoman_vanguards_mod = {
 }
 
 estate_church_development_of_temples_mod = {
-	local_development_cost = -0.05
+	local_tax_modifier = 0.15
+	local_institution_spread = 0.15
 	religion = yes
 }
 estate_brahmins_development_of_temples_mod = {
-	local_development_cost = -0.05
+	local_tax_modifier = 0.15
+	local_institution_spread = 0.15
 	religion = yes
 }
 estate_nobles_development_of_castles_mod = {

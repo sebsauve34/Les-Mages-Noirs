@@ -186,8 +186,8 @@ technology = { #Early Modern Administration
 	administrative_republic	= yes
 	governing_capacity = 200
 	state_house = yes
-	administrative_efficiency = 0.05
-	development_cost_modifier = -0.05
+	administrative_efficiency = 0.025
+	development_cost_modifier = -0.025
 }
 
 technology = { #Improved Drainage
@@ -429,8 +429,8 @@ technology = { #Modern Bureaucracy
 		enlightenment = 0.3
 	}
 	allowed_idea_groups 	= 	8
-	administrative_efficiency = 0.05
-	development_cost_modifier = -0.05	
+	administrative_efficiency = 0.075
+	development_cost_modifier = -0.075	
 	governing_capacity = 350
 }
 
