@@ -383,4 +383,27 @@ country_event = {
 	}
 }
 
+country_event = {
+	id = qolu.11
+	title = qolu.11.t
+	desc = qolu.11.d
+	picture = BATTLE_eventPicture
+	fire_only_once = yes
+	major = yes
 
+	trigger = {
+		is_year = 1640
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = qolu.11.a 
+		every_country = {
+		add_country_modifier = {
+			name = the_general_crisis 
+			duration = 10950
+		}
+	}
+}
+		

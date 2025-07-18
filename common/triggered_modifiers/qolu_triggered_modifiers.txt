@@ -22,57 +22,57 @@ ahead_of_time = {
 	expand_infrastructure_cost_modifier = -0.25
 }
 
-the_great_debasement = {
-	potential = {
-		OR = {
-		ROOT = {
-				ai = no	
-			}
-		ROOT = {
-				ai = yes
-			}
-		}
-	}
-	trigger = {
-		is_year = 1540
-		not = { is_year = 1560 }
-		}
-	interest = 0.25
-	gold_depletion_chance_modifier = 10
-	inflation_reduction = -0.5
-	monthly_gold_inflation_modifier = 6
-	treasure_fleet_income = -1
-	inflation_action_cost = 1
-}
-
-the_general_crisis= {
-	potential = {
-		OR = {
-		ROOT = {
-				ai = no	
-			}
-		ROOT = {
-				ai = yes
-			}
-		}
-	}
-	trigger = {
-		is_year = 1640
-		not = { is_year = 1670 }
-		}
-	development_cost = 0.2
-	global_prosperity_growth = -3
-	global_trade_goods_size_modifier = -0.1	
-	warscore_cost_vs_other_religion = -0.1
-	core_creation = -0.15
-	build_cost = 0.25
-	trade_efficiency = -0.1	
-	warscore_from_battles_modifier = 0.25
-	interest = -0.25
-	years_of_nationalism = -5
-	monarch_lifespan = -0.2	
-	global_monthly_devastation = 0.4
-	unjustified_demands = -1
-	regiment_cost = -0.05
-	war_exhaustion = -0.05
-}	
+#the_great_debasement = {
+#	potential = {
+#		OR = {
+#		ROOT = {
+#				ai = no	
+#			}
+#		ROOT = {
+#				ai = yes
+#			}
+#		}
+#	}
+#	trigger = {
+#		is_year = 1540
+#		not = { is_year = 1560 }
+#		}
+#	interest = 0.25
+#	gold_depletion_chance_modifier = 10
+#	inflation_reduction = -0.5
+#	monthly_gold_inflation_modifier = 6
+#	treasure_fleet_income = -1
+#	inflation_action_cost = 1
+#}
+#
+#the_general_crisis= {
+#	potential = {
+#		OR = {
+#		ROOT = {
+#				ai = no	
+#			}
+#		ROOT = {
+#				ai = yes
+#			}
+#		}
+#	}
+#	trigger = {
+#		is_year = 1640
+#		not = { is_year = 1670 }
+#		}
+#	development_cost = 0.2
+#	global_prosperity_growth = -3
+#	global_trade_goods_size_modifier = -0.1	
+#	warscore_cost_vs_other_religion = -0.1
+#	core_creation = -0.15
+#	build_cost = 0.25
+#	trade_efficiency = -0.1	
+#	warscore_from_battles_modifier = 0.25
+#	interest = -0.25
+#	years_of_nationalism = -5
+#	monarch_lifespan = -0.2	
+#	global_monthly_devastation = 0.4
+#	unjustified_demands = -1
+#	regiment_cost = -0.05
+#	war_exhaustion = -0.05
+#}	

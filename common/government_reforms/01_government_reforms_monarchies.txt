@@ -309,6 +309,7 @@ daimyo = {
 		infantry_power = 0.1
 		amount_of_samurai = 4
 		diplomatic_upkeep = -2
+		land_forcelimit = 3
 	}
 	custom_attributes = {
 		locked_government_type = yes

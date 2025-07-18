@@ -1823,7 +1823,7 @@ diplomatic_consolidation_act = {
 	}
 	
 	global_tax_income = 48
-	vassal_forcelimit_bonus = 0.5
+	defensiveness = 0.2	
 
 	effect = {}
 	removed_effect = {}

@@ -1094,6 +1094,12 @@ country_event = {
 			value = 2
 			duration = 7300
 		}
+		every_country = {
+		add_country_modifier = {
+			name = the_great_debasement 
+			duration = 7300
+			}
+		}
 	}
 }
 

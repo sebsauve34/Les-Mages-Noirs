@@ -225,7 +225,7 @@ barracks = {
 	cost = 100
 	time = 12
 	modifier = {
-		local_manpower_modifier = 0.5
+		local_manpower_modifier = 0.4
 		monthly_militarized_society = 0.0005
 	}
 	on_built = {
@@ -324,7 +324,7 @@ barracks = {
 }
 
 shipyard = {
-	cost = 150
+	cost = 125
 	time = 12
 	build_trigger = {
 		#has_port = yes
@@ -333,7 +333,7 @@ shipyard = {
 	modifier = {
 		allowed_num_of_buildings = 1
 		naval_forcelimit = 1.5
-		land_forcelimit = 0.5
+		land_forcelimit = 0.25
 		ship_recruit_speed = -0.25
 		local_ship_repair = 0.25
 		
@@ -564,7 +564,6 @@ courthouse = {
 	modifier = {
 		local_state_maintenance_modifier = -0.1
 		allowed_num_of_buildings = 1
-		local_manpower_modifier = 0.05
 		local_autonomy = -0.1
 		local_tax_modifier = 0.05	
 		local_governing_cost = -0.25
@@ -667,7 +666,7 @@ dock = {
 	}
 	modifier = {
 		local_sailors_modifier = 0.5
-		local_manpower_modifier = 0.15
+		local_manpower_modifier = 0.1
 		
 	}
 	
@@ -761,10 +760,10 @@ dock = {
 }
 
 regimental_camp = {
-	cost = 250
+	cost = 200
 	time = 12
 	modifier = {
-		land_forcelimit = 1
+		land_forcelimit = 0.1
 		monthly_militarized_society = 0.0005
 	}
 	build_trigger = {
@@ -1285,7 +1284,7 @@ trade_depot = {
 }
 
 grand_shipyard = {
-	cost = 300
+	cost = 250
 	time = 12
 
 	make_obsolete = shipyard
@@ -1297,7 +1296,7 @@ grand_shipyard = {
 	modifier = {
 		allowed_num_of_buildings = 1
 		naval_forcelimit = 3
-		land_forcelimit = 1
+		land_forcelimit = 0.5
 		ship_recruit_speed = -0.5
 		local_ship_repair = 0.5
 		
@@ -1371,7 +1370,7 @@ training_fields = {
 #	}
 
 	modifier = {
-		local_manpower_modifier = 1
+		local_manpower_modifier = 0.8
 		monthly_militarized_society = 0.001
 	}
 	
@@ -1728,7 +1727,6 @@ town_hall = {
 
 	modifier = {
 		local_state_maintenance_modifier = -0.1
-		local_manpower_modifier = 0.1
 		local_autonomy = -0.2
 		local_tax_modifier = 0.1
 		allowed_num_of_buildings = 1
@@ -1844,7 +1842,7 @@ drydock = {
 
 	modifier = {
 		local_sailors_modifier = 1.0
-		local_manpower_modifier = 0.3
+		local_manpower_modifier = 0.2
 		
 	}
 	
@@ -1897,7 +1895,7 @@ drydock = {
 }
 
 conscription_center = {
-	cost = 500
+	cost = 400
 	time = 12
 
 

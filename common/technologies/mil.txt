@@ -365,8 +365,7 @@ technology = {
 	enable = central_american_hussar
 	enable = south_american_hussar
 	enable = polish_hussar	
-	enable = muscovite_caracolle	
-	enable = zaporoghian_cossack	
+	enable = muscovite_caracolle		
 	enable = topchis_artillery	
 	enable = asian_charge_cavalry
 	enable = reformed_mughal_mansabdar	
@@ -465,7 +464,7 @@ technology = {
 	#Carbine
 	maneuver_value 		= 	0.25
 	
-		
+	enable = zaporoghian_cossack		
 	enable = swedish_gallop	
 	enable = sikh_hit_and_run
 	enable = bhonsle_infantry	
