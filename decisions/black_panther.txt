@@ -1,0 +1,36 @@
+country_decisions = {
+
+	black_panther = {
+		ai_will_do = {
+			factor = 400
+		}
+		potential = {
+                        NOT = { has_country_flag = black_panther }
+			tag = BLA
+		}
+
+		effect = {
+                        BLA = {
+				define_general = {
+			        name = "Zaibou"
+			        shock = 8
+			        fire = 8
+			        manuever = 10
+			        siege = 4
+					#female = yes
+			        trait = cannoneer_personality
+
+			}
+			define_ruler = {
+					name = "Zaibou"
+					dynasty = "The Zoopega"
+					adm = 5
+					dip = 5
+					mil = 5
+				}
+                        hidden_effect = {
+                                set_country_flag = black_panther
+                        }
+		}
+	}	
+}

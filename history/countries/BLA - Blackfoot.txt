@@ -17,6 +17,6 @@ capital = 2501 # Niitsitapi
 		mil = 5
 	}
 	clear_scripted_personalities = yes
-	add_ruler_personality = infertile_personality
 	add_ruler_personality = immortal_personality
+	add_ruler_personality = infertile_personality
 }

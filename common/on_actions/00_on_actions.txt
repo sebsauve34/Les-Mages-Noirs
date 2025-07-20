@@ -1022,6 +1022,12 @@ on_monarch_death = {
 		flavor_mal.47 # Pilgrimage ends prematurely
 		government_events.3	# Election of a new Ruler
 	}
+		 if = {
+                limit = {
+                        has_country_flag = black_panther
+                }
+                clr_country_flag = black_panther
+        }
 }
 
 # country
