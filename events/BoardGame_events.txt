@@ -215,7 +215,7 @@ country_event = {
 	major = yes
 
 trigger = {
-	year = 1480
+	is_year = 1480
 	is_subject = no
 	is_great_power = no
 	ai = no
@@ -331,7 +331,7 @@ country_event = {
 	major = yes
 
 trigger = {
-	year = 1550
+	is_year = 1550
 	is_subject = yes
 	ai = no
 	capital_scope = { 
@@ -376,13 +376,13 @@ country_event = {
 	major = yes
 
 trigger = {
+	is_year = 1453
 	capital_scope = { 
 	contient = europe
 	}
 	is_subject = no
 	current_age = age_of_discovery
 	ai = no
-	year = 1453
 }
 	mean_time_to_happen = {
 		months = 120
@@ -426,7 +426,7 @@ trigger = {
 trigger = {
 	is_subject = no
 	ai = no
-	year = 1460
+	is_year = 1460
 	}
 	mean_time_to_happen = {
 		months = 600
@@ -523,7 +523,7 @@ trigger = {
 	major = yes
 
 trigger = {
-	year = 1450
+	is_year = 1450
 	tag = MAM
 	}
 	mean_time_to_happen = {
