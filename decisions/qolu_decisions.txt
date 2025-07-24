@@ -51,7 +51,30 @@ country_decisions = {
 			}
 		}
 	}
-	
+	no_state_edict_decision = {
+		color = { 166  0  0 }
+		major = yes
+		potential = {
+			ai = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+			any_state = {
+				NOT = { has_state_edict = chinese_industrialization }
+			}
+		}
+		effect = {
+			
+			every_owned_province = {
+				limit = {
+					is_state = yes
+				}
+				set_state_edict = chinese_industrialization 
+			}
+		}
+	}
 	institution_edict_decision = {
 		color = { 166  0  0 }
 		major = yes

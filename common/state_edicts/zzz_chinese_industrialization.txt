@@ -1,0 +1,21 @@
+chinese_industrialization = {
+	potential = {
+		always = yes
+	}
+	
+	allow = {
+		always = yes
+	}
+	
+	modifier = {
+		local_state_maintenance_modifier = -0.666
+	}
+	
+	color = { 5 371 129 }
+	
+	
+	ai_will_do = {
+		# has to be around at least 10 to be picked (depends on maintainance cost and general economy)
+		factor = 10
+	}
+}
