@@ -13229,10 +13229,10 @@ amphibious_specialization_reform_modifier = {
 }
 
 wei_suo_system_reform_barracks_modifier = {
-	garrison_growth = 0.15
+	garrison_growth = 0.2
 }
 wei_suo_system_reform_training_fields_modifier = {
-	garrison_growth = 0.3
+	garrison_growth = 0.4
 }
 wei_suo_system_reform_regimental_camp_modifier = {
 	local_garrison_size = 0.25

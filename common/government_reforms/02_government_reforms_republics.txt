@@ -2069,7 +2069,8 @@ republican_authoritarianism_reform = {
 	}
 	modifiers = {
 		global_unrest = -1
-		max_absolutism = 5
+		reelection_cost = -0.15
+		max_terms = 1
 	}
 	ai = {
 		factor = 1
@@ -2148,7 +2149,7 @@ democratic_values_reform = {
 		}
 	}
 	modifiers = {
-		global_trade_goods_size_modifier = 0.05
+		global_trade_goods_size_modifier = 0.1
 		maratha_muslim_influence_modifier = 0.1
 		rajput_muslim_influence_modifier = 0.1
 		burghers_influence_modifier = 0.1
@@ -2202,7 +2203,7 @@ religious_values_reform = {
 	}
 	modifiers = {
 		missionaries = 1
-		
+		same_religion_advisor_cost = -0.1
 		brahmins_hindu_influence_modifier = 0.1
 		brahmins_hindu_loyalty_modifier = 0.05
 
@@ -2499,8 +2500,8 @@ force_reelection_reform = {
 		}
 	}
 	modifiers = {
-		max_absolutism = -10
 		yearly_corruption = -0.1
+		mercantilism_cost = -0.2
 	}
 	custom_attributes = {
 		can_force_election = yes
@@ -2599,7 +2600,7 @@ consolidate_power_in_cities_reform = {
 		}
 	}
 	modifiers = {
-		diplomatic_upkeep = 1
+		trade_efficiency = 0.1
 		global_foreign_trade_power = 0.1
 	}
 	has_term_election = yes
@@ -2898,7 +2899,7 @@ presidential_reform = {
 	allow_normal_conversion = yes
 	modifiers = {
 		embracement_cost = -0.1
-		max_absolutism = 5
+		max_absolutism = 10
 	}
 	ai = {
 		factor = 1
@@ -2918,7 +2919,7 @@ estate_council_reform = {
 	allow_normal_conversion = yes
 	modifiers = {
 		all_estate_loyalty_equilibrium = 0.05
-		max_absolutism = -25
+		diplomats = 1
 	}
 	potential = {
 		is_revolutionary = no
@@ -3077,7 +3078,7 @@ broaden_executive_powers_reform = {
 	allow_normal_conversion = yes
 	modifiers = {
 		stability_cost_modifier = -0.15
-		all_power_cost = -0.02
+		technology_cost = -0.1
 	}
 	ai = {
 		factor = 1
@@ -3089,7 +3090,7 @@ devolution_of_powers_reform = {
 	allow_normal_conversion = yes
 	modifiers = {
 		advisor_pool = 2
-		global_autonomy = -0.05
+		advisor_cost = -0.1
 	}
 	ai = {
 		factor = 1.5
@@ -3155,8 +3156,8 @@ consolidate_power_to_the_ruler_reform = {
 		}
 	}
 	modifiers = {
-		yearly_absolutism = 2
-		max_absolutism = 25
+		yearly_absolutism = 4
+		max_absolutism = 40
 		reelection_cost = -0.1
 	}
 	custom_attributes = {
@@ -3197,7 +3198,6 @@ consolidate_power_into_different_candidates_reform = {
 		}
 	}
 	modifiers = {
-		max_absolutism = -20
 		election_cycle = -1
 		candidate_random_bonus = 1
 	}
@@ -3495,7 +3495,7 @@ enlightened_principle_reform = {
 		}
 	}
 	modifiers = {
-		years_of_nationalism = -10
+		free_policy = 1	
 	}
 }
 
@@ -3503,7 +3503,6 @@ military_principle_reform = {
 	icon = "soldiers_3"
 	allow_normal_conversion = yes
 	modifiers = {
-		republican_tradition = -0.5
 		max_absolutism = 10
 		years_of_nationalism = -5
 	}
@@ -3613,7 +3612,6 @@ admiralty_reform = {
 	modifiers = {
 		leader_naval_fire = 1
 		naval_tradition_from_battle = 1
-		republican_tradition = -0.5
 		max_absolutism = 10
 	}
 	custom_attributes = {
@@ -3637,7 +3635,6 @@ military_rulership_reform = {
 	modifiers = {
 		leader_land_shock = 1
 		army_tradition = 0.5
-		republican_tradition = -0.5
 		max_absolutism = 10
 	}
 	custom_attributes = {
@@ -3657,8 +3654,8 @@ dynastic_rulership_reform = {
 		is_revolutionary = no
 	}
 	modifiers = {
-		diplomatic_reputation = 2
-		republican_tradition = -0.25
+		governing_capacity_modifier = 0.15
+		
 	}
 	queen = yes
 	royal_marriage = yes
@@ -3754,7 +3751,7 @@ appointment_by_committee_reform = {
 	allow_normal_conversion = yes
 	modifiers = {
 		advisor_pool = 1
-		advisor_cost = -0.05
+		advisor_cost = -0.1
 	}
 }
 
@@ -3762,7 +3759,8 @@ bureaucratic_aparatus_reform = {
 	icon = "map_2"
 	allow_normal_conversion = yes
 	modifiers = {
-		min_autonomy_in_territories = -0.10
+		territories_governing_cost = -0.1	
+		min_autonomy_in_territories = -0.1
 	}
 }
 
@@ -3914,7 +3912,8 @@ strengthen_executive_powers_reform = {
 		is_revolutionary = no 
 	}
 	modifiers = {
-		max_absolutism = 25
+		max_absolutism = 30
+		free_adm_policy = 1
 	}
 }
 
@@ -3922,7 +3921,7 @@ reinforce_republican_values_reform = {
 	icon = "parliament_hall"
 	allow_normal_conversion = yes
 	modifiers = {
-		free_adm_policy = 1
+		governing_cost = -0.1	
 		reelection_cost = -0.1
 	}
 }
@@ -3936,6 +3935,7 @@ federal_senate_reform = {
 	modifiers = {
 		expand_administration_cost = -1
 		candidate_random_bonus = 1
+		parliament_backing_chance = 0.2
 	}
 
 	conditional = {

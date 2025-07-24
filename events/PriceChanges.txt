@@ -1170,7 +1170,7 @@ country_event = {
 	title = prices.53.t
 	desc = prices.53.d
 	fire_only_once = yes
-	
+	picture = AFRICAN_EXPLORER_eventPicture
 	major = yes
 	trigger = {
 		owns = 2448
@@ -1187,6 +1187,86 @@ country_event = {
 			value = -0.35
 			duration = 7300
 		}
+	}
+}
+#The Beaver Wars
+country_event = {
+	id = prices.54
+	title = prices.54.t
+	desc = prices.54.d
+	fire_only_once = yes
+	picture = southamericagfx_BATTLE_eventPicture
+	major = yes
+	trigger = {
+		owns = 960
+		is_year = 1609
+		}
+	mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+		name = prices.54.a
+		change_price = {
+			trade_goods = fur
+			key = IROQUOIS_WARS
+			value = 0.5
+			duration = 10950
+		}
+	}
+}
+#The Destruction of Huronia
+country_event = {
+	id = prices.55
+	title = prices.55.t
+	desc = prices.55.d
+	fire_only_once = yes
+	picture = VILLAGE_BURNING_eventPicture
+	major = yes
+	trigger = {
+		owns = 960
+		is_year = 1639
+		}
+	mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+		name = prices.55.a
+		change_price = {
+			trade_goods = fur
+			key = HURONS_DESTROYED
+			value = -0.33
+			duration = 7300
+		}
+		IRO = {
+			inherit = HUR
+		}
+		huronia_area = {
+				add_base_tax = -2
+				add_base_production = -2
+				add_base_manpower = -2
+				add_devastation = 75
+				change_culture = iroquois
+			}
+		ottawa_valley_area = {
+				add_base_tax = -2
+				add_base_production = -2
+				add_base_manpower = -2
+				add_devastation = 75
+				change_culture = iroquois
+			}
+		upper_canada_area = {
+				add_base_tax = -2
+				add_base_production = -2
+				add_base_manpower = -2
+				add_devastation = 75
+				change_culture = iroquois
+			}
+		notre_dame_mountains_area = {
+				add_base_tax = 1
+				add_base_production = 1
+				add_base_manpower = 1
+				change_culture = huron
+			}
 	}
 }
 # Japanese Tea Culture
