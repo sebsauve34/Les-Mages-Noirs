@@ -1049,7 +1049,7 @@
  urbanization_edict_decision_title:0 "Enable Urbanization Edict"
  urbanization_edict_decision_desc:0 "Sets every state in our nation to the 'Urbanization' state edict."
  no_state_edict_decision_title:0 "Enable De Facto No State Edict"
- no_state_edict_decision:desc:0 "Sets every state in our nation to the 'Chinese Industrialization' state edict which acts as the same as having no edict activated."
+ no_state_edict_decision_desc:0 "Sets every state in our nation to the 'Chinese Industrialization' state edict which acts as the same as having no edict activated."
 #korean minors
  fo_korean_city_ideas:0 "Korean City State Ideas"
  fo_korean_city_ideas_start:0 "Korean City State Traditions"
