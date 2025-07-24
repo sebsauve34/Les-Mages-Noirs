@@ -76,6 +76,57 @@ country_decisions = {
 			}
 		}
 	}
+	feudal_tax_edict_decision = {
+		color = { 166  0  0 }
+		major = yes
+		potential = {
+			ai = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+			has_reform = regional_council_reform 	
+			current_age = age_of_discovery
+			any_state = {
+				NOT = { has_state_edict = feudal_taxes_state_edict }
+			}
+		}
+		effect = {
+			every_owned_province = {
+				limit = {
+					is_state = yes
+				}
+				set_state_edict = feudal_taxes_state_edict 
+			}
+		}
+	}
+
+	urbanization_edict_decision = {
+		color = { 166  0  0 }
+		major = yes
+		potential = {
+			ai = no
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		allow = {
+			has_reform = regional_council_reform 	
+			current_age = age_of_revolutions
+			any_state = {
+				NOT = { has_state_edict = urbanization_state_edict }
+			}
+		}
+		effect = {
+			every_owned_province = {
+				limit = {
+					is_state = yes
+				}
+				set_state_edict = urbanization_state_edict 
+			}
+		}
+	}
 	qolu_wool_into_cloth_d = {
 		color = { 166  0  0 }
 		potential = {

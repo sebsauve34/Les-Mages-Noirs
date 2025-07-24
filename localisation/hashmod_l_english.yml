@@ -1044,7 +1044,10 @@
  manpower_edict_decision_desc:0 "Sets every state in our nation to the 'Promote Military Recruitment' state edict."	
  institution_edict_decision_title:0 "Enable Advancement Effort Edict"
  institution_edict_decision_desc:0 "Sets every state in our nation to the 'Advancement Effort' state edict."	
-
+ feudal_tax_edict_decision_title:0 "Enable Feudal Tax Edict"
+ feudal_tax_edict_decision_desc:0 "Sets every state in our nation to the 'Feudal Tax' state edict."
+ urbanization_edict_decision_title:0 "Enable Urbanization Edict"
+ urbanization_edict_decision_desc:0 "Sets every state in our nation to the 'Urbanization' state edict."
 #korean minors
  fo_korean_city_ideas:0 "Korean City State Ideas"
  fo_korean_city_ideas_start:0 "Korean City State Traditions"
