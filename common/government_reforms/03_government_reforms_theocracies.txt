@@ -1622,7 +1622,9 @@ constitional_theocracy_reform = {
 	modifiers = {
 		years_of_nationalism = -10
 	}
-	
+	custom_attributes = {
+		can_see_theocratic_heir_stats = yes
+	}
 	ai = {
 		factor = 1
 	}
