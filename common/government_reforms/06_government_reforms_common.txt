@@ -1203,7 +1203,7 @@ curtail_clergy_power_reform = {
 		}
 	}
 	modifiers = {
-		adm_tech_cost_modifier = -0.15
+		adm_tech_cost_modifier = -0.1
 		adm_advisor_cost = -0.15
 		church_influence_modifier = -0.1
 	}

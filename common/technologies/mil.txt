@@ -195,7 +195,7 @@ technology = {
 		feudalism = 0.5
 		renaissance = 0.3
 	}
-	
+	combat_width = 2
 	#Pike and Shot
 	infantry_fire		= 	0.25
 	cavalry_shock		=	0.4
@@ -228,7 +228,7 @@ technology = {
 	enable = steppe_raiders
 	enable = ha_xiuhtecuhtli_soldier
 	military_tactics 	= 	0.25
-	combat_width = 1	
+	combat_width = 2	
 	supply_limit 		= 	0.5	
 }
 
@@ -269,6 +269,7 @@ technology = {
 	enable = aboriginal_cavalry
 	enable = pacific_island_warriors
 	enable = pacific_cavalry
+	combat_width = 2
 }
 
 technology = {
@@ -286,7 +287,7 @@ technology = {
 	
 	weapons = yes
 	armory = yes
-	combat_width = 2
+	
 }
 	
 technology = {
@@ -318,7 +319,7 @@ technology = {
 	enable = ethiopian_mountain_warfare		
 	enable = steppe_footmen
 	enable = ha_xiuhtecuhtlian_infantry
-
+	combat_width = 2
 }
 
 technology = {
@@ -426,7 +427,7 @@ technology = {
 
 	training_fields = yes
 	
-	combat_width = 1
+	combat_width = 2
 	
 	enable = chambered_demi_cannon
 	enable = demi_culverin
@@ -775,6 +776,7 @@ technology = {
 	enable = french_impulse
 	enable = british_square
 	enable = steppe_uhlans
+	combat_width = 2
 }
 
 technology = {
@@ -816,7 +818,7 @@ technology = {
 	military_tactics	=	0.25
 	land_morale			=	1.0
 	maneuver_value = 0.25
-	
+	combat_width = 2
 	enable = russian_mass
 	enable = mixed_order_infantry	
 	enable = prussian_drill		

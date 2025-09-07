@@ -378,7 +378,7 @@ country_event = {
 trigger = {
 	is_year = 1453
 	capital_scope = { 
-	contient = europe
+	continent = europe
 	}
 	is_subject = no
 	current_age = age_of_discovery
