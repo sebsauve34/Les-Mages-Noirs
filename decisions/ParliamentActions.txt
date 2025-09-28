@@ -137,33 +137,34 @@ country_decisions = {
 			factor = 10
 		}
 	}
-	debate_colonial_venture_act_issue = {
-		color = { 110 0 140 }
-		potential = {
-			has_parliament = yes
-			has_government_attribute = english_parliament
-			has_issue_unlocked = { issue = colonial_venture_act }
-			has_not_enacted_parliament_action = { parliament_action = colonial_venture_act }
-		}
-		allow = {
-			has_active_debate = no
-		}
-		effect = {
-			start_debate = colonial_venture_act
-			custom_tooltip = EXPENSIVE_ISSUE_TT
-			custom_tooltip = DEBATE_EFFECT_TT
-			tooltip = {
-				add_country_modifier = {
-					name = colonial_venture_act_modifier
-					duration = -1
-				}
-				custom_tooltip = colonial_venture_act_modifier_tt
-			}
-		}
-		ai_will_do = {
-			factor = 10
-		}
-	}
+	#debate_colonial_venture_act_issue = {
+	#	color = { 110 0 140 }
+	#	potential = {
+	#		has_parliament = yes
+	#		has_government_attribute = english_parliament
+	#		has_issue_unlocked = { issue = colonial_venture_act }
+	#		has_not_enacted_parliament_action = { parliament_action = colonial_venture_act }
+	#	}
+	#	allow = {
+	#		has_active_debate = no
+	#		always = no
+	#	}
+	#	effect = {
+	#		start_debate = colonial_venture_act
+	#		custom_tooltip = EXPENSIVE_ISSUE_TT
+	#		custom_tooltip = DEBATE_EFFECT_TT
+	#		tooltip = {
+	#			add_country_modifier = {
+	#				name = colonial_venture_act_modifier
+	#				duration = -1
+	#			}
+	#			custom_tooltip = colonial_venture_act_modifier_tt
+	#		}
+	#	}
+	#	ai_will_do = {
+	#		factor = 10
+	#	}
+	#}
 	debate_crown_of_iberia_act_issue = {
 		color = { 110 0 140 }
 		potential = {
@@ -391,81 +392,81 @@ country_decisions = {
 			factor = 10
 		}
 	}
-	debate_the_gold_act_issue = {
-		color = { 110 0 140 }
-		potential = {
-			has_parliament = yes
-			has_government_attribute = english_parliament
-			has_issue_unlocked = { issue = the_gold_act }
-			has_not_enacted_parliament_action = { parliament_action = the_gold_act }
-		}
-		allow = {
-			has_active_debate = no
-		}
-		effect = {
-			start_debate = the_gold_act
-			custom_tooltip = DEBATE_EFFECT_TT
-			tooltip = {
-				increase_trade_goods_discovery = {
-					trade_goods = gold
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	debate_the_spice_act_issue = {
-		color = { 110 0 140 }
-		potential = {
-			has_parliament = yes
-			has_government_attribute = english_parliament
-			has_issue_unlocked = { issue = the_spice_act }
-			has_not_enacted_parliament_action = { parliament_action = the_spice_act }
-		}
-		allow = {
-			has_active_debate = no
-		}
-		effect = {
-			start_debate = the_spice_act
-			custom_tooltip = DEBATE_EFFECT_TT
-			tooltip = {
-				increase_trade_goods_discovery = {
-					trade_goods = spices
-				}
-				increase_trade_goods_discovery = {
-					trade_goods = cloves
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 10
-		}
-	}
-	debate_the_sugar_act_issue = {
-		color = { 110 0 140 }
-		potential = {
-			has_parliament = yes
-			has_government_attribute = english_parliament
-			has_issue_unlocked = { issue = the_sugar_act }
-			has_not_enacted_parliament_action = { parliament_action = the_sugar_act }
-		}
-		allow = {
-			has_active_debate = no
-		}
-		effect = {
-			start_debate = the_sugar_act
-			custom_tooltip = DEBATE_EFFECT_TT
-			tooltip = {
-				increase_trade_goods_discovery = {
-					trade_goods = sugar
-				}
-			}
-		}
-		ai_will_do = {
-			factor = 10
-		}
-	}
+	#debate_the_gold_act_issue = {
+	#	color = { 110 0 140 }
+	#	potential = {
+	#		has_parliament = yes
+	#		has_government_attribute = english_parliament
+	#		has_issue_unlocked = { issue = the_gold_act }
+	#		has_not_enacted_parliament_action = { parliament_action = the_gold_act }
+	#	}
+	#	allow = {
+	#		has_active_debate = no
+	#	}
+	#	effect = {
+	#		start_debate = the_gold_act
+	#		custom_tooltip = DEBATE_EFFECT_TT
+	#		tooltip = {
+	#			increase_trade_goods_discovery = {
+	#				trade_goods = gold
+	#			}
+	#		}
+	#	}
+	#	ai_will_do = {
+	#		factor = 10
+	#	}
+	#}
+	#debate_the_spice_act_issue = {
+	#	color = { 110 0 140 }
+	#	potential = {
+	#		has_parliament = yes
+	#		has_government_attribute = english_parliament
+	#		has_issue_unlocked = { issue = the_spice_act }
+	#		has_not_enacted_parliament_action = { parliament_action = the_spice_act }
+	#	}
+	#	allow = {
+	#		has_active_debate = no
+	#	}
+	#	effect = {
+	#		start_debate = the_spice_act
+	#		custom_tooltip = DEBATE_EFFECT_TT
+	#		tooltip = {
+	#			increase_trade_goods_discovery = {
+	#				trade_goods = spices
+	#			}
+	#			increase_trade_goods_discovery = {
+	#				trade_goods = cloves
+	#			}
+	#		}
+	#	}
+	#	ai_will_do = {
+	#		factor = 10
+	#	}
+	#}
+	#debate_the_sugar_act_issue = {
+	#	color = { 110 0 140 }
+	#	potential = {
+	#		has_parliament = yes
+	#		has_government_attribute = english_parliament
+	#		has_issue_unlocked = { issue = the_sugar_act }
+	#		has_not_enacted_parliament_action = { parliament_action = the_sugar_act }
+	#	}
+	#	allow = {
+	#		has_active_debate = no
+	#	}
+	#	effect = {
+	#		start_debate = the_sugar_act
+	#		custom_tooltip = DEBATE_EFFECT_TT
+	#		tooltip = {
+	#			increase_trade_goods_discovery = {
+	#				trade_goods = sugar
+	#			}
+	#		}
+	#	}
+	#	ai_will_do = {
+	#		factor = 10
+	#	}
+	#}
 	debate_establish_the_imperial_diet_act_issue = {
 		color = { 110 0 140 }
 		potential = {
