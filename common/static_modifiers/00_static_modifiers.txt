@@ -315,7 +315,7 @@ development = {
 	local_amount_of_banners = 0.066
 	local_amount_of_cawa = 0.125
 	local_amount_of_carolean = 0.1
-	local_amount_of_hussars = 0.025
+	local_amount_of_hussars = 0.066
 }
 
 development_scaled = {
