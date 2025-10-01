@@ -621,15 +621,10 @@ country_event = { #Invite hussites
 				region = scandinavia_region 
 			}
 		}
-		NOT = {
-			any_known_country = {
-				religion = hussite
-			}
-		}
 	}
 	
 	mean_time_to_happen = {
-		months = 1200
+		months = 1000
 	}
 	
 	option = {
