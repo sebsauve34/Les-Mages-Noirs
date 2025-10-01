@@ -224,7 +224,7 @@ vassal = {
 	has_power_projection = no
 	gets_help_with_rebels = yes
 	forms_trade_companies = no
-
+	siphon_income = yes
 	max_government_rank = 1
 
 	liberty_desire_development_ratio = 0.25
@@ -299,7 +299,7 @@ march = {
 	forcelimit_to_overlord = 0.2
 	is_march = yes
 	forms_trade_companies = no
-
+	siphon_income = yes
 	# Subject Interactions:
 	scutage = no
 	subsidize_armies = yes
@@ -546,7 +546,7 @@ client_vassal = {
 	# Properties:
 	created_by_overlord = yes
 	extend_trading_range = yes
-
+	siphon_income = yes
 	base_liberty_desire = -25.0
 	liberty_desire_revolution = 0
 
@@ -565,7 +565,7 @@ client_march = {
 	# Properties:
 	created_by_overlord = yes
 	extend_trading_range = yes
-
+	siphon_income = yes
 	base_liberty_desire = -40.0
 	liberty_desire_revolution = 0
 
