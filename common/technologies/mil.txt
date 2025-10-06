@@ -65,6 +65,9 @@ technology = {
 	enable = aboriginal_boomerang
 	enable = aboriginal_warrior
 	enable = pacific_spearman
+	enable = native_indian_horsemen
+	enable = central_american_horsemen
+	enable = south_american_horsemen
 }
 
 technology = {
@@ -154,10 +157,7 @@ technology = {
 	enable = chevauchee
 	enable = african_somali_cavalry
 	enable = african_tuareg_cavalry
-	enable = slavic_stradioti	
-	enable = native_indian_horsemen
-	enable = central_american_horsemen
-	enable = south_american_horsemen	
+	enable = slavic_stradioti		
 	enable = mughal_mansabdar	
 	enable = ottoman_timariot 
 	enable = chinese_steppe		

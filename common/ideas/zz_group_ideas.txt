@@ -2788,7 +2788,7 @@ nw_native_ideas = {
 plains_native_ideas = {
 	start = {
 		cavalry_fire = 1
-		state_maintenance_modifier = -0.25
+		cav_to_inf_ratio = 0.5
 	}
 	
 	bonus = {
@@ -2815,7 +2815,7 @@ plains_native_ideas = {
 		fire_damage = 0.10
 	}
 	horse_riders = {
-		cav_to_inf_ratio = 0.4
+		state_maintenance_modifier = -0.25
 		envoy_travel_time = -0.2
 		movement_speed = 0.10
 	}

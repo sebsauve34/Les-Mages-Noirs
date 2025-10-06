@@ -6331,7 +6331,7 @@ GUA_ideas = {
 CUA_ideas = {
 	start = {
 		development_cost = -0.1
-		cav_to_inf_ratio = 0.4
+		cav_to_inf_ratio = 0.5
 	}
 	
 	bonus = {
