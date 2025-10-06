@@ -71,11 +71,12 @@ difficulty_normal_ai = {
 	war_exhaustion = -0.05
 	manpower_recovery_speed = 0.2
 	advisor_cost = -0.33
+	land_attrition = -0.25	
 }
 
 difficulty_hard_ai = {
 	global_autonomy = -0.05
-	manpower_recovery_speed = 0.50
+	manpower_recovery_speed = 0.5
 	global_unrest = -1
 	war_exhaustion = -0.05
 	global_regiment_cost = -0.33
@@ -83,11 +84,12 @@ difficulty_hard_ai = {
 	ae_impact = -0.33
 	missionary_maintenance_cost = -0.15
 	advisor_cost = -0.33
+	land_attrition = -0.35
 }
 
 difficulty_very_hard_ai = {
 	global_autonomy = -0.05
-	manpower_recovery_speed = 0.50
+	manpower_recovery_speed = 0.5
 	global_manpower_modifier = 0.5
 	land_forcelimit_modifier = 0.5
 	naval_forcelimit_modifier = 0.5
@@ -105,6 +107,7 @@ difficulty_very_hard_ai = {
 	build_cost = -0.25
 	ae_impact = -0.33
 	missionary_maintenance_cost = -0.3
+	land_attrition = -0.5
 }
 
 
