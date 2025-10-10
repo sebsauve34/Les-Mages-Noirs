@@ -99,6 +99,13 @@ swiss_mountains_development = {
 #Naples Mission Modifiers#
 ################
 
+NAP_pope_subjugated = {
+	papal_influence = 5
+	global_tax_modifier = 0.1
+	prestige = 1
+}
+
+
 qolu_silk_production = {
 	trade_goods_size_modifier = 0.33
 }

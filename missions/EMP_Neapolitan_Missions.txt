@@ -104,20 +104,27 @@ emp_naples_2 = {
 		required_missions = { emp_nap_independent_naples }
 		position = 2
 		provinces_to_highlight = {
-			area = tuscany_area
+			area = central_italy_area
+			area = lazio_area  
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
 		}
 		trigger = {
 			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
 				value = 3
-				area = tuscany_area
+				area = lazio_area 
 			}
-			117 = {
-				country_or_non_sovereign_subject_holds = ROOT
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 3
+				area = central_italy_area
 			}
+			
 		}
 		effect = {
-			central_italy_area = {
+			add_country_modifier = {
+				name = "NAP_pope_subjugated"
+				duration = -1
+			}
+			tuscany_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
@@ -230,7 +237,7 @@ emp_naples_3 = {
 		trigger = {
 			is_subject = no
 			is_at_war = no
-			army_size_percentage = 0.9
+			army_size_percentage = 0.8
 		}
 		effect = {
 			if = {
@@ -239,7 +246,14 @@ emp_naples_3 = {
 				}
 				add_legitimacy = 50
 			}
-			tuscany_area = {
+			central_italy_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			lazio_area = {
 				limit = {
 					NOT = { is_core = ROOT }
 					NOT = { is_permanent_claim = ROOT }
