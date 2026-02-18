@@ -14,7 +14,7 @@ qolu_2colonists = {
 por_exploration = {
 	range = 0.5
 	global_colonial_growth = 15
-	colony_cost_modifier = -0.5
+	colony_cost_modifier = -0.25
 }
 
 echo_development = {
@@ -119,9 +119,9 @@ qolu_italian_breweries_w = {
 }
 
 the_great_debasement interest = {
-	interest = 0.25
+	#interest = 0.25
 	gold_depletion_chance_modifier = 10
-	inflation_reduction = -0.5
+	inflation_reduction = -0.75
 	monthly_gold_inflation_modifier = 6
 	treasure_fleet_income = -1
 	inflation_action_cost = 1

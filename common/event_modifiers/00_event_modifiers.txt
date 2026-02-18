@@ -13624,7 +13624,8 @@ estate_church_donation_right_scaling = {
 }
 
 estate_nobles_expedition_rights_scaling = {
-	colony_cost_modifier = -0.5
+	colony_cost_modifier = -0.25
+	range = 0.5
 }
 estate_burghers_promote_burgher_bookkeeping_scaling = {
 	inflation_action_cost = -0.5
