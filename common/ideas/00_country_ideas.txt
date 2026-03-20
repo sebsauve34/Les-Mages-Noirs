@@ -8297,6 +8297,7 @@ CYI_ideas = {
 	}
 	cyi_promote_bimoism = {
 		advisor_cost = -0.15
+		advisor_pool = 1 
 	}
 	cyi_deep_in_mountains = {
 		hostile_attrition = 1
