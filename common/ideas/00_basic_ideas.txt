@@ -396,7 +396,7 @@ religious_ideas = {
 	}
 	religious_tradition = {
 		manpower_in_true_faith_provinces = 0.1
-		development_cost_in_primary_culture = -0.05
+		development_cost_in_primary_culture = -0.075
 	}
 	
 
@@ -1589,7 +1589,7 @@ humanist_ideas = {
 	
 
 	bonus = {
-		development_cost_modifier = -0.05
+		development_cost_modifier = -0.075
 		brahmins_muslim_loyalty_modifier = 0.05
 		dhimmi_loyalty_modifier = 0.05
 	}

@@ -1,4 +1,6 @@
+
 namespace = antagonist_event
+###### Terms and services: if you borrow one of these events for your own mod, you must add the plague, smallpox epidemic, the last jousting and rebel dice roll or you will ###### be copyright striked
 # The Last Jousting Tournament
 country_event = {
 	id = antagonist_event.1
@@ -513,7 +515,6 @@ trigger = {
 		}
 	}
 #A common ennemy
-#Board game comet sighted
 	country_event = {
 	id = antagonist_event.8
 	title = antagonist_event.8.t
@@ -532,7 +533,7 @@ trigger = {
 	option = {
 		name = antagonist_event.8.a
 		add_years_of_income = -0.25
-		add_yearly_manpower = -1
+		add_yearly_manpower = -0.75
 		add_mil_power = 50
 
 		329 = {
@@ -564,5 +565,169 @@ trigger = {
 		name = antagonist_event.8.b
 		add_dip_power = 50
 		vassalize = CYP
-		vassalize = KNI
 	}
+}
+
+#Rise of the Ottomans
+country_event = {
+	id = antagonist_event.9
+	title = antagonist_event.9.t
+	desc = antagonist_event.9.d
+	picture = CONSTANTINOPLE_eventPicture
+	fire_only_once = yes
+	major = yes
+
+trigger = {
+	tag = TUR
+	own = 151
+	}
+mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+		name = antagonist_event.9.a
+		add_adm_power = -100
+		add_prestige = 10
+		add_country_modifier = {
+			name = board_tercio_janissaries
+			duration = -1
+		}
+	}
+	option = {
+		name = antagonist_event.9.b
+		add_mil_power = -100
+		add_prestige = 10
+		add_country_modifier = {
+			name = board_tolerance
+			duration = -1
+		}
+	}
+}
+	
+#Recovery from Varna and defeat of the Teutonic Knights
+country_event = {
+	id = antagonist_event.10
+	title = antagonist_event.10.t
+	desc = antagonist_event.10.d
+	picture = BATTLE_VISTULA_LAGOON_eventPicture
+	fire_only_once = yes
+	major = yes
+
+trigger = {
+	tag = POL
+	stability = 1
+	has_regency = no 
+	43 = {
+	country_or_non_sovereign_subject_holds = ROOT
+		}
+	41 = {
+		country_or_non_sovereign_subject_holds = ROOT
+		}
+	}
+
+mean_time_to_happen = {
+		months = 1
+	}
+	option = {
+		name = antagonist_event.10.a
+		add_mil_power = -100
+		add_prestige = 10
+		add_country_modifier = {
+			name = board_noble_knights
+			duration = -1
+		}
+	}
+
+	option = {
+		name = antagonist_event.10.b
+		add_adm_power = -100
+		add_prestige = 10
+		add_country_modifier = {
+			name = board_polish_bureaucracy
+			duration = -1
+		}
+	}
+}
+
+#Rebel dice event
+country_event = {
+	id = antagonist_event.11
+	title = antagonist_event.11.t
+	desc = antagonist_event.11.d
+	picture = ELECTION_REPUBLICAN_eventPicture
+	fire_only_once = yes
+	major = yes
+
+trigger = {
+	subject = no
+	ai = no
+	is_year = 1520
+	is_great_power = no
+	}
+
+mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = antagonist_event.11.a
+				every_country = {
+				limit = {
+					is_great_power = yes
+					}
+			add_yearly_manpower = -1
+			}
+		}
+	option = {
+		name = antagonist_event.11.b
+				every_country = {
+				limit = {
+					is_great_power = yes
+					}
+				
+			add_years_of_income = -1
+			}
+		}
+	option = {
+		name = antagonist_event.11.c
+				every_country = {
+				limit = {
+					is_great_power = yes
+					}
+			
+			add_adm_power = -75
+			add_dip_power = -75
+			add_mil_power = -75
+			}
+		}
+	option = {
+		name = antagonist_event.11.e
+				every_country = {
+				limit = {
+					is_great_power = yes
+					}
+				
+			add_yearly_manpower = -1
+			add_years_of_income = -1
+			}
+		}
+	option = {
+		name = antagonist_event.11.f
+				every_country = {
+				limit = {
+					is_great_power = yes
+					}
+				}
+		}
+
+	option = {
+		name = antagonist_event.11.g
+				every_country = {
+				limit = {
+					is_great_power = yes
+					}
+				
+		add_stability = 1
+		}
+	}
+}

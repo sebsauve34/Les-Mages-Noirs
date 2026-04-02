@@ -710,7 +710,7 @@ emp_naples_5 = {
 						add_province_modifier = { 
 							name = qolu_italian_breweries_w
 							duration = -1
-							hidden = yes
+							#hidden = yes
 						}
 					}
 					if = {
@@ -718,9 +718,9 @@ emp_naples_5 = {
 							trade_goods = grain
 						}
 						add_province_modifier = { 
-							name = qolu_italian_breweries_w
+							name = qolu_italian_breweries_g
 							duration = -1
-							hidden = yes
+							#hidden = yes
 						}
 					}
 				}

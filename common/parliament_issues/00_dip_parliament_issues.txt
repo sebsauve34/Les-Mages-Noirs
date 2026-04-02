@@ -51,7 +51,6 @@ charter_colonies = {
 		global_colonial_growth = 20
 	}
 	influence_scaled_modifier = {
-		colony_cost_modifier = -0.25
 		range = 0.25
 	}
 	scale_estate_influence = estate_burghers

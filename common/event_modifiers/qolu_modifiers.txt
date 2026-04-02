@@ -1,3 +1,10 @@
+qolu_italian_breweries_w = {
+	local_production_efficiency = 0.5
+}
+qolu_italian_breweries_g  = {
+	local_production_efficiency = 0.75
+}
+
 
 economic_golden_age = {
 	all_power_cost = -0.1

@@ -2086,6 +2086,8 @@ expanded_infrastructure = {
 	local_sailors = 300
 	local_monthly_devastation = -0.05
 	local_garrison_size = 0.1
+	land_forcelimit = 0.25
+	naval_forcelimit = 0.25
 }
 
 centralize_state = {

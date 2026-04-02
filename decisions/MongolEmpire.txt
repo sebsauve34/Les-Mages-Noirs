@@ -184,6 +184,10 @@ country_decisions = {
 			OR = {
 				ai = no
 				is_playing_custom_nation = no
+				tag = AKK
+				tag = ORM
+				tag = KHO
+				tag = SHY
 			}
 			capital_scope = {
 				superregion = persia_superregion
