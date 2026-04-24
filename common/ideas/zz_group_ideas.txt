@@ -1316,12 +1316,14 @@ siberian_ideas = {
 
 mesoamerican_ideas = {
 	start = {
-		hostile_attrition = 3
 		defensiveness = 0.25
+		reinforce_speed = 0.2
 	}
 	
 	bonus = {
-		reinforce_speed = 0.2
+		hostile_attrition = 5
+		max_hostile_attrition = 5
+		global_supply_limit_modifier = -0.5
 	}
 	
 	trigger = {
@@ -1339,15 +1341,16 @@ mesoamerican_ideas = {
 	}
 	
 	altepetl = { 
-		global_trade_power = 0.1
+		global_trade_goods_size_modifier = 0.1 
 	}
 	
 	ball_game = {
-		diplomatic_reputation = 1
+		manpower_in_true_faith_provinces= 0.2
 	}
 	
 	feathered_serpent = {
 		global_unrest = -1
+		fort_maintenance_modifier = -0.25
 	}
 	
 	ritual_bloodletting = {
@@ -1355,12 +1358,12 @@ mesoamerican_ideas = {
 	}
 
 	pyramid_architecture = {
-		build_cost = -0.1
+		global_regiment_cost = -0.1
 	}
 	
 	obsidian_and_jade = { 
-		trade_range_modifier = 0.2
-		trade_efficiency = 0.05
+		trade_range_modifier = 0.5
+		trade_efficiency = 0.2
 	}
 }
 
@@ -2787,12 +2790,14 @@ nw_native_ideas = {
 
 plains_native_ideas = {
 	start = {
+		monarch_lifespan = 10
 		cavalry_fire = 1
 		cav_to_inf_ratio = 0.5
 	}
 	
 	bonus = {
-		infantry_cost = -0.10
+		cavalry_power = 1 	
+		land_forcelimit_modifier = 0.5
 	}
 	
 	trigger = {
@@ -2808,27 +2813,28 @@ plains_native_ideas = {
 	free = yes
 	
 	bison_hunters = {
-		development_cost = -0.10	
-		land_attrition = -0.10
+		development_cost = -0.1	
+		land_attrition = -0.1
 	}
 	bow_archery = {
-		fire_damage = 0.10
+		fire_damage = 0.15
 	}
 	horse_riders = {
 		state_maintenance_modifier = -0.25
 		envoy_travel_time = -0.2
-		movement_speed = 0.10
+		movement_speed = 0.2
 	}
 	
 	peaceful_people = {
-		diplomatic_reputation = 1
-		stability_cost_modifier = -0.10
+		idea_cost = -0.1
+		stability_cost_modifier = -0.1
 	}
 	sun_dance = {
 		global_unrest = -2
 	}
 	plains_sign_language = {
-		prestige = 0.5
+		prestige = 1
+		morale_damage_received = -0.1
 	}
 	dwellers_of_tipis = {
 		same_culture_advisor_cost = -0.25

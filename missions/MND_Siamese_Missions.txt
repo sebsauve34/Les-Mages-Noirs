@@ -209,6 +209,8 @@ mnd_siam_2 = {
 		}
 		effect = {
 			set_estate_privilege = estate_church_brahmins_at_court
+						add_adm_power = 200
+
 		}
 	}
 	mnd_siam_revolution = {

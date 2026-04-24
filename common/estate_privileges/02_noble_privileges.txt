@@ -1357,18 +1357,20 @@ estate_nobles_neighbor_raids = {
 	can_select = {
 		NOT = { has_country_modifier = the_abolish_slavery_act }
 	}
-	on_granted = {
-		enable_capital_slave_raid = yes
-	}
-	on_revoked = {
-		disable_capital_slave_raid = yes
-	}
-	on_invalid = {
-		disable_capital_slave_raid = yes
-	}
+	#on_granted = {
+	#	enable_capital_slave_raid = yes
+	#}
+	#on_revoked = {
+	#	disable_capital_slave_raid = yes
+	#}
+	#on_invalid = {
+	#	disable_capital_slave_raid = yes
+	#}
 	penalties = {
+		global_tax_modifier = -0.1 
 	}
 	benefits = {
+		global_manpower_modifier = 0.2
 	}
 	ai_will_do = {
 		factor = 0

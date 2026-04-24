@@ -1,9 +1,11 @@
 #1089 - Wiradjuri
-
-culture = aboriginal
+add_core = GMI
+owner = GMI
+controller = GMI
+culture = gamilaraay
 religion = animism
 capital = "Wiradjuri"
-trade_goods = unknown
+trade_goods = livestock
 hre = no
 base_tax = 3 
 base_production = 3

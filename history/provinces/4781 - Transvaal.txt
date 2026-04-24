@@ -1,12 +1,14 @@
 #9000 - Transvaal
-
+add_core = ZUL
+owner = ZUL
+controller = ZUL
 culture = nguni
 religion = shamanism #Fetishism
 capital = "Pretoria"
-trade_goods = unknown
+trade_goods = grain
 hre = no
 base_tax = 3
-base_production = 3
+base_production = 4
 base_manpower = 3
 native_size = 5
 native_ferocity = 1

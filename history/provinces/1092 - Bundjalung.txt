@@ -1,9 +1,11 @@
 #1092 - Bundjalung
-
-culture = aboriginal
+add_core = GMI
+owner = GMI
+controller = GMI
+culture = gamilaraay
 religion = animism
 capital = "Bundjalung"
-trade_goods = unknown
+trade_goods = wool
 hre = no
 base_tax = 3 
 base_production = 3

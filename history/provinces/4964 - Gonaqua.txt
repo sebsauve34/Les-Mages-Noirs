@@ -1,14 +1,16 @@
 #HashMP South Africa
 #Gonaqua
-
+add_core = ZUL
+owner = ZUL
+controller = ZUL
 culture = khoisan
 religion = shamanism #Fetishism
 capital = "Gonaqua"
-trade_goods = unknown
+trade_goods = gems
 hre = no
-base_tax = 2
-base_production = 1
-base_manpower = 1
+base_tax = 4
+base_production = 3
+base_manpower = 3
 native_size = 5
 native_ferocity = 1
 native_hostileness = 1

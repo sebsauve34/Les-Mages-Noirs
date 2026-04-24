@@ -11,43 +11,43 @@ country_event = { #Recruit Adm Advisor
 	option = {
 		name = qolu.1.a
 
-		add_adm_power = -25
+		add_adm_power = -10
 		create_advisor = philosopher
 	}
 	option = {
 		name = qolu.1.b
 
-		add_adm_power = -25
+		add_adm_power = -10
 		create_advisor = natural_scientist
 	}
 	option = {
 		name = qolu.1.c
 
-		add_adm_power = -25
+		add_adm_power = -10
 		create_advisor = artist
 	}
 	option = {
 		name = qolu.1.d
 
-		add_adm_power = -25
+		add_adm_power = -10
 		create_advisor = treasurer
 	}
 	option = {
 		name = qolu.1.e
 
-		add_adm_power = -25
+		add_adm_power = -10
 		create_advisor = theologian 
 	}
 	option = {
 		name = qolu.1.f
 
-		add_adm_power = -25
+		add_adm_power = -10
 		create_advisor = master_of_mint
 	}
 	option = {
 		name = qolu.1.g
 
-		add_adm_power = -25
+		add_adm_power = -10
 		create_advisor = inquisitor
 	}
 	option = {
@@ -69,43 +69,43 @@ country_event = { #Recruit Dip advisor
 	option = {
 		name = qolu.2.a
 
-		add_dip_power = -25
+		add_dip_power = -10
 		create_advisor = statesman
 	}
 	option = {
 		name = qolu.2.b
 
-		add_dip_power = -25
+		add_dip_power = -10
 		create_advisor = naval_reformer
 	}
 	option = {
 		name = qolu.2.c
 
-		add_dip_power = -25
+		add_dip_power = -10
 		create_advisor = trader
 	}
 	option = {
 		name = qolu.2.d
 
-		add_dip_power = -25
+		add_dip_power = -10
 		create_advisor = spymaster
 	}
 	option = {
 		name = qolu.2.e 
 
-		add_dip_power = -25
+		add_dip_power = -10
 		create_advisor = colonial_governor
 	}
 	option = {
 		name = qolu.2.f
 
-		add_dip_power = -25
+		add_dip_power = -10
 		create_advisor = diplomat
 	}
 	option = {
 		name = qolu.2.g
 
-		add_dip_power = -25
+		add_dip_power = -10
 		create_advisor = navigator
 	}
 	option = {
@@ -127,43 +127,43 @@ country_event = { #Recruit Mil Advisor
 	option = {
 		name = qolu.3.a
 
-		add_mil_power = -25
+		add_mil_power = -10
 		create_advisor = army_reformer
 	}
 	option = {
 		name = qolu.3.b
 
-		add_mil_power = -25
+		add_mil_power = -10
 		create_advisor = army_organiser
 	}
 	option = {
 		name = qolu.3.c
 
-		add_mil_power = -25
+		add_mil_power = -10
 		create_advisor = commandant
 	}
 	option = {
 		name = qolu.3.d
 
-		add_mil_power = -25
+		add_mil_power = -10
 		create_advisor = quartermaster
 	}
 	option = {
 		name = qolu.3.e
 
-		add_mil_power = -25
+		add_mil_power = -10
 		create_advisor = recruitmaster
 	}
 	option = {
 		name = qolu.3.f
 
-		add_mil_power = -25
+		add_mil_power = -10
 		create_advisor = fortification_expert
 	}
 	option = {
 		name = qolu.3.g
 
-		add_mil_power = -25
+		add_mil_power = -10
 		create_advisor = grand_captain
 	}
 	option = {

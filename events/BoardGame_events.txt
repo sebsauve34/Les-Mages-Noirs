@@ -524,8 +524,10 @@ trigger = {
 	major = yes
 
 trigger = {
+		AND = {
 	is_year = 1450
 	tag = MAM
+		}
 	}
 	mean_time_to_happen = {
 		months = 1
@@ -578,8 +580,12 @@ country_event = {
 	major = yes
 
 trigger = {
+	AND = {
 	tag = TUR
-	own = 151
+	owns = 151
+	is_year = 1453
+
+		}
 	}
 mean_time_to_happen = {
 		months = 1
@@ -614,6 +620,7 @@ country_event = {
 	major = yes
 
 trigger = {
+	AND = {
 	tag = POL
 	stability = 1
 	has_regency = no 
@@ -624,6 +631,8 @@ trigger = {
 		country_or_non_sovereign_subject_holds = ROOT
 		}
 	}
+}
+		
 
 mean_time_to_happen = {
 		months = 1

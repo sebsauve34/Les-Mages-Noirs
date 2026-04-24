@@ -3,11 +3,13 @@
 latent_trade_goods = {
 	coal
 }
-
-culture = aboriginal
+add_core = GMI
+owner = GMI
+controller = GMI
+culture = gamilaraay
 religion = animism
 capital = "Baiali"
-trade_goods = unknown
+trade_goods = naval_supplies
 hre = no
 base_tax = 3 
 base_production = 3

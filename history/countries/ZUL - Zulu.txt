@@ -1,11 +1,28 @@
 government = tribal
-add_government_reform = tribal_despotism
-government_rank = 1
-primary_culture = shona
+add_government_reform = h_reform_native_kingdom
+government_rank = 2
+historical_rival = LDU
+historical_rival = MKU
+historical_rival = ZAN
+historical_rival = MRA
+historical_rival = TBK
+historical_rival = SKA
+historical_rival = MIR
+historical_rival = BTS
+primary_culture = nguni
 religion = shamanism
 mercantilism = 0.1
-technology_group = central_african
+technology_group = aboriginal_tech
 capital = 1181	# Natal
+1444.11.11 = {
+	monarch = {
+		name = "Native Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}
 
 1816.1.1 = {
 	monarch = {

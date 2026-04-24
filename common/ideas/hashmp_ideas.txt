@@ -484,7 +484,7 @@ ZUL_ideas = { #Zulu Empire
 	start = {  
 		governing_capacity_modifier = 0.25
 		leader_land_manuever = 1
-		development_cost = 0.1
+		development_cost = 0.15
 	}
   
 	bonus = {
@@ -498,6 +498,7 @@ ZUL_ideas = { #Zulu Empire
   
 	zul_1 = {
 		leader_cost = -0.15
+		idea_cost = -0.1
 	}
 	zul_2 = {
 		global_trade_goods_size_modifier = 0.1
@@ -510,7 +511,7 @@ ZUL_ideas = { #Zulu Empire
 	zul_4 = {
 		hostile_attrition = 1
 		max_hostile_attrition = 1
-		defensiveness = 0.15
+		defensiveness = 0.25
 	}
 	zul_5 = {
 		manpower_recovery_speed = 0.25
@@ -521,6 +522,7 @@ ZUL_ideas = { #Zulu Empire
 	}
 	zul_7 = {
 		monarch_military_power = 1
+		country_military_power = 1 
 	}
 }
 

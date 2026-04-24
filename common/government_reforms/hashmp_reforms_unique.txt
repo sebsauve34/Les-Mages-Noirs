@@ -411,6 +411,8 @@ h_reform_native_kingdom = {
 				tag = XIU
 				tag = CAB
 				tag = TUA
+				tag = GMI
+				tag = ZUL
 			}
 			is_subject = no
 		}
