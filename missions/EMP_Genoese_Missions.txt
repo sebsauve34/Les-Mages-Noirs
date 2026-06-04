@@ -124,10 +124,6 @@ emp_gen_missions_general_2 = {
 					101 = { NOT = { higher_development_than = prev } }
 				}
 				AND = {
-					province_id = 112
-					101 = { NOT = { higher_development_than = prev } }
-				}
-				AND = {
 					province_id = 116
 					101 = { NOT = { higher_development_than = prev } }
 				}
@@ -155,7 +151,6 @@ emp_gen_missions_general_2 = {
 			101 = {
 				is_capital_of = ROOT
 				higher_development_than = 104 #Milan
-				higher_development_than = 112 #Venice
 				higher_development_than = 116 #Florence
 			}
 		}
@@ -196,6 +191,11 @@ emp_gen_missions_general_2 = {
 							NOT = { 1298 = { is_strongest_trade_power = ROOT } }
 							province_id = 1298
 						}
+						AND = {
+							NOT = { 1276 = { is_strongest_trade_power = ROOT } }
+							province_id = 1276
+						}
+
 						AND = {
 							NOT = { 1308 = { is_strongest_trade_power = ROOT } }
 							province_id = 1308
@@ -240,7 +240,8 @@ emp_gen_missions_general_2 = {
 					ROOT = {
 						NOT = {
 							calc_true_if = {
-								amount = 6
+								amount = 2
+								1276 = { is_strongest_trade_power = ROOT }
 								1298 = { is_strongest_trade_power = ROOT }
 								1308 = { is_strongest_trade_power = ROOT }
 								1293 = { is_strongest_trade_power = ROOT }
@@ -275,7 +276,8 @@ emp_gen_missions_general_2 = {
 			}
 			calc_true_if = {
 				desc = emp_gen_mare_nostrum_trigger_tooltip2
-				amount = 6
+				amount = 2
+				1276 = { is_strongest_trade_power = ROOT }
 				1298 = { is_strongest_trade_power = ROOT }
 				1308 = { is_strongest_trade_power = ROOT }
 				1293 = { is_strongest_trade_power = ROOT }
@@ -320,42 +322,44 @@ emp_gen_missions_western_med = {
 		provinces_to_highlight = {
 			OR = {
 				AND = {
-					province_id = 115
+					province_id = 117
 					NOT = { country_or_non_sovereign_subject_holds = ROOT }
 				}
 				AND = {
 					OR = {
-						province_id = 102
-						province_id = 2980
+						province_id = 116
+						province_id = 2978
 						province_id = 117
+						province_id = 2980
 					}
 					ROOT = {
-						NOT = { owns_or_non_sovereign_subject_of = 102 }
-						NOT = { owns_or_non_sovereign_subject_of = 2980 }
+						NOT = { owns_or_non_sovereign_subject_of = 116 }
+						NOT = { owns_or_non_sovereign_subject_of = 2978 }
 						NOT = { owns_or_non_sovereign_subject_of = 117 }
+						NOT = { owns_or_non_sovereign_subject_of = 2980 }
+
 					}
 				}
 			}
 		}
 		trigger = {
-			115 = {
+			2978 = {
 				country_or_non_sovereign_subject_holds = ROOT
 			}
-			OR = {
-				102 = {
-					country_or_non_sovereign_subject_holds = ROOT
+			116 = {
+				country_or_non_sovereign_subject_holds = ROOT
 				}
-				2980 = {
-					country_or_non_sovereign_subject_holds = ROOT
+			2980 = {
+				country_or_non_sovereign_subject_holds = ROOT
 				}
-				117 = {
-					country_or_non_sovereign_subject_holds = ROOT
-				}
-			}
+			117 = {
+				country_or_non_sovereign_subject_holds = ROOT
+				}	
 		}
 		effect = {
 			add_adm_power = 100
 			add_yearly_sailors = 3
+			vassalize = PIS
 		}
 		ai_weight = {
 			factor = 75
@@ -791,7 +795,7 @@ emp_gen_missions_western_med_2 = {
 	
 	emp_gen_two_cities = {
 		icon = mission_raid_on_venice
-		required_missions = { emp_gen_venetian_naval_power tradenode_ragusa }
+		required_missions = { emp_gen_venetian_naval_power }
 		provinces_to_highlight = {
 			province_id = 112
 			NOT = {
@@ -805,6 +809,11 @@ emp_gen_missions_western_med_2 = {
 		}
 		effect = {
 			add_prestige = 25
+			add_country_modifier = {
+				name = "gen_venice_vanquished"
+				duration = -1
+			}
+
 			1308 = {
 				add_trade_modifier = {
 					who = GEN
@@ -835,13 +844,13 @@ emp_gen_missions_western_med_2 = {
 			1298 = {
 				trade_share = {
 					country = root
-					share = 65
+					share = 75
 				}
 			}
 			1308 = {
 				trade_share = {
 					country = root
-					share = 65
+					share = 75
 				}
 			}
 		}
@@ -851,7 +860,7 @@ emp_gen_missions_western_med_2 = {
 			}
 			add_country_modifier = {
 				name = gen_dominant_trader
-				duration = 10950	
+				duration = -1	
 			}
 		}
 	}

@@ -185,7 +185,7 @@ theocracy_gov_ideas = {
 		land_morale = 0.1
 	}
 	alpha_and_omega = {
-		culture_conversion_time = -0.1
+		culture_conversion_time = -0.2
 		culture_conversion_cost = -0.1
 	}
 	conviction_of_sin = {
@@ -355,7 +355,7 @@ religious_ideas = {
 
 	bonus = {
 		culture_conversion_cost = -0.1
-		culture_conversion_time = -0.1
+		culture_conversion_time = -0.2
 		brahmins_hindu_loyalty_modifier = 0.05
 		church_loyalty_modifier = 0.05
 	}
@@ -1812,7 +1812,7 @@ court_ideas = {
 	}
 	tranquil_coordination = {
 		culture_conversion_cost = -0.1
-		culture_conversion_time = -0.1
+		culture_conversion_time = -0.2
 	}
 	respected_authority = {
 		global_unrest = -2	

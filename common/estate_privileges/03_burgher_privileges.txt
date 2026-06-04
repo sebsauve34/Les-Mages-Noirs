@@ -1369,9 +1369,7 @@ estate_burghers_private_trade_fleets = {
 	penalties = {
 	}
 	benefits = {
-		light_ship_cost = -0.2
-		global_ship_trade_power = 0.1
-	
+		light_ship_cost = -0.2	
 	}
 	conditional_modifier = {
 		trigger = {

@@ -4706,7 +4706,9 @@ ger_crushed_dutch_independence = {
 # Genoese Missions
 
 gen_dominant_trader = {
-	trade_efficiency = 0.2
+	trade_efficiency = 0.15
+	merchants = 1
+	governing_cost = -0.1 
 }
 
 gen_leader_of_trade_league = {
@@ -4732,6 +4734,11 @@ gen_victory_over_spain = {
 gen_spanish_alliance_modifier = {
 	diplomatic_reputation = 1
 	prestige = 1
+}
+gen_venice_vanquished = {
+	shock_damage_received = -0.05
+	galley_power = 0.05
+	technology_cost = -0.05
 }
 
 gen_prosperous_republic = {

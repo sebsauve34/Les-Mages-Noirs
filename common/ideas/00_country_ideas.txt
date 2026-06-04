@@ -1428,7 +1428,7 @@ BUR_Ideas = {
 
 GEN_Ideas = {
 	start = {
-		infantry_power = 0.10
+		infantry_power = 0.15
 		galley_power = 0.15
 	}
 	
@@ -2540,23 +2540,26 @@ SAV_ideas = {
 	free = yes		#will be added at load.
 	
 	repel_the_french = {
-		land_morale = 0.1
+		land_morale = 0.15
 	}
 	the_shroud_of_turin = {
 		prestige = 1
+		global_tax_modifier = 0.2	
 	}
 	sav_mercenary_tradition = {
 		mercenary_manpower = 0.25
+		mercenary_cost = -0.10
 	}
 	savoyard_flexibility = {
 		galley_power = 0.15
+		galley_cost = -0.15
 	}
 	alpine_tolls = {
    		global_prov_trade_power_modifier = 0.25
 		development_cost = -0.1
 	}
 	crush_the_vaudois = {
-		fire_damage = 0.1
+		fire_damage = 0.15
 		army_tradition_decay = -0.01
 	}
 	savoyard_legitimacy = {
@@ -3319,7 +3322,7 @@ TUS_ideas = {
 	
 	birthplace_of_the_renaissance = {
 		idea_cost = -0.1
-		technology_cost = -0.05
+		technology_cost = -0.1
 	}
 	tuscan_condottieri = {
 		merc_maintenance_modifier = -0.25
@@ -3327,7 +3330,7 @@ TUS_ideas = {
 	}
 	tuscan_banking = {
 		interest = -0.25
-		global_tax_modifier = 0.15
+		global_tax_modifier = 0.2
 	}
 	tuscan_arts = {
 		prestige = 1
