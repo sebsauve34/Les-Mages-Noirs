@@ -740,3 +740,140 @@ mean_time_to_happen = {
 		}
 	}
 }
+
+#Subjugate french dukes
+country_event = {
+	id = antagonist_event.12
+	title = antagonist_event.12.t
+	desc = antagonist_event.12.d
+	picture = latin_BATTLE_eventPicture
+	fire_only_once = yes
+	major = yes
+
+trigger = {
+	has_reform = absolutist_france_reform
+	tag = FRA
+		}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = antagonist_event.12.a
+		add_prestige = 10
+		add_mil_power = -100
+		add_country_modifier = {
+			name = FRA_board_noble_knights
+			duration = -1
+		}
+	}
+	option = {
+		name = antagonist_event.12.b
+		add_prestige = 10
+		add_mil_power = -100
+		add_country_modifier = {
+			name = FRA_board_line_infantry
+			duration = -1
+		}
+	}
+}
+
+#Tame the steppes
+country_event = {
+	id = antagonist_event.13
+	title = antagonist_event.13.t
+	desc = antagonist_event.13.d
+	picture = COSSACK_ESTATE_RAIDERS_eventPicture
+	fire_only_once = yes
+	major = yes
+
+trigger = {
+	OR = {
+		tag = MOS
+		tag = RUS
+		}
+	303 = {
+	country_or_non_sovereign_subject_holds = ROOT
+		}
+	1082 = {
+	country_or_non_sovereign_subject_holds = ROOT
+		}
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = antagonist_event.13.a
+		add_prestige = 10
+		add_mil_power = -100
+		add_country_modifier = {
+			name = MOS_board_noble_knights2
+			duration = -1
+		}
+		add_country_modifier = {
+		name = MOS_board_noble_knights1
+			duration = -1
+		}
+	}
+	option = {
+		name = antagonist_event.13.b
+		add_prestige = 10
+		add_adm_power = -100
+		add_country_modifier = {
+			name = MOS_board_inquisition
+			duration = -1
+		}
+	}
+}
+
+#La Reconquista
+country_event = {
+	id = antagonist_event.14
+	title = antagonist_event.14.t
+	desc = antagonist_event.14.d
+	picture = CONQUISTADORS_eventPicture
+	fire_only_once = yes
+	major = yes
+
+trigger = {
+	OR = {
+		tag = CAS
+		tag = SPA
+		}
+	is_year = 1460
+
+	223 = {
+	country_or_non_sovereign_subject_holds = ROOT
+		}
+	
+	}
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = antagonist_event.14.a
+		add_prestige = 10
+		add_mil_power = -100
+		add_years_of_income = -1
+		add_country_modifier = {
+			name = CAS_Tercio_Janissaries1
+			duration = -1
+		}
+		add_country_modifier = {
+			name = CAS_Tercio_Janissaries2
+			duration = -1
+		}
+	}
+	option = {
+		name = antagonist_event.14.b
+		add_years_of_income = -1
+		add_prestige = 10
+		add_dip_power = -100
+		add_country_modifier = {
+			name = CAS_quest_for_new_world
+			duration = -1
+		}
+	}
+}

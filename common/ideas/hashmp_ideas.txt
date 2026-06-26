@@ -930,8 +930,8 @@ CAN_ideas = { #Canada
 
 QUE_ideas = { #Quebec
 	start = {
-		land_attrition = -0.15
 		land_morale = 0.15
+		land_attrition = -0.25
 	}
 	
 	bonus = {
@@ -949,6 +949,7 @@ QUE_ideas = { #Quebec
 	}	
 	the_seigneurial_system = {
 		manpower_recovery_speed = 0.15
+		production_efficiency = 0.1
 	}
 	relations_with_natives = {
 		shock_damage = 0.1

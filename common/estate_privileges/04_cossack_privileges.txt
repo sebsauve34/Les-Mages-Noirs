@@ -339,8 +339,8 @@ estate_cossacks_establish_the_cossack_regiments = {
 	}
 	on_granted = {
 	}
-	modifier_by_land_ownership = {
-		allowed_cossack_fraction = 0.5
+	modifier = {
+		allowed_cossack_fraction = 0.1
 	}
 	penalties = {
 	}

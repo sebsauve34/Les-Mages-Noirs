@@ -1135,3 +1135,72 @@ board_polish_bureaucracy = {
 	manpower_recovery_speed = 0.1
 	state_maintenance_modifier = -0.25 
 }
+
+FRA_board_noble_knights = {
+	cav_to_inf_ratio = 0.1
+	max_general_shock = 1
+	leader_land_shock = 2 
+	cavalry_cost = -0.05
+	infantry_cost = 0.1
+	leader_land_fire = -1 
+	nobles_influence_modifier = 0.1 
+}
+
+FRA_board_line_infantry = {
+	infantry_power = 0.05
+	drill_decay_modifier = -0.1
+	fire_damage = 0.15
+	shock_damage = -0.1
+	is_musketeer_modifier = yes
+}
+MOS_board_noble_knights1 = {
+	can_recruit_cossacks = yes 
+	allowed_cossack_fraction = 0.1
+	
+}
+MOS_board_noble_knights2 = {
+	shock_damage_received = -0.15
+	shock_damage = 0.15
+	fire_damage = -0.15
+	fire_damage_received = 0.05
+	is_cossack_modifier = yes
+}
+MOS_board_inquisition = {
+	culture_conversion_cost = -0.25 
+	culture_conversion_time = -0.25
+	num_accepted_cultures = -2 
+	manpower_in_own_culture_provinces = 0.3
+	manpower_in_culture_group_provinces = -0.1
+	manpower_in_accepted_culture_provinces = -0.5
+	development_cost_in_primary_culture = -0.1 
+	development_cost = 0.05
+	years_of_nationalism = -5 
+	global_missionary_strength = 0.03 
+	tolerance_own = 2
+	tolerance_heretic = -3
+	tolerance_heathen = -3
+}
+
+CAS_Tercio_Janissaries1  = {
+	infantry_shock = 0.55
+	infantry_fire = -0.35
+	assault_fort_ability = 0.15
+	morale_damage = 0.2
+	is_tercio_modifier = yes
+}
+
+CAS_Tercio_Janissaries2 = {
+	allowed_tercio_fraction = 0.05 
+	has_tercio = yes 
+}
+
+CAS_quest_for_new_world = {
+	colonist_placement_chance = 0.05
+	global_colonial_growth = 20
+	range = 0.5 
+	colony_cost_modifier = 0.25
+	global_tariffs = 0.1
+	treasure_fleet_income = 0.25
+	native_uprising_chance = -0.5
+	reduced_liberty_desire_on_other_continent = -5 
+}

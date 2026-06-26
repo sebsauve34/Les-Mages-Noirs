@@ -25,9 +25,7 @@ technology = { #Early Ships
 technology = { #Merchants & Trade
 	# Tech 1
 	year = 1390
-	expects_institution = {
-		feudalism = 0.25
-	}
+	
 	
 	merchants = yes
 	trade_range				=	100
@@ -37,9 +35,6 @@ technology = { #Merchants & Trade
 technology = { #The Barque
 	# Tech 2
 	year = 1420
-	expects_institution = {
-		feudalism = 0.5
-	}
 	
 	enable = barque
 	trade_range				=	100
@@ -55,9 +50,7 @@ technology = { #The Barque
 technology = { #The Early Carrack
 	# Tech 3
 	year = 1440
-	expects_institution = {
-		feudalism = 0.5
-	}
+	
 
 	naval_morale			=	0.1
 	naval_maintenance		= 	0.1
@@ -74,9 +67,7 @@ technology = { #The Early Carrack
 technology = { #Marketplace
 	# Tech 4
 	year = 1453
-	expects_institution = {
-		feudalism = 0.5
-	}
+	
 		
 	trade_range	= 10
 	marketplace = yes 
@@ -87,10 +78,7 @@ technology = { #Marketplace
 technology = { #Basic Financial Instruments
 	# Tech 5
 	year = 1466
-	expects_institution = {
-		feudalism = 0.5
-	#	renaissance = 0.15
-	}
+	
 	
 	naval_maintenance		=	0.1	
 	trade_efficiency 		= 	0.02
@@ -102,10 +90,6 @@ technology = { #Basic Financial Instruments
 technology = { #Shipyards
 	# Tech 6
 	year = 1479
-	expects_institution = {
-		feudalism = 0.5
-	#	renaissance = 0.3
-	}
 	
 	dock = yes	
 	may_steal_maps = yes
@@ -117,7 +101,7 @@ technology = { #Naval Ambitions
 	year = 1492
 	expects_institution = {
 		feudalism = 0.5
-		renaissance = 0.1
+		renaissance = 0.15
 	}
 	
 	naval_morale			= 0.3
@@ -183,7 +167,7 @@ technology = { #Wharf
 	expects_institution = {
 		feudalism = 0.5
 		renaissance = 0.5
-		new_world_i = 0.1
+		new_world_i = 0.15
 	}
 	
 	range					= 	100
@@ -248,7 +232,7 @@ technology = { #The Galleon
 		feudalism = 0.5
 		renaissance = 0.5
 		new_world_i = 0.5
-		printing_press = 0.1
+		printing_press = 0.15
 	}
 	
 	naval_maintenance		= 	0.1
@@ -325,7 +309,7 @@ technology = { #The War Galleon
 		renaissance = 0.5
 		new_world_i = 0.5
 		printing_press = 0.5
-		global_trade = 0.1
+		global_trade = 0.15
 	}
 	
 	naval_maintenance		= 	0.1	
@@ -405,7 +389,7 @@ technology = { #Heavy Frigates
 		new_world_i = 0.5
 		printing_press = 0.5
 		global_trade = 0.5
-		manufactories = 0.1
+		manufactories = 0.15
 	}
 	
 	global_colonial_growth  = 	25	
@@ -469,7 +453,7 @@ technology = { #The Eastindiaman
 		printing_press = 0.5
 		global_trade = 0.5
 		manufactories = 0.5
-		enlightenment = 0.1
+		enlightenment = 0.15
 	}
 	
 	range					=	200
@@ -528,7 +512,7 @@ technology = { #Midshipmen Cadets
 		global_trade = 0.5
 		manufactories = 0.5
 		enlightenment = 0.5
-		industrialization = 0.1
+		industrialization = 0.15
 	}
 	
 	naval_morale			=	0.5
