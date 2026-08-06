@@ -13624,7 +13624,7 @@ estate_church_donation_right_scaling = {
 }
 
 estate_nobles_expedition_rights_scaling = {
-	colony_cost_modifier = -0.25
+	colony_cost_modifier = -0.1
 	range = 0.5
 
 }

@@ -3381,7 +3381,8 @@ estate_nobles_expedition_rights = {
 			always = yes
 		}
 		modifier = {
-			colony_cost_modifier = -0.5
+			colony_cost_modifier = -0.1
+			colonist_placement_chance = 0.05 
 		}
 	}
 	

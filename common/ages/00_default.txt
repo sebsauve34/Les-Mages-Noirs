@@ -932,6 +932,7 @@ age_of_revolutions = {
 		ab_force_march = {
 			modifier = {
 				force_march_free = yes
+				can_bypass_forts = yes 
 				num_of_age_rewards = 1
 			}
 			ai_will_do = {

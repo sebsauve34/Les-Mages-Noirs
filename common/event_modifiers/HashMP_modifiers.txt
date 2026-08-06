@@ -329,7 +329,7 @@ sok_colonial = {
 
 sok_col = {
 	colonists = 1
-	colony_cost_modifier = -0.25
+	colonist_placement_chance = 0.05 
 }
 
 sok_mor = {
@@ -553,7 +553,7 @@ h_danish_encouraged_settlements = {
 
 h_danish_colonial_aspirations = {
 	colonists = 1
-	colony_cost_modifier = -0.5
+	colonist_placement_chance = 0.05 
 }
 
 h_danish_colonial_rush = {
@@ -731,7 +731,7 @@ h_danish_cape = {
 h_danish_southern_route = {
 	colonists = 1
 	global_colonial_growth = 25
-	colony_cost_modifier = -0.25
+	range = 0.5 
 }
 
 h_danish_east_indies = {
@@ -766,7 +766,7 @@ h_danes_discovered_america = {
 h_northern_colonial_route = {
 	colonists = 1
 	range = 0.25
-	colony_cost_modifier = -0.25
+	global_colonial_growth = 10 
 }
 
 h_north_sea_empire = {
@@ -1190,7 +1190,7 @@ CAS_Tercio_Janissaries1  = {
 }
 
 CAS_Tercio_Janissaries2 = {
-	allowed_tercio_fraction = 0.05 
+	allowed_tercio_fraction = 0.075 
 	has_tercio = yes 
 }
 
@@ -1198,9 +1198,9 @@ CAS_quest_for_new_world = {
 	colonist_placement_chance = 0.05
 	global_colonial_growth = 20
 	range = 0.5 
-	colony_cost_modifier = 0.25
+	colony_cost_modifier = 0.5
 	global_tariffs = 0.1
 	treasure_fleet_income = 0.25
 	native_uprising_chance = -0.5
-	reduced_liberty_desire_on_other_continent = -5 
+	reduced_liberty_desire_on_other_continent = -10 
 }
