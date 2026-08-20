@@ -12,6 +12,7 @@ emperor_reichsreform = {
 	emperor = {
 		global_tax_income = 36
 		global_manpower = 5
+		land_forcelimit = 2.5
 	}
 	on_effect = {
 		imperial_ban_allowed = yes
@@ -37,6 +38,7 @@ emperor_reichsregiment = {
 	emperor = {
 		prestige = 1
 		global_manpower = 5
+		land_forcelimit = 2.5
 	}
 	required_reform = emperor_reichsreform
 	gui_container = mainline
@@ -60,6 +62,7 @@ emperor_reichsstabilitaet = {
 	}
 	emperor = {
 		global_manpower = 5
+		land_forcelimit = 2.5
 		imperial_authority_value = 0.05
 		technology_cost = -0.1
 	}
@@ -84,7 +87,8 @@ emperor_gemeinerpfennig = {
 		global_missionary_strength = 0.03	
 		legitimacy = 1
 		global_manpower = 5	
-		enforce_religion_cost = -0.25
+		land_forcelimit = 2.5
+		country_diplomatic_power = 1 
 	}
 	required_reform = emperor_reichsstabilitaet
 	gui_container = mainline
@@ -107,6 +111,7 @@ emperor_perpetual_diet = {
 	emperor = {
 		army_tradition = 1
 		global_manpower = 5
+		land_forcelimit = 2.5
 	}
 	on_effect = {
 		custom_tooltip = "PERPETUAL_DIET_ESTABLISHED"
@@ -161,7 +166,9 @@ emperor_landsknechtswesen = {
 	emperor = {
 		imperial_authority_value = 0.05
 		global_manpower = 5
+		land_forcelimit = 2.5
 		governing_capacity_modifier = 0.2
+		country_admin_power = 1 
 	}
 }
 
@@ -183,6 +190,8 @@ emperor_landfriede = {
 		land_morale = 0.05
 		max_absolutism = 10	
 		global_manpower = 5
+		land_forcelimit = 2.5
+		country_military_power = 1 
 	}
 #	on_effect = {
 #		internal_hre_cb = no

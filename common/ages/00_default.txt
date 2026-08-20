@@ -230,6 +230,7 @@ age_of_discovery = {
 				tag = VEN
 				tag = BRA
 				tag = SWI
+				tag = SWA
 				}
 			}
 			modifier = {

@@ -510,7 +510,7 @@ FRA_ideas = {
 	}
 	vauban_fortifications = {
 		fort_maintenance_modifier = -0.2	
-		defensiveness = 0.15
+		defensiveness = 0.2
 	}
 	the_philosophes = {
 		technology_cost = -0.1
